@@ -28,7 +28,7 @@
         "share": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": "Share this article"
           }
         },
         "content": {
@@ -43,9 +43,54 @@
         "content"
       ],
       "settings": {}
+    },
+    "rich_text_qeCUrk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aa3kph": {
+          "type": "heading",
+          "settings": {
+            "heading": "This is a pull quote. It sits within the text between paragraphs",
+            "heading_size": "h1"
+          }
+        },
+        "text_jrxeQd": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_nq3NUX": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aa3kph",
+        "text_jrxeQd",
+        "button_nq3NUX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_qeCUrk"
   ]
 }
