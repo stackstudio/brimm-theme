@@ -44,96 +44,6 @@
       ],
       "settings": {}
     },
-    "image_with_text_BnHNkM": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_e4Uce9": {
-          "type": "heading",
-          "settings": {
-            "heading": "This is a magazine cover image - and would sit after the intro paragraph.",
-            "heading_size": "h1"
-          }
-        },
-        "text_xbpRmR": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Here's a visual ref  : https://www.gq-magazine.co.uk/article/charlie-cox-hype-interview-2025</p>",
-            "text_style": "body"
-          }
-        },
-        "button_eHUpTw": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_e4Uce9",
-        "text_xbpRmR",
-        "button_eHUpTw"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_qeCUrk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_aa3kph": {
-          "type": "heading",
-          "settings": {
-            "heading": "This is a pull quote. It sits within the text between paragraphs",
-            "heading_size": "h1"
-          }
-        },
-        "text_jrxeQd": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_nq3NUX": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_aa3kph",
-        "text_jrxeQd",
-        "button_nq3NUX"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "rich_text_y8rPKA": {
       "type": "rich-text",
       "blocks": {
@@ -192,13 +102,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_zQc4Wd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bAKqdc": {
+          "type": "heading",
+          "settings": {
+            "heading": "1. First amazing product",
+            "heading_size": "h1"
+          }
+        },
+        "text_wKFYRU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>And amazing description of the amazing product.  For a listicle we'd probably need between 6-10 of these blocks. The button link would go to the product page.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_XUdLF9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bAKqdc",
+        "text_wKFYRU",
+        "button_XUdLF9"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_BnHNkM",
-    "rich_text_qeCUrk",
     "rich_text_y8rPKA",
-    "featured_blog_wdhRKA"
+    "featured_blog_wdhRKA",
+    "image_with_text_zQc4Wd"
   ]
 }
