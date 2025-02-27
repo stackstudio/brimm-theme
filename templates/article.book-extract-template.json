@@ -44,52 +44,6 @@
       ],
       "settings": {}
     },
-    "image_with_text_BnHNkM": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_e4Uce9": {
-          "type": "heading",
-          "settings": {
-            "heading": "This is a magazine cover image - and would sit after the intro paragraph.",
-            "heading_size": "h1"
-          }
-        },
-        "text_xbpRmR": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Here's a visual ref  : https://www.gq-magazine.co.uk/article/charlie-cox-hype-interview-2025</p>",
-            "text_style": "body"
-          }
-        },
-        "button_eHUpTw": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_e4Uce9",
-        "text_xbpRmR",
-        "button_eHUpTw"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_qeCUrk": {
       "type": "rich-text",
       "blocks": {
@@ -196,7 +150,6 @@
   },
   "order": [
     "main",
-    "image_with_text_BnHNkM",
     "rich_text_qeCUrk",
     "rich_text_y8rPKA",
     "featured_blog_wdhRKA"
