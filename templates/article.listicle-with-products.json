@@ -86,23 +86,6 @@
         "padding_bottom": 52
       }
     },
-    "featured_blog_wdhRKA": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "You  might like > is it possible to have this include a product listing as well as editorial?",
-        "heading_size": "h2",
-        "blog": "",
-        "post_limit": 3,
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_zQc4Wd": {
       "type": "image-with-text",
       "blocks": {
@@ -240,14 +223,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_blog_wdhRKA": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "You  might like > is it possible to have this include a product listing as well as editorial?",
+        "heading_size": "h2",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_y8rPKA",
-    "featured_blog_wdhRKA",
     "image_with_text_zQc4Wd",
     "image_with_text_Q8jPFJ",
-    "image_with_text_TF9bfh"
+    "image_with_text_TF9bfh",
+    "rich_text_y8rPKA",
+    "featured_blog_wdhRKA"
   ]
 }
