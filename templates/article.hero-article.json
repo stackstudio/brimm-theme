@@ -150,12 +150,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_y8rPKA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7nbQdL": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're not like other magazines",
+            "heading_size": "h1"
+          }
+        },
+        "text_azVWPQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Remind people that as a member everything they spend with BRiMM helps reduce the impact of purposeful brands. CAN THIS BE A DYNAMIC MODULE WITH DIFFERENT TEXT FOR DIFFERENT MEMBER TYPES?  EG IF YOU'RE A BOTTOM TIER MEMBER YOU GET A NUDGE TO UPGRADE. </p>"
+          }
+        },
+        "button_dczwmq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7nbQdL",
+        "text_azVWPQ",
+        "button_dczwmq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_BnHNkM",
     "rich_text_qeCUrk",
-    "featured_blog_wdhRKA"
+    "featured_blog_wdhRKA",
+    "rich_text_y8rPKA"
   ]
 }
