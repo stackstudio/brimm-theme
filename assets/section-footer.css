@@ -453,7 +453,12 @@
 }
 
 .copyright__content a {
-  color: currentColor;
+  color: rgba(var(--color-foreground), 1);
+  text-decoration: none;
+}
+
+.copyright__text a {
+  color: rgba(var(--color-grey-light), 1);
   text-decoration: none;
 }
 

@@ -1,9 +1,9 @@
 {% if bold_mem_helper == 'product' %}
-  {% include 'bold-memberships-template' %}
+  {% render 'bold-memberships-template' %}
   {% if bold_membership_partial_redirect != true and bold_membership_full_redirect != true %}
-    {% include 'bold-memberships-product' %}
+    {% render 'bold-memberships-product' %}
     {% if bold_hide_item == true %}
-      {% include bold_noaccess_snippet %}
+      {% render bold_noaccess_snippet %}
       {% break %}
     {% endif %}
   {% else %}
@@ -12,11 +12,11 @@
 {% endif %}
 
 {% if bold_mem_helper == 'collection' %}
-  {% include 'bold-memberships-template' %}
+  {% render 'bold-memberships-template' %}
   {% if bold_membership_partial_redirect != true and bold_membership_full_redirect != true %}
-    {% include 'bold-memberships-collection' %}
+    {% render 'bold-memberships-collection' %}
     {% if bold_hide_item == true %}
-      {% include bold_noaccess_snippet %}
+      {% render bold_noaccess_snippet %}
       {% break %}
     {% endif %}
   {% else %}
@@ -25,11 +25,11 @@
 {% endif %}
 
 {% if bold_mem_helper == 'page' %}
-  {% include 'bold-memberships-template' %}
+  {% render 'bold-memberships-template' %}
   {% if bold_membership_partial_redirect != true and bold_membership_full_redirect != true %}
-    {% include 'bold-memberships-page' %}
+    {% render 'bold-memberships-page' %}
     {% if bold_hide_item == true %}
-      {% include bold_noaccess_snippet %}
+      {% render bold_noaccess_snippet %}
       {% break %}
     {% endif %}
   {% else %}
@@ -38,11 +38,11 @@
 {% endif %}
 
 {% if bold_mem_helper == 'article' %}
-  {% include 'bold-memberships-template' %}
+  {% render 'bold-memberships-template' %}
   {% if bold_membership_partial_redirect != true and bold_membership_full_redirect != true %}
-    {% include 'bold-memberships-article' %}
+    {% render 'bold-memberships-article' %}
     {% if bold_hide_item == true %}
-      {% include bold_noaccess_snippet %}
+      {% render bold_noaccess_snippet %}
       {% break %}
     {% endif %}
   {% else %}
@@ -51,11 +51,11 @@
 {% endif %}
 
 {% if bold_mem_helper == 'index' %}
-  {% include 'bold-memberships-template' %}
+  {% render 'bold-memberships-template' %}
   {% if bold_membership_partial_redirect != true and bold_membership_full_redirect != true %}
-    {% include 'bold-memberships-index' %}
+    {% render 'bold-memberships-index' %}
     {% if bold_hide_item == true %}
-      {% include bold_noaccess_snippet %}
+      {% render bold_noaccess_snippet %}
       {% break %}
     {% endif %}
   {% else %}
@@ -64,11 +64,11 @@
 {% endif %}
 
 {% if bold_mem_helper == 'blog' %}
-  {% include 'bold-memberships-template' %}
+  {% render 'bold-memberships-template' %}
   {% if bold_membership_partial_redirect != true and bold_membership_full_redirect != true %}
-    {% include 'bold-memberships-blog' %}
+    {% render 'bold-memberships-blog' %}
     {% if bold_hide_item == true %}
-      {% include bold_noaccess_snippet %}
+      {% render bold_noaccess_snippet %}
       {% break %}
     {% endif %}
   {% else %}
@@ -78,12 +78,12 @@
 
 {% if bold_mem_helper == 'search' %}
   {% assign product = item %}
-  {% include 'bold-memberships-product' %}
+  {% render 'bold-memberships-product' %}
   {% if bold_hide_item == true %}
     {% continue %}
   {% endif %}
 {% endif %}
 
 {% if bold_mem_helper == 'template_only' %}
-  {% include 'bold-memberships-template' %}
+  {% render 'bold-memberships-template' %}
 {% endif %}

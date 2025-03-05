@@ -137,6 +137,8 @@
 
         --page-width: {{ settings.page_width | divided_by: 10 }}rem;
         --page-width-margin: {% if settings.page_width == '1600' %}2{% else %}0{% endif %}rem;
+        --header-width: 600px;
+        --header-width-mobile: 100%;
 
         --product-card-image-padding: {{ settings.card_image_padding | divided_by: 10.0 }}rem;
         --product-card-corner-radius: {{ settings.card_corner_radius | divided_by: 10.0 }}rem;
@@ -233,6 +235,23 @@
         --variant-pills-shadow-horizontal-offset: {{ settings.variant_pills_shadow_horizontal_offset }}px;
         --variant-pills-shadow-vertical-offset: {{ settings.variant_pills_shadow_vertical_offset }}px;
         --variant-pills-shadow-blur-radius: {{ settings.variant_pills_shadow_blur }}px;
+
+        /* Greys */
+        --color-black: #000000;
+        --color-grey-dark: #212121;
+        --color-grey-light: #B3B3B2;
+        --color-grey-lighter: #adadad;
+        --color-grey-lightest: #fafafa;
+
+        /* Core Colors */
+        --color-brimm-red: #EB482A;
+        --color-brimm-green: #DAFC85;
+        --color-brimm-lilac: #E4B5FF;
+        --color-brimm-richred: #6D1C1F;
+        --color-brimm-gold: #97821C;
+        --color-brimm-beige: #E6E6D1;
+        --color-brimm-blue: #015FB8;
+        --color-white: #ffffff;
       }
 
       *,
