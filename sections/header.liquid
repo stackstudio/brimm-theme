@@ -13,10 +13,6 @@
 
 
 <style>
-  header-drawer {
-    justify-self: start;
-    margin-left: -1.2rem;
-  }
 
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
     .scrolled-past-header .header__heading-logo-wrapper {
@@ -73,6 +69,14 @@
 </style>
 
 {%- style -%}
+  @media screen and (min-width: 900px) {
+    .header {
+      padding: 2rem;
+      background: var(--Opacity-Black-10, rgba(0, 0, 0, 0.10));
+      backdrop-filter: blur(100px);
+    }
+  }
+
   .header {
     padding: 2rem 3.6rem 2rem 3.6rem;
     background: var(--Opacity-Black-10, rgba(0, 0, 0, 0.10));
@@ -82,6 +86,7 @@
   .section-header {
     position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    height: 0;
   }
 
   @media screen and (min-width: 750px) {
@@ -377,8 +382,8 @@
     }
 
     closeSearchModal() {
-      this.searchModal = this.searchModal || this.header.querySelector('details-modal');
-      this.searchModal.close(false);
+      // this.searchModal = this.searchModal || this.header.querySelector('details-modal');
+      // this.searchModal.close(false);
     }
   }
 
