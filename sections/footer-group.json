@@ -17,8 +17,8 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p><strong>EXPRESS SHIPPING</strong></p><p><strong>FREE RETURNS</strong></p><p><strong>SECURE PAYMENTS</strong></p>"
+            "heading": "",
+            "subtext": "<p><strong>EXPRESS SHIPPING<br/>FREE RETURNS<br/>SECURE PAYMENTS</strong></p>"
           }
         },
         "footer-0": {
