@@ -289,7 +289,7 @@
 
 .footer__content-bottom-wrapper--center {
   justify-content: start;
-  margin: 4rem 0 6rem;
+  margin: 4rem auto 6rem;
 }
 
 .footer__copyright {

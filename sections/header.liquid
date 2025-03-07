@@ -84,9 +84,9 @@
   }
 
   .section-header {
-    position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
+    position: fixed; /* This is for fixing a Safari z-index issue. PR #2147 */
+    width: 100%;
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
-    height: 0;
   }
 
   @media screen and (min-width: 750px) {
@@ -111,6 +111,7 @@
       assign has_app_block = true
     endif
   endfor
+  assign announcements = ''
 -%}
 
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }}">
@@ -246,6 +247,8 @@
         {%- case block.type -%}
           {%- when '@app' -%}
             {% render block %}
+          {%- when 'announcement' -%}
+            {%- assign announcements = block.settings.announcement_text -%}
         {%- endcase -%}
       {%- endfor -%}
 
@@ -630,6 +633,22 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "announcement",
+      "name": "t:sections.header.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "header",
+          "content": "t:sections.header.blocks.announcement.header"
+        },
+        {
+          "type": "text",
+          "id": "announcement_text",
+          "label": "t:sections.header.blocks.announcement.announcement_text.label",
+          "default": "t:sections.header.blocks.announcement.announcement_text.default"
+        }
+      ]
     }
   ]
 }
