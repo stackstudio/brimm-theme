@@ -2132,10 +2132,20 @@ input[type='checkbox'] {
 
 /* utility-bar */
 .utility-bar {
-  height: 100%;
-  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
+  position: absolute;
+  top: 0;
   background-color: var(--color-brimm-red);
+  color: white;
+}
+
+.close_button {
+  position: absolute;
+  right: 1.4rem;
+  top: 1.3rem;
+  width: 1.5rem;
+  cursor: pointer;
 }
 
 .utility-bar--bottom-border {
@@ -2152,7 +2162,7 @@ input[type='checkbox'] {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: 'announcements';
-  padding: 0 2rem;
+  padding: 0 4rem 0 2rem;
 }
 
 .utility-bar__grid .list-social {
@@ -2210,6 +2220,7 @@ input[type='checkbox'] {
 .announcement-bar p {
   margin: 0;
   font-size: 1.4rem;
+  color: white;
 }
 
 .announcement-bar .slider--everywhere {
@@ -2275,6 +2286,10 @@ input[type='checkbox'] {
 
   .announcement-bar .slider-button {
     height: 3.8rem;
+    color: white;
+  }
+  .announcement-bar .slider-button:not([disabled]):hover {
+    color: white;
   }
 }
 
