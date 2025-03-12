@@ -23,7 +23,7 @@
           "type": "heading",
           "settings": {
             "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text": {
