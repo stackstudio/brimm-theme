@@ -52,6 +52,9 @@
   position: fixed;
   height: 100vh;
 }
+.banner {
+  height: 100vh;
+}
 
 @media screen and (min-width: 750px) {
   .banner {
@@ -64,6 +67,7 @@
   .banner:not(.banner--stacked) {
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-end;
   }
 
   .banner--stacked {
@@ -215,7 +219,10 @@
   padding: 4rem 1.5rem;
   position: relative;
   height: fit-content;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
   text-align: left;
   width: 100%;
   word-wrap: break-word;
@@ -297,6 +304,18 @@
 
 .banner__heading {
   margin: 0;
+}
+
+.banner__heading.h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: -2rem;
+}
+
+.banner__text p {
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.28px;
 }
 
 .banner__buttons {
