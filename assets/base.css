@@ -1190,8 +1190,8 @@ deferred-media {
 
 .button--secondary,
 .button--tertiary {
-  --color-button: var(--color-secondary-button);
-  --color-button-text: var(--color-secondary-button-text);
+  --color-button: black;
+  --color-button-text: 254, 254, 254;
 }
 
 .button--tertiary {
@@ -1240,7 +1240,7 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  background-color: var(--color-button);
 }
 
 .button:before,
@@ -1329,10 +1329,17 @@ button.shopify-payment-button__button--unbranded {
   padding: 1rem 1.5rem;
   min-width: calc(9rem + var(--buttons-border-width) * 2);
   min-height: calc(3.5rem + var(--buttons-border-width) * 2);
+  background: transparent;
+  color: black;
 }
 
 .button--small {
   padding: 1.2rem 2.6rem;
+}
+
+.brimm--button--primary {
+  --color-button: var(--color-brimm-red);
+  --color-button-text: 254, 254, 254;
 }
 
 /* Shopify Accelerated Checkout */
@@ -2148,6 +2155,10 @@ input[type='checkbox'] {
   cursor: pointer;
 }
 
+.utility-bar--closed {
+  display: none;
+}
+
 .utility-bar--bottom-border {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
@@ -2162,7 +2173,7 @@ input[type='checkbox'] {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: 'announcements';
-  padding: 0 4rem 0 2rem;
+  padding: 0 3.6rem;
 }
 
 .utility-bar__grid .list-social {
@@ -2458,8 +2469,8 @@ input[type='checkbox'] {
 
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto auto 1fr;
-    column-gap: 2rem;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 3.4rem;
   }
 
   .header--middle-center:not(.drawer-menu) {
@@ -2581,7 +2592,6 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
-  padding-right: 0.8rem;
 }
 
 .header__icons .shopify-app-block {

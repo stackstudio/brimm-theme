@@ -38,7 +38,7 @@
 {% endif %}
 
 <div
-  class='utility-bar color-{{ section.settings.color_scheme }} {% if section.settings.show_line_separator and section.blocks.size > 0 %} utility-bar--bottom-border{% elsif section.settings.show_line_separator and section.settings.show_social and social_icons%} utility-bar--bottom-border-social-only{% endif %}{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header-localization{% endif %}'
+  class='utility-bar utility-bar--closed color-{{ section.settings.color_scheme }} {% if section.settings.show_line_separator and section.blocks.size > 0 %} utility-bar--bottom-border{% elsif section.settings.show_line_separator and section.settings.show_social and social_icons%} utility-bar--bottom-border-social-only{% endif %}{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header-localization{% endif %}'
   {{ block.shopify_attributes }}
 >
   <div class='utility-bar__grid{% if announcement_bar and language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--1-col{% elsif language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--2-col{% endif %}'>
@@ -199,20 +199,30 @@
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
+  window.addEventListener('load', function () {
     const announcementBar = document.querySelector('.utility-bar');
+    const header = document.querySelector('.header');
     const announcementBarCloseButton = document.querySelector('.close_button');
 
-    console.log(announcementBar);
-
     announcementBarCloseButton.addEventListener('click', function () {
-      console.log('clicked');
       announcementBar.classList.add('utility-bar--closed');
+      header.classList.remove('header--has-announcements');
       document.cookie = 'utilityBarClosed=true; max-age=86400';
     });
 
-    if (document.cookie.indexOf('announcementBarClosed=true') !== -1) {
-      announcementBar.classList.add('utility-bar--closed');
+    if (announcementBar.classList.contains('utility-bar--closed')) {
+      header.classList.remove('header--has-announcements');
     }
+
+    // if no utilityBarClosed=true cookie, show the announcement bar
+    if (document.cookie.indexOf('utilityBarClosed=true') === -1) {
+      announcementBar.classList.remove('utility-bar--closed');
+      header.classList.add('header--has-announcements');
+    }
+
+    // if (document.cookie.indexOf('utilityBarClosed=true') !== -1) {
+    //   announcementBar.classList.add('utility-bar--closed');
+    //   header.classList.remove('header--has-announcements');
+    // }
   });
 </script>
