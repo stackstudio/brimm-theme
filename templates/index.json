@@ -12,10 +12,17 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading_Wq7bNW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subheading",
+            "heading_size": "h2"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "heading_size": "h0"
           }
         },
@@ -36,20 +43,13 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "heading_Wq7bNW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subheading",
-            "heading_size": "h2"
-          }
         }
       },
       "block_order": [
+        "heading_Wq7bNW",
         "heading",
         "text",
-        "button",
-        "heading_Wq7bNW"
+        "button"
       ],
       "settings": {
         "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
