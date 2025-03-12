@@ -72,8 +72,6 @@
 }
 
 .deferred-media__poster-button {
-  background-color: rgb(var(--color-background));
-  border: 0.1rem solid rgba(var(--color-foreground), 0.1);
   border-radius: 50%;
   color: rgb(var(--color-foreground));
   display: flex;
@@ -90,13 +88,18 @@
   z-index: 1;
 }
 
+.deferred-media__poster-button .svg-wrapper {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+
 .deferred-media__poster-button:hover {
   transform: translate(-50%, -50%) scale(1.1);
 }
 
 .deferred-media__poster-button .icon {
-  width: 2rem;
-  height: 2rem;
+  width: 5.2rem;
+  height: 5.2rem;
 }
 
 .deferred-media__poster-button .icon-play {
