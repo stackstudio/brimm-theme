@@ -37,7 +37,7 @@
   .banner--content-align-left.banner--desktop-transparent .banner__box,
   .banner--content-align-right.banner--desktop-transparent .banner__box,
   .banner--medium.banner--desktop-transparent .banner__box {
-    max-width: 68rem;
+    max-width: 4rem;
   }
 }
 
@@ -275,14 +275,6 @@
   height: 100%;
 }
 
-.banner__box > * + * {
-  margin-top: 1rem;
-}
-
-.banner__box > *:first-child {
-  margin-top: 0;
-}
-
 @media screen and (max-width: 749px) {
   .banner--stacked .banner__box {
     width: 100%;
@@ -304,7 +296,7 @@
 }
 
 .banner__heading {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .banner__buttons {
@@ -338,7 +330,7 @@
 }
 
 .banner__box > * + .banner__buttons {
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 749px) {

@@ -126,6 +126,13 @@
             >
               {{ block.settings.heading }}
             </h2>
+          {%- when 'subheading' -%}
+            <h2
+              class='banner__subheading inline-richtext h5'
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.subheading }}
+            </h2>
           {%- when 'text' -%}
             <div class='banner__text rte {{ block.settings.text_style }}' {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
@@ -365,7 +372,7 @@
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
-      "limit": 1,
+      "limit": 4,
       "settings": [
         {
           "type": "inline_richtext",
