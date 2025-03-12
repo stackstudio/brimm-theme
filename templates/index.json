@@ -36,12 +36,20 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "heading_Wq7bNW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subheading",
+            "heading_size": "h2"
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
-        "button"
+        "button",
+        "heading_Wq7bNW"
       ],
       "settings": {
         "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
