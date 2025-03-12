@@ -121,17 +121,10 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
-              class='banner__heading inline-richtext h1'
+              class='banner__heading inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}'
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
-            </h2>
-          {%- when 'subheading' -%}
-            <h2
-              class='banner__subheading inline-richtext h5'
-              {{ block.shopify_attributes }}
-            >
-              {{ block.settings.subheading }}
             </h2>
           {%- when 'text' -%}
             <div class='banner__text rte {{ block.settings.text_style }}' {{ block.shopify_attributes }}>
