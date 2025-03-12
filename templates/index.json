@@ -9,31 +9,31 @@
  */
 {
   "sections": {
-    "image_banner": {
+    "image_banner_RULnrW": {
       "type": "image-banner",
       "blocks": {
-        "heading_Wq7bNW": {
+        "heading_V3ykAx": {
           "type": "heading",
           "settings": {
             "heading": "Subheading",
             "heading_size": "h2"
           }
         },
-        "heading": {
+        "heading_z3XNGA": {
           "type": "heading",
           "settings": {
             "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "text_Ymx83t": {
           "type": "text",
           "settings": {
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation.",
             "text_style": "body"
           }
         },
-        "button": {
+        "buttons_eqVA7c": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
@@ -46,10 +46,10 @@
         }
       },
       "block_order": [
-        "heading_Wq7bNW",
-        "heading",
-        "text",
-        "button"
+        "heading_V3ykAx",
+        "heading_z3XNGA",
+        "text_Ymx83t",
+        "buttons_eqVA7c"
       ],
       "settings": {
         "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
@@ -247,7 +247,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "image_banner_RULnrW",
     "rich_text",
     "featured_collection",
     "collage",
