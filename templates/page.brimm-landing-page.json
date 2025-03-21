@@ -68,46 +68,45 @@
         "padding_bottom": 28
       }
     },
-    "image_with_text_qQ9bQG": {
+    "image_with_text_BbNkFH": {
       "type": "image-with-text",
       "blocks": {
-        "heading_GMdDXR": {
+        "heading_VfTcqd": {
           "type": "heading",
           "settings": {
-            "heading": "Join the Revolution",
+            "heading": "Image with text",
             "heading_size": "h1"
           }
         },
-        "text_AYzmmr": {
+        "text_ehHidY": {
           "type": "text",
           "settings": {
-            "text": "<p>BRiMM is a whole new way of buying and being with a revolutionary business model at its core — one where the planet is a major, non-silent shareholder. </p><p>We’ve already launched our newsletter, which will bring a weekly burst of positivity to your inbox if you’re not already signed up. And our shop, journal and member events are coming very soon.</p><p>We’d now love to invite you — as a like-minded planet optimist and enthusiast — to be a founding member and help make BRiMM a reality. Let’s team up and turn the tide.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         },
-        "button_7aKqcE": {
+        "button_kaF8JY": {
           "type": "button",
           "settings": {
-            "button_label": "Find out more",
+            "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_GMdDXR",
-        "text_AYzmmr",
-        "button_7aKqcE"
+        "heading_VfTcqd",
+        "text_ehHidY",
+        "button_kaF8JY"
       ],
       "settings": {
+        "image": "shopify://shop_images/f1750f1af3f9d6cd15f54b10a7f012fb.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -184,7 +183,7 @@
     "image_banner_a9Hq9w",
     "video_MN9Ntc",
     "main",
-    "image_with_text_qQ9bQG",
+    "image_with_text_BbNkFH",
     "custom_liquid_kNggte",
     "multicolumn_a8bje6"
   ]
