@@ -69,18 +69,18 @@
 </style>
 
 {%- style -%}
-  @media screen and (min-width: 900px) {
-    .header {
-      padding: 2rem;
-      background: var(--Opacity-Black-10, rgba(0, 0, 0, 0.10));
-      backdrop-filter: blur(100px);
-    }
-  }
-
-  .header {
-    padding: 2rem 3.6rem 2rem 3.6rem;
+.header {
+    gap: 0.5rem;
     background: var(--Opacity-Black-10, rgba(0, 0, 0, 0.10));
     backdrop-filter: blur(100px);
+    padding: 1.6rem 1rem 1.6rem 2rem;
+  }
+/* desktop width upwards */
+  @media screen and (min-width: 900px) {
+    .header {
+      gap: 1rem;
+      padding: 2rem 2.6rem 2rem 3.6rem;
+    }
   }
 
   .section-header {
@@ -95,15 +95,14 @@
     }
   }
 
-  @media screen and (min-width: 990px) {
-    .header {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-
+  @media screen and (min-width: 900px) {
     .header--has-announcements {
       padding-top: 6rem;
     }
+  }
+
+  .header--has-announcements {
+    padding-top: 6rem;
   }
 {%- endstyle -%}
 
@@ -225,7 +224,7 @@
       {%- if shop.customer_accounts_enabled -%}
         <a
           href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
-          class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}"
+          class="header__icon header__icon--account link focus-inset"
           rel="nofollow"
         >
           {%- if section.settings.enable_customer_avatar -%}
