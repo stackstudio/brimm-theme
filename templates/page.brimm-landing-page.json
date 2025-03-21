@@ -84,20 +84,11 @@
             "text": "<p>BRiMM is a whole new way of buying and being with a revolutionary business model at its core — one where the planet is a major, non-silent shareholder.<br/><br/>We’ve already launched our newsletter, which will bring a weekly burst of positivity to your inbox if you’re not already signed up. And our shop, journal and member events are coming very soon.<br/><br/>We’d now love to invite you — as a like-minded planet optimist and enthusiast — to be a founding member and help make BRiMM a reality. Let’s team up and turn the tide.</p>",
             "text_style": "body"
           }
-        },
-        "button_kaF8JY": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_VfTcqd",
-        "text_ehHidY",
-        "button_kaF8JY"
+        "text_ehHidY"
       ],
       "settings": {
         "image": "shopify://shop_images/f1750f1af3f9d6cd15f54b10a7f012fb.jpg",
@@ -124,62 +115,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "multicolumn_a8bje6": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_nyyaC3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
-            "title": "Wanderer",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "Wanderer",
-            "link": "shopify://products/member-plans"
-          }
-        },
-        "column_xRApG8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
-            "title": "Wanderer",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "Wanderer",
-            "link": "shopify://products/member-plans"
-          }
-        },
-        "column_Y9MEV9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
-            "title": "Wanderer",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "Wanderer",
-            "link": "shopify://products/member-plans"
-          }
-        }
-      },
-      "block_order": [
-        "column_nyyaC3",
-        "column_xRApG8",
-        "column_Y9MEV9"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -187,7 +122,6 @@
     "video_MN9Ntc",
     "main",
     "image_with_text_BbNkFH",
-    "custom_liquid_kNggte",
-    "multicolumn_a8bje6"
+    "custom_liquid_kNggte"
   ]
 }
