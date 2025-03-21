@@ -25,6 +25,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -122,12 +123,22 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_liquid_kNggte": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>.main-content .page-width{padding-left:1px;padding-right:1px;max-width:unset;}</style><iframe id=\"vl_iframe\" style=\"min-width:100vw; height:2400px; margin:0; margin-left: -50vw; left: 50%; position: relative;\" frameborder=\"0\" src=\"https://pages.viral-loops.com/brimm-collective-campaign-36ybdzzq\" allowfullscreen></iframe><script id=\"vl_script_tag\" type=\"text/javascript\">var frameWindow=document.getElementById('vl_iframe').contentWindow;var eventMethod=window.addEventListener?'addEventListener':'attachEvent';var eventer=window[eventMethod];var messageEvent=eventMethod=='attachEvent'?'onmessage':'message';eventer(messageEvent,function(e){if(e.data&&e.data.action==='vl_height'&&e.data.height){document.getElementById('vl_iframe').style.height=e.data.height+'px'}else if(e.data&&e.data.action==='vl_request_user'){sendUser();sendReferrer()}else if(e.data&&e.data.action==='vl_page_participation'){identifyFromPage(e.data.lead)}},!1);function sendUser(){if(!window.campaign){setTimeout(sendUser,200)}else if(!window.campaign.runStage||window.campaign.runStage==='preIdentify'){window.campaign.addHook('stageChange',sendUser)}else if(window.campaign.runStage==='postIdentify'){frameWindow.postMessage({action:'vl_user',campaign:{user:window.campaign.user}},'*')}};function sendReferrer(){if(!window.campaign||!window.campaign.referrer){setTimeout(sendReferrer,200)}else{frameWindow.postMessage({action:'vl_referrer',campaign:{referrer:window.campaign.referrer}},'*')}};window.logoutVL=function(){if(window.campaign){campaign.logout({callback:function(){frameWindow.postMessage({action:'vl_logout'},'*')}})}};function identifyFromPage(email){campaign.identify({email});}</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "video_MN9Ntc",
     "main",
     "image_with_text_qQ9bQG",
-    "image_banner_a9Hq9w"
+    "image_banner_a9Hq9w",
+    "custom_liquid_kNggte"
   ]
 }
