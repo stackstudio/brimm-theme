@@ -139,10 +139,11 @@
         "column_nyyaC3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
             "title": "Benefit 1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Wanderer",
+            "link": "shopify://products/member-plans"
           }
         },
         "column_GKHekH": {
