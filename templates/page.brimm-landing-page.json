@@ -132,6 +132,59 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_a8bje6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nyyaC3": {
+          "type": "column",
+          "settings": {
+            "title": "Benefit 1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GKHekH": {
+          "type": "column",
+          "settings": {
+            "title": "Benefit 2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CCiEiV": {
+          "type": "column",
+          "settings": {
+            "title": "Benefit 3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nyyaC3",
+        "column_GKHekH",
+        "column_CCiEiV"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -139,6 +192,7 @@
     "main",
     "image_with_text_qQ9bQG",
     "image_banner_a9Hq9w",
-    "custom_liquid_kNggte"
+    "custom_liquid_kNggte",
+    "multicolumn_a8bje6"
   ]
 }
