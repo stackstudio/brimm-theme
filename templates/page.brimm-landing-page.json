@@ -44,12 +44,13 @@
         "buttons_bwUF6A"
       ],
       "settings": {
+        "image": "shopify://shop_images/Hero__8_5_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
