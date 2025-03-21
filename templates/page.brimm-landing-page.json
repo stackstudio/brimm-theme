@@ -146,29 +146,31 @@
             "link": "shopify://products/member-plans"
           }
         },
-        "column_GKHekH": {
+        "column_xRApG8": {
           "type": "column",
           "settings": {
-            "title": "Benefit 2",
+            "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
+            "title": "Wanderer",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Wanderer",
+            "link": "shopify://products/member-plans"
           }
         },
-        "column_CCiEiV": {
+        "column_Y9MEV9": {
           "type": "column",
           "settings": {
-            "title": "Benefit 3",
+            "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
+            "title": "Wanderer",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Wanderer",
+            "link": "shopify://products/member-plans"
           }
         }
       },
       "block_order": [
         "column_nyyaC3",
-        "column_GKHekH",
-        "column_CCiEiV"
+        "column_xRApG8",
+        "column_Y9MEV9"
       ],
       "settings": {
         "title": "",
