@@ -2626,43 +2626,6 @@
         "name": "Multicolumn"
       }
     },
-    "newsletter": {
-      "name": "Email signup",
-      "settings": {
-        "full_width": {
-          "label": "Make section full width"
-        },
-        "paragraph": {
-          "content": "Each email subscription creates a customer account. [Learn more](https://help.shopify.com/manual/customers)"
-        }
-      },
-      "blocks": {
-        "heading": {
-          "name": "Heading",
-          "settings": {
-            "heading": {
-              "label": "Heading",
-              "default": "Subscribe to our emails"
-            }
-          }
-        },
-        "paragraph": {
-          "name": "Subheading",
-          "settings": {
-            "paragraph": {
-              "label": "Description",
-              "default": "<p>Be the first to know about new collections and exclusive offers.</p>"
-            }
-          }
-        },
-        "email_form": {
-          "name": "Email form"
-        }
-      },
-      "presets": {
-        "name": "Email signup"
-      }
-    },
     "email-signup-banner": {
       "name": "Email signup banner",
       "settings": {
