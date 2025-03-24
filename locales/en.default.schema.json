@@ -2650,6 +2650,9 @@
         "show_background_image": {
           "label": "Show background image"
         },
+        "sticky_on_mobile": {
+          "label": "Sticky on mobile"
+        },
         "show_text_box": {
           "label": "Show container on desktop"
         },
