@@ -16,6 +16,7 @@
       "blocks": {
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "",
             "subtext": "<p><strong>EXPRESS SHIPPING<br/>FREE RETURNS<br/>SECURE PAYMENTS</strong></p>"
@@ -23,6 +24,7 @@
         },
         "footer-0": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Service",
             "menu": "footer"
@@ -30,6 +32,7 @@
         },
         "footer-1": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Company",
             "menu": "footer-menu-company"
@@ -37,6 +40,7 @@
         },
         "link_list_ei3xxE": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Follow",
             "menu": "footer-menu-social"
