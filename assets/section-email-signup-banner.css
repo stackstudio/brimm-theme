@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0.8rem;
+  padding: 1.8rem;
   align-self: stretch;
   border: 1px solid var(--Primary-Mono-Black, #000);
 }
@@ -125,7 +125,7 @@
   justify-content: space-between;
   align-items: flex-start;
   text-align: center;
-  padding: 6rem 0rem;
+  padding: 6rem 0rem 3rem;
 }
 
 @media screen and (min-width: 749px) {
@@ -147,7 +147,7 @@
 }
 
 .email-signup-banner .banner__content--text h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
   margin-top: 0;
   color: var(--color-brimm-red);
 }
@@ -169,7 +169,7 @@
   bottom: 0;
   z-index: 100;
   background: white;
-  height: 85px;
+  height: 79px;
   width: 100%;
 }
 

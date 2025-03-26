@@ -15,6 +15,9 @@ class KlaviyoSignupForm extends HTMLElement {
     this.submitButton = this.form?.querySelector('[type="submit"]');
     this.formMessages = this.querySelector('.form__messages');
     this.succesMessage = this.getElement('.newsletter-success');
+    this.termsCTA = this.querySelector('.newsletter-form__terms-label');
+    this.terms = this.querySelector('.newsletter-form__terms-label');
+    this.termsText = this.querySelector('.newsletter-form__terms-label-text');
 
     /**
      * @type {HTMLTemplateElement | null}
@@ -52,6 +55,8 @@ class KlaviyoSignupForm extends HTMLElement {
       'click',
       this.toggleBanner.bind(this, false),
     );
+
+    this.termsCTA?.addEventListener('click', this.resetTerms.bind(this, true));
   }
 
   connectedCallback() {
@@ -157,7 +162,7 @@ class KlaviyoSignupForm extends HTMLElement {
   }
 
   toggleBanner(show = true) {
-    this.banner.style.height = show ? 'auto' : '85px';
+    this.banner.style.height = show ? 'auto' : '79px';
     this.bannerCTA.style.display = show ? 'none' : 'block';
     this.bannerClose.style.display = show ? 'block' : 'none';
   }
@@ -179,6 +184,17 @@ class KlaviyoSignupForm extends HTMLElement {
     const attributes = this.filterAttributes(entries);
     const options = this.createFetchOptions({ id: this.listId, attributes });
     this.formMessages.innerHTML = '';
+
+    if (!this.form.querySelector('input[name="newsletter_terms"]:checked')) {
+      this.formMessages.innerHTML = this.createErrorMessage(
+        this.errorTemplate,
+        'Please accept the terms and conditions.',
+      );
+      this.terms.style.border = '1px solid red';
+      this.termsText.style.color = 'red';
+      this.submitButton.disabled = false;
+      return;
+    }
 
     fetch(
       `https://a.klaviyo.com/client/subscriptions?company_id=${this.accountId}`,
@@ -207,28 +223,27 @@ class KlaviyoSignupForm extends HTMLElement {
       });
   }
 
+  resetTerms() {
+    this.terms.style.border = 'none';
+    this.termsText.style.color = 'black';
+    this.formMessages.innerHTML = '';
+  }
+
   /**
-   * Creates an error message element from a template and a message string.
-   * @param {HTMLTemplateElement | null} template - The template element to clone.
+   * Creates an error message element from a div and a message string.
+   * @param {id} id - The id of the div element to clone.
    * @param {string} message - The error message to display.
    *
    * @returns {string} The error message element as a string.
    */
-  createErrorMessage(template, message) {
-    if (!template) {
+  createErrorMessage(id, message) {
+    if (!id) {
       return '';
     }
-
-    const html = template?.content.cloneNode(true);
-
-    if (html instanceof DocumentFragment) {
-      const messageElement = html.querySelector('.form__message-text');
-
-      if (messageElement) {
-        messageElement.textContent = message;
-      }
-      return new XMLSerializer().serializeToString(html);
-    }
+    const template = id;
+    const errorMessage = template.querySelector('.form__messages');
+    errorMessage.textContent = message;
+    return template.innerHTML;
 
     return '';
   }

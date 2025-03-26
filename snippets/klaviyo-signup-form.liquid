@@ -2,11 +2,6 @@
   Renders sign up form.
 {% endcomment %}
 
-{% liquid
-  assign account_id = settings.klaviyo_account_id
-  assign list_id = settings.newsletter_list_id
-%}
-
 <script src='{{ 'klaviyo-signup-form.js' | asset_url }}' defer='defer'></script>
 <klaviyo-signup-form account-id='RJAyDu' list-id='UdQf4b'>
   <div class=''>
@@ -22,7 +17,6 @@
         autocapitalize='off'
         autocomplete='email'
         placeholder='Enter your email'
-        required
       >
       <label class='field__label' for='NewsletterForm--{{ section.id }}'>
         {{ 'newsletter.label' | t }}
@@ -39,23 +33,27 @@
       <div class='newsletter-form__terms'>
         <input
           type='checkbox'
-          id='newsletter-terms'
+          name='newsletter_terms'
+          id='newsletter_terms'
           class='newsletter-form__terms-input'
+          aria-label='{{ 'newsletter.button_label' | t }}'
+          tabindex='0'
         >
-        <label for='newsletter-terms' class='newsletter-form__terms-label'>
+        <label for='newsletter_terms' class='newsletter-form__terms-label' tabindex='0'>
           <span class='newsletter-form__terms-label-text body-medium'>
             {{ 'newsletter.terms' | t }}
             <a href='/pages/privacy' target='_blank'>here.</a>
           </span>
         </label>
       </div>
+      <div id='newsletter-error'>
+        <p class='form__messages body-medium'></p>
+      </div>
     </form>
-    <div id='newsletter-error' class='klaviyo-signup-form__error'></div>
-    <div class='form__messages'></div>
     <div class='newsletter-success' style='display: none;'>
       <div class='newsletter-form__fields'>
         <div class='form__messages banner__content--text'>
-          <h2 class='email-signup-banner__heading h1' tabindex='-1'>Thank you</h2>
+          <h2 class='email-signup-banner__heading h1'>Thank you</h2>
           <div class='newsletter__subheading rte body-medium'>
             {{ 'newsletter.success_message' | t }}
           </div>

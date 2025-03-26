@@ -31,8 +31,8 @@
 >
   <div class='banner__content--{{ section.settings.desktop_content_position }} page-width'>
     {% if section.settings.sticky_on_mobile == true %}
-      <button class='sticky--banner-cta-button'>Join the newsletter</button>
-      <button class='sticky--banner-close-button' style='display: none;'>
+      <button class='sticky--banner-cta-button' type='button'>Join the newsletter</button>
+      <button class='sticky--banner-close-button' style='display: none;' type='button'>
         {{- 'icon-close.svg' | inline_asset_content -}}
       </button>
     {% endif %}
