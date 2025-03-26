@@ -58,9 +58,18 @@
     }
   },
   "newsletter": {
+    "button_label": "Subscribe",
     "label": "Email",
-    "success": "Thanks for subscribing",
-    "button_label": "Subscribe"
+    "info": "Subscribe to our newsletter for new designs, experiments from the workshop, and collaborations with like-minded makers.",
+    "sign_up": "Join our newsletter",
+    "close": "Close",
+    "submit": "Send",
+    "first_name": "First name",
+    "last_name": "Surname",
+    "email": "Email",
+    "phone": "Phone number",
+    "terms": "By joining, you agree to receive BRiMMs' newsletters. Unsubscribe any time at the bottom of the newsletter. Read more in Privacy Policy ",
+    "success_message": "Thank you for signing up to the Brimm newsletter."
   },
   "accessibility": {
     "skip_to_text": "Skip to content",

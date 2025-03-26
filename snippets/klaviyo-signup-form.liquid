@@ -1,13 +1,22 @@
 {% comment %}
   Renders sign up form.
 {% endcomment %}
+
+{% liquid
+  assign account_id = settings.klaviyo_account_id
+  assign list_id = settings.newsletter_list_id
+%}
+
 <script src='{{ 'klaviyo-signup-form.js' | asset_url }}' defer='defer'></script>
-<klaviyo-signup-form class='newsletter-form'>
-  <form class='klaviyo-signup-form'>
-    <div class='newsletter-form__field-wrapper'>
+<klaviyo-signup-form account-id='RJAyDu' list-id='UdQf4b'>
+  <div class='newsletter-form__field-wrapper'>
+    <form class='klaviyo-signup-form newsletter-form' method='POST'>
+      <input type='hidden' name='g' value='UdQf4b'>
       <input
         type='email'
         id='email'
+        name='email'
+        class='newsletter-form__field field__input'
         aria-required='true'
         autocorrect='off'
         autocapitalize='off'
@@ -20,18 +29,39 @@
       </label>
       <button
         type='submit'
-        class='newsletter-form__button field__button'
+        class='newsletter-form__button body-medium'
         name='commit'
         id='Subscribe'
         aria-label='{{ 'newsletter.button_label' | t }}'
       >
-        signup
-        <span class='svg-wrapper'>
-          {{- 'icon-arrow.svg' | inline_asset_content -}}
-        </span>
+        Submit
       </button>
-      <div class='klaviyo-signup-form__error'></div>
-      <div class='klaviyo-signup-form__success'></div>
+      <div class='newsletter-form__terms'>
+        <input
+          type='checkbox'
+          id='newsletter-terms'
+          class='newsletter-form__terms-input'
+        >
+        <label for='newsletter-terms' class='newsletter-form__terms-label'>
+          <span class='newsletter-form__terms-label-text body-medium'>
+            {{ 'newsletter.terms' | t }}
+            <a href='/pages/privacy' target='_blank'>here.</a>
+          </span>
+        </label>
+      </div>
+    </form>
+    <div id='newsletter-error' class='klaviyo-signup-form__error'></div>
+    <div class='form__messages'></div>
+    <div class='newsletter-success' style='display: none;'>
+      <div class='newsletter-form__fields'>
+        <div class='form__messages font-mobile-ui-14 font-desktop-ui-14'>
+          <h2 class='form__message' tabindex='-1'>
+            {{- 'icon-info.svg' | inline_asset_content -}}
+            {{ 'newsletter.success_message' | t }}
+          </h2>
+        </div>
+      </div>
+      <div class='newsletter-form__cta'>Close</div>
     </div>
-  </form>
+  </div>
 </klaviyo-signup-form>

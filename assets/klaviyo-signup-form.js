@@ -1,63 +1,244 @@
-if (!customElements.get('klaviyo-signup-form')) {
-  customElements.define(
-    'klaviyo-signup-form',
-    class KlaviyoSignupForm extends HTMLElement {
-      constructor() {
-        super();
-        this.form = document.querySelector('.klaviyo-signup-form');
-        this.input = this.form.querySelector('input[type="email"]');
-        this.submitButton = this.form.querySelector('button[type="submit"]');
-        this.error = this.form.querySelector('.klaviyo-signup-form__error');
-        this.success = this.form.querySelector('.klaviyo-signup-form__success');
+class KlaviyoSignupForm extends HTMLElement {
+  constructor() {
+    super();
 
-        this.form.addEventListener('submit', this.handleSubmit.bind(this));
-        console.log('KlaviyoSignupForm initialized');
-      }
+    this.accountId = this.getAttribute('account-id');
+    this.listId = this.getAttribute('list-id');
+    this.cta = this.getElement('.newsletter__cta');
+    this.openButton = this.querySelector('[data-newsletter-show-form]');
+    this.closeButtons = this.querySelectorAll('[js-modal-close]');
+    this.form = this.querySelector('form');
+    this.submitButton = this.form?.querySelector('[type="submit"]');
+    this.formMessages = this.querySelector('.form__messages');
+    this.succesMessage = this.getElement('.newsletter-success');
 
-      async handleSubmit(event) {
-        event.preventDefault();
-        console.log(event);
+    /**
+     * @type {HTMLTemplateElement | null}
+     */
+    this.errorTemplate = this.querySelector('#newsletter-error');
 
-        this.error.textContent = '';
-        this.success.textContent = '';
+    if (
+      !this.form ||
+      !this.cta ||
+      !this.accountId ||
+      !this.listId ||
+      !this.submitButton ||
+      !this.formMessages ||
+      !this.succesMessage
+    ) {
+      throw new Error('SiteNewsletter: elements missing or invalid attributes');
+    }
 
-        if (!this.input.value) {
-          this.error.textContent = 'Please enter an email address.';
-          return;
+    window.addEventListener('CookiebotOnDecline', () => {
+      setTimeout(this.openModal.bind(this), 20000);
+    });
+
+    window.addEventListener('CookiebotOnAccept', () => {
+      setTimeout(this.openModal.bind(this), 20000);
+    });
+
+    setTimeout(this.openModal.bind(this), 20000);
+  }
+
+  connectedCallback() {
+    this.form.addEventListener('submit', this.handleSubmit.bind(this));
+    this.openButton?.addEventListener(
+      'click',
+      this.toggleForm.bind(this, true),
+    );
+    this.closeButtons.forEach((button) => {
+      button.addEventListener(
+        'click',
+        this.setCookie.bind(this, 'newsletter-dismissed', 'true', 30),
+      );
+    });
+  }
+
+  disconnectedCallback() {
+    this.form.removeEventListener('submit', this.handleSubmit.bind(this));
+    this.openButton?.removeEventListener(
+      'click',
+      this.toggleForm.bind(this, true),
+    );
+    this.closeButtons.forEach((button) => {
+      button.removeEventListener(
+        'click',
+        this.setCookie.bind(this, 'newsletter-dismissed', 'true', 30),
+      );
+    });
+  }
+
+  /**
+   * @param {string} selector
+   */
+  getElement(selector) {
+    const element = this.querySelector(selector);
+
+    if (!(element instanceof HTMLElement)) {
+      return null;
+    }
+
+    return element;
+  }
+
+  /**
+   *
+   * @param {string} name
+   * @returns
+   */
+  getCookie(name) {
+    let value = '; ' + document.cookie;
+    let parts = value.split('; ' + name + '=');
+    if (parts.length === 2) return parts.pop()?.split(';').shift() ?? '';
+  }
+
+  /**
+   *
+   * @param {string} name
+   * @param {string} value
+   * @param {number} days
+   */
+  setCookie(name, value, days) {
+    let date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    let expires = 'expires=' + date.toUTCString();
+    document.cookie = name + '=' + value + ';' + expires + ';path=/';
+  }
+
+  openModal() {
+    if (
+      !this.getCookie('newsletter-dismissed') &&
+      this.getCookie('CookieConsent')
+    ) {
+      document.dispatchEvent(
+        new CustomEvent('openModal', {
+          bubbles: true,
+          detail: {
+            key: 'newsletter',
+          },
+        }),
+      );
+    }
+  }
+
+  toggleForm(show = true) {
+    this.form.style.display = show ? 'block' : 'none';
+    this.cta.style.display = show ? 'none' : 'block';
+  }
+
+  showSuccess() {
+    this.form.style.display = 'none';
+    this.succesMessage.style.display = 'block';
+  }
+
+  /**
+   * @param {Event} event
+   */
+  handleSubmit(event) {
+    event.preventDefault();
+    this.submitButton.disabled = true;
+    const formData = new FormData(this.form);
+    const entries = Object.fromEntries(formData.entries());
+    const attributes = this.filterAttributes(entries);
+    const options = this.createFetchOptions({ id: this.listId, attributes });
+    this.formMessages.innerHTML = '';
+
+    fetch(
+      `https://a.klaviyo.com/client/subscriptions?company_id=${this.accountId}`,
+      options,
+    )
+      .then((response) => {
+        if (!response.ok) {
+          return response.json();
         }
+        return { errors: false };
+      })
+      .then((data) => {
+        if (data.errors) {
+          const errorMessages = data.errors
+            .map((/** @type {{ detail: string; }} */ error) => {
+              console.error(error);
+              return this.createErrorMessage(this.errorTemplate, error.detail);
+            })
+            .join('');
 
-        this.submitButton.disabled = true;
+          this.formMessages.innerHTML = errorMessages;
+        } else {
+          this.showSuccess();
+        }
+        this.submitButton.disabled = false;
+      });
+  }
 
-        const email = this.input.value;
-        const publicApiKey = 'RJAyDu'; // Replace with your actual public API key
+  /**
+   * Creates an error message element from a template and a message string.
+   * @param {HTMLTemplateElement | null} template - The template element to clone.
+   * @param {string} message - The error message to display.
+   *
+   * @returns {string} The error message element as a string.
+   */
+  createErrorMessage(template, message) {
+    if (!template) {
+      return '';
+    }
 
-        const data = {
-          profiles: [{ email: email }],
-        };
+    const html = template?.content.cloneNode(true);
 
-        console.log(data);
+    if (html instanceof DocumentFragment) {
+      const messageElement = html.querySelector('.form__message-text');
 
-        try {
-          const response = await fetch(
-            `https://a.klaviyo.com/api/v2/list/UdQf4b/subscribe?api_key=${publicApiKey}`,
-            {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(data),
+      if (messageElement) {
+        messageElement.textContent = message;
+      }
+      return new XMLSerializer().serializeToString(html);
+    }
+
+    return '';
+  }
+
+  /**
+   * Filters the given entries object, returning a new object with only the specified attributes
+   * that are not undefined or empty.
+   * @param {Object} entries - The source object containing the entries to filter.
+   * @returns {Object} A new object containing only the specified attributes that are not undefined or empty.
+   */
+  filterAttributes(entries) {
+    return ['email', 'phone_number', 'first_name', 'last_name'].reduce(
+      (acc, key) => {
+        if (entries[key] !== undefined && entries[key] !== '') {
+          acc[key] = entries[key];
+        }
+        return acc;
+      },
+      {},
+    );
+  }
+
+  /**
+   * @param {{ id: string, attributes: Object }} options
+   */
+  createFetchOptions({ id, attributes }) {
+    return {
+      method: 'POST',
+      headers: { revision: '2024-06-15', 'content-type': 'application/json' },
+      body: JSON.stringify({
+        data: {
+          type: 'subscription',
+          attributes: {
+            profile: {
+              data: {
+                type: 'profile',
+                attributes,
+              },
             },
-          );
+          },
+          relationships: { list: { data: { type: 'list', id } } },
+        },
+      }),
+    };
+  }
+}
 
-          const result = await response.json();
-          if (response.ok) {
-            alert('Successfully subscribed!');
-          } else {
-            alert('Error: ' + result.detail);
-          }
-        } catch (error) {
-          console.error('Error:', error);
-          alert('An error occurred. Please try again.');
-        }
-      }
-    },
-  );
+if (!customElements.get('klaviyo-signup-form')) {
+  customElements.define('klaviyo-signup-form', KlaviyoSignupForm);
 }

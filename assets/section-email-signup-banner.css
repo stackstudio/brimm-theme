@@ -1,6 +1,17 @@
 .email-signup-banner .newsletter-form,
 .email-signup-banner .newsletter-form__field-wrapper {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.newsletter-form .newsletter-form__field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.8rem;
+  align-self: stretch;
+  border: 1px solid var(--Primary-Mono-Black, #000);
 }
 
 @media only screen and (min-width: 750px) {
@@ -104,4 +115,31 @@
   .banner--content-align-right .newsletter-form__message {
     justify-content: right;
   }
+}
+
+.email-signup-banner .banner__content {
+  max-width: 100%;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.email-signup-banner .banner__content--text {
+  width: 55%;
+  text-align: left;
+  color: var(--color-brimm-red);
+}
+
+.email-signup-banner .banner__content--text h2 {
+  margin-bottom: 1rem;
+  color: var(--color-brimm-red);
+}
+
+.email-signup-banner .banner__content--form {
+  width: 40%;
+  text-align: left;
 }
