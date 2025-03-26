@@ -3,6 +3,10 @@ class KlaviyoSignupForm extends HTMLElement {
     super();
 
     this.accountId = this.getAttribute('account-id');
+    this.banner = document.querySelector('.banner--sticky-mobile');
+    this.bannerCTA = document.querySelector('.sticky--banner-cta-button');
+    this.bannerClose = document.querySelector('.sticky--banner-close-button');
+    this.bannerContent = document.querySelector('.banner__content--text');
     this.listId = this.getAttribute('list-id');
     this.cta = this.getElement('.newsletter__cta');
     this.openButton = this.querySelector('[data-newsletter-show-form]');
@@ -17,17 +21,17 @@ class KlaviyoSignupForm extends HTMLElement {
      */
     this.errorTemplate = this.querySelector('#newsletter-error');
 
-    if (
-      !this.form ||
-      !this.cta ||
-      !this.accountId ||
-      !this.listId ||
-      !this.submitButton ||
-      !this.formMessages ||
-      !this.succesMessage
-    ) {
-      throw new Error('SiteNewsletter: elements missing or invalid attributes');
-    }
+    // if (
+    //   !this.form ||
+    //   !this.cta ||
+    //   !this.accountId ||
+    //   !this.listId ||
+    //   !this.submitButton ||
+    //   !this.formMessages ||
+    //   !this.succesMessage
+    // ) {
+    //   throw new Error('SiteNewsletter: elements missing or invalid attributes');
+    // }
 
     window.addEventListener('CookiebotOnDecline', () => {
       setTimeout(this.openModal.bind(this), 20000);
@@ -38,6 +42,16 @@ class KlaviyoSignupForm extends HTMLElement {
     });
 
     setTimeout(this.openModal.bind(this), 20000);
+
+    // open banner.
+    this.bannerCTA?.addEventListener(
+      'click',
+      this.toggleBanner.bind(this, true),
+    );
+    this.bannerClose?.addEventListener(
+      'click',
+      this.toggleBanner.bind(this, false),
+    );
   }
 
   connectedCallback() {
@@ -45,6 +59,14 @@ class KlaviyoSignupForm extends HTMLElement {
     this.openButton?.addEventListener(
       'click',
       this.toggleForm.bind(this, true),
+    );
+    this.bannerCTA?.addEventListener(
+      'click',
+      this.toggleBanner.bind(this, true),
+    );
+    this.bannerClose?.addEventListener(
+      'click',
+      this.toggleBanner.bind(this, false),
     );
     this.closeButtons.forEach((button) => {
       button.addEventListener(
@@ -59,6 +81,14 @@ class KlaviyoSignupForm extends HTMLElement {
     this.openButton?.removeEventListener(
       'click',
       this.toggleForm.bind(this, true),
+    );
+    this.bannerCTA?.removeEventListener(
+      'click',
+      this.toggleBanner.bind(this, true),
+    );
+    this.bannerClose?.removeEventListener(
+      'click',
+      this.toggleBanner.bind(this, false),
     );
     this.closeButtons.forEach((button) => {
       button.removeEventListener(
@@ -126,8 +156,15 @@ class KlaviyoSignupForm extends HTMLElement {
     this.cta.style.display = show ? 'none' : 'block';
   }
 
+  toggleBanner(show = true) {
+    this.banner.style.height = show ? 'auto' : '85px';
+    this.bannerCTA.style.display = show ? 'none' : 'block';
+    this.bannerClose.style.display = show ? 'block' : 'none';
+  }
+
   showSuccess() {
     this.form.style.display = 'none';
+    this.bannerContent.style.display = 'none';
     this.succesMessage.style.display = 'block';
   }
 

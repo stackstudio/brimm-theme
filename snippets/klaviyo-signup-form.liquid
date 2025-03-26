@@ -9,7 +9,7 @@
 
 <script src='{{ 'klaviyo-signup-form.js' | asset_url }}' defer='defer'></script>
 <klaviyo-signup-form account-id='RJAyDu' list-id='UdQf4b'>
-  <div class='newsletter-form__field-wrapper'>
+  <div class=''>
     <form class='klaviyo-signup-form newsletter-form' method='POST'>
       <input type='hidden' name='g' value='UdQf4b'>
       <input
@@ -54,14 +54,13 @@
     <div class='form__messages'></div>
     <div class='newsletter-success' style='display: none;'>
       <div class='newsletter-form__fields'>
-        <div class='form__messages font-mobile-ui-14 font-desktop-ui-14'>
-          <h2 class='form__message' tabindex='-1'>
-            {{- 'icon-info.svg' | inline_asset_content -}}
+        <div class='form__messages banner__content--text'>
+          <h2 class='email-signup-banner__heading h1' tabindex='-1'>Thank you</h2>
+          <div class='newsletter__subheading rte body-medium'>
             {{ 'newsletter.success_message' | t }}
-          </h2>
+          </div>
         </div>
       </div>
-      <div class='newsletter-form__cta'>Close</div>
     </div>
   </div>
 </klaviyo-signup-form>
