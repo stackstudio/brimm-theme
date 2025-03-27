@@ -144,19 +144,20 @@
         "heading_TwmzyN": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Join the Revolution",
             "heading_size": "h1"
           }
         },
         "text_wLMgQr": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>BRiMM is a whole new way of buying and being with a revolutionary business model at its core — one where the planet is a major, non-silent shareholder. </p><p><br/>We’ve already launched our newsletter, which will bring a weekly burst of positivity to your inbox if you’re not already signed up. And our shop, journal and member events are coming very soon.</p><p><br/>We’d now love to invite you — as a like-minded planet optimist and enthusiast — to be a founding member and help make BRiMM a reality. Let’s team up and turn the tide.</p>",
             "text_style": "body"
           }
         },
         "button_ekKjHp": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
