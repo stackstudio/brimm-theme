@@ -115,7 +115,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
-            "button_label": "Button label",
+            "button_label": "SIGN UP TO OUR NEWSLETTER AND GET NOTIFIED WHEN WE GO LIVE",
             "button_link": "",
             "button_style_secondary": false
           }
