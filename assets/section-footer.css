@@ -290,13 +290,20 @@
 
 .footer__copyright {
   text-align: center;
-  margin-top: 1.5rem;
+  margin: 2rem 0;
 }
 
 @media screen and (min-width: 750px) {
   .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center)
     .footer__copyright {
     text-align: right;
+  }
+
+  .footer__copyright {
+    text-align: center;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -477,6 +484,7 @@
 .policies li a {
   padding: 0.6rem 0;
   display: block;
+  color: var(--Primary-Gray-Link, #b3b3b2);
 }
 
 @media screen and (min-width: 750px) {

@@ -315,7 +315,7 @@
     </div>
     <div class='footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}'>
       <div class='footer__copyright caption'>
-        <p class='copyright__text'>
+        <p class='copyright__text body-medium'>
           &copy; {{ 'now' | date: '%Y' }}
           {{ 'Planet Native Ventures Limited' | link_to: routes.root_url -}}
         </p>
@@ -324,9 +324,7 @@
             {%- for policy in shop.policies -%}
               {%- if policy != blank -%}
                 <li>
-                  <small class='copyright__content'
-                    ><a href='{{ policy.url }}'>{{ policy.title | escape }}</a></small
-                  >
+                  <a class='body-medium' href='{{ policy.url }}'>{{ policy.title | escape }}</a>
                 </li>
               {%- endif -%}
             {%- endfor -%}

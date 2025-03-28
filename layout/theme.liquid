@@ -285,6 +285,24 @@
           font-size: 1.6rem;
         }
       }
+
+      .holding-logo {
+        display: flex;
+        width: 100%;
+        background: white;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top:0;
+        right: 0;
+        z-index: 9999;
+
+        @media screen and (min-width: 750px) {
+          width: 200px;
+          justify-content: space-between;
+          background: transparent;
+        }
+      }
     {% endstyle %}
     {% comment %}swap the order of the stylesheets to have Tailwind classes take precedence over the base Dawn styles{% endcomment %}
     {{ 'app.css' | asset_url | stylesheet_tag }}
@@ -343,6 +361,9 @@
     {% sections 'header-group' %}
 
     <main id='MainContent' class='content-for-layout focus-none' role='main' tabindex='-1'>
+      <div class='holding-logo'>
+        {{ 'brimm-holding-logo.svg' | inline_asset_content }}
+      </div>
       {{ content_for_layout }}
     </main>
 
