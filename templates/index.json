@@ -168,25 +168,17 @@
         "text_HR9mLh": {
           "type": "text",
           "settings": {
-            "text": "<p> Our journal will feature articles from some of the best thinkers and writers out there — including Tiffanie Darke, Mark Shayler, Lisa Oxenham, Rebecca May Johnson and more.</p><p><br/>This is your destination for planet-positive news, views and brain candy. And lots of it is for members’ eyes only.</p>",
+            "text": "<p> Our journal will feature articles from some of the best thinkers and writers out there — including Tiffanie Darke, Mark Shayler, Lisa Oxenham, Rebecca May Johnson and more.</p><p><br/>This is your destination for planet-positive news, views and brain candy. And lots of it is for members’ eyes only.</p><p></p>",
             "text_style": "body"
-          }
-        },
-        "button_pkCPYD": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_fmYnex",
-        "text_HR9mLh",
-        "button_pkCPYD"
+        "text_HR9mLh"
       ],
       "settings": {
+        "image": "shopify://shop_images/Image.jpg",
         "video_embed": "",
         "has_background": true,
         "image_label": "",
