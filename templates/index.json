@@ -15,21 +15,21 @@
         "heading_V3ykAx": {
           "type": "heading",
           "settings": {
-            "heading": "Subheading",
+            "heading": "<strong>Live Bright, Tread Light:</strong>",
             "heading_size": "h2"
           }
         },
         "heading_z3XNGA": {
           "type": "heading",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "heading": "<strong> Planet-Positive Living</strong>",
             "heading_size": "h1"
           }
         },
         "text_Ymx83t": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation.",
+            "text": "BRiMM is a store, journal and collective, bringing <strong>together big ideas and bright brands</strong> to prove that living within limits isn’t living less. ",
             "text_style": "body"
           }
         }
