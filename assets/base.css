@@ -463,6 +463,16 @@ blockquote {
   text-transform: uppercase;
 }
 
+.headline-extra-uppercase {
+  /* Global/Headline/Extra Bold/40 */
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 43.2px */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
 table:not([class]) {
   table-layout: fixed;
   border-collapse: collapse;

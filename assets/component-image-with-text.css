@@ -513,7 +513,4 @@
   @container (max-aspect-ratio: 16/9) {
     width: 177.78cqh;
   }
-
-  /* prevent interaction */
-  pointer-events: none;
 }
