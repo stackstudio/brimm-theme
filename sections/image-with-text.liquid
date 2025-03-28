@@ -67,7 +67,7 @@
           </div>
         {%- endif -%}
         {%- if section.settings.video_embed != blank and section.settings.image == blank %}
-          <div class='section-{{ section.id }}-padding'>
+          <div class='section-{{ section.id }}-padding grid__item wistia_embed'>
             {{ section.settings.video_embed }}
           </div>
         {%- endif -%}
