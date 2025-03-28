@@ -53,47 +53,6 @@
         "show_text_below": false
       }
     },
-    "email_signup_banner_644mkD": {
-      "type": "email-signup-banner",
-      "blocks": {
-        "heading_pJ9fHK": {
-          "type": "heading",
-          "settings": {
-            "heading": "COMING REAL SOON",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_k7RGwr": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>We are looking for 1000 Founder Members of our collective. Founder membership is an opportunity to join BRiMM at the beginning and shape it from the ground up.<br/><br/>You (and your friends) would get some amazing planet positive perks, and it helps us spend less on marketing with Meta, Google etc. Because lets be honest, they ain't doing us any favours at the mo are they?</p>",
-            "text_style": "body"
-          }
-        },
-        "email_form_JPVg3c": {
-          "type": "email_form",
-          "disabled": true,
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_pJ9fHK",
-        "paragraph_k7RGwr",
-        "email_form_JPVg3c"
-      ],
-      "settings": {
-        "image_overlay_opacity": 100,
-        "show_background_image": false,
-        "sticky_on_mobile": true,
-        "image_height": "adapt-image",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "",
-        "mobile_content_alignment": "left",
-        "show_text_below": true
-      }
-    },
     "image_with_text_ihrzNg": {
       "type": "image-with-text",
       "blocks": {
@@ -267,14 +226,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "email_signup_banner_644mkD": {
+      "type": "email-signup-banner",
+      "blocks": {
+        "heading_pJ9fHK": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMING REAL SOON",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_k7RGwr": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>We are looking for 1000 Founder Members of our collective. Founder membership is an opportunity to join BRiMM at the beginning and shape it from the ground up.<br/><br/>You (and your friends) would get some amazing planet positive perks, and it helps us spend less on marketing with Meta, Google etc. Because lets be honest, they ain't doing us any favours at the mo are they?</p>",
+            "text_style": "body"
+          }
+        },
+        "email_form_JPVg3c": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_pJ9fHK",
+        "paragraph_k7RGwr",
+        "email_form_JPVg3c"
+      ],
+      "settings": {
+        "image_overlay_opacity": 100,
+        "show_background_image": false,
+        "sticky_on_mobile": true,
+        "image_height": "adapt-image",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "mobile_content_alignment": "left",
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "image_banner_RULnrW",
-    "email_signup_banner_644mkD",
     "image_with_text_ihrzNg",
     "image_with_text_yTMkNL",
     "image_with_text_AY7XfF",
-    "image_with_text_QX9ykt"
+    "image_with_text_QX9ykt",
+    "email_signup_banner_644mkD"
   ]
 }
