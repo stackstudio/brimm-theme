@@ -139,7 +139,7 @@
         "button_ekKjHp"
       ],
       "settings": {
-        "video_embed": "<script src=\"https://fast.wistia.com/embed/medias/lqy5p1741e.jsonp\" async></script>\n<script src=\"https://fast.wistia.com/assets/external/E-v1.js\" async></script>\n<div class=\"wistia_responsive_padding\" style=\"padding:56.25% 0 0 0;position:relative;\">\n<div class=\"wistia_responsive_wrapper\" style=\"height:100%;left:0;position:absolute;top:0;width:100%;\">\n<div class=\"wistia_embed wistia_async_lqy5p1741e seo=false videoFoam=true\" style=\"height:100%;position:relative;width:100%\">\n<div class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;\"><img src=\"https://fast.wistia.com/embed/medias/lqy5p1741e/swatch\" style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\" aria-hidden=\"true\" onload=\"this.parentNode.style.opacity=1;\" />\n</div></div></div></div>",
+        "video_embed": "<script src=\"//fast.wistia.com/embed/medias/gmwg9g412y.jsonp\" async></script> \n<script src=\"//fast.wistia.com/assets/external/E-v1.js\" async></script>\n<div class=\"wistia_embed wistia_async_gmwg9g412y\" style=\"height:349px;width:620px\">&nbsp;</div>",
         "has_background": true,
         "image_label": "",
         "height": "adapt",
