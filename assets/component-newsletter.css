@@ -98,6 +98,10 @@
   border-radius: 0.2rem;
 }
 
+.newsletter-form__terms-label--error::before {
+  border-color: var(--color-brimm-red);
+}
+
 .newsletter-form__terms-label::after {
   content: '';
   position: absolute;

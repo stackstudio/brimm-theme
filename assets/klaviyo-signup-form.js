@@ -190,7 +190,7 @@ class KlaviyoSignupForm extends HTMLElement {
         this.errorTemplate,
         'Please accept the terms and conditions.',
       );
-      this.terms.style.border = '1px solid red';
+      this.terms.classList.add('newsletter-form__terms-label--error');
       this.termsText.style.color = 'red';
       this.submitButton.disabled = false;
       return;
@@ -224,7 +224,7 @@ class KlaviyoSignupForm extends HTMLElement {
   }
 
   resetTerms() {
-    this.terms.style.border = 'none';
+    this.terms.classList.remove('newsletter-form__terms-label--error');
     this.termsText.style.color = 'black';
     this.formMessages.innerHTML = '';
   }

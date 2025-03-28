@@ -446,3 +446,23 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+
+.brimm-theme {
+  background-color: var(--color-brimm-red);
+  color: white;
+}
+
+.brimm-theme .image-with-text__content h2,
+.brimm-theme .image-with-text__content p,
+.brimm-theme .image-with-text__content a {
+  color: white;
+  opacity: 1;
+}
+
+.brimm-theme
+  .image-with-text__content
+  .image-with-text__button-wrapper
+  .button {
+  --border-offset: white;
+  border: 1px solid white;
+}
