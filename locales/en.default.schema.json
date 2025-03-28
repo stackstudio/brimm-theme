@@ -1359,6 +1359,10 @@
         "image": {
           "label": "Image"
         },
+        "video_embed": {
+          "label": "Video embed",
+          "info": "Add the Wistia player snippet here. [Learn more](https://support.wistia.com/en/articles/8233354-embedding-your-media)"
+        },
         "height": {
           "options__1": {
             "label": "Adapt to image"
