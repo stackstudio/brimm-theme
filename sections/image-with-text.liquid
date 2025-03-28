@@ -89,13 +89,13 @@
                   </h2>
                 {%- when 'caption' -%}
                   <p
-                    class='image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}'
+                    class='image-with-text__text image-with-text__text--caption body-semi'
                     {{ block.shopify_attributes }}
                   >
                     {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
-                  <div class='image-with-text__text rte {{ block.settings.text_style }}' {{ block.shopify_attributes }}>
+                  <div class='image-with-text__text rte body-semi' {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
