@@ -488,7 +488,11 @@
 
   /* cut off overflowing video */
   overflow: hidden;
-  padding-bottom: 25.6%;
+  padding-bottom: 56.25%;
+
+  @media screen and (min-width: 750px) {
+    padding-bottom: 25.6%;
+  }
 }
 
 .wistia_embed iframe {
