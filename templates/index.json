@@ -127,7 +127,7 @@
         "button_ekKjHp"
       ],
       "settings": {
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/yi1j63axbo?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" class=\"wistia_embed\" name=\"wistia_embed\"></iframe></div>",
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/yi1j63axbo?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "has_background": true,
         "image_label": "",
         "height": "adapt",
