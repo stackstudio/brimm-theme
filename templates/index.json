@@ -32,24 +32,12 @@
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation.",
             "text_style": "body"
           }
-        },
-        "buttons_eqVA7c": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_V3ykAx",
         "heading_z3XNGA",
-        "text_Ymx83t",
-        "buttons_eqVA7c"
+        "text_Ymx83t"
       ],
       "settings": {
         "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
