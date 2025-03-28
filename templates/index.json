@@ -155,6 +155,46 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_yTMkNL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CErazw": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"I bloody love BRiMM - it's the manifestation of everything I've been saying on the podcast.\"",
+            "heading_size": "h2"
+          }
+        },
+        "text_ztHWap": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"I bloody love BRiMM - it's the manifestation of everything I've been saying on the podcast.\"</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CErazw",
+        "text_ztHWap"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/4_5.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_AY7XfF": {
       "type": "image-with-text",
       "blocks": {
@@ -198,6 +238,10 @@
     "image_with_text_QX9ykt": {
       "type": "image-with-text",
       "blocks": {
+        "image_dg6frr": {
+          "type": "image",
+          "settings": {}
+        },
         "heading_FQDUFK": {
           "type": "heading",
           "settings": {
@@ -214,6 +258,7 @@
         }
       },
       "block_order": [
+        "image_dg6frr",
         "heading_FQDUFK",
         "text_AKbMah"
       ],
@@ -240,6 +285,7 @@
     "image_banner_RULnrW",
     "email_signup_banner_644mkD",
     "image_with_text_ihrzNg",
+    "image_with_text_yTMkNL",
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt"
   ]
