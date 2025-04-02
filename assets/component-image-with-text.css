@@ -1,5 +1,6 @@
 .image-with-text .grid {
   margin-bottom: 0;
+  padding: 7.5rem 5rem;
 }
 
 .image-with-text .grid__item {
@@ -10,6 +11,10 @@
   .image-with-text__grid--reverse {
     flex-direction: row-reverse;
   }
+}
+
+.image-with-text__grid--reverse .image-with-text__content {
+  padding-left: 0;
 }
 
 .image-with-text__media {
@@ -367,7 +372,7 @@
 
 @media screen and (min-width: 990px) {
   .image-with-text__content {
-    padding: 6rem 7rem 7rem;
+    padding: 0rem 7rem 7rem;
   }
 }
 
@@ -471,7 +476,7 @@
   padding-bottom: 56.25%;
 
   @media screen and (min-width: 750px) {
-    padding-bottom: 25.6%;
+    padding-bottom: 29.6%;
   }
 }
 

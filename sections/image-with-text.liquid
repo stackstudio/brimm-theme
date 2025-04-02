@@ -1,19 +1,5 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.64 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.64 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
 {%- liquid
   assign fetch_priority = 'auto'
   if section.index == 1

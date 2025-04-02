@@ -130,7 +130,7 @@
 
 @media screen and (min-width: 749px) {
   .email-signup-banner .banner__content {
-    padding: 6rem 8rem;
+    padding: 6rem 5rem;
   }
 }
 
@@ -178,7 +178,11 @@
 }
 
 .brimm-theme .email-signup-banner__box {
-  background: var(--color-brimm-red);
+  background-color: var(--color-brimm-red);
+}
+
+.brimm-theme .newsletter-form__field:-internal-autofill-selected {
+  background-color: var(--color-brimm-red) !important;
 }
 
 .brimm-theme .email-signup-banner__box p,
@@ -191,12 +195,36 @@
   color: #000;
 }
 
+.brimm-theme .newsletter-form .newsletter-form__field {
+  color: #fff;
+  background: var(--color-brimm-red);
+  border-color: #fff;
+  box-shadow: none;
+}
+
+/* placeholder */
+
+.brimm-theme .newsletter-form__field::placeholder,
+.brimm-theme .field__label {
+  color: #fff;
+}
+
+.brimm-theme .newsletter-form__field::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.brimm-theme .newsletter-form__terms-label::before,
+.brimm-theme .newsletter-form__terms-label::after {
+  border-color: #fff;
+}
+
 .brimm-theme .newsletter-form__terms-label--error::before {
   border-color: #000;
 }
 
-.brimm-theme .newsletter-form__terms-label-text {
-  color: black !important;
+.brimm-theme .newsletter-form__terms-label-text,
+.brimm-theme .newsletter-form__terms-label-text a {
+  color: white !important;
 }
 
 @media screen and (min-width: 749px) {
