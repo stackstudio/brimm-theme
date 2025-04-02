@@ -132,6 +132,7 @@
       ],
       "settings": {
         "image_overlay_opacity": 100,
+        "collection_theme": "brimm-theme",
         "show_background_image": true,
         "sticky_on_mobile": true,
         "image_height": "adapt-image",
@@ -223,46 +224,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_MEYVj6": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_abdFj4": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>PRODUCTS THAT WORK FOR PEOPLE AND PLANET</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_xMakdD": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>We're an  “enough” store, not an “everything” store.</h4><p>Take the leap to a lower-impact lifestyle. Our Reset boxes are carefully curated by the likes of Sam Freedman (Tatler, Grazia, Stylist) and more.</p><p>Environmental experts have created our 89-point (wow, so precise) vetting process.</p><p>Whether it be beauty, home or pantry - our Reset boxes make Planet Positive living easy.</p><p>Designed with purpose, for purpose.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_abdFj4",
-        "text_xMakdD"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Brimm25_march27_-_Boxes0815_1_copy.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "image_label": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_QX9ykt": {
       "type": "image-with-text",
       "blocks": {
@@ -338,6 +299,7 @@
       ],
       "settings": {
         "image_overlay_opacity": 100,
+        "collection_theme": "brimm-theme",
         "show_background_image": false,
         "sticky_on_mobile": true,
         "image_height": "adapt-image",
@@ -356,7 +318,6 @@
     "email_signup_banner_NjiKDf",
     "image_with_text_yTMkNL",
     "image_with_text_AY7XfF",
-    "image_with_text_MEYVj6",
     "image_with_text_QX9ykt",
     "email_signup_banner_644mkD"
   ]
