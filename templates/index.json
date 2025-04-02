@@ -53,6 +53,55 @@
         "show_text_below": false
       }
     },
+    "image_with_text_ihrzNg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TwmzyN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shape the future you want.",
+            "heading_size": "h1"
+          }
+        },
+        "text_wLMgQr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Take back your agency and jump in as one of 1000 BRiMM Founder Members.<br/><br/></strong>You'll decide where we invest 10% of profits, helping your new favourite brands hit net zero. Along with some super cool, planet positive perks. <br/><br/>Ready to team up and turn the tide?t. Ready to team up and turn the tide?</p><p></p>",
+            "text_style": "body"
+          }
+        },
+        "button_ekKjHp": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "SIGN UP TO OUR NEWSLETTER AND GET NOTIFIED WHEN WE GO LIVE",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TwmzyN",
+        "text_wLMgQr",
+        "button_ekKjHp"
+      ],
+      "settings": {
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/hs53ar40rj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "email_signup_banner_NjiKDf": {
       "type": "email-signup-banner",
       "blocks": {
@@ -92,55 +141,6 @@
         "color_scheme": "",
         "mobile_content_alignment": "left",
         "show_text_below": true
-      }
-    },
-    "image_with_text_ihrzNg": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_TwmzyN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shape the future you want.",
-            "heading_size": "h1"
-          }
-        },
-        "text_wLMgQr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We make sustainable living effortless, joyful and impactful. Together, we can help  brands you love reduce their footprint. You vote where 10% of our profits are spent, helping your new favourite brand further decarbonise.<br/><br/>Our mission? <strong>A 30% carbon footprint reduction by 2030</strong>, empowering choices that benefit both people and the planet.<br/><br/>Your role in this? Take back your agency. Make every pound you spend a vote on the future you want. Ready to team up and turn the tide?</p><p></p>",
-            "text_style": "body"
-          }
-        },
-        "button_ekKjHp": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "SIGN UP TO OUR NEWSLETTER AND GET NOTIFIED WHEN WE GO LIVE",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_TwmzyN",
-        "text_wLMgQr",
-        "button_ekKjHp"
-      ],
-      "settings": {
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/hs53ar40rj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
-        "has_background": true,
-        "image_label": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "brimm-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "image_with_text_yTMkNL": {
@@ -312,8 +312,8 @@
   },
   "order": [
     "image_banner_RULnrW",
-    "email_signup_banner_NjiKDf",
     "image_with_text_ihrzNg",
+    "email_signup_banner_NjiKDf",
     "image_with_text_yTMkNL",
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt",
