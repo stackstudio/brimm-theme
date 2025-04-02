@@ -227,10 +227,6 @@
     "image_with_text_QX9ykt": {
       "type": "image-with-text",
       "blocks": {
-        "image_dg6frr": {
-          "type": "image",
-          "settings": {}
-        },
         "heading_FQDUFK": {
           "type": "heading",
           "settings": {
@@ -247,7 +243,6 @@
         }
       },
       "block_order": [
-        "image_dg6frr",
         "heading_FQDUFK",
         "text_AKbMah"
       ],
