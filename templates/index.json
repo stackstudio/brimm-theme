@@ -132,7 +132,7 @@
       ],
       "settings": {
         "image_overlay_opacity": 100,
-        "show_background_image": false,
+        "show_background_image": true,
         "sticky_on_mobile": true,
         "image_height": "adapt-image",
         "desktop_content_position": "middle-center",
