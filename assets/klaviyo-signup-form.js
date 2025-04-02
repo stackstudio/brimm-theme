@@ -162,6 +162,7 @@ class KlaviyoSignupForm extends HTMLElement {
   }
 
   toggleBanner(show = true) {
+    console.log('toggleBanner', show);
     this.banner.style.height = show ? 'auto' : '79px';
     this.bannerCTA.style.display = show ? 'none' : 'block';
     this.bannerClose.style.display = show ? 'block' : 'none';

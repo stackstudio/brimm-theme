@@ -405,11 +405,17 @@
 
 .image-with-text__heading {
   margin-bottom: 0;
+  color: var(--color-brimm-richred);
 }
 
 .image-with-text__text p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: var(--color-brimm-richred);
+}
+
+.image-with-text__text h4 {
+  color: var(--color-brimm-richred);
 }
 
 @media screen and (max-width: 749px) {

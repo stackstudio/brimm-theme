@@ -160,7 +160,7 @@
 
 @media screen and (min-width: 749px) {
   .email-signup-banner .banner__content--form {
-    width: 40%;
+    width: 29%;
   }
 }
 
@@ -174,31 +174,33 @@
 }
 
 .banner--sticky-mobile.brimm-theme {
-  background: var(--color-brimm-red);
+  background: var(--color-brimm-lilac);
 }
 
 .brimm-theme .email-signup-banner__box {
-  background-color: var(--color-brimm-red);
+  background-color: var(--color-brimm-lilac);
 }
 
 .brimm-theme .newsletter-form__field:-internal-autofill-selected {
-  background-color: var(--color-brimm-red) !important;
+  background-color: var(--color-brimm-lilac) !important;
 }
 
 .brimm-theme .email-signup-banner__box p,
 .brimm-theme .email-signup-banner__box h2 {
-  color: var(--Primary-Mono-White, #fff);
+  color: var(--color-brimm-richred);
 }
 
-.brimm-theme .newsletter-form__button {
-  background: var(--Primary-Mono-White, #fff);
-  color: #000;
+.brimm-theme .newsletter-form__button,
+.brimm-theme .newsletter-form__button:focus-visible,
+.brimm-theme .newsletter-form__button:focus {
+  background: var(--color-brimm-richred);
+  color: white;
 }
 
 .brimm-theme .newsletter-form .newsletter-form__field {
   color: #fff;
-  background: var(--color-brimm-red);
-  border-color: #fff;
+  background: var(--color-brimm-lilac);
+  border-color: var(--color-brimm-richred);
   box-shadow: none;
 }
 
@@ -206,16 +208,16 @@
 
 .brimm-theme .newsletter-form__field::placeholder,
 .brimm-theme .field__label {
-  color: #fff;
+  color: var(--color-brimm-richred);
 }
 
 .brimm-theme .newsletter-form__field::-webkit-input-placeholder {
-  color: #fff;
+  color: var(--color-brimm-richred);
 }
 
 .brimm-theme .newsletter-form__terms-label::before,
 .brimm-theme .newsletter-form__terms-label::after {
-  border-color: #fff;
+  border-color: var(--color-brimm-richred);
 }
 
 .brimm-theme .newsletter-form__terms-label--error::before {
@@ -224,7 +226,7 @@
 
 .brimm-theme .newsletter-form__terms-label-text,
 .brimm-theme .newsletter-form__terms-label-text a {
-  color: white !important;
+  color: var(--color-brimm-richred) !important;
 }
 
 @media screen and (min-width: 749px) {
@@ -244,7 +246,7 @@
   font-weight: 500;
   line-height: 120%; /* 16.8px */
   letter-spacing: -0.28px;
-  background-color: var(--color-brimm-red);
+  background-color: var(--color-brimm-lilac);
   width: 100%;
   margin: 2rem 0;
   padding: 1rem 0;
