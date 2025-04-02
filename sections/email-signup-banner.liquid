@@ -27,7 +27,7 @@
 
 <div
   id='Banner-{{ section.id }}'
-  class='email-signup-banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.image_height == 'adapt-image' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if section.settings.sticky_on_mobile == true %} banner--sticky-mobile{% endif %}'
+  class='email-signup-banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.image_height == 'adapt-image' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if section.settings.sticky_on_mobile == true %} banner--sticky-mobile{% endif %} {{ section.settings.collection_theme }}'
 >
   <div class='banner__content--{{ section.settings.desktop_content_position }} page-width'>
     {% if section.settings.sticky_on_mobile == true %}
@@ -82,6 +82,22 @@
       "unit": "%",
       "label": "t:sections.email-signup-banner.settings.image_overlay_opacity.label",
       "default": 0
+    },
+    {
+      "type": "select",
+      "id": "collection_theme",
+      "label": "Collection Theme",
+      "options": [
+        {
+          "value": "core-light-theme",
+          "label": "Default"
+        },
+        {
+          "value": "brimm-theme",
+          "label": "Brimm Theme"
+        }
+      ],
+      "default": "brimm-theme"
     },
     {
       "type": "checkbox",
