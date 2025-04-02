@@ -173,6 +173,32 @@
   width: 100%;
 }
 
+.banner--sticky-mobile.brimm-theme {
+  background: var(--color-brimm-red);
+}
+
+.brimm-theme .email-signup-banner__box {
+  background: var(--color-brimm-red);
+}
+
+.brimm-theme .email-signup-banner__box p,
+.brimm-theme .email-signup-banner__box h2 {
+  color: var(--Primary-Mono-White, #fff);
+}
+
+.brimm-theme .newsletter-form__button {
+  background: var(--Primary-Mono-White, #fff);
+  color: #000;
+}
+
+.brimm-theme .newsletter-form__terms-label--error::before {
+  border-color: #000;
+}
+
+.brimm-theme .newsletter-form__terms-label-text {
+  color: black !important;
+}
+
 @media screen and (min-width: 749px) {
   .banner--sticky-mobile {
     position: relative;

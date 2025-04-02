@@ -3798,7 +3798,3 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
-
-.brimm-red-bg {
-  background-color: var(--color-brimm-red);
-}

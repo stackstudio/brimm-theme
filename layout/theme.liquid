@@ -303,6 +303,27 @@
           background: transparent;
         }
       }
+
+      .brimm-red-bg {
+        background-color: var(--color-brimm-red);
+      }
+
+      .brimm-theme {
+        background-color: var(--color-brimm-red);
+        color: white;
+      }
+
+      .brimm-theme > h2,
+      .brimm-theme > p,
+      .brimm-theme > a {
+        color: white;
+        opacity: 1;
+      }
+
+      .brimm-theme > .button {
+        --border-offset: white;
+        border: 1px solid white;
+      }
     {% endstyle %}
     {% comment %}swap the order of the stylesheets to have Tailwind classes take precedence over the base Dawn styles{% endcomment %}
     {{ 'app.css' | asset_url | stylesheet_tag }}
