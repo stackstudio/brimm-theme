@@ -332,6 +332,12 @@
         {%- endif -%}
       </div>
     </div>
+    <div class='footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}'>
+      {% comment %} social links below here {% endcomment %}
+      <div class='footer__list-social'>
+        {%- render 'social-icons', class: 'footer__list-social' -%}
+      </div>
+    </div>
     <img width='100%' height='auto' src='{{ 'brimm-logo.svg' | asset_url }}' alt='Brimm Logo' class='footer-logo'>
   </div>
 </footer>
