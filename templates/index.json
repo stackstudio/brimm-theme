@@ -291,6 +291,7 @@
         "paragraph_k7RGwr",
         "email_form_JPVg3c"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 100,
         "collection_theme": "brimm-theme",
