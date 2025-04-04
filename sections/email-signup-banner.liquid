@@ -25,6 +25,28 @@
   {%- endif -%}
 {%- endstyle -%}
 
+{% comment %} add some js that fixes the banner when we scroll past it on the browser window {% endcomment %}
+
+<script type='text/javascript'>
+  document.addEventListener('DOMContentLoaded', function () {
+    const banner = document.getElementById('Banner-{{ section.id }}');
+
+    if (banner) {
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.boundingClientRect.top <= 0) {
+            banner.classList.add('banner--sticky');
+          } else {
+            banner.classList.remove('banner--sticky');
+          }
+        });
+      });
+
+      observer.observe(banner);
+    }
+  });
+</script>
+
 <div
   id='Banner-{{ section.id }}'
   class='email-signup-banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.image_height == 'adapt-image' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if section.settings.sticky_on_mobile == true %} banner--sticky-mobile{% endif %} {{ section.settings.collection_theme }}'

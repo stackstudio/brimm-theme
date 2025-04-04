@@ -8,6 +8,7 @@
 {%- style -%}
   .footer {
     margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: 80px;
   }
 
   .section-{{ section.id }}-padding {
@@ -23,6 +24,7 @@
   @media screen and (min-width: 750px) {
     .footer {
       margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: 0;
     }
 
     .footer-logo {
