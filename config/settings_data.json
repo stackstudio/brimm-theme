@@ -103,10 +103,10 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
-    "social_facebook_link": "https://facebook.com/brimm-collective",
-    "social_instagram_link": "",
+    "social_facebook_link": "",
+    "social_instagram_link": "https://www.instagram.com/brimmcollective?igsh=bmFodmozZXVvZXFi",
     "social_youtube_link": "",
-    "social_tiktok_link": "",
+    "social_tiktok_link": "https://www.tiktok.com/@brimmcollective",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -140,13 +140,6 @@
         "type": "shopify://apps/bold-subscriptions/blocks/bsub-embed/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
         "disabled": false,
         "settings": {}
-      },
-      "889038032183852488": {
-        "type": "shopify://apps/viral-loops-referral-marketing/blocks/viral-loops-widget/f6623cbd-1455-4f35-8afe-9c00a023f2d7",
-        "disabled": false,
-        "settings": {
-          "publicToken": ""
-        }
       }
     },
     "color_schemes": {
