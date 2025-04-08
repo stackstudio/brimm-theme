@@ -41,7 +41,6 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/BAMWOO-14_copy_1_1024x1024_2x_80028b17-466e-476f-8118-af8021c1aada.webp",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -60,14 +59,14 @@
         "heading_TwmzyN": {
           "type": "heading",
           "settings": {
-            "heading": "Shape the future you want.",
+            "heading": "PLANET POSITIVE GOODNESS",
             "heading_size": "h1"
           }
         },
         "text_wLMgQr": {
           "type": "text",
           "settings": {
-            "text": "<p>BRiMM was born out of frustration. We felt an urgent need to DO SOMETHING about the climate crisis but also felt the impossibility of making a difference. </p><p>We struggled to find un-evil products that really work, which also happen to be Planet Positive. And we were underwhelmed by the thought of a life with no sequins and no travel.</p><p>So, we set out to build a better way of buying and being. Where living within limits isn’t living less. And where the money we spend is a vote on the future we want.</p><p></p>",
+            "text": "<p>BRiMM was born out of frustration. We felt an urgent need to DO SOMETHING about the climate crisis but also felt the impossibility of making a difference. </p><p>We struggled to find un-evil products that really work, which also happen to be Planet Positive. And we were underwhelmed by the thought of a life with no sequins and no travel.</p><p>So, we set out to build a better way of buying and being. Where living within limits isn’t living less. </p><p></p>",
             "text_style": "body"
           }
         },
@@ -109,14 +108,14 @@
         "heading_g9D3Me": {
           "type": "heading",
           "settings": {
-            "heading": "COMING REAL SOON",
+            "heading": "SIGN UP TO OUR NEWS LETTER",
             "heading_size": "h1"
           }
         },
         "paragraph_UFAVQ7": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><strong>Take back your agency and jump in as one of 1000 BRiMM Founder Members.<br/><br/></strong>You'll decide where we invest 10% of profits, helping your new favourite brands hit net zero. Along with some super cool, planet positive perks. </p><p><br/>Sign up to get notified when we launch. And get access to our newsletter, which is full of Planet Positive design, travel, fashion, beauty and food goodness. Oh, and a fresh playlist of tunes each week.</p><p></p><p>Ready to team up and turn the tide?</p>",
+            "text": "<p>We bring together bright ideas + brands to prove you can live a lower impact life without life feeling <strong>less</strong>. <br/><br/>Sign up our newsletter, which is full of Planet Positive design, travel, fashion, beauty and food goodness. Oh, and a fresh playlist of tunes each week.</p><p>Ready to team up and turn the tide?</p>",
             "text_style": "body"
           }
         },
