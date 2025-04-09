@@ -198,7 +198,7 @@
 }
 
 .brimm-theme .newsletter-form .newsletter-form__field {
-  color: #fff;
+  color: var(--color-brimm-richred);
   background: var(--color-brimm-lilac);
   border-color: var(--color-brimm-richred);
   box-shadow: none;
