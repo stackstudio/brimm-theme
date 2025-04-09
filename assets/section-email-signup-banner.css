@@ -269,4 +269,5 @@
   border: none;
   appearance: none;
   z-index: 20;
+  color: var(--color-brimm-richred);
 }

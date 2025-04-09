@@ -331,6 +331,15 @@
         --border-offset: white;
         border: 1px solid white;
       }
+
+      .holding-page {
+        @media screen and (min-width: 750px) {
+          margin-top: 0;
+        }
+        @media screen and (max-width: 750px) {
+          margin-top: 72px;
+        }
+      }
     {% endstyle %}
     {% comment %}swap the order of the stylesheets to have Tailwind classes take precedence over the base Dawn styles{% endcomment %}
     {{ 'app.css' | asset_url | stylesheet_tag }}
@@ -408,7 +417,7 @@
 
     {% sections 'header-group' %}
 
-    <main id='MainContent' class='content-for-layout focus-none' role='main' tabindex='-1'>
+    <main id='MainContent' class='content-for-layout focus-none holding-page' role='main' tabindex='-1'>
       <div class='holding-logo'>
         <img
           src='https://cdn.shopify.com/s/files/1/0847/6891/5798/files/brimm-holding-logo.gif?v=1744033907'
