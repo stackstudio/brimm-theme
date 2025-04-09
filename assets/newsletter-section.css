@@ -27,6 +27,7 @@
   max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
+  color: var(--color-brimm-richred);
 }
 
 .newsletter__wrapper .newsletter-form__field-wrapper {
