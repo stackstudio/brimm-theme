@@ -174,33 +174,33 @@
 }
 
 .banner--sticky-mobile.brimm-theme {
-  background: var(--color-brimm-lilac);
+  background: var(--color-brimm-beige);
 }
 
 .brimm-theme .email-signup-banner__box {
-  background-color: var(--color-brimm-lilac);
+  background-color: var(--color-brimm-beige);
 }
 
 .brimm-theme .newsletter-form__field:-internal-autofill-selected {
-  background-color: var(--color-brimm-lilac) !important;
+  background-color: var(--color-brimm-beige) !important;
 }
 
 .brimm-theme .email-signup-banner__box p,
 .brimm-theme .email-signup-banner__box h2 {
-  color: var(--color-brimm-richred);
+  color: #000000;
 }
 
 .brimm-theme .newsletter-form__button,
 .brimm-theme .newsletter-form__button:focus-visible,
 .brimm-theme .newsletter-form__button:focus {
-  background: var(--color-brimm-richred);
+  background: #000000;
   color: white;
 }
 
 .brimm-theme .newsletter-form .newsletter-form__field {
-  color: var(--color-brimm-richred);
-  background: var(--color-brimm-lilac);
-  border-color: var(--color-brimm-richred);
+  color: #000000;
+  background: var(--color-brimm-beige);
+  border-color: #000000;
   box-shadow: none;
 }
 
@@ -208,16 +208,16 @@
 
 .brimm-theme .newsletter-form__field::placeholder,
 .brimm-theme .field__label {
-  color: var(--color-brimm-richred);
+  color: #000000;
 }
 
 .brimm-theme .newsletter-form__field::-webkit-input-placeholder {
-  color: var(--color-brimm-richred);
+  color: #000000;
 }
 
 .brimm-theme .newsletter-form__terms-label::before,
 .brimm-theme .newsletter-form__terms-label::after {
-  border-color: var(--color-brimm-richred);
+  border-color: #000000;
 }
 
 .brimm-theme .newsletter-form__terms-label--error::before {
@@ -226,7 +226,7 @@
 
 .brimm-theme .newsletter-form__terms-label-text,
 .brimm-theme .newsletter-form__terms-label-text a {
-  color: var(--color-brimm-richred) !important;
+  color: #000000 !important;
 }
 
 @media screen and (min-width: 749px) {
@@ -269,5 +269,5 @@
   border: none;
   appearance: none;
   z-index: 20;
-  color: var(--color-brimm-richred);
+  color: #000000;
 }

@@ -316,7 +316,7 @@
       }
 
       .brimm-theme {
-        background-color: var(--color-brimm-lilac);
+        background-color: var(--color-brimm-beige);
         color: white;
       }
 
@@ -406,6 +406,33 @@
     </script>
     <script type='text/javascript' src='https://cs.iubenda.com/autoblocking/3986037.js'></script>
     <script type='text/javascript' src='//cdn.iubenda.com/cs/iubenda_cs.js' charset='UTF-8' async></script>
+
+    <script async src='https://www.googletagmanager.com/gtag/js?id=G-GFCB3T3V5B'></script>
+    <script type='text/javascript'>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-GFCB3T3V5B');
+      document.querySelector('.sticky--banner-cta-button').addEventListener('click', function () {
+        gtag('event', 'click', {
+          event_category: 'engagement',
+          event_label: 'mobile email banner cta',
+          transport_type: 'beacon',
+          event_callback: function () {
+            window.location.href = this.href;
+          }.bind(this),
+        });
+      });
+      document.querySelector('.newsletter-form__button').addEventListener('click', function () {
+        gtag('event', 'submit', {
+          event_category: 'engagement',
+          event_label: 'klaviyo email form submit',
+          transport_type: 'beacon',
+        });
+      });
+    </script>
   </head>
 
   <body class='gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}'>
@@ -427,7 +454,7 @@
     <main id='MainContent' class='content-for-layout focus-none holding-page' role='main' tabindex='-1'>
       <div class='holding-logo'>
         <img
-          src='https://cdn.shopify.com/s/files/1/0847/6891/5798/files/brimm-holding-logo.gif?v=1744033907'
+          src='https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM-LOGO_000000.gif?v=1744298004'
           width='100%'
           height='auto'
           alt='Brimm Logo'
