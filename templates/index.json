@@ -12,18 +12,18 @@
     "image_banner_RULnrW": {
       "type": "image-banner",
       "blocks": {
-        "heading_V3ykAx": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h2"
-          }
-        },
         "heading_z3XNGA": {
           "type": "heading",
           "settings": {
             "heading": "LIVE BRIGHT, TREAD LIGHT: PLANET POSITIVE LIVING",
             "heading_size": "h1"
+          }
+        },
+        "heading_V3ykAx": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
           }
         },
         "text_Ymx83t": {
@@ -35,8 +35,8 @@
         }
       },
       "block_order": [
-        "heading_V3ykAx",
         "heading_z3XNGA",
+        "heading_V3ykAx",
         "text_Ymx83t"
       ],
       "settings": {
