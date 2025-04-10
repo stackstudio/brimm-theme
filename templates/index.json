@@ -39,8 +39,8 @@
         "heading_z3XNGA",
         "text_Ymx83t"
       ],
-      "disabled": true,
       "settings": {
+        "image": "shopify://shop_images/BRiMM_CAD_Hero.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
