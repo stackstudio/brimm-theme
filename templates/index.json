@@ -29,7 +29,7 @@
         "text_Ymx83t": {
           "type": "text",
           "settings": {
-            "text": "BRiMM redefines sustainable living, blending style and purpose. With carefully curated products, and inspiring stories. We're a collective that proves living within limits, isn't living less.",
+            "text": "<strong>BRiMM redefines sustainable living, blending style and purpose. With carefully curated products, and inspiring stories. We're a collective that proves living within limits, isn't living less.</strong>",
             "text_style": "body"
           }
         }
@@ -40,7 +40,7 @@
         "text_Ymx83t"
       ],
       "settings": {
-        "image": "shopify://shop_images/BRiMM_CAD_Hero.png",
+        "image": "shopify://shop_images/BRiMM_CAD_NL.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
