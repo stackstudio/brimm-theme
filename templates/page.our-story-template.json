@@ -85,6 +85,7 @@
         "button_baaXUa"
       ],
       "settings": {
+        "image": "shopify://shop_images/Image.jpg",
         "video_embed": "",
         "has_background": true,
         "image_label": "",
@@ -117,6 +118,12 @@
             "text": "<h3>This isn't our first Rodeo. Each team member brings a unique perspective, experience and set of skills to BRiMM.</h3>"
           }
         },
+        "text_yixcVx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+          }
+        },
         "button_WiHaMh": {
           "type": "button",
           "settings": {
@@ -132,11 +139,12 @@
       "block_order": [
         "heading_PytkRq",
         "text_chYQwA",
+        "text_yixcVx",
         "button_WiHaMh"
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
