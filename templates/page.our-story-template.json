@@ -150,6 +150,7 @@
             "image": "shopify://shop_images/1c951587b72ecbc730903499b6f7b697.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "Founder & CEO",
             "link_label": "",
             "link": ""
           }
@@ -160,6 +161,7 @@
             "image": "shopify://shop_images/835cd15dc1c8c0eba996a2888cd47c5a.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "Commercial & Ops",
             "link_label": "",
             "link": ""
           }
@@ -170,6 +172,7 @@
             "image": "shopify://shop_images/8507aca4b80fe21d90977ecff5c1fd5a.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "Product & Experience",
             "link_label": "",
             "link": ""
           }
@@ -180,6 +183,7 @@
             "image": "shopify://shop_images/32bec42d1fa8e0c4893840db4e14ff67.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "Content & Editorial",
             "link_label": "",
             "link": ""
           }
@@ -190,6 +194,7 @@
             "image": "shopify://shop_images/e2c61e0f66266d1faa78767eb70d2612.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "Consultant",
             "link_label": "",
             "link": ""
           }
@@ -200,6 +205,7 @@
             "image": "shopify://shop_images/69f001530b402b201d11a9280573db5d.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "Advisor",
             "link_label": "",
             "link": ""
           }
@@ -210,6 +216,7 @@
             "image": "shopify://shop_images/1f069cb946f207a5188ff079eba6f041.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "Advisor",
             "link_label": "",
             "link": ""
           }
@@ -219,6 +226,7 @@
           "settings": {
             "title": "",
             "text": "<h1>BECOME A FOUNDING MEMBER</h1><p>Take back your agency and jump in as one of 1000 BRiMM Founder Members.  You'll get to shape BRiMM from the ground up. And every purchase with BRiMM is a vote on the future you want.  You'll also decide where we invest 10% of profits, helping your new favourite brands hit net zero - making our margin matter.  Ready to team up and turn the tide?  Sign up and get on the waitlist for our founder member launch.</p>",
+            "image_label": "",
             "link_label": "",
             "link": ""
           }
