@@ -52,10 +52,102 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "image_with_text_kV37Vn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QpRFyL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_k4Jj7X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_baaXUa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QpRFyL",
+        "text_k4Jj7X",
+        "button_baaXUa"
+      ],
+      "settings": {
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_AHd9q7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PytkRq": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR TEAM",
+            "heading_size": "h1"
+          }
+        },
+        "text_chYQwA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_WiHaMh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PytkRq",
+        "text_chYQwA",
+        "button_WiHaMh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_mmcKXb"
+    "image_banner_mmcKXb",
+    "image_with_text_kV37Vn",
+    "rich_text_AHd9q7"
   ]
 }
