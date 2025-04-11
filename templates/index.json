@@ -67,6 +67,7 @@
           "type": "text",
           "settings": {
             "text": "<p>BRiMM was born out of frustration. We felt an urgent need to DO SOMETHING about the climate crisis but also felt the impossibility of making a difference. </p><p>We struggled to find un-evil products that really work, which also happen to be Planet Positive. And we were underwhelmed by the thought of a life with no sequins and no travel.</p><p>So, we set out to build a better way of buying and being. Where living within limits isn’t living less. </p><p></p>",
+            "accordians": "",
             "text_style": "body"
           }
         },
@@ -158,6 +159,7 @@
           "type": "text",
           "settings": {
             "text": "<h4>Sustainability shouldn't be a sacrifice. Live lighter without compromise.</h4><p>Explore responsible fashion, travel, beauty, home and food (yummy, yummy food) so you can lead a low impact life.</p><p>Discover insights from former Times Fashion Editor, Tiffanie Darke, Marie Claire's Beauty and Style Director, Lisa Oxenham, Do Lectures Founder, Mark Shayler, and many more.</p>",
+            "accordians": "",
             "text_style": "body"
           }
         },
@@ -207,6 +209,7 @@
           "type": "text",
           "settings": {
             "text": "<h4>We're an  “enough” store, not an “everything” store.</h4><p>Take the leap to a lower-impact lifestyle. Our products are carefully curated by the likes of Sam Freedman (Tatler, Grazia, Stylist) and more. </p><p>Environmental experts have created our 89-point (wow, so specific) vetting process.</p><p>Designed with purpose, on purpose.<br/><br/>Whether it's beauty, home or pantry - our products make Planet Positive living joyful, and easy.<br/></p>",
+            "accordians": "",
             "text_style": "body"
           }
         }
@@ -247,6 +250,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Be part of our conscious consumption movement <br/><br/>Want to join like minded souls for a Brimm dinner party at that cool new, plant based restaurant? Maybe you want to submit a banging playlist to be shared with the collective on our newsletter?</p><p>Or, maybe you want to vote where we invest our profits, helping our brands hit net zero?</p><p>We've set up The BRiMM Planet Fund to our invest profits. The first chunk is ready to fuel solar power for our brands.<br/><br/>Our next investment? Well, That’s up to you.<br/><br/>Make our margin matter—every purchase is vote on the future you want.</p><p></p>",
+            "accordians": "",
             "text_style": "body"
           }
         }
@@ -287,6 +291,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Join Planet Positive movers and shakers in our Founder Member club. A bunch of inspiring folks are already helping shape BRiMM and the future of conscious consumerism. Check 'em out.<br/><br/>Our next investment? Well, That’s up to you.<br/><br/>Make our margin matter—every purchase is vote on the future you want.<br/><br/><strong>Amy Powney<br/></strong>Sustainable denim pioneer<br/><br/>Sustainable denim pioneer<br/>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.<br/><br/><strong>Anna Foster<br/></strong>Sustainable denim pioneer<br/><br/>Sustainable denim pioneer<br/>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.<br/><br/><strong>Amy Powney<br/></strong>Sustainable denim pioneer<br/><br/>Sustainable denim pioneer<br/>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p><p></p>",
+            "accordians": "<details>\n  <summary>System configuration</summary>\n  <ul>\n    <li>200GB RAM</li>\n    <li>4PB storage</li>\n  </ul>\n</details>",
             "text_style": "body"
           }
         }
