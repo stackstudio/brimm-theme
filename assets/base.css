@@ -83,6 +83,11 @@
   padding: 0 2rem;
 }
 
+.page-width .inner-wrapper {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
 }
