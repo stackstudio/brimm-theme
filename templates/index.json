@@ -273,6 +273,46 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_tWTg8h": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8xHCC9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Featured founder members",
+            "heading_size": "h1"
+          }
+        },
+        "text_3ijQnt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be part of our conscious consumption movement <br/><br/>Want to join like minded souls for a Brimm dinner party at that cool new, plant based restaurant? Maybe you want to submit a banging playlist to be shared with the collective on our newsletter?</p><p>Or, maybe you want to vote where we invest our profits, helping our brands hit net zero?</p><p>We've set up The BRiMM Planet Fund to our invest profits. The first chunk is ready to fuel solar power for our brands.<br/><br/>Our next investment? Well, That’s up to you.<br/><br/>Make our margin matter—every purchase is vote on the future you want.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8xHCC9",
+        "text_3ijQnt"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-04-01_at_20.26.06.png",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "email_signup_banner_644mkD": {
       "type": "email-signup-banner",
       "blocks": {
@@ -324,6 +364,7 @@
     "image_with_text_yTMkNL",
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt",
+    "image_with_text_tWTg8h",
     "email_signup_banner_644mkD"
   ]
 }
