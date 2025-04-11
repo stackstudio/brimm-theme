@@ -108,6 +108,7 @@
         "column_nGgJcL": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/1c951587b72ecbc730903499b6f7b697.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -117,6 +118,7 @@
         "column_9wgh4D": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/835cd15dc1c8c0eba996a2888cd47c5a.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -126,6 +128,47 @@
         "column_aB9M6E": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/8507aca4b80fe21d90977ecff5c1fd5a.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FaEmpF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/32bec42d1fa8e0c4893840db4e14ff67.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FaJEyV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/e2c61e0f66266d1faa78767eb70d2612.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4gnWxR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/69f001530b402b201d11a9280573db5d.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h8Gm7G": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1f069cb946f207a5188ff079eba6f041.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -136,7 +179,11 @@
       "block_order": [
         "column_nGgJcL",
         "column_9wgh4D",
-        "column_aB9M6E"
+        "column_aB9M6E",
+        "column_FaEmpF",
+        "column_FaJEyV",
+        "column_4gnWxR",
+        "column_h8Gm7G"
       ],
       "settings": {
         "title": "OUR TEAM",
