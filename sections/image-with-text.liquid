@@ -91,6 +91,10 @@
                   <div class='image-with-text__text rte body-medium' {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
+                {%- when 'accordians' -%}
+                  <div class='image-with-text__accordians rte body-medium' {{ block.shopify_attributes }}>
+                    {{ block.settings.accordians }}
+                  </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     {%- if block.settings.button_label != blank -%}
