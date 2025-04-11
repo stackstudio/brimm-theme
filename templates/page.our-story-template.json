@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -39,6 +40,7 @@
         "text_zNbwQe"
       ],
       "settings": {
+        "image": "shopify://shop_images/videoframe_13550.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
