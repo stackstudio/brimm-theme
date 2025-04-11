@@ -320,6 +320,53 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_F8kDRr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WAKMAR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Featured founder members",
+            "heading_size": "h1"
+          }
+        },
+        "text_eiy4ez": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join Planet Positive movers and shakers in our Founder Member club. A bunch of inspiring folks are already helping shape BRiMM and the future of conscious consumerism. Check 'em out.<br/><br/>Our next investment? Well, That’s up to you.<br/><br/>Make our margin matter—every purchase is vote on the future you want.</p>",
+            "text_style": "body"
+          }
+        },
+        "accordians_dKdUr3": {
+          "type": "accordians",
+          "settings": {
+            "accordians": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_WAKMAR",
+        "text_eiy4ez",
+        "accordians_dKdUr3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-04-01_at_20.26.06.png",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "email_signup_banner_644mkD": {
       "type": "email-signup-banner",
       "blocks": {
@@ -372,6 +419,7 @@
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt",
     "image_with_text_tWTg8h",
+    "image_with_text_F8kDRr",
     "email_signup_banner_644mkD"
   ]
 }
