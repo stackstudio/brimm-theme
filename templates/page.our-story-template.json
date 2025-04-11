@@ -330,6 +330,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_4HfRc9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_F4ah4c": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE FOUNDATION",
+            "heading_size": "h1"
+          }
+        },
+        "text_4HWWkD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_F4ah4c",
+        "text_4HWWkD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -339,6 +379,7 @@
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
     "image_with_text_XhCmWW",
-    "image_with_text_A8dx4k"
+    "image_with_text_A8dx4k",
+    "image_with_text_4HfRc9"
   ]
 }
