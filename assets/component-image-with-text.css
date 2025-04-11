@@ -512,3 +512,10 @@
     width: 177.78cqh;
   }
 }
+
+.image-with-text__accordians {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
