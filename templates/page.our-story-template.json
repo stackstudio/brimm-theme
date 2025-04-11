@@ -174,6 +174,15 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_jTU94U": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>BECOME A FOUNDING MEMBER</h1><p>Take back your agency and jump in as one of 1000 BRiMM Founder Members.  You'll get to shape BRiMM from the ground up. And every purchase with BRiMM is a vote on the future you want.  You'll also decide where we invest 10% of profits, helping your new favourite brands hit net zero - making our margin matter.  Ready to team up and turn the tide?  Sign up and get on the waitlist for our founder member launch.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -183,7 +192,8 @@
         "column_FaEmpF",
         "column_FaJEyV",
         "column_4gnWxR",
-        "column_h8Gm7G"
+        "column_h8Gm7G",
+        "column_jTU94U"
       ],
       "settings": {
         "title": "OUR TEAM",
