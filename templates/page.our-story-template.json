@@ -108,38 +108,29 @@
         "heading_DfTWyy": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "OUR STORY",
             "heading_size": "h1"
           }
         },
         "text_MV9exf": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<h3>We need a new approach. Where living sustainably isn't a sacrifice. Where each purchase we make mitigates climate impact.</h3><p>BRiMM was born out of frustration. We felt an urgent need to DO SOMETHING about the climate crisis but also felt the impossibility of making a difference. We struggled to find un-evil products that really work, which also happen to be Planet Positive. And we were underwhelmed by the thought of a life with no sequins and no travel.  So, we set out to build a better way of buying and being. Where living within limits isn’t living less.</p>",
             "text_style": "body"
-          }
-        },
-        "button_qXQLVm": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_DfTWyy",
-        "text_MV9exf",
-        "button_qXQLVm"
+        "text_MV9exf"
       ],
       "settings": {
-        "video_embed": "",
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/hs53ar40rj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "has_background": true,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
