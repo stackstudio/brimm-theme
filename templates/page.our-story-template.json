@@ -102,53 +102,57 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_AHd9q7": {
-      "type": "rich-text",
+    "multicolumn_8pNr8C": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_PytkRq": {
-          "type": "heading",
+        "column_nGgJcL": {
+          "type": "column",
           "settings": {
-            "heading": "OUR TEAM",
-            "heading_size": "h1"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "text_chYQwA": {
-          "type": "text",
+        "column_9wgh4D": {
+          "type": "column",
           "settings": {
-            "text": "<h3>This isn't our first Rodeo. Each team member brings a unique perspective, experience and set of skills to BRiMM.</h3>"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "text_yixcVx": {
-          "type": "text",
+        "column_aB9M6E": {
+          "type": "column",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
-          }
-        },
-        "button_WiHaMh": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading_PytkRq",
-        "text_chYQwA",
-        "text_yixcVx",
-        "button_WiHaMh"
+        "column_nGgJcL",
+        "column_9wgh4D",
+        "column_aB9M6E"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
+        "title": "OUR TEAM",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -156,6 +160,6 @@
     "main",
     "image_banner_mmcKXb",
     "image_with_text_kV37Vn",
-    "rich_text_AHd9q7"
+    "multicolumn_8pNr8C"
   ]
 }
