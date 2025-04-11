@@ -29,7 +29,7 @@
         "text_zNbwQe": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "The story and team behind BRiMM",
             "text_style": "body"
           }
         }
@@ -44,7 +44,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
