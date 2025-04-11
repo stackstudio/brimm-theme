@@ -2810,6 +2810,9 @@
             "link_label": {
               "label": "Link label"
             },
+            "image_label": {
+              "label": "Image label"
+            },
             "link": {
               "label": "Link"
             }
