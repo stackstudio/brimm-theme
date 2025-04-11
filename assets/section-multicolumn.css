@@ -93,17 +93,10 @@
 
 .multicolumn-card-spacing {
   padding-top: 2.5rem;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
 }
 
 .multicolumn-card__info > :nth-child(2) {
   margin-top: 1rem;
-}
-
-.multicolumn-list__item.center .media--adapt,
-.multicolumn-list__item .media--adapt .multicolumn-card__image {
-  width: auto;
 }
 
 .multicolumn-list__item.center .media--adapt img {
