@@ -332,8 +332,9 @@
         },
         "text_eiy4ez": {
           "type": "text",
+          "source": "{{ metaobjects.founder_member_package[\"base-camp\"] }}",
           "settings": {
-            "text": "<p>Join Planet Positive movers and shakers in our Founder Member club. A bunch of inspiring folks are already helping shape BRiMM and the future of conscious consumerism. Check 'em out.<br/><br/>Our next investment? Well, That’s up to you.<br/><br/>Make our margin matter—every purchase is vote on the future you want.</p>",
+            "text": "{{ metaobjects.founder_member_package[\"base-camp\"].description | metafield_tag }}",
             "text_style": "body"
           }
         },
