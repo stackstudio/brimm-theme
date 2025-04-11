@@ -523,13 +523,19 @@
 
 /* Light styling for presentation */
 details {
-  margin-block: 0.5rem;
-  padding-block: 0.5rem;
+  padding-block: 1rem;
+  border-block-end: 1px solid #e0e0e0;
+}
+
+details p {
+  color: #000000;
 }
 
 summary {
   /* Pin the custom marker to the container */
   position: relative;
+  color: #000000;
+  font-weight: 600;
   /* Register summary as an anchor element */
   anchor-name: --summary;
 
@@ -537,7 +543,6 @@ summary {
     content: '';
   }
 
-  &::before,
   &::after {
     /* Custom marker dimensions */
     content: '';
@@ -546,12 +551,10 @@ summary {
     inset-inline-end: 0;
     width: 1rem;
     height: 1rem;
-    mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2l7 12H5z"/></svg>')
-      no-repeat center;
-    -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2l7 12H5z"/></svg>')
-      no-repeat center;
-    background-color: black;
-
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0ibm9uZSI+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMTYuODI3IDcuMjYzYS42MjQuNjI0IDAgMCAwLS41NzctLjM4NkgzLjc1YS42MjUuNjI1IDAgMCAwLS40NDIgMS4wNjdsNi4yNSA2LjI1YS42MjMuNjIzIDAgMCAwIC44ODQgMGw2LjI1LTYuMjVhLjYyNC42MjQgMCAwIDAgLjEzNS0uNjgxWiIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIC4wMDJoMjB2MjBIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
     /* Positions the lines */
     inset-block-start: 50%;
     inset-inline-end: 0;
@@ -565,5 +568,5 @@ summary {
 
 /* Rotate the line when open */
 details[open] summary::after {
-  transform: rotate(0deg);
+  transform: rotate(180deg);
 }
