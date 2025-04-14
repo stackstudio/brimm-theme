@@ -333,9 +333,9 @@
         },
         "text_eiy4ez": {
           "type": "text",
-          "source": "{{ metaobjects.founder[\"amy-powney\"] }}",
+          "repeater": "{{ metaobjects.founder_members[\"founder-members-brd182av\"].founders.value }}",
           "settings": {
-            "text": "{{ metaobjects.founder[\"amy-powney\"].founder_text | metafield_tag }}",
+            "text": "{{ block.repeater.founder_text | metafield_tag }}",
             "text_style": "body"
           }
         },
