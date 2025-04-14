@@ -335,7 +335,7 @@
           "type": "text",
           "repeater": "{{ metaobjects.founder_members[\"founder-members-brd182av\"].founders.value }}",
           "settings": {
-            "text": "{{ block.repeater.founder_text | metafield_tag }}",
+            "text": "<p>{{ block.repeater.founder_name.value }}</p>{{ block.repeater.founder_text | metafield_tag }}<p></p>",
             "text_style": "body"
           }
         },
