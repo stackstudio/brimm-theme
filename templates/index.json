@@ -370,14 +370,14 @@
         "heading_Vmny6m": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Founder members packages",
             "heading_size": "h1"
           }
         },
         "text_LdM7Ua": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
             "text_style": "body"
           }
         },
@@ -404,6 +404,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/Image.jpg",
         "video_embed": "",
         "has_background": true,
         "image_label": "",
