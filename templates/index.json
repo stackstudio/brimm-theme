@@ -165,9 +165,9 @@
         "button_9zpdNz": {
           "type": "button",
           "settings": {
-            "button_label": "Find out more",
+            "button_label": "Read our story",
             "button_link": "shopify://pages/our-story",
-            "button_style_secondary": true
+            "button_style_secondary": false
           }
         }
       },
