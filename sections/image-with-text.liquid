@@ -93,19 +93,27 @@
                   {% if block.settings.member_packages_block %}
                     <div class="member-packages-tabs">
                       <ul class="tabs">
-                        <li class="tab active" data-tab="tab-1">Tab 1</li>
-                        <li class="tab" data-tab="tab-2">Tab 2</li>
-                        <li class="tab" data-tab="tab-3">Tab 3</li>
+                        <li class="tab active" data-tab="tab-1">
+                          <button>Tab 1</button>
+                        </li>
+                        <li class="tab" data-tab="tab-2">
+                          <button>Tab 2</button>
+                        </li>
+                        <li class="tab" data-tab="tab-3">
+                          <button>Tab 3</button>
+                        </li>
                       </ul>
                       <div class="tab-content">
                         <div id="tab-1" class="tab-pane active">
-                          <p>Content for Tab 1</p>
-                        </div>
-                        <div id="tab-2" class="tab-pane">
-                          <p>Content for Tab 2</p>
-                        </div>
-                        <div id="tab-3" class="tab-pane">
-                          <p>Content for Tab 3</p>
+                          <p class="price">£9.99</p>
+                          <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <ul>
+                              <li>Feature 1</li>
+                              <li>Feature 2</li>
+                              <li>Feature 3</li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>

@@ -1521,10 +1521,15 @@ initializeDetailsWithImages();
 
 function toggleTabs() {
   const tabs = document.querySelectorAll('.member-packages-tabs ul li');
-  tabs.forEach((tab) => {
+  const contents = document.querySelectorAll('.tab-content .tab-pane');
+
+  tabs.forEach((tab, index) => {
     tab.addEventListener('click', () => {
       tabs.forEach((t) => t.classList.remove('active'));
+      contents.forEach((content) => content.classList.remove('active'));
+
       tab.classList.add('active');
+      contents[index].classList.add('active');
     });
   });
 }
