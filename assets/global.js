@@ -1488,3 +1488,45 @@ class BulkAdd extends HTMLElement {
 if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
+
+function initializeDetailsWithImages() {
+  const details = document.querySelectorAll('details[data-img-src]');
+  if (!details.length) return;
+
+  details.forEach((detail) => {
+    detail.addEventListener('toggle', function () {
+      if (this.open) {
+        const imgSrc = this.getAttribute('data-img-src');
+        const imgTag = document.querySelector('.accordian--has-images img');
+        // append srcset image widths to the image url and create an array of src set images to append to the srcset attribute using this //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=165 165w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=360 360w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=535 535w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=750 750w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=1070 1070w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=1500 1500w"
+        const imgSrcSet = imgSrc
+          .replace(/width=\d+/g, (match) => {
+            const width = parseInt(match.split('=')[1]);
+            return `width=${width}`;
+          })
+          .split(',')
+          .map((src) => src.trim())
+          .join(', ');
+        // set the srcset attribute to the img tag
+        if (imgTag) {
+          imgTag.src = imgSrc;
+          imgTag.srcset = imgSrcSet;
+        }
+      }
+    });
+  });
+}
+
+initializeDetailsWithImages();
+
+function toggleTabs() {
+  const tabs = document.querySelectorAll('.member-packages-tabs ul li');
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach((t) => t.classList.remove('active'));
+      tab.classList.add('active');
+    });
+  });
+}
+
+toggleTabs();
