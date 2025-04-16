@@ -518,7 +518,13 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  padding-right: 3rem;
+  padding-right: 0;
+  padding-left: 7rem;
+}
+
+.image-with-text__grid--reverse .image-with-text__accordians {
+  padding-right: 7rem;
+  padding-left: 0;
 }
 
 /* Light styling for presentation */
