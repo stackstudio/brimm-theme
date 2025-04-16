@@ -23,14 +23,14 @@
         "heading_znjJDG": {
           "type": "heading",
           "settings": {
-            "heading": "OUR Story",
+            "heading": "Founder members",
             "heading_size": "headline-extra"
           }
         },
         "text_zNbwQe": {
           "type": "text",
           "settings": {
-            "text": "The story and team behind BRiMM",
+            "text": "When you join BRiMM as a Founder Member, you’re joining a collective that believes in doing more with less—and doing it beautifully.",
             "text_style": "body"
           }
         }
@@ -59,33 +59,24 @@
         "heading_QpRFyL": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Live Bright, Tread Light: Planet-Positive Living",
             "heading_size": "h1"
           }
         },
         "text_k4Jj7X": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<h3>BRiMM blends style and purpose, redefining sustainable living. With carefully curated products, and inspiring stories. We're a collective that proves living within limits, isn't living less.</h3><p>Explore a low impact life with our sustainable lifestyle journal. <br/><br/>Transition to a sustainable lifestyle with our Reset boxes across home, beauty and pantry.<br/><br/>Environmental experts have created our 89-point (wow, so specific) vetting process.  Whether it's beauty, home or pantry - our products make Planet Positive living joyful, and easy.<br/><br/>Designed with purpose, for purpose.</p>",
             "text_style": "body"
-          }
-        },
-        "button_baaXUa": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_QpRFyL",
-        "text_k4Jj7X",
-        "button_baaXUa"
+        "text_k4Jj7X"
       ],
       "settings": {
-        "image": "shopify://shop_images/Image.jpg",
+        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
         "video_embed": "",
         "has_background": true,
         "image_label": "",
@@ -124,6 +115,7 @@
         "heading_DfTWyy",
         "text_MV9exf"
       ],
+      "disabled": true,
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/hs53ar40rj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "has_background": true,
@@ -242,6 +234,7 @@
         "column_h8Gm7G",
         "column_jTU94U"
       ],
+      "disabled": true,
       "settings": {
         "title": "OUR TEAM",
         "heading_size": "h1",
@@ -265,21 +258,28 @@
         "heading_89CfR4": {
           "type": "heading",
           "settings": {
-            "heading": "THE FOUNDATION",
+            "heading": "Founder member packages",
             "heading_size": "h1"
           }
         },
         "text_tXmU8m": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
             "text_style": "body"
+          }
+        },
+        "member_packages_L9wMf6": {
+          "type": "member_packages",
+          "settings": {
+            "member_packages_block": false
           }
         }
       },
       "block_order": [
         "heading_89CfR4",
-        "text_tXmU8m"
+        "text_tXmU8m",
+        "member_packages_L9wMf6"
       ],
       "settings": {
         "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
