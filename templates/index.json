@@ -115,7 +115,7 @@
         "paragraph_UFAVQ7": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Our founder membership is launching soon, sign up to get the scoop.</p><p>You’ll also get our weekly newsletter full of Planet Positive design, slow-travel, fashion, beauty and food goodness. Oh, and a fresh playlist each week.</p><p><br/>Ready to team up and turn the tide?</p>",
+            "text": "<p>Our founder membership is launching soon, sign up to get the scoop.</p><p></p><p>You’ll also get our weekly newsletter full of Planet Positive design, slow-travel, fashion, beauty and food goodness. Oh, and a fresh playlist each week.</p><p><br/>Ready to team up and turn the tide?</p>",
             "text_style": "body"
           }
         },
