@@ -41,13 +41,13 @@
       ],
       "settings": {
         "image": "shopify://shop_images/BRiMM_CAD_NL.png",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 60,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
