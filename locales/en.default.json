@@ -68,8 +68,8 @@
     "last_name": "Surname",
     "email": "Email",
     "phone": "Phone number",
-    "terms": "By joining, you agree to receive BRiMMs' newsletters. Unsubscribe any time at the bottom of the newsletter. Read more in Privacy Policy ",
-    "success_message": "You are now subscribed to the BRiMM Newsletter."
+    "terms": "By joining, you agree to receive news from BRiMM. You can unsubscribe at any time.",
+    "success_message": "From here on out, we’ll be in touch with our weekly newsletter as well as more info about BRiMM as we gear up for launch. Check your spam settings so you never miss a thing and check out our newsletter archive to see what you've missed."
   },
   "accessibility": {
     "skip_to_text": "Skip to content",
