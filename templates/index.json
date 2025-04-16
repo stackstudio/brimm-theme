@@ -381,14 +381,6 @@
             "text_style": "body"
           }
         },
-        "button_3p6L7P": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
         "member_packages_wxQx7L": {
           "type": "member_packages",
           "settings": {
@@ -399,7 +391,6 @@
       "block_order": [
         "heading_Vmny6m",
         "text_LdM7Ua",
-        "button_3p6L7P",
         "member_packages_wxQx7L"
       ],
       "name": "t:sections.image-with-text.presets.name",
