@@ -1,0 +1,393 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_mmcKXb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_znjJDG": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR Story",
+            "heading_size": "headline-extra"
+          }
+        },
+        "text_zNbwQe": {
+          "type": "text",
+          "settings": {
+            "text": "The story and team behind BRiMM",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_znjJDG",
+        "text_zNbwQe"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/videoframe_13550.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_kV37Vn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QpRFyL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_k4Jj7X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_baaXUa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QpRFyL",
+        "text_k4Jj7X",
+        "button_baaXUa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_GG3a9F": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DfTWyy": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR STORY",
+            "heading_size": "h1"
+          }
+        },
+        "text_MV9exf": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>We need a new approach. Where living sustainably isn't a sacrifice. Where each purchase we make mitigates climate impact.</h3><p>BRiMM was born out of frustration. We felt an urgent need to DO SOMETHING about the climate crisis but also felt the impossibility of making a difference. We struggled to find un-evil products that really work, which also happen to be Planet Positive. And we were underwhelmed by the thought of a life with no sequins and no travel.  So, we set out to build a better way of buying and being. Where living within limits isn’t living less.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DfTWyy",
+        "text_MV9exf"
+      ],
+      "settings": {
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/hs53ar40rj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_8pNr8C": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nGgJcL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1c951587b72ecbc730903499b6f7b697.jpg",
+            "title": "James Haycock",
+            "text": "<p>Exited founder, angel investor and the vision behind BRiMM. James has been at the forefront of the London design scene for over a decade. Bringing together bright minds, building outstanding teams, and the best workplace culture you could ask for.</p>",
+            "image_label": "Founder & CEO",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9wgh4D": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/835cd15dc1c8c0eba996a2888cd47c5a.jpg",
+            "title": "Christabel Biella",
+            "text": "<p>With 20+ years experience of ecommerce startups and scale ups, Christabel brings rigour and focus across commercial, finance, supply chain and operations. She’s the glue between much of what we do at BRiMM.</p>",
+            "image_label": "Commercial & Ops",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aB9M6E": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/8507aca4b80fe21d90977ecff5c1fd5a.jpg",
+            "title": "Dan Kolodziej",
+            "text": "<p>Working with the likes of L’Oreal, Penhaligons and Puig to create new digital experiences across retail and ecommerce, Dan likes to roll up his sleeves and wear many hats. (Both literally and figuratively) He also creates new startups from scratch for CPG brands (handy really).</p>",
+            "image_label": "Product & Experience",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FaEmpF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/32bec42d1fa8e0c4893840db4e14ff67.jpg",
+            "title": "Becky Lucas",
+            "text": "<p>Vogue, Time Out, Condé Naste Traveller and Cosmopolitan. You name it, Becky’s worked with them. She knows what's going on, and how to write about it. Head honcho for our content, editorial and awesome newsletter (sign up if you haven't already, it’s ace).</p>",
+            "image_label": "Content & Editorial",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FaJEyV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/e2c61e0f66266d1faa78767eb70d2612.jpg",
+            "title": "Sam Zimmerman",
+            "text": "<p>Beauty and brand consultant working with the likes of Tatler, Stylist and Grazia. Sam brings oodles of experience, carefully curating our beauty products. You can often see her in the Director chair when we shoot photos and videos, too.</p>",
+            "image_label": "Consultant",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4gnWxR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/69f001530b402b201d11a9280573db5d.jpg",
+            "title": "Tom Berry",
+            "text": "<p>With over 20 years in sustainability, strategy, and innovation, Tom has led sustainability programs at Innocent Drinks and FARFETCH. He also sits on the steering committee for circular fashion innovation at the British Fashion Council.</p>",
+            "image_label": "Advisor",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h8Gm7G": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1f069cb946f207a5188ff079eba6f041.jpg",
+            "title": "Tiffanie Darke",
+            "text": "<p>Tiffanie Darke is a British writer and fashion journalist, renowned for her advocacy in sustainable fashion. Heard of the rule of 5 in fashion? Yeah, that's her. She’s served as the fashion editor for The Telegraph, The Times and Harrods. She once told Dan she liked his coat. He was made up.</p>",
+            "image_label": "Advisor",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jTU94U": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h1>BECOME A FOUNDING MEMBER</h1><p>Take back your agency and jump in as one of 1000 BRiMM Founder Members.<br/><br/>You'll get to shape BRiMM from the ground up. And every purchase with BRiMM is a vote on the future you want.<br/><br/>You'll also decide where we invest 10% of profits, helping your new favourite brands hit net zero - making our margin matter.<br/><br/>Ready to team up and turn the tide?<br/><br/>Sign up and get on the waitlist for our founder member launch.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nGgJcL",
+        "column_9wgh4D",
+        "column_aB9M6E",
+        "column_FaEmpF",
+        "column_FaJEyV",
+        "column_4gnWxR",
+        "column_h8Gm7G",
+        "column_jTU94U"
+      ],
+      "settings": {
+        "title": "OUR TEAM",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_XhCmWW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_89CfR4": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE FOUNDATION",
+            "heading_size": "h1"
+          }
+        },
+        "text_tXmU8m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_89CfR4",
+        "text_tXmU8m"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_A8dx4k": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EDaUXG": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE FOUNDATION",
+            "heading_size": "h1"
+          }
+        },
+        "text_JEayR6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EDaUXG",
+        "text_JEayR6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4HfRc9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_F4ah4c": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE FOUNDATION",
+            "heading_size": "h1"
+          }
+        },
+        "text_4HWWkD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_F4ah4c",
+        "text_4HWWkD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_mmcKXb",
+    "image_with_text_kV37Vn",
+    "image_with_text_GG3a9F",
+    "multicolumn_8pNr8C",
+    "image_with_text_XhCmWW",
+    "image_with_text_A8dx4k",
+    "image_with_text_4HfRc9"
+  ]
+}
