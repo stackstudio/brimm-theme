@@ -14,7 +14,7 @@ class KlaviyoSignupForm extends HTMLElement {
     this.form = this.querySelector('form');
     this.submitButton = this.form?.querySelector('[type="submit"]');
     this.formMessages = this.querySelector('.form__messages');
-    this.succesMessage = this.getElement('.newsletter-success');
+    this.succesMessage = document.querySelector('.newsletter-success');
     this.termsCTA = this.querySelector('.newsletter-form__terms-label');
     this.terms = this.querySelector('.newsletter-form__terms-label');
     this.termsText = this.querySelector('.newsletter-form__terms-label-text');

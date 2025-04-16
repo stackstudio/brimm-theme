@@ -76,6 +76,16 @@
       <div class='banner__content--form' {{ block.shopify_attributes }}>
         {% render 'klaviyo-signup-form' %}
       </div>
+      <div class='newsletter-success' style='display: none;width: 100%;margin:0;padding:0;'>
+        <div class='newsletter-form__fields'>
+          <div class='form__messages banner__content--text'>
+            <h2 class='email-signup-banner__heading h1'>Thanks for coming onboard.</h2>
+            <div class='newsletter__subheading rte body-medium'>
+              {{ 'newsletter.success_message' | t }}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
