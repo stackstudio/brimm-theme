@@ -272,7 +272,7 @@
         "member_packages_L9wMf6": {
           "type": "member_packages",
           "settings": {
-            "member_packages_block": false
+            "member_packages_block": true
           }
         }
       },
