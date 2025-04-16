@@ -305,7 +305,7 @@
         "heading_EDaUXG": {
           "type": "heading",
           "settings": {
-            "heading": "THE FOUNDATION",
+            "heading": "featured founder members",
             "heading_size": "h1"
           }
         },
@@ -321,7 +321,6 @@
         "heading_EDaUXG",
         "text_JEayR6"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
         "video_embed": "",
