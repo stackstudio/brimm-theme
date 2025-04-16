@@ -74,6 +74,11 @@
   max-width: 72rem;
 }
 
+ul li.multicolumn-list__item:last-child {
+  background: #e6e6d1;
+  padding: 20px 10px;
+}
+
 .multicolumn-list__item--empty {
   display: none;
 }
