@@ -578,7 +578,8 @@ details[open] summary::after {
   margin: 0;
   padding: 0;
 }
-.member-packages-tabs ul li button {
+.member-packages-tabs ul li button,
+.waitlist-cta {
   display: block;
   padding: 1rem 2rem;
   background-color: transparent;
@@ -637,4 +638,20 @@ details[open] summary::after {
   line-height: 120%; /* 16.8px */
   letter-spacing: -0.28px;
   color: #000000;
+}
+
+.image-with-text__button-wrapper .button {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: var(--color-brimm-beige);
+  text-decoration: none;
+  color: #000000;
+  appearance: none;
+
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: -0.28px;
 }

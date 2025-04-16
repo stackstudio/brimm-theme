@@ -93,30 +93,96 @@
                   {% if block.settings.member_packages_block %}
                     <div class="member-packages-tabs">
                       <ul class="tabs">
-                        <li class="tab active" data-tab="tab-1">
-                          <button>Tab 1</button>
+                        <li class="tab active" data-tab="base-camp">
+                          <button>Base Camp</button>
                         </li>
-                        <li class="tab" data-tab="tab-2">
-                          <button>Tab 2</button>
+                        <li class="tab" data-tab="explorer">
+                          <button>Explorer</button>
                         </li>
-                        <li class="tab" data-tab="tab-3">
-                          <button>Tab 3</button>
+                        <li class="tab" data-tab="guest-of-honour">
+                          <button>Guest of Honour</button>
+                        </li>
+                        <li class="tab" data-tab="rambler">
+                          <button>Rambler</button>
+                        </li>
+                        <li class="tab" data-tab="peak-vibes">
+                          <button>Peak Vibes</button>
+                        </li>
+                        <li class="tab" data-tab="pay-what-you-want">
+                          <button>Pay What You Want</button>
                         </li>
                       </ul>
                       <div class="tab-content">
-                        <div id="tab-1" class="tab-pane active">
-                          <p class="price">£9.99</p>
+                        <div id="base-camp" class="tab-pane active">
+                          <p class="price">£180</p>
                           <div class="content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Yes, thats right. You get all the Planet Positive Perks mentioned (worth about £360 a year) for a one off payment.</p>
+                          </div>
+                        </div>
+                        <div id="explorer" class="tab-pane">
+                          <p class="price">£250</p>
+                          <div class="content">
+                            <p>With the Explorer package you also get a free beauty, home or pantry Reset box. Carefully curated and vetted products - good for people and planet.</p>
                             <ul>
-                              <li>Feature 1</li>
-                              <li>Feature 2</li>
-                              <li>Feature 3</li>
+                              <li>Free reset box</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id="guest-of-honour" class="tab-pane">
+                          <p class="price">£350</p>
+                          <div class="content">
+                            <p>Lets share a meal together at The Cordia Collective (Yes, another Collective) a new culinary venture from Green Michelin-starred chef Chantelle Nicholson. Located within Borde Hill - the stunningly beautiful and historic 2,300-acre estate in West Sussex
+                              <br>Expect dynamic and multifaceted cuisine (and conversation) championing locally sourced, seasonal food.</p>
+                            <ul>
+                              <li>Dinner with Brimm team</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id="rambler" class="tab-pane">
+                          <p class="price">£500</p>
+                          <div class="content">
+                            <p>Andy Cato, one-half of the iconic duo Groove Armada, sold his music rights to create a regenerative farm after reading about the horrors of the industrial food system.
+                              <br><br>
+                              Wildfarmed transforms lives and landscapes by producing delicious, healthy, and regenerative flour, bread, pizza, and everything in between.
+                              <br><br>
+                              BRiMM will hook you up with a private tour of a Wildfarmed regenerative farm. (Rave in a barn not included)</p>
+                            <ul>
+                              <li>Free reset box</li>
+                              <li>Dinner with Brimm team</li>
+                              <li>Private tour of regenerative farm</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id="peak-vibes" class="tab-pane">
+                          <p class="price">£1,000</p>
+                          <div class="content">
+                            <p>Created to nurture and transform health and wellbeing, THE BOTHY, is a space designed to return guests to a simpler time - A SLOWER TIME - where modern concerns melt away, making room for deeper connections to ourselves, to each other and to our natural surroundings.
+                              <br><br>
+                              Let BRiMM treat you to a special visit to this Hampshire gem.</p>
+                            <ul>
+                              <li>Free reset box</li>
+                              <li>Dinner with Brimm team</li>
+                              <li>Private tour of regenerative farm</li>
+                              <li>Wildsmith Bothy Spa experience</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id="pay-what-you-want" class="tab-pane">
+                          <p class="price">£?</p>
+                          <div class="content">
+                            <p>Lorem ipsum</p>
+                            <ul>
+                              <li>Free reset box</li>
+                              <li>Dinner with Brimm team</li>
+                              <li>Private tour of regenerative farm</li>
+                              <li>Wildsmith Bothy Spa experience</li>
+                              <li>Other experiences...</li>
                             </ul>
                           </div>
                         </div>
                       </div>
                     </div>
+                    <referral-url-widget ucid='oDbFhWOvCWRI9LOOUKZH39m3xWU'></referral-url-widget>
                   {% endif %}
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
