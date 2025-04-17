@@ -52,7 +52,7 @@
       <script src='{{ 'animations.js' | asset_url }}' defer='defer'></script>
     {%- endif -%}
 
-    {{ content_for_header }}
+    <!-- OutlinkStickyBtn CODE Start -->{% if template.name == 'product'%}{% render('outlink-sticky') %}{% endif %}<!-- OutlinkStickyBtn END --> {{ content_for_header }}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
