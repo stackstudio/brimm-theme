@@ -393,7 +393,7 @@
         "text_LdM7Ua",
         "member_packages_wxQx7L"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Image.jpg",
         "video_embed": "",
