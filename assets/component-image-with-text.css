@@ -99,7 +99,7 @@
   height: 100%;
   justify-content: center;
   align-self: center;
-  padding: 4rem calc(0rem / var(--font-body-scale)) 5rem;
+  padding: 4rem calc(0rem / var(--font-body-scale)) 0rem;
   position: relative;
   z-index: 1;
 
@@ -680,4 +680,16 @@ details[open] summary::after {
   font-weight: 500;
   line-height: 120%; /* 16.8px */
   letter-spacing: -0.28px;
+}
+
+.image-with-text__media {
+  @media screen and (max-width: 750px) {
+    padding-bottom: 70% !important;
+  }
+}
+
+.image-with-text__media .media > img {
+  @media screen and (max-width: 750px) {
+    object-position: top center;
+  }
 }

@@ -63,6 +63,16 @@
   }
 }
 
+@media screen and (min-width: 750px) {
+  .banner--medium {
+    height: 90vh;
+  }
+}
+
+.banner--medium {
+  height: 85vh;
+}
+
 @media screen and (max-width: 749px) {
   .banner:not(.banner--stacked) {
     flex-direction: row;
