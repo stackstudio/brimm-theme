@@ -1,14 +1,17 @@
-<div class="partner-logos">
-  {% for block in section.blocks %}
-    <div class="partner-logo">
-      {% if block.settings.logo_image %}
-        <img
-          src="{{ block.settings.logo_image | image_url: width: block.settings.logo_width }}"
-          alt="{{ block.settings.alt_text | escape }}"
-          style="width: {{ block.settings.logo_width }}px; height: auto;" />
-      {% endif %}
-    </div>
-  {% endfor %}
+<div class="page-width">
+  <div class="partner-logos">
+    {% for block in section.blocks %}
+      <div class="partner-logo">
+        {% if block.settings.logo_image %}
+          <img
+            src="{{ block.settings.logo_image | image_url: width: block.settings.logo_width }}"
+            alt="{{ block.settings.alt_text | escape }}"
+            width="{{ block.settings.logo_width }}px"
+            height="auto" />
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
@@ -57,6 +60,20 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    padding: 7.5rem 5rem;
+    align-items: center;
+
+    @media screen and (max-width: 750px) {
+      padding: 3rem 2rem;
+    }
+  }
+
+  .partner-logo {
+    max-width: 150px;
+
+    @media screen and (max-width: 750px) {
+      width: 150px;
+    }
   }
 
   .partner-logo img {
