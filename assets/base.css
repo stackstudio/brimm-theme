@@ -866,7 +866,7 @@ summary::-webkit-details-marker {
 .title-wrapper-with-link {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 1rem;
   margin-bottom: 3rem;
   flex-wrap: wrap;

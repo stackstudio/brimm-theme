@@ -81,6 +81,13 @@
 ul li.multicolumn-list__item:last-child {
   background: #e6e6d1;
   padding: 20px 10px;
+  @media screen and (max-width: 750px) {
+    display: block;
+    width: 100%;
+    grid-column: 1 / -1; /* Ensures it spans the entire width of the grid */
+    margin-top: 20px; /* Adds spacing from the grid above */
+    max-width: 100%;
+  }
 }
 
 .multicolumn-list__item--empty {
