@@ -362,13 +362,53 @@
         "text_4HWWkD"
       ],
       "settings": {
-        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
+        "image": "shopify://shop_images/Image_588eae22-1f68-4c98-944f-eec3300e81ca.jpg",
         "video_embed": "",
         "has_background": true,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_BybLYy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UiP4P6": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Collective of Planet Optimists",
+            "heading_size": "h1"
+          }
+        },
+        "text_YUXiYX": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Want to join like minded souls for a Brimm dinner party at that cool new plant based restaurant? Maybe you want to vote where we invest our profits, helping our suppliers hit net zero?</h3><p>Well, we've setup a foundation where we invest profits into our suppliers. The first £100k is ready to go - solar power for our brands! The next £100k, well thats up to you...We want you to make our margin matter. Each purchase you make helps mitigate climate impact.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UiP4P6",
+        "text_YUXiYX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_588eae22-1f68-4c98-944f-eec3300e81ca.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -388,6 +428,7 @@
     "multicolumn_8pNr8C",
     "image_with_text_XhCmWW",
     "image_with_text_A8dx4k",
-    "image_with_text_4HfRc9"
+    "image_with_text_4HfRc9",
+    "image_with_text_BybLYy"
   ]
 }
