@@ -41,16 +41,16 @@
       ],
       "settings": {
         "image": "shopify://shop_images/KZSP10553.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "image_with_text_kV37Vn": {
@@ -235,6 +235,7 @@
       ],
       "settings": {
         "title": "OUR TEAM",
+        "text_block": "This isn't our first Rodeo. Each team member brings a unique perspective, experience and set of skills to BRiMM.",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
