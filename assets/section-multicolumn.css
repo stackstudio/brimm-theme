@@ -1,5 +1,5 @@
 .multicolumn {
-  padding: 0 5rem;
+  padding: 3rem 0rem;
 }
 
 .multicolumn .title {
@@ -8,6 +8,10 @@
 
 .multicolumn.no-heading .title {
   display: none;
+}
+
+.multicolumn p {
+  color: black;
 }
 
 .multicolumn .title-wrapper-with-link {

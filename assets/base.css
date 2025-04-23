@@ -892,7 +892,7 @@ summary::-webkit-details-marker {
 @media screen and (min-width: 990px) {
   .title,
   .title-wrapper-with-link {
-    margin: 5rem 0 3rem;
+    margin: 5rem 0 4rem;
   }
 
   .title--primary {
@@ -900,7 +900,7 @@ summary::-webkit-details-marker {
   }
 
   .title-wrapper-with-link {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .title-wrapper-with-link .title {
