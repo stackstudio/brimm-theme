@@ -1,4 +1,11 @@
 <div class="page-width">
+  {%- unless section.settings.block_text == blank -%}
+    <div class='title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title'>
+      <h2 class='title inline-richtext'>
+        {{ section.settings.block_text }}
+      </h2>
+    </div>
+  {%- endunless -%}
   <div class="partner-logos">
     {% for block in section.blocks %}
       <div class="partner-logo">
@@ -17,7 +24,14 @@
 {% schema %}
   {
     "name": "Partner Logos",
-    "settings": [],
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "block_text",
+        "default": "Our Partners",
+        "label": "Block text"
+      }
+    ],
     "blocks": [
       {
         "type": "logo",
@@ -60,11 +74,11 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    padding: 7.5rem 5rem;
+    padding: 7.5rem 5rem 0;
     align-items: center;
 
     @media screen and (max-width: 750px) {
-      padding: 3rem 2rem;
+      padding: 3rem 2rem 0;
     }
   }
 
