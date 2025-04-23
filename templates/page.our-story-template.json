@@ -345,14 +345,14 @@
         "heading_F4ah4c": {
           "type": "heading",
           "settings": {
-            "heading": "THE FOUNDATION",
+            "heading": "Planet Positive products across beauty, home and pantry.",
             "heading_size": "h1"
           }
         },
         "text_4HWWkD": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<h3>We are an enough store, not an everything store. Our 'Reset Boxes' offer a curated selection of products to seamlessly transition you to a more sustainable lifestyle -without living less.</h3><p>Discover curated beauty picks by Sam Freedman of Tatler, Grazia, and Stylist in our Beauty Reset Box. And with Brimm's 89-point product vetting process, we do the hard work so Reset Boxes make you and the planet smile.</p>",
             "text_style": "body"
           }
         }
