@@ -40,7 +40,7 @@
         "text_zNbwQe"
       ],
       "settings": {
-        "image": "shopify://shop_images/KZSP10553.jpg",
+        "image": "shopify://shop_images/DTS_IRL_ESCAPISM_Daniel_Faro_Photos_ID8797.jpg",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -59,14 +59,14 @@
         "heading_QpRFyL": {
           "type": "heading",
           "settings": {
-            "heading": "Our story",
+            "heading": "<strong>Live bright, tread light</strong>",
             "heading_size": "h1"
           }
         },
         "text_k4Jj7X": {
           "type": "text",
           "settings": {
-            "text": "<h3>We need a new approach. Where living sustainably isn't a sacrifice. Where each purchase we make mitigates climate impact.</h3><p>BRiMM was born out of frustration. We felt an urgent need to DO SOMETHING about the climate crisis but also felt the impossibility of making a difference. We struggled to find un-evil products that really work, which also happen to be Planet Positive. And we were underwhelmed by the thought of a life with no sequins and no travel.<br/><br/>So, we set out to build a better way of buying and being. Where living within limits isn’t living less.</p>",
+            "text": "<h4>Caring about the planet can feel like you have to do less. Travel less, buy less, choose less. Except, what if that’s all a bit joy-less?</h4><p>At BRiMM, we’re less about less and all about enough. In fact, scrap that, we’re all about more. </p><p>Because if anything, planet positivity calls for more care, more craft, more colour.</p>",
             "text_style": "body"
           }
         }
@@ -76,7 +76,7 @@
         "text_k4Jj7X"
       ],
       "settings": {
-        "image": "shopify://shop_images/Image.jpg",
+        "image": "shopify://shop_images/Screenshot_2025-04-01_at_20.26.06.png",
         "video_embed": "",
         "has_background": true,
         "image_label": "",
@@ -99,14 +99,14 @@
         "heading_DfTWyy": {
           "type": "heading",
           "settings": {
-            "heading": "OUR STORY",
+            "heading": "<strong>Everything humans do has an impact</strong>",
             "heading_size": "h1"
           }
         },
         "text_MV9exf": {
           "type": "text",
           "settings": {
-            "text": "<h3>We need a new approach. Where living sustainably isn't a sacrifice. Where each purchase we make mitigates climate impact.</h3><p>BRiMM was born out of frustration. We felt an urgent need to DO SOMETHING about the climate crisis but also felt the impossibility of making a difference. We struggled to find un-evil products that really work, which also happen to be Planet Positive. And we were underwhelmed by the thought of a life with no sequins and no travel.  So, we set out to build a better way of buying and being. Where living within limits isn’t living less.</p>",
+            "text": "<h4>If you care about the planet you need to think across all aspects of your life - which is why we are. </h4><p>From fashion to food, beauty to home (and beyond), BRiMM is your shortcut to a planet-positive life.</p><p><br/>We dig up the brands, people, and ideas shaping a brighter future—curating only the best, most beautiful, and most innovative. Everything is vetted, so you can shop with confidence and skip the greenwashing.<br/></p><p>We do the hunting. You do the living. Welcome to the joy of less, with none of the compromise.</p>",
             "text_style": "body"
           }
         }
@@ -152,7 +152,7 @@
             "image": "shopify://shop_images/835cd15dc1c8c0eba996a2888cd47c5a.jpg",
             "title": "Christabel Biella",
             "text": "<p>With 20+ years experience of ecommerce startups and scale ups, Christabel brings rigour and focus across commercial, finance, supply chain and operations. She’s the glue between much of what we do at BRiMM.</p>",
-            "image_label": "Commercial & Ops",
+            "image_label": "Head of Commercial and Operations",
             "link_label": "",
             "link": ""
           }
@@ -185,7 +185,7 @@
             "image": "shopify://shop_images/e2c61e0f66266d1faa78767eb70d2612.jpg",
             "title": "Sam Zimmerman",
             "text": "<p>Beauty and brand consultant working with the likes of Tatler, Stylist and Grazia. Sam brings oodles of experience, carefully curating our beauty products. You can often see her in the Director chair when we shoot photos and videos, too.</p>",
-            "image_label": "Consultant",
+            "image_label": "Head of Beauty",
             "link_label": "",
             "link": ""
           }
@@ -196,7 +196,7 @@
             "image": "shopify://shop_images/69f001530b402b201d11a9280573db5d.jpg",
             "title": "Tom Berry",
             "text": "<p>With over 20 years in sustainability, strategy, and innovation, Tom has led sustainability programs at Innocent Drinks and FARFETCH. He also sits on the steering committee for circular fashion innovation at the British Fashion Council.</p>",
-            "image_label": "Advisor",
+            "image_label": "Sustainability Advisor",
             "link_label": "",
             "link": ""
           }
@@ -207,7 +207,7 @@
             "image": "shopify://shop_images/1f069cb946f207a5188ff079eba6f041.jpg",
             "title": "Tiffanie Darke",
             "text": "<p>Tiffanie Darke is a British writer and fashion journalist, renowned for her advocacy in sustainable fashion. Heard of the rule of 5 in fashion? Yeah, that's her. She’s served as the fashion editor for The Telegraph, The Times and Harrods. She once told Dan she liked his coat. He was made up.</p>",
-            "image_label": "Advisor",
+            "image_label": "Editorial and Fashion Advisor",
             "link_label": "",
             "link": ""
           }
@@ -235,7 +235,7 @@
       ],
       "settings": {
         "title": "OUR TEAM",
-        "text_block": "This isn't our first Rodeo. Each team member brings a unique perspective, experience and set of skills to BRiMM.",
+        "text_block": "A group of cultural magpies that care deeply about the planet and a joyful, vibrant future. We bring decades of experience in retail, sustainability, media and startups to help shape a planet positive world.",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -257,14 +257,14 @@
         "heading_EDaUXG": {
           "type": "heading",
           "settings": {
-            "heading": "THE FOUNDATION",
+            "heading": "10% for the planet",
             "heading_size": "h1"
           }
         },
         "text_JEayR6": {
           "type": "text",
           "settings": {
-            "text": "<h3>The BRiMM Regenerative Foundation.</h3><p>At the heart of BRiMM lies a bold ambition: to create a sustainable future, not just for individuals but for the brands you love. The BRiMM Regenerative Foundation is our commitment to accelerating this transformation. By allocating 10% of our revenue to the foundation, we empower the brands in our community to lower their impact faster, creating a ripple effect that benefits both people and the planet.<br/><br/>How It Works?</p><ol><li>A Revolutionary Feedback Model: When you shop on BRiMM, you’re not just reducing your own footprint—you’re actively helping the brands you buy from reduce theirs. This unique feedback loop ensures that every purchase drives systemic change.<br/><br/></li><li>Investing in Impact: The foundation collaborates with our brand community to identify opportunities for collective progress. We work together to map their impact roadmaps and fund initiatives that accelerate their journey toward sustainability and regeneration.<br/><br/></li><li>Building a Movement: By fostering collaboration among brands, we create a shared ecosystem of purpose-driven innovation. This isn’t just about individual actions—it’s about reimagining entire industries.</li></ol>",
+            "text": "<h3>10% equity and 10% revenue goes to the planet</h3><p>We're designed on purpose for purpose. Going beyond </p><p><strong>Earth equity</strong></p><p>Mother nature has a seat at our table. </p><p><strong>Margin that matters</strong></p><p>We're setting out to invest 10% of our annual revenue in initiatives with the brands we stock to help them lower their impact faster. So as a member you lower your impact with us and in turn lower the impact of the brands you love. </p><p>And our members can vote on this.</p><p></p><p></p><p></p><p></p>",
             "text_style": "body"
           }
         }
@@ -297,14 +297,14 @@
         "heading_F4ah4c": {
           "type": "heading",
           "settings": {
-            "heading": "Planet Positive products across beauty, home and pantry.",
+            "heading": "Shopping isn't the answer but it has a role to play",
             "heading_size": "h1"
           }
         },
         "text_4HWWkD": {
           "type": "text",
           "settings": {
-            "text": "<h3>We are an enough store, not an everything store. Our 'Reset Boxes' offer a curated selection of products to seamlessly transition you to a more sustainable lifestyle -without living less.</h3><p>Discover curated beauty picks by Sam Freedman of Tatler, Grazia, and Stylist in our Beauty Reset Box. And with Brimm's 89-point product vetting process, we do the hard work so Reset Boxes make you and the planet smile.</p>",
+            "text": "<h4><strong>Commerce today is extractive, but could it become additive?</strong></h4><p>Our ambition is to create a regenerative business, where we give back more than we take. </p>",
             "text_style": "body"
           }
         }
