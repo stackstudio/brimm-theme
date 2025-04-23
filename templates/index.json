@@ -102,6 +102,41 @@
         "padding_bottom": 36
       }
     },
+    "partner_logos_xMwzLh": {
+      "type": "partner-logos",
+      "blocks": {
+        "logo_mQKXqC": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/favicon-50x50.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 100
+          }
+        },
+        "logo_FNy6EJ": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/B_logo_square_orangelilac_beb5824d-04d3-4cc6-b5cb-c02fa250daff.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_B9Qmqw": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        }
+      },
+      "block_order": [
+        "logo_mQKXqC",
+        "logo_FNy6EJ",
+        "logo_B9Qmqw"
+      ],
+      "settings": {}
+    },
     "email_signup_banner_NjiKDf": {
       "type": "email-signup-banner",
       "blocks": {
@@ -416,6 +451,7 @@
   "order": [
     "image_banner_RULnrW",
     "image_with_text_ihrzNg",
+    "partner_logos_xMwzLh",
     "email_signup_banner_NjiKDf",
     "image_with_text_yTMkNL",
     "image_with_text_AY7XfF",
