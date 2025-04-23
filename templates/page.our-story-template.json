@@ -418,6 +418,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_47zUeA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KPkj6b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Featured founder members",
+            "heading_size": "h1"
+          }
+        },
+        "text_7Rkq3w": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join Planet Positive movers and shakers in our Founder Member club. A bunch of inspiring folks are already helping shape BRiMM and the future of conscious consumerism. Check 'em out.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KPkj6b",
+        "text_7Rkq3w"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -429,6 +469,7 @@
     "image_with_text_XhCmWW",
     "image_with_text_A8dx4k",
     "image_with_text_4HfRc9",
-    "image_with_text_BybLYy"
+    "image_with_text_BybLYy",
+    "image_with_text_47zUeA"
   ]
 }
