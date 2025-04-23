@@ -40,14 +40,14 @@
         "text_Ymx83t"
       ],
       "settings": {
-        "image": "shopify://shop_images/DTS_IRL_ESCAPISM_Daniel_Faro_Photos_ID8797.jpg",
+        "image": "shopify://shop_images/KZHPE12386.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -171,7 +171,9 @@
         "logo_YPwt78",
         "logo_xEwxGT"
       ],
-      "settings": {}
+      "settings": {
+        "block_text": "Our Partners"
+      }
     },
     "email_signup_banner_NjiKDf": {
       "type": "email-signup-banner",
