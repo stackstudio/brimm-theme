@@ -59,30 +59,21 @@
         "heading_QpRFyL": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Our story",
             "heading_size": "h1"
           }
         },
         "text_k4Jj7X": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<h3>We need a new approach. Where living sustainably isn't a sacrifice. Where each purchase we make mitigates climate impact.</h3><p>BRiMM was born out of frustration. We felt an urgent need to DO SOMETHING about the climate crisis but also felt the impossibility of making a difference. We struggled to find un-evil products that really work, which also happen to be Planet Positive. And we were underwhelmed by the thought of a life with no sequins and no travel.<br/><br/>So, we set out to build a better way of buying and being. Where living within limits isn’t living less.</p>",
             "text_style": "body"
-          }
-        },
-        "button_baaXUa": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_QpRFyL",
-        "text_k4Jj7X",
-        "button_baaXUa"
+        "text_k4Jj7X"
       ],
       "settings": {
         "image": "shopify://shop_images/Image.jpg",
@@ -255,46 +246,6 @@
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_XhCmWW": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_89CfR4": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE FOUNDATION",
-            "heading_size": "h1"
-          }
-        },
-        "text_tXmU8m": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_89CfR4",
-        "text_tXmU8m"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "image_label": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -473,7 +424,6 @@
     "image_with_text_kV37Vn",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
-    "image_with_text_XhCmWW",
     "image_with_text_A8dx4k",
     "image_with_text_4HfRc9",
     "image_with_text_BybLYy",
