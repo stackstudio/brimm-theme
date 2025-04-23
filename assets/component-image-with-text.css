@@ -688,7 +688,7 @@ details[open] summary::after {
   }
 }
 
-.image-with-text__media .media > img {
+.image-with-text__media > img {
   @media screen and (max-width: 750px) {
     object-position: top center;
   }
