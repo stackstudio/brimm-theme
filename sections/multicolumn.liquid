@@ -35,6 +35,9 @@
           <h2 class='title inline-richtext {{ section.settings.heading_size }}'>
             {{ section.settings.title }}
           </h2>
+          {%- if section.settings.text_block != blank -%}
+            <div class='rte body-extra-20 text_block'>{{ section.settings.text_block }}</div>
+          {%- endif -%}
           {%- if section.settings.button_label != blank and show_mobile_slider -%}
             <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
               {{- section.settings.button_label | escape -}}
@@ -134,14 +137,12 @@
                   {%- endif -%}
                 </div>
               </div>
-              {% comment %} check if block is last block {% endcomment %}
               {%- if forloop.last == true -%}
                 {%- assign last_block = true -%}
               {%- else -%}
                 {%- assign last_block = false -%}
               {%- endif -%}
               {%- if last_block == true -%}
-                <h1>last block</h1>
               {%- endif -%}
             </li>
           {%- endfor -%}
@@ -206,6 +207,12 @@
         "id": "title",
         "default": "t:sections.multicolumn.settings.title.default",
         "label": "t:sections.multicolumn.settings.title.label"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "text_block",
+        "default": "t:sections.multicolumn.settings.text_block.default",
+        "label": "t:sections.multicolumn.settings.text_block.label"
       },
       {
         "type": "select",
@@ -446,3 +453,10 @@
     ]
   }
 {% endschema %}
+
+{% stylesheet %}
+  .text_block {
+    max-width: 50%;
+    color: black;
+  }
+{% endstylesheet %}

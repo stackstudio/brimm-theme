@@ -468,6 +468,16 @@ blockquote {
   text-transform: uppercase;
 }
 
+.body-extra-20 {
+  /* Global/Headline/Extra Bold/20 */
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 24px */
+  letter-spacing: -0.4px;
+}
+
 .headline-extra-uppercase {
   /* Global/Headline/Extra Bold/40 */
   font-size: 36px;

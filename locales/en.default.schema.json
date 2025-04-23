@@ -2863,6 +2863,10 @@
           "label": "Heading",
           "default": "Multicolumn"
         },
+        "text_block": {
+          "label": "Text",
+          "default": "This isn't our first Rodeo. Each team member brings a unique perspective, experience and set of skills to BRiMM."
+        },
         "image_width": {
           "label": "Image width",
           "options__1": {
