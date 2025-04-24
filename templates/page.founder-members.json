@@ -600,7 +600,7 @@
           "settings": {
             "heading": "How does cashback work?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>We offer 10% cashback to our members on all purchases they make, unless credit has been applied to the transaction.</p><p>This cashback is paid quarterly into your account and can be used to bring down the cost of future transactions.</p><p></p>",
             "page": ""
           }
         },
