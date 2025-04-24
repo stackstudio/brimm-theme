@@ -23,14 +23,14 @@
         "heading_znjJDG": {
           "type": "heading",
           "settings": {
-            "heading": "Founder members",
+            "heading": "Founders wanted",
             "heading_size": "headline-extra"
           }
         },
         "text_zNbwQe": {
           "type": "text",
           "settings": {
-            "text": "When you join BRiMM as a Founder Member, you’re joining a collective that believes in doing more with less—and doing it beautifully.",
+            "text": "Shape the future of planet positive living.",
             "text_style": "body"
           }
         }
@@ -53,32 +53,42 @@
         "show_text_below": true
       }
     },
-    "image_with_text_kV37Vn": {
+    "image_with_text_YpgqAN": {
       "type": "image-with-text",
       "blocks": {
-        "heading_QpRFyL": {
+        "heading_Ygz8L3": {
           "type": "heading",
           "settings": {
-            "heading": "Live Bright, Tread Light: Planet-Positive Living",
+            "heading": "Be one of the first to join a limited club with lifetime benefits",
             "heading_size": "h1"
           }
         },
-        "text_k4Jj7X": {
+        "text_R8XDWX": {
           "type": "text",
           "settings": {
-            "text": "<p>The BRiMM membership guides you towards a planet positive lifestyle, helping you lighten your footprint while widening your smile. </p><p>Ahead of our broader launch we’re offering limited places to climate optimists who can take an active role in shaping how we build and how we scale our impact. </p><p>Join brand founders, materials innovators, activists and academics in shaping a planet positive future. </p>",
+            "text": "<p>This is your front-row seat to a new way of living—where every purchase powers real change, and every member helps rewrite the rules. Founder Members aren’t just early adopters; you’re co-creators, community-builders, and the spark that lights the fuse.</p><p></p><h4>Ready to live bright, tread light and lead the charge?</h4>",
             "text_style": "body"
+          }
+        },
+        "button_fGwPKE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_QpRFyL",
-        "text_k4Jj7X"
+        "heading_Ygz8L3",
+        "text_R8XDWX",
+        "button_fGwPKE"
       ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
         "video_embed": "",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -86,9 +96,89 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
+        "collection_theme": "brimm-theme",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_qHbHYd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EQyzix": {
+          "type": "column",
+          "settings": {
+            "title": "LIFETIME TOP TIER MEMBERSHIP",
+            "text": "<p>Get all of the benefits of our top tier membership level. For life. For a one-off fee. Worth £360 annually*. No renewals, no fuss-just endless planet-positive perks.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eLWmrw": {
+          "type": "column",
+          "settings": {
+            "title": "YOUR IMPACT, MULTIPLIED",
+            "text": "<p>100% of your Founder fee goes straight into our Planet Fund, fueling clean energy and regenerative projects for the brands you love. You’ll vote on how it’s spent—think solar panels, supply chain innovation and more.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dw4Bx8": {
+          "type": "column",
+          "settings": {
+            "title": "A COMMUNITY LIKE NO OTHER",
+            "text": "<p>We're building a crew of planet optimists, pioneering brands and creative changemakers. This is where the action (and inspiration) happens. </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pAyeTH": {
+          "type": "column",
+          "settings": {
+            "title": "YOUR NAME IN LIGHTS (ISH)",
+            "text": "<p>Every founder gets their name immortalised on our site - a permanent badge of honour for helping build something better.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9ied3Q": {
+          "type": "column",
+          "settings": {
+            "title": "THE USUAL PERKS",
+            "text": "<ul><li>£120 annual credit on discovery and reset boxes</li><li>10% cashback on everything you spend*</li><li>10% of everything you spend invested in our planet fund</li><li>Member only content</li><li>Early access to member events, limited products and more</li><li>Voting rights on how we build</li></ul>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EQyzix",
+        "column_eLWmrw",
+        "column_Dw4Bx8",
+        "column_pAyeTH",
+        "column_9ied3Q"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "WHY BECOME A FOUNDER MEMBER",
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -119,6 +209,7 @@
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/hs53ar40rj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -259,14 +350,14 @@
         "heading_89CfR4": {
           "type": "heading",
           "settings": {
-            "heading": "Founder member packages",
+            "heading": "Founder packages - choose your adventure",
             "heading_size": "h1"
           }
         },
         "text_tXmU8m": {
           "type": "text",
           "settings": {
-            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
+            "text": "<p>To kickstart BRiMM and support our Planet Fund, we’re offering a limited run of exclusive Founder Packages. Each one is designed to help you live brighter and tread lighter, while giving you unforgettable access to the people and ideas shaping the future.</p>",
             "text_style": "body"
           }
         },
@@ -286,6 +377,7 @@
         "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
         "video_embed": "",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -333,6 +425,7 @@
         "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
         "video_embed": "",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -374,6 +467,7 @@
         "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
         "video_embed": "",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -392,7 +486,8 @@
   "order": [
     "main",
     "image_banner_mmcKXb",
-    "image_with_text_kV37Vn",
+    "image_with_text_YpgqAN",
+    "multicolumn_qHbHYd",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
     "image_with_text_XhCmWW",
