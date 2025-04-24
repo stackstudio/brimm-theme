@@ -337,7 +337,7 @@
         "has_background": true,
         "show_waitlist": false,
         "image_label": "",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
