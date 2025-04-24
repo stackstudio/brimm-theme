@@ -69,21 +69,11 @@
             "text": "<p>Join the BRiMM collective. Where your actions drive real change.</p><p>As a founder member, you’ll help decide how we invest 10% of our revenue in the curated brands we stock. Your voice shapes our impact.</p><p>For a one-off fee, you get lifetime membership, access to a community of climate optimists, and support to live a planet positive lifestyle. </p><p>Don’t wait—join the founder waitlist now.</p>",
             "text_style": "body"
           }
-        },
-        "button_ekKjHp": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "SIGN UP TO OUR NEWSLETTER AND GET NOTIFIED WHEN WE GO LIVE",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_TwmzyN",
-        "text_wLMgQr",
-        "button_ekKjHp"
+        "text_wLMgQr"
       ],
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
