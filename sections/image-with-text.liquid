@@ -195,6 +195,9 @@
                   {%- endif -%}
               {%- endcase -%}
             {%- endfor -%}
+            {%- if section.settings.show_waitlist == true -%}
+              <form-widget mode='popup' ucid='eCMDZSQaOsJYHKhZH0qBa5GvTgw'></form-widget>
+            {%- endif -%}
             {%- if buttons.size > 0 -%}
               <div class='image-with-text__button-wrapper'>
                 {%- for button in buttons -%}
@@ -233,6 +236,12 @@
         "id": "has_background",
         "default": true,
         "label": "Has Background"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_waitlist",
+        "default": false,
+        "label": "Show waitlist button"
       },
       {
         "type": "text",
