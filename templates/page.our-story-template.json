@@ -79,6 +79,7 @@
         "image": "shopify://shop_images/Screenshot_2025-04-01_at_20.26.06.png",
         "video_embed": "",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -118,6 +119,7 @@
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -257,14 +259,14 @@
         "heading_EDaUXG": {
           "type": "heading",
           "settings": {
-            "heading": "10% for the planet",
+            "heading": "The foundation",
             "heading_size": "h1"
           }
         },
         "text_JEayR6": {
           "type": "text",
           "settings": {
-            "text": "<h3>10% equity and 10% revenue goes to the planet</h3><p>We're designed on purpose for purpose. Going beyond </p><p><strong>Earth equity</strong></p><p>Mother nature has a seat at our table. </p><p><strong>Margin that matters</strong></p><p>We're setting out to invest 10% of our annual revenue in initiatives with the brands we stock to help them lower their impact faster. So as a member you lower your impact with us and in turn lower the impact of the brands you love. </p><p>And our members can vote on this.</p><p></p><p></p><p></p><p></p>",
+            "text": "<h3>The BRiMM Regenerative Foundation</h3><p>At the heart of BRiMM lies a bold ambition: to create a sustainable future, not just for individuals but for the brands you love. The BRiMM Regenerative Foundation is our commitment to accelerating this transformation. By allocating 10% of our revenue to the foundation, we empower the brands in our community to lower their impact faster, creating a ripple effect that benefits both people and the planet.<br/><br/>How It Works?</p>",
             "text_style": "body"
           }
         }
@@ -277,6 +279,48 @@
         "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
         "video_embed": "",
         "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_YYLqdK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_t4Fwt3": {
+          "type": "heading",
+          "settings": {
+            "heading": "10% for the planet",
+            "heading_size": "h1"
+          }
+        },
+        "text_6aUDtG": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>10% equity and 10% revenue goes to the planet</h3><p>We're designed on purpose for purpose. Going beyond </p><p><strong>Earth equity</strong></p><p>Mother nature has a seat at our table. </p><p><strong>Margin that matters</strong></p><p>We're setting out to invest 10% of our annual revenue in initiatives with the brands we stock to help them lower their impact faster. So as a member you lower your impact with us and in turn lower the impact of the brands you love. </p><p>And our members can vote on this.</p><p></p><p></p><p></p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t4Fwt3",
+        "text_6aUDtG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -317,6 +361,7 @@
         "image": "shopify://shop_images/Image_588eae22-1f68-4c98-944f-eec3300e81ca.jpg",
         "video_embed": "",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -357,6 +402,7 @@
         "image": "shopify://shop_images/Image_8eff14b1-62cf-49c7-9849-fe5c027b9caf.jpg",
         "video_embed": "",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -404,6 +450,7 @@
         "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
         "video_embed": "",
         "has_background": true,
+        "show_waitlist": false,
         "image_label": "",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -426,6 +473,7 @@
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
     "image_with_text_A8dx4k",
+    "image_with_text_YYLqdK",
     "image_with_text_4HfRc9",
     "image_with_text_BybLYy",
     "image_with_text_47zUeA"
