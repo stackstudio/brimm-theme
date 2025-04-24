@@ -323,11 +323,20 @@
             "text": "<h4><strong>The BRiMM Collective is where optimism meets action.</strong></h4><p>Join us for intimate supper clubs, inspiring film nights, and big-think panels with brands, activists, and academics—all designed to spark ideas and real change. Here, everyone’s welcome and every voice matters.</p><p>And it’s not just talk. As a member, you help decide how our foundation invests in the brands we stock, pushing for a truly regenerative future.</p><p>Ready to turn good intentions into impact? Step into the Collective—where community shapes what’s next, together</p>",
             "text_style": "body"
           }
+        },
+        "button_dVY9PE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read our story",
+            "button_link": "shopify://pages/our-story",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading_FQDUFK",
-        "text_AKbMah"
+        "text_AKbMah",
+        "button_dVY9PE"
       ],
       "settings": {
         "image": "shopify://shop_images/KZVS10114.jpg",
