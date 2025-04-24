@@ -66,7 +66,7 @@
         "text_R8XDWX": {
           "type": "text",
           "settings": {
-            "text": "<p>This is your front-row seat to a new way of living—where every purchase powers real change, and every member helps rewrite the rules. Founder Members aren’t just early adopters; you’re co-creators, community-builders, and the spark that lights the fuse.</p><p></p><h4>Ready to live bright, tread light and lead the charge?</h4>",
+            "text": "<p>As a founder member you’re part of a collective that’s making a new way of living real—where every choice you make powers change, and every member helps rewrite the rules. You’re not just early—you’re essential: a co-creator, a community-builder, and the spark behind the movement</p><p></p><h4>Ready to live bright, tread light and lead the charge?</h4>",
             "text_style": "body"
           }
         },
@@ -621,6 +621,15 @@
             "row_content": "<p>No, they're a one-off discovery box to help you discover some new brands. Because of the different selection of products we imagine they'll run out at different times so we didn't think it would make sense to make them a subscription.</p><p>We might create a subscription model in the future and would welcome any ideas you might have on this.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_9jwtnP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do you work out the annual value of the membership?",
+            "icon": "check_mark",
+            "row_content": "<p>Membership costs from £6 or £60/yr. We say they're worth more than that though and here's how we calculate that.</p><p><strong>How it works with our middle tier @ £120/yr</strong></p><p>Based on an assumed spend of £600, this membership offers value of £200 per year.</p><p>This is calculated as £60 of content, £80 of credit and £60 cashback (10% of £600)</p><p>On top of this you will contribute £72 to our planet fund which we hope you agree is great value.</p><p><strong>How it works with our top tier @ £180/yr</strong></p><p>Based on an assumed spend of £800, this membership offers value of £300 per year.</p><p>This is calculated as £60 of content, £120 of credit and £80 cashback (10% of £800)</p><p>On top of this you will contribute £98 to our planet fund which we hope you agree is phenomenal value.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -634,7 +643,8 @@
         "collapsible_row_3FgUGh",
         "collapsible_row_Dc388Y",
         "collapsible_row_U6B7ya",
-        "collapsible_row_CqEdEw"
+        "collapsible_row_CqEdEw",
+        "collapsible_row_9jwtnP"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
