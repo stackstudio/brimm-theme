@@ -550,6 +550,15 @@
             "page": ""
           }
         },
+        "collapsible_row_EQYETU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does it mean that nature has equity in the business?",
+            "icon": "check_mark",
+            "row_content": "<p>We're making mother nature a shareholder and a director in our business so that her voice is heard in important company decisions. Beyond this our intent is that mother nature will benefit if the company grows in value which means that profits can be distributed to invest in nature protection and restoration.</p><p>We're working with Lawyers for Nature and Bates Wells to help us do this.</p><p>It's still a relatively new concept and we plan to share what we learn on the way.</p>",
+            "page": ""
+          }
+        },
         "collapsible_row_zyntJQ": {
           "type": "collapsible_row",
           "settings": {
@@ -618,6 +627,7 @@
         "collapsible_row_UAjqnF",
         "collapsible_row_dcTrGm",
         "collapsible_row_4CwHdQ",
+        "collapsible_row_EQYETU",
         "collapsible_row_zyntJQ",
         "collapsible_row_9GrFtA",
         "collapsible_row_PkzjKt",
