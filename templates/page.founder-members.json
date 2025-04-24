@@ -398,14 +398,14 @@
         "heading_EDaUXG": {
           "type": "heading",
           "settings": {
-            "heading": "featured founder members",
+            "heading": "MEET THE FOUNDER MEMBERS",
             "heading_size": "h1"
           }
         },
         "text_JEayR6": {
           "type": "text",
           "settings": {
-            "text": "<p>Join Planet Positive movers and shakers in our Founder Member club. A bunch of inspiring folks are already helping shape BRiMM and the future of conscious consumerism. Check 'em out.</p>",
+            "text": "<p>We’ve already got a line-up of inspiring early members—designers, writers, and changemakers who are helping shape BRiMM from day one. Join them and kickstart a flywheel of change.</p>",
             "text_style": "body"
           }
         },
@@ -436,6 +436,148 @@
         "collection_theme": "core-light-theme",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_qA6YU6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_xTGrAq": {
+          "type": "column",
+          "settings": {
+            "title": "PICK YOUR FOUNDER PACKAGE",
+            "text": "<p>Starting from £180 for life (worth £360 annually*), let us know which package you'd like. Don't forget you can also select a pay what you like option.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AftM3R": {
+          "type": "column",
+          "settings": {
+            "title": "JOIN THE WAITLIST",
+            "text": "<p>It's fast, easy and commitment-free. Once you've added your email address, we'll ask you a few questions which will help us build a better experience for you.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AXiwnb": {
+          "type": "column",
+          "settings": {
+            "title": "INVITE YOUR FRIENDS",
+            "text": "<p>The futures better with friends. Don't tell everyone. Just the best ones. </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7QM6Wb": {
+          "type": "column",
+          "settings": {
+            "title": "TRY TO CONTAIN YOUR EXCITEMENT",
+            "text": "<p>Honestly? We've got some great stuff plannned. You'll want to get in. </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FnYMjd": {
+          "type": "column",
+          "settings": {
+            "title": "DO IT.",
+            "text": "<p>Sign up today. You wont regret it.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xTGrAq",
+        "column_AftM3R",
+        "column_AXiwnb",
+        "column_7QM6Wb",
+        "column_FnYMjd"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "HOW TO JOIN",
+        "text_block": "Sign up to our waitlist today for early access. Spaces are limited and will be released weekly.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_HmpeVH": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_UAjqnF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_dcTrGm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_4CwHdQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_zyntJQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_UAjqnF",
+        "collapsible_row_dcTrGm",
+        "collapsible_row_4CwHdQ",
+        "collapsible_row_zyntJQ"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "THE NOT SO SMALL PRINT",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -492,6 +634,8 @@
     "multicolumn_8pNr8C",
     "image_with_text_XhCmWW",
     "image_with_text_A8dx4k",
+    "multicolumn_qA6YU6",
+    "collapsible_content_HmpeVH",
     "image_with_text_4HfRc9"
   ]
 }
