@@ -361,8 +361,8 @@
         "column_jTU94U"
       ],
       "settings": {
-        "title": "OUR TEAM",
-        "text_block": "A group of cultural magpies that care deeply about the planet and a joyful, vibrant future. We bring decades of experience in retail, sustainability, media and startups to help shape a planet positive world.",
+        "title": "WHOS BEHIND BRiMM?",
+        "text_block": "We’re a gang of planet enthusiasts and optimists—designers, doers, and dreamers who believe in the power of enough. We’re supported by high-profile founder members, trusted contributors, world-class investors and a growing network of brands and partners who share our vision. BRiMM is built by us, powered by you, and sustained by all of us.",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -378,20 +378,63 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_L3MtDy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fp9diG": {
+          "type": "heading",
+          "settings": {
+            "heading": "What we believe",
+            "heading_size": "h1"
+          }
+        },
+        "text_BdxMw6": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_WQHNjn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fp9diG",
+        "text_BdxMw6",
+        "button_WQHNjn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_4HfRc9": {
       "type": "image-with-text",
       "blocks": {
         "heading_F4ah4c": {
           "type": "heading",
           "settings": {
-            "heading": "Shopping isn't the answer but it has a role to play",
+            "heading": "Style and substance",
             "heading_size": "h1"
           }
         },
         "text_4HWWkD": {
           "type": "text",
           "settings": {
-            "text": "<h4><strong>Commerce today is extractive, but could it become additive?</strong></h4><p>Our ambition is to create a regenerative business, where we give back more than we take. </p>",
+            "text": "<h4><strong>Commerce today is extractive, but could it become additive?</strong></h4><p>Sustainability shouldn't mean sacrificing style. Or joy. We're here for the beauty in better choices.</p>",
             "text_style": "body"
           }
         }
@@ -425,14 +468,14 @@
         "heading_UiP4P6": {
           "type": "heading",
           "settings": {
-            "heading": "A Collective of Planet Optimists",
+            "heading": "Optimism over overwhelm",
             "heading_size": "h1"
           }
         },
         "text_YUXiYX": {
           "type": "text",
           "settings": {
-            "text": "<h3>Want to join like minded souls for a Brimm dinner party at that cool new plant based restaurant? Maybe you want to vote where we invest our profits, helping our suppliers hit net zero?</h3><p>Well, we've setup a foundation where we invest profits into our suppliers. The first £100k is ready to go - solar power for our brands! The next £100k, well thats up to you...We want you to make our margin matter. Each purchase you make helps mitigate climate impact.</p>",
+            "text": "<p>The climate crisis. Is. A. Lot. We've been down but now believe in up.</p><p>Big changes starts with small, purposeful steps. We celebrate progress not perfection. Let's make it easier, welcoming and joyful for more to start.</p>",
             "text_style": "body"
           }
         }
@@ -440,6 +483,88 @@
       "block_order": [
         "heading_UiP4P6",
         "text_YUXiYX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_8eff14b1-62cf-49c7-9849-fe5c027b9caf.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wqdhPw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YDWdWQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Community over chaos",
+            "heading_size": "h1"
+          }
+        },
+        "text_MwBaB8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe in we over me. Belonging and collective action are the heart of everything we do. We're brighter together.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YDWdWQ",
+        "text_MwBaB8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_8eff14b1-62cf-49c7-9849-fe5c027b9caf.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_MB8gr3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Rzzy9C": {
+          "type": "heading",
+          "settings": {
+            "heading": "Action over apathy",
+            "heading_size": "h1"
+          }
+        },
+        "text_6k8QNG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every purchase, every story, every member helps power real, measurable change. No greenwashing, no guilt trips - just brighter living for all.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rzzy9C",
+        "text_6k8QNG"
       ],
       "settings": {
         "image": "shopify://shop_images/Image_8eff14b1-62cf-49c7-9849-fe5c027b9caf.jpg",
@@ -518,8 +643,11 @@
     "image_with_text_A8dx4k",
     "image_with_text_YYLqdK",
     "multicolumn_8pNr8C",
+    "rich_text_L3MtDy",
     "image_with_text_4HfRc9",
     "image_with_text_BybLYy",
+    "image_with_text_wqdhPw",
+    "image_with_text_MB8gr3",
     "image_with_text_47zUeA"
   ]
 }
