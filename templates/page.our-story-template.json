@@ -203,129 +203,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_A8dx4k": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_EDaUXG": {
-          "type": "heading",
-          "settings": {
-            "heading": "purposeful commerce",
-            "heading_size": "h1"
-          }
-        },
-        "text_JEayR6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We don’t just sell planet-positive products—we reinvest a chunk (10%) of every penny you spend into our Planet Fund, helping the brands you love go further, faster. Mitigating not offsetting impact.</p><p>This year, we’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy for our brands. The rest - you decide.</p><p>Because shopping should power the planet, not just line pockets.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EDaUXG",
-        "text_JEayR6"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_YYLqdK": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_t4Fwt3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Curated, Not Overwhelming",
-            "heading_size": "h1"
-          }
-        },
-        "text_6aUDtG": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>We’re the ‘enough store’, not the ‘everything store’. </h4><p>Often find that where you shop is overflowing with too many, brand, products stuff. Do we really need it all?!</p><p>On BRiMM, expect fewer, better, more beautiful things—each one vetted for quality, style, and sustainability.</p><p>Less stuff, more swoon.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_t4Fwt3",
-        "text_6aUDtG"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_dzgHkR": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_dbK7d6": {
-          "type": "heading",
-          "settings": {
-            "heading": "People-Powered Impact",
-            "heading_size": "h1"
-          }
-        },
-        "text_YtqkDE": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>Every member, every purchase, every brand is part of a feedback loop that multiplies good.</h4><p>When you lower your impact, you help brands lower theirs too. Community isn't a buzzword here it's an engine.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_dbK7d6",
-        "text_YtqkDE"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_8pNr8C": {
       "type": "multicolumn",
       "blocks": {
@@ -716,9 +593,6 @@
     "image_with_text_kV37Vn",
     "image_with_text_GG3a9F",
     "multicolumn_FtmALJ",
-    "image_with_text_A8dx4k",
-    "image_with_text_YYLqdK",
-    "image_with_text_dzgHkR",
     "multicolumn_8pNr8C",
     "partner_logos_CnPxcc",
     "image_with_text_4HfRc9",
