@@ -585,37 +585,39 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_47zUeA": {
+    "image_with_text_Kftnmg": {
       "type": "image-with-text",
       "blocks": {
-        "heading_KPkj6b": {
+        "heading_WiNPdc": {
           "type": "heading",
           "settings": {
-            "heading": "Featured founder members",
+            "heading": "Our vision for the future",
             "heading_size": "h1"
           }
         },
-        "text_7Rkq3w": {
+        "text_wRc8q4": {
           "type": "text",
           "settings": {
-            "text": "<p>Join Planet Positive movers and shakers in our Founder Member club. A bunch of inspiring folks are already helping shape BRiMM and the future of conscious consumerism. Check 'em out.</p>",
+            "text": "<p>We imagine a world where planet-positive living is the default.</p><p>Where brands don’t just reduce harm, but actively do good.</p><p>Where millions of us are living lighter, brighter lives—and having a blast doing it. </p><p>We’re not the whole solution, but we have the believe that together, we can go further, faster.</p>",
             "text_style": "body"
           }
         },
-        "accordians_ChkNHB": {
-          "type": "accordians",
+        "button_C9WmFn": {
+          "type": "button",
           "settings": {
-            "accordians": "<details name=\"founder\"\ndata-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Amy-Powney-creative-director-AKYN-2025.webp?v=1744822906\"\n>\n  <summary>Amy Powney</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Anna_Foster_Head_Shot_3_1080x_28229f04-d1db-4916-99dc-f9dea8c3131b.webp?v=1744822907\" name=\"founder\">\n  <summary>Anna Foster</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/jocelyn.png?v=1744822909\" name=\"founder\">\n  <summary>Jocelyn</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Chantelle_Nicholson.png?v=1744822908\" name=\"founder\">\n  <summary>Chantelle Nicholson</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Melanie_Rickey.png?v=1744822909\" name=\"founder\">\n  <summary>Melanie Rickey</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_KPkj6b",
-        "text_7Rkq3w",
-        "accordians_ChkNHB"
+        "heading_WiNPdc",
+        "text_wRc8q4",
+        "button_C9WmFn"
       ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
@@ -626,11 +628,54 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
+        "collection_theme": "brimm-theme",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_PC7qEt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UmMr8c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join us",
+            "heading_size": "h1"
+          }
+        },
+        "text_EYw64t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're a small team with big ambitions. Want to join us on the journey and build a planet positive future. Get in contact.</p>"
+          }
+        },
+        "button_tygPWY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UmMr8c",
+        "text_EYw64t",
+        "button_tygPWY"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -648,6 +693,7 @@
     "image_with_text_BybLYy",
     "image_with_text_wqdhPw",
     "image_with_text_MB8gr3",
-    "image_with_text_47zUeA"
+    "image_with_text_Kftnmg",
+    "rich_text_PC7qEt"
   ]
 }
