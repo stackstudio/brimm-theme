@@ -461,7 +461,7 @@
         "text_VazerB": {
           "type": "text",
           "settings": {
-            "text": "<p>Lifetime membership at our top tier—no renewal, ever. Which means £300 value each and every year, for a one off fee.</p><p>Your name on the site as a founding member.</p><p>Voting rights on how we invest in initiatives to support our brands working towards regenerative business practices.</p><p>Exclusive invites to founder events and experiences.</p><p>First dibs on new boxes, products, and collaborations.</p>",
+            "text": "<p>Lifetime membership at our top tier—no renewal, ever. Which means £300 value each and every year, for a one off fee.</p><p>Your name on the site as a founding member.</p><p>Voting rights on how we invest in initiatives to support our brands developing regenerative business practices.</p><p>Exclusive invites to founder events and experiences.</p><p>First dibs on new boxes, products, and collaborations.</p>",
             "text_style": "body"
           }
         },
