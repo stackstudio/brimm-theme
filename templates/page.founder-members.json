@@ -582,7 +582,34 @@
           "settings": {
             "heading": "How does member credit work?",
             "icon": "check_mark",
-            "row_content": "<p>On annual memberships, once you've paid we will credit your account with a number of gift cards which you can spend on our discovery and reset boxes. </p><p>On monthly memberships we credit your account each quarter at the end of your membership period. </p>",
+            "row_content": "<p>Member credit is intended to help encourage you to switch to planet positive products to kick-start your journey to a lower impact life. Together with cashback we've designed it so that if you return regularly to our shop you'll more than pay back your membership.</p><p>On annual memberships, once you've paid we will credit your account with a number of gift cards which you can spend on our discovery and reset boxes. </p><p>On monthly memberships we credit your account each quarter at the end of your membership period. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Dc388Y": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does cashback work?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_U6B7ya": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are your reset boxes?",
+            "icon": "check_mark",
+            "row_content": "<p>We've curated a series of boxes to help you reset a part of your life. We've done this to help discovering planet positive brands easier to save you time and ease.</p><p>They're fixed selections today but if our members would value this we're looking to make them customisable in the near future. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CqEdEw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are you reset boxes a subscription?",
+            "icon": "check_mark",
+            "row_content": "<p>No, they're a one-off discovery box to help you discover some new brands. Because of the different selection of products we imagine they'll run out at different times so we didn't think it would make sense to make them a subscription.</p><p>We might create a subscription model in the future and would welcome any ideas you might have on this.</p>",
             "page": ""
           }
         }
@@ -594,7 +621,10 @@
         "collapsible_row_zyntJQ",
         "collapsible_row_9GrFtA",
         "collapsible_row_PkzjKt",
-        "collapsible_row_3FgUGh"
+        "collapsible_row_3FgUGh",
+        "collapsible_row_Dc388Y",
+        "collapsible_row_U6B7ya",
+        "collapsible_row_CqEdEw"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
