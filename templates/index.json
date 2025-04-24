@@ -93,79 +93,6 @@
         "padding_bottom": 36
       }
     },
-    "partner_logos_xMwzLh": {
-      "type": "partner-logos",
-      "blocks": {
-        "logo_B9Qmqw": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_h8HULL": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_9UPhxV": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_bHWgDG": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_xXyEq7": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_YPwt78": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_xEwxGT": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        }
-      },
-      "block_order": [
-        "logo_B9Qmqw",
-        "logo_h8HULL",
-        "logo_9UPhxV",
-        "logo_bHWgDG",
-        "logo_xXyEq7",
-        "logo_YPwt78",
-        "logo_xEwxGT"
-      ],
-      "settings": {
-        "block_text": "Our Partners"
-      }
-    },
     "email_signup_banner_NjiKDf": {
       "type": "email-signup-banner",
       "blocks": {
@@ -257,6 +184,79 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "partner_logos_xMwzLh": {
+      "type": "partner-logos",
+      "blocks": {
+        "logo_B9Qmqw": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_h8HULL": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_9UPhxV": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_bHWgDG": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_xXyEq7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_YPwt78": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_xEwxGT": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/SOCIAL_SHARING_IMAGE_DEFAULT.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        }
+      },
+      "block_order": [
+        "logo_B9Qmqw",
+        "logo_h8HULL",
+        "logo_9UPhxV",
+        "logo_bHWgDG",
+        "logo_xXyEq7",
+        "logo_YPwt78",
+        "logo_xEwxGT"
+      ],
+      "settings": {
+        "block_text": "Our beautiful brands"
       }
     },
     "image_with_text_AY7XfF": {
@@ -448,6 +448,114 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_rcKjFt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XccUUJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founder benefits",
+            "heading_size": "h1"
+          }
+        },
+        "text_VazerB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lifetime membership at our top tier—no renewal, ever. Which means £300 value each and every year.</p><p>Your name on the site as a founding member.</p><p>Voting rights on how we invest in initiatives to support our brands working towards regenerative business practices.</p><p>Exclusive invites to founder events and experiences.</p><p>First dibs on new boxes, products, and collaborations.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xEMjK4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XccUUJ",
+        "text_VazerB",
+        "button_xEMjK4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_U6peM8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XFrJJp": {
+          "type": "column",
+          "settings": {
+            "title": "Join the waitlist",
+            "text": "<p>Add your email address and tell us more about yourself so we can build something great. </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nLMarx": {
+          "type": "column",
+          "settings": {
+            "title": "Tell some friends",
+            "text": "<p>Change is better with friends. Help us scale the move and grow our collective impact.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LDEDMF": {
+          "type": "column",
+          "settings": {
+            "title": "Get notified",
+            "text": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the collective.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XFrJJp",
+        "column_nLMarx",
+        "column_LDEDMF"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "How it works",
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "email_signup_banner_644mkD": {
       "type": "email-signup-banner",
       "blocks": {
@@ -544,13 +652,15 @@
   "order": [
     "image_banner_RULnrW",
     "image_with_text_ihrzNg",
-    "partner_logos_xMwzLh",
     "email_signup_banner_NjiKDf",
     "image_with_text_yTMkNL",
+    "partner_logos_xMwzLh",
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt",
     "image_with_text_AWz9J9",
     "image_with_text_tWTg8h",
+    "image_with_text_rcKjFt",
+    "multicolumn_U6peM8",
     "email_signup_banner_644mkD",
     "image_with_text_R7Xi3e"
   ]
