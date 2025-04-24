@@ -134,47 +134,73 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_ywaFTw": {
-      "type": "rich-text",
+    "multicolumn_FtmALJ": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_tcry7n": {
-          "type": "heading",
+        "column_qzDjWz": {
+          "type": "column",
           "settings": {
-            "heading": "HOW WE'RE DIFFERENT",
-            "heading_size": "h1"
+            "title": "PURPOSEFUL COMMERCE",
+            "text": "<p>We don’t just sell planet-positive products—we reinvest a chunk (10%) of every penny you spend into our Planet Fund, helping the brands you love go further, faster. Mitigating not offsetting impact.</p><p>This year, we’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy for our brands. The rest - you decide.</p><p>Because shopping should power the planet, not just line pockets.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
           }
         },
-        "text_HzUM8z": {
-          "type": "text",
+        "column_hRaUey": {
+          "type": "column",
           "settings": {
-            "text": ""
+            "title": "CURATED, NOT OVERFLOWING",
+            "text": "<h4>We’re the ‘enough store’, not the ‘everything store’. </h4><p>Often find that where you shop is overflowing with too many, brand, products stuff. Do we really need it all?!</p><p>On BRiMM, expect fewer, better, more beautiful things—each one vetted for quality, style, and sustainability.</p><p>Less stuff, more swoon.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
           }
         },
-        "button_XtqjRx": {
-          "type": "button",
+        "column_8ADtcz": {
+          "type": "column",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "title": "PEOPLE-POWERED IMPACT",
+            "text": "<h4>Every member, every purchase, every brand is part of a feedback loop that multiplies good.</h4><p>When you lower your impact, you help brands lower theirs too. Community isn't a buzzword here it's an engine.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zm6Q9m": {
+          "type": "column",
+          "settings": {
+            "title": "PEOPLE-POWERED IMPACT",
+            "text": "<h4>Every member, every purchase, every brand is part of a feedback loop that multiplies good.</h4><p>When you lower your impact, you help brands lower theirs too. Community isn't a buzzword here it's an engine.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading_tcry7n",
-        "text_HzUM8z",
-        "button_XtqjRx"
+        "column_qzDjWz",
+        "column_hRaUey",
+        "column_8ADtcz",
+        "column_zm6Q9m"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "HOW WE'RE DIFFERENT",
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_A8dx4k": {
@@ -419,47 +445,11 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_L3MtDy": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fp9diG": {
-          "type": "heading",
-          "settings": {
-            "heading": "What we believe",
-            "heading_size": "h1"
-          }
-        },
-        "text_BdxMw6": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "button_WQHNjn": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_fp9diG",
-        "text_BdxMw6",
-        "button_WQHNjn"
-      ],
-      "name": "t:sections.rich-text.presets.name",
+    "partner_logos_CnPxcc": {
+      "type": "partner-logos",
+      "name": "Partner Logos",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "block_text": "what we believe"
       }
     },
     "image_with_text_4HfRc9": {
@@ -725,12 +715,12 @@
     "image_banner_mmcKXb",
     "image_with_text_kV37Vn",
     "image_with_text_GG3a9F",
-    "rich_text_ywaFTw",
+    "multicolumn_FtmALJ",
     "image_with_text_A8dx4k",
     "image_with_text_YYLqdK",
     "image_with_text_dzgHkR",
     "multicolumn_8pNr8C",
-    "rich_text_L3MtDy",
+    "partner_logos_CnPxcc",
     "image_with_text_4HfRc9",
     "image_with_text_BybLYy",
     "image_with_text_wqdhPw",
