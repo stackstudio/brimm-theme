@@ -405,6 +405,7 @@
       "blocks": {
         "heading_8xHCC9": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Featured founder members",
             "heading_size": "h1"
@@ -412,6 +413,7 @@
         },
         "text_3ijQnt": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>We’ve handpicked a crew of planet-positive pioneers. Founders, activists and academics who are already shaping the future of planet positive living.</p><p>Join them and help to build BRiMM from the ground up.</p>",
             "text_style": "body"
