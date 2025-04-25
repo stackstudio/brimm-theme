@@ -61,7 +61,7 @@
       <script src='{{ 'animations.js' | asset_url }}' defer='defer'></script>
     {%- endif -%}
 
-    {{ content_for_header }}
+    <!-- OutlinkStickyBtn CODE Start -->{% if template.name == 'product'%}{% render('outlink-sticky') %}{% endif %}<!-- OutlinkStickyBtn END --> {{ content_for_header }}
 
     <script>
       window.dataLayer = window.dataLayer || [];
