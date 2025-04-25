@@ -2548,10 +2548,10 @@ input[type='checkbox'] {
     grid-template-columns: auto 1fr auto;
     column-gap: 1rem;
   }
-
+  /* for holding page */
   .header--middle-left {
-    grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto 0fr auto;
+    grid-template-areas: 'heading navigation';
+    grid-template-columns: auto 0fr;
     column-gap: 3.4rem;
   }
 
@@ -2654,6 +2654,7 @@ input[type='checkbox'] {
   .header__heading,
   .header__heading-link {
     justify-self: start;
+    width: 120px;
   }
 
   .header--middle-center .header__heading-link,
@@ -2964,7 +2965,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   text-decoration: none;
   color: var(--color-brimm-beige);
   font-weight: 500;
