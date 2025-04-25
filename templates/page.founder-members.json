@@ -150,7 +150,7 @@
           "type": "column",
           "settings": {
             "title": "THE USUAL PERKS",
-            "text": "<ul><li>£120 annual credit on discovery and reset boxes</li><li>10% cashback on everything you spend*</li><li>10% of everything you spend invested in our planet fund</li><li>Member only content</li><li>Early access to member events, limited products and more</li><li>Voting rights on how we build</li></ul>",
+            "text": "<ul><li>£120 annual credit on discovery and reset boxes</li><li>10% cashback on everything you spend</li><li>10% of everything you spend invested in our planet fund</li><li>Member only content</li><li>Early access to member events, limited products and more</li><li>Voting rights on how we build</li></ul>",
             "image_label": "",
             "link_label": "",
             "link": ""
