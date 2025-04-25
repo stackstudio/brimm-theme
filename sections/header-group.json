@@ -13,24 +13,6 @@
   "sections": {
     "header": {
       "type": "header",
-      "blocks": {
-        "announcement_NAU4qf": {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "Test 1"
-          }
-        },
-        "announcement_i8Afa4": {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "test 2"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_NAU4qf",
-        "announcement_i8Afa4"
-      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "founder-members-menu",
