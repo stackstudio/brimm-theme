@@ -186,6 +186,56 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_Y8PWgJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JVGdpg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop - curated for good",
+            "heading_size": "h1"
+          }
+        },
+        "text_RcyyRE": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Discover design-led essentials - vetted for style, substance and sustainability.</h4><p>We're an \"enough\" store not an \"everything\" store. Less overwhelm, more joy. </p><p>Our carefully curated collection champions both well known and brilliant new brands in beauty, kitchen, home and fashion.</p><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FUHhnL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read our story",
+            "button_link": "shopify://pages/our-story",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JVGdpg",
+        "text_RcyyRE",
+        "button_FUHhnL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Free_reset_box.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "partner_logos_xMwzLh": {
       "type": "partner-logos",
       "blocks": {
@@ -686,6 +736,7 @@
     "image_with_text_ihrzNg",
     "email_signup_banner_NjiKDf",
     "image_with_text_yTMkNL",
+    "image_with_text_Y8PWgJ",
     "partner_logos_xMwzLh",
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt",
