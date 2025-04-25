@@ -2955,7 +2955,7 @@ details[open] > .header__submenu {
 
   .header--middle-left .header__inline-menu {
     margin-left: 0;
-    width: 260px;
+    width: 280px;
   }
 }
 
@@ -2966,7 +2966,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1rem;
   text-decoration: none;
-  color: var(--color-brimm-red);
+  color: var(--color-brimm-beige);
   font-weight: 500;
 }
 
