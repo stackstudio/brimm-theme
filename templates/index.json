@@ -366,20 +366,11 @@
             "text": "<h3>Belonging</h3><p>Connect with climate optimists, makers, and changemakers all building a brighter future together.</p><h3>Ease</h3><p>We do the vetting and curation, you get the best products out there. Planet-positive living made simple, stylish, and stress-free.</p><h3>Impact</h3><p>Every action counts. Your choices help fund clean energy (and more) brands rewriting the rules of business for good.</p><h4></h4><h4></h4><h4></h4>",
             "text_style": "body"
           }
-        },
-        "button_qbBENC": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_LVqaVy",
-        "text_xbjYWf",
-        "button_qbBENC"
+        "text_xbjYWf"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
