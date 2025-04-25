@@ -465,19 +465,17 @@
             "text_style": "body"
           }
         },
-        "button_xEMjK4": {
-          "type": "button",
+        "member_packages_fAB7BM": {
+          "type": "member_packages",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "member_packages_block": true
           }
         }
       },
       "block_order": [
         "heading_XccUUJ",
         "text_VazerB",
-        "button_xEMjK4"
+        "member_packages_fAB7BM"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
