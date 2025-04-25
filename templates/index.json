@@ -477,6 +477,7 @@
         "text_VazerB",
         "member_packages_fAB7BM"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Base_camp_package.jpg",
@@ -677,7 +678,6 @@
         "text_LdM7Ua",
         "member_packages_wxQx7L"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Image.jpg",
         "video_embed": "",
