@@ -363,7 +363,7 @@
         "text_xbjYWf": {
           "type": "text",
           "settings": {
-            "text": "<h3>Belonging</h3><p>Connect with optimists, makers, and changemakers all building a brighter future together.</p><h3>Ease</h3><p>We do the vetting, you get the best. Planet-positive living made simple, stylish, and stress-free.</p><h3>Impact</h3><p>Every action counts. Your choices help fund clean energy and support brands rewriting the rules of business for good.</p><h4></h4><h4></h4><h4></h4>",
+            "text": "<h3>Belonging</h3><p>Connect with climate optimists, makers, and change-makers all building a brighter future together.</p><h3>Ease</h3><p>We do the vetting and curation, you get the best products out there. Planet-positive living made simple, stylish, and stress-free.</p><h3>Impact</h3><p>Every action counts. Your choices help fund clean energy (and more) brands rewriting the rules of business for good.</p><h4></h4><h4></h4><h4></h4>",
             "text_style": "body"
           }
         },
@@ -454,14 +454,14 @@
         "heading_XccUUJ": {
           "type": "heading",
           "settings": {
-            "heading": "Founder benefits",
+            "heading": "Founder member benefits",
             "heading_size": "h1"
           }
         },
         "text_VazerB": {
           "type": "text",
           "settings": {
-            "text": "<p>Lifetime membership at our top tier—no renewal, ever. Which means £300 value each and every year, for a one off fee.</p><p>Your name on the site as a founding member.</p><p>Voting rights on how we invest in initiatives to support our brands developing regenerative business practices.</p><p>Exclusive invites to founder events and experiences.</p><p>First dibs on new boxes, products, and collaborations.</p>",
+            "text": "<p>Founder members get our top membership tier for life. No strings attached. Which means £300 value each and every year, for a one off fee.</p><p>Your name will be lit up in pixels on the BRiMM site with other founder members.</p><p>Voting rights where we invest 10% of our revenue. Helping our brands give more to the planet than they take. </p><p>Exclusive invites to founder member events and experiences.</p><p>First dibs on new boxes, products, and collaborations.</p>",
             "text_style": "body"
           }
         },
