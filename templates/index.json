@@ -448,6 +448,54 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_R7Xi3e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Vmny6m": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founder members packages",
+            "heading_size": "h1"
+          }
+        },
+        "text_LdM7Ua": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
+            "text_style": "body"
+          }
+        },
+        "member_packages_wxQx7L": {
+          "type": "member_packages",
+          "settings": {
+            "member_packages_block": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vmny6m",
+        "text_LdM7Ua",
+        "member_packages_wxQx7L"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Base_camp_package.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_rcKjFt": {
       "type": "image-with-text",
       "blocks": {
@@ -572,21 +620,13 @@
             "text": "<p>Don’t miss your moment to help build a movement—and enjoy a lifetime of brighter, lighter living.<br/></p><p>One person is chosen for a free, limited gift every day. Join the waitlist now. </p><p><br/>BRiMM: Where less really is more. More joy. More impact. More community. Live bright. Tread light</p>",
             "text_style": "body"
           }
-        },
-        "button_ecerWi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_TPtjrA",
-        "text_pG7FpY",
-        "button_ecerWi"
+        "text_pG7FpY"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "video_embed": "",
@@ -648,54 +688,6 @@
         "mobile_content_alignment": "left",
         "show_text_below": true
       }
-    },
-    "image_with_text_R7Xi3e": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_Vmny6m": {
-          "type": "heading",
-          "settings": {
-            "heading": "Founder members packages",
-            "heading_size": "h1"
-          }
-        },
-        "text_LdM7Ua": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
-            "text_style": "body"
-          }
-        },
-        "member_packages_wxQx7L": {
-          "type": "member_packages",
-          "settings": {
-            "member_packages_block": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_Vmny6m",
-        "text_LdM7Ua",
-        "member_packages_wxQx7L"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Base_camp_package.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -708,10 +700,10 @@
     "image_with_text_QX9ykt",
     "image_with_text_AWz9J9",
     "image_with_text_tWTg8h",
+    "image_with_text_R7Xi3e",
     "image_with_text_rcKjFt",
     "multicolumn_U6peM8",
     "image_with_text_mkA8Fb",
-    "email_signup_banner_644mkD",
-    "image_with_text_R7Xi3e"
+    "email_signup_banner_644mkD"
   ]
 }
