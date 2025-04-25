@@ -448,6 +448,64 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_U6peM8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XFrJJp": {
+          "type": "column",
+          "settings": {
+            "title": "Join the waitlist",
+            "text": "<p>Add your email address and tell us more about yourself so we can build something great. </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nLMarx": {
+          "type": "column",
+          "settings": {
+            "title": "Tell some friends",
+            "text": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LDEDMF": {
+          "type": "column",
+          "settings": {
+            "title": "Get notified",
+            "text": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XFrJJp",
+        "column_nLMarx",
+        "column_LDEDMF"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "How it works",
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_R7Xi3e": {
       "type": "image-with-text",
       "blocks": {
@@ -542,64 +600,6 @@
         "collection_theme": "core-light-theme",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_U6peM8": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_XFrJJp": {
-          "type": "column",
-          "settings": {
-            "title": "Join the waitlist",
-            "text": "<p>Add your email address and tell us more about yourself so we can build something great. </p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nLMarx": {
-          "type": "column",
-          "settings": {
-            "title": "Tell some friends",
-            "text": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_LDEDMF": {
-          "type": "column",
-          "settings": {
-            "title": "Get notified",
-            "text": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_XFrJJp",
-        "column_nLMarx",
-        "column_LDEDMF"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "How it works",
-        "text_block": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -700,9 +700,9 @@
     "image_with_text_QX9ykt",
     "image_with_text_AWz9J9",
     "image_with_text_tWTg8h",
+    "multicolumn_U6peM8",
     "image_with_text_R7Xi3e",
     "image_with_text_rcKjFt",
-    "multicolumn_U6peM8",
     "image_with_text_mkA8Fb",
     "email_signup_banner_644mkD"
   ]
