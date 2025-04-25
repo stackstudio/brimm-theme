@@ -66,7 +66,7 @@
         "text_wLMgQr": {
           "type": "text",
           "settings": {
-            "text": "<p>We are a members club that powers planet positive change. </p><p>Your membership doesn't just make life brighter and lighter - it multiples your impact. Spots are limited. Claim yours now, bring some friends to kickstart a flywheel of change and unlock lifetime membership for a one off fee.</p><p>Join the waitlist to get in early and vote on how 10% of our revenue can have a positive impact.</p>",
+            "text": "<p>We are a members club that powers planet positive change. </p><p>Your membership doesn't just make life brighter and lighter - it multiples your impact. Spots are limited. Claim yours now. <br/><br/>Bring some friends to kickstart a flywheel of change and unlock lifetime membership for a one off fee.</p><p>Join the waitlist to get in early and vote on how 10% of our revenue can have a positive impact.</p>",
             "text_style": "body"
           }
         }
@@ -515,7 +515,7 @@
           "type": "column",
           "settings": {
             "title": "Tell some friends",
-            "text": "<p>Change is better with friends. Help us scale the move and grow our collective impact.</p>",
+            "text": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
