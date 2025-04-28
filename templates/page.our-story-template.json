@@ -628,6 +628,7 @@
         "text_wRc8q4",
         "button_C9WmFn"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "video_embed": "",
