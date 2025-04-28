@@ -406,6 +406,7 @@
         "column_NENczV": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/belong.svg",
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Belonging",
@@ -418,6 +419,7 @@
         "column_rRdn6Q": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ease.svg",
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Ease",
@@ -430,6 +432,7 @@
         "column_BWXitp": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/impact.svg",
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Impact",
