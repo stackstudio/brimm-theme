@@ -543,7 +543,7 @@
           "type": "column",
           "settings": {
             "image_is_icon": false,
-            "has_waitlist_cta": false,
+            "has_waitlist_cta": true,
             "has_bg_color": false,
             "title": "DO IT.",
             "text": "<p>Sign up today. You wont regret it.</p>",
