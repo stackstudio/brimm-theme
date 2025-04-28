@@ -518,6 +518,7 @@
         "column_XFrJJp": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/envelope.svg",
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Join the waitlist",
@@ -530,6 +531,7 @@
         "column_nLMarx": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/people.svg",
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Tell some friends",
@@ -542,6 +544,7 @@
         "column_LDEDMF": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/notification.svg",
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Get notified",
