@@ -506,6 +506,7 @@
         "column_nLMarx": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/recycle.svg",
             "title": "Tell some friends",
             "text": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
             "image_label": "",
