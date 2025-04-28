@@ -390,12 +390,23 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "row_U9WqRj": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "ACTION OVER APATHY",
+            "text": "<p>Every purchase, every story, every member helps power real, measurable change. No greenwashing, no guilt trips - just brighter living for all.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_c3pXLf",
         "row_E3rTne",
-        "row_KCc38A"
+        "row_KCc38A",
+        "row_U9WqRj"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
