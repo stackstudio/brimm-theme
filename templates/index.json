@@ -519,8 +519,8 @@
         "column_LDEDMF": {
           "type": "column",
           "settings": {
-            "has_waitlist_cta": true,
-            "has_bg_color": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Get notified",
             "text": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
             "image_label": "",
