@@ -67,12 +67,17 @@
 
             <li
               id='Slide-{{ section.id }}-{{ forloop.index }}'
-              class='multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
+              class='multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}{%- if block.settings.has_bg_color -%} has-bg--color{%- endif -%}'
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
               data-cascade
               style='--animation-order: {{ forloop.index }};'
               {% endif %}>
+              {%- if forloop.last == true -%}
+                {%- assign last_block = true -%}
+              {%- else -%}
+                {%- assign last_block = false -%}
+              {%- endif -%}
               <div class='multicolumn-card content-container'>
                 {%- if block.settings.image != blank -%}
                   {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
@@ -137,12 +142,7 @@
                   {%- endif -%}
                 </div>
               </div>
-              {%- if forloop.last == true -%}
-                {%- assign last_block = true -%}
-              {%- else -%}
-                {%- assign last_block = false -%}
-              {%- endif -%}
-              {%- if last_block == true -%}
+              {%- if last_block == true && block.settings.has_waitlist_cta -%}
                 <form-widget mode='popup' ucid='eCMDZSQaOsJYHKhZH0qBa5GvTgw'></form-widget>
               {%- endif -%}
             </li>
@@ -405,6 +405,18 @@
             "type": "image_picker",
             "id": "image",
             "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          },
+          {
+            "type": "checkbox",
+            "id": "has_waitlist_cta",
+            "default": false,
+            "label": "has waitlist button"
+          },
+          {
+            "type": "checkbox",
+            "id": "has_bg_color",
+            "default": false,
+            "label": "has background colour"
           },
           {
             "type": "inline_richtext",

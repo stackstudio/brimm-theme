@@ -78,7 +78,7 @@
   max-width: 72rem;
 }
 
-ul li.multicolumn-list__item:last-child {
+ul li.multicolumn-list__item.has-bg--color:last-child {
   background: #e6e6d1;
   padding: 20px 10px;
   @media screen and (max-width: 750px) {
