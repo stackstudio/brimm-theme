@@ -545,8 +545,8 @@
             "image_is_icon": false,
             "has_waitlist_cta": true,
             "has_bg_color": false,
-            "title": "DO IT.",
-            "text": "<p>Sign up today. You wont regret it.</p>",
+            "title": "",
+            "text": "",
             "image_label": "",
             "link_label": "",
             "link": ""
