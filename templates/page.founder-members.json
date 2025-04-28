@@ -69,20 +69,11 @@
             "text": "<p>As a founder member you’re part of a collective that’s making a new way of living real—where every choice you make powers change, and every member helps rewrite the rules. You’re not just early—you’re essential: a co-creator, a community-builder, and the spark behind the movement</p><p></p><h4>Ready to live bright, tread light and lead the charge?</h4>",
             "text_style": "body"
           }
-        },
-        "button_fGwPKE": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_Ygz8L3",
-        "text_R8XDWX",
-        "button_fGwPKE"
+        "text_R8XDWX"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -109,6 +100,9 @@
         "column_EQyzix": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "LIFETIME TOP TIER MEMBERSHIP",
             "text": "<p>Get all of the benefits of our top tier membership level. For life. For a one-off fee. Worth £300 annually*. No renewals, no fuss-just endless planet-positive perks.</p>",
             "image_label": "",
@@ -119,6 +113,9 @@
         "column_eLWmrw": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "YOUR IMPACT, MULTIPLIED",
             "text": "<p>100% of your Founder fee goes straight into our Planet Fund, fueling clean energy and regenerative projects for the brands you love. You’ll vote on how it’s spent—think solar panels, supply chain innovation and more.</p>",
             "image_label": "",
@@ -129,6 +126,9 @@
         "column_Dw4Bx8": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "A COMMUNITY LIKE NO OTHER",
             "text": "<p>We're building a crew of planet optimists, pioneering brands and creative changemakers. This is where the action (and inspiration) happens. </p>",
             "image_label": "",
@@ -139,6 +139,9 @@
         "column_pAyeTH": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "YOUR NAME IN LIGHTS (ISH)",
             "text": "<p>Every founder gets their name immortalised on our site - a permanent badge of honour for helping build something better.</p>",
             "image_label": "",
@@ -149,6 +152,9 @@
         "column_9ied3Q": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "THE USUAL PERKS",
             "text": "<ul><li>£120 annual credit on discovery and reset boxes</li><li>10% cashback on everything you spend</li><li>10% of everything you spend invested in our planet fund</li><li>Member only content</li><li>Early access to member events, limited products and more</li><li>Voting rights on how we build</li></ul>",
             "image_label": "",
@@ -231,6 +237,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/1c951587b72ecbc730903499b6f7b697.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "James Haycock",
             "text": "<p>Exited founder, angel investor and the vision behind BRiMM. James has been at the forefront of the London design scene for over a decade. Bringing together bright minds, building outstanding teams, and the best workplace culture you could ask for.</p>",
             "image_label": "Founder & CEO",
@@ -242,6 +251,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/835cd15dc1c8c0eba996a2888cd47c5a.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Christabel Biella",
             "text": "<p>With 20+ years experience of ecommerce startups and scale ups, Christabel brings rigour and focus across commercial, finance, supply chain and operations. She’s the glue between much of what we do at BRiMM.</p>",
             "image_label": "Commercial & Ops",
@@ -253,6 +265,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/8507aca4b80fe21d90977ecff5c1fd5a.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Dan Kolodziej",
             "text": "<p>Working with the likes of L’Oreal, Penhaligons and Puig to create new digital experiences across retail and ecommerce, Dan likes to roll up his sleeves and wear many hats. (Both literally and figuratively) He also creates new startups from scratch for CPG brands (handy really).</p>",
             "image_label": "Product & Experience",
@@ -264,6 +279,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/32bec42d1fa8e0c4893840db4e14ff67.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Becky Lucas",
             "text": "<p>Vogue, Time Out, Condé Naste Traveller and Cosmopolitan. You name it, Becky’s worked with them. She knows what's going on, and how to write about it. Head honcho for our content, editorial and awesome newsletter (sign up if you haven't already, it’s ace).</p>",
             "image_label": "Content & Editorial",
@@ -275,6 +293,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/e2c61e0f66266d1faa78767eb70d2612.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Sam Zimmerman",
             "text": "<p>Beauty and brand consultant working with the likes of Tatler, Stylist and Grazia. Sam brings oodles of experience, carefully curating our beauty products. You can often see her in the Director chair when we shoot photos and videos, too.</p>",
             "image_label": "Consultant",
@@ -286,6 +307,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/69f001530b402b201d11a9280573db5d.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Tom Berry",
             "text": "<p>With over 20 years in sustainability, strategy, and innovation, Tom has led sustainability programs at Innocent Drinks and FARFETCH. He also sits on the steering committee for circular fashion innovation at the British Fashion Council.</p>",
             "image_label": "Advisor",
@@ -297,6 +321,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/1f069cb946f207a5188ff079eba6f041.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Tiffanie Darke",
             "text": "<p>Tiffanie Darke is a British writer and fashion journalist, renowned for her advocacy in sustainable fashion. Heard of the rule of 5 in fashion? Yeah, that's her. She’s served as the fashion editor for The Telegraph, The Times and Harrods. She once told Dan she liked his coat. He was made up.</p>",
             "image_label": "Advisor",
@@ -307,6 +334,9 @@
         "column_jTU94U": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "",
             "text": "<h1>BECOME A FOUNDING MEMBER</h1><p>Take back your agency and jump in as one of 1000 BRiMM Founder Members.<br/><br/>You'll get to shape BRiMM from the ground up. And every purchase with BRiMM is a vote on the future you want.<br/><br/>You'll also decide where we invest 10% of profits, helping your new favourite brands hit net zero - making our margin matter.<br/><br/>Ready to team up and turn the tide?<br/><br/>Sign up and get on the waitlist for our founder member launch.</p>",
             "image_label": "",
@@ -446,6 +476,9 @@
         "column_xTGrAq": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "PICK YOUR FOUNDER PACKAGE",
             "text": "<p>Starting from £180 for life (worth £300 annually*), let us know which package you'd like. Don't forget you can also select a pay what you like option.</p>",
             "image_label": "",
@@ -456,6 +489,9 @@
         "column_AftM3R": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "JOIN THE WAITLIST",
             "text": "<p>It's fast, easy and commitment-free. Once you've added your email address, we'll ask you a few questions which will help us build a better experience for you.</p>",
             "image_label": "",
@@ -466,6 +502,9 @@
         "column_AXiwnb": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "INVITE YOUR FRIENDS",
             "text": "<p>The future's better with friends. Don't tell everyone. Just the best ones. </p>",
             "image_label": "",
@@ -476,6 +515,9 @@
         "column_7QM6Wb": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "TRY TO CONTAIN YOUR EXCITEMENT",
             "text": "<p>Honestly? We've got some great stuff planned. You'll want to get in. </p>",
             "image_label": "",
@@ -486,6 +528,9 @@
         "column_FnYMjd": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "DO IT.",
             "text": "<p>Sign up today. You wont regret it.</p>",
             "image_label": "",
