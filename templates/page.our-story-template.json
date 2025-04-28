@@ -741,31 +741,19 @@
         "text_EYw64t": {
           "type": "text",
           "settings": {
-            "text": "<p>We're a small team with big ambitions. Want to join us on the journey and build a planet positive future.</p>"
-          }
-        },
-        "button_tygPWY": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get in contact",
-            "button_link": "shopify://pages/contact",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>We're a small team with big ambitions. Want to join us on the journey and build a planet positive future.<br/><br/>Get in touch</p>"
           }
         }
       },
       "block_order": [
         "heading_UmMr8c",
-        "text_EYw64t",
-        "button_tygPWY"
+        "text_EYw64t"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
