@@ -7,6 +7,12 @@
         "id": "has_gaps",
         "label": "Enable gaps between blocks",
         "default": true
+      },
+      {
+        "type": "richtext",
+        "id": "section_content",
+        "label": "Section Content",
+        "default": "<p>Discover our amazing features.</p>"
       }
     ],
     "blocks": [
@@ -58,6 +64,11 @@
 {% endschema %}
 
 <div class="grid-cols-section">
+  {% if section.settings.section_content %}
+    <div class="section-content">
+      {{ section.settings.section_content }}
+    </div>
+  {% endif %}
   <div class="grid-cols-container {% if section.settings.has_gaps %}has-gaps{% endif %}">
     {% for block in section.blocks %}
       <div class="grid-block" style="background-color: {{ block.settings.background_color }}">
