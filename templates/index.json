@@ -547,51 +547,6 @@
         "padding_bottom": 36
       }
     },
-    "grid_cols_zEd8NU": {
-      "type": "grid-cols",
-      "blocks": {
-        "block_mtzTHi": {
-          "type": "block",
-          "settings": {
-            "title": "Join the waitlist",
-            "content": "<p>Add your email address and tell us more about yourself so we can build something great.</p>",
-            "cta_url": "",
-            "cta_text": "",
-            "background_color": "#ffffff"
-          }
-        },
-        "block_4EAPHw": {
-          "type": "block",
-          "settings": {
-            "title": "Tell some friends",
-            "content": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
-            "cta_url": "",
-            "cta_text": "",
-            "background_color": "#ffffff"
-          }
-        },
-        "block_rh8DcE": {
-          "type": "block",
-          "settings": {
-            "title": "Get notified",
-            "content": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
-            "cta_url": "",
-            "cta_text": "",
-            "background_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "block_mtzTHi",
-        "block_4EAPHw",
-        "block_rh8DcE"
-      ],
-      "name": "Grid Columns",
-      "settings": {
-        "has_gaps": true,
-        "section_content": "<p>Discover our amazing features.</p>"
-      }
-    },
     "image_with_text_R7Xi3e": {
       "type": "image-with-text",
       "blocks": {
@@ -788,7 +743,6 @@
     "image_with_text_AWz9J9",
     "image_with_text_tWTg8h",
     "multicolumn_U6peM8",
-    "grid_cols_zEd8NU",
     "image_with_text_R7Xi3e",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
