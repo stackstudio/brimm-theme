@@ -407,6 +407,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/belong.svg",
+            "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Belonging",
@@ -420,6 +421,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/ease.svg",
+            "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Ease",
@@ -433,6 +435,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/impact.svg",
+            "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Impact",
@@ -522,6 +525,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/envelope.svg",
+            "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Join the waitlist",
@@ -535,6 +539,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/people.svg",
+            "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Tell some friends",
@@ -548,6 +553,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/notification.svg",
+            "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Get notified",
