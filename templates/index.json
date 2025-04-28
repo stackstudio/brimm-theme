@@ -400,47 +400,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_AWz9J9": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_LVqaVy": {
-          "type": "heading",
-          "settings": {
-            "heading": "Why join ?",
-            "heading_size": "h1"
-          }
-        },
-        "text_xbjYWf": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Belonging</h3><p>Connect with climate optimists, makers, and changemakers all building a brighter future together.</p><h3>Ease</h3><p>We do the vetting and curation, you get the best products out there. Planet-positive living made simple, stylish, and stress-free.</p><h3>Impact</h3><p>Every action counts. Your choices help fund clean energy and initiatives with brands rewriting the rules of business for good.</p><h4></h4><h4></h4><h4></h4>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LVqaVy",
-        "text_xbjYWf"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "brimm-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_eUJkQC": {
       "type": "multicolumn",
       "blocks": {
@@ -498,7 +457,7 @@
         "background_style": "none",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -810,7 +769,6 @@
     "partner_logos_xMwzLh",
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt",
-    "image_with_text_AWz9J9",
     "multicolumn_eUJkQC",
     "image_with_text_tWTg8h",
     "multicolumn_U6peM8",
