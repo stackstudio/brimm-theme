@@ -441,6 +441,70 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_eUJkQC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NENczV": {
+          "type": "column",
+          "settings": {
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Belonging",
+            "text": "<p>Connect with climate optimists, makers, and changemakers all building a brighter future together.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rRdn6Q": {
+          "type": "column",
+          "settings": {
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Ease",
+            "text": "<p>We do the vetting and curation, you get the best products out there. Planet-positive living made simple, stylish, and stress-free.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BWXitp": {
+          "type": "column",
+          "settings": {
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Impact",
+            "text": "<p>Every action counts. Your choices help fund clean energy and initiatives with brands rewriting the rules of business for good.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NENczV",
+        "column_rRdn6Q",
+        "column_BWXitp"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "WHY JOIN?",
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_tWTg8h": {
       "type": "image-with-text",
       "blocks": {
@@ -747,6 +811,7 @@
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt",
     "image_with_text_AWz9J9",
+    "multicolumn_eUJkQC",
     "image_with_text_tWTg8h",
     "multicolumn_U6peM8",
     "image_with_text_R7Xi3e",
