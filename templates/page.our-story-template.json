@@ -656,8 +656,8 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "<p>We imagine a world where planet-positive living is the default.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -669,8 +669,8 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "<p>Where brands don’t just reduce harm, but actively do good. Where their actions create a ripple effect of change in their industries.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -682,8 +682,21 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "<p>Where millions of us are living lighter, brighter lives—and having a blast doing it.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XtppYU": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "<p>We’re not the whole solution, but we have the belief that together, we can go further, faster.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -693,7 +706,8 @@
       "block_order": [
         "column_aXUMAi",
         "column_nAbB9Y",
-        "column_BXTbAx"
+        "column_BXTbAx",
+        "column_XtppYU"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
