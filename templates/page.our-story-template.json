@@ -322,13 +322,6 @@
         "padding_bottom": 36
       }
     },
-    "partner_logos_CnPxcc": {
-      "type": "partner-logos",
-      "name": "Partner Logos",
-      "settings": {
-        "block_text": "what we believe"
-      }
-    },
     "image_with_text_4HfRc9": {
       "type": "image-with-text",
       "blocks": {
@@ -594,7 +587,6 @@
     "image_with_text_GG3a9F",
     "multicolumn_FtmALJ",
     "multicolumn_8pNr8C",
-    "partner_logos_CnPxcc",
     "image_with_text_4HfRc9",
     "image_with_text_BybLYy",
     "image_with_text_wqdhPw",
