@@ -358,28 +358,60 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_rfhCGJ": {
-      "type": "rich-text",
+    "multirow_cWpBrT": {
+      "type": "multirow",
       "blocks": {
-        "heading_dhjUWm": {
-          "type": "heading",
+        "row_c3pXLf": {
+          "type": "row",
           "settings": {
-            "heading": "WHAT WE BELIEVE",
-            "heading_size": "h1"
+            "caption": "",
+            "heading": "Style and substance",
+            "text": "<p>Sustainability shouldn't mean sacrificing style. Or joy. We're here for the beauty in better choices.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_E3rTne": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "OPTIMISM OVER OVERWHELM",
+            "text": "<p>The climate crisis. Is. A. Lot. We've been down but now believe in up.</p><p>Big changes starts with small, purposeful steps. We celebrate progress not perfection. Let's make it easier, welcoming and joyful for more to start.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_KCc38A": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_dhjUWm"
+        "row_c3pXLf",
+        "row_E3rTne",
+        "row_KCc38A"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_4HfRc9": {
@@ -647,7 +679,7 @@
     "image_with_text_GG3a9F",
     "multicolumn_FtmALJ",
     "multicolumn_8pNr8C",
-    "rich_text_rfhCGJ",
+    "multirow_cWpBrT",
     "image_with_text_4HfRc9",
     "image_with_text_BybLYy",
     "image_with_text_wqdhPw",
