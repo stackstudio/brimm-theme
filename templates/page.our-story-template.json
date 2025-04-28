@@ -365,7 +365,7 @@
           "type": "row",
           "settings": {
             "caption": "",
-            "heading": "Style and substance",
+            "heading": "STYLE AND SUBSTANCE",
             "text": "<p>Sustainability shouldn't mean sacrificing style. Or joy. We're here for the beauty in better choices.</p>",
             "button_label": "",
             "button_link": ""
@@ -447,6 +447,7 @@
         "heading_F4ah4c",
         "text_4HWWkD"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Image_588eae22-1f68-4c98-944f-eec3300e81ca.jpg",
         "video_embed": "",
@@ -488,6 +489,7 @@
         "heading_UiP4P6",
         "text_YUXiYX"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Image_8eff14b1-62cf-49c7-9849-fe5c027b9caf.jpg",
         "video_embed": "",
@@ -529,6 +531,7 @@
         "heading_YDWdWQ",
         "text_MwBaB8"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Image_8eff14b1-62cf-49c7-9849-fe5c027b9caf.jpg",
         "video_embed": "",
@@ -570,6 +573,7 @@
         "heading_Rzzy9C",
         "text_6k8QNG"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Image_8eff14b1-62cf-49c7-9849-fe5c027b9caf.jpg",
         "video_embed": "",
