@@ -536,7 +536,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "How it works(3 col grid)",
+        "title": "How it works",
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
