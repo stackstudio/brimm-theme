@@ -83,7 +83,19 @@
                   {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                     {% assign spaced_image = true %}
                   {% endif %}
-                  <div class='multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}'>
+                  <div class='multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %} {%- if block.settings.image_is_icon == true -%} image-is--icon{%- endif -%}'>
+                    {%- if block.settings.image_is_icon == true -%}
+                      <div class='multicolumn-card__image-wrapper--icon'>
+                        <div class='multicolumn-card__image-wrapper--icon-inner'>
+                          {{ block.settings.image | image_url: width: 1000 | image_tag: class: 'multicolumn-card__image' }}
+                        </div>
+                      </div>
+                    {%- else -%}
+                      {%- assign image_ratio = block.settings.image.aspect_ratio -%}
+                      {%- if image_ratio > highest_ratio -%}
+                        {% assign highest_ratio = image_ratio %}
+                      {%- endif -%}
+                    {% endif %}
                     <div
                       class='media media--transparent media--{{ section.settings.image_ratio }}'
                       {% if section.settings.image_ratio == 'adapt' %}
@@ -113,9 +125,11 @@
                         block.settings.image | image_url: width: 3200 | image_tag: widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200', sizes: sizes, class: 'multicolumn-card__image'
                       }}
                     </div>
-                    <div class='image-label--pill'>
-                      {{ block.settings.image_label }}
-                    </div>
+                    {%- if block.settings.image_label -%}
+                      <div class='image-label--pill'>
+                        {{ block.settings.image_label }}
+                      </div>
+                    {%- endif -%}
                   </div>
                 {%- endif -%}
                 <div class='multicolumn-card__info'>
@@ -405,6 +419,12 @@
             "type": "image_picker",
             "id": "image",
             "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          },
+          {
+            "type": "checkbox",
+            "id": "image_is_icon",
+            "default": false,
+            "label": "Image is an icon"
           },
           {
             "type": "checkbox",

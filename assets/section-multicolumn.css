@@ -43,6 +43,13 @@
   overflow: hidden;
 }
 
+.multicolumn-card__image-wrapper.image-is--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
 .multicolumn-card__image-wrapper--third-width {
   width: 33%;
 }
