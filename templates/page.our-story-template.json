@@ -741,15 +741,15 @@
         "text_EYw64t": {
           "type": "text",
           "settings": {
-            "text": "<p>We're a small team with big ambitions. Want to join us on the journey and build a planet positive future. Get in contact.</p>"
+            "text": "<p>We're a small team with big ambitions. Want to join us on the journey and build a planet positive future.</p>"
           }
         },
         "button_tygPWY": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
+            "button_label": "Get in contact",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
