@@ -384,9 +384,9 @@
         "row_KCc38A": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "",
+            "heading": "COMMUNITY OVER CHAOS",
+            "text": "<p>We believe in we over me. Belonging and collective action are the heart of everything we do. We're brighter together.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
