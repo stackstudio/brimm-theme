@@ -518,7 +518,6 @@
   width: 100%;
   padding-right: 0;
   padding-left: 0rem;
-  border-top: 1px solid #e0e0e0;
   @media screen and (min-width: 750px) {
     position: absolute;
     bottom: 0;
@@ -542,6 +541,10 @@ details {
   border-block-end: 1px solid #e0e0e0;
 }
 
+details:first-child {
+  border-block-start: 1px solid #e0e0e0;
+}
+
 details p {
   color: #000000;
 }
@@ -562,7 +565,6 @@ summary {
     /* Custom marker dimensions */
     content: '';
     position: absolute;
-    inset-block-start: 50%;
     inset-inline-end: 0;
     width: 1rem;
     height: 1rem;
@@ -571,7 +573,7 @@ summary {
     background-position: center;
     background-size: 14px;
     /* Positions the lines */
-    inset-block-start: 50%;
+    inset-block-start: 25%;
     inset-inline-end: 0;
 
     /* Anchor the shape to the summary */
@@ -681,6 +683,11 @@ details[open] summary::after {
   font-weight: 500;
   line-height: 120%; /* 16.8px */
   letter-spacing: -0.28px;
+}
+
+.brimm-theme .image-with-text__button-wrapper .button {
+  color: var(--color-brimm-beige);
+  background-color: #000000;
 }
 
 .image-with-text__media {

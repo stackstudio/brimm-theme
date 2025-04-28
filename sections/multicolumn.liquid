@@ -52,6 +52,7 @@
           role='list'>
           {%- liquid
             assign highest_ratio = 0
+            assign blocks_length = section.blocks.size
             for block in section.blocks
               if block.settings.image.aspect_ratio > highest_ratio
                 assign highest_ratio = block.settings.image.aspect_ratio
@@ -67,7 +68,7 @@
 
             <li
               id='Slide-{{ section.id }}-{{ forloop.index }}'
-              class='multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} {%- if block.settings.has_bg_color -%} has-bg--color{%- endif -%}'
+              class='multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} {%- if block.settings.has_bg_color -%} has-bg--color{%- endif -%} {%- if blocks_length <= 4 -%} no--padding{%- endif -%}'
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -178,8 +179,8 @@
           </div>
         {%- endif -%}
       </slider-component>
-      <div class='center{% if show_mobile_slider %} small-hide medium-hide{% endif %}'>
-        {%- if section.settings.button_label != blank -%}
+      {%- if section.settings.button_label != blank -%}
+        <div class='center{% if show_mobile_slider %} small-hide medium-hide{% endif %}'>
           <a
             class='button button--primary'
             {% if section.settings.button_link == blank %}
@@ -190,8 +191,8 @@
             {% endif %}>
             {{ section.settings.button_label | escape }}
           </a>
-        {%- endif -%}
-      </div>
+        </div>
+      {%- endif -%}
     </div>
   </div>
 </div>
