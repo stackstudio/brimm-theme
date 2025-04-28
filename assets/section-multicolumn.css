@@ -44,9 +44,6 @@
 }
 
 .multicolumn-card__image-wrapper.image-is--icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 30%;
 }
 
