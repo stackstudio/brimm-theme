@@ -657,7 +657,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "",
-            "text": "<p>We imagine a world where planet-positive living is the default.</p>",
+            "text": "<h4>We imagine a world where planet-positive living is the default.</h4>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -670,7 +670,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "",
-            "text": "<p>Where brands don’t just reduce harm, but actively do good. Where their actions create a ripple effect of change in their industries.</p>",
+            "text": "<h4>Where brands don’t just reduce harm, but actively do good. Where their actions create a ripple effect of change in their industries.</h4>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -683,7 +683,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "",
-            "text": "<p>Where millions of us are living lighter, brighter lives—and having a blast doing it.</p>",
+            "text": "<h4>Where millions of us are living lighter, brighter lives—and having a blast doing it.</h4>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -696,7 +696,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "",
-            "text": "<p>We’re not the whole solution, but we have the belief that together, we can go further, faster.</p>",
+            "text": "<h4>We’re not the whole solution, but we have the belief that together, we can go further, faster.</h4>",
             "image_label": "",
             "link_label": "",
             "link": ""
