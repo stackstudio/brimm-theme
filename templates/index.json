@@ -495,6 +495,8 @@
         "column_XFrJJp": {
           "type": "column",
           "settings": {
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Join the waitlist",
             "text": "<p>Add your email address and tell us more about yourself so we can build something great. </p>",
             "image_label": "",
@@ -505,6 +507,8 @@
         "column_nLMarx": {
           "type": "column",
           "settings": {
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Tell some friends",
             "text": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
             "image_label": "",
@@ -515,6 +519,8 @@
         "column_LDEDMF": {
           "type": "column",
           "settings": {
+            "has_waitlist_cta": true,
+            "has_bg_color": true,
             "title": "Get notified",
             "text": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
             "image_label": "",
