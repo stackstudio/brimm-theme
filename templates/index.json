@@ -66,7 +66,7 @@
         "text_wLMgQr": {
           "type": "text",
           "settings": {
-            "text": "<p>We are a members club that powers planet positive change. </p><p>Your membership doesn't just make life brighter and lighter - it multiples your impact. Spots are limited. Claim yours now. <br/><br/>Bring some friends to kickstart a flywheel of change and unlock lifetime membership for a one off fee.</p><p>Join the waitlist to get in early and vote on how 10% of our revenue can have a positive impact.</p>",
+            "text": "<p>We are a members club and community that powers planet positive change. <br/><br/>Members get credit to spend on responsibly curated products, cashback on every purchase, and a chunk of change invested  into helping our brands further decarbonise. <br/><br/>Plus, you’ll unlock early access to exclusive drops, insider content, and a vote in how we build BRiMM.<br/><br/>Your membership doesn't just make life brighter and lighter - it multiples your impact. <br/><br/>Spots are limited. Claim yours now.</p>",
             "text_style": "body"
           }
         }
@@ -168,7 +168,7 @@
         "button_9zpdNz"
       ],
       "settings": {
-        "image": "shopify://shop_images/Free_reset_box.jpg",
+        "image": "shopify://shop_images/Brimm25_march27_-_Boxes0815_1_copy_2.jpg",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
