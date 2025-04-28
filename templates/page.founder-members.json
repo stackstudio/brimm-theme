@@ -538,27 +538,13 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_FnYMjd": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": true,
-            "has_bg_color": false,
-            "title": "",
-            "text": "",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column_xTGrAq",
         "column_AftM3R",
         "column_AXiwnb",
-        "column_7QM6Wb",
-        "column_FnYMjd"
+        "column_7QM6Wb"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -567,7 +553,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",
