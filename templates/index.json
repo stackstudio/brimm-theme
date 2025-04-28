@@ -495,7 +495,6 @@
         "column_XFrJJp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/purpose.svg",
             "title": "Join the waitlist",
             "text": "<p>Add your email address and tell us more about yourself so we can build something great. </p>",
             "image_label": "",
@@ -506,7 +505,6 @@
         "column_nLMarx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/recycle.svg",
             "title": "Tell some friends",
             "text": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
             "image_label": "",
@@ -517,7 +515,6 @@
         "column_LDEDMF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/reset.svg",
             "title": "Get notified",
             "text": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
             "image_label": "",
