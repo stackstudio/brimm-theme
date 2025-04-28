@@ -653,6 +653,7 @@
         "column_aXUMAi": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Rambler_package.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -666,6 +667,7 @@
         "column_nAbB9Y": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Rambler_package.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -679,6 +681,7 @@
         "column_BXTbAx": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Rambler_package.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -692,6 +695,7 @@
         "column_XtppYU": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/KZSP10553.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
