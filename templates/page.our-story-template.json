@@ -364,6 +364,7 @@
         "row_c3pXLf": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Image_588eae22-1f68-4c98-944f-eec3300e81ca.jpg",
             "caption": "",
             "heading": "STYLE AND SUBSTANCE",
             "text": "<p>Sustainability shouldn't mean sacrificing style. Or joy. We're here for the beauty in better choices.</p>",
@@ -374,26 +375,29 @@
         "row_E3rTne": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/KZPZ10160.jpg",
             "caption": "",
             "heading": "OPTIMISM OVER OVERWHELM",
             "text": "<p>The climate crisis. Is. A. Lot. We've been down but now believe in up.</p><p>Big changes starts with small, purposeful steps. We celebrate progress not perfection. Let's make it easier, welcoming and joyful for more to start.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_KCc38A": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Image_8eff14b1-62cf-49c7-9849-fe5c027b9caf.jpg",
             "caption": "",
             "heading": "COMMUNITY OVER CHAOS",
             "text": "<p>We believe in we over me. Belonging and collective action are the heart of everything we do. We're brighter together.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_U9WqRj": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/KZHD10495.jpg",
             "caption": "",
             "heading": "ACTION OVER APATHY",
             "text": "<p>Every purchase, every story, every member helps power real, measurable change. No greenwashing, no guilt trips - just brighter living for all.</p>",
