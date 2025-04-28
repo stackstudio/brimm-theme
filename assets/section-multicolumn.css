@@ -153,7 +153,6 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
     padding: 0;
   }
 
-  .multicolumn-list__item,
   .grid--4-col-desktop .multicolumn-list__item {
     padding-bottom: 9.4rem;
   }
