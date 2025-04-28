@@ -1,0 +1,118 @@
+{% schema %}
+  {
+    "name": "Grid Columns",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "has_gaps",
+        "label": "Enable gaps between blocks",
+        "default": true
+      }
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Grid Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Icon Image"
+          },
+          {
+            "type": "url",
+            "id": "cta_url",
+            "label": "CTA URL"
+          },
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA Text"
+          },
+          {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background Color",
+            "default": "#ffffff"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Grid Columns",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}
+
+<div class="grid-cols-section">
+  <div class="grid-cols-container {% if section.settings.has_gaps %}has-gaps{% endif %}">
+    {% for block in section.blocks %}
+      <div class="grid-block" style="background-color: {{ block.settings.background_color }}">
+        {% if block.settings.icon %}
+          <img
+            src="{{ block.settings.icon | file_url }}"
+            alt="{{ block.settings.title }}"
+            class="grid-block-icon"
+            width="auto"
+            height="auto">
+        {% endif %}
+        {% if block.settings.title %}
+          <h3 class="grid-block-title">{{ block.settings.title }}</h3>
+        {% endif %}
+        {% if block.settings.content %}
+          <div class="grid-block-content">{{ block.settings.content }}</div>
+        {% endif %}
+        {% if block.settings.cta_url and block.settings.cta_text %}
+          <a href="{{ block.settings.cta_url }}" class="grid-block-cta">{{ block.settings.cta_text }}</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .grid-cols-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .grid-cols-container.has-gaps {
+    gap: 16px;
+  }
+  .grid-block {
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .grid-block-icon {
+    max-width: 100px;
+    margin: 0 auto 8px;
+  }
+  .grid-block-title {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+  }
+  .grid-block-content {
+    margin-bottom: 16px;
+  }
+  .grid-block-cta {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+</style>

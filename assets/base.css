@@ -2967,7 +2967,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1rem 0.5rem;
   text-decoration: none;
-  color: var(--color-brimm-beige);
+  color: #000000;
   font-weight: 500;
 }
 
