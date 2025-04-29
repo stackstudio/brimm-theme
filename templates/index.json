@@ -66,7 +66,7 @@
         "text_wLMgQr": {
           "type": "text",
           "settings": {
-            "text": "<p>We are a members club and collective that powers planet positive change. <br/><br/>Members get credit to spend on responsibly curated products, cashback on every purchase, and a chunk of change invested  into our Planet Fund. Helping our brands further decarbonise. <br/><br/>Plus, you’ll unlock early access to exclusive drops, insider content, and a vote in how we build BRiMM.<br/><br/>Your membership doesn't just make life brighter and lighter - it multiples your impact. <br/><br/>Spots are limited. Claim yours now.</p>",
+            "text": "<p>We are a members club and collective that powers planet positive change. <br/><br/>Members get credit to spend on responsibly curated products, cashback on every purchase, and a chunk of change invested  into our Planet Fund. Helping our brands further decarbonise. <br/><br/>Plus, you’ll unlock early access to exclusive drops, insider content, and a vote in how we build BRiMM.<br/><br/>Your membership doesn't just make life brighter and lighter - it multiples your planet positive impact. <br/><br/>Spots are limited. Claim yours now.</p>",
             "text_style": "body"
           }
         }
@@ -149,7 +149,7 @@
         "text_ztHWap": {
           "type": "text",
           "settings": {
-            "text": "<h4>Discover responsibly curated products - vetted for style, substance and planet positivity.</h4><p>We're an \"enough\" store not an \"everything\" store. Less overwhelm, more joy. </p><p>Our responsibly curated collection champions both well known, and brilliant new brands - across beauty, kitchen, home and fashion.</p><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.</p>",
+            "text": "<h4>Discover responsibly curated products - vetted for style, substance and planet positivity.</h4><p>We're an \"enough\" store not an \"everything\" store. Less overwhelm, more joy. </p><p>Our responsibly curated collection champions both well known, and brilliant new brands. The very best across beauty, kitchen, home and fashion.</p><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.</p>",
             "text_style": "body"
           }
         },
@@ -199,7 +199,7 @@
         "text_RcyyRE": {
           "type": "text",
           "settings": {
-            "text": "<h4>Want to make a big impact quickly? Our Reset discovery boxes do that.</h4><p>Imagine resetting your daily kitchen or bathroom ritual to be planet positive - in one go. That’s what our Reset discovery boxes do<strong>.</strong> Carefully curated and thoroughly vetted brands in beauty, food, and home. </p>",
+            "text": "<h4>Want to make a big impact quickly? Our Reset discovery boxes do that.</h4><p>Imagine resetting your daily kitchen or bathroom ritual to be planet positive - in one go. That’s what our Reset discovery boxes do<strong>.</strong> Responsibly curated and thoroughly vetted brands across beauty, food, and home. </p>",
             "text_style": "body"
           }
         },
@@ -322,7 +322,7 @@
         "text_HR9mLh": {
           "type": "text",
           "settings": {
-            "text": "<h4>Dive into thought provoking content from leading voices.</h4><p>Everything we do as humans has an impact,  so our journal covers it all: fashion, travel, beauty, home, and (mouthwatering) food.</p><p>Expect inspiring stories, clever tips and expert insights from big name writers and conscious minds. </p><p>With both member only and open-to-all articles, the BRiMM Journal is here to spark ideas, fuel optimism, and help you live a planet-positive life—without compromise.</p>",
+            "text": "<h4>Dive into thought provoking content from leading voices.</h4><p>Everything we do as humans has an impact,  so our journal covers it all: fashion, travel, beauty, home, and (mouthwatering) food.</p><p>Expect inspiring stories, clever tips and expert insights from big name writers and conscious minds. </p><p>With both member only, and open-to-all articles, the BRiMM Journal is here to spark ideas, fuel optimism, and help you live a planet-positive life—without compromise.</p>",
             "text_style": "body"
           }
         }
@@ -411,7 +411,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Carbon Insetting vs Offsetting",
-            "text": "<p>We've all heard of carbon offsetting, right? Where a brand pay's for trees to be planted to offset carbon. Insetting is way better. It's cleaning up your own mess. Not kicking it down the road.</p>",
+            "text": "<p>We've all heard of carbon offsetting, right? Where a brand pay's for trees to be planted, offsetting carbon? Insetting is way better. It's cleaning up your own mess. Not kicking it down the road.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -439,7 +439,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Our Planet Fund",
-            "text": "<p>10% of our revenue goes directly to our brands to help them further decarbonise via carbon insetting. Not planting trees. Actually addressing their impact directly. Less imapct for them, less impact for you.</p>",
+            "text": "<p>10% of our revenue goes directly to our brands helping them further decarbonise via carbon insetting. Actually addressing their impact directly. Less impact for them, less impact for you.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -543,7 +543,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Purposeful impact",
-            "text": "<p>Every purchase is a vote on the future you want. 10% of our revenue goes to the Planet Fund. Helping fund carbon Insetting initiatives like clean energy for our brands. (more on that one later)</p>",
+            "text": "<p>Every purchase is a vote on the future you want. 10% of our revenue goes to the Planet Fund. Helping fund Carbon Insetting initiatives like clean energy for our brands. (more on that one later)</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -675,7 +675,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Get notified",
-            "text": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
+            "text": "<p>Every week we'll be inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
