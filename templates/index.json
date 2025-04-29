@@ -543,7 +543,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Purposeful impact with the Planet Fund",
-            "text": "<p>Every purchase is a vote on the future you want. 10% of our revenue goes to the Planet Fund. Helping fund carbon insetting initiatives like clean energy for our brands. (more on that one later)</p>",
+            "text": "<p>Every purchase is a vote on the future you want. 10% of our revenue goes to the Planet Fund. Helping fund carbon insetting initiatives like clean energy for our brands. (more on that one later.)</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -618,7 +618,7 @@
         "member_packages_wxQx7L"
       ],
       "settings": {
-        "image": "shopify://shop_images/Base_camp_package.jpg",
+        "image": "shopify://shop_images/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
