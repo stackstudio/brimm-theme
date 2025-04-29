@@ -149,7 +149,7 @@
         "text_ztHWap": {
           "type": "text",
           "settings": {
-            "text": "<h4>Discover responsibly curated products - vetted for style, and planet positivity.</h4><p>We're an \"enough\" store not an \"everything\" store. Less overwhelm, more joy. </p><p>Our responsibly curated collection champions both well known and brilliant new brands across beauty, kitchen, home and fashion.</p><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.</p>",
+            "text": "<h4>Discover responsibly curated products - vetted for style, substance and planet positivity.</h4><p>We're an \"enough\" store not an \"everything\" store. Less overwhelm, more joy. </p><p>Our responsibly curated collection champions both well known, and brilliant new brands - across beauty, kitchen, home and fashion.</p><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.</p>",
             "text_style": "body"
           }
         },
@@ -363,7 +363,7 @@
         "text_AKbMah": {
           "type": "text",
           "settings": {
-            "text": "<h4><strong>Join a movement where every member and every purchase powers up positive change.</strong></h4><p>Join us for intimate supper clubs, inspiring film nights, and big-think panels with brands, activists, and academics—all designed to spark ideas and real change. Here, everyone’s welcome and every voice matters.</p><p>And it’s not just talk. As a member, you help decide how our not-for-profit invests in the brands we stock, pushing for a future where we give back, more than we take.</p><p>Ready to turn good intentions into impact? Step into our Collective—where community shapes what’s next. Together.</p>",
+            "text": "<h4><strong>Join a movement where every member and every purchase powers up positive change.</strong></h4><p>Join us for intimate supper clubs, inspiring film nights, and big-think panels with brands, activists, and academics—all designed to spark ideas and real change. Here, everyone’s welcome and every voice matters.</p><p>And it’s not just talk. As a member, you help decide where our Planet Fund invests in the brands we stock. Pushing for a future where we give back more than we take.</p><p>Ready to turn good intentions into impact? Step into our Collective—where community shapes what’s next. Together.</p>",
             "text_style": "body"
           }
         },
@@ -411,7 +411,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Carbon Insetting vs Offsetting",
-            "text": "<p>We've all heard of carbon offsetting, right? Where a brand pay's for trees to be planted to offset carbon. Insetting is way better. It's cleaning up your own mess. Not someone else's.</p>",
+            "text": "<p>We've all heard of carbon offsetting, right? Where a brand pay's for trees to be planted to offset carbon. Insetting is way better. It's cleaning up your own mess. Not kicking it down the road.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -425,7 +425,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "How does Insetting work?",
-            "text": "<p>It's when a company reduces emissions in it's own supply chain. With BRiMM it's helping our brands actually reduce carbon, vs just planting some trees.</p>",
+            "text": "<p>It's when a company actually reduces emissions in it's own supply chain. With BRiMM it's helping our brands actually reduce carbon, vs just planting some trees.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -439,7 +439,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Our Planet Fund",
-            "text": "<p>10% of our revenue goes directly to our brands to help them further decarbonise. Not planting trees. Actually addressing their impact directly. </p>",
+            "text": "<p>10% of our revenue goes directly to our brands to help them further decarbonise via carbon insetting. Not planting trees. Actually addressing their impact directly. Less imapct for them, less impact for you.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -453,7 +453,173 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "WHAT'S THE PLANET FUND?",
+        "title": "SO, WHAT'S THE PLANET FUND?",
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_tWTg8h": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8xHCC9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Featured founder members",
+            "heading_size": "h1"
+          }
+        },
+        "text_3ijQnt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve handpicked a crew of planet-positive pioneers. Founders, activists and academics who are already shaping the future of planet positive living.</p><p>Join them and help to build BRiMM from the ground up.</p>",
+            "text_style": "body"
+          }
+        },
+        "accordians_kbAYmf": {
+          "type": "accordians",
+          "settings": {
+            "accordians": "<details name=\"founder\"\ndata-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Amy-Powney-creative-director-AKYN-2025.webp?v=1744822906\"\n>\n  <summary>Amy Powney</summary>\n  <p>Pioneering creative director</p>\n<p>Founder and Creative Director of AKYN. The former Creative Director of Mother of Pearl, Amy Powney is a UK based fashion designer and activist living in London, star of an award nominated documentary and recipient of the British Fashion Council /Vogue Designer Fashion Fund.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Anna_Foster_Head_Shot_3_1080x_28229f04-d1db-4916-99dc-f9dea8c3131b.webp?v=1744822907\" name=\"founder\">\n  <summary>Anna Foster</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/jocelyn.png?v=1744822909\" name=\"founder\">\n  <summary>Jocelyn Longdon</summary>\n  <p>Author, academic and activist</p>\n<p>Joycelyn Longdon is an award-winning environmental justice technologist, writer, and educator. She is a PhD candidate at the University of Cambridge, where her research focuses on justice-led conservation technologies for monitoring biodiversity with local communities in Ghana. Longdon is the founder of ClimateInColour, an influential platform making climate science more accessible and diverse. She was the 2022 Emerging Designer London Design Medal winner, featured in British Vogue’s ‘Forces for Change’ issue, and is recognized as a leading voice in climate justice and technology</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Chantelle_Nicholson.png?v=1744822908\" name=\"founder\">\n  <summary>Chantelle Nicholson</summary>\n  <p>Green Michelin Starred chef</p>\n<p>Chantelle Nicholson is a multi-award-winning chef, restaurateur, and author, celebrated for her commitment to sustainable, veg-forward cuisine. Originally from New Zealand, she is the founder of Apricity in Mayfair, a restaurant recognized with a Michelin Green Star for its focus on conscious cooking and regenerative practices. Nicholson is a leading advocate for seasonality and circularity in hospitality, serving as an ambassador for Chefs in Schools, a board member for ReLondon, and a member of City Harvest’s Food Council.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Melanie_Rickey.png?v=1744822909\" name=\"founder\">\n  <summary>Orsola de Castro</summary>\n  <p>Sustainable fashion activist</p>\n<p>Orsola de Castro is an internationally recognized leader in sustainable fashion, known for her pioneering work in upcycling and industry activism. She founded the upcycling label From Somewhere and co-founded Estethica at London Fashion Week. In 2013, she launched Fashion Revolution, now the world’s largest fashion activism movement, and is the author of Loved Clothes Last.</p>\n</details>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8xHCC9",
+        "text_3ijQnt",
+        "accordians_kbAYmf"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_R7Xi3e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Vmny6m": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founder members packages",
+            "heading_size": "h1"
+          }
+        },
+        "text_LdM7Ua": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
+            "text_style": "body"
+          }
+        },
+        "member_packages_wxQx7L": {
+          "type": "member_packages",
+          "settings": {
+            "member_packages_block": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vmny6m",
+        "text_LdM7Ua",
+        "member_packages_wxQx7L"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Base_camp_package.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_U6peM8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XFrJJp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/envelope.svg",
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Join the waitlist",
+            "text": "<p>Add your email address and tell us more about yourself so we can build something great. </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nLMarx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/people.svg",
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Tell some friends",
+            "text": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LDEDMF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/notification.svg",
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Get notified",
+            "text": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XFrJJp",
+        "column_nLMarx",
+        "column_LDEDMF"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "HOW IT WORKS",
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -536,172 +702,6 @@
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_tWTg8h": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_8xHCC9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Featured founder members",
-            "heading_size": "h1"
-          }
-        },
-        "text_3ijQnt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We’ve handpicked a crew of planet-positive pioneers. Founders, activists and academics who are already shaping the future of planet positive living.</p><p>Join them and help to build BRiMM from the ground up.</p>",
-            "text_style": "body"
-          }
-        },
-        "accordians_kbAYmf": {
-          "type": "accordians",
-          "settings": {
-            "accordians": "<details name=\"founder\"\ndata-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Amy-Powney-creative-director-AKYN-2025.webp?v=1744822906\"\n>\n  <summary>Amy Powney</summary>\n  <p>Pioneering creative director</p>\n<p>Founder and Creative Director of AKYN. The former Creative Director of Mother of Pearl, Amy Powney is a UK based fashion designer and activist living in London, star of an award nominated documentary and recipient of the British Fashion Council /Vogue Designer Fashion Fund.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Anna_Foster_Head_Shot_3_1080x_28229f04-d1db-4916-99dc-f9dea8c3131b.webp?v=1744822907\" name=\"founder\">\n  <summary>Anna Foster</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/jocelyn.png?v=1744822909\" name=\"founder\">\n  <summary>Jocelyn Longdon</summary>\n  <p>Author, academic and activist</p>\n<p>Joycelyn Longdon is an award-winning environmental justice technologist, writer, and educator. She is a PhD candidate at the University of Cambridge, where her research focuses on justice-led conservation technologies for monitoring biodiversity with local communities in Ghana. Longdon is the founder of ClimateInColour, an influential platform making climate science more accessible and diverse. She was the 2022 Emerging Designer London Design Medal winner, featured in British Vogue’s ‘Forces for Change’ issue, and is recognized as a leading voice in climate justice and technology</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Chantelle_Nicholson.png?v=1744822908\" name=\"founder\">\n  <summary>Chantelle Nicholson</summary>\n  <p>Green Michelin Starred chef</p>\n<p>Chantelle Nicholson is a multi-award-winning chef, restaurateur, and author, celebrated for her commitment to sustainable, veg-forward cuisine. Originally from New Zealand, she is the founder of Apricity in Mayfair, a restaurant recognized with a Michelin Green Star for its focus on conscious cooking and regenerative practices. Nicholson is a leading advocate for seasonality and circularity in hospitality, serving as an ambassador for Chefs in Schools, a board member for ReLondon, and a member of City Harvest’s Food Council.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Melanie_Rickey.png?v=1744822909\" name=\"founder\">\n  <summary>Orsola de Castro</summary>\n  <p>Sustainable fashion activist</p>\n<p>Orsola de Castro is an internationally recognized leader in sustainable fashion, known for her pioneering work in upcycling and industry activism. She founded the upcycling label From Somewhere and co-founded Estethica at London Fashion Week. In 2013, she launched Fashion Revolution, now the world’s largest fashion activism movement, and is the author of Loved Clothes Last.</p>\n</details>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8xHCC9",
-        "text_3ijQnt",
-        "accordians_kbAYmf"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_U6peM8": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_XFrJJp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/envelope.svg",
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Join the waitlist",
-            "text": "<p>Add your email address and tell us more about yourself so we can build something great. </p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nLMarx": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/people.svg",
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Tell some friends",
-            "text": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_LDEDMF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/notification.svg",
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Get notified",
-            "text": "<p>Every week we'll be letting inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the collective.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_XFrJJp",
-        "column_nLMarx",
-        "column_LDEDMF"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "HOW IT WORKS",
-        "text_block": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_R7Xi3e": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_Vmny6m": {
-          "type": "heading",
-          "settings": {
-            "heading": "Founder members packages",
-            "heading_size": "h1"
-          }
-        },
-        "text_LdM7Ua": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
-            "text_style": "body"
-          }
-        },
-        "member_packages_wxQx7L": {
-          "type": "member_packages",
-          "settings": {
-            "member_packages_block": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_Vmny6m",
-        "text_LdM7Ua",
-        "member_packages_wxQx7L"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Base_camp_package.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -852,10 +852,10 @@
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt",
     "multicolumn_eUJkQC",
-    "multicolumn_APEfcB",
     "image_with_text_tWTg8h",
-    "multicolumn_U6peM8",
     "image_with_text_R7Xi3e",
+    "multicolumn_U6peM8",
+    "multicolumn_APEfcB",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
     "email_signup_banner_644mkD"
