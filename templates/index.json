@@ -483,7 +483,7 @@
         "text_3ijQnt": {
           "type": "text",
           "settings": {
-            "text": "<p>We’ve handpicked a crew of planet-positive pioneers. Founders, activists and academics who are already shaping the future of planet positive living.</p><p>Join them and help to build BRiMM from the ground up.</p>",
+            "text": "<p>We’ve handpicked a crew of planet-positive pioneers. Founders, activists and academics who are already shaping the future of planet positive living with BRiMM.</p><p>Join them and help to shape BRiMM from the ground up.</p>",
             "text_style": "body"
           }
         },
@@ -518,13 +518,83 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_APEfcB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ikDdR6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/belong.svg",
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Responsibly curated products & Inspiring content",
+            "text": "<p>We do the curation and vetting, you get the best design-led products and content out there. Planet-positive living made simple, stylish, and stress-free.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BrH7PN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ease.svg",
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Purposeful impact",
+            "text": "<p>Every purchase is a vote on the future you want. 10% of our revenue goes to the Planet Fund. Helping fund carbon Insetting initiatives like clean energy for our brands. (more on that one later)</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eqwiVA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/impact.svg",
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Join an inspiring Collective",
+            "text": "<p>Connect with climate optimists, future thinkers, and change makers all building a brighter future with BRiMM. Together.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ikDdR6",
+        "column_BrH7PN",
+        "column_eqwiVA"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "WHY SHOULD YOU JOIN?",
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_R7Xi3e": {
       "type": "image-with-text",
       "blocks": {
         "heading_Vmny6m": {
           "type": "heading",
           "settings": {
-            "heading": "Founder members packages",
+            "heading": "BECOME A FOUNDER MEMBER",
             "heading_size": "h1"
           }
         },
@@ -576,7 +646,7 @@
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Join the waitlist",
+            "title": "Join the waitlist & tell some friends",
             "text": "<p>Add your email address and tell us more about yourself so we can build something great. </p>",
             "image_label": "",
             "link_label": "",
@@ -620,76 +690,6 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "HOW IT WORKS",
-        "text_block": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_APEfcB": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_ikDdR6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/belong.svg",
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Responsibly curated products",
-            "text": "<p>We do the curation and vetting, you get the best design-led products out there. Planet-positive living made simple, stylish, and stress-free.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BrH7PN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ease.svg",
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Purposeful impact",
-            "text": "<p>Every purchase is a vote on the future you want. And 10% of our revenue goes to our non-profit, helping fund initiatives like clean energy for our brands.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_eqwiVA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/impact.svg",
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Join an inspiring Collective",
-            "text": "<p>Connect with climate optimists, future thinkers, and change makers all building a brighter future together.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_ikDdR6",
-        "column_BrH7PN",
-        "column_eqwiVA"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "WHY JOIN?",
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -853,9 +853,9 @@
     "image_with_text_QX9ykt",
     "multicolumn_eUJkQC",
     "image_with_text_tWTg8h",
+    "multicolumn_APEfcB",
     "image_with_text_R7Xi3e",
     "multicolumn_U6peM8",
-    "multicolumn_APEfcB",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
     "email_signup_banner_644mkD"
