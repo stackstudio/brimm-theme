@@ -363,7 +363,7 @@
         "text_AKbMah": {
           "type": "text",
           "settings": {
-            "text": "<h4><strong>Join a movement where every member and every purchase powers up positive change.</strong></h4><p>Join us for intimate supper clubs, inspiring film nights, and big-think panels with brands, activists, and climate researchers—all designed to spark ideas and real change. Here, everyone’s welcome and every voice matters.</p><p>And it’s not just talk. As a member, you help decide where our Planet Fund invests in our stocked brans. Pushing for a future where we give back more than we take.</p><p>Ready to turn good intentions into impact? Step into our Collective—where community shapes what’s next. Together.</p>",
+            "text": "<h4><strong>Join a movement where every member and every purchase powers up positive change.</strong></h4><p>Join us for intimate supper clubs, inspiring film nights, and big-think panels with brands, activists, and climate researchers—all designed to spark ideas and real change. </p><p>And it’s not just talk. As a member, you help decide where our Planet Fund invests in our stocked brands. Pushing for a future where we give back more than we take.</p><p>Ready to turn good intentions into impact? Step into our Collective—where community shapes what’s next. Together.</p>",
             "text_style": "body"
           }
         },
@@ -425,7 +425,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "How does Insetting work?",
-            "text": "<p>It's when a company actually reduces emissions in it's own supply chain. With BRiMM it's helping our brands actually reduce carbon, vs just planting some trees.</p>",
+            "text": "<p>It's when a company actually reduces emissions in it's supply chain. With BRiMM, it's helping our brands actually reduce carbon, vs just planting some trees.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -483,7 +483,7 @@
         "text_3ijQnt": {
           "type": "text",
           "settings": {
-            "text": "<p>We’ve handpicked a crew of planet-positive pioneers. Brand founders, activists and researchers who are already shaping the future of planet positive living with BRiMM.</p><p>Join them and help to shape BRiMM from the ground up.</p>",
+            "text": "<p>We’ve handpicked a crew of planet-positive pioneers. Brand founders, activists and climate researchers who are already shaping the future of planet positive living with BRiMM.</p><p>Join them and help to shape BRiMM from the ground up.</p>",
             "text_style": "body"
           }
         },
@@ -557,7 +557,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Join an inspiring Collective",
-            "text": "<p>Connect with climate optimists, future thinkers, and change makers all building a brighter future with BRiMM. Together.</p>",
+            "text": "<p>Connect with climate optimists, future thinkers, and change makers. All building a brighter future with BRiMM. Together.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -675,7 +675,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Get notified",
-            "text": "<p>Every week we'll be inviting some new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the Collective.</p>",
+            "text": "<p>Every week we'll be inviting new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the Collective.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
