@@ -646,8 +646,8 @@
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Join the waitlist & tell some friends",
-            "text": "<p>Add your email address and tell us more about yourself so we can build something great. </p>",
+            "title": "Join the waitlist & introduce yourself",
+            "text": "<p>Add your email address and introduce yourself. It's nice to be on first name terms when you're changing how commerce works.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -689,7 +689,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "HOW IT WORKS",
+        "title": "HOW DO I GET ON THE LIST?",
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
