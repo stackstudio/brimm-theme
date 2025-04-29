@@ -542,7 +542,7 @@
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Purposeful impact",
+            "title": "Purposeful impact with the Planet Fund",
             "text": "<p>Every purchase is a vote on the future you want. 10% of our revenue goes to the Planet Fund. Helping fund Carbon Insetting initiatives like clean energy for our brands. (more on that one later)</p>",
             "image_label": "",
             "link_label": "",
@@ -689,7 +689,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "HOW DO I GET ON THE LIST?",
+        "title": "HOW DO I GET ON THE WAIT LIST?",
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
