@@ -40,7 +40,7 @@
         "text_zNbwQe"
       ],
       "settings": {
-        "image": "shopify://shop_images/DTS_IRL_ESCAPISM_Daniel_Faro_Photos_ID8797.jpg",
+        "image": "shopify://shop_images/Paper_plane.jpg",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -76,7 +76,7 @@
         "text_k4Jj7X"
       ],
       "settings": {
-        "image": "shopify://shop_images/Screenshot_2025-04-01_at_20.26.06.png",
+        "image": "shopify://shop_images/KZPHW10031.jpg",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
@@ -343,7 +343,7 @@
       "settings": {
         "title": "WHOS BEHIND BRiMM?",
         "text_block": "We’re a gang of planet enthusiasts and optimists—designers, doers, and dreamers who believe in the power of enough. We’re supported by high-profile founder members, trusted contributors, world-class investors and a growing network of brands and partners who share our vision. BRiMM is built by us, powered by you, and sustained by all of us.",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
