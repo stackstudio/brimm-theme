@@ -41,7 +41,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Paper_plane.jpg",
-        "image_overlay_opacity": 10,
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
