@@ -406,7 +406,7 @@
         "column_NENczV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/belong.svg",
+            "image": "shopify://shop_images/impact.svg",
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -420,7 +420,7 @@
         "column_rRdn6Q": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ease.svg",
+            "image": "shopify://shop_images/gear.svg",
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -434,7 +434,7 @@
         "column_BWXitp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/impact.svg",
+            "image": "shopify://shop_images/money.svg",
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -524,7 +524,7 @@
         "column_ikDdR6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/belong.svg",
+            "image": "shopify://shop_images/microscope.svg",
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -538,7 +538,7 @@
         "column_BrH7PN": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ease.svg",
+            "image": "shopify://shop_images/hand-peace.svg",
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -552,7 +552,7 @@
         "column_eqwiVA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/impact.svg",
+            "image": "shopify://shop_images/people.svg",
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
