@@ -126,14 +126,8 @@
       {%- comment -%} Left Column {%- endcomment -%}
       <div class="columns-with-content__column columns-with-content__column--left {{ left_column_width }} {{ left_bg_class }} {{ left_column_height_class }} {{ left_mobile_height_class }} {% if component.left_column_reserve_logo.value != blank and component.left_column_reserve_logo.value != 'None' %}columns-with-content__column--with-logo {% endif %} scroll-trigger animate--slide-in">
 
-        {%- if component.left_column_reserve_logo.value != blank and component.left_column_reserve_logo.value != 'None' -%}
-          <div class="columns-with-content__reserve-logo columns-with-content__reserve-logo--{{ component.left_column_reserve_logo.value | downcase | escape }}">
-            {{- 'reserve-logo.svg' | inline_asset_content -}}
-          </div>
-        {%- endif -%}
-
         {%- if component.left_column_media.value != blank -%}
-          <div class="columns-with-content__media">
+          <div class="columns-with-content__media columns-with-content__media--{{component.left_column_media_size.value | handle | default: 'large'}}">
             {%- if component.left_column_badge != blank -%}
               <span class="columns-with-content__badge">{{ component.left_column_badge }}</span>
             {%- endif -%}
@@ -202,6 +196,9 @@
             {%- endif -%}
           </div>
         {%- endif -%}
+        <div>
+          {{ component.left_column_media_credit | metafield_tag }}
+        </div>
       </div>
 
       {%- comment -%} Right Column {%- endcomment -%}

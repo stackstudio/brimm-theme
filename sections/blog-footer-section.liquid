@@ -1,0 +1,37 @@
+{% schema %}
+  {
+    "name": "Blog Footer Section",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "richtext",
+        "id": "rich_text_content",
+        "label": "Rich Text Content",
+        "default": "<p>Your rich text here</p>"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Blog Footer Section",
+        "category": "Footer"
+      }
+    ]
+  }
+{% endschema %}
+
+<div class="blog-footer-section" style="background-color: {{ section.settings.background_color }}">
+  <div class="container">
+    {{ section.settings.rich_text_content | escape }}
+  </div>
+</div>
+
+<style>
+  .blog-footer-section {
+    padding: 20px;
+  }
+</style>

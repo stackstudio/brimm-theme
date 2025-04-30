@@ -48,6 +48,115 @@
       </video>
     </deferred-media>
   {% else %}
-    {% comment %} wistia here {% endcomment %}
+    {%- assign video_formats = component.video_formats.value -%}
+    <div class="wistia-video {{ video_formats }}">
+      <iframe
+        src="https://fast.wistia.net/embed/iframe/{{ component.wistia_video_id.value }}?web_component=true&seo=true"
+        title="video-one"
+        allow="autoplay; fullscreen"
+        allowtransparency="true"
+        frameborder="0"
+        scrolling="no"
+        name="wistia_embed"></iframe>
+    </div>
+    <div class="video-caption">
+      <p class="video-caption__text body-medium-12">
+        {{ component.video_caption.value }}
+      </p>
+    </div>
   {% endif %}
 </section>
+
+{% comment %} style video in here {% endcomment %}
+
+<style>
+  .video-section__wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .video-section__wrapper .deferred-media {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-section__wrapper .deferred-media__poster {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .video-section__wrapper .deferred-media__poster-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .video-section__wrapper .deferred-media__poster-button .svg-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .video-section__wrapper .deferred-media__poster-button .svg-wrapper.play {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .video-section__wrapper .deferred-media__poster-button .svg-wrapper.pause {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .wistia-video.portrait {
+    position: relative;
+    padding-top: 106%;
+    height: 760px;
+    width: 800px;
+  }
+  .wistia-video.landscape {
+    position: relative;
+    padding-top: 56.25%;
+    height: 450px;
+    width: 800px;
+  }
+  .wistia-video.square {
+    position: relative;
+    padding-top: 100%;
+    height: 800px;
+    width: 800px;
+  }
+  .wistia-video.full-width {
+    position: relative;
+    padding-top: 56.25%;
+    height: 450px;
+    width: 100%;
+  }
+  .wistia-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .wistia-video .wistia_embed {
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-caption {
+    margin: 0 auto;
+    width: 800px;
+  }
+</style>

@@ -51,7 +51,7 @@
 
   {% if has_tabbed_block %}
     <script src="{{ 'tabbed-block.js' | asset_url }}" defer="defer"></script>
-  {%  endif %}
+  {% endif %}
 
   <div class="dynamic-content-wrapper page-width">
     {% for component in page_content.value %}
@@ -68,11 +68,13 @@
       {% elsif component.system.type == "article_richtext" %}
         {% render 'repeater-article-rich-text' with component as item
           , section: section %}
+      {% elsif component.system.type == "article_image" %}
+        {% render 'repeater-article-image' with component as item
+          , section: section %}
       {% elsif component.system.type == 'tabbed_block' %}
-        {% render 'repeater-tabbed-block'
-          with component as item,
-          index: forloop.index,
-          aem_script_loaded: has_aem_video
+        {% render 'repeater-tabbed-block' with component as item
+          , index: forloop.index
+          , aem_script_loaded: has_aem_video
         %}
       {% elsif component.system.type == 'featured_product' %}
         {% render 'repeater-featured-product' with component as item %}
