@@ -1,0 +1,27 @@
+<section class="justified-header-section page-width">
+  {% for block in section.blocks %}
+    {% render block %}
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "Justified Header Section",
+  "max_blocks": 1,
+  "blocks": [
+    {
+      "type": "@theme"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Justified Header Section",
+      "blocks": [
+        {
+          "type": "justified_header"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
