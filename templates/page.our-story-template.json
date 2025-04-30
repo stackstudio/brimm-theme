@@ -66,7 +66,7 @@
         "text_k4Jj7X": {
           "type": "text",
           "settings": {
-            "text": "<h4>BRiMM was born out of frustration—and hope.</h4><p>We were tired of being told that living sustainably meant a life stripped of colour, comfort, and fun.</p><p>We wanted to do something about the climate crisis, but we also wanted to enjoy the ride.</p><p>Drab clothes, musty pits, and endless kale? No thanks. We set out to prove that living within limits isn’t living less—it’s living more.</p>",
+            "text": "<h4>BRiMM was born out of frustration—and hope.</h4><p>We were tired of being told that living sustainably meant a life stripped of colour, comfort, and fun.</p><p>We wanted to do something about the climate crisis, but we also wanted to enjoy the ride.</p><p>Drab clothes, and endless kale? No thanks. We set out to prove that living within limits isn’t living less—it’s living more.</p>",
             "text_style": "body"
           }
         }
@@ -144,7 +144,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "PURPOSEFUL COMMERCE",
-            "text": "<p>We don’t just sell planet-positive products—we reinvest a chunk (10%) of every penny you spend into our Planet Fund, helping the brands you love go further, faster. Mitigating not offsetting impact.</p><p>This year, we’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy for our brands. The rest - you decide.</p><p>Because shopping should power the planet, not just line pockets.</p>",
+            "text": "<p>We don’t just sell planet-positive products—we reinvest a chunk (10%) of every penny you spend into our Planet Fund, helping the brands you love go further, faster. Mitigating, not offsetting impact.</p><p>This year, we’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy for our brands. The rest - you decide.</p><p>Because shopping should power the planet, not just line pockets.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -157,7 +157,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "CURATED, NOT OVERFLOWING",
-            "text": "<h4>We’re the ‘enough store’, not the ‘everything store’. </h4><p>Often find that where you shop is overflowing with too many, brand, products stuff. Do we really need it all?!</p><p>On BRiMM, expect fewer, better, more beautiful things—each one vetted for quality, style, and sustainability.</p><p>Less stuff, more swoon.</p>",
+            "text": "<h4>We’re the ‘enough store’, not the ‘everything store’. </h4><p>Often find that where you shop is overflowing with too many, brands, products stuff. Do we really need it all?!</p><p>On BRiMM, expect fewer, better, more beautiful things—each one vetted for quality, style, and sustainability.</p><p>Less stuff, more swoon.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -170,20 +170,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "PEOPLE-POWERED IMPACT",
-            "text": "<h4>Every member, every purchase, every brand is part of a feedback loop that multiplies good.</h4><p>When you lower your impact, you help brands lower theirs too. Community isn't a buzzword here it's an engine.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_zm6Q9m": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "PEOPLE-POWERED IMPACT",
-            "text": "<h4>Every member, every purchase, every brand is part of a feedback loop that multiplies good.</h4><p>When you lower your impact, you help brands lower theirs too. Community isn't a buzzword here it's an engine.</p>",
+            "text": "<h4>Every member, every purchase, every brand is part of a feedback loop that multiplies good.</h4><p>When you lower your impact, you help brands lower theirs too. All via carbon insetting. And Community isn't a buzzword here it's an engine for change.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -193,8 +180,7 @@
       "block_order": [
         "column_qzDjWz",
         "column_hRaUey",
-        "column_8ADtcz",
-        "column_zm6Q9m"
+        "column_8ADtcz"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -342,7 +328,7 @@
       ],
       "settings": {
         "title": "WHOS BEHIND BRiMM?",
-        "text_block": "We’re a gang of planet enthusiasts and optimists—designers, doers, and dreamers who believe in the power of enough. We’re supported by high-profile founder members, trusted contributors, world-class investors and a growing network of brands and partners who share our vision. BRiMM is built by us, powered by you, and sustained by all of us.",
+        "text_block": "We’re a Collective of climate optimist. Designers, doers, and dreamers who believe in the power of enough. We’re supported by high-profile founder members, trusted contributors and world-class investors. And a growing network of brands and partners who share our vision. BRiMM is built by us, powered by you, and sustained by all of us.",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -367,7 +353,7 @@
             "image": "shopify://shop_images/mudjumpsuit.webp",
             "caption": "",
             "heading": "STYLE AND SUBSTANCE",
-            "text": "<p>Sustainability shouldn't mean sacrificing style. Or joy. We're here for the beauty in better choices.</p>",
+            "text": "<h4>Sustainability shouldn't mean sacrificing style. Or joy. We're here for the beauty in better choices.</h4>",
             "button_label": "",
             "button_link": ""
           }
@@ -378,7 +364,7 @@
             "image": "shopify://shop_images/KZPZ10160.jpg",
             "caption": "",
             "heading": "OPTIMISM OVER OVERWHELM",
-            "text": "<p>The climate crisis. Is. A. Lot. We've been down but now believe in up.</p><p>Big changes starts with small, purposeful steps. We celebrate progress not perfection. Let's make it easier, welcoming and joyful for more to start.</p>",
+            "text": "<h4>The climate crisis. Is. A. Lot. We've been down but now believe in up.</h4><h4>Big changes starts with small, purposeful steps. We celebrate progress not perfection. Let's make it easier, welcoming and joyful. </h4>",
             "button_label": "",
             "button_link": ""
           }
@@ -389,7 +375,7 @@
             "image": "shopify://shop_images/KZPHW10031.jpg",
             "caption": "",
             "heading": "COMMUNITY OVER CHAOS",
-            "text": "<p>We believe in we over me. Belonging and collective action are the heart of everything we do. We're brighter together.</p>",
+            "text": "<h4>We believe in we over me. Belonging and collective action are the heart of everything we do. We're brighter together.</h4>",
             "button_label": "",
             "button_link": ""
           }
@@ -400,7 +386,7 @@
             "image": "shopify://shop_images/KZHD10495.jpg",
             "caption": "",
             "heading": "ACTION OVER APATHY",
-            "text": "<p>Every purchase, every story, every member helps power real, measurable change. No greenwashing, no guilt trips - just brighter living for all.</p>",
+            "text": "<h4>Every purchase, every story, every member helps power real, measurable change. No greenwashing, no guilt trips - just brighter living for all.</h4>",
             "button_label": "",
             "button_link": ""
           }
@@ -673,7 +659,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "",
-            "text": "<h4>Where brands don’t just reduce harm, but actively do good. Where their actions create a ripple effect of change in their industries.</h4>",
+            "text": "<h4>Where brands don’t just reduce harm, but actively give back more than their take. Where their actions create a ripple effect of change in their industries.</h4>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -716,7 +702,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Our vision for the future",
+        "title": "OUR VISION FOR THE FUTURE",
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
