@@ -48,10 +48,19 @@
       "type": "repeater-block",
       "name": "Meta object page content",
       "settings": {}
+    },
+    "blog_footer_section_dhMjG4": {
+      "type": "blog-footer-section",
+      "name": "Blog Footer Section",
+      "settings": {
+        "background_color": "#eb482a",
+        "rich_text_content": "<p>Your rich text here</p>"
+      }
     }
   },
   "order": [
     "main",
-    "repeater_block_XjWbWC"
+    "repeater_block_XjWbWC",
+    "blog_footer_section_dhMjG4"
   ]
 }
