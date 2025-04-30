@@ -1,0 +1,110 @@
+{%- comment -%}
+  Dynamic Metaobject Content Renderer
+  Supports multiple content types with automatic type detection and rendering
+{%- endcomment -%}
+
+{%- liquid
+  if template.suffix
+    assign template_type = template.name | split: '.' | first
+  else
+    assign template_type = template
+  endif
+
+  case template_type
+    when 'product'
+      assign page_content = product.metafields.custom.page_content
+    when 'collection'
+      assign page_content = collection.metafields.custom.page_content
+    when 'article'
+      assign page_content = article.metafields.custom.page_content
+    when 'blog'
+      assign page_content = blog.metafields.custom.page_content
+    when 'page'
+      assign page_content = page.metafields.custom.page_content
+    else
+      assign page_content = nil
+  endcase
+-%}
+
+{%- if page_content.value -%}
+  {% assign has_aem_video = false %}
+  {% assign has_tabbed_block = false %}
+
+  {% for component in page_content.value %}
+    {% if component.system.type == "video" and component.video_file.value == blank %}
+      {% assign has_aem_video = true %}
+      {% break %}
+    {% elsif component.system.type == 'tabbed_block' %}
+      {% assign has_tabbed_block = true %}
+      {% for tab in component.tabs.value %}
+        {% if tab.media_video.value.aem_asset.value != blank %}
+          {% assign has_aem_video = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_aem_video %}
+    <script src="{{ 'aem-video-loader.js' | asset_url }}" defer="defer"></script>
+  {% endif %}
+
+  {% if has_tabbed_block %}
+    <script src="{{ 'tabbed-block.js' | asset_url }}" defer="defer"></script>
+  {%  endif %}
+
+  <div class="dynamic-content-wrapper page-width">
+    {% for component in page_content.value %}
+      {% if component.system.type == "columns_with_content" %}
+        {% render 'repeater-columns-with-content' with component as item
+          , index: forloop.index %}
+      {% elsif component.system.type == "video" %}
+        {% render 'repeater-video' with component as item
+          , index: forloop.index
+          , aem_script_loaded: has_aem_video %}
+      {% elsif component.system.type == "quote" %}
+        {% render 'repeater-quote' with component as item
+          , section: section %}
+      {% elsif component.system.type == "article_richtext" %}
+        {% render 'repeater-article-rich-text' with component as item
+          , section: section %}
+      {% elsif component.system.type == 'tabbed_block' %}
+        {% render 'repeater-tabbed-block'
+          with component as item,
+          index: forloop.index,
+          aem_script_loaded: has_aem_video
+        %}
+      {% elsif component.system.type == 'featured_product' %}
+        {% render 'repeater-featured-product' with component as item %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% elsif request.design_mode %}
+  <div class="editor-notification">⭐️ Content in this section is controlled by this {{ template_type }}
+    <strong>Page Content</strong>
+    metafield. <br/>Please add an entry to hide this message</div>
+  <style>
+    .editor-notification {
+      padding: 5rem;
+      margin: 3rem;
+      background-color: #dedede;
+      border-radius: 2.4rem;
+      text-align: center;
+    }
+  </style>
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Meta object page content",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "presets": [
+      {
+        "name": "Meta object page content",
+        "category": "Custom Sections"
+      }
+    ]
+  }
+{% endschema %}

@@ -536,20 +536,20 @@
 }
 
 /* Light styling for presentation */
-details {
+.image-with-text details {
   padding-block: 1rem;
   border-block-end: 1px solid #e0e0e0;
 }
 
-details:first-child {
+.image-with-text details:first-child {
   border-block-start: 1px solid #e0e0e0;
 }
 
-details p {
+.image-with-text details p {
   color: #000000;
 }
 
-summary {
+.image-with-text summary {
   /* Pin the custom marker to the container */
   position: relative;
   color: #000000;
@@ -584,7 +584,7 @@ summary {
 }
 
 /* Rotate the line when open */
-details[open] summary::after {
+.image-with-text details[open] summary::after {
   transform: rotate(180deg);
 }
 

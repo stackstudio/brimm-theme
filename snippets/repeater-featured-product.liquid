@@ -1,0 +1,44 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'repeater-featured-product.css' | asset_url | stylesheet_tag }}
+
+{% liquid
+  assign product = item.product.value
+  assign theme = item.theme | default: ''
+
+  assign has_color_option = false
+  for option in product.options_with_values
+    if option.name == 'Color' or option.name == 'Colour'
+      assign has_color_option = true
+      assign color_variants = option.values
+      break
+    endif
+  endfor
+
+  assign default_cta_text = 'products.product.add_to_cart' | t
+  assign cta_text = item.product_page_cta | default: default_cta_text
+%}
+
+<section class="section-featured-product {{ theme }}">
+  <featured-product
+    class="featured-product scroll-trigger animate--slide-in{% if item.reverse_layout %} featured-product--reverse{% endif %}"
+    data-product-url="{{ product.url }}"
+  >
+    <div class="featured-product__product{% if has_color_option == false or color_variants.size <= 1 %} featured-product__product--no-color-options{% endif %}">
+      {% render 'card-product',
+        card_product: product,
+        skip_styles: false,
+        quick_add: 'standard',
+        card_ratio: card_ratio,
+        collection: product.collections[0].title,
+        show_product_option_name: true,
+        show_product_colors_count: true
+      %}
+    </div>
+    <div class="featured-product__text">
+      <h2 class="featured-product__headline">{{ item.headline }}</h2>
+      <a href="{{ product.url }}" type="button" class="js-add-to-cart-cta button button--secondary-on-dark">
+        {{ cta_text }}
+      </a>
+    </div>
+  </featured-product>
+</section>

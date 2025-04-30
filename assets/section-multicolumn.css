@@ -306,3 +306,8 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
   margin: 0 1.5rem;
   bottom: 2rem;
 }
+
+.grid--4-col-desktop .multicolumn-list__item {
+  width: 25%;
+  max-width: 25%;
+}

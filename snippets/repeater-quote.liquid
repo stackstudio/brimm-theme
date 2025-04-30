@@ -1,0 +1,82 @@
+<blockquote class="page-width repeater-quote section-{{ section.id }}">
+  <div class="page-width--narrow">
+    {%- if item.quote_text != blank -%}
+      <div class="repeater-quote__quote text-wrap-balance rte scroll-trigger animate--slide-in">{{ item.quote_text }}</div>
+    {%- endif -%}
+    {%- if item.author_name != blank or item.author_title != blank -%}
+      <div class="repeater-quote__credentials scroll-trigger animate--slide-in">
+        {%- if item.author_name != blank -%}
+          <span class="repeater-quote__author">{{ item.author_name }}</span>
+        {%- endif -%}
+        {%- if item.author_title != blank -%}
+          <span class="repeater-quote__title">{{ item.author_title }}</span>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</blockquote>
+
+{%- style -%}
+  .product-page .repeater-quote,
+  .repeater-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5.6rem 0;
+    padding: 6.4rem 0;
+    background-color: var(--color-green-light);
+    border: 0;
+    border-radius: 2.4rem;
+  }
+
+  .product-page--reserve .repeater-quote {
+    background-color: var(--color-brown-light);
+  }
+
+  .repeater-quote__quote {
+    margin-bottom: 2rem;
+    color: var(--color-house-green);
+    font-size: 3.2rem;
+    font-family: var(--font-lander);
+    line-height: 130%;
+  }
+
+  .product-page--reserve .repeater-quote__quote {
+    color: var(--color-brown-dark);
+  }
+
+  .repeater-quote__credentials {
+    color: var(--color-starbucks-green);
+    font-family: var(--font-sodo);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .product-page--reserve .repeater-quote__credentials {
+    color: var(--color-brown-dark);
+  }
+
+  .repeater-quote__author {
+    margin-right: 2.3rem;
+    font-weight: 600;
+  }
+
+  .repeater-quote__title::before {
+    content: "•";
+    position: absolute;
+    margin-left: -1.4rem;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .product-page .repeater-quote,
+    .repeater-quote {
+      margin: 3.2rem 0;
+      padding: 5.6rem 3.2rem;
+    }
+    .repeater-quote__quote {
+      font-size: 2.4rem;
+    }
+  }
+{%- endstyle -%}

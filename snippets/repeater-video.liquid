@@ -1,0 +1,53 @@
+{{ 'video-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign component = item
+  assign alt = component.alt_text | escape
+  assign unique_id = "video-" | append: index
+
+  if component.video_file.value.media_type == 'video'
+    assign mp4_url = ''
+    for source in component.video_file.value.sources
+      if source.format == 'mp4'
+        assign mp4_url = source.url
+        break
+      endif
+    endfor
+  endif
+-%}
+
+<section class="video-section__wrapper repeater-video scroll-trigger animate--slide-in">
+  {% if component.video_file.value %}
+    <deferred-media class="deferred-media gradient global-media-settings{% if component.enable_autoplay.value %} playing{% endif %}" data-media-id="{% if component.video_file.value %}{{ component.video_file.value.id }}{% endif %}">
+      <button
+        id="Deferred-Poster-{{ unique_id }}"
+        class="video-section__poster media deferred-media__poster"
+        type="button"
+        aria-label="{{ alt }}"
+        data-alt="{{ alt }}"
+        tabindex="0">
+        <span class="deferred-media__poster-button motion-reduce">
+          <span class="svg-wrapper play">
+            {{- 'icon-play.svg' | inline_asset_content -}}
+          </span>
+          <span class="svg-wrapper pause">
+            {{- 'icon-pause.svg' | inline_asset_content -}}
+          </span>
+        </span>
+      </button>
+      <video
+        class="video-section__native"
+        {% if component.enable_autoplay.value %}
+        autoplay{% endif %}
+        {% if component.enable_looping.value %}
+        loop{% endif %}
+        muted
+        playsinline>
+        <source src="{{ mp4_url }}" type="video/mp4">
+      </video>
+    </deferred-media>
+  {% else %}
+    {% comment %} wistia here {% endcomment %}
+  {% endif %}
+</section>
