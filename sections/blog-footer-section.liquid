@@ -24,14 +24,32 @@
   }
 {% endschema %}
 
-<div class="blog-footer-section" style="background-color: {{ section.settings.background_color }}">
-  <div class="container">
-    {{ section.settings.rich_text_content | escape }}
+<div class="blog-footer-section page-width">
+  <div class="container" style="background-color: {{ section.settings.background_color }}">
+    {{ section.settings.rich_text_content }}
   </div>
 </div>
 
 <style>
   .blog-footer-section {
-    padding: 20px;
+    border-top: 1px solid #E0E0E0;
+    padding: 12rem 0;
+    margin-top: 12rem;
+  }
+
+  .blog-footer-section .container {
+    padding: 20rem;
+  }
+
+  .blog-footer-section p {
+    color: var(--Primary-Mono-White, #FFF);
+    /* Global/Headline/Extra Bold/20 */
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 24px */
+    letter-spacing: -0.4px;
   }
 </style>
