@@ -1,0 +1,86 @@
+{% if section.settings.image != blank %}
+  {% assign background_image_url = section.settings.image | image_url: width: 4000 %}
+  {% style %}
+    .hero {
+      background-image: url({{ background_image_url }});
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  {% endstyle %}
+{% endif %}
+{% style %}
+  .hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.split-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.split-text span {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.split-text .line-break {
+  flex-basis: 100%; /* Force a new line */
+  display: block;
+}
+{% endstyle %}
+
+<section class="hero color-{{ section.settings.color_scheme }}">
+  <div class="page-width hero-content">
+    {% for block in section.blocks %}
+      {% if block.type == 'heading' %}
+        <h1 class="split-text justified-header">{{ block.settings.heading_text }}</h1>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hero section",
+  "settings": [
+    {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "image"
+    },
+    {
+        "type": "color_scheme",
+        "label": "Color Scheme",
+        "id": "color_scheme"
+    }
+  ],
+  "blocks": [{
+    "type": "heading",
+    "name": "Heading Block",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading_text",
+        "label": "Heading Text",
+        "default": "Default Heading"
+      }
+    ]
+  }],
+  "presets": [
+    {
+        "name": "Hero section"
+    }
+  ]
+}
+{% endschema %}
