@@ -2647,6 +2647,12 @@ input[type='checkbox'] {
   transition: width 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
 }
 
+@media screen and (max-width: 760px) {
+  .header__heading-logo-wrapper {
+    width: 30%;
+  }
+}
+
 @media screen and (max-width: 989px) {
   .header__heading,
   .header__heading-link {
@@ -2737,7 +2743,7 @@ input[type='checkbox'] {
   width: 2rem;
   fill: none;
   vertical-align: middle;
-  color: var(--color-brimm-red);
+  color: #000000;
 }
 
 .header__icon,

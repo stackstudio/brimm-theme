@@ -3,11 +3,23 @@
 }
 
 .article-template {
-  margin: 12rem 0;
+  margin: 6rem 0;
+}
+
+@media screen and (min-width: 750px) {
+  .article-template {
+    margin: 12rem 0;
+  }
 }
 
 .article-template--repeater-block {
-  padding: 12rem 0 0;
+  padding: 6rem 0 0;
+}
+
+@media screen and (min-width: 750px) {
+  .article-template--repeater-block {
+    padding: 12rem 0 0;
+  }
 }
 
 .article-template__title-date,
@@ -117,8 +129,6 @@
 }
 
 .article-template__content {
-  margin-top: 12rem;
-  margin-bottom: 12rem;
   width: 600px;
   max-width: 100%;
   color: var(--Primary-Mono-Black, #000);
@@ -132,6 +142,16 @@
   line-height: 125%;
   /* 30px */
   text-transform: uppercase;
+}
+
+.article-template__content {
+  margin: 6rem 0;
+}
+
+@media screen and (min-width: 750px) {
+  .article-template__content {
+    margin: 12rem auto 0;
+  }
 }
 
 .article-template__social-sharing {
