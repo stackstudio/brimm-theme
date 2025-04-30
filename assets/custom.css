@@ -1,0 +1,52 @@
+:root {
+  --font-body-family: 'Manrope', sans-serif;
+  --font-heading-family: 'Manrope', sans-serif;
+}
+
+h1:not(.justified-header), h2, h3, h4, h5 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.split-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  line-height: 0.9;
+}
+
+.split-text span {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.split-text .line-break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.justified-header {
+  font-weight: 900;
+  line-height: .9;
+}
+
+h1.justified-header {
+  font-size: clamp(8rem, 10vw, 120px);
+  line-height: 0.9;
+}
+
+h2.justified-header {
+  font-size: clamp(6rem, 7.5vw, 90px);
+  line-height: 0.9;
+}
+
+h3.justified-header {
+  font-size: clamp(4.5rem, 5.5vw, 70px);
+  line-height: 0.9;
+}
+
+h4.justified-header {
+  font-size: clamp(3.5rem, 4vw, 50px);
+  line-height: 0.9;
+}
+
