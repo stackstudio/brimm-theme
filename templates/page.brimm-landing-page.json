@@ -9,42 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_a9Hq9w": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_ThGqBJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Trail-blazers & game-changers wanted.",
-            "heading_size": "h1"
-          }
-        },
-        "text_fJKCcK": {
-          "type": "text",
-          "settings": {
-            "text": "Join as a founder member and help shape a planet-positive future.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ThGqBJ",
-        "text_fJKCcK"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Hero__8_5_1.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-3",
-        "image_behavior": "zoom-in",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "video_MN9Ntc": {
       "type": "video",
       "disabled": true,
@@ -67,61 +31,10 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "custom_liquid_kNggte": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>.main-content .page-width{padding-left:1px;padding-right:1px;max-width:unset;}</style><iframe id=\"vl_iframe\" style=\"min-width:100vw; min-height:550px; margin:0; margin-left: -50vw; left: 50%; position: relative;\" frameborder=\"0\" src=\"https://pages.viral-loops.com/brimm-collective-campaign-36ybdzzq\" allowfullscreen></iframe><script id=\"vl_script_tag\" type=\"text/javascript\">var frameWindow=document.getElementById('vl_iframe').contentWindow;var eventMethod=window.addEventListener?'addEventListener':'attachEvent';var eventer=window[eventMethod];var messageEvent=eventMethod=='attachEvent'?'onmessage':'message';eventer(messageEvent,function(e){if(e.data&&e.data.action==='vl_height'&&e.data.height){document.getElementById('vl_iframe').style.height=e.data.height+'px'}else if(e.data&&e.data.action==='vl_request_user'){sendUser();sendReferrer()}else if(e.data&&e.data.action==='vl_page_participation'){identifyFromPage(e.data.lead)}},!1);function sendUser(){if(!window.campaign){setTimeout(sendUser,200)}else if(!window.campaign.runStage||window.campaign.runStage==='preIdentify'){window.campaign.addHook('stageChange',sendUser)}else if(window.campaign.runStage==='postIdentify'){frameWindow.postMessage({action:'vl_user',campaign:{user:window.campaign.user}},'*')}};function sendReferrer(){if(!window.campaign||!window.campaign.referrer){setTimeout(sendReferrer,200)}else{frameWindow.postMessage({action:'vl_referrer',campaign:{referrer:window.campaign.referrer}},'*')}};window.logoutVL=function(){if(window.campaign){campaign.logout({callback:function(){frameWindow.postMessage({action:'vl_logout'},'*')}})}};function identifyFromPage(email){campaign.identify({email});}</script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_with_text_BbNkFH": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_VfTcqd": {
-          "type": "heading",
-          "settings": {
-            "heading": "JOIN THE REVOLUTION",
-            "heading_size": "h1"
-          }
-        },
-        "text_ehHidY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>BRiMM is a whole new way of buying and being with a revolutionary business model at its core — one where the planet is a major, non-silent shareholder.<br/><br/>We’ve already launched our newsletter, which will bring a weekly burst of positivity to your inbox if you’re not already signed up. And our shop, journal and member events are coming very soon.<br/><br/>We’d now love to invite you — as a like-minded planet optimist and enthusiast — to be a founding member and help make BRiMM a reality. Let’s team up and turn the tide.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_VfTcqd",
-        "text_ehHidY"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/f1750f1af3f9d6cd15f54b10a7f012fb.jpg",
-        "has_background": true,
-        "image_label": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "everyday-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "image_banner_a9Hq9w",
     "video_MN9Ntc",
-    "main",
-    "custom_liquid_kNggte",
-    "image_with_text_BbNkFH"
+    "main"
   ]
 }
