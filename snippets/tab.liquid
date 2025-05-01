@@ -1,0 +1,19 @@
+{{ 'tab.css' | asset_url | stylesheet_tag }}
+
+<button
+  class="tab"
+  type="button"
+  role="tab"
+  data-value="{{ value }}"
+  aria-selected="
+    {%- if defaultSelected -%}
+      active
+    {%- endif -%}
+  "
+  data-state="
+    {%- if defaultSelected -%}
+      active
+    {%- endif -%}
+  ">
+  {{ label }}
+</button>

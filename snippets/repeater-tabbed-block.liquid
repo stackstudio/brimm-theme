@@ -9,7 +9,10 @@
   <tabbed-block>
     <div class="tabs-list" role="tablist">
       {% for tab in tabs %}
-        {% render 'tab', label: tab.tab_label, value: tab.system.handle, defaultSelected: forloop.first %}
+        {% render 'tab'
+          , label: tab.tab_label
+          , value: tab.system.handle
+          , defaultSelected: forloop.first %}
       {% endfor %}
     </div>
     {% for tab in tabs %}
@@ -19,11 +22,11 @@
           assign is_hidden = false
         endif
       -%}
-      {% render 'tabbed-block-tab-panel',
-        tab: tab,
-        index: index,
-        aem_script_loaded: aem_script_loaded,
-        is_hidden: is_hidden
+      {% render 'tabbed-block-tab-panel'
+        , tab: tab
+        , index: index
+        , aem_script_loaded: aem_script_loaded
+        , is_hidden: is_hidden
       %}
     {% endfor %}
   </tabbed-block>

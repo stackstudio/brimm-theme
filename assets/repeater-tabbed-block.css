@@ -1,0 +1,226 @@
+.tabbed-block {
+  padding: 3.2rem 0;
+}
+
+.tabbed-block__grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.tabbed-block__text {
+  padding: 0 1.2rem;
+}
+
+.tabbed-block__text p {
+  margin: 0px;
+}
+
+.tabbed-block__heading {
+  font-family: var(--font-lander);
+  color: var(--color-house-green);
+  font-family: 'Lander Tall';
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 0 0 1.2rem 0;
+}
+
+.tabbed-block__rich-text {
+  color: var(--color-grey-light);
+  font-family: var(--font-sodo);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0 0 3.2rem 0;
+}
+
+.tabbed-block__media {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 2.4rem;
+  min-height: 28rem;
+  max-height: 28rem;
+  height: 28rem;
+}
+
+.tabbed-block__media img,
+.tabbed-block__media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tabbed-block__deferred-media {
+  width: 100%;
+  height: 100%;
+}
+
+.tabbed-block .deferred-media__poster-button {
+  background-color: var(--color-white);
+  border: 0.2rem solid var(--color-white);
+}
+
+.tabbed-block .deferred-media__poster-button svg {
+  color: var(--color-starbucks-green);
+}
+
+.tabbed-block .aem-video-container {
+  position: relative;
+  width: 100%;
+}
+
+.tabbed-block .video-section__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.tabbed-block [data-namespace='s7classic'].s7container {
+  width: 100%;
+  height: 100% !important;
+}
+
+.tabbed-block .vjs-tech {
+  width: 100%;
+  min-width: unset;
+}
+
+.tabbed-block__badge {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  padding: 0.2rem 0.8rem;
+  font-size: 1.1rem;
+  z-index: 1;
+  background-color: var(--color-white);
+  color: var(--color-grey-dark);
+  border-radius: 100rem;
+}
+
+.tabbed-block .cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.8rem;
+  width: fit-content;
+  padding: 0 2.4rem;
+  margin: 0;
+  border-radius: 10rem;
+  border: 0.2rem solid var(--color-starbucks-green);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: var(--color-starbucks-green);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.tabbed-block .cta-button:hover,
+.tabbed-block .cta-button:focus {
+  background-color: var(--color-white);
+  color: var(--color-house-green);
+}
+
+.tabbed-block .cta-button:active {
+  border: 0.2rem solid var(--color-house-green-dark);
+  color: var(--color-house-green-dark);
+}
+
+.tabbed-block .cta-button:focus {
+  outline: 0.2rem solid var(--color-starbucks-green);
+  outline-offset: 0.2rem;
+}
+
+.tabbed-block .tabs-list {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 3.2rem;
+  padding: 0 0 0 1.2rem;
+  z-index: 1;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .tabbed-block__text {
+    padding: 0 2.4rem;
+  }
+
+  .tabbed-block__media {
+    min-height: 51.2rem;
+    max-height: 51.2rem;
+    height: 51.2rem;
+  }
+
+  .tabbed-block__badge {
+    top: 2.4rem;
+    left: 2.4rem;
+    padding: 0.1rem 1.2rem;
+    font-size: 1.6rem;
+  }
+
+  .tabbed-block .tabs-list {
+    padding: 0 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tabbed-block {
+    padding: 5.6rem 0;
+    position: relative;
+  }
+
+  .tabbed-block__grid {
+    display: grid;
+    gap: 3.2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tabbed-block__heading {
+    font-size: 3.2rem;
+  }
+
+  .tabbed-block__text {
+    padding: 13.9rem 7rem 0 6.4rem;
+  }
+
+  .tabbed-block__media {
+    min-height: 50rem;
+    max-height: 50rem;
+    height: 50rem;
+  }
+
+  .tabbed-block__rich-text {
+    margin-bottom: 4.8rem;
+  }
+
+  .tabbed-block .tabs-list {
+    margin: 0;
+    padding: 0 0 0 6.4rem;
+    position: absolute;
+    left: 0;
+    top: 8rem;
+  }
+
+  .tabbed-block .hidden {
+    display: none;
+  }
+
+  .tabbed-block--reverse .tabbed-block__text {
+    order: 1;
+    padding: 13.9rem 6.4rem 0 7rem;
+  }
+
+  .tabbed-block--reverse .tabbed-block__media {
+    order: 0;
+  }
+
+  .tabbed-block--reverse .tabs-list {
+    left: calc((100% - 3.2rem) / 2 + 3.2rem);
+    padding: 0 0 0 7rem;
+  }
+}

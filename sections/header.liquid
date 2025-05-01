@@ -117,7 +117,7 @@
   assign announcements = ''
 -%}
 
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }}">
+<sticky-header {% if section.settings.sticky_header_type != 'none' %}data-sticky-type="{{ section.settings.sticky_header_type }}"{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }}">
   {%- liquid
     assign social_links = false
     assign localization_forms = false

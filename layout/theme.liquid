@@ -444,9 +444,10 @@ body {
 
     <script
       type="text/javascript"
-      src="https://app.viral-loops.com/widgetsV2/core/loader.js"
+      src="{{ 'viral-loops-loader.js' | asset_url }}"
       data-campaign-id="eCMDZSQaOsJYHKhZH0qBa5GvTgw"
-      id="viral-loops-loader"></script>
+      id="viral-loops-loader"
+      defer></script>
 
     <!-- Hotjar Tracking Code for Site 5354310 (name missing) -->
     <script>
@@ -469,7 +470,10 @@ body {
       var _iub = _iub || [];
       _iub.csConfiguration = {"siteId":4010371,"cookiePolicyId":53078626,"lang":"en","storage":{"useSiteId":true}};
     </script>
-    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/4010371.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cs.iubenda.com/autoblocking/4010371.js"
+      defer></script>
     <script
       type="text/javascript"
       src="//cdn.iubenda.com/cs/iubenda_cs.js"
