@@ -20,8 +20,6 @@
 
 .tabbed-block__heading {
   font-family: var(--font-lander);
-  color: var(--color-house-green);
-  font-family: 'Lander Tall';
   font-size: 2.4rem;
   font-weight: 600;
   line-height: 130%;
@@ -30,7 +28,6 @@
 
 .tabbed-block__rich-text {
   color: var(--color-grey-light);
-  font-family: var(--font-sodo);
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 150%;
