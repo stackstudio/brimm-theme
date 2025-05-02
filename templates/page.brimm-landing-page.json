@@ -595,14 +595,21 @@
         "text_pjiiFd": {
           "type": "text",
           "settings": {
-            "copy": "Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. Effortlessly discover responsibly curated, and thoroughly vetted brands across beauty, food and home. ur text here…"
+            "copy": "Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go."
+          }
+        },
+        "text_dLeiBx": {
+          "type": "text",
+          "settings": {
+            "copy": "Effortlessly discover responsibly curated, and thoroughly vetted brands across beauty, food and home."
           }
         }
       },
       "block_order": [
         "heading_ttJJAD",
         "text_7mjD3T",
-        "text_pjiiFd"
+        "text_pjiiFd",
+        "text_dLeiBx"
       ],
       "name": "Inset Hero",
       "settings": {
