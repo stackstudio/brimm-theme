@@ -15,7 +15,7 @@
     padding: 4rem;
   }
   #{{ section.id }} .brimm-blocks--hero-content {
-    padding: 4rem;
+    padding: 2rem;
     border-radius: 48px;
   }
   .brimm-blocks--inset-hero {
@@ -35,7 +35,7 @@
     <div class="brimm-blocks--product-top">
       {% for block in section.blocks %}
         {% if block.type == 'heading' %}
-          <h2 class="brimm-blocks--split-text brimm-blocks--justified-header">{{ block.settings.heading_text }}</h2>
+          <h1 class="brimm-blocks--split-text brimm-blocks--justified-header">{{ block.settings.heading_text }}</h1>
         {% endif %}
       {% endfor %}
     </div>

@@ -172,11 +172,16 @@
           "settings": {
             "copy": "Some Paragraph Text Here"
           }
+        },
+        "newsletter_xXk4Xt": {
+          "type": "newsletter",
+          "settings": {}
         }
       },
       "block_order": [
         "heading_CmFjED",
-        "text_LCF9e3"
+        "text_LCF9e3",
+        "newsletter_xXk4Xt"
       ],
       "name": "Inset Hero",
       "settings": {
