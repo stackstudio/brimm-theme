@@ -1,0 +1,101 @@
+{% if section.settings.image != blank %}
+  {% assign background_image_url = section.settings.image | image_url: width: 4000 %}
+  {% style %}
+    #{{ section.id }} .hero-content {
+      background-image: url({{ background_image_url }});
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  {% endstyle %}
+{% endif %}
+
+{% style %}
+  #{{ section.id }} {
+    padding: 4rem;
+  }
+  #{{ section.id }} .hero-content {
+    padding: 2rem;
+    border-radius: 48px;
+  }
+{% endstyle %}
+
+<section class="brimm-blocks--hero color-{{ section.settings.color_scheme }}" id="{{ section.id }}">
+  <div class="page-width brimm-blocks--hero-content">
+    <div class="brimm-blocks--product-top">
+      {% for block in section.blocks %}
+        {% if block.type == 'heading_brand' %}
+          <h1 class="brimm-blocks--split-text brimm-blocks--justified-header brimm-blocks--brand">{{ block.settings.brand_name }}</h1>
+        {% endif %}
+        {% if block.type == 'heading' %}
+          <h1 class="brimm-blocks--split-text brimm-blocks--justified-header">{{ block.settings.product_name }}</h1>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="brimm-blocks--product-bottom">
+      {% for block in section.blocks %}
+        {% if block.type == 'text' %}
+          <p class="brimm-blocks--hero-para">{{ block.settings.copy }}</p>
+        {% endif %}
+      {% endfor %}
+      {% for block in section.blocks %}
+        {% unless block.type == 'heading' or block.type == 'text' %}
+            {% render block %}
+        {% endunless %}
+    {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Inset Hero",
+  "settings": [
+    {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "image"
+    },
+    {
+        "type": "color_scheme",
+        "label": "Color Scheme",
+        "id": "color_scheme"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading_text",
+          "label": "Heading Text",
+          "default": "Default Heading"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Paragraph Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "copy",
+          "label": "Paragraph Text",
+          "default": "Your text here…"
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "Newsletter form"
+    }
+  ],
+  "presets": [
+    {
+        "name": "Inset Hero"
+    }
+  ]
+}
+{% endschema %}
