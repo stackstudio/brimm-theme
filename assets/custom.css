@@ -104,3 +104,7 @@ h4.brimm-blocks--justified-header {
   z-index: 2;
   padding-bottom: 2rem;
 }
+
+.brimm-blocks--hero-para {
+    letter-spacing: 0;
+}

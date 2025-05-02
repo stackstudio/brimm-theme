@@ -609,8 +609,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 16.8px */
-  letter-spacing: -0.28px;
+  line-height: 125%; /* 16.8px */
 }
 .member-packages-tabs ul li button:hover {
   background-color: var(--color-brimm-beige);
@@ -652,8 +651,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 16.8px */
-  letter-spacing: -0.28px;
+  line-height: 125%; /* 16.8px */
   color: #000000;
 }
 
