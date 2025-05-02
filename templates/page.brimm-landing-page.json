@@ -589,13 +589,7 @@
         "text_7mjD3T": {
           "type": "text",
           "settings": {
-            "copy": "Want to kick start your Planet Positive Journey? Our Reset discovery boxes do just that."
-          }
-        },
-        "text_pjiiFd": {
-          "type": "text",
-          "settings": {
-            "copy": "Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go."
+            "copy": "Want to kick start your Planet Positive Journey? Our Reset discovery boxes do just that. Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go."
           }
         },
         "text_dLeiBx": {
@@ -608,7 +602,6 @@
       "block_order": [
         "heading_ttJJAD",
         "text_7mjD3T",
-        "text_pjiiFd",
         "text_dLeiBx"
       ],
       "name": "Inset Hero",
