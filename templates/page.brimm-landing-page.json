@@ -31,10 +31,19 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "justified_hero_7DCw76": {
+      "type": "justified-hero",
+      "name": "Justified Hero",
+      "settings": {
+        "image": "shopify://shop_images/DTS_IRL_ESCAPISM_Daniel_Faro_Photos_ID8797.jpg",
+        "color_scheme": ""
+      }
     }
   },
   "order": [
     "video_MN9Ntc",
-    "main"
+    "main",
+    "justified_hero_7DCw76"
   ]
 }
