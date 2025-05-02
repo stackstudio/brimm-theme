@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     words.forEach((word, index) => {
       const span = document.createElement('span');
+      const wordCutoff = words.length > 4 ? 7 : 5;
       span.textContent = word;
-      const isLong = word.length > 5;
+      const isLong = word.length > wordCutoff;
       span.classList.add(isLong ? 'brimm-blocks--long-word' : 'brimm-blocks--short-word');
       group.push(span);
 
