@@ -338,8 +338,8 @@
         "justified_header_3dbzJa": {
           "type": "justified_header",
           "settings": {
-            "text": "SO, WHAT'S THE PLANET FUND",
-            "heading_level": "h2"
+            "text": "SO, WHAT'S THE PLANET FUND?",
+            "heading_level": "h1"
           },
           "blocks": {}
         }
