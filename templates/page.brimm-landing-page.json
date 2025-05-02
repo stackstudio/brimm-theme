@@ -67,19 +67,6 @@
     },
     "justified_header_section_raM3wx": {
       "type": "justified-header-section",
-      "blocks": {
-        "justified_header_bqDCgW": {
-          "type": "justified_header",
-          "settings": {
-            "text": "PLANET-POSITIVE CHANGE WITHOUT SACRIFICE",
-            "heading_level": "h2"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "justified_header_bqDCgW"
-      ],
       "name": "Justified Header + Content",
       "settings": {}
     },
