@@ -1,0 +1,21 @@
+<div class="custom-section color-{{ section.settings.color_scheme }}">
+  {% content_for 'blocks' %}
+</div>
+
+{% schema %}
+{
+  "name": "Hero section",
+  "settings": [
+    {
+        "type": "text",
+        "label": "heading",
+        "id": "heading"
+    }
+  ],
+  "presets": [
+    {
+        "name": "Hero section"
+    }
+  ]
+}
+{% endschema %}

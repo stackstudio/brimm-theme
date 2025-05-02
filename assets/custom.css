@@ -1,0 +1,95 @@
+.brim-blocks--product-hero h1 {
+  text-transform: uppercase;
+}
+
+.brim-blocks--split-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  line-height: 0.9;
+}
+
+.brim-blocks--split-text span {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.brim-blocks--split-text .brim-blocks--line-break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.brimm-blocks--justified-header {
+  font-weight: 900;
+  line-height: .9;
+}
+
+h1.brimm-blocks--justified-header {
+  font-size: clamp(8rem, 10vw, 120px);
+}
+
+h2.brimm-blocks--justified-header {
+  font-size: clamp(6rem, 7.5vw, 90px);
+}
+
+h3.brimm-blocks--justified-header {
+  font-size: clamp(4.5rem, 5.5vw, 70px);
+}
+
+h4.brimm-blocks--justified-header {
+  font-size: clamp(3.5rem, 4vw, 50px);
+}
+
+.brimm-blocks--hero {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.brimm-blocks--split-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.brimm-blocks--split-text span {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.brimm-blocks--split-text .brimm-blocks--line-break {
+  flex-basis: 100%; /* Force a new line */
+  display: block;
+}
+
+.brimm-blocks--hero-content p {
+  max-width: 720px;
+  font-size: 1.8rem;
+  font-weight: 577;
+}
+
+.brimm-blocks--hero-content h1 {
+  margin: 0;
+}
+
+.brimm-blocks--hero:not(.brimm-blocks--product-hero):before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+.brimm-blocks--hero-content {
+  z-index: 2;
+  padding-bottom: 2rem;
+}

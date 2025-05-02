@@ -1,0 +1,34 @@
+<section class="justified-header-container">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'justified_header' %}
+        {% render block %}
+      {% else %}
+        <div class="container-block {{ block.type }}">
+          {% render block %}
+        </div>
+    {% endcase %}
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "Justified Header Content",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "@theme"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Justified Header + Content",
+      "blocks": [
+        {
+          "type": "justified_header"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
