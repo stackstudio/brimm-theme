@@ -12,10 +12,9 @@
 
 {% style %}
   #{{ section.id }} {
-    padding: 4rem;
+    padding: clamp(3rem, 10vh, 100px) 4rem;
   }
   #{{ section.id }} .brimm-blocks--hero-content {
-    padding: 4rem;
     border-radius: 48px;
   }
   .brimm-blocks--inset-hero {
@@ -27,6 +26,14 @@
   }
   .brimm-blocks--inset-hero .brimm-blocks--hero-content {
     height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: clamp(3rem, 6rem, 60px);
+  }
+  .brimm-blocks--inset-hero .brimm-blocks--hero-content h2 {
+    margin: 0;
   }
 {% endstyle %}
 
@@ -41,10 +48,22 @@
     </div>
     <div class="brimm-blocks--product-bottom">
       {% for block in section.blocks %}
-        {% unless block.type == 'heading' %}
-            {% render block %}
-        {% endunless %}
-    {% endfor %}
+        {% case block.type %}
+
+        {% when 'text' %}
+          <p class="brimm-blocks--hero-para">
+            {{ block.settings.copy }}
+          </p>
+
+          {% when 'newsletter' %}
+            <div class="hero__newsletter">
+              {% render 'klaviyo-signup-form', block: block %}
+            </div>
+
+          {% else %}
+            <!-- fallback -->
+        {% endcase %}
+      {% endfor %}
     </div>
   </div>
 </section>
