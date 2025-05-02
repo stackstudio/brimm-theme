@@ -172,16 +172,11 @@
           "settings": {
             "copy": "Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life."
           }
-        },
-        "newsletter_xXk4Xt": {
-          "type": "newsletter",
-          "settings": {}
         }
       },
       "block_order": [
         "heading_CmFjED",
-        "text_LCF9e3",
-        "newsletter_xXk4Xt"
+        "text_LCF9e3"
       ],
       "name": "Inset Hero",
       "settings": {
