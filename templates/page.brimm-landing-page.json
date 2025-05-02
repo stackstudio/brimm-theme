@@ -65,13 +65,21 @@
         "color_scheme": "scheme-6"
       }
     },
-    "justified_header_section_raM3wx": {
+    "justified_header_section_7P9Jgx": {
       "type": "justified-header-section",
-      "name": "Justified Header + Content",
-      "settings": {}
-    },
-    "justified_header_section_3gNFXR": {
-      "type": "justified-header-section",
+      "blocks": {
+        "justified_header_yr9Edp": {
+          "type": "justified_header",
+          "settings": {
+            "text": "PLANET-POSITIVE CHANGE WITHOUT SACRIFICE",
+            "heading_level": "h2"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "justified_header_yr9Edp"
+      ],
       "name": "Justified Header + Content",
       "settings": {}
     },
@@ -114,6 +122,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "justified_header_section_86TKbR": {
+      "type": "justified-header-section",
+      "blocks": {
+        "justified_header_9Gd9Df": {
+          "type": "justified_header",
+          "settings": {
+            "text": "",
+            "heading_level": "h2"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "justified_header_9Gd9Df"
+      ],
+      "name": "Justified Header + Content",
+      "settings": {}
     },
     "image_with_text_R7Xi3e": {
       "type": "image-with-text",
@@ -242,9 +268,9 @@
     "video_MN9Ntc",
     "main",
     "justified_hero_7DCw76",
-    "justified_header_section_raM3wx",
-    "justified_header_section_3gNFXR",
+    "justified_header_section_7P9Jgx",
     "image_with_text_ihrzNg",
+    "justified_header_section_86TKbR",
     "image_with_text_R7Xi3e",
     "inset_hero_jJbQKM",
     "image_with_text_tWTg8h"
