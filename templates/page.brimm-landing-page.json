@@ -34,10 +34,21 @@
     },
     "justified_hero_7DCw76": {
       "type": "justified-hero",
+      "blocks": {
+        "heading_Y6hJYY": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "LIVE BRIGHT TREAD LIGHT"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6hJYY"
+      ],
       "name": "Justified Hero",
       "settings": {
         "image": "shopify://shop_images/DTS_IRL_ESCAPISM_Daniel_Faro_Photos_ID8797.jpg",
-        "color_scheme": ""
+        "color_scheme": "scheme-3"
       }
     }
   },
