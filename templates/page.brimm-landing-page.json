@@ -583,19 +583,26 @@
         "heading_ttJJAD": {
           "type": "heading",
           "settings": {
-            "heading_text": ""
+            "heading_text": "RESET YOUR LIFE"
           }
         },
         "text_7mjD3T": {
           "type": "text",
           "settings": {
-            "copy": "This is an example block to show how the page could be split up a little more using sections like the new inset hero. You don't have to use it, but it could be a nice touch to finish up the page or highlight one of the other sections in a different way."
+            "copy": "Want to kick start your Planet Positive Journey? Our Reset discovery boxes do just that."
+          }
+        },
+        "text_pjiiFd": {
+          "type": "text",
+          "settings": {
+            "copy": "Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. Effortlessly discover responsibly curated, and thoroughly vetted brands across beauty, food and home. ur text here…"
           }
         }
       },
       "block_order": [
         "heading_ttJJAD",
-        "text_7mjD3T"
+        "text_7mjD3T",
+        "text_pjiiFd"
       ],
       "name": "Inset Hero",
       "settings": {
