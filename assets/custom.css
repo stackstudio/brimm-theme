@@ -25,19 +25,19 @@
 }
 
 h1.brimm-blocks--justified-header {
-  font-size: clamp(8rem, 10vw, 120px);
+  font-size: clamp(8rem, 10vw, 140px);
 }
 
 h2.brimm-blocks--justified-header {
-  font-size: clamp(6rem, 7.5vw, 90px);
+  font-size: clamp(2rem, 6vw, 80px);
 }
 
 h3.brimm-blocks--justified-header {
-  font-size: clamp(4.5rem, 5.5vw, 70px);
+  font-size: clamp(1.5rem, 4.5vw, 70px);
 }
 
 h4.brimm-blocks--justified-header {
-  font-size: clamp(3.5rem, 4vw, 50px);
+  font-size: clamp(1.5rem, 3vw, 50px);
 }
 
 .brimm-blocks--hero {
