@@ -531,6 +531,28 @@
         "name": "Apps"
       }
     },
+    "newsletter": {
+      "name": "Newsletter",
+      "settings": {
+        "heading": {
+          "default": "Subscribe to our emails",
+          "label": "Heading"
+        },
+        "description": {
+          "label": "Description"
+        },
+        "show_description": {
+          "label": "Show description"
+        },
+        "show_social": {
+          "label": "Show social media icons",
+          "info": "To display your social media accounts, link them in your [theme settings](/editor?context=theme&category=social%20media)."
+        }
+      },
+      "presets": {
+        "name": "Newsletter"
+      }
+    },
     "collage": {
       "name": "Collage",
       "settings": {
@@ -2865,7 +2887,7 @@
         },
         "text_block": {
           "label": "Text",
-          "default": "This isn't our first Rodeo. Each team member brings a unique perspective, experience and set of skills to BRiMM."
+          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris."
         },
         "image_width": {
           "label": "Image width",
