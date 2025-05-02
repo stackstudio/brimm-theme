@@ -81,7 +81,9 @@
         "justified_header_yr9Edp"
       ],
       "name": "Justified Header + Content",
-      "settings": {}
+      "settings": {
+        "color_scheme": "scheme-2"
+      }
     },
     "image_with_text_ihrzNg": {
       "type": "image-with-text",
@@ -139,7 +141,9 @@
         "justified_header_9Gd9Df"
       ],
       "name": "Justified Header + Content",
-      "settings": {}
+      "settings": {
+        "color_scheme": ""
+      }
     },
     "image_with_text_R7Xi3e": {
       "type": "image-with-text",
