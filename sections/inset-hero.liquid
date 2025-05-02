@@ -21,14 +21,11 @@
 {% endstyle %}
 
 <section class="brimm-blocks--hero color-{{ section.settings.color_scheme }}" id="{{ section.id }}">
-  <div class="page-width brimm-blocks--hero-content">
+  <div class="page-width brimm-blocks--hero-content color-background-6 color-text-6">
     <div class="brimm-blocks--product-top">
       {% for block in section.blocks %}
-        {% if block.type == 'heading_brand' %}
-          <h1 class="brimm-blocks--split-text brimm-blocks--justified-header brimm-blocks--brand">{{ block.settings.brand_name }}</h1>
-        {% endif %}
         {% if block.type == 'heading' %}
-          <h1 class="brimm-blocks--split-text brimm-blocks--justified-header">{{ block.settings.product_name }}</h1>
+          <h1 class="brimm-blocks--split-text brimm-blocks--justified-header">{{ block.settings.heading_text }}</h1>
         {% endif %}
       {% endfor %}
     </div>
