@@ -1,4 +1,10 @@
-<section class="justified-header-container">
+{% style %}
+  #{{ section.id }} .container-block {
+    margin-top: 0;
+  }
+{% endstyle %}
+
+<section class="justified-header-container color-{{ section.settings.color_scheme }}">
   {% for block in section.blocks %}
     {% case block.type %}
       {% when 'justified_header' %}
