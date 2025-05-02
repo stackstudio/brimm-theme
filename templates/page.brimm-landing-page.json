@@ -64,6 +64,94 @@
         "image": "shopify://shop_images/DTS_IRL_ESCAPISM_Daniel_Faro_Photos_ID8797.jpg",
         "color_scheme": "scheme-6"
       }
+    },
+    "image_with_text_ihrzNg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TwmzyN": {
+          "type": "heading",
+          "settings": {
+            "heading": "What if we could spark planet-positive change without making any sacrifices?",
+            "heading_size": "h1"
+          }
+        },
+        "text_wLMgQr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.<br/></p><p>Members get credit to spend on responsibly curated products with a chunk of change invested into our Planet Fund (more on that later). <br/><br/>Plus, access to inspiring planet positive content and invites to fun events that spark ideas.<br/><br/>Ready to turn good intentions into impact? Step into our Collective and become a founder member. <br/><br/>Limited spots available- claim yours now.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TwmzyN",
+        "text_wLMgQr"
+      ],
+      "settings": {
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "has_background": true,
+        "show_waitlist": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_R7Xi3e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Vmny6m": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A FOUNDER MEMBER",
+            "heading_size": "h1"
+          }
+        },
+        "text_LdM7Ua": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
+            "text_style": "body"
+          }
+        },
+        "member_packages_wxQx7L": {
+          "type": "member_packages",
+          "settings": {
+            "member_packages_block": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vmny6m",
+        "text_LdM7Ua",
+        "member_packages_wxQx7L"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
