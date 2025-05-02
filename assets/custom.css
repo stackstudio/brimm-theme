@@ -80,7 +80,12 @@ h4.brimm-blocks--justified-header {
   margin: 0;
 }
 
-.brimm-blocks--hero:not(.brimm-blocks--product-hero, .brimm-blocks--inset-hero):before {
+.brimm-blocks--inset-hero .brimm-blocks--hero-content:before {
+    position: relative;
+}
+
+.brimm-blocks--hero:not(.brimm-blocks--product-hero, .brimm-blocks--inset-hero):before,
+.brimm-blocks--inset-hero .brimm-blocks--hero-content:before {
   content: "";
   position: absolute;
   top: 0;
