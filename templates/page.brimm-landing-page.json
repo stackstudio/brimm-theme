@@ -57,7 +57,7 @@
           "type": "justified_header",
           "settings": {
             "text": "THIS HEADLINE IS LIVING LIFE TO THE BRiMM",
-            "heading_level": "h2"
+            "heading_level": "h1"
           },
           "blocks": {}
         }
