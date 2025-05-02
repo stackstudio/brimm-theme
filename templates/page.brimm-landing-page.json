@@ -158,6 +158,32 @@
         "padding_bottom": 36
       }
     },
+    "inset_hero_jJbQKM": {
+      "type": "inset-hero",
+      "blocks": {
+        "heading_CmFjED": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "DEFAULT HEADING"
+          }
+        },
+        "text_LCF9e3": {
+          "type": "text",
+          "settings": {
+            "copy": "Some Paragraph Text Here"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CmFjED",
+        "text_LCF9e3"
+      ],
+      "name": "Inset Hero",
+      "settings": {
+        "image": "shopify://shop_images/KZVS10114_950e5079-8cfa-470c-96e5-b418f8d001c9.jpg",
+        "color_scheme": "scheme-2"
+      }
+    },
     "image_with_text_tWTg8h": {
       "type": "image-with-text",
       "blocks": {
@@ -214,6 +240,7 @@
     "justified_header_section_raM3wx",
     "image_with_text_ihrzNg",
     "image_with_text_R7Xi3e",
+    "inset_hero_jJbQKM",
     "image_with_text_tWTg8h"
   ]
 }
