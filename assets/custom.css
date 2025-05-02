@@ -25,7 +25,7 @@
 }
 
 h1.brimm-blocks--justified-header {
-  font-size: clamp(8rem, 10vw, 140px);
+  font-size: clamp(4rem, 8vw, 140px);
 }
 
 h2.brimm-blocks--justified-header {
