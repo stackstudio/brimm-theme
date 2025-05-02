@@ -18,9 +18,14 @@
     padding: 2rem;
     border-radius: 48px;
   }
+  .brimm-blocks--inset-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 {% endstyle %}
 
-<section class="brimm-blocks--hero color-{{ section.settings.color_scheme }}" id="{{ section.id }}">
+<section class="brimm-blocks--inset-hero color-{{ section.settings.color_scheme }}" id="{{ section.id }}">
   <div class="page-width brimm-blocks--hero-content color-scheme-6">
     <div class="brimm-blocks--product-top">
       {% for block in section.blocks %}
