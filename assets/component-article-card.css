@@ -48,6 +48,10 @@
 
 .article-card .card__heading {
   margin-bottom: 0.6rem;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 800;
 }
 
 .blog-articles .article-card .card__information,

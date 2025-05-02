@@ -97,7 +97,7 @@
 
 .article-template__title {
   margin: 0;
-  color: var(--Primary-Brand-Orange-You-Happy, #eb482a);
+  color: #000000;
   text-align: center;
   /* Global/Headline/Extra Bold/36 */
   font-family: Manrope;
