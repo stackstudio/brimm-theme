@@ -65,6 +65,24 @@
         "color_scheme": "scheme-6"
       }
     },
+    "justified_header_section_raM3wx": {
+      "type": "justified-header-section",
+      "blocks": {
+        "justified_header_bqDCgW": {
+          "type": "justified_header",
+          "settings": {
+            "text": "What if we could spark planet-positive change without making any sacrifices?",
+            "heading_level": "h2"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "justified_header_bqDCgW"
+      ],
+      "name": "Justified Header + Content",
+      "settings": {}
+    },
     "image_with_text_ihrzNg": {
       "type": "image-with-text",
       "blocks": {
@@ -206,6 +224,7 @@
     "video_MN9Ntc",
     "main",
     "justified_hero_7DCw76",
+    "justified_header_section_raM3wx",
     "image_with_text_ihrzNg",
     "image_with_text_R7Xi3e",
     "image_with_text_tWTg8h"
