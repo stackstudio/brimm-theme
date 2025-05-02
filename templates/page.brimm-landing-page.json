@@ -585,10 +585,17 @@
           "settings": {
             "heading_text": "THIS HERO IS LIVING LIFE FOR THE CONTENT"
           }
+        },
+        "text_7mjD3T": {
+          "type": "text",
+          "settings": {
+            "copy": "This is an example block to show how the page could be split up a little more using sections like the new inset hero. You don't have to use it, but it could be a nice touch to finish up the page or highlight one of the other sections in a different way."
+          }
         }
       },
       "block_order": [
-        "heading_ttJJAD"
+        "heading_ttJJAD",
+        "text_7mjD3T"
       ],
       "name": "Inset Hero",
       "settings": {
