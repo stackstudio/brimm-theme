@@ -332,6 +332,26 @@
         "padding_bottom": 36
       }
     },
+    "justified_header_section_iTexcW": {
+      "type": "justified-header-section",
+      "blocks": {
+        "justified_header_3dbzJa": {
+          "type": "justified_header",
+          "settings": {
+            "text": "SO, WHAT'S THE PLANET FUND",
+            "heading_level": "h2"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "justified_header_3dbzJa"
+      ],
+      "name": "Justified Header + Content",
+      "settings": {
+        "color_scheme": "scheme-7"
+      }
+    },
     "multicolumn_eUJkQC": {
       "type": "multicolumn",
       "blocks": {
@@ -385,7 +405,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "SO, WHAT'S THE PLANET FUND?",
+        "title": "",
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -395,7 +415,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-7",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -413,6 +433,7 @@
     "image_with_text_R7Xi3e",
     "inset_hero_jJbQKM",
     "image_with_text_tWTg8h",
+    "justified_header_section_iTexcW",
     "multicolumn_eUJkQC"
   ]
 }
