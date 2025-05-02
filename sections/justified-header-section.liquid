@@ -1,8 +1,13 @@
 {% style %}
-  #{{ section.id }} {
-    padding: 4rem 0;
+  .justified-header-container {
+    padding: 4rem 7.5rem;
   }
-  #{{ section.id }} h2 {
+  .justified-header-container:first-of-type {
+    padding-top: 8rem;
+    padding-bottom: 0;
+  }
+  #{{ section.id }} h2,
+  #{{ section.id }} h1 {
     margin: 0;
   }
 {% endstyle %}
