@@ -1,7 +1,7 @@
 {% if section.settings.image != blank %}
   {% assign background_image_url = section.settings.image | image_url: width: 4000 %}
   {% style %}
-    #{{ section.id }} .hero-content {
+    #{{ section.id }} .brimm-blocks--hero-content {
       background-image: url({{ background_image_url }});
       background-size: cover;
       background-position: center;
@@ -14,7 +14,7 @@
   #{{ section.id }} {
     padding: 4rem;
   }
-  #{{ section.id }} .hero-content {
+  #{{ section.id }} .brimm-blocks--hero-content {
     padding: 2rem;
     border-radius: 48px;
   }
@@ -31,12 +31,7 @@
     </div>
     <div class="brimm-blocks--product-bottom">
       {% for block in section.blocks %}
-        {% if block.type == 'text' %}
-          <p class="brimm-blocks--hero-para">{{ block.settings.copy }}</p>
-        {% endif %}
-      {% endfor %}
-      {% for block in section.blocks %}
-        {% unless block.type == 'heading' or block.type == 'text' %}
+        {% unless block.type == 'heading' %}
             {% render block %}
         {% endunless %}
     {% endfor %}
