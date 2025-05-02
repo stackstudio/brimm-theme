@@ -44,13 +44,20 @@
         "text_XEyPYd": {
           "type": "text",
           "settings": {
-            "copy": "We’re launching a membership for climate optimists. A design-led shop, journal and collective all centred on a planet positive lifestyle. Where better choices meet brighter living, with every purchase powering positive change.Founder membership launching soon, join us."
+            "copy": "We’re launching a membership for climate optimists. A design-led shop, journal and collective all centred on a planet positive lifestyle. Where better choices meet brighter living, with every purchase powering positive change."
+          }
+        },
+        "text_jfKqEz": {
+          "type": "text",
+          "settings": {
+            "copy": "Founder membership launching soon, join us."
           }
         }
       },
       "block_order": [
         "heading_Y6hJYY",
-        "text_XEyPYd"
+        "text_XEyPYd",
+        "text_jfKqEz"
       ],
       "name": "Justified Hero",
       "settings": {
