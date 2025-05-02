@@ -72,19 +72,6 @@
     },
     "justified_header_section_3gNFXR": {
       "type": "justified-header-section",
-      "blocks": {
-        "justified_header_63WeF4": {
-          "type": "justified_header",
-          "settings": {
-            "text": "WHAT IF WE COULD SPARK PLANET-POSITIVE CHANGE WITHOUT MAKING ANY SACRIFICES?",
-            "heading_level": "h2"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "justified_header_63WeF4"
-      ],
       "name": "Justified Header + Content",
       "settings": {}
     },
