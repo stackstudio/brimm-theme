@@ -9,21 +9,6 @@
  */
 {
   "sections": {
-    "video_MN9Ntc": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -125,24 +110,104 @@
         "padding_bottom": 36
       }
     },
-    "justified_header_section_86TKbR": {
-      "type": "justified-header-section",
+    "image_with_text_yTMkNL": {
+      "type": "image-with-text",
       "blocks": {
-        "justified_header_9Gd9Df": {
-          "type": "justified_header",
+        "heading_CErazw": {
+          "type": "heading",
           "settings": {
-            "text": "",
-            "heading_level": "h2"
-          },
-          "blocks": {}
+            "heading": "Beautiful, design-led brands",
+            "heading_size": "h1"
+          }
+        },
+        "text_ztHWap": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Discover responsibly curated products - vetted for style, substance and Planet Positivity.</h4><p>Our responsibly curated collection champion well known, and brilliant new brands. The very best across beauty, kitchen, home and fashion.</p><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.<br/><br/>We're an \"enough\" store not an \"everything\" store. Less meh, more joy. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_9zpdNz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read our story",
+            "button_link": "shopify://pages/our-story",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
-        "justified_header_9Gd9Df"
+        "heading_CErazw",
+        "text_ztHWap",
+        "button_9zpdNz"
       ],
-      "name": "Justified Header + Content",
       "settings": {
-        "color_scheme": ""
+        "image": "shopify://shop_images/Brimm25_march27_-_Boxes0815_1_copy_2.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Y8PWgJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JVGdpg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reset your life with our discovery boxes",
+            "heading_size": "h1"
+          }
+        },
+        "text_RcyyRE": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Want to kick start your Planet Positive Journey? Our Reset discovery boxes do just that.</h4><p>Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. </p><p>Effortlessly discover responsibly curated, and thoroughly vetted brands across beauty, food and home. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_FUHhnL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read our story",
+            "button_link": "shopify://pages/our-story",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JVGdpg",
+        "text_RcyyRE",
+        "button_FUHhnL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Free_reset_box.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_R7Xi3e": {
@@ -266,17 +331,88 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_eUJkQC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NENczV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/impact.svg",
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Carbon Insetting vs Offsetting",
+            "text": "<p>We've all heard of carbon offsetting, right? Where a brand pay's for trees to be planted, offsetting carbon. Insetting is way better. It's cleaning up your own mess. Not kicking it down the road.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rRdn6Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/gear.svg",
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "How does Insetting work?",
+            "text": "<p>It's when a company actually reduces emissions in it's supply chain. With BRiMM, it's helping our brands actually reduce carbon vs just planting some trees.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BWXitp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/money.svg",
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Our Planet Fund",
+            "text": "<p>10% of our revenue goes directly to our brands, helping them further decarbonise via carbon insetting. Actually addressing their impact directly. Less impact for them, less impact for you. No one living less.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NENczV",
+        "column_rRdn6Q",
+        "column_BWXitp"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "SO, WHAT'S THE PLANET FUND?",
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "video_MN9Ntc",
     "main",
     "justified_hero_7DCw76",
     "justified_header_section_7P9Jgx",
     "image_with_text_ihrzNg",
-    "justified_header_section_86TKbR",
+    "image_with_text_yTMkNL",
+    "image_with_text_Y8PWgJ",
     "image_with_text_R7Xi3e",
     "inset_hero_jJbQKM",
-    "image_with_text_tWTg8h"
+    "image_with_text_tWTg8h",
+    "multicolumn_eUJkQC"
   ]
 }
