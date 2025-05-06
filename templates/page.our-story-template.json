@@ -659,7 +659,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "",
-            "text": "<h4>Where brands don’t just reduce harm, but actively give back more than their take. Where their actions create a ripple effect of change in their industries.</h4>",
+            "text": "<h4>Where brands don’t just reduce harm, but actively give back more than their take. <br/><br/>Where their actions create a ripple effect of change in their industries.</h4>",
             "image_label": "",
             "link_label": "",
             "link": ""
