@@ -29,7 +29,7 @@
         "text_Ymx83t": {
           "type": "text",
           "settings": {
-            "text": "A planet-positive Shop, Journal and Collective. Offering a joyful way of buying and being. Ready to be part of a revolutionary movement? Join BRiMM as a founder member where every purchase, story and connection powers change. Effortlessly.",
+            "text": "A planet-positive Shop, Journal and Collective. Where every purchase, story and connection powers change. Effortlessly.",
             "text_style": "body"
           }
         }
@@ -59,14 +59,14 @@
         "heading_TwmzyN": {
           "type": "heading",
           "settings": {
-            "heading": "What if we could spark planet-positive change without making any sacrifices?",
+            "heading": "Planet-positive change without sacrifice",
             "heading_size": "h1"
           }
         },
         "text_wLMgQr": {
           "type": "text",
           "settings": {
-            "text": "<p>BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.<br/></p><p>Members get credit to spend on responsibly curated products with a chunk of change invested into our Planet Fund (more on that later). <br/><br/>Plus, access to inspiring planet positive content and invites to fun events that spark ideas.<br/><br/>Ready to turn good intentions into impact? Step into our Collective and become a founder member. <br/><br/>Limited spots available- claim yours now.</p>",
+            "text": "<p>BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.<br/><br/>Ready to turn good intentions into impact? Step into our Collective and become a founder member. <br/><br/>Limited spots available- claim yours now.</p>",
             "text_style": "body"
           }
         }
@@ -149,7 +149,7 @@
         "text_ztHWap": {
           "type": "text",
           "settings": {
-            "text": "<h4>Discover responsibly curated products - vetted for style, substance and Planet Positivity.</h4><p>Our responsibly curated collection champion well known, and brilliant new brands. The very best across beauty, kitchen, home and fashion.</p><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.<br/><br/>We're an \"enough\" store not an \"everything\" store. Less meh, more joy. </p>",
+            "text": "<h4>Discover responsibly curated products - vetted for style, substance and Planet Positivity.</h4><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.<br/><br/>We're an \"enough\" store not an \"everything\" store. </p>",
             "text_style": "body"
           }
         },
@@ -199,7 +199,7 @@
         "text_RcyyRE": {
           "type": "text",
           "settings": {
-            "text": "<h4>Want to kick start your Planet Positive Journey? Our Reset discovery boxes do just that.</h4><p>Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. </p><p>Effortlessly discover responsibly curated, and thoroughly vetted brands across beauty, food and home. </p>",
+            "text": "<h4>Want to kick start your Planet Positive Journey? Our Reset discovery boxes do just that.</h4><p>Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. </p><p>Every purchase drives real change and impact.</p>",
             "text_style": "body"
           }
         },
@@ -320,7 +320,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Carbon Insetting vs Offsetting",
-            "text": "<p>We've all heard of carbon offsetting, right? Where a brand pay's for trees to be planted, offsetting carbon. Insetting is way better. It's cleaning up your own mess. Not kicking it down the road.</p>",
+            "text": "<p>You've heard of carbon offsetting, right? Where a brand pay's for trees to be planted. <br/><br/>Insetting is way better. It's cleaning up your own mess. </p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -334,7 +334,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "How does Insetting work?",
-            "text": "<p>It's when a company actually reduces emissions in it's supply chain. With BRiMM, it's helping our brands actually reduce carbon vs just planting some trees.</p>",
+            "text": "<p>It's when a company actually reduces emissions. <br/><br/>With BRiMM, it's helping our brands reduce theirs.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -348,7 +348,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Our Planet Fund",
-            "text": "<p>10% of our revenue goes directly to our brands, helping them further decarbonise via carbon insetting. Actually addressing their impact directly. Less impact for them, less impact for you. No one living less.</p>",
+            "text": "<p>10% of revenue helps our brands further reduce their emissions. <br/><br/>Less impact for them, less impact for you. No one living less.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -362,7 +362,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "SO, WHAT'S THE PLANET FUND?",
+        "title": "HOW DO PURCHASES DRIVE CHANGE?",
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -392,7 +392,7 @@
         "text_HR9mLh": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>Written by leading voices in Planet Positivity. </strong></h3><p>Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (mouthwatering) food.</p><p>Expect inspiring stories, clever tips and expert insights from big name writers and conscious minds. </p><p>With both member only and open-to-all articles, the BRiMM Journal is here to spark ideas, fuel optimism and help you live a planet-positive life - without compromise.</p>",
+            "text": "<h3><strong>Written by leading voices in Planet Positivity. </strong></h3><p>Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (mouthwatering) food.</p><p>Expect inspiring stories, clever tips and expert insights from big name writers and conscious minds. </p><p> Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise.</p>",
             "text_style": "body"
           }
         }
@@ -441,7 +441,7 @@
         "text_AKbMah": {
           "type": "text",
           "settings": {
-            "text": "<h4><strong>Join a movement where every member and every purchase powers positive change.</strong></h4><p>Join us for intimate supper clubs, inspiring film nights and big-think panels with brands, activists and climate researchers - all designed to spark ideas and real change. </p><p>And it’s not just talk. As a member, you  decide how our Planet Fund helps our brands further decarbonise. </p><p>Ready to turn good intentions into impact? Step into our Collective - where community shapes what’s next. Together.</p>",
+            "text": "<h4><strong>Join a movement where every member and every purchase powers positive change.</strong></h4><p>Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</p><p>And it’s not just talk. As a member, you  decide how our Planet Fund helps our brands reduce their emmissions.</p><p>Ready to turn good intentions into impact? Step into our Collective - where community shapes what’s next. Together.</p>",
             "text_style": "body"
           }
         }
@@ -481,7 +481,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Responsibly curated products & Inspiring content",
-            "text": "<p>We do the curation and vetting, you get the best design-led products and content out there. Planet Positive living made simple, stylish, and stress-free.</p>",
+            "text": "<p>We do the curation and vetting, you get the best design-led products and Planet Positive content out there. </p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -495,7 +495,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Purposeful impact with the Planet Fund",
-            "text": "<p>Every purchase is a vote on the future you want. 10% of our revenue goes to the Planet Fund. Helping fund carbon insetting initiatives like clean energy for our brands. (more on that one later.)</p>",
+            "text": "<p>10% of our revenue goes to the Planet Fund. Helping fund carbon insetting initiatives like clean energy for our brands.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -675,7 +675,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Get notified",
-            "text": "<p>Every week we'll be inviting new founder members in. Pick your founder membership package and get yourself along to an upcoming event to meet the rest of the Collective.</p>",
+            "text": "<p>Every week we'll be inviting new founder members in. Pick your founder membership package.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
