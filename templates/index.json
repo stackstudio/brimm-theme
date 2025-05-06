@@ -334,7 +334,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "How does Insetting work?",
-            "text": "<p>It's when a company actually reduces emissions. <br/><br/>Less impact for them, less impact for you. No one living less.</p>",
+            "text": "<p>It's when a company actually reduces emissions when they make products.<br/><br/>Less impact for them, less impact for you. No one living less.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -348,7 +348,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Our Planet Fund",
-            "text": "<p>10% of revenue helps our brands further reduce their emissions. <br/><br/>This year, we’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy for our brands. <br/><br/>The rest - you decide...</p>",
+            "text": "<p>10% of revenue helps our brands further reduce their emissions. <br/><br/>We’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy.<br/><br/>The rest? You decide...</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
