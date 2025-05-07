@@ -597,7 +597,7 @@
         "has_background": true,
         "show_waitlist": false,
         "image_label": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-7",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
