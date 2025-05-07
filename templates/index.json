@@ -63,8 +63,6 @@
         "show_waitlist": true,
         "image_label": "",
         "color_scheme": "scheme-7",
-        "mobile_heading": "Image with text",
-        "mobile_text": "<p>Image with text</p>",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -137,20 +135,11 @@
             "text": "<h4>Discover responsibly curated products - vetted for style, substance and Planet Positivity.</h4><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.<br/><br/>We're an \"enough\" store not an \"everything\" store. </p>",
             "text_style": "body"
           }
-        },
-        "button_9zpdNz": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read our story",
-            "button_link": "shopify://pages/our-story",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_CErazw",
-        "text_ztHWap",
-        "button_9zpdNz"
+        "text_ztHWap"
       ],
       "settings": {
         "image": "shopify://shop_images/Brimm25_march27_-_Boxes0815_1_copy_2.jpg",
@@ -159,8 +148,6 @@
         "show_waitlist": false,
         "image_label": "",
         "color_scheme": "",
-        "mobile_heading": "Image with text",
-        "mobile_text": "<p>Image with text</p>",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -190,20 +177,11 @@
             "text": "<h4>Want to kick start your Planet Positive Journey? Discover new brands effortlessly.</h4><p>Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. </p><p>And every purchase drives real change and impact.</p>",
             "text_style": "body"
           }
-        },
-        "button_FUHhnL": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read our story",
-            "button_link": "shopify://pages/our-story",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_JVGdpg",
-        "text_RcyyRE",
-        "button_FUHhnL"
+        "text_RcyyRE"
       ],
       "settings": {
         "image": "shopify://shop_images/Free_reset_box.jpg",
@@ -212,8 +190,6 @@
         "show_waitlist": false,
         "image_label": "",
         "color_scheme": "",
-        "mobile_heading": "Image with text",
-        "mobile_text": "<p>Image with text</p>",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -267,7 +243,7 @@
           "settings": {
             "logo_image": "shopify://shop_images/KLEE_Instagram_Post_Square_1680x_9f421509-72d0-4d08-85e5-fcec190558f7.webp",
             "alt_text": "Partner Logo",
-            "logo_width": 150
+            "logo_width": 130
           }
         },
         "logo_YPwt78": {
@@ -397,8 +373,6 @@
         "show_waitlist": false,
         "image_label": "",
         "color_scheme": "",
-        "mobile_heading": "Image with text",
-        "mobile_text": "<p>Image with text</p>",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -450,8 +424,6 @@
         "show_waitlist": false,
         "image_label": "",
         "color_scheme": "",
-        "mobile_heading": "Image with text",
-        "mobile_text": "<p>Image with text</p>",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -569,8 +541,6 @@
         "show_waitlist": false,
         "image_label": "",
         "color_scheme": "",
-        "mobile_heading": "Image with text",
-        "mobile_text": "<p>Image with text</p>",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -620,8 +590,6 @@
         "show_waitlist": false,
         "image_label": "",
         "color_scheme": "",
-        "mobile_heading": "FEATURED FOUNDER MEMBERS",
-        "mobile_text": "<p>We’ve handpicked a crew of planet-positive pioneers. Brand founders, activists and climate researchers who are already shaping the future of planet positive living with BRiMM.</p><p>Join them and help to shape BRiMM from the ground up.</p>",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -741,8 +709,6 @@
         "show_waitlist": false,
         "image_label": "",
         "color_scheme": "",
-        "mobile_heading": "Image with text",
-        "mobile_text": "<p>Image with text</p>",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -786,8 +752,6 @@
         "show_waitlist": false,
         "image_label": "",
         "color_scheme": "",
-        "mobile_heading": "Image with text",
-        "mobile_text": "<p>Image with text</p>",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
