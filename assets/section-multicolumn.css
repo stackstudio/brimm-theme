@@ -27,6 +27,11 @@
     margin-bottom: 3rem;
   }
 
+  .multicolumn .title-wrapper-with-link .text_block {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .multicolumn__grid-wrapper {
     padding: 1.5rem 1rem;
   }
@@ -92,7 +97,7 @@
 
 ul li.multicolumn-list__item.has-bg--color:last-child {
   background: #e6e6d1;
-  padding: 20px 10px;
+  padding: 2rem 2rem 6rem;
 
   @media screen and (max-width: 750px) {
     display: block;
@@ -151,8 +156,8 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
   }
 
   .multicolumn-list:not(.slider) {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -170,6 +175,8 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
 
   .grid--4-col-desktop .multicolumn-list__item {
     padding-bottom: 9.4rem;
+    width: 25%;
+    max-width: 25%;
   }
 
   .background-none .grid--2-col-tablet .multicolumn-list__item {
@@ -313,9 +320,13 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
   display: flex;
   margin: 0 1.5rem;
   bottom: 2rem;
+
+  @media screen and (max-width: 750px) {
+    margin: 0rem;
+  }
 }
 
-.grid--4-col-desktop .multicolumn-list__item {
+/* .grid--4-col-desktop .multicolumn-list__item {
   width: 25%;
   max-width: 25%;
-}
+} */

@@ -191,6 +191,10 @@
     border-top-right-radius: 0;
   }
 
+  .image-with-text.no-image .image-with-text__content {
+    padding: 0;
+  }
+
   .image-with-text.collapse-borders:not(.image-with-text--overlap)
     .image-with-text__content {
     border-top: 0;

@@ -11,7 +11,7 @@
       <div class="partner-logo">
         {% if block.settings.logo_image %}
           <img
-            src="{{ block.settings.logo_image | image_url: width: block.settings.logo_width }}"
+            src="{{ block.settings.logo_image | image_url: width: "300" }}"
             alt="{{ block.settings.alt_text | escape }}"
             width="{{ block.settings.logo_width }}px"
             height="auto" />
