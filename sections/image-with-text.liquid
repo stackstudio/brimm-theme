@@ -81,7 +81,7 @@
                     {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
-                  <div class='image-with-text__text rte body-medium' {{ block.shopify_attributes }}>
+                  <div class='image-with-text__text {% if block.settings.text_mobile_only %} image-with-text__text-mobile{% endif %} rte body-medium' {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
                 {%- when 'accordians' -%}
@@ -620,6 +620,12 @@
             "id": "text",
             "default": "t:sections.image-with-text.blocks.text.settings.text.default",
             "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+          },
+          {
+            "id": "text_mobile_only",
+            "type": "checkbox",
+            "label": "Is a mobile only textblock",
+            "default": false
           },
           {
             "type": "select",
