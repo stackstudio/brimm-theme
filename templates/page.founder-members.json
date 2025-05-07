@@ -17,6 +17,39 @@
         "padding_bottom": 28
       }
     },
+    "justified_hero_HkX8CR": {
+      "type": "justified-hero",
+      "blocks": {
+        "heading_YhrxGT": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "FOUNDER MEMBERS WANTED NOW"
+          }
+        },
+        "text_Ljqeiz": {
+          "type": "text",
+          "settings": {
+            "copy": "We’re launching a membership for climate optimists. A design-led shop, journal and collective all centred on a planet positive lifestyle. Where better choices meet brighter living, with every purchase powering positive change."
+          }
+        },
+        "text_p6adXc": {
+          "type": "text",
+          "settings": {
+            "copy": "Founder membership launching soon, join us."
+          }
+        }
+      },
+      "block_order": [
+        "heading_YhrxGT",
+        "text_Ljqeiz",
+        "text_p6adXc"
+      ],
+      "name": "Justified Hero",
+      "settings": {
+        "image": "shopify://shop_images/KZMF10460.jpg",
+        "color_scheme": "scheme-6"
+      }
+    },
     "image_banner_mmcKXb": {
       "type": "image-banner",
       "blocks": {
@@ -803,6 +836,7 @@
   },
   "order": [
     "main",
+    "justified_hero_HkX8CR",
     "image_banner_mmcKXb",
     "image_with_text_YpgqAN",
     "multicolumn_qHbHYd",
