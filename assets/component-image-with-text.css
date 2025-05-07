@@ -718,7 +718,10 @@
 }
 
 .image-with-text-mobile {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 4rem;
 
   @media screen and (min-width: 750px) {
     display: none;
