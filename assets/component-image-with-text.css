@@ -717,15 +717,7 @@
   }
 }
 
-.image-with-text__text-mobile {
-  display: block;
-
-  @media screen and (min-width: 750px) {
-    display: none;
-  }
-}
-
-.image-with-text__text-heading {
+.image-with-text-mobile {
   display: block;
 
   @media screen and (min-width: 750px) {

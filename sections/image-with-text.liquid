@@ -16,6 +16,16 @@
   <div class='page-width'>
     <div class='image-with-text {% if section.settings.image == blank %}no-image{% endif %} {% if section.settings.has_background != true %}no-bg{% endif %} image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
       <div class='image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}'>
+        {%- if section.settings.mobile_heading != blank and section.settings.mobile_text != blank -%}
+          <div class='image-with-text-mobile grid__item'>
+            <h2 class='image-with-text__heading inline-richtext headline-extra-uppercase'>
+              {{ section.settings.mobile_heading }}
+            </h2>
+            <div class='image-with-text__text rte body-medium'>
+              {{ section.settings.mobile_text }}
+            </div>
+          </div>
+        {%- endif -%}
         {%- if section.settings.image != blank and section.settings.video_embed == blank %}
           <div class='image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item {% if has_accordians == true %}accordian--image-block{% endif %}'>
             {%- if section.settings.image_label != blank -%}
@@ -254,6 +264,18 @@
         "id": "color_scheme"
       },
       {
+        "type": "inline_richtext",
+        "id": "mobile_heading",
+        "default": "Image with text",
+        "label": "Mobile heading"
+      },
+      {
+        "type": "richtext",
+        "id": "mobile_text",
+        "default": "Image with text",
+        "label": "Mobile text"
+      },
+      {
         "type": "select",
         "id": "height",
         "options": [
@@ -473,12 +495,6 @@
             "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
           },
           {
-            "id": "heading_mobile_only",
-            "type": "checkbox",
-            "label": "Is a mobile only heading",
-            "default": false
-          },
-          {
             "type": "select",
             "id": "heading_size",
             "options": [
@@ -620,12 +636,6 @@
             "id": "text",
             "default": "t:sections.image-with-text.blocks.text.settings.text.default",
             "label": "t:sections.image-with-text.blocks.text.settings.text.label"
-          },
-          {
-            "id": "text_mobile_only",
-            "type": "checkbox",
-            "label": "Is a mobile only textblock",
-            "default": false
           },
           {
             "type": "select",
