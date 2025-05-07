@@ -29,61 +29,18 @@
         "text_Ljqeiz": {
           "type": "text",
           "settings": {
-            "copy": "We’re launching a membership for climate optimists. A design-led shop, journal and collective all centred on a planet positive lifestyle. Where better choices meet brighter living, with every purchase powering positive change."
-          }
-        },
-        "text_p6adXc": {
-          "type": "text",
-          "settings": {
-            "copy": "Founder membership launching soon, join us."
+            "copy": "Shape the future of planet positive living."
           }
         }
       },
       "block_order": [
         "heading_YhrxGT",
-        "text_Ljqeiz",
-        "text_p6adXc"
+        "text_Ljqeiz"
       ],
       "name": "Justified Hero",
       "settings": {
         "image": "shopify://shop_images/KZMF10460.jpg",
         "color_scheme": "scheme-6"
-      }
-    },
-    "image_banner_mmcKXb": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_znjJDG": {
-          "type": "heading",
-          "settings": {
-            "heading": "Founder members wanted",
-            "heading_size": "headline-extra"
-          }
-        },
-        "text_zNbwQe": {
-          "type": "text",
-          "settings": {
-            "text": "Shape the future of planet positive living.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_znjJDG",
-        "text_zNbwQe"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/KZMF10460.jpg",
-        "image_overlay_opacity": 50,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "image_with_text_YpgqAN": {
@@ -837,7 +794,6 @@
   "order": [
     "main",
     "justified_hero_HkX8CR",
-    "image_banner_mmcKXb",
     "image_with_text_YpgqAN",
     "multicolumn_qHbHYd",
     "image_with_text_GG3a9F",
