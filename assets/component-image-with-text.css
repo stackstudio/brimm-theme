@@ -518,6 +518,7 @@
   width: 100%;
   padding-right: 0;
   padding-left: 0rem;
+
   @media screen and (min-width: 750px) {
     position: absolute;
     bottom: 0;
@@ -529,6 +530,7 @@
 .image-with-text__grid--reverse .image-with-text__accordians {
   padding-right: 0rem;
   padding-left: 0;
+
   @media screen and (min-width: 750px) {
     padding-right: 7rem;
     padding-left: 0;
@@ -595,6 +597,7 @@
   margin: 0;
   padding: 0;
 }
+
 .member-packages-tabs ul li button,
 .waitlist-cta {
   display: block;
@@ -609,15 +612,19 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 125%; /* 16.8px */
+  line-height: 125%;
+  /* 16.8px */
 }
+
 .member-packages-tabs ul li button:hover {
   background-color: var(--color-brimm-beige);
 }
+
 .member-packages-tabs ul li.active button {
   background-color: var(--color-brimm-beige);
   color: #000000;
 }
+
 .member-packages-tabs ul li.active button:hover {
   background-color: var(--color-brimm-beige);
   color: #000000;
@@ -630,6 +637,7 @@
 .tab-pane {
   display: none;
 }
+
 .tab-pane.active {
   display: block;
 }
@@ -640,7 +648,8 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
-  line-height: 120%; /* 24px */
+  line-height: 120%;
+  /* 24px */
   letter-spacing: -0.4px;
   color: #000000;
 }
@@ -651,7 +660,8 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 125%; /* 16.8px */
+  line-height: 125%;
+  /* 16.8px */
   color: #000000;
 }
 
@@ -659,10 +669,12 @@
   padding-left: 1.4rem;
   display: block;
 }
+
 .tab-pane .content ul li {
   list-style: disc;
   margin-bottom: 0.5rem;
 }
+
 .tab-pane .content ul li::marker {
   color: #000000;
 }
@@ -670,16 +682,17 @@
 .image-with-text__button-wrapper .button {
   display: block;
   padding: 1rem 2rem;
-  background-color: var(--color-brimm-beige);
+  background-color: #000000;
   text-decoration: none;
-  color: #000000;
+  color: #e4f994;
   appearance: none;
 
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 120%; /* 16.8px */
+  font-weight: 600;
+  line-height: 120%;
+  /* 16.8px */
   letter-spacing: -0.28px;
 }
 

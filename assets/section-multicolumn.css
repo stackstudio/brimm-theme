@@ -26,6 +26,10 @@
   .multicolumn .title-wrapper-with-link {
     margin-bottom: 3rem;
   }
+
+  .multicolumn__grid-wrapper {
+    padding: 1.5rem 1rem;
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
@@ -147,8 +151,8 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
   }
 
   .multicolumn-list:not(.slider) {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 

@@ -21,7 +21,7 @@
 
 .brimm-blocks--justified-header {
   font-weight: 900;
-  line-height: .9;
+  line-height: 0.9;
 }
 
 h1.brimm-blocks--justified-header {
@@ -66,7 +66,8 @@ h4.brimm-blocks--justified-header {
 }
 
 .brimm-blocks--split-text .brimm-blocks--line-break {
-  flex-basis: 100%; /* Force a new line */
+  flex-basis: 100%;
+  /* Force a new line */
   display: block;
 }
 
@@ -81,18 +82,18 @@ h4.brimm-blocks--justified-header {
 }
 
 .brimm-blocks--inset-hero .brimm-blocks--hero-content {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .brimm-blocks--inset-hero .brimm-blocks--hero-content * {
-    z-index: 1;
-    position: relative;
+  z-index: 1;
+  position: relative;
 }
 
 .brimm-blocks--hero:not(.brimm-blocks--product-hero, .brimm-blocks--inset-hero):before,
 .brimm-blocks--inset-hero .brimm-blocks--hero-content:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -100,11 +101,19 @@ h4.brimm-blocks--justified-header {
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
 }
+
 .brimm-blocks--hero-content {
   z-index: 2;
   padding-bottom: 2rem;
 }
 
 .brimm-blocks--hero-para {
-    letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.brimm-blocks--hidden {
+  visibility: hidden;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
