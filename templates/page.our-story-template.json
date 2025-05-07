@@ -72,6 +72,7 @@
         "heading_znjJDG",
         "text_zNbwQe"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Paper_plane.jpg",
         "image_overlay_opacity": 40,
