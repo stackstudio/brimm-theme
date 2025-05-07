@@ -17,14 +17,21 @@
         "padding_bottom": 28
       }
     },
-    "custom_liquid_CFfcGr": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "image_banner_MbVpnM": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "custom_liquid": "<iframe src=\"https://swonie.substack.com/embed\" width=\"100%\" height=\"320\" style=\"border:1px solid #EEE; background:white;\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "image": "shopify://shop_images/16_9.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "rich_text_BHLXeQ": {
@@ -69,10 +76,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_CFfcGr": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https://swonie.substack.com/embed\" width=\"100%\" height=\"320\" style=\"border:1px solid #EEE; background:white;\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
+    "image_banner_MbVpnM",
     "rich_text_BHLXeQ",
     "custom_liquid_CFfcGr"
   ]
