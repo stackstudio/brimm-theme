@@ -38,7 +38,7 @@
       ],
       "name": "Justified Hero",
       "settings": {
-        "image": "shopify://shop_images/KZMF10460.jpg",
+        "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01.jpg",
         "color_scheme": "scheme-6"
       }
     },
@@ -355,6 +355,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "HOW DO PURCHASES DRIVE CHANGE?",
+        "no-gap": false,
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -518,6 +519,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "WHY SHOULD YOU JOIN?",
+        "no-gap": false,
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
@@ -686,6 +688,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "HOW DO I GET ON THE WAIT LIST?",
+        "no-gap": false,
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
