@@ -702,7 +702,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "OUR VISION FOR THE FUTURE",
-        "no-gap": false,
+        "no-gap": true,
         "text_block": "",
         "heading_size": "h1",
         "image_width": "full",
