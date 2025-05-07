@@ -9,6 +9,24 @@
  */
 {
   "sections": {
+    "justified_hero_FpFV6a": {
+      "type": "justified-hero",
+      "blocks": {
+        "heading_BQGmqY": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Default Heading"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BQGmqY"
+      ],
+      "name": "Justified Hero",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
     "image_banner_RULnrW": {
       "type": "image-banner",
       "blocks": {
@@ -840,9 +858,17 @@
         "mobile_content_alignment": "left",
         "show_text_below": true
       }
+    },
+    "hero_bMD8Ce": {
+      "type": "hero",
+      "name": "Hero section",
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
+    "justified_hero_FpFV6a",
     "image_banner_RULnrW",
     "image_with_text_ihrzNg",
     "email_signup_banner_NjiKDf",
@@ -858,6 +884,7 @@
     "multicolumn_U6peM8",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
-    "email_signup_banner_644mkD"
+    "email_signup_banner_644mkD",
+    "hero_bMD8Ce"
   ]
 }
