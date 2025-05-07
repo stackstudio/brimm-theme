@@ -9,66 +9,37 @@
  */
 {
   "sections": {
-    "justified_hero_FpFV6a": {
+    "justified_hero_qEnNDW": {
       "type": "justified-hero",
       "blocks": {
-        "heading_BQGmqY": {
+        "heading_DRd4EB": {
           "type": "heading",
           "settings": {
-            "heading_text": "Default Heading"
+            "heading_text": "LIVE BRIGHT TREAD LIGHT"
+          }
+        },
+        "text_FdEHPx": {
+          "type": "text",
+          "settings": {
+            "copy": "We’re launching a membership for climate optimists. A design-led shop, journal and collective all centred on a planet positive lifestyle. Where better choices meet brighter living, with every purchase powering positive change."
+          }
+        },
+        "text_Uzn49k": {
+          "type": "text",
+          "settings": {
+            "copy": "Founder membership launching soon, join us."
           }
         }
       },
       "block_order": [
-        "heading_BQGmqY"
+        "heading_DRd4EB",
+        "text_FdEHPx",
+        "text_Uzn49k"
       ],
       "name": "Justified Hero",
       "settings": {
-        "color_scheme": ""
-      }
-    },
-    "image_banner_RULnrW": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_z3XNGA": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>LIVE BRIGHT, TREAD LIGHT. </strong>",
-            "heading_size": "h1"
-          }
-        },
-        "heading_V3ykAx": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h2"
-          }
-        },
-        "text_Ymx83t": {
-          "type": "text",
-          "settings": {
-            "text": "A planet-positive Shop, Journal and Collective. Where every purchase, story and connection powers change. Effortlessly.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_z3XNGA",
-        "heading_V3ykAx",
-        "text_Ymx83t"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/WebsiteCover-01.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "image": "shopify://shop_images/KZMF10460.jpg",
+        "color_scheme": "scheme-6"
       }
     },
     "image_with_text_ihrzNg": {
@@ -868,8 +839,7 @@
     }
   },
   "order": [
-    "justified_hero_FpFV6a",
-    "image_banner_RULnrW",
+    "justified_hero_qEnNDW",
     "image_with_text_ihrzNg",
     "email_signup_banner_NjiKDf",
     "image_with_text_yTMkNL",
