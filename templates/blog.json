@@ -9,6 +9,25 @@
  */
 {
   "sections": {
+    "justified_hero_ncRD6f": {
+      "type": "justified-hero",
+      "blocks": {
+        "heading_EwrjhQ": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "READ ARTICLES THAT INSPIRE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EwrjhQ"
+      ],
+      "name": "Justified Hero",
+      "settings": {
+        "image": "shopify://shop_images/Rambler_package.jpg",
+        "color_scheme": "scheme-6"
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -23,6 +42,7 @@
     }
   },
   "order": [
+    "justified_hero_ncRD6f",
     "main"
   ]
 }
