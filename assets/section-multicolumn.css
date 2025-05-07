@@ -89,11 +89,14 @@
 ul li.multicolumn-list__item.has-bg--color:last-child {
   background: #e6e6d1;
   padding: 20px 10px;
+
   @media screen and (max-width: 750px) {
     display: block;
     width: 100%;
-    grid-column: 1 / -1; /* Ensures it spans the entire width of the grid */
-    margin-top: 20px; /* Adds spacing from the grid above */
+    grid-column: 1 / -1;
+    /* Ensures it spans the entire width of the grid */
+    margin-top: 20px;
+    /* Adds spacing from the grid above */
     max-width: 100%;
   }
 }
@@ -232,8 +235,8 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
     .multicolumn-list:not(.slider)
     .center
     .multicolumn-card__info {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -295,7 +298,8 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 14.4px */
+  line-height: 120%;
+  /* 14.4px */
   letter-spacing: -0.24px;
 }
 
