@@ -31,60 +31,16 @@
           "settings": {
             "copy": "Who we are, what we believe and what drives us."
           }
-        },
-        "text_TpGED8": {
-          "type": "text",
-          "settings": {
-            "copy": "Founder membership launching soon, join us."
-          }
         }
       },
       "block_order": [
         "heading_V63QpY",
-        "text_tREkmX",
-        "text_TpGED8"
+        "text_tREkmX"
       ],
       "name": "Justified Hero",
       "settings": {
         "image": "shopify://shop_images/KZMF10460.jpg",
         "color_scheme": "scheme-6"
-      }
-    },
-    "image_banner_mmcKXb": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_znjJDG": {
-          "type": "heading",
-          "settings": {
-            "heading": "overflowing with possibility",
-            "heading_size": "headline-extra"
-          }
-        },
-        "text_zNbwQe": {
-          "type": "text",
-          "settings": {
-            "text": "Who we are, what we believe and what drives us.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_znjJDG",
-        "text_zNbwQe"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Paper_plane.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "image_with_text_kV37Vn": {
@@ -788,7 +744,6 @@
   "order": [
     "main",
     "justified_hero_qQAFRn",
-    "image_banner_mmcKXb",
     "image_with_text_kV37Vn",
     "image_with_text_GG3a9F",
     "multicolumn_FtmALJ",
