@@ -53,19 +53,26 @@
     <div class="brimm-blocks--product-bottom">
       {% for block in section.blocks %}
         {% case block.type %}
+            {% when 'text' %}
+                <p class="brimm-blocks--hero-para">
+                    {{ block.settings.copy }}
+                </p>
 
-        {% when 'text' %}
-          <p class="brimm-blocks--hero-para">
-            {{ block.settings.copy }}
-          </p>
+            {% when 'cta_button' %}
+                    {% if block.settings.label and block.settings.link %}
+                    <a href="{{ block.settings.link }}"
+                        class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
+                        {{ block.settings.label }}
+                    </a>
+                    {% endif %}
 
-          {% when 'newsletter' %}
-            <div class="hero__newsletter">
-              {% render 'klaviyo-signup-form', block: block %}
-            </div>
+            {% when 'newsletter' %}
+                <div class="hero__newsletter">
+                    {% render 'klaviyo-signup-form', block: block %}
+                </div>
 
-          {% else %}
-            <!-- fallback -->
+            {% else %}
+                <!-- fallback -->
         {% endcase %}
       {% endfor %}
     </div>
@@ -117,9 +124,33 @@
       "name": "Newsletter form"
     },
     {
-      "type": "button",
-      "name": "CTA Button"
+      "type": "cta_button",
+      "name": "CTA Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Button label",
+          "default": "Click me"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "style",
+          "label": "Button style",
+          "default": "primary",
+          "options": [
+            { "value": "primary", "label": "Primary" },
+            { "value": "secondary", "label": "Secondary" }
+          ]
+        }
+      ]
     }
+
   ],
   "presets": [
     {
