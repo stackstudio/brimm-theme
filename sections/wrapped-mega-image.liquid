@@ -1,72 +1,103 @@
 {% style %}
-  #{{ section.id }} {
-    padding: clamp(3rem, 10vh, 100px) 4rem;
-  }
-  #{{ section.id }} .brimm-blocks--hero-content {
-    border-radius: 48px;
-  }
-  .brimm-blocks--inset-hero {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .brimm-blocks--inset-hero .brimm-blocks--hero-content {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: clamp(3rem, 6rem, 60px);
-  }
-  .brimm-blocks--inset-hero .brimm-blocks--hero-content h2 {
-    margin: 0;
-  }
-  .brimm-blocks--inset-hero .brimm-blocks--hero-para {
-    max-width: 580px;
-    font-size: 2rem;
-  }
+    .brimm-blocks--mega-image {
+        position: relative;
+    }
+    .brimm-blocks--mega {
+        padding-top: 8rem;
+        padding-bottom: 6rem;
+    }
+    .brimm-blocks--mega .button {
+        background: black;
+        color: white;
+        padding: 2rem;
+        font-weight: 777;
+        letter-spacing: 0;
+        font-size: 1.8rem;
+    }
+    .brimm-blocks--mega img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 24px;
+    }
+    .brimm-blocks--mega-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 48px;
+        padding: 5rem 4rem;
+        align-items: end;
+    }
+    .brimm-blocks--mega-bottom {
+        align-items: center;
+        grid-template-columns: 2fr 1fr;
+    }
+    .brimm-blocks--mega-grid h1 {
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .brimm-blocks--mega-grid p {
+        font-size: 2.2rem;
+        font-weight: 524;
+        margin: 0;
+    }
+    .brimm-blocks--full-width-vid > div {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 16 / 9;
+        max-height: 100vh;
+        position: relative;
+    }
+    .brimm-blocks--full-width-vid iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+        border-radius: 16px;
+    }
 {% endstyle %}
 
 <section class="brimm-blocks--mega color-{{ section.settings.color_scheme }}" id="{{ section.id }}">
   <div class="page-width brimm-blocks--mega-content">
-    <div class="brimm-blocks--mega-top">
+    <div class="brimm-blocks--mega-top brimm-blocks--mega-grid">
       {% for block in section.blocks %}
         {% if block.type == 'heading' %}
-          <h2>{{ block.settings.heading_text }}</h2>
+          <h1>{{ block.settings.heading_text }}</h1>
         {% endif %}
         {% if block.type == 'top_paragraph' %}
           <p>{{ block.settings.top_copy }}</h2>
         {% endif %}
       {% endfor %}
     </div>
-    <div class="brimm-blocks--mega-image">
+    <div class="brimm-blocks--mega-image-wrapper">
       {%- if section.settings.video_embed != blank and section.settings.image == blank %}
-        <div class='section-{{ section.id }}-padding grid__item wistia_embed'>
+        <div class="brimm-blocks--full-width-vid">
           {{ section.settings.video_embed }}
         </div>
       {%- endif -%}
+      {%- if section.settings.image != blank and section.settings.video_embed == blank %}
+        <div class='brimm-blocks-mega-image'>
+          <img
+              src="{{ section.settings.image | image_url }}"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}"
+            >
+        </div>
+      {%- endif -%}
     </div>
-    <div class="brimm-blocks--mega-bottom">
+    <div class="brimm-blocks--mega-bottom brimm-blocks--mega-grid">
       {% for block in section.blocks %}
-        {% case block.type %}
-            {% when 'text' %}
-                <p class="brimm-blocks--hero-para">
-                    {{ block.settings.copy }}
-                </p>
-
-            {% when 'cta_button' %}
-                {% if block.settings.label and block.settings.link %}
-                    <a href="{{ block.settings.link }}"
-                        class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
-                        {{ block.settings.label }}
-                    </a>
-                {% endif %}
-
-            {% else %}
-                <!-- fallback -->
-        {% endcase %}
+        {% if block.type == 'bottom_paragraph' %}
+          <p>{{ block.settings.bottom_copy }}</p>
+        {% endif %}
+        {% if block.type == 'cta_button' %}
+            {% if block.settings.label and block.settings.link %}
+                <a href="{{ block.settings.link }}"
+                    class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
+                    {{ block.settings.label }}
+                </a>
+            {% endif %}
+        {% endif %}
       {% endfor %}
     </div>
   </div>
