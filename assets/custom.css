@@ -49,6 +49,11 @@ h4.brimm-blocks--justified-header {
   padding: 2rem;
   box-sizing: border-box;
   position: relative;
+
+  @media screen and (max-width: 750px) {
+    min-height: 93vh;
+    padding: 0;
+  }
 }
 
 .brimm-blocks--split-text {
@@ -75,6 +80,7 @@ h4.brimm-blocks--justified-header {
   max-width: 720px;
   font-size: 2rem;
   font-weight: 577;
+  line-height: 1.5;
 }
 
 .brimm-blocks--hero-content h1 {

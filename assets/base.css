@@ -499,6 +499,10 @@ blockquote {
   /* 43.2px */
   letter-spacing: -0.72px;
   text-transform: uppercase;
+
+  @media screen and (max-width: 750px) {
+    font-size: 2.8rem;
+  }
 }
 
 table:not([class]) {
@@ -2978,7 +2982,7 @@ details[open] > .header__submenu {
 
   .header--middle-left .header__inline-menu {
     margin-left: 0;
-    width: 280px;
+    width: 269px;
   }
 }
 
