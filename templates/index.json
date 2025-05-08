@@ -66,8 +66,7 @@
       ],
       "name": "Mega",
       "settings": {
-        "image": "shopify://shop_images/unlicensed_stills_240224_kelsey-smith_1.png",
-        "video_embed": "",
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-2"
       }
     },
