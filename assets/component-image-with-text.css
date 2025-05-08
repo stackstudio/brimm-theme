@@ -705,6 +705,25 @@
   background-color: #000000;
 }
 
+.image-with-text__content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
+.image-with-text__content h2 {
+    margin-top: 0;
+}
+
+.image-with-text__button-wrapper .button {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.8rem 2rem;
+    margin-top: 1.5rem;
+}
+
 .image-with-text__media {
   @media screen and (max-width: 750px) {
     padding-bottom: 70% !important;

@@ -2,6 +2,15 @@
   text-transform: uppercase;
 }
 
+.brimm-blocks--hero-content.color-scheme-6 .button {
+    background: #e3f994;
+    font-weight: 777;
+    padding: 2rem 3rem;
+    margin-top: 1rem;
+    letter-spacing: 0;
+    font-size: 1.65rem;
+}
+
 .brim-blocks--split-text {
   display: flex;
   flex-wrap: wrap;

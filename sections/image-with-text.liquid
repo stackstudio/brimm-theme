@@ -72,149 +72,159 @@
         {%- endif -%}
         <div class='image-with-text__text-item grid__item'>
           <div id='ImageWithText--{{ section.id }}' class='image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}'>
-            {%- for block in section.blocks -%}
-              {% case block.type %}
-                {%- when 'image' -%}
-                  <div class='image-with-text__heading-image'>
-                    <img
-                      src='{{ block.settings.heading_image_select | image_url: 'master' }}'
-                      width='{{ block.settings.heading_image_select.width }}'
-                      height='{{ block.settings.heading_image_select.height }}'
-                      alt='{{ block.settings.heading_image_select.alt | escape }}'>
-                  </div>
-                {%- when 'heading' -%}
-                  <h2 class='image-with-text__heading {% if section.settings.mobile_heading != blank and section.settings.mobile_text != blank %} hide-mobile{% endif %} inline-richtext headline-extra-uppercase {{ block.settings.heading_size }}' {{ block.shopify_attributes }}>
-                    {{ block.settings.heading }}
-                  </h2>
-                {%- when 'caption' -%}
-                  <p class='image-with-text__text image-with-text__text--caption body-semi' {{ block.shopify_attributes }}>
-                    {{ block.settings.caption | escape }}
-                  </p>
-                {%- when 'text' -%}
-                  <div class='image-with-text__text {% if section.settings.mobile_heading != blank and section.settings.mobile_text != blank %} hide-mobile{% endif %} rte body-medium' {{ block.shopify_attributes }}>
-                    {{ block.settings.text }}
-                  </div>
-                {%- when 'accordians' -%}
-                  {%- assign has_accordians = true -%}
-                  <div class='image-with-text__accordians rte body-medium' {{ block.shopify_attributes }}>
-                    {{ block.settings.accordians }}
-                  </div>
-                {%- when 'member_packages' -%}
-                  {% if block.settings.member_packages_block %}
-                    <div class="member-packages-tabs">
-                      <ul class="tabs">
-                        <li class="tab active" data-tab="base-camp">
-                          <button>Base Camp</button>
-                        </li>
-                        <li class="tab" data-tab="explorer">
-                          <button>Explorer</button>
-                        </li>
-                        <li class="tab" data-tab="guest-of-honour">
-                          <button>Guest of Honour</button>
-                        </li>
-                        <li class="tab" data-tab="rambler">
-                          <button>Rambler</button>
-                        </li>
-                        <li class="tab" data-tab="peak-vibes">
-                          <button>Peak Vibes</button>
-                        </li>
-                        <li class="tab" data-tab="pay-what-you-want">
-                          <button>Pay What You Want</button>
-                        </li>
-                      </ul>
-                      <div class="tab-content">
-                        <div id="base-camp" class="tab-pane active">
-                          <p class="price">£180</p>
-                          <div class="content">
-                            <p>Yes, thats right. You get all the Planet Positive Perks mentioned (worth about £360 a year) for a one off payment.</p>
+            <div class="image-with-text__content__top">
+                {%- for block in section.blocks -%}
+                {% case block.type %}
+                    {%- when 'image' -%}
+                    <div class='image-with-text__heading-image'>
+                        <img
+                        src='{{ block.settings.heading_image_select | image_url: 'master' }}'
+                        width='{{ block.settings.heading_image_select.width }}'
+                        height='{{ block.settings.heading_image_select.height }}'
+                        alt='{{ block.settings.heading_image_select.alt | escape }}'>
+                    </div>
+                    {%- when 'heading' -%}
+                    <h2 class='image-with-text__heading {% if section.settings.mobile_heading != blank and section.settings.mobile_text != blank %} hide-mobile{% endif %} inline-richtext headline-extra-uppercase {{ block.settings.heading_size }}' {{ block.shopify_attributes }}>
+                        {{ block.settings.heading }}
+                    </h2>
+                {%- endcase -%}
+                {%- endfor -%}
+            </div>
+            <div class="image-with-text__content__bottom">
+              {%- for block in section.blocks -%}
+                {% case block.type %}
+                  {%- when 'caption' -%}
+                    <p class='image-with-text__text image-with-text__text--caption body-semi' {{ block.shopify_attributes }}>
+                      {{ block.settings.caption | escape }}
+                    </p>
+                  {%- when 'text' -%}
+                    <div class='image-with-text__text {% if section.settings.mobile_heading != blank and section.settings.mobile_text != blank %} hide-mobile{% endif %} rte body-medium' {{ block.shopify_attributes }}>
+                      {{ block.settings.text }}
+                    </div>
+                  {%- when 'accordians' -%}
+                    {%- assign has_accordians = true -%}
+                    <div class='image-with-text__accordians rte body-medium' {{ block.shopify_attributes }}>
+                      {{ block.settings.accordians }}
+                    </div>
+                  {%- when 'member_packages' -%}
+                    {% if block.settings.member_packages_block %}
+                      <div class="member-packages-tabs">
+                        <ul class="tabs">
+                          <li class="tab active" data-tab="base-camp">
+                            <button>Base Camp</button>
+                          </li>
+                          <li class="tab" data-tab="explorer">
+                            <button>Explorer</button>
+                          </li>
+                          <li class="tab" data-tab="guest-of-honour">
+                            <button>Guest of Honour</button>
+                          </li>
+                          <li class="tab" data-tab="rambler">
+                            <button>Rambler</button>
+                          </li>
+                          <li class="tab" data-tab="peak-vibes">
+                            <button>Peak Vibes</button>
+                          </li>
+                          <li class="tab" data-tab="pay-what-you-want">
+                            <button>Pay What You Want</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content">
+                          <div id="base-camp" class="tab-pane active">
+                            <p class="price">£180</p>
+                            <div class="content">
+                              <p>Yes, thats right. You get all the Planet Positive Perks mentioned (worth about £360 a year) for a one off payment.</p>
+                            </div>
                           </div>
-                        </div>
-                        <div id="explorer" class="tab-pane">
-                          <p class="price">£250</p>
-                          <div class="content">
-                            <p>With the Explorer package you also get a free beauty, home or pantry Reset box. Carefully curated and vetted products - good for people and planet.</p>
-                            <ul>
-                              <li>Free reset box</li>
-                            </ul>
+                          <div id="explorer" class="tab-pane">
+                            <p class="price">£250</p>
+                            <div class="content">
+                              <p>With the Explorer package you also get a free beauty, home or pantry Reset box. Carefully curated and vetted products - good for people and planet.</p>
+                              <ul>
+                                <li>Free reset box</li>
+                              </ul>
+                            </div>
                           </div>
-                        </div>
-                        <div id="guest-of-honour" class="tab-pane">
-                          <p class="price">£350</p>
-                          <div class="content">
-                            <p>Lets share a meal together at The Cordia Collective (Yes, another Collective) a new culinary venture from Green Michelin-starred chef Chantelle Nicholson. Located within Borde Hill - the stunningly beautiful and historic 2,300-acre estate in West Sussex
-                              <br>Expect dynamic and multifaceted cuisine (and conversation) championing locally sourced, seasonal food.</p>
-                            <ul>
-                              <li>Free reset box</li>
-                              <li>Dinner with Brimm team</li>
-                            </ul>
+                          <div id="guest-of-honour" class="tab-pane">
+                            <p class="price">£350</p>
+                            <div class="content">
+                              <p>Lets share a meal together at The Cordia Collective (Yes, another Collective) a new culinary venture from Green Michelin-starred chef Chantelle Nicholson. Located within Borde Hill - the stunningly beautiful and historic 2,300-acre estate in West Sussex
+                                <br>Expect dynamic and multifaceted cuisine (and conversation) championing locally sourced, seasonal food.</p>
+                              <ul>
+                                <li>Free reset box</li>
+                                <li>Dinner with Brimm team</li>
+                              </ul>
+                            </div>
                           </div>
-                        </div>
-                        <div id="rambler" class="tab-pane">
-                          <p class="price">£500</p>
-                          <div class="content">
-                            <p>Andy Cato, one-half of the iconic duo Groove Armada, sold his music rights to create a regenerative farm after reading about the horrors of the industrial food system.
-                              <br><br>
-                              Wildfarmed transforms lives and landscapes by producing delicious, healthy, and regenerative flour, bread, pizza, and everything in between.
-                              <br><br>
-                              BRiMM will hook you up with a private tour of a Wildfarmed regenerative farm. (Rave in a barn not included)</p>
-                            <ul>
-                              <li>Free reset box</li>
-                              <li>Dinner with Brimm team</li>
-                              <li>Private tour of regenerative farm</li>
-                            </ul>
+                          <div id="rambler" class="tab-pane">
+                            <p class="price">£500</p>
+                            <div class="content">
+                              <p>Andy Cato, one-half of the iconic duo Groove Armada, sold his music rights to create a regenerative farm after reading about the horrors of the industrial food system.
+                                <br><br>
+                                Wildfarmed transforms lives and landscapes by producing delicious, healthy, and regenerative flour, bread, pizza, and everything in between.
+                                <br><br>
+                                BRiMM will hook you up with a private tour of a Wildfarmed regenerative farm. (Rave in a barn not included)</p>
+                              <ul>
+                                <li>Free reset box</li>
+                                <li>Dinner with Brimm team</li>
+                                <li>Private tour of regenerative farm</li>
+                              </ul>
+                            </div>
                           </div>
-                        </div>
-                        <div id="peak-vibes" class="tab-pane">
-                          <p class="price">£1,000</p>
-                          <div class="content">
-                            <p>Created to nurture and transform health and wellbeing, THE BOTHY, is a space designed to return guests to a simpler time - A SLOWER TIME - where modern concerns melt away, making room for deeper connections to ourselves, to each other and to our natural surroundings.
-                              <br><br>
-                              Let BRiMM treat you to a special visit to this Hampshire gem.</p>
-                            <ul>
-                              <li>Free reset box</li>
-                              <li>Dinner with Brimm team</li>
-                              <li>Private tour of regenerative farm</li>
-                              <li>Wildsmith Bothy Spa experience</li>
-                            </ul>
+                          <div id="peak-vibes" class="tab-pane">
+                            <p class="price">£1,000</p>
+                            <div class="content">
+                              <p>Created to nurture and transform health and wellbeing, THE BOTHY, is a space designed to return guests to a simpler time - A SLOWER TIME - where modern concerns melt away, making room for deeper connections to ourselves, to each other and to our natural surroundings.
+                                <br><br>
+                                Let BRiMM treat you to a special visit to this Hampshire gem.</p>
+                              <ul>
+                                <li>Free reset box</li>
+                                <li>Dinner with Brimm team</li>
+                                <li>Private tour of regenerative farm</li>
+                                <li>Wildsmith Bothy Spa experience</li>
+                              </ul>
+                            </div>
                           </div>
-                        </div>
-                        <div id="pay-what-you-want" class="tab-pane">
-                          <p class="price">£?</p>
-                          <div class="content">
-                            <p>Lorem ipsum</p>
-                            <ul>
-                              <li>Free reset box</li>
-                              <li>Dinner with Brimm team</li>
-                              <li>Private tour of regenerative farm</li>
-                              <li>Wildsmith Bothy Spa experience</li>
-                              <li>Other experiences...</li>
-                            </ul>
+                          <div id="pay-what-you-want" class="tab-pane">
+                            <p class="price">£?</p>
+                            <div class="content">
+                              <p>Lorem ipsum</p>
+                              <ul>
+                                <li>Free reset box</li>
+                                <li>Dinner with Brimm team</li>
+                                <li>Private tour of regenerative farm</li>
+                                <li>Wildsmith Bothy Spa experience</li>
+                                <li>Other experiences...</li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <form-widget mode='popup' ucid='eCMDZSQaOsJYHKhZH0qBa5GvTgw'></form-widget>
-                  {% endif %}
-                {%- when 'button' -%}
-                  {%- if block.settings.button_label != blank -%}
+                      <form-widget mode='popup' ucid='eCMDZSQaOsJYHKhZH0qBa5GvTgw'></form-widget>
+                    {% endif %}
+                  {%- when 'button' -%}
                     {%- if block.settings.button_label != blank -%}
-                      {%- capture buttons -%}{{ buttons }}
-                              <a {% if block.settings.button_link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.button_link }}"{% endif %}
-                                 class="button{% if block.settings.button_style_secondary %} button--secondary-on-dark{% elsif section.settings.has_background != true %} button--primary{% elsif section.settings.collection_theme == "core-light-theme"%} button--primary-on-light{% else %} button--primary-on-dark{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.button_label | escape }}</a>{%- endcapture -%}
+                      {%- if block.settings.button_label != blank -%}
+                        {%- capture buttons -%}{{ buttons }}
+                                <a {% if block.settings.button_link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.button_link }}"{% endif %}
+                                   class="button{% if block.settings.button_style_secondary %} button--secondary-on-dark{% elsif section.settings.has_background != true %} button--primary{% elsif section.settings.collection_theme == "core-light-theme"%} button--primary-on-light{% else %} button--primary-on-dark{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.button_label | escape }}</a>{%- endcapture -%}
+                      {%- endif -%}
                     {%- endif -%}
-                  {%- endif -%}
-              {%- endcase -%}
-            {%- endfor -%}
+                {%- endcase -%}
+              {%- endfor -%}
+              {%- if buttons.size > 0 -%}
+                <div class='image-with-text__button-wrapper'>
+                  {%- for button in buttons -%}
+                    {{ button }}
+                  {%- endfor -%}
+                </div>
+              {%- endif -%}
+            </div>
+
             {%- if section.settings.show_waitlist == true -%}
               <form-widget mode='popup' ucid='eCMDZSQaOsJYHKhZH0qBa5GvTgw'></form-widget>
             {%- endif -%}
-            {%- if buttons.size > 0 -%}
-              <div class='image-with-text__button-wrapper'>
-                {%- for button in buttons -%}
-                  {{ button }}
-                {%- endfor -%}
-              </div>
-            {%- endif -%}
+
           </div>
         </div>
       </div>
