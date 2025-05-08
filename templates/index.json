@@ -70,58 +70,6 @@
         "color_scheme": "scheme-2"
       }
     },
-    "image_with_text_ihrzNg": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_TwmzyN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Planet-positive change without sacrifice",
-            "heading_size": "h1"
-          }
-        },
-        "text_wLMgQr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.<br/><br/>Ready to turn good intentions into impact? Step into our Collective and become a founder member. <br/><br/>Limited spots available - claim yours now.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_kcAbf8": {
-          "type": "button",
-          "settings": {
-            "button_label": "Our Story",
-            "button_link": "shopify://pages/our-story",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_TwmzyN",
-        "text_wLMgQr",
-        "button_kcAbf8"
-      ],
-      "settings": {
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "scheme-7",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "brimm-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "inset_hero_yEK8EF": {
       "type": "inset-hero",
       "blocks": {
@@ -178,7 +126,7 @@
           "type": "button",
           "settings": {
             "button_label": "Browse Reset Boxes",
-            "button_link": "",
+            "button_link": "shopify://products/look-good-smell-great-daily-essentials-bundle",
             "button_style_secondary": false
           }
         }
@@ -882,7 +830,6 @@
   "order": [
     "justified_hero_qEnNDW",
     "wrapped_mega_image_jH9J4f",
-    "image_with_text_ihrzNg",
     "inset_hero_yEK8EF",
     "image_with_text_Y8PWgJ",
     "image_with_text_yTMkNL",
