@@ -130,6 +130,74 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_Kfbnjb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eGDaX4": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Responsibly curated products & Inspiring content",
+            "text": "<p>We do the curation and vetting, you get the best design-led products and Planet Positive content out there. </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yMgxbM": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Purposeful impact with the Planet Fund",
+            "text": "<p>10% of our revenue goes to the Planet Fund. Helping fund carbon insetting initiatives like solar energy for our brands.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eQTfKP": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Join an inspiring Collective",
+            "text": "<p>Connect with climate optimists, future thinkers, and change makers. All building a brighter future with BRiMM. Together.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_eGDaX4",
+        "column_yMgxbM",
+        "column_eQTfKP"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "WHY SHOULD YOU JOIN?",
+        "no-gap": false,
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-7",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_FtmALJ": {
       "type": "multicolumn",
       "blocks": {
@@ -770,6 +838,7 @@
     "justified_hero_qQAFRn",
     "image_with_text_kV37Vn",
     "image_with_text_GG3a9F",
+    "multicolumn_Kfbnjb",
     "multicolumn_FtmALJ",
     "multicolumn_8pNr8C",
     "multirow_cWpBrT",
