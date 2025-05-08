@@ -59,12 +59,12 @@
                 </p>
 
             {% when 'cta_button' %}
-                    {% if block.settings.label and block.settings.link %}
+                {% if block.settings.label and block.settings.link %}
                     <a href="{{ block.settings.link }}"
                         class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
                         {{ block.settings.label }}
                     </a>
-                    {% endif %}
+                {% endif %}
 
             {% when 'newsletter' %}
                 <div class="hero__newsletter">
@@ -125,7 +125,7 @@
     },
     {
       "type": "cta_button",
-      "name": "CTA Button",
+      "name": "Button",
       "settings": [
         {
           "type": "text",
