@@ -34,58 +34,41 @@
         "heading_pmGa6r": {
           "type": "heading",
           "settings": {
-            "heading_text": "Default Heading"
+            "heading_text": "Planet-positive change without sacrifice"
           }
         },
         "top_paragraph_ftDW3C": {
           "type": "top_paragraph",
           "settings": {
-            "top_copy": "Your text here…"
+            "top_copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
+          }
+        },
+        "bottom_paragraph_wyQNJ7": {
+          "type": "bottom_paragraph",
+          "settings": {
+            "bottom_copy": "Ready to turn good intentions into impact? Step into our Collective and become a founder member."
+          }
+        },
+        "cta_button_hhrbzr": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Claim your spot",
+            "link": "shopify://pages/member-sign-up-form",
+            "style": "primary"
           }
         }
       },
       "block_order": [
         "heading_pmGa6r",
-        "top_paragraph_ftDW3C"
+        "top_paragraph_ftDW3C",
+        "bottom_paragraph_wyQNJ7",
+        "cta_button_hhrbzr"
       ],
       "name": "Mega",
       "settings": {
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "image": "shopify://shop_images/unlicensed_stills_240224_kelsey-smith_1.png",
+        "video_embed": "",
         "color_scheme": ""
-      }
-    },
-    "grid_cols_HjRPb8": {
-      "type": "grid-cols",
-      "blocks": {
-        "block_R8MzpH": {
-          "type": "block",
-          "settings": {
-            "title": "Planet-positive change without sacrifice",
-            "content": "",
-            "cta_url": "",
-            "cta_text": "",
-            "background_color": "#ffffff"
-          }
-        },
-        "block_pJ8Ack": {
-          "type": "block",
-          "settings": {
-            "title": "",
-            "content": "<p>BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.</p>",
-            "cta_url": "",
-            "cta_text": "",
-            "background_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "block_R8MzpH",
-        "block_pJ8Ack"
-      ],
-      "name": "Grid Columns",
-      "settings": {
-        "has_gaps": true,
-        "section_content": ""
       }
     },
     "image_with_text_ihrzNg": {
@@ -900,7 +883,6 @@
   "order": [
     "justified_hero_qEnNDW",
     "wrapped_mega_image_jH9J4f",
-    "grid_cols_HjRPb8",
     "image_with_text_ihrzNg",
     "inset_hero_yEK8EF",
     "image_with_text_Y8PWgJ",
