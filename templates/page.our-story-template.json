@@ -66,7 +66,7 @@
         "text_k4Jj7X"
       ],
       "settings": {
-        "image": "shopify://shop_images/KZVS10114.jpg",
+        "image": "shopify://shop_images/unlicensed_stills_334224_nathan-cyprys_1_1.png",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
@@ -139,8 +139,8 @@
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Responsibly curated products & Inspiring content",
-            "text": "<p>We do the curation and vetting, you get the best design-led products and Planet Positive content out there. </p>",
+            "title": "PURPOSEFUL COMMERCE",
+            "text": "<p>We don’t just sell Planet-Positive products - we reinvest a chunk (10%) of change into our Planet Fund, helping the brands you love go further, faster. Insetting, not offsetting impact.</p><p><br/>This year, we’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy for our brands. <br/></p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -152,8 +152,8 @@
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Purposeful impact with the Planet Fund",
-            "text": "<p>10% of our revenue goes to the Planet Fund. Helping fund carbon insetting initiatives like solar energy for our brands.</p>",
+            "title": "CURATED, NOT OVERFLOWING",
+            "text": "<p>We’re the ‘enough store’, not the ‘everything store’. </p><p><br/>Often find that where you shop is overflowing with too many brands, products And stuff. Do we really need it all?!</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -165,8 +165,8 @@
             "image_is_icon": true,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Join an inspiring Collective",
-            "text": "<p>Connect with climate optimists, future thinkers, and change makers. All building a brighter future with BRiMM. Together.</p>",
+            "title": "PEOPLE-POWERED IMPACT",
+            "text": "<p>Every member, every purchase, every brand is part of a feedback loop that multiplies good.</p><p><br/>When you lower your impact, you help brands lower theirs too. <br/><br/>All via carbon insetting. And Community isn't a buzzword here it's an engine for change.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -180,7 +180,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "WHY SHOULD YOU JOIN?",
+        "title": "HOW WE ARE DIFFERENT",
         "no-gap": false,
         "text_block": "",
         "heading_size": "h1",
@@ -191,77 +191,9 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-7",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_FtmALJ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_qzDjWz": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "PURPOSEFUL COMMERCE",
-            "text": "<p>We don’t just sell planet-positive products - we reinvest a chunk (10%) of change you  into our Planet Fund, helping the brands you love go further, faster. Insetting, not offsetting impact.</p><p>This year, we’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy for our brands. The rest - you decide.</p><p>Because shopping should power the planet, not just line pockets.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_hRaUey": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "CURATED, NOT OVERFLOWING",
-            "text": "<p>We’re the ‘enough store’, not the ‘everything store’. </p><p>Often find that where you shop is overflowing with too many brands, products And stuff. Do we really need it all?!</p><p></p><p>On BRiMM expect fewer, better, more beautiful things - each one vetted for quality, style and sustainability.</p><p>Less stuff, more swoon.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_8ADtcz": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "PEOPLE-POWERED IMPACT",
-            "text": "<p>Every member, every purchase, every brand is part of a feedback loop that multiplies good.</p><p>When you lower your impact, you help brands lower theirs too. All via carbon insetting. And Community isn't a buzzword here it's an engine for change.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_qzDjWz",
-        "column_hRaUey",
-        "column_8ADtcz"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "HOW WE'RE DIFFERENT",
-        "no-gap": false,
-        "text_block": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -416,7 +348,7 @@
         "row_c3pXLf": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/mudjumpsuit.webp",
+            "image": "shopify://shop_images/unlicensed_stills_352537_lauren-jones_1.png",
             "caption": "",
             "heading": "STYLE AND SUBSTANCE",
             "text": "<h4>Sustainability shouldn't mean sacrificing style. Or joy. We're here for the beauty in better choices.</h4>",
@@ -839,7 +771,6 @@
     "image_with_text_kV37Vn",
     "image_with_text_GG3a9F",
     "multicolumn_Kfbnjb",
-    "multicolumn_FtmALJ",
     "multicolumn_8pNr8C",
     "multirow_cWpBrT",
     "image_with_text_4HfRc9",
