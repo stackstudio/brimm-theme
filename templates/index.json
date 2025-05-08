@@ -115,47 +115,57 @@
         "padding_bottom": 36
       }
     },
-    "email_signup_banner_NjiKDf": {
-      "type": "email-signup-banner",
+    "image_with_text_Y8PWgJ": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_g9D3Me": {
+        "heading_JVGdpg": {
           "type": "heading",
           "settings": {
-            "heading": "SIGN UP FOR WEEKLY planet positivity",
+            "heading": "Reset your life with our discovery boxes",
             "heading_size": "h1"
           }
         },
-        "paragraph_UFAVQ7": {
-          "type": "paragraph",
+        "text_RcyyRE": {
+          "type": "text",
           "settings": {
-            "text": "<p>We bring together bright ideas + brands to prove you can live a lower impact life without life feeling <strong>less</strong>. <br/><br/>Sign up to our newsletter, which is full of Planet Positive design, slow-travel, fashion, beauty and food goodness. Oh, and a fresh playlist of tunes each week. We'll also let you know when we launch.<br/><br/>Ready to team up and turn the tide?</p>",
+            "text": "<h3>Want to kick start your Planet Positive Journey? Discover new brands effortlessly.</h3><p>Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. </p><p>And every purchase drives real change and impact.</p>",
             "text_style": "body"
           }
         },
-        "email_form_aamt7q": {
-          "type": "email_form",
-          "disabled": true,
-          "settings": {}
+        "button_aGiLdD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse Reset Boxes",
+            "button_link": "",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
-        "heading_g9D3Me",
-        "paragraph_UFAVQ7",
-        "email_form_aamt7q"
+        "heading_JVGdpg",
+        "text_RcyyRE",
+        "button_aGiLdD"
       ],
-      "disabled": true,
       "settings": {
-        "image_overlay_opacity": 100,
-        "collection_theme": "brimm-theme",
-        "show_background_image": true,
-        "sticky_on_mobile": true,
-        "image_height": "adapt-image",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "image": "shopify://shop_images/Free_reset_box.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-1",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "show_text_below": true
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_yTMkNL": {
@@ -192,50 +202,6 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_Y8PWgJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JVGdpg": {
-          "type": "heading",
-          "settings": {
-            "heading": "Reset your life with our discovery boxes",
-            "heading_size": "h1"
-          }
-        },
-        "text_RcyyRE": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>Want to kick start your Planet Positive Journey? Discover new brands effortlessly.</h4><p>Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. </p><p>And every purchase drives real change and impact.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_JVGdpg",
-        "text_RcyyRE"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Free_reset_box.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -875,9 +841,8 @@
     "justified_hero_qEnNDW",
     "inset_hero_yEK8EF",
     "image_with_text_ihrzNg",
-    "email_signup_banner_NjiKDf",
-    "image_with_text_yTMkNL",
     "image_with_text_Y8PWgJ",
+    "image_with_text_yTMkNL",
     "partner_logos_xMwzLh",
     "multicolumn_eUJkQC",
     "image_with_text_AY7XfF",
