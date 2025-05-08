@@ -42,11 +42,20 @@
           "settings": {
             "copy": "Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life."
           }
+        },
+        "cta_button_eMxNiy": {
+          "type": "cta_button",
+          "settings": {
+            "label": "View Membership",
+            "link": "shopify://pages/founder-members",
+            "style": "primary"
+          }
         }
       },
       "block_order": [
         "heading_UiB8ar",
-        "text_F4XphH"
+        "text_F4XphH",
+        "cta_button_eMxNiy"
       ],
       "name": "Inset Hero",
       "settings": {
