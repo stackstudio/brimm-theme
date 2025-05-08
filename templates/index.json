@@ -79,16 +79,25 @@
             "text": "<p>BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.<br/><br/>Ready to turn good intentions into impact? Step into our Collective and become a founder member. <br/><br/>Limited spots available - claim yours now.</p>",
             "text_style": "body"
           }
+        },
+        "button_kcAbf8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our Story",
+            "button_link": "shopify://pages/our-story",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading_TwmzyN",
-        "text_wLMgQr"
+        "text_wLMgQr",
+        "button_kcAbf8"
       ],
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "has_background": true,
-        "show_waitlist": true,
+        "show_waitlist": false,
         "image_label": "",
         "color_scheme": "scheme-7",
         "mobile_heading": "",
