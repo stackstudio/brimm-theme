@@ -17,22 +17,41 @@
           "settings": {
             "heading_text": "LIVE BRIGHT TREAD LIGHT"
           }
-        },
-        "text_FdEHPx": {
-          "type": "text",
-          "settings": {
-            "copy": "A planet-positive Shop, Journal and Collective. Where every purchase, story and connection powers change. Effortlessly."
-          }
         }
       },
       "block_order": [
-        "heading_DRd4EB",
-        "text_FdEHPx"
+        "heading_DRd4EB"
       ],
       "name": "Justified Hero",
       "settings": {
         "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01.jpg",
         "color_scheme": "scheme-6"
+      }
+    },
+    "inset_hero_yEK8EF": {
+      "type": "inset-hero",
+      "blocks": {
+        "heading_UiB8ar": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "BECOME A BRiMM FOUNDER MEMBER"
+          }
+        },
+        "text_F4XphH": {
+          "type": "text",
+          "settings": {
+            "copy": "Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life."
+          }
+        }
+      },
+      "block_order": [
+        "heading_UiB8ar",
+        "text_F4XphH"
+      ],
+      "name": "Inset Hero",
+      "settings": {
+        "image": "shopify://shop_images/unlicensed_stills_24127_kelsey-smith_1.png",
+        "color_scheme": ""
       }
     },
     "image_with_text_ihrzNg": {
@@ -836,6 +855,7 @@
   },
   "order": [
     "justified_hero_qEnNDW",
+    "inset_hero_yEK8EF",
     "image_with_text_ihrzNg",
     "email_signup_banner_NjiKDf",
     "image_with_text_yTMkNL",
