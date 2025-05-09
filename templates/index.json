@@ -255,9 +255,9 @@
         "logo_YPwt78": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/image_79.png",
+            "logo_image": "shopify://shop_images/KandK.png",
             "alt_text": "Partner Logo",
-            "logo_width": 150
+            "logo_width": 170
           }
         },
         "logo_xEwxGT": {
@@ -630,8 +630,8 @@
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_R7Xi3e": {
