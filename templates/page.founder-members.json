@@ -542,60 +542,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_AYmqrn": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_dbUqQc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Limited spots. Sign up Today.",
-            "heading_size": "h1"
-          }
-        },
-        "text_qQpfpc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Don’t miss your moment to help build a movement and enjoy a lifetime of brighter, lighter living.<br/></p><p>One person is chosen for a free, limited gift every day. Join the waitlist now. </p><p><br/>BRiMM: Where less really is more. More joy. More impact. More community. Live bright. Tread light.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_fBCJ9x": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_dbUqQc",
-        "text_qQpfpc",
-        "button_fBCJ9x"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "scheme-7",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "brimm-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collapsible_content_HmpeVH": {
       "type": "collapsible-content",
       "blocks": {
@@ -794,7 +740,6 @@
     "image_with_text_XhCmWW",
     "image_with_text_A8dx4k",
     "multicolumn_qA6YU6",
-    "image_with_text_AYmqrn",
     "collapsible_content_HmpeVH",
     "image_with_text_4HfRc9"
   ]
