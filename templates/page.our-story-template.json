@@ -647,6 +647,57 @@
         "padding_bottom": 0
       }
     },
+    "image_with_text_AHRnBD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WiUdxy": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A FOUNDER MEMBER",
+            "heading_size": "h1"
+          }
+        },
+        "text_GYHw67": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
+            "text_style": "body"
+          }
+        },
+        "member_packages_LxRAxB": {
+          "type": "member_packages",
+          "settings": {
+            "member_packages_block": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_WiUdxy",
+        "text_GYHw67",
+        "member_packages_LxRAxB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_eayWBw": {
       "type": "multicolumn",
       "blocks": {
@@ -732,57 +783,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_AHRnBD": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_WiUdxy": {
-          "type": "heading",
-          "settings": {
-            "heading": "BECOME A FOUNDER MEMBER",
-            "heading_size": "h1"
-          }
-        },
-        "text_GYHw67": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
-            "text_style": "body"
-          }
-        },
-        "member_packages_LxRAxB": {
-          "type": "member_packages",
-          "settings": {
-            "member_packages_block": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_WiUdxy",
-        "text_GYHw67",
-        "member_packages_LxRAxB"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -798,7 +798,7 @@
     "image_with_text_wqdhPw",
     "image_with_text_MB8gr3",
     "image_with_text_Kftnmg",
-    "multicolumn_eayWBw",
-    "image_with_text_AHRnBD"
+    "image_with_text_AHRnBD",
+    "multicolumn_eayWBw"
   ]
 }

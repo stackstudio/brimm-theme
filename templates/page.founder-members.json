@@ -69,7 +69,7 @@
       "settings": {
         "video_embed": "",
         "has_background": true,
-        "show_waitlist": false,
+        "show_waitlist": true,
         "image_label": "",
         "color_scheme": "scheme-7",
         "mobile_heading": "",
