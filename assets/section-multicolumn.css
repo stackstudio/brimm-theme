@@ -299,6 +299,12 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
   }
 }
 
+.multicolumn-list.grid--no-gutter
+  .multicolumn-list__item
+  .multicolumn-card__info {
+  padding: 1.5rem;
+}
+
 .image-label--pill {
   position: absolute;
   left: 12px;

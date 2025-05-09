@@ -1,5 +1,6 @@
 .header__icon--menu {
   position: initial;
+  width: 2.2rem;
 }
 
 .js menu-drawer > details > summary::before,

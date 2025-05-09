@@ -2647,12 +2647,6 @@ input[type='checkbox'] {
   transition: width 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
 }
 
-@media screen and (max-width: 760px) {
-  .header__heading-logo-wrapper {
-    width: 30%;
-  }
-}
-
 @media screen and (max-width: 989px) {
   .header__heading,
   .header__heading-link {
@@ -2663,6 +2657,7 @@ input[type='checkbox'] {
   .header--mobile-left .header__heading-link {
     text-align: left;
     justify-self: start;
+    width: 120px;
   }
 
   .header--mobile-left {
@@ -2984,6 +2979,11 @@ details[open] > .header__submenu {
     margin-left: 0;
     width: 269px;
   }
+}
+
+.header--middle-left .header__inline-menu {
+  margin-left: 0;
+  width: 269px;
 }
 
 .header__menu {
