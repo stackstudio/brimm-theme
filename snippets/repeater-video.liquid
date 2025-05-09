@@ -120,9 +120,13 @@
 
   .wistia-video.portrait {
     position: relative;
-    padding-top: 50%;
+    padding-top: 668px;
     height: auto;
-    width: 50%;
+    width: 375px;
+    @media screen and (max-width: 700px) {
+      padding-top: 100vh;
+      width: 89vw;
+    }
   }
   .wistia-video.landscape {
     position: relative;
@@ -157,7 +161,7 @@
 
   .video-caption {
     margin: 0 auto;
-    width: 670px;
+    width: 375px;
   }
 
   @media screen and (max-width: 750px) {

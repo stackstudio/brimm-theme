@@ -288,6 +288,17 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
   }
 }
 
+.multicolumn-list:not(.grid--no-gutter).grid--4-col-desktop
+  .multicolumn-list__item {
+  min-width: calc(25% - var(--grid-desktop-horizontal-spacing));
+  width: calc(25% - var(--grid-desktop-horizontal-spacing));
+
+  @media screen and (max-width: 750px) {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+
 .image-label--pill {
   position: absolute;
   left: 12px;
