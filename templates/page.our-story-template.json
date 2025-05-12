@@ -336,7 +336,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
@@ -646,143 +646,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "image_with_text_AHRnBD": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_WiUdxy": {
-          "type": "heading",
-          "settings": {
-            "heading": "FOUNDER MEMBER PACKAGES - CHOOSE YOUR ADVENTURE",
-            "heading_size": "h1"
-          }
-        },
-        "text_GYHw67": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>To kickstart BRiMM and support our Planet Fund, we’re offering a strictly limited  Founder Membership packages. </h3><p>Each package includes our Founder Membership perks. Along with unforgettable experiences. Connecting you to the people and ideas shaping the conscious consumer movement. </p>",
-            "text_style": "body"
-          }
-        },
-        "member_packages_LxRAxB": {
-          "type": "member_packages",
-          "settings": {
-            "member_packages_block": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_WiUdxy",
-        "text_GYHw67",
-        "member_packages_LxRAxB"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "multicolumn_eayWBw": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_aXUMAi": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Rambler_package.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "",
-            "text": "<h4>We imagine a world where planet-positive living is the default.</h4>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nAbB9Y": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Rambler_package.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "",
-            "text": "<h4>Where brands don’t just reduce harm, but actively give back more than their take. <br/><br/>Where their actions create a ripple effect of change in their industries.</h4>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BXTbAx": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Rambler_package.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "",
-            "text": "<h4>Where millions of us are living lighter, brighter lives—and having a blast doing it.</h4>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_XtppYU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/KZSP10553.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "",
-            "text": "<h4>We’re not the whole solution, but we have the belief that together, we can go further, faster.</h4>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_aXUMAi",
-        "column_nAbB9Y",
-        "column_BXTbAx",
-        "column_XtppYU"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "OUR VISION FOR THE FUTURE",
-        "no-gap": true,
-        "text_block": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -797,8 +660,6 @@
     "image_with_text_BybLYy",
     "image_with_text_wqdhPw",
     "image_with_text_MB8gr3",
-    "image_with_text_Kftnmg",
-    "image_with_text_AHRnBD",
-    "multicolumn_eayWBw"
+    "image_with_text_Kftnmg"
   ]
 }
