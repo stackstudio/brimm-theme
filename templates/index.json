@@ -381,7 +381,7 @@
         "color_scheme": "",
         "mobile_heading": "Our online Journal - stories to inspire",
         "mobile_text": "<h3><strong>Written by leading voices in Planet Positivity. </strong></h3>",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
