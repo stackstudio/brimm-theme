@@ -736,3 +736,11 @@
     display: block;
   }
 }
+
+.has--packages {
+  min-height: 46rem;
+
+  @media screen and (min-width: 750px) {
+    min-height: 80rem;
+  }
+}

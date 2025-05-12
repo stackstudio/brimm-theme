@@ -29,13 +29,19 @@
               <p class='image-with-text__label'>{{ section.settings.image_label }}</p>
             {%- endif -%}
             {%- assign has_accordians = false -%}
+            {%- assign has_packages = false -%}
+            {%- for block in section.blocks -%}
+              {%- if block.type == "member_packages" -%}
+                {%- assign has_packages = true -%}
+              {%- endif -%}
+            {%- endfor -%}
             {%- for block in section.blocks -%}
               {%- if block.type == "accordians" -%}
                 {%- assign has_accordians = true -%}
               {%- endif -%}
             {%- endfor -%}
             <div
-              class='image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %} {%if has_accordians == true%}accordian--has-images{% endif %}'
+              class='image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %} {%if has_accordians == true%}accordian--has-images{% endif %} {% if has_packages == true %}has--packages{% endif %}'
               {% if section.settings.height == 'adapt' and section.settings.image != blank %}
               style='padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;'
               {% endif %}>
@@ -107,22 +113,40 @@
                   {% if block.settings.member_packages_block %}
                     <div class="member-packages-tabs">
                       <ul class="tabs">
-                        <li class="tab active" data-tab="base-camp">
+                        <li
+                          class="tab active"
+                          data-tab="base-camp"
+                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg?v=1744828027">
                           <button>Lifetime Founder Membership</button>
                         </li>
-                        <li class="tab" data-tab="explorer">
+                        <li
+                          class="tab"
+                          data-tab="explorer"
+                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Free_reset_box.jpg?v=1744822881">
                           <button>Discovery</button>
                         </li>
-                        <li class="tab" data-tab="guest-of-honour">
+                        <li
+                          class="tab"
+                          data-tab="guest-of-honour"
+                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Orsola_2021_28_portrait_jpg.jpg?v=1747055198">
                           <button>Fashion insider</button>
                         </li>
-                        <li class="tab" data-tab="rambler">
+                        <li
+                          class="tab"
+                          data-tab="rambler"
+                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Guest-of-honour.jpg?v=1747055418">
                           <button>Guest of honour</button>
                         </li>
-                        <li class="tab" data-tab="peak-vibes">
+                        <li
+                          class="tab"
+                          data-tab="peak-vibes"
+                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/The_wild_one.jpg?v=1747055198">
                           <button>The Wild One</button>
                         </li>
-                        <li class="tab" data-tab="pay-what-you-want">
+                        <li
+                          class="tab"
+                          data-tab="pay-what-you-want"
+                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg?v=1744828027">
                           <button>Pay What You Want</button>
                         </li>
                       </ul>
