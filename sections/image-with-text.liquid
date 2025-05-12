@@ -83,21 +83,17 @@
                       alt='{{ block.settings.heading_image_select.alt | escape }}'>
                   </div>
                 {%- when 'heading' -%}
-                  {%- if section.settings.mobile_heading == blank -%}
-                    <h2 class='image-with-text__heading {% if section.settings.mobile_heading != blank and section.settings.mobile_text != blank %} hide-mobile{% endif %} inline-richtext headline-extra-uppercase {{ block.settings.heading_size }}' {{ block.shopify_attributes }}>
-                      {{ block.settings.heading }}
-                    </h2>
-                  {%- endif -%}
+                  <h2 class='image-with-text__heading {% if section.settings.mobile_heading != blank and section.settings.mobile_text != blank %} hide-mobile{% endif %} inline-richtext headline-extra-uppercase {{ block.settings.heading_size }}' {{ block.shopify_attributes }}>
+                    {{ block.settings.heading }}
+                  </h2>
                 {%- when 'caption' -%}
                   <p class='image-with-text__text image-with-text__text--caption body-semi' {{ block.shopify_attributes }}>
                     {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
-                  {%- if section.settings.mobile_text == blank -%}
-                    <div class='image-with-text__text {% if section.settings.mobile_heading != blank and section.settings.mobile_text != blank %} hide-mobile{% endif %} rte body-medium' {{ block.shopify_attributes }}>
-                      {{ block.settings.text }}
-                    </div>
-                  {%- endif -%}
+                  <div class='image-with-text__text {% if section.settings.mobile_heading != blank and section.settings.mobile_text != blank %} hide-mobile{% endif %} rte body-medium' {{ block.shopify_attributes }}>
+                    {{ block.settings.text }}
+                  </div>
                 {%- when 'accordians' -%}
                   {%- assign has_accordians = true -%}
                   <div class='image-with-text__accordians rte body-medium' {{ block.shopify_attributes }}>
