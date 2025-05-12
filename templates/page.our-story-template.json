@@ -413,6 +413,74 @@
         "padding_bottom": 0
       }
     },
+    "multicolumn_CzTA3B": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wCzffy": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Responsibly curated products & Inspiring content",
+            "text": "<p>We do the curation and vetting, you get the best design-led products and Planet Positive content out there. </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pDgiGh": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Purposeful impact with the Planet Fund",
+            "text": "<p>10% of our revenue goes to the Planet Fund. Helping fund carbon insetting initiatives like solar energy for our brands.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kNagxW": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": true,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Join an inspiring Collective",
+            "text": "<p>Connect with climate optimists, future thinkers, and change makers. All building a brighter future with BRiMM. Together.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wCzffy",
+        "column_pDgiGh",
+        "column_kNagxW"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "WHY SHOULD YOU JOIN?",
+        "no-gap": false,
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_with_text_4HfRc9": {
       "type": "image-with-text",
       "blocks": {
@@ -656,6 +724,7 @@
     "multicolumn_Kfbnjb",
     "multicolumn_8pNr8C",
     "multirow_cWpBrT",
+    "multicolumn_CzTA3B",
     "image_with_text_4HfRc9",
     "image_with_text_BybLYy",
     "image_with_text_wqdhPw",
