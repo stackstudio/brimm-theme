@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 750px) {
   .image-with-text .grid {
-    padding: 7.5rem 5rem;
+    padding: 7.5rem 0rem;
   }
 }
 
