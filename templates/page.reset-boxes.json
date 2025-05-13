@@ -28,309 +28,57 @@
         "color_scheme": "scheme-6"
       }
     },
-    "wrapped_mega_image_jH9J4f": {
+    "wrapped_mega_image_ebtEiP": {
       "type": "wrapped-mega-image",
       "blocks": {
-        "heading_pmGa6r": {
+        "heading_BGe3mY": {
           "type": "heading",
           "settings": {
-            "heading_text": "Planet-positive change without sacrifice"
+            "heading_text": "RESET YOUR LIFE WITH OUR DISCOVERY BOXES"
           }
         },
-        "top_paragraph_ftDW3C": {
+        "top_paragraph_zFyPbT": {
           "type": "top_paragraph",
           "settings": {
-            "top_copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
-          }
-        },
-        "bottom_paragraph_wyQNJ7": {
-          "type": "bottom_paragraph",
-          "settings": {
-            "bottom_copy": "Ready to turn good intentions into impact? Step into our Collective and become a founder member."
-          }
-        },
-        "cta_button_hhrbzr": {
-          "type": "cta_button",
-          "settings": {
-            "label": "Claim your spot",
-            "link": "shopify://pages/member-sign-up-form",
-            "style": "primary"
+            "top_copy": "Want to kick start your Planet Positive Journey? Reset your kitchen or bathroom ritual to be Planet Positive - in one go."
           }
         }
       },
       "block_order": [
-        "heading_pmGa6r",
-        "top_paragraph_ftDW3C",
-        "bottom_paragraph_wyQNJ7",
-        "cta_button_hhrbzr"
+        "heading_BGe3mY",
+        "top_paragraph_zFyPbT"
       ],
       "name": "Mega",
       "settings": {
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true&playerColor=e3f994&controlsVisibleOnLoad=false\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
-        "color_scheme": "scheme-2"
-      }
-    },
-    "image_with_text_Y8PWgJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JVGdpg": {
-          "type": "heading",
-          "settings": {
-            "heading": "Reset your life with our discovery boxes",
-            "heading_size": "h1"
-          }
-        },
-        "text_RcyyRE": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Want to kick start your Planet Positive Journey? Discover new brands effortlessly.</h3><p>Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. </p><p>And every purchase drives real change and impact.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_aGiLdD": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse Reset Boxes",
-            "button_link": "shopify://products/look-good-smell-great-daily-essentials-bundle",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_JVGdpg",
-        "text_RcyyRE",
-        "button_aGiLdD"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Free_reset_box.jpg",
         "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_yTMkNL": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_CErazw": {
-          "type": "heading",
-          "settings": {
-            "heading": "Beautiful, design-led brands",
-            "heading_size": "h1"
-          }
-        },
-        "text_ztHWap": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>Discover responsibly curated products - vetted for style, substance and Planet Positivity.</h4><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.<br/><br/>We're an \"enough\" store not an \"everything\" store. </p>",
-            "text_style": "body"
-          }
-        },
-        "button_iyRgCd": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse Products",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_CErazw",
-        "text_ztHWap",
-        "button_iyRgCd"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Brimm25_march27_-_Boxes0815_1_copy_2.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "inset_hero_yEK8EF": {
-      "type": "inset-hero",
-      "blocks": {
-        "heading_UiB8ar": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "BECOME A BRiMM FOUNDER MEMBER"
-          }
-        },
-        "text_F4XphH": {
-          "type": "text",
-          "settings": {
-            "copy": "Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life."
-          }
-        },
-        "cta_button_eMxNiy": {
-          "type": "cta_button",
-          "settings": {
-            "label": "View Membership",
-            "link": "shopify://pages/founder-members",
-            "style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_UiB8ar",
-        "text_F4XphH",
-        "cta_button_eMxNiy"
-      ],
-      "name": "Inset Hero",
-      "settings": {
-        "image": "shopify://shop_images/unlicensed_stills_24127_kelsey-smith_1.png",
         "color_scheme": ""
       }
     },
-    "partner_logos_xMwzLh": {
-      "type": "partner-logos",
-      "blocks": {
-        "logo_B9Qmqw": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_94_9a806a83-3e2d-42f2-bfcd-fb5c648bc176.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_h8HULL": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_95_831c1d3a-5c34-4ccf-b695-c42ddd6655a2.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_9UPhxV": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_98_563de907-800a-43f7-8a20-7b6ba8aa2b69.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_bHWgDG": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_99_dc84d58b-43b4-444a-a17a-6cf1f8c6db50.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_xXyEq7": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/KLEE_Instagram_Post_Square_1680x_9f421509-72d0-4d08-85e5-fcec190558f7.webp",
-            "alt_text": "Partner Logo",
-            "logo_width": 130
-          }
-        },
-        "logo_YPwt78": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/image_79.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_xEwxGT": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_97.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        }
-      },
-      "block_order": [
-        "logo_B9Qmqw",
-        "logo_h8HULL",
-        "logo_9UPhxV",
-        "logo_bHWgDG",
-        "logo_xXyEq7",
-        "logo_YPwt78",
-        "logo_xEwxGT"
-      ],
+    "featured_collection_7z4pTV": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "block_text": "Our beautiful brands"
-      }
-    },
-    "image_with_text_tWTg8h": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_8xHCC9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Featured founder members",
-            "heading_size": "h1"
-          }
-        },
-        "text_3ijQnt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We’ve handpicked a crew of planet-positive pioneers. Brand founders, activists and climate researchers who are already shaping the future of planet positive living with BRiMM.</p><p>Join them and help to shape BRiMM from the ground up.</p>",
-            "text_style": "body"
-          }
-        },
-        "accordians_kbAYmf": {
-          "type": "accordians",
-          "settings": {
-            "accordians": "<details name=\"founder\"\ndata-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Amy-Powney-creative-director-AKYN-2025.webp?v=1744822906\"\n>\n  <summary>Amy Powney</summary>\n  <p>Pioneering creative director</p>\n<p>Founder and Creative Director of AKYN. The former Creative Director of Mother of Pearl, Amy Powney is a UK based fashion designer and activist living in London, star of an award nominated documentary and recipient of the British Fashion Council /Vogue Designer Fashion Fund.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Anna_Foster_Head_Shot_3_1080x_28229f04-d1db-4916-99dc-f9dea8c3131b.webp?v=1744822907\" name=\"founder\">\n  <summary>Anna Foster</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/jocelyn.png?v=1744822909\" name=\"founder\">\n  <summary>Jocelyn Longdon</summary>\n  <p>Author, academic and activist</p>\n<p>Joycelyn Longdon is an award-winning environmental justice technologist, writer, and educator. She is a PhD candidate at the University of Cambridge, where her research focuses on justice-led conservation technologies for monitoring biodiversity with local communities in Ghana. Longdon is the founder of ClimateInColour, an influential platform making climate science more accessible and diverse. She was the 2022 Emerging Designer London Design Medal winner, featured in British Vogue’s ‘Forces for Change’ issue, and is recognized as a leading voice in climate justice and technology</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Chantelle_Nicholson.png?v=1744822908\" name=\"founder\">\n  <summary>Chantelle Nicholson</summary>\n  <p>Green Michelin Starred chef</p>\n<p>Chantelle Nicholson is a multi-award-winning chef, restaurateur, and author, celebrated for her commitment to sustainable, veg-forward cuisine. Originally from New Zealand, she is the founder of Apricity in Mayfair, a restaurant recognized with a Michelin Green Star for its focus on conscious cooking and regenerative practices. Nicholson is a leading advocate for seasonality and circularity in hospitality, serving as an ambassador for Chefs in Schools, a board member for ReLondon, and a member of City Harvest’s Food Council.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Melanie_Rickey.png?v=1744822909\" name=\"founder\">\n  <summary>Orsola de Castro</summary>\n  <p>Sustainable fashion activist</p>\n<p>Orsola de Castro is an internationally recognized leader in sustainable fashion, known for her pioneering work in upcycling and industry activism. She founded the upcycling label From Somewhere and co-founded Estethica at London Fashion Week. In 2013, she launched Fashion Revolution, now the world’s largest fashion activism movement, and is the author of Loved Clothes Last.</p>\n</details>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8xHCC9",
-        "text_3ijQnt",
-        "accordians_kbAYmf"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "",
-        "mobile_heading": "FEATURED FOUNDER MEMBERS",
-        "mobile_text": "<p>We’ve handpicked a crew of planet-positive pioneers. Brand founders, activists and climate researchers who are already shaping the future of planet positive living with BRiMM.</p><p>Join them and help to shape BRiMM from the ground up.</p>",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -486,12 +234,8 @@
   },
   "order": [
     "justified_hero_qEnNDW",
-    "wrapped_mega_image_jH9J4f",
-    "image_with_text_Y8PWgJ",
-    "image_with_text_yTMkNL",
-    "inset_hero_yEK8EF",
-    "partner_logos_xMwzLh",
-    "image_with_text_tWTg8h",
+    "wrapped_mega_image_ebtEiP",
+    "featured_collection_7z4pTV",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
     "email_signup_banner_644mkD",
