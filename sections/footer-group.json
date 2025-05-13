@@ -35,7 +35,7 @@
           "disabled": true,
           "settings": {
             "heading": "Company",
-            "menu": "footer-menu-company"
+            "menu": ""
           }
         },
         "link_list_ei3xxE": {
@@ -43,7 +43,7 @@
           "disabled": true,
           "settings": {
             "heading": "Follow",
-            "menu": "footer-menu-social"
+            "menu": ""
           }
         }
       },
@@ -54,7 +54,7 @@
         "link_list_ei3xxE"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "newsletter_enable": false,
         "newsletter_heading": "Sign up to get the chance to win a VIP shopping experience.",
         "enable_follow_on_shop": false,
