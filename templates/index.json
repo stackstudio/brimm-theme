@@ -284,74 +284,6 @@
         "block_text": "Our beautiful brands"
       }
     },
-    "multicolumn_eUJkQC": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_NENczV": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Carbon Insetting vs Offsetting",
-            "text": "<p>You've heard of carbon offsetting, right? Where a brand pay's for trees to be planted. <br/><br/>Insetting is way better. It's cleaning up your own mess. </p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rRdn6Q": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "How does Insetting work?",
-            "text": "<p>It's when a company actually reduces emissions when they make products.<br/><br/>Less impact for them, less impact for you. No one living less.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BWXitp": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Our Planet Fund",
-            "text": "<p>10% of revenue helps our brands further reduce their emissions. <br/><br/>We’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy.<br/><br/>The rest? You decide...</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_NENczV",
-        "column_rRdn6Q",
-        "column_BWXitp"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "HOW DO PURCHASES DRIVE CHANGE?",
-        "no-gap": false,
-        "text_block": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_tWTg8h": {
       "type": "image-with-text",
       "blocks": {
@@ -559,7 +491,6 @@
     "image_with_text_yTMkNL",
     "inset_hero_yEK8EF",
     "partner_logos_xMwzLh",
-    "multicolumn_eUJkQC",
     "image_with_text_tWTg8h",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
