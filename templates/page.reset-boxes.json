@@ -64,7 +64,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "beauty-bundle",
+        "collection": "around-the-web",
         "products_to_show": 14,
         "columns_desktop": 4,
         "full_width": false,
@@ -231,6 +231,68 @@
       "settings": {
         "heading": ""
       }
+    },
+    "collapsible_content_TpbaYN": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_PgTRC7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Great for the environment",
+            "icon": "leaf",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_WRH8kT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Great for you",
+            "icon": "heart",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_XEMcDa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Reset your life room by room",
+            "icon": "return",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_yFcKHF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Something else that's fab",
+            "icon": "washing",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_PgTRC7",
+        "collapsible_row_WRH8kT",
+        "collapsible_row_XEMcDa",
+        "collapsible_row_yFcKHF"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "WHY WE'RE DOING THIS",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -240,6 +302,7 @@
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
     "email_signup_banner_644mkD",
-    "hero_bMD8Ce"
+    "hero_bMD8Ce",
+    "collapsible_content_TpbaYN"
   ]
 }
