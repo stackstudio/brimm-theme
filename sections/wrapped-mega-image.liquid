@@ -6,6 +6,9 @@
         padding-top: 8rem;
         padding-bottom: 6rem;
     }
+    .brimm-blocks--mega.no-bottom {
+        padding-bottom: 0;
+    }
     .brimm-blocks--mega .button {
         background: black;
         color: white;
@@ -55,7 +58,7 @@
     }
 {% endstyle %}
 
-<section class="brimm-blocks--mega color-{{ section.settings.color_scheme }}" id="{{ section.id }}">
+<section class="brimm-blocks--mega color-{{ section.settings.color_scheme }}{% if section.settings.disable_bottom_padding %} no-bottom{% endif %}" id="{{ section.id }}">
   <div class="page-width brimm-blocks--mega-content">
     <div class="brimm-blocks--mega-top brimm-blocks--mega-grid">
       {% for block in section.blocks %}
@@ -122,6 +125,12 @@
         "type": "color_scheme",
         "label": "Color Scheme",
         "id": "color_scheme"
+    },
+    {
+        "type": "checkbox",
+        "id": "disable_bottom_padding",
+        "label": "Disable bottom padding",
+        "default": false
     }
   ],
   "blocks": [
