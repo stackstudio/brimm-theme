@@ -11,6 +11,26 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "wrapped_mega_image_6QWzwm": {
+      "type": "wrapped-mega-image",
+      "blocks": {
+        "heading_DVT3C7": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Default Heading"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DVT3C7"
+      ],
+      "name": "Mega",
+      "settings": {
+        "video_embed": "",
+        "color_scheme": "scheme-2",
+        "disable_bottom_padding": false
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -32,6 +52,7 @@
     }
   },
   "order": [
+    "wrapped_mega_image_6QWzwm",
     "header"
   ]
 }
