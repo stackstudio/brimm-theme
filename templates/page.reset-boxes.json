@@ -51,7 +51,8 @@
       "name": "Mega",
       "settings": {
         "video_embed": "",
-        "color_scheme": ""
+        "color_scheme": "",
+        "disable_bottom_padding": true
       }
     },
     "featured_collection_7z4pTV": {
