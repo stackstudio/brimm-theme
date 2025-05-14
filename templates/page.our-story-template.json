@@ -731,37 +731,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich_text_PC7qEt": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_UmMr8c": {
-          "type": "heading",
-          "settings": {
-            "heading": "Founder member call to action",
-            "heading_size": "h1"
-          }
-        },
-        "text_EYw64t": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We're a small team with big ambitions. Want to join us on the journey and build a planet positive future.<br/><br/>Get in touch</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_UmMr8c",
-        "text_EYw64t"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -777,7 +746,6 @@
     "image_with_text_wqdhPw",
     "image_with_text_MB8gr3",
     "image_with_text_Kftnmg",
-    "multicolumn_eayWBw",
-    "rich_text_PC7qEt"
+    "multicolumn_eayWBw"
   ]
 }
