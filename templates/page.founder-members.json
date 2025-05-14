@@ -488,89 +488,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_qA6YU6": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_xTGrAq": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "PICK YOUR FOUNDER PACKAGE",
-            "text": "<p>Starting from £180 for life (worth £360 annually*), let us know which package you'd like. Don't forget you can also select a pay what you like option.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_AftM3R": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "JOIN THE WAITLIST",
-            "text": "<p>It's fast, easy and commitment-free. Once you've added your email address, we'll ask you a few questions which will help us build a better experience for you.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_AXiwnb": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "INVITE YOUR FRIENDS",
-            "text": "<p>The future's better with friends. Don't tell everyone. Just the best ones. </p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_7QM6Wb": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "TRY TO CONTAIN YOUR EXCITEMENT",
-            "text": "<p>Honestly? We've got some great stuff planned. You'll want to get in. </p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_xTGrAq",
-        "column_AftM3R",
-        "column_AXiwnb",
-        "column_7QM6Wb"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "HOW TO JOIN",
-        "no-gap": false,
-        "text_block": "Sign up to our waitlist today for early access. Spaces are limited and will be released weekly.",
-        "heading_size": "h1",
-        "split_header": false,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collapsible_content_HmpeVH": {
       "type": "collapsible-content",
       "blocks": {
@@ -768,7 +685,6 @@
     "multicolumn_8pNr8C",
     "image_with_text_XhCmWW",
     "image_with_text_A8dx4k",
-    "multicolumn_qA6YU6",
     "collapsible_content_HmpeVH",
     "image_with_text_4HfRc9"
   ]
