@@ -129,6 +129,7 @@
         "column_qzDjWz": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/purposefulcommerce.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -142,6 +143,7 @@
         "column_hRaUey": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_66.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -155,6 +157,7 @@
         "column_8ADtcz": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_68.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
