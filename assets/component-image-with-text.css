@@ -716,6 +716,10 @@
     padding-bottom: 0;
 }
 
+.image-with-text:has(.image-with-text__accordians) .image-with-text__content {
+    display: block;
+}
+
 .image-with-text__content h2 {
     margin-top: 0;
 }
