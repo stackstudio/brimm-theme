@@ -613,7 +613,7 @@
   border: 1px solid var(--color-brimm-beige);
 
   font-family: Manrope;
-  font-size: 14px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
   line-height: 125%;
@@ -661,7 +661,7 @@
 .tab-pane .content {
   /* Global/Body/Medium/14 */
   font-family: Manrope;
-  font-size: 14px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
   line-height: 125%;
@@ -692,7 +692,7 @@
   appearance: none;
 
   font-family: Manrope;
-  font-size: 14px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;

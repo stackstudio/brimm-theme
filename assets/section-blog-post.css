@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 750px) {
   .article-template {
-    margin: 12rem 0;
+    margin: 12rem 0 0;
   }
 }
 
@@ -232,4 +232,8 @@
 
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
+}
+
+.article-template--repeater-block .metafield-rich_text_field {
+  line-height: 3.2rem;
 }
