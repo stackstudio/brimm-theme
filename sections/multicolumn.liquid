@@ -32,7 +32,7 @@
     <div class='multicolumn__grid-wrapper'>
       {%- unless section.settings.title == blank -%}
         <div class='title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title'>
-          <h2 class='title inline-richtext {{ section.settings.heading_size }}'>
+          <h2 class='title inline-richtext {{ section.settings.heading_size }}{% if section.settings.split_header %} brimm-blocks--split-text brimm-blocks--justified-header{% endif %}'>
             {{ section.settings.title }}
           </h2>
           {%- if section.settings.text_block != blank -%}
@@ -254,7 +254,7 @@
       },
       {
         "type": "checkbox",
-        "id": "split-header",
+        "id": "split_header",
         "default": false,
         "label": "Use Justified Header?"
       },
