@@ -118,6 +118,10 @@
   z-index: -1;
 }
 
+.image-with-text .member-packages-tabs {
+    margin: clamp(20px, 3rem, 44px) 0;
+}
+
 .image-with-text:not(.image-with-text--overlap)
   .image-with-text__media-item:after {
   border-radius: var(--media-radius);

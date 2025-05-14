@@ -94,9 +94,11 @@
               {%- for block in section.blocks -%}
                 {% case block.type %}
                   {%- when 'caption' -%}
-                    <p class='image-with-text__text image-with-text__text--caption body-semi' {{ block.shopify_attributes }}>
-                      {{ block.settings.caption | escape }}
-                    </p>
+                    {% if caption != blank %}
+                        <p class='image-with-text__text image-with-text__text--caption body-semi' {{ block.shopify_attributes }}>
+                            {{ block.settings.caption | escape }}
+                        </p>
+                    {% endif %}
                   {%- when 'text' -%}
                     <div class='image-with-text__text {% if section.settings.mobile_heading != blank and section.settings.mobile_text != blank %} hide-mobile{% endif %} rte body-medium' {{ block.shopify_attributes }}>
                       {{ block.settings.text }}

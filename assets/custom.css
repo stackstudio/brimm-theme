@@ -49,6 +49,12 @@ h4.brimm-blocks--justified-header {
   font-size: clamp(1.5rem, 3vw, 50px);
 }
 
+.button {
+    padding: .75em 1.5em;
+    font-size: 1.2rem;
+    font-weight: 577;
+}
+
 .brimm-blocks--hero {
   width: 100vw;
   min-height: 100vh;

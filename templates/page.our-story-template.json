@@ -731,6 +731,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "inset_hero_yEK8EF": {
+      "type": "inset-hero",
+      "blocks": {
+        "heading_UiB8ar": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "BECOME A BRiMM FOUNDER MEMBER"
+          }
+        },
+        "text_F4XphH": {
+          "type": "text",
+          "settings": {
+            "copy": "Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life."
+          }
+        },
+        "cta_button_eMxNiy": {
+          "type": "cta_button",
+          "settings": {
+            "label": "View Membership",
+            "link": "shopify://pages/founder-members",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UiB8ar",
+        "text_F4XphH",
+        "cta_button_eMxNiy"
+      ],
+      "name": "Inset Hero",
+      "settings": {
+        "image": "shopify://shop_images/unlicensed_stills_24127_kelsey-smith_1.png",
+        "color_scheme": ""
+      }
     }
   },
   "order": [
@@ -746,6 +781,7 @@
     "image_with_text_wqdhPw",
     "image_with_text_MB8gr3",
     "image_with_text_Kftnmg",
-    "multicolumn_eayWBw"
+    "multicolumn_eayWBw",
+    "inset_hero_yEK8EF"
   ]
 }
