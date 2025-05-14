@@ -137,7 +137,7 @@
           "type": "column",
           "settings": {
             "image_is_icon": true,
-            "has_waitlist_cta": false,
+            "has_waitlist_cta": true,
             "has_bg_color": false,
             "title": "PURPOSEFUL COMMERCE",
             "text": "<p>We don’t just sell Planet-Positive products - we reinvest a chunk (10%) of change into our Planet Fund, helping the brands you love go further, faster. Insetting, not offsetting impact.</p><p><br/>This year, we’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy for our brands. <br/></p>",
