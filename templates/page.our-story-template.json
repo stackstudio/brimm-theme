@@ -110,56 +110,13 @@
         "color_scheme": "",
         "mobile_heading": "",
         "mobile_text": "",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_GG3a9F": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_DfTWyy": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>whats the bright idea?</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_MV9exf": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>We’re flipping the script on sustainability. </h4><p>BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to show that you can live well and tread light - without compromise.</p><p>We’re rewriting the rules of how we buy and give back. Here, enough is everything. And every purchase powers positive change.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DfTWyy",
-        "text_MV9exf"
-      ],
-      "settings": {
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "scheme-7",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "brimm-theme",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -222,7 +179,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
@@ -806,7 +763,6 @@
     "justified_hero_qQAFRn",
     "wrapped_mega_image_aEQRcq",
     "image_with_text_kV37Vn",
-    "image_with_text_GG3a9F",
     "multicolumn_FtmALJ",
     "multicolumn_8pNr8C",
     "multirow_cWpBrT",
