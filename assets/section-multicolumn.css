@@ -110,6 +110,10 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
   }
 }
 
+ul li.multicolumn-list__item.has-bg--color:last-child .multicolumn-card__info {
+  padding: 0;
+}
+
 .multicolumn-list__item--empty {
   display: none;
 }
@@ -331,19 +335,10 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
   letter-spacing: -0.24px;
 }
 
-.multicolumn-list__item form-widget[mode='popup'] {
-  position: absolute;
-  z-index: 999999999;
-  display: flex;
-  margin: 0 1.5rem;
-  bottom: 2rem;
+.multicolumn-list__item:last-child .waitlist__cta {
+  padding-top: 2rem;
 
   @media screen and (max-width: 750px) {
     margin: 0rem;
   }
 }
-
-/* .grid--4-col-desktop .multicolumn-list__item {
-  width: 25%;
-  max-width: 25%;
-} */

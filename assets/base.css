@@ -422,10 +422,10 @@ blockquote {
 
 .body-medium {
   /* Global/Body/Medium/14 */
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 125%;
+  line-height: 130%;
 }
 
 .body-medium-12 {
@@ -440,7 +440,7 @@ blockquote {
 
 .body-semi {
   /* Global/Body/Semi Bold/14 */
-  font-size: 14px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
@@ -450,7 +450,7 @@ blockquote {
 
 .body-extra {
   /* Global/Body/Extra Bold/14 */
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 800;
   line-height: 120%;
@@ -460,7 +460,7 @@ blockquote {
 
 .body-regular {
   /* Global/Body/Regular/14 */
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -482,7 +482,7 @@ blockquote {
 .body-extra-20 {
   /* Global/Headline/Extra Bold/20 */
   font-family: Manrope;
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 800;
   line-height: 120%;
@@ -492,7 +492,7 @@ blockquote {
 
 .headline-extra-uppercase {
   /* Global/Headline/Extra Bold/40 */
-  font-size: 36px;
+  font-size: 3.6rem;
   font-style: normal;
   font-weight: 800;
   line-height: 120%;

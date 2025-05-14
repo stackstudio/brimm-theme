@@ -136,12 +136,10 @@
 
   /* Global/Headline/Extra Bold/24 */
   font-family: Manrope;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: 125%;
-  /* 30px */
-  text-transform: uppercase;
 }
 
 .article-template__content {
