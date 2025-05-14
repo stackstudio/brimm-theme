@@ -25,17 +25,10 @@
           "settings": {
             "heading_text": "FOUNDER MEMBERS WANTED NOW"
           }
-        },
-        "text_Ljqeiz": {
-          "type": "text",
-          "settings": {
-            "copy": "Shape the future of planet positive living."
-          }
         }
       },
       "block_order": [
-        "heading_YhrxGT",
-        "text_Ljqeiz"
+        "heading_YhrxGT"
       ],
       "name": "Justified Hero",
       "settings": {
@@ -93,6 +86,7 @@
         "column_EQyzix": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_66.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -106,6 +100,7 @@
         "column_eLWmrw": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_67.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -119,6 +114,7 @@
         "column_Dw4Bx8": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_66.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -132,6 +128,7 @@
         "column_pAyeTH": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_68.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -145,6 +142,7 @@
         "column_9ied3Q": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/purposefulcommerce.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -161,8 +159,8 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -183,6 +181,7 @@
         "no-gap": false,
         "text_block": "",
         "heading_size": "h1",
+        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -372,6 +371,7 @@
         "no-gap": false,
         "text_block": "This isn't our first Rodeo. Each team member brings a unique perspective, experience and set of skills to BRiMM.",
         "heading_size": "h1",
+        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
@@ -556,6 +556,7 @@
         "no-gap": false,
         "text_block": "Sign up to our waitlist today for early access. Spaces are limited and will be released weekly.",
         "heading_size": "h1",
+        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
