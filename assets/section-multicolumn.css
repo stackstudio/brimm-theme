@@ -6,8 +6,17 @@
   margin: 0;
 }
 
+.multicolumn .brimm-blocks--justified-header {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
 .multicolumn.no-heading .title {
   display: none;
+}
+
+.multicolumn .grid--no-gutter .multicolumn-card__info {
+    margin: 0 clamp(8px, 1.2rem, 16px);
 }
 
 .multicolumn p {
