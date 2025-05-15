@@ -49,7 +49,7 @@
   padding: clamp(3rem, 6rem, 60px);
   border-radius: 48px;
 }
-.brimm-blocks--inset-hero {
+.brimm-blocks--product-hero {
     max-height: 80vh;
     filter: saturate(1.3);
 }
