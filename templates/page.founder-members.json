@@ -398,7 +398,7 @@
         "mobile_text": "<h3>To kickstart BRiMM and support our Planet Fund, we’re offering a strictly limited  Founder Membership packages. </h3><p>Each package includes our Founder Membership perks. Along with unforgettable experiences. Connecting you to the people and ideas shaping the conscious consumer movement. </p>",
         "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
