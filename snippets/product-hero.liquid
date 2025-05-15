@@ -2,7 +2,7 @@
   <div class="page-width brimm-blocks--hero-content color-scheme-6" style="background-image: url({{ product.featured_image | image_url: width: 2000 }}); background-size: cover; background-position: center;">
     <div class="brimm-blocks--product-top">
         <h2 class="brimm-blocks--vendor-header">{{ product.vendor }}</h2>
-        <h2 class="brimm-blocks--heading-l brimm-blocks--split-text brimm-blocks--justified-header">{{ product.metafields.custom.image_with_text_header }}</h2>
+        <h2 class="brimm-blocks--heading-l">{{ product.metafields.custom.image_with_text_header }}</h2>
     </div>
     <div class="brimm-blocks--product-bottom">
         {% assign body_text = product.metafields.custom.image_with_text_body %}
