@@ -17,7 +17,7 @@
         "logo_position": "middle-left",
         "menu": "founder-members-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "none",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "",
