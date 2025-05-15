@@ -299,15 +299,16 @@
             "link": ""
           }
         },
-        "column_jTU94U": {
+        "column_HTzDiC": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/1f069cb946f207a5188ff079eba6f041.jpg",
             "image_is_icon": false,
-            "has_waitlist_cta": true,
-            "has_bg_color": true,
-            "title": "",
-            "text": "<h1>BECOME A FOUNDING MEMBER</h1><p>Join a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.<br/><br/>You'll get to shape BRiMM from the ground up. And every purchase with BRiMM is a vote on the future you want.<br/><br/>You'll also decide where we invest 10% of profits, helping your new favourite brands hit net zero - making our margin matter.<br/><br/>Limited spots available - claim yours now.</p>",
-            "image_label": "",
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Tiffanie Darke",
+            "text": "<p>With 12+ years bridging creativity and performance, Ahmet knows how to make digital sing. Formerly at Meta, he helped shape the ad solutions now powering campaigns for brands across the globe. He’s led global fashion launches, grown e-comm engines and explored the future with generative AI—his work has even popped up in <em>Vogue Business </em>and <em>Entrepreneur</em>.</p>",
+            "image_label": "Social & Digital Marketing Lead",
             "link_label": "",
             "link": ""
           }
@@ -321,7 +322,7 @@
         "column_FaJEyV",
         "column_4gnWxR",
         "column_h8Gm7G",
-        "column_jTU94U"
+        "column_HTzDiC"
       ],
       "settings": {
         "title": "WHO's BEHIND BRiMM?",
