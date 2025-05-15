@@ -472,30 +472,12 @@
             "page": ""
           }
         },
-        "collapsible_row_dcTrGm": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can non-members experience BRiMM?",
-            "icon": "check_mark",
-            "row_content": "<p>Yes with a capital Y. Anyone can shop our curated collection. Read our inspiring articles and, if there's space, join our events. Members just get extra perks—like store credit, cashback, exclusive content, and 10% of their spend going to our Planet Fund. But we don't believe in gatekeeping, just more good stuff for everyone.</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_4CwHdQ": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How does the planet fund work?",
             "icon": "check_mark",
             "row_content": "<p>Every time you shop or pay your membership, 10% of BRiMM’s revenue goes straight into our Planet Fund. This fund invests in clean energy and regenerative projects for the brands you love—like putting solar panels on their roofs or supporting new materials. You even get a say in where the money goes. In year one though to put our money where our mouth is, we're investing £250k ahead of having any revenue to kickstart this activity. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_EQYETU": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What does it mean that nature has equity in the business?",
-            "icon": "check_mark",
-            "row_content": "<p>We're making mother nature a shareholder and a director in our business so that her voice is heard in important company decisions. Beyond this our intent is that mother nature will benefit if the company grows in value which means that profits can be distributed to invest in nature protection and restoration.</p><p>We're working with Lawyers for Nature and Bates Wells to help us do this.</p><p>It's still a relatively new concept and we plan to share what we learn on the way.</p>",
             "page": ""
           }
         },
@@ -508,83 +490,21 @@
             "page": ""
           }
         },
-        "collapsible_row_9GrFtA": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does membership work beyond founder membership?",
-            "icon": "check_mark",
-            "row_content": "<p>After our limited founder spaces have gone, we'll offer three tiers, so you can pick your planet-positive pace ranging from £6/month or £60/year to £18/month or £180/year.</p><p><br/>Each tier unlocks more perks, impact, and access.</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_PkzjKt": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What does planet positive mean?",
+            "heading": "What does planet-positive mean?",
             "icon": "check_mark",
             "row_content": "<p>We use this word a lot. When we say it we mean a combination of optimism and positive impact. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3FgUGh": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does member credit work?",
-            "icon": "check_mark",
-            "row_content": "<p>Member credit is intended to help encourage you to switch to planet positive products to kick-start your journey to a lower impact life. Together with cashback we've designed it so that if you return regularly to our shop you'll more than pay back your membership.</p><p>On annual memberships, once you've paid we will credit your account with a number of gift cards which you can spend on our discovery and reset boxes. </p><p>On monthly memberships we credit your account each quarter at the end of your membership period. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_Dc388Y": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does cashback work?",
-            "icon": "check_mark",
-            "row_content": "<p>We offer 10% cashback to our members on all purchases they make, unless credit has been applied to the transaction.</p><p>This cashback is paid quarterly into your account and can be used to bring down the cost of future transactions.</p><p></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_U6B7ya": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are your reset boxes?",
-            "icon": "check_mark",
-            "row_content": "<p>We've curated a series of boxes to help you reset a part of your life. We've done this to help discovering planet positive brands easier to save you time and ease.</p><p>They're fixed selections today but if our members would value this we're looking to make them customisable in the near future. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_CqEdEw": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are you reset boxes a subscription?",
-            "icon": "check_mark",
-            "row_content": "<p>No, they're a one-off discovery box to help you discover some new brands. Because of the different selection of products we imagine they'll run out at different times so we didn't think it would make sense to make them a subscription.</p><p>We might create a subscription model in the future and would welcome any ideas you might have on this.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_9jwtnP": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do you work out the annual value of the membership?",
-            "icon": "check_mark",
-            "row_content": "<p>Membership costs from £6 or £60/yr. We say they're worth more than that though and here's how we calculate that.</p><p><strong>How it works with our middle tier @ £120/yr</strong></p><p>Based on an assumed spend of £600, this membership offers value of £200 per year.</p><p>This is calculated as £60 of content, £80 of credit and £60 cashback (10% of £600)</p><p>On top of this you will contribute £72 to our planet fund which we hope you agree is great value.</p><p><strong>How it works with our top tier @ £180/yr</strong></p><p>Based on an assumed spend of £800, this membership offers value of £300 per year.</p><p>This is calculated as £60 of content, £120 of credit and £80 cashback (10% of £800)</p><p>On top of this you will contribute £98 to our planet fund which we hope you agree is phenomenal value.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_UAjqnF",
-        "collapsible_row_dcTrGm",
         "collapsible_row_4CwHdQ",
-        "collapsible_row_EQYETU",
         "collapsible_row_zyntJQ",
-        "collapsible_row_9GrFtA",
-        "collapsible_row_PkzjKt",
-        "collapsible_row_3FgUGh",
-        "collapsible_row_Dc388Y",
-        "collapsible_row_U6B7ya",
-        "collapsible_row_CqEdEw",
-        "collapsible_row_9jwtnP"
+        "collapsible_row_PkzjKt"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
