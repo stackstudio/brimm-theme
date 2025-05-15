@@ -77,10 +77,8 @@
 /* desktop width upwards */
   @media screen and (min-width: 900px) {
     .header {
-        background: transparent;
-        width: 100%;
         gap: 1rem;
-        padding: 4rem 2.6rem 1rem 1.6rem;
+        padding: 1rem 2.6rem 1rem 1.6rem;
     }
   }
 
@@ -148,8 +146,7 @@
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
               <div class="header__heading-logo-wrapper">
-                <img class="mobile-logo" width="auto" height="auto" src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM-LOGO_000000.gif?v=1744298004" alt="Brimm Logo" class="header__heading-logo">
-                <img class="desktop-logo" width="auto" height="auto" src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRIMM_Static_Logo_Yellow_1_430x.svg?v=1747267406#" alt="Brimm Logo" class="header__heading-logo">
+                <img width="auto" height="auto" src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM-LOGO_000000.gif?v=1744298004" alt="Brimm Logo" class="header__heading-logo">
               </div>
           </a>
       {%- if request.page_type == 'index' -%}

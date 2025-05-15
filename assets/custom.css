@@ -49,10 +49,11 @@ h4.brimm-blocks--justified-header {
   font-size: clamp(1.5rem, 3vw, 50px);
 }
 
-.button {
+.button, .quick-add__submit {
     padding: .75em 1.5em;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 577;
+    letter-spacing: 0;
 }
 
 .brimm-blocks--hero {
@@ -131,12 +132,4 @@ h4.brimm-blocks--justified-header {
   height: 0;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
-}
-
-.mobile-logo {
-    display: none;
-}
-
-.header__menu-item {
-    color: #E3F994;
 }
