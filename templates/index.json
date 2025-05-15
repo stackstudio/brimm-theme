@@ -447,74 +447,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_APEfcB": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_ikDdR6": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Responsibly curated products and inspiring content",
-            "text": "<p>We do the curation and vetting, you get the best design-led products and Planet Positive content out there. </p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BrH7PN": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Purposeful impact with the Planet Fund",
-            "text": "<p>10% of our revenue goes to the Planet Fund. Helping fund carbon insetting initiatives like solar energy for our brands.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_eqwiVA": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Join an inspiring collective",
-            "text": "<p>Connect with climate optimists, future thinkers, and change makers. All building a brighter future with BRiMM. Together.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_ikDdR6",
-        "column_BrH7PN",
-        "column_eqwiVA"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "WHY SHOULD YOU JOIN?",
-        "no-gap": false,
-        "text_block": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_with_text_tWTg8h": {
       "type": "image-with-text",
       "blocks": {
@@ -564,74 +496,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "multicolumn_U6peM8": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_XFrJJp": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Join & introduce yourself",
-            "text": "<p>Add your email address and introduce yourself. It's nice to be on first name terms when you're changing how commerce works.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nLMarx": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Tell some friends",
-            "text": "<p>Change is better with friends. Help us scale the movement and grow our collective impact.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_LDEDMF": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": true,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Get notified",
-            "text": "<p>Every week we'll be inviting new founder members in. Pick your founder membership package.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_XFrJJp",
-        "column_nLMarx",
-        "column_LDEDMF"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "HOW DO I GET ON THE WAIT LIST?",
-        "no-gap": false,
-        "text_block": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "image_with_text_R7Xi3e": {
@@ -844,9 +708,7 @@
     "multicolumn_eUJkQC",
     "image_with_text_AY7XfF",
     "image_with_text_QX9ykt",
-    "multicolumn_APEfcB",
     "image_with_text_tWTg8h",
-    "multicolumn_U6peM8",
     "image_with_text_R7Xi3e",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
