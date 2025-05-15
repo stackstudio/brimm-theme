@@ -33,7 +33,8 @@
   line-height: 0.9;
 }
 
-h1.brimm-blocks--justified-header {
+h1.brimm-blocks--justified-header,
+.brumm-blocks--heading-l {
   font-size: clamp(4rem, 8vw, 140px);
 }
 

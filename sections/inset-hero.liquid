@@ -46,7 +46,7 @@
     <div class="brimm-blocks--product-top">
       {% for block in section.blocks %}
         {% if block.type == 'heading' %}
-          <h2 class="{% if section.settings.split_header %} brimm-blocks--split-text brimm-blocks--justified-header{% endif %}">{{ block.settings.heading_text }}</h2>
+          <h2 class="brimm-blocks--heading-l {% if section.settings.split_header %} brimm-blocks--split-text brimm-blocks--justified-header{% endif %}">{{ block.settings.heading_text }}</h2>
         {% endif %}
       {% endfor %}
     </div>
