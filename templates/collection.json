@@ -46,6 +46,32 @@
         "color_scheme": "scheme-2"
       }
     },
+    "inset_hero_ymdkMD": {
+      "type": "inset-hero",
+      "blocks": {
+        "heading_wckGz8": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "{{ collection.title }}"
+          }
+        },
+        "richtext_YAtcnG": {
+          "type": "richtext",
+          "settings": {
+            "copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wckGz8",
+        "richtext_YAtcnG"
+      ],
+      "name": "Inset Hero",
+      "settings": {
+        "image": "{{ collection.image }}",
+        "color_scheme": ""
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -70,6 +96,7 @@
   "order": [
     "wrapped_mega_image_Lcmfmw",
     "banner",
+    "inset_hero_ymdkMD",
     "product-grid"
   ]
 }
