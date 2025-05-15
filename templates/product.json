@@ -9,6 +9,33 @@
  */
 {
   "sections": {
+    "inset_hero_QCwy4i": {
+      "type": "inset-hero",
+      "blocks": {
+        "heading_r3CnNp": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "{{ product.title }}"
+          }
+        },
+        "richtext_fGWHw9": {
+          "type": "richtext",
+          "settings": {
+            "copy": "{{ product.description }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r3CnNp",
+        "richtext_fGWHw9"
+      ],
+      "name": "Inset Hero",
+      "settings": {
+        "image": "{{ product.featured_image }}",
+        "split_header": false,
+        "color_scheme": "scheme-7"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -148,6 +175,7 @@
         "no-gap": false,
         "text_block": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
         "heading_size": "h1",
+        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -182,6 +210,7 @@
     }
   },
   "order": [
+    "inset_hero_QCwy4i",
     "main",
     "multicolumn",
     "related-products"
