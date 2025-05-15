@@ -50,6 +50,10 @@
           "type": "title",
           "settings": {}
         },
+        "description_LRfyUQ": {
+          "type": "description",
+          "settings": {}
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -113,6 +117,7 @@
       "block_order": [
         "vendor",
         "title",
+        "description_LRfyUQ",
         "caption",
         "price",
         "variant_picker",
