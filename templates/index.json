@@ -92,7 +92,7 @@
           "type": "button",
           "settings": {
             "button_label": "Browse Reset Boxes",
-            "button_link": "shopify://products/look-good-smell-great-daily-essentials-bundle",
+            "button_link": "shopify://pages/reset-boxes",
             "button_style_secondary": false
           }
         }

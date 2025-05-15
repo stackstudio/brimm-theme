@@ -21,7 +21,7 @@
         "richtext_fGWHw9": {
           "type": "richtext",
           "settings": {
-            "copy": "{{ product.description }}"
+            "copy": "<p>{{ product.metafields.custom.image_with_text_body | metafield_tag }}</p>"
           }
         }
       },
@@ -141,6 +141,68 @@
         "padding_bottom": 12
       }
     },
+    "collapsible_content_YPerhV": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_34c9Tn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ block.settings.page.title }}",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_pEceXL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_8qpYRR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_wJg3Dk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_34c9Tn",
+        "collapsible_row_pEceXL",
+        "collapsible_row_8qpYRR",
+        "collapsible_row_wJg3Dk"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -217,6 +279,7 @@
   "order": [
     "inset_hero_QCwy4i",
     "main",
+    "collapsible_content_YPerhV",
     "multicolumn",
     "related-products"
   ]
