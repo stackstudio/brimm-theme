@@ -34,8 +34,12 @@
 }
 
 h1.brimm-blocks--justified-header,
-.brumm-blocks--heading-l {
+.brimm-blocks--heading-l {
   font-size: clamp(4rem, 8vw, 140px);
+}
+
+.brimm-blocks--heading-l {
+    text-transform: uppercase;
 }
 
 h2.brimm-blocks--justified-header {
