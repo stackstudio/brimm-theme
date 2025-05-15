@@ -202,7 +202,8 @@
       "name": "Inset Hero",
       "settings": {
         "image": "shopify://shop_images/unlicensed_stills_24127_kelsey-smith_1.png",
-        "split_header": false,
+        "split_header": true,
+        "is_product": false,
         "color_scheme": ""
       }
     },
