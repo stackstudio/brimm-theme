@@ -67,7 +67,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "video_embed": "",
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/hs53ar40rj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "has_background": true,
         "show_waitlist": true,
         "image_label": "",
@@ -76,7 +76,7 @@
         "mobile_text": "",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
