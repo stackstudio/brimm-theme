@@ -29,6 +29,7 @@
         "heading_AMxjwf",
         "top_paragraph_K873GN"
       ],
+      "disabled": true,
       "name": "Mega",
       "settings": {
         "image": "{{ collection.image }}",
@@ -58,7 +59,7 @@
         "richtext_YAtcnG": {
           "type": "richtext",
           "settings": {
-            "copy": ""
+            "copy": "{{ collection.description }}"
           }
         }
       },
@@ -68,7 +69,7 @@
       ],
       "name": "Inset Hero",
       "settings": {
-        "image": "{{ collection.image }}",
+        "image": "shopify://shop_images/Journal__Image1.jpg",
         "color_scheme": ""
       }
     },
