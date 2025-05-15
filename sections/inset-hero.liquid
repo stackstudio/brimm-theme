@@ -95,12 +95,30 @@
       "label": "Use Justified Header?"
     },
     {
+      "type": "checkbox",
+      "id": "is_product",
+      "default": false,
+      "label": "Is a PDP hero?"
+    },
+    {
         "type": "color_scheme",
         "label": "Color Scheme",
         "id": "color_scheme"
     }
   ],
   "blocks": [
+    {
+        "type": "intro_text",
+        "name": "Top Text",
+        "settings": [
+            {
+                "type": "richtext",
+                "id": "top_text",
+                "label": "Top Text",
+                "default": "<p>Default Text</p>"
+            }
+        ]
+    },
     {
       "type": "heading",
       "name": "Heading Block",
