@@ -100,7 +100,7 @@
         "text_MV9exf": {
           "type": "text",
           "settings": {
-            "text": "<h4>We’re flipping the script on sustainability. </h4><p>BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to show that you can live well and tread light - without compromise.</p><p>We’re rewriting the rules of how we buy and give back. Here, enough is everything. And every purchase powers positive change.</p>",
+            "text": "<h4>We’re flipping the script on sustainability. </h4><p>BRiMM is a shop, journal and collective, bringing together big ideas and bright brands to show that you can live well and tread light - without compromise.</p><p>We’re rewriting the rules of how we buy and give back. Here, enough is everything. And every purchase powers positive change.</p>",
             "text_style": "body"
           }
         }
@@ -327,7 +327,7 @@
       "settings": {
         "title": "WHO's BEHIND BRiMM?",
         "no-gap": true,
-        "text_block": "We’re a Collective of climate optimists. Designers, doers and dreamers who believe in the power of enough. We’re supported by high-profile founder members, trusted contributors and world-class investors. And a growing network of brands and partners who share our vision. BRiMM is built by us, powered by you and sustained by all of us.",
+        "text_block": "We’re a Collective of climate optimists who believe in the power of enough. We're supported by a growing network of high profile founder members, impactful brands, and world class investors who share our vision. BRiMM is built by us, powered by you and sustained by all of us.",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
