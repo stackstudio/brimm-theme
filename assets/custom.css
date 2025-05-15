@@ -132,3 +132,11 @@ h4.brimm-blocks--justified-header {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
+
+.mobile-logo {
+    display: none;
+}
+
+.header__menu-item {
+    color: #E3F994;
+}
