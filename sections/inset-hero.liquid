@@ -53,10 +53,10 @@
     <div class="brimm-blocks--product-bottom">
       {% for block in section.blocks %}
         {% case block.type %}
-            {% when 'text' %}
-                <p class="brimm-blocks--hero-para">
+            {% when 'richtext' %}
+                <div class="brimm-blocks--hero-para">
                     {{ block.settings.copy }}
-                </p>
+                </div>
 
             {% when 'cta_button' %}
                 {% if block.settings.label and block.settings.link %}
@@ -108,14 +108,14 @@
       ]
     },
     {
-      "type": "text",
+      "type": "richtext",
       "name": "Paragraph Block",
       "settings": [
         {
           "type": "text",
           "id": "copy",
           "label": "Paragraph Text",
-          "default": "Your text here…"
+          "default": "<p>Your text here…</p>"
         }
       ]
     },

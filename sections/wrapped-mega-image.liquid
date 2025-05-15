@@ -69,7 +69,9 @@
           <h1>{{ block.settings.heading_text }}</h1>
         {% endif %}
         {% if block.type == 'top_paragraph' %}
-          <p>{{ block.settings.top_copy }}</h2>
+          <div>
+            {{ block.settings.top_copy }}
+          </div>
         {% endif %}
       {% endfor %}
     </div>
