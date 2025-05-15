@@ -52,8 +52,8 @@
         "cta_button_hhrbzr": {
           "type": "cta_button",
           "settings": {
-            "label": "Claim your spot",
-            "link": "shopify://pages/member-sign-up-form",
+            "label": "Become a Member",
+            "link": "shopify://pages/founder-members",
             "style": "primary"
           }
         }
