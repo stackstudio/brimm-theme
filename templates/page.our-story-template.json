@@ -399,7 +399,7 @@
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
