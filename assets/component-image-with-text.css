@@ -1,11 +1,11 @@
 .image-with-text .grid {
   margin-bottom: 0;
-  padding: 7rem 0rem;
+  padding: 5rem 0rem 0;
 }
 
 @media screen and (min-width: 750px) {
   .image-with-text .grid {
-    padding: 7.5rem 0rem;
+    padding: 7.5rem 0 0;
   }
 }
 

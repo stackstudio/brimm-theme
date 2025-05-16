@@ -74,12 +74,12 @@
                 </p>
               {%- endif -%}
               {%- if block.settings.heading -%}
-                <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">
+                <h2 class="image-with-text__heading headline-extra-uppercase rte">
                   {{ block.settings.heading }}
                 </h2>
               {%- endif -%}
               {%- if block.settings.text -%}
-                <div class="image-with-text__text body-extra-20 rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
+                <div class="image-with-text__text body-medium rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
               {%- if block.settings.button_label != blank -%}
                 <a
