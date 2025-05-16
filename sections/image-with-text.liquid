@@ -82,6 +82,18 @@
         {%- endif -%}
         <div class='image-with-text__text-item grid__item'>
           <div id='ImageWithText--{{ section.id }}' class='image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}'>
+            {%- capture package_content_blocks -%}
+              {%- for block in section.blocks -%}
+                {%- if block.type == "member_package" -%}
+                  <div id="{{ block.id }}" class="tab-pane">
+                    <p class="price">{{ block.settings.member_package_price }}</p>
+                    <div class="content">
+                      {{ block.settings.member_package_text }}
+                    </div>
+                  </div>
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endcapture -%}
             {%- for block in section.blocks -%}
               {% case block.type %}
                 {%- when 'image' -%}
@@ -570,6 +582,37 @@
             "type": "checkbox",
             "label": "Show Member Packages",
             "default": false
+          }
+        ]
+      },
+      {
+        "type": "member_package",
+        "name": "Member Package",
+        "settings": [
+          {
+            "id": "member_package_image",
+            "type": "image_picker",
+            "label": "Package Image Select"
+          },
+          {
+            "id": "member_package_heading",
+            "type": "inline_richtext",
+            "label": "Package Heading"
+          },
+          {
+            "id": "member_package_text",
+            "type": "richtext",
+            "label": "Package Text"
+          },
+          {
+            "id": "member_package_price",
+            "type": "text",
+            "label": "Package Price"
+          },
+          {
+            "id": "member_package_button_label",
+            "type": "text",
+            "label": "Package Button Label"
           }
         ]
       },

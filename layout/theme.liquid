@@ -405,6 +405,11 @@ body {
   margin-top: 72px;
 }
 }
+form-widget[mode=popup] {
+@media screen and (max-width: 700px) {
+  margin-bottom: 4rem;
+}
+}
   {% endstyle %}
     {% comment %}swap the order of the stylesheets to have Tailwind classes take precedence over the base Dawn styles{% endcomment %}
     {{ 'app.css' | asset_url | stylesheet_tag }}

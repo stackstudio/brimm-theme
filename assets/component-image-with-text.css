@@ -1,6 +1,6 @@
 .image-with-text .grid {
   margin-bottom: 0;
-  padding: 5rem 0rem 0;
+  padding: 4rem 0rem 0;
 }
 
 @media screen and (min-width: 750px) {
@@ -433,6 +433,7 @@
   .collapse-padding .image-with-text__grid .image-with-text__content {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 2rem;
   }
 }
 
