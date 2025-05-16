@@ -358,34 +358,106 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_987eVD": {
+    "image_with_text_cUid3C": {
       "type": "image-with-text",
       "blocks": {
-        "heading_R6Ap88": {
+        "heading_WwG3Hi": {
           "type": "heading",
           "settings": {
             "heading": "BECOME A FOUNDER MEMBER",
             "heading_size": "h1"
           }
         },
-        "text_wW38UX": {
+        "text_nrwWwc": {
           "type": "text",
           "settings": {
             "text": "<h3>Get on the waitlist and get access to lifetime Planet Positive perks. Limited spots available.</h3>",
             "text_style": "body"
           }
         },
-        "member_packages_daxB6M": {
+        "member_packages_YURLa4": {
           "type": "member_packages",
           "settings": {
             "member_packages_block": true
           }
+        },
+        "member_package_fmmALh": {
+          "type": "member_package",
+          "settings": {
+            "index": 1,
+            "member_package_image": "shopify://shop_images/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg",
+            "member_package_heading": "Lifetime Founder Membership",
+            "member_package_text": "<p>You get all these benefits (worth about £300 a year) for LIFE. With a one off payment.</p><ul><li>£80 credit per year for Reset boxes to discover beautifully curated Planet Positive products</li><li>10% cashback on all purchases online</li><li>Inspiring member only content in our online lifestyle journal</li><li>Early access to member-only events, discounted services, limited products and more</li><li>10% of everything you spend invested in our Planet Fund</li><li>Voting rights where we invest the Planet Fund</li><li>Your name in lights (more like pixels) immortalised on our site - a permanent badge of honour for helping build something better</li></ul>",
+            "member_package_price": "£200",
+            "member_package_button_label": ""
+          }
+        },
+        "member_package_maqtF6": {
+          "type": "member_package",
+          "settings": {
+            "index": 0,
+            "member_package_image": "shopify://shop_images/Brimm25_march27_-_Boxes1140_copy_2.jpg",
+            "member_package_heading": "Discovery",
+            "member_package_text": "<p>Along with the Founder Member benefits, the Discovery package gets you a BRiMM Reset box of home, beauty or food products worth £100. For free.<br/><br/>Discover a selection of curated, premium products - with provenance. Imagine pioneering Planet Positive brands that smell and taste amazing.</p><ul><li>Lifetime Founder Membership benefits</li><li>Choose a reset box of curated Planet Positive products worth £100</li></ul>",
+            "member_package_price": "£225",
+            "member_package_button_label": ""
+          }
+        },
+        "member_package_DV7BtG": {
+          "type": "member_package",
+          "settings": {
+            "index": 0,
+            "member_package_image": "shopify://shop_images/Orsola_2021_28_portrait_jpg.jpg",
+            "member_package_heading": "Fashion Insider",
+            "member_package_text": "<p>Private hangout with Amy Powney, founder of Akyn. A British fashion designer widely recognized for her commitment to ethical fashion, focusing on transparency, sustainability, and social responsibility.<br/><br/>OR<br/><br/>A laid back \"Stitch and Bitch\", chatting about life while sewing session with activist Orsola de Castro, founder of Fashion Revolution.</p><ul><li>Lifetime Founder Membership benefits</li><li>Choose a reset box of curated Planet Positive products worth £100</li><li>Private hangout with Amy Powney, founder of Akyn</li></ul>",
+            "member_package_price": "£350",
+            "member_package_button_label": ""
+          }
+        },
+        "member_package_TGjxQc": {
+          "type": "member_package",
+          "settings": {
+            "index": 0,
+            "member_package_image": "shopify://shop_images/Guest-of-honour.jpg",
+            "member_package_heading": "Guest of Honour",
+            "member_package_text": "<p>Let's share a meal together at Apricity restaurant Mayfair, with Green Michelin-starred chef Chantelle Nicholson, one of our Founder Members. Expect dynamic and multifaceted cuisine (and conversation)</p><ul><li>Lifetime Founder Membership benefits</li><li>Choose a reset box of curated Planet Positive products worth £100</li><li>Dinner with BRiMM team at Green Michelin starred restaurant, Apricity</li></ul>",
+            "member_package_price": "£450",
+            "member_package_button_label": ""
+          }
+        },
+        "member_package_w6Xcqb": {
+          "type": "member_package",
+          "settings": {
+            "index": 0,
+            "member_package_image": "shopify://shop_images/The_wild_one.jpg",
+            "member_package_heading": "The Wild One",
+            "member_package_text": "<p>Many of our food brands are sourced from regenerative farms, BRiMM will hook you up with our friends at British Pasture Leather for a private tour of their regenerative farm. (Rave in a barn not included)</p><ul><li>Lifetime Founder Membership benefits</li><li>Choose a reset box of curated Planet Positive products worth £100</li><li>Private tour of regenerative farm</li></ul>",
+            "member_package_price": "£450",
+            "member_package_button_label": ""
+          }
+        },
+        "member_package_9EPKEw": {
+          "type": "member_package",
+          "settings": {
+            "index": 0,
+            "member_package_image": "shopify://shop_images/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg",
+            "member_package_heading": "Pay What You Want",
+            "member_package_text": "<p>BRiMM is inclusive. Not exclusive. So if you want the Founder Member package at a different price, just let us know! Maybe you want to send us a huge chunk of change to help kickstart the movement?! Maybe not.<br/><br/>Pay What You Want - we'd rather have you here than not.</p>",
+            "member_package_price": "£?",
+            "member_package_button_label": ""
+          }
         }
       },
       "block_order": [
-        "heading_R6Ap88",
-        "text_wW38UX",
-        "member_packages_daxB6M"
+        "heading_WwG3Hi",
+        "text_nrwWwc",
+        "member_packages_YURLa4",
+        "member_package_fmmALh",
+        "member_package_maqtF6",
+        "member_package_DV7BtG",
+        "member_package_TGjxQc",
+        "member_package_w6Xcqb",
+        "member_package_9EPKEw"
       ],
       "settings": {
         "image": "shopify://shop_images/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg",
@@ -394,11 +466,11 @@
         "show_waitlist": false,
         "image_label": "",
         "color_scheme": "",
-        "mobile_heading": "FOUNDER MEMBER PACKAGES - CHOOSE YOUR ADVENTURE",
-        "mobile_text": "<h3>To kickstart BRiMM and support our Planet Fund, we’re offering a strictly limited  Founder Membership packages. </h3><p>Each package includes our Founder Membership perks. Along with unforgettable experiences. Connecting you to the people and ideas shaping the conscious consumer movement. </p>",
+        "mobile_heading": "Become a founder member",
+        "mobile_text": "<h3>Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life.</h3>",
         "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -575,7 +647,7 @@
     "multicolumn_qHbHYd",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
-    "image_with_text_987eVD",
+    "image_with_text_cUid3C",
     "image_with_text_A8dx4k",
     "collapsible_content_HmpeVH",
     "image_with_text_4HfRc9"
