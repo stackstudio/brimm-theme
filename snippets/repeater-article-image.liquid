@@ -21,6 +21,11 @@
           alt="test" />
       </div>
     </div>
+    <div class="repeater-image__caption">
+      {%- if item.credit != blank -%}
+        <span class="repeater-image__caption-text body-medium-12">{{ item.credit }}</span>
+      {%- endif -%}
+    </div>
   {%- endif -%}
 </section>
 
@@ -37,6 +42,15 @@
   .image-section__wrapper {
     margin: 6rem 0 0;
     width: 100%;
+  }
+
+  .repeater-image__caption {
+    padding: 0 2rem;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    z-index: 100;
+    position: relative;
   }
 
   @media screen and (min-width: 750px) {
