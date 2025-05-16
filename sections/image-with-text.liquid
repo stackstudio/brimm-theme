@@ -82,10 +82,20 @@
         {%- endif -%}
         <div class='image-with-text__text-item grid__item'>
           <div id='ImageWithText--{{ section.id }}' class='image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}'>
+            {%- capture package_content_tabs -%}
+              {%- for block in section.blocks -%}
+                {%- if block.type == "member_package" -%}
+                  {{forloop.index}}
+                    <li class="tab {%- if block.settings.index == 1 -%}active{%- endif -%}" data-tab="{{ block.id }}" data-img-src="{{ block.settings.member_package_image | image_url }}">
+                    <button>{{ block.settings.member_package_heading }}</button>
+                    </li>
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endcapture -%}
             {%- capture package_content_blocks -%}
               {%- for block in section.blocks -%}
                 {%- if block.type == "member_package" -%}
-                  <div id="{{ block.id }}" class="tab-pane">
+                  <div id="{{ block.id }}" class="tab-pane {%- if block.settings.index == 1 -%}active{%- endif -%}">
                     <p class="price">{{ block.settings.member_package_price }}</p>
                     <div class="content">
                       {{ block.settings.member_package_text }}
@@ -124,121 +134,16 @@
                 {%- when 'member_packages' -%}
                   {% if block.settings.member_packages_block %}
                     <div class="member-packages-tabs">
-                      <ul class="tabs">
-                        <li
-                          class="tab active"
-                          data-tab="base-camp"
-                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg?v=1744828027">
-                          <button>Lifetime Founder Membership</button>
-                        </li>
-                        <li
-                          class="tab"
-                          data-tab="explorer"
-                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Free_reset_box.jpg?v=1744822881">
-                          <button>Discovery</button>
-                        </li>
-                        <li
-                          class="tab"
-                          data-tab="guest-of-honour"
-                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Orsola_2021_28_portrait_jpg.jpg?v=1747055198">
-                          <button>Fashion insider</button>
-                        </li>
-                        <li
-                          class="tab"
-                          data-tab="rambler"
-                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Guest-of-honour.jpg?v=1747055418">
-                          <button>Guest of honour</button>
-                        </li>
-                        <li
-                          class="tab"
-                          data-tab="peak-vibes"
-                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/The_wild_one.jpg?v=1747055198">
-                          <button>The Wild One</button>
-                        </li>
-                        <li
-                          class="tab"
-                          data-tab="pay-what-you-want"
-                          data-img-src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg?v=1744828027">
-                          <button>Pay What You Want</button>
-                        </li>
-                      </ul>
-                      <div class="tab-content">
-                        <div id="base-camp" class="tab-pane active">
-                          <p class="price">£200</p>
-                          <div class="content">
-                            <p>
-                              You get all these benefits  (worth about £300 a year) for LIFE. With a one off payment.
-
-                            </p>
-                            <ul>
-                              <li>£80 credit per year for Reset boxes to discover beautifully curated Planet Positive products</li>
-                              <li>10% cashback on all purchases online</li>
-                              <li>Inspiring member only content in our online lifestyle journal</li>
-                              <li>Early access to member-only events, discounted services, limited products and more</li>
-                              <li>10% of everything you spend invested in our Planet Fund</li>
-                              <li>Voting rights where we invest the Planet Fund</li>
-                              <li>Your name in lights (more like pixels) immortalised on our site - a permanent badge of honour for helping build something better</li>
-                            </ul>
-                          </div>
+                      {%- if package_content_tabs %}
+                        <ul class="tabs">
+                          {{ package_content_tabs }}
+                        </ul>
+                      {% endif %}
+                      {% if package_content_blocks %}
+                        <div class="tab-content">
+                          {{ package_content_blocks }}
                         </div>
-                        <div id="explorer" class="tab-pane">
-                          <p class="price">£225</p>
-                          <div class="content">
-                            <p>
-                              Along with the Founder Member benefits,  the Discovery package gets you a BRiMM Reset box of home, beauty or food products worth £100. For free.<br><br>Discover a selection of curated, premium products - with provenance. Imagine pioneering Planet Positive brands that smell and taste amazing.
-                            </p>
-                            <ul>
-                              <li>Lifetime Founder Membership benefits</li>
-                              <li>Choose a  reset box of curated Planet Positive products worth £100</li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id="guest-of-honour" class="tab-pane">
-                          <p class="price">£350</p>
-                          <div class="content">
-                            <p>Private hangout with Amy Powney, founder of Akyn. A British fashion designer widely recognized for her commitment to ethical fashion, focusing on transparency, sustainability, and social responsibility.
-                              <br><br>
-                              OR <br><br>A laid back "Stitch and Bitch", chatting about life while sewing session with activist Orsola de Castro, founder of Fashion Revolution.
-                            </p>
-                            <ul>
-                              <li>Lifetime Founder Membership benefits</li>
-                              <li>Choose a  reset box of curated Planet Positive products worth £100</li>
-                              <li>Private hangout with Amy Powney, founder of Akyn</li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id="rambler" class="tab-pane">
-                          <p class="price">£450</p>
-                          <div class="content">
-                            <p>Let's share a meal together at Apricity restaurant Mayfair, with Green Michelin-starred chef Chantelle Nicholson, one of our Founder Members.  Expect dynamic and multifaceted cuisine (and conversation)
-                            </p>
-                            <ul>
-                              <li>Lifetime Founder Membership benefits</li>
-                              <li>Choose a  reset box of curated Planet Positive products worth £100</li>
-                              <li>Dinner with BRiMM team at Green Michelin starred restaurant, Apricity</li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id="peak-vibes" class="tab-pane">
-                          <p class="price">£450</p>
-                          <div class="content">
-                            <p>Many of our food brands are  sourced from regenerative farms, BRiMM will hook you up with our friends at British Pasture Leather for a private tour of their regenerative farm. (Rave in a barn not included)</p>
-                            <ul>
-                              <li>Lifetime Founder Membership benefits</li>
-                              <li>Choose a reset box of curated Planet Positive products worth £100</li>
-                              <li>Private tour of regenerative farm</li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id="pay-what-you-want" class="tab-pane">
-                          <p class="price">£?</p>
-                          <div class="content">
-                            <p>BRiMM is inclusive. Not exclusive. So if you want the Founder Member package at a different price, just let us know! Maybe you want to send us a huge chunk of change to help kickstart the movement?! Maybe not.
-                              <br><br>Pay What You Want - we'd rather have you here than not.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
+                      {% endif %}
                     </div>
                     <form-widget mode='popup' ucid='eCMDZSQaOsJYHKhZH0qBa5GvTgw'></form-widget>
                   {% endif %}
@@ -589,6 +494,12 @@
         "type": "member_package",
         "name": "Member Package",
         "settings": [
+          {
+            "id": "index",
+            "type": "number",
+            "label": "Index",
+            "default": 1
+          },
           {
             "id": "member_package_image",
             "type": "image_picker",
