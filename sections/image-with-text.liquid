@@ -85,7 +85,7 @@
             {%- capture package_content_tabs -%}
               {%- for block in section.blocks -%}
                 {%- if block.type == "member_package" -%}
-                    <li class="tab {%- if block.settings.index == 1 -%}active{%- endif -%}" data-tab="{{ block.id }}" data-img-src="{{ block.settings.member_package_image | image_url }}">
+                    <li class="tab {% if block.settings.index == 1 %} active{% endif %}" data-tab="{{ block.id }}" data-img-src="{{ block.settings.member_package_image | image_url }}">
                     <button>{{ block.settings.member_package_heading }}</button>
                     </li>
                 {%- endif -%}
@@ -94,7 +94,7 @@
             {%- capture package_content_blocks -%}
               {%- for block in section.blocks -%}
                 {%- if block.type == "member_package" -%}
-                  <div id="{{ block.id }}" class="tab-pane {%- if block.settings.index == 1 -%}active{%- endif -%}">
+                  <div id="{{ block.id }}" class="tab-pane {% if block.settings.index == 1 %} active{% endif %}">
                     <p class="price">{{ block.settings.member_package_price }}</p>
                     <div class="content">
                       {{ block.settings.member_package_text }}
