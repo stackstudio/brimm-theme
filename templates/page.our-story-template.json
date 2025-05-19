@@ -32,7 +32,7 @@
       ],
       "name": "Justified Hero",
       "settings": {
-        "image": "shopify://shop_images/unlicensed_stills_240224_kelsey-smith_1.png",
+        "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01_87731b08-887c-489d-97b9-76c8976159f9.jpg",
         "color_scheme": "scheme-6"
       }
     },
@@ -48,13 +48,13 @@
         "top_paragraph_d7NYkz": {
           "type": "top_paragraph",
           "settings": {
-            "top_copy": "BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to show that you can live well and tread light - without compromise."
+            "top_copy": "<p>BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to show that you can live well and tread light - without compromise.</p>"
           }
         },
         "bottom_paragraph_iqPwGQ": {
           "type": "bottom_paragraph",
           "settings": {
-            "bottom_copy": "We’re rewriting the rules of how we buy and give back. Here, enough is everything. And every purchase powers positive change."
+            "bottom_copy": "<p>We’re rewriting the rules of how we buy and give back. Here, enough is everything. And every purchase powers positive change.</p>"
           }
         },
         "cta_button_rfjdXC": {
@@ -346,7 +346,7 @@
         "row_c3pXLf": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/mudjumpsuit.webp",
+            "image": "shopify://shop_images/unlicensed_stills_352537_lauren-jones_1.png",
             "caption": "",
             "heading": "STYLE AND SUBSTANCE",
             "text": "<p>Sustainability shouldn't mean sacrificing style. Or joy. We're here for the beauty in better choices.</p>",
@@ -357,7 +357,7 @@
         "row_E3rTne": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/KZPZ10160.jpg",
+            "image": "shopify://shop_images/unlicensed_stills_352518_tessa-burris_1.png",
             "caption": "",
             "heading": "OPTIMISM OVER OVERWHELM",
             "text": "<p>The climate crisis. Is. A. Lot. We've been down but now believe in up.</p><p>Big changes starts with small, purposeful steps. We celebrate progress not perfection. Let's make it easier, welcoming and joyful. </p>",
@@ -379,7 +379,7 @@
         "row_U9WqRj": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/KZHD10495.jpg",
+            "image": "shopify://shop_images/Copy_of_DTS_HI-TREK_Fanette_Guilloud_11223.jpg_1.jpg",
             "caption": "",
             "heading": "ACTION OVER APATHY",
             "text": "<p>Every purchase, every story, every member helps power real, measurable change. No greenwashing, no guilt trips - just brighter living for all.</p>",
@@ -645,93 +645,6 @@
         "padding_bottom": 0
       }
     },
-    "multicolumn_eayWBw": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_aXUMAi": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Rambler_package.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "",
-            "text": "<h4>We imagine a world where planet-positive living is the default.</h4>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nAbB9Y": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Rambler_package.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "",
-            "text": "<h4>Where brands don’t just reduce harm, but actively give back more than their take. <br/><br/>Where their actions create a ripple effect of change in their industries.</h4>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BXTbAx": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Rambler_package.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "",
-            "text": "<h4>Where millions of us are living lighter, brighter lives—and having a blast doing it.</h4>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_XtppYU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/KZSP10553.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "",
-            "text": "<h4>We’re not the whole solution, but we have the belief that together, we can go further, faster.</h4>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_aXUMAi",
-        "column_nAbB9Y",
-        "column_BXTbAx",
-        "column_XtppYU"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "OUR VISION FOR THE FUTURE",
-        "no-gap": true,
-        "text_block": "",
-        "heading_size": "hxxl",
-        "split_header": true,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "inset_hero_yEK8EF": {
       "type": "inset-hero",
       "blocks": {
@@ -739,12 +652,6 @@
           "type": "heading",
           "settings": {
             "heading_text": "BECOME A BRiMM FOUNDER MEMBER"
-          }
-        },
-        "text_F4XphH": {
-          "type": "text",
-          "settings": {
-            "copy": "Become a Founding Member. With lifetime Planet Positive perks - we really mean that. Pay once and you're in for life."
           }
         },
         "cta_button_eMxNiy": {
@@ -758,12 +665,13 @@
       },
       "block_order": [
         "heading_UiB8ar",
-        "text_F4XphH",
         "cta_button_eMxNiy"
       ],
       "name": "Inset Hero",
       "settings": {
-        "image": "shopify://shop_images/unlicensed_stills_24127_kelsey-smith_1.png",
+        "image": "shopify://shop_images/Copy_of_5185423_MED.jpg",
+        "split_header": false,
+        "is_product": false,
         "color_scheme": ""
       }
     }
@@ -781,7 +689,6 @@
     "image_with_text_wqdhPw",
     "image_with_text_MB8gr3",
     "image_with_text_Kftnmg",
-    "multicolumn_eayWBw",
     "inset_hero_yEK8EF"
   ]
 }
