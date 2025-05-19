@@ -611,7 +611,8 @@
   text-decoration: none;
   color: #000000;
   appearance: none;
-  border: 1px solid var(--color-brimm-beige);
+  border: 1px solid var(--color-black);
+  cursor: pointer;
 
   font-family: Manrope;
   font-size: 1.6rem;
@@ -622,17 +623,18 @@
 }
 
 .member-packages-tabs ul li button:hover {
-  background-color: var(--color-brimm-beige);
+  background-color: var(--color-black);
+  color: #e4f994;
 }
 
 .member-packages-tabs ul li.active button {
-  background-color: var(--color-brimm-beige);
-  color: #000000;
+  background-color: var(--color-black);
+  color: #e4f994;
 }
 
 .member-packages-tabs ul li.active button:hover {
-  background-color: var(--color-brimm-beige);
-  color: #000000;
+  background-color: var(--color-black);
+  color: #e4f994;
 }
 
 .member-packages-tabs ul li {

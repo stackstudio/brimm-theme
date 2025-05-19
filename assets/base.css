@@ -2977,13 +2977,13 @@ details[open] > .header__submenu {
 
   .header--middle-left .header__inline-menu {
     margin-left: 0;
-    width: 269px;
+    width: 249px;
   }
 }
 
 .header--middle-left .header__inline-menu {
   margin-left: 0;
-  width: 269px;
+  width: 249px;
 }
 
 .header__menu {
@@ -2991,9 +2991,9 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 1rem;
+  padding: 0.5rem;
   text-decoration: none;
-  color: #000000;
+  color: #e4f994;
   font-weight: 500;
 }
 
