@@ -358,30 +358,30 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_cUid3C": {
+    "image_with_text_VTxTqA": {
       "type": "image-with-text",
       "blocks": {
-        "heading_WwG3Hi": {
+        "heading_P6YwBm": {
           "type": "heading",
           "settings": {
             "heading": "BECOME A FOUNDER MEMBER",
             "heading_size": "h1"
           }
         },
-        "text_nrwWwc": {
+        "text_c7Rz8D": {
           "type": "text",
           "settings": {
             "text": "<h3>Get on the waitlist and get access to lifetime Planet Positive perks. Limited spots available.</h3>",
             "text_style": "body"
           }
         },
-        "member_packages_YURLa4": {
+        "member_packages_khrcDK": {
           "type": "member_packages",
           "settings": {
             "member_packages_block": true
           }
         },
-        "member_package_fmmALh": {
+        "member_package_XDVQwC": {
           "type": "member_package",
           "settings": {
             "index": 1,
@@ -392,7 +392,7 @@
             "member_package_button_label": ""
           }
         },
-        "member_package_maqtF6": {
+        "member_package_jMyrNU": {
           "type": "member_package",
           "settings": {
             "index": 0,
@@ -403,18 +403,18 @@
             "member_package_button_label": ""
           }
         },
-        "member_package_DV7BtG": {
+        "member_package_yriNp7": {
           "type": "member_package",
           "settings": {
             "index": 0,
             "member_package_image": "shopify://shop_images/Orsola_2021_28_portrait_jpg.jpg",
             "member_package_heading": "Fashion Insider",
-            "member_package_text": "<p>Private hangout with Amy Powney, founder of Akyn. A British fashion designer widely recognized for her commitment to ethical fashion, focusing on transparency, sustainability, and social responsibility.<br/><br/>OR<br/><br/>A laid back \"Stitch and Bitch\", chatting about life while sewing session with activist Orsola de Castro, founder of Fashion Revolution.</p><ul><li>Lifetime Founder Membership benefits</li><li>Choose a reset box of curated Planet Positive products worth £100</li><li>Private hangout with Amy Powney, founder of Akyn</li></ul>",
+            "member_package_text": "<p>Private hangout with Amy Powney, founder of AKYN. A British fashion designer widely recognised for her commitment to ethical fashion, focusing on transparency, sustainability, and social responsibility.<br/><br/>OR<br/><br/>A laid back \"Stitch and Bitch\", chatting about life while sewing session with activist Orsola de Castro, founder of Fashion Revolution.</p><ul><li>Lifetime Founder Membership benefits</li><li>Choose a reset box of curated Planet Positive products worth £100</li><li>Private hangout with Amy Powney or Orsola de Castro.</li></ul>",
             "member_package_price": "£350",
             "member_package_button_label": ""
           }
         },
-        "member_package_TGjxQc": {
+        "member_package_XPVGMX": {
           "type": "member_package",
           "settings": {
             "index": 0,
@@ -425,18 +425,18 @@
             "member_package_button_label": ""
           }
         },
-        "member_package_w6Xcqb": {
+        "member_package_WyTwda": {
           "type": "member_package",
           "settings": {
             "index": 0,
             "member_package_image": "shopify://shop_images/The_wild_one.jpg",
-            "member_package_heading": "The Wild One",
-            "member_package_text": "<p>Many of our food brands are sourced from regenerative farms, BRiMM will hook you up with our friends at British Pasture Leather for a private tour of their regenerative farm. (Rave in a barn not included)</p><ul><li>Lifetime Founder Membership benefits</li><li>Choose a reset box of curated Planet Positive products worth £100</li><li>Private tour of regenerative farm</li></ul>",
+            "member_package_heading": "Lay of the Land",
+            "member_package_text": "<p>Many of our food brands are sourced from regenerative farms, BRiMM will hook you up with our friends at British Pasture Leather for a private tour of their regenerative farm. </p><ul><li>Lifetime Founder Membership benefits</li><li>Choose a reset box of curated Planet Positive products worth £100</li><li>Private tour of regenerative farm</li></ul>",
             "member_package_price": "£450",
             "member_package_button_label": ""
           }
         },
-        "member_package_9EPKEw": {
+        "member_package_KDQU7B": {
           "type": "member_package",
           "settings": {
             "index": 0,
@@ -449,15 +449,15 @@
         }
       },
       "block_order": [
-        "heading_WwG3Hi",
-        "text_nrwWwc",
-        "member_packages_YURLa4",
-        "member_package_fmmALh",
-        "member_package_maqtF6",
-        "member_package_DV7BtG",
-        "member_package_TGjxQc",
-        "member_package_w6Xcqb",
-        "member_package_9EPKEw"
+        "heading_P6YwBm",
+        "text_c7Rz8D",
+        "member_packages_khrcDK",
+        "member_package_XDVQwC",
+        "member_package_jMyrNU",
+        "member_package_yriNp7",
+        "member_package_XPVGMX",
+        "member_package_WyTwda",
+        "member_package_KDQU7B"
       ],
       "settings": {
         "image": "shopify://shop_images/Image_c854bced-d156-45de-81eb-de39c895ad58.jpg",
@@ -647,7 +647,7 @@
     "multicolumn_qHbHYd",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
-    "image_with_text_cUid3C",
+    "image_with_text_VTxTqA",
     "image_with_text_A8dx4k",
     "collapsible_content_HmpeVH",
     "image_with_text_4HfRc9"
