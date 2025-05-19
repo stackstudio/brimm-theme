@@ -2991,10 +2991,10 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 0.5rem;
+  padding: 0.4rem;
   text-decoration: none;
   color: #e4f994;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .header__inline-menu ul li:first-child a {
