@@ -1,0 +1,48 @@
+{% schema %}
+{
+  "name": "Two-Column Collapse",
+  "max_blocks": 2,
+  "blocks": [
+    {
+      "type": "collapsible_content",
+      "name": "Collapsible",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Collapsible heading"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Collapsible content goes here.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two-Column Collapse",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.brimm-blocks--multicollapse {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+{% endstylesheet %}
+
+<div class="brimm-blocks--multicollapse">
+  {% for block in section.blocks %}
+    <div class="brimm-blocks--multicollapse__item">
+      {% render 'collapsible-content', block: block %}
+    </div>
+  {% endfor %}
+</div>
