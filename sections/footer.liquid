@@ -180,6 +180,17 @@
     {%- endunless -%}
   {%- endif -%}
 
+  <div class="brimm-blocks--custom-footer">
+    <div class="brimm-blocks--footer-main">
+        <div class="brimm-blocks--footer-logo">
+          <img width="auto" height="auto" src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM-LOGO_DAFC85.gif?v=17476622404" alt="Brimm Logo" class="header__heading-logo">
+        </div>
+    </div>
+    <div class="brimm-blocks--footer-links">
+        <div class="brimm-blocks--link-group">
+        </div>
+    </div>
+  </div>
   <div
     class='footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
     {% if settings.animations_reveal_on_scroll %}
@@ -254,7 +265,6 @@
         {%- render 'social-icons', class: 'footer__list-social' -%}
       </div>
     </div>
-    <img width='100%' height='auto' src='{{ 'brimm-logo.svg' | asset_url }}' alt='Brimm Logo' class='footer-logo'>
   </div>
 </footer>
 
