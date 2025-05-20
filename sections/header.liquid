@@ -30,6 +30,9 @@
 
   .menu-drawer-container {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   .list-menu {
@@ -71,14 +74,15 @@
 {%- style -%}
 .header {
     gap: 0.5rem;
-    background: #E6E6D1;
+    background: #000000;
+    backdrop-filter: blur(100px);
     padding: 1.6rem 1rem 1.6rem 2rem;
   }
 /* desktop width upwards */
   @media screen and (min-width: 900px) {
     .header {
-        gap: 1rem;
-        padding: 1rem 2.6rem 1rem 1.6rem;
+      gap: 1rem;
+      padding: 1rem 1.6rem 1rem 1.6rem;
     }
   }
 
@@ -129,7 +133,7 @@
       assign localization_forms = true
     endif
   -%}
-  <header class="header page-width header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} {% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if section.blocks.size > 0 %} header--has-announcements{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
+  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} {% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if section.blocks.size > 0 %} header--has-announcements{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
 
   {%- if section.blocks.size > 0 -%}
     {% render 'utility-bar', blocks: section.blocks %}
@@ -146,7 +150,7 @@
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
               <div class="header__heading-logo-wrapper">
-                <img width="auto" height="auto" src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM-LOGO_000000.gif?v=1744298004" alt="Brimm Logo" class="header__heading-logo">
+                <img width="auto" height="auto" src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM-LOGO_DAFC85.gif?v=17476622404" alt="Brimm Logo" class="header__heading-logo">
               </div>
           </a>
       {%- if request.page_type == 'index' -%}

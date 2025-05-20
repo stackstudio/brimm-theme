@@ -9,6 +9,16 @@
         "name": "list.mixed_reference",
         "category": "REFERENCE"
       }
+    },
+    {
+      "key": "hero_image_caption",
+      "namespace": "custom",
+      "name": "Hero Image caption",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "blog": [],
@@ -24,6 +34,46 @@
       "namespace": "custom",
       "name": "Member Benefits Image",
       "description": "Header image for member benefits page",
+      "type": {
+        "name": "file_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "package_price",
+      "namespace": "custom",
+      "name": "Package price",
+      "description": "",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "package_text",
+      "namespace": "custom",
+      "name": "Package text",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "package_title",
+      "namespace": "custom",
+      "name": "Package title",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "package_image",
+      "namespace": "custom",
+      "name": "Package image",
+      "description": "",
       "type": {
         "name": "file_reference",
         "category": "REFERENCE"
@@ -218,46 +268,6 @@
       "description": "Defines if a product is scented or not, e.g. floral, unscented",
       "type": {
         "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "queries",
-      "namespace": "shopify--discovery--product_search_boost",
-      "name": "Search product boosts",
-      "description": "List of search queries for which a product gets higher rank in search results",
-      "type": {
-        "name": "list.single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "related_products",
-      "namespace": "shopify--discovery--product_recommendation",
-      "name": "Related products",
-      "description": "List of related products",
-      "type": {
-        "name": "list.product_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "related_products_display",
-      "namespace": "shopify--discovery--product_recommendation",
-      "name": "Related products settings",
-      "description": "Determines how related products are displayed along with algorithmic product recommendations",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "complementary_products",
-      "namespace": "shopify--discovery--product_recommendation",
-      "name": "Complementary products",
-      "description": "List of complementary products",
-      "type": {
-        "name": "list.product_reference",
         "category": "REFERENCE"
       }
     },
