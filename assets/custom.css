@@ -212,7 +212,7 @@ h4.brimm-blocks--justified-header {
 
 .brimm-blocks--included-products-grid img {
     max-width: 100%;
-    aspect-ratio: 4 / 3; /* Change to 1 / 1 or 16 / 9 if needed */
+    aspect-ratio: 3 / 4; /* Change to 1 / 1 or 16 / 9 if needed */
       object-fit: cover;
       display: block;
 }
