@@ -198,3 +198,21 @@ h4.brimm-blocks--justified-header {
 .card__heading {
     text-transform: uppercase;
 }
+
+.product--content {
+    max-width: 100%;
+}
+
+.brimm-blocks--included-products-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: clamp(20px, 4vw, 88px);
+}
+
+.brimm-blocks--included-products-grid img {
+    max-width: 100%;
+    aspect-ratio: 4 / 3; /* Change to 1 / 1 or 16 / 9 if needed */
+      object-fit: cover;
+      display: block;
+}
