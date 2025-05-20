@@ -513,7 +513,7 @@
 }
 
 .brimm-blocks--large-para {
-    font-size: 2.2rem;
+    font-size: clamp(16px, 1.7vw, 23px);
     font-weight: 577;
     margin: 0;
 }
@@ -524,7 +524,7 @@
 }
 
 .brimm-blocks--footer-links a {
-    font-size: 2.1rem;
+    font-size: clamp(12px, 1.7vw, 23px);
     display: block;
     color: inherit;
     text-decoration: none;
