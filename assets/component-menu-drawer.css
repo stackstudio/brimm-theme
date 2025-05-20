@@ -38,7 +38,7 @@ menu-drawer > details[open] > summary::before {
   top: 100%;
   width: 100%;
   padding: 0;
-  background-color: var(--color-brimm-beige);
+  background-color: var(--color-black);
   overflow-x: hidden;
   filter: drop-shadow(
     var(--drawer-shadow-horizontal-offset) var(--drawer-shadow-vertical-offset)
@@ -108,9 +108,11 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__menu-item {
-  padding: 1.1rem 3rem;
+  padding: 1rem 2rem;
   text-decoration: none;
   font-size: 1.8rem;
+  font-weight: 500;
+  color: #e4f994;
 }
 
 .menu-drawer summary.menu-drawer__menu-item {
