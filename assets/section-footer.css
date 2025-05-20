@@ -230,7 +230,6 @@
     gap: 3rem;
   }
 
-  .footer__list-social.list-social,
   .footer__follow-on-shop,
   .footer-block__newsletter {
     display: flex;
@@ -490,8 +489,56 @@
 .policies li a {
   padding: 0.6rem 0;
   display: block;
-  color: black;
+  color: inherit;
   text-decoration: none;
+}
+
+.brimm-blocks--custom-footer {
+    padding-top: clamp(44px, 8rem, 120px);
+}
+
+.brimm-blocks--footer-main,
+.brimm-blocks--footer-secondary {
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+}
+
+.brimm-blocks--footer-secondary{
+    padding-top: clamp(44px, 8rem, 120px);
+    padding-bottom: clamp(44px, 8rem, 120px);
+}
+
+.brimm-blocks--footer-logo img {
+    max-width: clamp(120px, 12vw, 200px);
+}
+
+.brimm-blocks--large-para {
+    font-size: 2.2rem;
+    font-weight: 577;
+    margin: 0;
+}
+
+.brimm-blocks--footer-heading h2 {
+    margin: 0;
+    margin-bottom: .4em;
+}
+
+.brimm-blocks--footer-links a {
+    font-size: 2.1rem;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.brimm-blocks--footer-links {
+    display: grid;
+    gap: 44px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__copyright {
+   display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 @media screen and (min-width: 750px) {

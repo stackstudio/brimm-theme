@@ -185,10 +185,29 @@
         <div class="brimm-blocks--footer-logo">
           <img width="auto" height="auto" src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM-LOGO_DAFC85.gif?v=17476622404" alt="Brimm Logo" class="header__heading-logo">
         </div>
-
+        <div class="brimm-blocks--footer-heading">
+          <h2>Planet-positive change without sacrifice</h2>
+          <p class="brimm-blocks--large-para">
+            BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.
+        </div>
     </div>
-    <div class="brimm-blocks--footer-links">
-        <div class="brimm-blocks--link-group">
+    <div class="brimm-blocks--footer-secondary">
+        <div class="brimm-blocks--newsletter">
+          <p>Newsletter here</p>
+        </div>
+        <div class="brimm-blocks--footer-links">
+          <div class="brimm-blocks--link-group">
+            <a href="/our-story">Our story</a>
+            <a href="/founder-members">Founder members</a>
+          </div>
+          <div class="brimm-blocks--link-group">
+            <a href="/pages/reset-boxes">Reset boxes</a>
+            <a href="/founder-members">Curation</a>
+          </div>
+          <div class="brimm-blocks--link-group">
+            <a href="/pages/reset-boxes">Instagram</a>
+            <a href="/founder-members">TikTok</a>
+          </div>
         </div>
     </div>
   </div>
@@ -258,12 +277,6 @@
             {%- endfor -%}
           </ul>
         {%- endif -%}
-      </div>
-    </div>
-    <div class='footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}'>
-      {% comment %} social links below here {% endcomment %}
-      <div class='footer__list-social'>
-        {%- render 'social-icons', class: 'footer__list-social' -%}
       </div>
     </div>
   </div>
