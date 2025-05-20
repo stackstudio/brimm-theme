@@ -1,92 +1,120 @@
 {% schema %}
 {
-  "name": "Multi Collapse Columns",
+  "name": "Multi Collapsible Columns",
   "tag": "section",
-  "class": "brimm-blocks--multicollapse-columns",
-  "max_blocks": 2,
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Frequently Asked Questions"
+    }
+  ],
   "blocks": [
     {
-      "type": "column",
-      "name": "Column",
+      "type": "collapsible-column",
+      "name": "Collapsible Column",
       "settings": [
         {
           "type": "text",
-          "id": "column_title",
-          "label": "Column Title",
-          "default": "FAQs"
+          "id": "heading",
+          "label": "Column Heading",
+          "default": "FAQ Column"
         },
         {
-          "type": "inline_richtext",
-          "id": "item_1_heading",
-          "label": "Item 1 Heading",
-          "default": "What is your return policy?"
+          "type": "range",
+          "id": "item_count",
+          "label": "Number of items",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "default": 3
+        },
+        {% for i in (1..10) %}
+        {
+          "type": "text",
+          "id": "item_{{ i }}_heading",
+          "label": "Item {{ i }} Heading",
+          "default": "Item {{ i }} Heading"
         },
         {
-          "type": "richtext",
-          "id": "item_1_content",
-          "label": "Item 1 Content",
-          "default": "<p>We accept returns within 30 days.</p>"
-        },
-        {
-          "type": "inline_richtext",
-          "id": "item_2_heading",
-          "label": "Item 2 Heading",
-          "default": "How long does shipping take?"
-        },
-        {
-          "type": "richtext",
-          "id": "item_2_content",
-          "label": "Item 2 Content",
-          "default": "<p>Usually 3–5 business days.</p>"
-        },
-        {
-          "type": "inline_richtext",
-          "id": "item_3_heading",
-          "label": "Item 3 Heading",
-          "default": "Do you ship internationally?"
-        },
-        {
-          "type": "richtext",
-          "id": "item_3_content",
-          "label": "Item 3 Content",
-          "default": "<p>Yes, we do.</p>"
-        }
+          "type": "textarea",
+          "id": "item_{{ i }}_content",
+          "label": "Item {{ i }} Content",
+          "default": "Item {{ i }} Content"
+        }{% if i < 10 %},{% endif %}
+        {% endfor %}
       ]
     }
   ],
   "presets": [
     {
-      "name": "Two Column Collapsible",
+      "name": "Multi Collapsible Columns",
+      "category": "FAQs",
       "blocks": [
-        { "type": "column" },
-        { "type": "column" }
+        {
+          "type": "collapsible-column"
+        },
+        {
+          "type": "collapsible-column"
+        }
       ]
     }
   ]
 }
 {% endschema %}
 
-<div class="brimm-blocks--multicollapse-columns__wrapper">
-  <div class="brimm-blocks--multicollapse-columns__grid">
+{% stylesheet %}
+.brimm-blocks--multicollapse-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brimm-blocks--multicollapse-column-wrapper {
+  background-color: var(--color-background, #fff);
+  border: 1px solid var(--color-border, #ddd);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.brimm-blocks--multicollapse-column__heading {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.brimm-blocks--multicollapse-column__item {
+  margin-bottom: 1rem;
+}
+
+.brimm-blocks--multicollapse-column__item-heading {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+
+.brimm-blocks--multicollapse-column__item-content {
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+{% endstylesheet %}
+
+<div class="brimm-blocks--multicollapse-section">
+  {% if section.settings.section_heading != blank %}
+    <h2 class="brimm-blocks--multicollapse-section__heading">
+      {{ section.settings.section_heading }}
+    </h2>
+  {% endif %}
+
+  <div class="brimm-blocks--multicollapse-wrapper">
     {% for block in section.blocks %}
-      <div class="brimm-blocks--multicollapse-columns__column" {{ block.shopify_attributes }}>
-        <h2 class="brimm-blocks--multicollapse-columns__title">
-          {{ block.settings.column_title }}
-        </h2>
-        <div class="brimm-blocks--multicollapse-columns__items">
-          {% for i in (1..3) %}
-            {% assign heading = block.settings["item_" | append: i | append: "_heading"] %}
-            {% assign content = block.settings["item_" | append: i | append: "_content"] %}
-            {% if heading != blank %}
-              <details class="brimm-blocks--multicollapse-columns__item">
-                <summary>{{ heading }}</summary>
-                <div class="brimm-blocks--multicollapse-columns__content">
-                  {{ content }}
-                </div>
-              </details>
-            {% endif %}
-          {% endfor %}
-        </div>
+      <div class="brimm-blocks--multicollapse-column-wrapper">
+        {{ block | render }}
       </div>
     {% endfor %}
   </div>
