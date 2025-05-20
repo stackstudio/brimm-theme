@@ -467,7 +467,7 @@
 
 .copyright__text,
 .copyright__text a {
-  color: black;
+    color: inherit;
   text-decoration: none;
 }
 

@@ -671,6 +671,29 @@
           </a>
         </section>
       </div>
+      <div class="product--content">
+        <h1>What's in the box?</h2
+        {% if product.metafields.custom.included_products != blank %}
+          <div class="brimm-blocks--included-products-grid">
+            {% for related_product in product.metafields.custom.included_products.value %}
+              <div class="brimm-blocks--included-product">
+                {% if related_product.featured_image %}
+                  <div class="brimm-blocks--included-product-image">
+                    <img
+                      src="{{ related_product.featured_image | img_url: '400x' }}"
+                      alt="{{ related_product.title | escape }}"
+                      loading="lazy"
+                    >
+                  </div>
+                {% endif %}
+                <div class="brimm-blocks--included-product-title">
+                  {{ related_product.title }}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
     </div>
 
     {% render 'product-media-modal', variant_images: variant_images %}
