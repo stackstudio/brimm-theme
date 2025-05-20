@@ -200,6 +200,7 @@
   .footer__follow-on-shop {
     margin-bottom: 0.4rem;
   }
+
   /* Follow on shop is the first button but it has siblings*/
   .footer__follow-on-shop:first-child:not(:last-child) {
     justify-content: flex-start;
@@ -312,6 +313,7 @@
     opacity: 0;
     margin-top: -1rem;
   }
+
   100% {
     opacity: 1;
     margin-top: 0;
@@ -473,7 +475,7 @@
 
 .policies {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
 .policies li {
@@ -495,10 +497,16 @@
 }
 
 @media screen and (min-width: 750px) {
+  .policies {
+    display: flex;
+    align-items: center;
+  }
+
   .policies li a {
     padding: 0;
   }
 }
+
 @keyframes animateLocalization {
   0% {
     opacity: 0;
