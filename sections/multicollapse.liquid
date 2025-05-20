@@ -1,121 +1,69 @@
 {% schema %}
 {
-  "name": "Multi Collapsible Columns",
-  "tag": "section",
-  "max_blocks": 6,
+  "name": "Two Column Collapsible",
   "settings": [
     {
       "type": "text",
-      "id": "section_heading",
-      "label": "Section Heading",
-      "default": "Frequently Asked Questions"
+      "id": "first_column_heading",
+      "label": "First Column Heading",
+      "default": "Column 1"
+    },
+    {
+      "type": "text",
+      "id": "second_column_heading",
+      "label": "Second Column Heading",
+      "default": "Column 2"
     }
   ],
   "blocks": [
     {
-      "type": "collapsible-column",
-      "name": "Collapsible Column",
+      "type": "collapsible_item",
+      "name": "Collapsible Item",
       "settings": [
         {
           "type": "text",
           "id": "heading",
-          "label": "Column Heading",
-          "default": "FAQ Column"
+          "label": "Item Heading"
         },
         {
-          "type": "range",
-          "id": "item_count",
-          "label": "Number of items",
-          "min": 1,
-          "max": 10,
-          "step": 1,
-          "default": 3
-        },
-        {% for i in (1..10) %}
-        {
-          "type": "text",
-          "id": "item_{{ i }}_heading",
-          "label": "Item {{ i }} Heading",
-          "default": "Item {{ i }} Heading"
-        },
-        {
-          "type": "textarea",
-          "id": "item_{{ i }}_content",
-          "label": "Item {{ i }} Content",
-          "default": "Item {{ i }} Content"
-        }{% if i < 10 %},{% endif %}
-        {% endfor %}
+          "type": "richtext",
+          "id": "content",
+          "label": "Item Content"
+        }
       ]
     }
   ],
+  "max_blocks": 20,
   "presets": [
     {
-      "name": "Multi Collapsible Columns",
-      "category": "FAQs",
-      "blocks": [
-        {
-          "type": "collapsible-column"
-        },
-        {
-          "type": "collapsible-column"
-        }
-      ]
+      "name": "Two Column Collapsible"
     }
   ]
 }
 {% endschema %}
 
-{% stylesheet %}
-.brimm-blocks--multicollapse-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+<div class="brimm-blocks--two-column-collapsible">
 
-.brimm-blocks--multicollapse-column-wrapper {
-  background-color: var(--color-background, #fff);
-  border: 1px solid var(--color-border, #ddd);
-  border-radius: 6px;
-  padding: 1rem;
-}
-
-.brimm-blocks--multicollapse-column__heading {
-  margin-bottom: 1rem;
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-.brimm-blocks--multicollapse-column__item {
-  margin-bottom: 1rem;
-}
-
-.brimm-blocks--multicollapse-column__item-heading {
-  cursor: pointer;
-  font-weight: 600;
-  padding: 0.5rem 0;
-}
-
-.brimm-blocks--multicollapse-column__item-content {
-  padding-left: 1rem;
-  margin-top: 0.5rem;
-}
-{% endstylesheet %}
-
-<div class="brimm-blocks--multicollapse-section">
-  {% if section.settings.section_heading != blank %}
-    <h2 class="brimm-blocks--multicollapse-section__heading">
-      {{ section.settings.section_heading }}
-    </h2>
-  {% endif %}
-
-  <div class="brimm-blocks--multicollapse-wrapper">
-    {% for block in section.blocks %}
-      <div class="brimm-blocks--multicollapse-column-wrapper">
-        {{ block | render }}
+  <div class="brimm-blocks--column">
+    <h2>{{ section.settings.first_column_heading }}</h2>
+    {% assign half = section.blocks.size | divided_by: 2 | ceil %}
+    {% for block in section.blocks limit: half %}
+      <div class="brimm-blocks--collapsible-item">
+        <h3>{{ block.settings.heading }}</h3>
+        <div>{{ block.settings.content }}</div>
       </div>
     {% endfor %}
   </div>
+
+  <div class="brimm-blocks--column">
+    <h2>{{ section.settings.second_column_heading }}</h2>
+    {% assign half = section.blocks.size | divided_by: 2 | ceil %}
+    {% for block in section.blocks offset: half %}
+      <div class="brimm-blocks--collapsible-item">
+        <h3>{{ block.settings.heading }}</h3>
+        <div>{{ block.settings.content }}</div>
+      </div>
+    {% endfor %}
+  </div>
+
 </div>
