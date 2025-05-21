@@ -320,6 +320,96 @@
         "name": "boolean",
         "category": "TRUE_FALSE"
       }
+    },
+    {
+      "key": "hide_from_store",
+      "namespace": "custom",
+      "name": "hide-from-store",
+      "description": "",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
+    },
+    {
+      "key": "dispenser-type",
+      "namespace": "shopify",
+      "name": "Dispenser type",
+      "description": "Specifies the format for dispensing the product, typically in health and beauty; e.g. stick, jar",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "active-ingredient",
+      "namespace": "shopify",
+      "name": "Active ingredient",
+      "description": "Identifies primary substances in personal care items, e.g. vitamin A, retinol",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "moisturizer-type",
+      "namespace": "shopify",
+      "name": "Moisturizer type",
+      "description": "Identifies the usage time of the moisturizer, like all day or night care",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "toothpaste-type",
+      "namespace": "shopify",
+      "name": "Toothpaste type",
+      "description": "Defines the specific function of toothpaste, such as anti-decay or whitening",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "included_products",
+      "namespace": "custom",
+      "name": "Included Products",
+      "description": "",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "shampoo-type",
+      "namespace": "shopify",
+      "name": "Shampoo type",
+      "description": "Classifies shampoos based on their formulation, such as powder or 2-in-1",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "cosmetic-function",
+      "namespace": "shopify",
+      "name": "Cosmetic function",
+      "description": "Defines the intended benefit or effect of a cosmetic product, e.g. soothing, healing",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "skin-care-features",
+      "namespace": "shopify",
+      "name": "Skin care features",
+      "description": "Identifies the benefits of skin care items, such as long lasting or UVA/UVB protection",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
     }
   ],
   "variant": [

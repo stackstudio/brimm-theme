@@ -7,6 +7,21 @@
   display: block;
 }
 
+.brimm-blocks--newsletter .field__input {
+    color: inherit;
+    border: 1px solid currentColor;
+    margin-bottom: 2rem;
+}
+
+.brimm-blocks--newsletter .newsletter-form__button {
+    background: #E3F994;
+    color: black;
+}
+
+.brimm-blocks--newsletter .newsletter-form {
+    margin: 0;
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
