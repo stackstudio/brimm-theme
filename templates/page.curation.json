@@ -35,10 +35,46 @@
         "image": "shopify://shop_images/KZSP10419.jpg",
         "color_scheme": "scheme-6"
       }
+    },
+    "wrapped_mega_image_XFkj89": {
+      "type": "wrapped-mega-image",
+      "blocks": {
+        "heading_KF7Fji": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "THIS HEADING IS LIVING LIFE TO THE BRiMM"
+          }
+        },
+        "top_paragraph_WFXrGJ": {
+          "type": "top_paragraph",
+          "settings": {
+            "top_copy": "<p>Tell people in a couple of sentences why they should care about curation and vetting. It's important stuff.</p>"
+          }
+        },
+        "bottom_paragraph_QzYaMG": {
+          "type": "bottom_paragraph",
+          "settings": {
+            "bottom_copy": "<p>Seal the deal here if you want.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KF7Fji",
+        "top_paragraph_WFXrGJ",
+        "bottom_paragraph_QzYaMG"
+      ],
+      "name": "Mega",
+      "settings": {
+        "image": "shopify://shop_images/Journal__Image.jpg",
+        "video_embed": "",
+        "color_scheme": "",
+        "disable_bottom_padding": false
+      }
     }
   },
   "order": [
     "main",
-    "justified_hero_EBXFMb"
+    "justified_hero_EBXFMb",
+    "wrapped_mega_image_XFkj89"
   ]
 }
