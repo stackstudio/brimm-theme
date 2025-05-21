@@ -11,13 +11,34 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "justified_hero_EBXFMb": {
+      "type": "justified-hero",
+      "blocks": {
+        "heading_bhAwHy": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "THIS HEADING IS LIVING LIFE TO THE BRiMM"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bhAwHy"
+      ],
+      "name": "Justified Hero",
+      "settings": {
+        "image": "shopify://shop_images/KZSP10419.jpg",
+        "color_scheme": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "justified_hero_EBXFMb"
   ]
 }
