@@ -501,7 +501,8 @@ form-widget[mode=popup] {
       /* }); */
     </script>
 
-  {% include 'store-credit-launcher' %}
+  
+{% include 'store-credit-launcher' %}
 </head>
 
   <body class='gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}'>
@@ -596,6 +597,7 @@ form-widget[mode=popup] {
     {%- if settings.cart_type == 'drawer' -%}
       <script src='{{ 'cart-drawer.js' | asset_url }}' defer='defer'></script>
     {%- endif -%}
-  {% include 'store-credit-launcher' %}
+  
+{% include 'store-credit-launcher' %}
 </body>
 </html>
