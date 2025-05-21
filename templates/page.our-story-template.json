@@ -677,7 +677,7 @@
       "name": "Inset Hero",
       "settings": {
         "image": "shopify://shop_images/Copy_of_5185423_MED.jpg",
-        "split_header": false,
+        "split_header": true,
         "is_product": false,
         "color_scheme": "scheme-2"
       }
