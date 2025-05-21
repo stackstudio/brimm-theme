@@ -136,11 +136,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "5557296251606798448": {
-        "type": "shopify://apps/bold-subscriptions/blocks/bsub-embed/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
-        "disabled": false,
-        "settings": {}
-      },
       "17151115064775110295": {
         "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
         "disabled": false,
@@ -156,6 +151,11 @@
           "cards_background": "#FFFFFF",
           "cards_border_color": "rgba(0,0,0,0)"
         }
+      },
+      "5557296251606798448": {
+        "type": "shopify://apps/bold-subscriptions/blocks/bsub-embed/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+        "disabled": true,
+        "settings": {}
       }
     },
     "color_schemes": {
