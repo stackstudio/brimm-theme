@@ -15,7 +15,7 @@
       "type": "header",
       "settings": {
         "logo_position": "middle-left",
-        "menu": "founder-members-menu",
+        "menu": "new-ecomm-header",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "none",
         "show_line_separator": true,
