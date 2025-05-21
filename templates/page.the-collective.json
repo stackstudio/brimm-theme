@@ -35,10 +35,83 @@
         "image": "shopify://shop_images/unlicensed_stills_240224_kelsey-smith_1.png",
         "color_scheme": "scheme-6"
       }
+    },
+    "multicolumn_cbgHTz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Uyg3DC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/purposefulcommerce.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "A FEATURE OF THE COLLECTIVE",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wpp3zJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Frame_68.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "SOMETHING ELSE GREAT",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_x7BX34": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Frame_66.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "ANOTHER GREAT THING",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Uyg3DC",
+        "column_Wpp3zJ",
+        "column_x7BX34"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Nice folks doing nice things for the planet",
+        "no-gap": false,
+        "text_block": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+        "heading_size": "h1",
+        "split_header": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "justified_hero_Mrd9QU"
+    "justified_hero_Mrd9QU",
+    "multicolumn_cbgHTz"
   ]
 }
