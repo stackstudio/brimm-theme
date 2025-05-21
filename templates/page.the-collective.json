@@ -11,13 +11,34 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "justified_hero_Mrd9QU": {
+      "type": "justified-hero",
+      "blocks": {
+        "heading_eNfybe": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "JOIN THE BRiMM COLLECTIVE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eNfybe"
+      ],
+      "name": "Justified Hero",
+      "settings": {
+        "image": "shopify://shop_images/unlicensed_stills_240224_kelsey-smith_1.png",
+        "color_scheme": "scheme-6"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "justified_hero_Mrd9QU"
   ]
 }
