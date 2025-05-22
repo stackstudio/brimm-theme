@@ -179,6 +179,52 @@
         "padding_bottom": 36
       }
     },
+    "membership_columns_braipX": {
+      "type": "membership-columns",
+      "blocks": {
+        "column_R6RwRD": {
+          "type": "column",
+          "settings": {
+            "title": "Get Inspired",
+            "content": "<p>Our entry level tier. Some content here about why it's good.</p>",
+            "benefits": "<ul><li>Access to our Journal, written by leading voices in Planet Positivity</li><li>Member access to our events.</li></ul>",
+            "button_label": "Buy Membership",
+            "button_url": "shopify://products/the-middle-tier-yearly"
+          }
+        },
+        "column_Gprr7r": {
+          "type": "column",
+          "settings": {
+            "title": "Reset Your Life",
+            "content": "<p>Our mid level tier. Some content here about why it's good.</p>",
+            "benefits": "<ul><li>Access to our Journal, written by leading voices in Planet Positivity</li><li>Member access to our events.</li><li>£40 credit per year  for Reset boxes to discover beautifully curated Planet Positive products</li><li>10% cashback on all purchases in our shop</li><li>10% of everything you spend invested in our Planet Fund to help the brands you love further decarbonise</li></ul>",
+            "button_label": "Buy Membership",
+            "button_url": "shopify://products/the-middle-tier-monthly"
+          }
+        },
+        "column_EVDmaL": {
+          "type": "column",
+          "settings": {
+            "title": "Peak Planet Positivity",
+            "content": "<p>Our top tier. Some content here about why it's good.</p>",
+            "benefits": "<ul><li>Access to our Journal, written by leading voices in Planet Positivity</li><li>Member access to our events.</li><li><strong>£80 credit per year</strong> for Reset boxes to discover beautifully curated Planet Positive products</li><li>10% cashback on all purchases in our shop</li><li>10% of everything you spend invested in our Planet Fund to help the brands you love further decarbonise</li><li>Voting rights where we invest the Planet Fund</li></ul>",
+            "button_label": "Buy Membership",
+            "button_url": "shopify://products/the-love-tier"
+          }
+        }
+      },
+      "block_order": [
+        "column_R6RwRD",
+        "column_Gprr7r",
+        "column_EVDmaL"
+      ],
+      "name": "Membership Columns",
+      "settings": {
+        "heading": "Why join us?",
+        "subheading": "<p>Explore the benefits of membership</p>",
+        "columns": 3
+      }
+    },
     "image_with_text_GG3a9F": {
       "type": "image-with-text",
       "blocks": {
@@ -613,6 +659,7 @@
     "justified_hero_HkX8CR",
     "wrapped_mega_image_EpFg7j",
     "multicolumn_qHbHYd",
+    "membership_columns_braipX",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
     "image_with_text_A8dx4k",
