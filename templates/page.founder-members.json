@@ -63,73 +63,46 @@
         "disable_bottom_padding": true
       }
     },
-    "multicolumn_qHbHYd": {
+    "multicolumn_XGLUDx": {
       "type": "multicolumn",
       "blocks": {
-        "column_EQyzix": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_66.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "LIFETIME TOP TIER MEMBERSHIP",
-            "text": "<p>Get all of the benefits of our top tier membership level. For life. For a one-off fee. Worth £360 annually* No renewals, no fuss-just endless Planet Positive perks.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_eLWmrw": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_67.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "YOUR IMPACT, MULTIPLIED",
-            "text": "<p>100% of your founder fee goes straight into our Planet Fund, fueling clean energy and regenerative projects for the brands you love. You’ll vote on how it’s spent - think solar panels, supply chain innovation and more.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Dw4Bx8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_66.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "A COMMUNITY LIKE NO OTHER",
-            "text": "<p>We're building a crew of planet optimists, pioneering brands and creative changemakers. This is where the action (and inspiration) happens. </p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_pAyeTH": {
+        "column_HT43k6": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Frame_68.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "YOUR NAME IN LIGHTS (ISH)",
-            "text": "<p>Every founder gets their name immortalised on our site - a permanent badge of honour for helping build something better.</p>",
+            "title": "A GREAT BENEFIT",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_AC6Lcd": {
+        "column_eq649N": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Frame_67.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "",
-            "text": "",
+            "title": "ANOTHER BENEFIT",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LyFYah": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Frame_66.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "AND ANOTHER ONE",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -137,11 +110,9 @@
         }
       },
       "block_order": [
-        "column_EQyzix",
-        "column_eLWmrw",
-        "column_Dw4Bx8",
-        "column_pAyeTH",
-        "column_AC6Lcd"
+        "column_HT43k6",
+        "column_eq649N",
+        "column_LyFYah"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -150,17 +121,17 @@
         "text_block": "",
         "heading_size": "h1",
         "split_header": false,
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -646,7 +617,7 @@
     "main",
     "justified_hero_HkX8CR",
     "wrapped_mega_image_EpFg7j",
-    "multicolumn_qHbHYd",
+    "multicolumn_XGLUDx",
     "membership_columns_braipX",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
