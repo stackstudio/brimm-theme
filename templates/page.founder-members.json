@@ -187,7 +187,7 @@
           "settings": {
             "title": "Get Inspired",
             "content": "<p>Our entry level tier. Some content here about why it's good.</p>",
-            "benefits": "<ul><li>Access to our Journal, written by leading voices in Planet Positivity</li><li>Member access to our events.</li></ul>",
+            "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li></ul>",
             "button_label": "Buy Membership",
             "button_url": "shopify://products/the-middle-tier-yearly"
           }
@@ -197,7 +197,7 @@
           "settings": {
             "title": "Reset Your Life",
             "content": "<p>Our mid level tier. Some content here about why it's good.</p>",
-            "benefits": "<ul><li>Access to our Journal, written by leading voices in Planet Positivity</li><li>Member access to our events.</li><li>£40 credit per year  for Reset boxes to discover beautifully curated Planet Positive products</li><li>10% cashback on all purchases in our shop</li><li>10% of everything you spend invested in our Planet Fund to help the brands you love further decarbonise</li></ul>",
+            "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li><li><strong>£40 credit per year</strong> for Reset boxes to discover beautifully curated Planet Positive products</li><li><strong>10% cashback</strong> on all purchases in our shop</li><li><strong>10% of everything you spend</strong> invested in our Planet Fund to help the brands you love further decarbonise</li></ul>",
             "button_label": "Buy Membership",
             "button_url": "shopify://products/the-middle-tier-monthly"
           }
@@ -207,7 +207,7 @@
           "settings": {
             "title": "Peak Planet Positivity",
             "content": "<p>Our top tier. Some content here about why it's good.</p>",
-            "benefits": "<ul><li>Access to our Journal, written by leading voices in Planet Positivity</li><li>Member access to our events.</li><li><strong>£80 credit per year</strong> for Reset boxes to discover beautifully curated Planet Positive products</li><li>10% cashback on all purchases in our shop</li><li>10% of everything you spend invested in our Planet Fund to help the brands you love further decarbonise</li><li>Voting rights where we invest the Planet Fund</li></ul>",
+            "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li><li><strong>£80 credit per year</strong> for Reset boxes to discover beautifully curated Planet Positive products</li><li><strong>10% cashback</strong> on all purchases in our shop</li><li><strong>10% of everything you spend</strong> invested in our Planet Fund to help the brands you love further decarbonise</li><li>Voting rights where we invest the Planet Fund</li></ul>",
             "button_label": "Buy Membership",
             "button_url": "shopify://products/the-love-tier"
           }
