@@ -255,7 +255,6 @@ h4.brimm-blocks--justified-header {
 .brimm-blocks--membership-columns ul {
     margin-left: 0;
     padding-left: 0;
-    border-top: 1px solid #dadada;
 }
 
 .brimm-blocks--membership-columns .brimm-blocks--content {
@@ -267,9 +266,41 @@ h4.brimm-blocks--justified-header {
     list-style: none;
     border-bottom: 1px solid #dadada;
     padding: 1rem 0;
+    position: relative;
+    padding-left: 30px;
+}
+
+.brimm-blocks--membership-columns li:before {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0847/6891/5798/files/belong_430x.svg?v=1745844014#);
+    background-size: cover;
+    content: '';
+    display: block;
+    position: absolute;
+    left:0;
+    top: 14px;
+}
+
+.brimm-blocks--membership-columns li:last-child {
+    border-bottom: none;
 }
 
 .brimm-blocks--column {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #eaeaea;
-    padding: 1.4rem;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.brimm-blocks--column h3 {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+}
+
+.brimm-blocks--membership-columns .button {
+    background: black;
+    width: 100%;
+    align-self: baseline;;
 }
