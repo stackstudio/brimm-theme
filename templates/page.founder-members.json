@@ -122,20 +122,6 @@
             "link": ""
           }
         },
-        "column_9ied3Q": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/purposefulcommerce.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "THE USUAL PERKS",
-            "text": "<ul><li>£120 annual credit on discovery and reset boxes</li><li>10% cashback on everything you spend</li><li>10% of everything you spend invested in our planet fund</li><li>Member only content</li><li>Early access to member events, limited products and more</li><li>Voting rights on how we build</li></ul>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_AC6Lcd": {
           "type": "column",
           "settings": {
@@ -155,7 +141,6 @@
         "column_eLWmrw",
         "column_Dw4Bx8",
         "column_pAyeTH",
-        "column_9ied3Q",
         "column_AC6Lcd"
       ],
       "name": "t:sections.multicolumn.presets.name",
@@ -167,7 +152,7 @@
         "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "Button label",
