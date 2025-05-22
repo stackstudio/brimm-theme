@@ -85,15 +85,15 @@
         <div class="brimm-blocks--membership-columns grid-cols-{{ section.settings.columns }}">
             {% for block in section.blocks %}
                 <div class="brimm-blocks--column">
-                    {% if block.settings.column_image %}
-                        <img
-                            src="{{ block.settings.column_image | image_url: width: 800 }}"
-                            alt="{{ block.settings.column_image.alt | escape }}"
-                            class="brimm-blocks--column-image"
-                            loading="lazy"
-                        >
-                    {% endif %}
                     <div class="brimm-blocks--column-top">
+                        {% if block.settings.column_image %}
+                            <img
+                                src="{{ block.settings.column_image | image_url: width: 800 }}"
+                                alt="{{ block.settings.column_image.alt | escape }}"
+                                class="brimm-blocks--column-image"
+                                loading="lazy"
+                            >
+                        {% endif %}
                         <h3>{{ block.settings.title }}</h3>
                         <div class="brimm-blocks--benefits">
                             {{ block.settings.benefits }}
