@@ -121,7 +121,7 @@
         "text_block": "",
         "heading_size": "h1",
         "split_header": false,
-        "image_width": "half",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
@@ -141,7 +141,6 @@
         "column_R6RwRD": {
           "type": "column",
           "settings": {
-            "column_image": "shopify://shop_images/Frame_68.png",
             "title": "Get Inspired",
             "content": "<p>Our entry level tier. Some content here about why it's good.</p>",
             "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li></ul>",
@@ -152,7 +151,6 @@
         "column_Gprr7r": {
           "type": "column",
           "settings": {
-            "column_image": "shopify://shop_images/Frame_67.png",
             "title": "Reset Your Life",
             "content": "<p>Our mid level tier. Some content here about why it's good.</p>",
             "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li><li><strong>£40 credit per year</strong> for Reset boxes to discover beautifully curated Planet Positive products</li><li><strong>10% cashback</strong> on all purchases in our shop</li><li><strong>10% of everything you spend</strong> invested in our Planet Fund to help the brands you love further decarbonise</li></ul>",
@@ -163,7 +161,6 @@
         "column_EVDmaL": {
           "type": "column",
           "settings": {
-            "column_image": "shopify://shop_images/Frame_66.png",
             "title": "Peak Planet Positivity",
             "content": "<p>Our top tier. Some content here about why it's good.</p>",
             "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li><li><strong>£80 credit per year</strong> for Reset boxes to discover beautifully curated Planet Positive products</li><li><strong>10% cashback</strong> on all purchases in our shop</li><li><strong>10% of everything you spend</strong> invested in our Planet Fund to help the brands you love further decarbonise</li><li>Voting rights where we invest the Planet Fund</li></ul>",
