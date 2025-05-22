@@ -220,8 +220,8 @@
       ],
       "name": "Membership Columns",
       "settings": {
-        "heading": "Why join us?",
-        "subheading": "<p>Explore the benefits of membership</p>",
+        "heading": "EXPLORE THE BRIMM MEMBERSHIP TIERS",
+        "subheading": "<p>Some intro text that explains the membership tiers and tells the customer why they're awesome and fabulous. Few sentences maximum.</p>",
         "columns": 3
       }
     },
