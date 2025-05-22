@@ -183,13 +183,13 @@
         "heading_UiB8ar": {
           "type": "heading",
           "settings": {
-            "heading_text": "BECOME A BRiMM FOUNDER MEMBER"
+            "heading_text": "BECOME A BRiMM MEMBER"
           }
         },
         "richtext_TcVUai": {
           "type": "richtext",
           "settings": {
-            "copy": "<p>As a founder member you’re part of a collective that’s making a new way of living real - where every choice you make powers change and every member helps rewrite the rules.</p>"
+            "copy": "<p>As a member you’re part of a collective that’s making a new way of living real - where every choice you make powers change and every member helps rewrite the rules.</p>"
           }
         },
         "cta_button_eMxNiy": {
