@@ -230,3 +230,46 @@ h4.brimm-blocks--justified-header {
 .brimm-blocks--included-products-grid p {
     margin-top: .5rem;
 }
+
+.brimm-blocks--section-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+}
+
+.brimm-blocks--section-header h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.brimm-blocks--section-header p {
+    font-size: 2rem;
+}
+
+.brimm-blocks--membership-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+}
+
+.brimm-blocks--membership-columns ul {
+    margin-left: 0;
+    padding-left: 0;
+    border-top: 1px solid #dadada;
+}
+
+.brimm-blocks--membership-columns .brimm-blocks--content {
+    font-size: 1.4rem;
+    font-weight: 577;
+}
+
+.brimm-blocks--membership-columns li {
+    list-style: none;
+    border-bottom: 1px solid #dadada;
+    padding: 1rem 0;
+}
+
+.brimm-blocks--column {
+    border: 1px solid #eaeaea;
+    padding: 1.4rem;
+}

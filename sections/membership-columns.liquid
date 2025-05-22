@@ -71,27 +71,29 @@
 }
 {% endschema %}
 
-<div class="brimm-blocks--membership-columns">
-  <div class="brimm-blocks--section-header">
-    <h2>{{ section.settings.heading }}</h2>
-    <div class="rte">{{ section.settings.subheading }}</div>
-  </div>
-  <div class="brimm-blocks--columns grid-cols-{{ section.settings.columns }}">
-    {% for block in section.blocks %}
-        <div class="brimm-blocks--column">
-        <h3>{{ block.settings.title }}</h3>
-        <div class="brimm-blocks--content">
-            {{ block.settings.content }}
+<div class="brimm-blocks--membership">
+    <div class="page-width">
+        <div class="brimm-blocks--section-header">
+            <h2>{{ section.settings.heading }}</h2>
+            <div class="rte">{{ section.settings.subheading }}</div>
         </div>
-        <div class="brimm-blocks--benefits">
-            {{ block.settings.benefits }}
+        <div class="brimm-blocks--membership-columns grid-cols-{{ section.settings.columns }}">
+            {% for block in section.blocks %}
+                <div class="brimm-blocks--column">
+                <h3>{{ block.settings.title }}</h3>
+                <div class="brimm-blocks--content">
+                    {{ block.settings.content }}
+                </div>
+                <div class="brimm-blocks--benefits">
+                    {{ block.settings.benefits }}
+                </div>
+                {% if block.settings.button_label %}
+                    <a href="{{ block.settings.button_url }}" class="button">
+                    {{ block.settings.button_label }}
+                    </a>
+                {% endif %}
+                </div>
+            {% endfor %}
         </div>
-        {% if block.settings.button_text %}
-            <a href="{{ block.settings.button_url }}" class="button">
-            {{ block.settings.button_text }}
-            </a>
-        {% endif %}
-        </div>
-    {% endfor %}
-  </div>
+    </div>
 </div>
