@@ -231,6 +231,10 @@ h4.brimm-blocks--justified-header {
     margin-top: .5rem;
 }
 
+.brimm-blocks--membership-columns .brimm-blocks--column-top {
+    text-align: center;
+}
+
 .brimm-blocks--section-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -250,6 +254,7 @@ h4.brimm-blocks--justified-header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4rem;
+    padding-bottom: 10vh;
 }
 
 .brimm-blocks--membership-columns ul {
@@ -268,6 +273,7 @@ h4.brimm-blocks--justified-header {
     padding: 1rem 0;
     position: relative;
     padding-left: 30px;
+    text-align: left;
 }
 
 .brimm-blocks--membership-columns li:before {
@@ -289,9 +295,10 @@ h4.brimm-blocks--justified-header {
 .brimm-blocks--column {
     display: flex;
     flex-direction: column;
-    border: 1px solid #eaeaea;
-    padding: 2rem;
+    padding: 3rem;
     justify-content: space-between;
+    background: #F5F5F4;
+    border-radius: 9px;
 }
 
 .brimm-blocks--column h3 {
