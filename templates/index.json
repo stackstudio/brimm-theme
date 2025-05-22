@@ -103,7 +103,7 @@
         "button_aGiLdD"
       ],
       "settings": {
-        "image": "shopify://shop_images/Free_reset_box.jpg",
+        "image": "shopify://shop_images/CleaningBox.jpg",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
@@ -111,7 +111,7 @@
         "color_scheme": "",
         "mobile_heading": "",
         "mobile_text": "",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -164,7 +164,7 @@
         "color_scheme": "",
         "mobile_heading": "",
         "mobile_text": "",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
