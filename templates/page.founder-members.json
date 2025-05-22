@@ -36,48 +36,31 @@
         "color_scheme": "scheme-6"
       }
     },
-    "image_with_text_YpgqAN": {
-      "type": "image-with-text",
+    "wrapped_mega_image_EpFg7j": {
+      "type": "wrapped-mega-image",
       "blocks": {
-        "heading_Ygz8L3": {
+        "heading_XAGJkm": {
           "type": "heading",
           "settings": {
-            "heading": "Be one of the first to join a limited club with lifetime benefits",
-            "heading_size": "h1"
+            "heading_text": "BRIMM MEMBERSHIP IS GOOD AND FABULOUS"
           }
         },
-        "text_R8XDWX": {
-          "type": "text",
+        "top_paragraph_UbFDA3": {
+          "type": "top_paragraph",
           "settings": {
-            "text": "<p>As a founder member you’re part of a collective that’s making a new way of living real - where every choice you make powers change and every member helps rewrite the rules. You’re not just early - you’re essential: a co-creator, a community-builder and the spark behind the movement</p><p></p><h4>Ready to live bright, tread light and lead the charge?</h4>",
-            "text_style": "body"
+            "top_copy": "<p>Introduce membership and tell people why it's a fabulous idea. A couple of sentences max just to get the point across.</p>"
           }
         }
       },
       "block_order": [
-        "heading_Ygz8L3",
-        "text_R8XDWX"
+        "heading_XAGJkm",
+        "top_paragraph_UbFDA3"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Mega",
       "settings": {
         "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "scheme-7",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "brimm-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": "scheme-1",
+        "disable_bottom_padding": true
       }
     },
     "multicolumn_qHbHYd": {
@@ -177,7 +160,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "WHY BECOME A FOUNDER MEMBER?",
+        "title": "",
         "no-gap": false,
         "text_block": "",
         "heading_size": "h1",
@@ -382,57 +365,6 @@
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_XhCmWW": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_89CfR4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Founder packages - choose your adventure",
-            "heading_size": "h1"
-          }
-        },
-        "text_tXmU8m": {
-          "type": "text",
-          "settings": {
-            "text": "<p>To kickstart BRiMM and support our Planet Fund, we’re offering a limited run of exclusive Founder Packages. Each one is designed to help you live brighter and tread lighter, while giving you unforgettable access to the people and ideas shaping the future.</p><p>All memberships include these Planet Postive Perks:</p><ul><li>£120 annual credit on discovery and reset boxes</li><li>10% cashback on everything you spend</li><li>10% of everything you spend invested in our planet fund</li><li>Member only content</li><li>Early access to member events, limited products and more</li><li>Voting rights on how we build</li></ul>",
-            "text_style": "body"
-          }
-        },
-        "member_packages_L9wMf6": {
-          "type": "member_packages",
-          "settings": {
-            "member_packages_block": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_89CfR4",
-        "text_tXmU8m",
-        "member_packages_L9wMf6"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Image_331dd0e1-7a54-46d1-8736-2dee9f17e74e.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -679,11 +611,10 @@
   "order": [
     "main",
     "justified_hero_HkX8CR",
-    "image_with_text_YpgqAN",
+    "wrapped_mega_image_EpFg7j",
     "multicolumn_qHbHYd",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
-    "image_with_text_XhCmWW",
     "image_with_text_A8dx4k",
     "collapsible_content_HmpeVH",
     "image_with_text_4HfRc9"
