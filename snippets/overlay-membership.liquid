@@ -1,4 +1,4 @@
-{% if blog.handle == 'journal' %}
+{% if blog.handle == 'journal' and request.page_type == 'article' %}
 
   <style>
     .restricted-overlay {
