@@ -1,0 +1,97 @@
+{% if blog.handle == 'journal' %}
+
+  <style>
+    .restricted-overlay {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+      height: 60vh;
+      background: var(--color-brimm-beige);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .restricted-overlay .button {
+      display: block;
+      padding: 1rem 2rem;
+      background-color: #000;
+      text-decoration: none;
+      color: #e4f994;
+      -webkit-appearance: none;
+      appearance: none;
+      font-family: Manrope;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      letter-spacing: -0.28px;
+    }
+    .restricted-overlay h2 {
+      margin-bottom: 1rem;
+    }
+    .restricted-overlay p {
+      margin-bottom: 1.5rem;
+    }
+    .restricted-overlay__ctas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+    .restricted-overlay__ctas a {
+      text-decoration: none;
+    }
+    body.no-scroll {
+      overflow: hidden;
+      height: 100vh;
+    }
+  </style>
+
+  {% if customer %}
+    {% assign has_membership_tag = false %}
+    {% for tag in customer.tags %}
+      {% if tag == 'get_inspired_tier' or tag == 'reset_your_life_tier' or tag == 'invest_in_the_future_we_need_tier' %}
+        {% assign has_membership_tag = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% unless has_membership_tag %}
+      <script>
+              document.addEventListener("DOMContentLoaded", function () {
+        document.body.classList.add("no-scroll");
+              });
+      </script>
+      <div class="restricted-overlay">
+        <p>You’re logged in but don’t have a membership yet.</p>
+        <div class="restricted-overlay__ctas">
+          <a class="button" href="/pages/membership">
+            Upgrade Membership
+          </a>
+        </div>
+      </div>
+    {% endunless %}
+
+  {% else %}
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.body.classList.add("no-scroll");
+      });
+    </script>
+    <div class="restricted-overlay">
+      <p>Please log in or sign up to access journal content.</p>
+      <div class="restricted-overlay__ctas">
+        <a class="button" href="/account/login">
+          Log In
+        </a>
+        <a class="button" href="/account/register">
+          Sign Up
+        </a>
+      </div>
+    </div>
+  {% endif %}
+
+{% endif %}
