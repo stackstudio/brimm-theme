@@ -1,0 +1,17 @@
+{%- if item.brand != blank -%}
+  {% if item.vendors %}
+    <div class="pdp-accreditations">
+      <h2>{{ item.brand }}</h2>
+      <p>{{ item.description }}</p>
+      <div class="vendor-logos">
+        {% for vendor in item.vendors %}
+          <img
+            src="{{ vendor.image | image_url: width: 200 }}"
+            alt="{{ vendor.name }}"
+            width="200"
+            height="200">
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{%- endif -%}
