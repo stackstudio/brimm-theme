@@ -20,6 +20,7 @@
 
 {%- if accreditations.value -%}
   <div class="dynamic-content-wrapper page-width">
+    <h1 class="section-title">Accreditations</h1>
     {% for component in accreditations.value %}
       {% if component.system.type == "brand_accreditations" %}
         {% render 'pdp-accreditations' with component as item
