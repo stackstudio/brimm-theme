@@ -51,7 +51,7 @@
       "name": "Mega",
       "settings": {
         "video_embed": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "disable_bottom_padding": true
       }
     },
@@ -71,7 +71,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
