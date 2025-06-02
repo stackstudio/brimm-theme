@@ -14,8 +14,9 @@
 }
 
 .brimm-blocks--newsletter .newsletter-form__button {
-    background: #E3F994;
-    color: black;
+    background: black;
+    color: white;
+    margin-bottom: 2rem;
 }
 
 .brimm-blocks--newsletter .newsletter-form {

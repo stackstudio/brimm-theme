@@ -19,6 +19,16 @@
         "name": "single_line_text_field",
         "category": "TEXT"
       }
+    },
+    {
+      "key": "author",
+      "namespace": "custom",
+      "name": "Author",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "blog": [],
@@ -409,6 +419,66 @@
       "type": {
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "cleaning-surfaces",
+      "namespace": "shopify",
+      "name": "Cleaning surfaces",
+      "description": "Identifies the suitable surfaces for a cleaning product, such as glass surfaces or stovetops",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "ingredients",
+      "namespace": "shopify",
+      "name": "Ingredients",
+      "description": "Specifies the components used in a product's formulation, e.g. zinc oxide, aloe vera",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "dry-wet-cleaning",
+      "namespace": "shopify",
+      "name": "Dry/Wet cleaning",
+      "description": "Specifies if products are suitable for dry or wet cleaning",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "brush-material",
+      "namespace": "shopify",
+      "name": "Brush material",
+      "description": "Specifies the type of material used in brush construction, such as silicone or plastic",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "accreditations",
+      "namespace": "custom",
+      "name": "Accreditations",
+      "description": "",
+      "type": {
+        "name": "list.mixed_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "why_this_brings_us_joy",
+      "namespace": "custom",
+      "name": "Why this brings us joy",
+      "description": "Why this product brings us joy text area",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
       }
     }
   ],
