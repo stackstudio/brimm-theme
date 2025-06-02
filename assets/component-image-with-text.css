@@ -225,16 +225,6 @@
     margin-left: auto;
   }
 
-  .image-with-text__content--bottom {
-    justify-content: flex-end;
-    align-self: flex-end;
-  }
-
-  .image-with-text__content--top {
-    justify-content: flex-start;
-    align-self: flex-start;
-  }
-
   .image-with-text__content--desktop-right > * {
     align-self: flex-end;
     text-align: right;
@@ -712,9 +702,10 @@
 .image-with-text__content {
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     padding-bottom: 0;
 }
+
 
 .image-with-text:has(.image-with-text__accordians) .image-with-text__content {
     display: block;
@@ -724,12 +715,17 @@
     margin-top: 0;
 }
 
+.image-with-text__content__top {
+    margin-bottom: 4rem;
+}
+
 .image-with-text__button-wrapper .button {
-    width: 100%;
+    width: auto;
+    display: inline-block;
     text-align: center;
     font-size: 1.5rem;
-    padding: 1.8rem 2rem;
-    margin-top: 1.5rem;
+    padding: 1.8rem 7rem;
+    margin-top: 4rem;
 }
 
 .image-with-text__media {
