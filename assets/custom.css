@@ -46,7 +46,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: clamp(3rem, 6rem, 60px);
-  border-radius: 48px;
+  border-radius: 16px;
 }
 .brimm-blocks--product-hero {
     max-height: 80vh;
