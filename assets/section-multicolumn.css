@@ -183,8 +183,8 @@ ul li.multicolumn-list__item.has-bg--color:last-child {
 
   .grid--4-col-desktop .multicolumn-list__item {
     padding-bottom: 9.4rem;
-    width: 25%;
-    max-width: 25%;
+    width: calc(25% - var(--grid-desktop-horizontal-spacing));
+    max-width: calc(25% - var(--grid-desktop-horizontal-spacing));
   }
 
   .background-none .grid--2-col-tablet .multicolumn-list__item {
