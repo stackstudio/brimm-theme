@@ -36,33 +36,6 @@
         "color_scheme": "scheme-6"
       }
     },
-    "wrapped_mega_image_EpFg7j": {
-      "type": "wrapped-mega-image",
-      "blocks": {
-        "heading_XAGJkm": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "BRIMM MEMBERSHIP IS GOOD AND FABULOUS"
-          }
-        },
-        "top_paragraph_UbFDA3": {
-          "type": "top_paragraph",
-          "settings": {
-            "top_copy": "<p>Introduce membership and tell people why it's a fabulous idea. A couple of sentences max just to get the point across.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_XAGJkm",
-        "top_paragraph_UbFDA3"
-      ],
-      "name": "Mega",
-      "settings": {
-        "video_embed": "",
-        "color_scheme": "scheme-1",
-        "disable_bottom_padding": true
-      }
-    },
     "multicolumn_XGLUDx": {
       "type": "multicolumn",
       "blocks": {
@@ -119,7 +92,7 @@
         "title": "OUR MEMBERSHIP OFFERS YOU",
         "no-gap": false,
         "text_block": "",
-        "heading_size": "h0",
+        "heading_size": "hxl",
         "split_header": true,
         "image_width": "full",
         "image_ratio": "adapt",
@@ -796,7 +769,6 @@
   "order": [
     "main",
     "justified_hero_HkX8CR",
-    "wrapped_mega_image_EpFg7j",
     "multicolumn_XGLUDx",
     "wrapped_mega_image_LbEWxD",
     "multicolumn_7QbhyP",
