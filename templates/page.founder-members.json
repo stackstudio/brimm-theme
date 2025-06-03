@@ -73,11 +73,11 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "A GREAT BENEFIT",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "SHOP BENEFITS",
+            "text": "<p>Credit to help support your switch to PP products. Cashback to reward you for sticking with them.</p>",
             "image_label": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Find out more",
+            "link": "#"
           }
         },
         "column_eq649N": {
@@ -87,11 +87,11 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "ANOTHER BENEFIT",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "EVENT BENEFITS",
+            "text": "<p>Connection with like-minded people. Access to intimate supper clubs, screenings and panel events.</p>",
             "image_label": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Find out more",
+            "link": "#"
           }
         },
         "column_LyFYah": {
@@ -101,11 +101,11 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "AND ANOTHER ONE",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "CONTENT BENEFITS",
+            "text": "<p>Member-only content from established writers each and every week.</p>",
             "image_label": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Find out more",
+            "link": "#"
           }
         }
       },
@@ -133,6 +133,35 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "wrapped_mega_image_LbEWxD": {
+      "type": "wrapped-mega-image",
+      "blocks": {
+        "bottom_paragraph_eXEmWW": {
+          "type": "bottom_paragraph",
+          "settings": {
+            "bottom_copy": "<p><strong>And something special - your membership enables us to invest 10% in initiatives that lower the impact of the brands you shop from.</strong></p>"
+          }
+        },
+        "cta_button_wgrR7F": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Choose a package",
+            "link": "#",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "bottom_paragraph_eXEmWW",
+        "cta_button_wgrR7F"
+      ],
+      "name": "Mega",
+      "settings": {
+        "video_embed": "",
+        "color_scheme": "",
+        "disable_bottom_padding": true
       }
     },
     "membership_columns_braipX": {
@@ -564,6 +593,7 @@
     "justified_hero_HkX8CR",
     "wrapped_mega_image_EpFg7j",
     "multicolumn_XGLUDx",
+    "wrapped_mega_image_LbEWxD",
     "membership_columns_braipX",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
