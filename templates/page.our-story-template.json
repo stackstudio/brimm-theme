@@ -167,12 +167,26 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_A4KPh7": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_qzDjWz",
         "column_hRaUey",
-        "column_8ADtcz"
+        "column_8ADtcz",
+        "column_A4KPh7"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -183,7 +197,7 @@
         "split_header": true,
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
