@@ -116,11 +116,11 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "",
+        "title": "OUR MEMBERSHIP OFFERS YOU",
         "no-gap": false,
         "text_block": "",
-        "heading_size": "h1",
-        "split_header": false,
+        "heading_size": "h0",
+        "split_header": true,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -160,54 +160,259 @@
       "name": "Mega",
       "settings": {
         "video_embed": "",
-        "color_scheme": "",
-        "disable_bottom_padding": true
+        "color_scheme": "scheme-2",
+        "disable_bottom_padding": false
       }
     },
-    "membership_columns_braipX": {
-      "type": "membership-columns",
+    "multicolumn_7QbhyP": {
+      "type": "multicolumn",
       "blocks": {
-        "column_R6RwRD": {
+        "column_NfnfLx": {
           "type": "column",
           "settings": {
-            "title": "Get Inspired",
-            "content": "<p>Our entry level tier. Some content here about why it's good.</p>",
-            "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li></ul>",
-            "button_label": "Buy Membership",
-            "button_url": "shopify://products/the-middle-tier-yearly"
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Store Credit",
+            "text": "<p>Ranging from <strong>£40 - £80 to spend on our reset boxes</strong><br/>Making it easy to switch to new PP</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
           }
         },
-        "column_Gprr7r": {
+        "column_HF4KCJ": {
           "type": "column",
           "settings": {
-            "title": "Reset Your Life",
-            "content": "<p>Our mid level tier. Some content here about why it's good.</p>",
-            "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li><li><strong>£40 credit per year</strong> for Reset boxes to discover beautifully curated Planet Positive products</li><li><strong>10% cashback</strong> on all purchases in our shop</li><li><strong>10% of everything you spend</strong> invested in our Planet Fund to help the brands you love further decarbonise</li></ul>",
-            "button_label": "Buy Membership",
-            "button_url": "shopify://products/the-middle-tier-monthly"
-          }
-        },
-        "column_EVDmaL": {
-          "type": "column",
-          "settings": {
-            "title": "Peak Planet Positivity",
-            "content": "<p>Our top tier. Some content here about why it's good.</p>",
-            "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li><li><strong>£80 credit per year</strong> for Reset boxes to discover beautifully curated Planet Positive products</li><li><strong>10% cashback</strong> on all purchases in our shop</li><li><strong>10% of everything you spend</strong> invested in our Planet Fund to help the brands you love further decarbonise</li><li>Voting rights where we invest the Planet Fund</li></ul>",
-            "button_label": "Buy Membership",
-            "button_url": "shopify://products/the-love-tier"
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Cashback",
+            "text": "<p><strong>10% on all purchases</strong><br/>Making it easy to stick with your new brands</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "column_R6RwRD",
-        "column_Gprr7r",
-        "column_EVDmaL"
+        "column_NfnfLx",
+        "column_HF4KCJ"
       ],
-      "name": "Membership Columns",
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "heading": "EXPLORE THE BRIMM MEMBERSHIP TIERS",
-        "subheading": "<p>Some intro text that explains the membership tiers and tells the customer why they're awesome and fabulous. Few sentences maximum.</p>",
-        "columns": 3
+        "title": "SHOP BENEFITS",
+        "no-gap": false,
+        "text_block": "We’re live in three categories with top, vetted brands—and more are joining weekly.",
+        "heading_size": "h1",
+        "split_header": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "wrapped_mega_image_JcxHdJ": {
+      "type": "wrapped-mega-image",
+      "blocks": {
+        "bottom_paragraph_pUT3DT": {
+          "type": "bottom_paragraph",
+          "settings": {
+            "bottom_copy": "<p><strong>Membership pays for itself if you switch to BRiMM.</strong></p>"
+          }
+        },
+        "cta_button_xQUwrH": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Choose a package",
+            "link": "#",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "bottom_paragraph_pUT3DT",
+        "cta_button_xQUwrH"
+      ],
+      "name": "Mega",
+      "settings": {
+        "video_embed": "",
+        "color_scheme": "scheme-2",
+        "disable_bottom_padding": false
+      }
+    },
+    "multicolumn_P4qdnG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VpJcHB": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "INTIMATE SUPPER CLUBS",
+            "text": "<p>Ranging from <strong>£40 - £80 to spend on our reset boxes</strong><br/>Making it easy to switch to new PP</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wxiEUy": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "FILM SCREENINGS",
+            "text": "<p><strong>10% on all purchases</strong><br/>Making it easy to stick with your new brands</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Yq4g6A": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "FIELD TRIPS",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VpJcHB",
+        "column_wxiEUy",
+        "column_Yq4g6A"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "EVENT BENEFITS",
+        "no-gap": false,
+        "text_block": "Connect with climate optimists, planet enthusiasts and fellow humans. Members get early and free or discounted access.",
+        "heading_size": "h1",
+        "split_header": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "See upcoming events",
+        "button_link": "#",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "wrapped_mega_image_3m9MaH": {
+      "type": "wrapped-mega-image",
+      "blocks": {
+        "bottom_paragraph_Ed9BkN": {
+          "type": "bottom_paragraph",
+          "settings": {
+            "bottom_copy": "<p><strong>Membership pays for itself if you switch to BRiMM.</strong></p>"
+          }
+        },
+        "cta_button_wER6Qa": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Choose a package",
+            "link": "#",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "bottom_paragraph_Ed9BkN",
+        "cta_button_wER6Qa"
+      ],
+      "name": "Mega",
+      "settings": {
+        "video_embed": "",
+        "color_scheme": "scheme-2",
+        "disable_bottom_padding": false
+      }
+    },
+    "multicolumn_ip98FQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RMTzyE": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "INTIMATE SUPPER CLUBS",
+            "text": "<p>Ranging from <strong>£40 - £80 to spend on our reset boxes</strong><br/>Making it easy to switch to new PP</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_99pWaG": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "FILM SCREENINGS",
+            "text": "<p><strong>10% on all purchases</strong><br/>Making it easy to stick with your new brands</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DWGKk6": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "FIELD TRIPS",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RMTzyE",
+        "column_99pWaG",
+        "column_DWGKk6"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "CONTENT BENEFITS",
+        "no-gap": false,
+        "text_block": "Amazing contributors. Bright Ideas. One member-only article per week.",
+        "heading_size": "h1",
+        "split_header": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "See upcoming events",
+        "button_link": "#",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_GG3a9F": {
@@ -594,7 +799,11 @@
     "wrapped_mega_image_EpFg7j",
     "multicolumn_XGLUDx",
     "wrapped_mega_image_LbEWxD",
-    "membership_columns_braipX",
+    "multicolumn_7QbhyP",
+    "wrapped_mega_image_JcxHdJ",
+    "multicolumn_P4qdnG",
+    "wrapped_mega_image_3m9MaH",
+    "multicolumn_ip98FQ",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
     "collapsible_content_HmpeVH",
