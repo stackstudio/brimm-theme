@@ -61,6 +61,9 @@
         "text_YAKmFf",
         "buttons_B4hUhq"
       ],
+      "custom_css": [
+        "div.banner__content {justify-content: center !important;}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/16_9.jpg",
