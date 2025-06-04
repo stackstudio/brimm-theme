@@ -62,7 +62,9 @@
         "buttons_B4hUhq"
       ],
       "custom_css": [
-        "div.banner__content {justify-content: center !important;}"
+        "div.banner__content {justify-content: center !important;}",
+        ".banner__box {display: flex !important; align-content: center !important; text-align: center !important;}",
+        ".banner__text,.banner__buttons {align-self: center;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
