@@ -220,7 +220,7 @@
         "video_embed": "",
         "color_scheme": "scheme-2",
         "disable_bottom_padding": false,
-        "disable_top_padding": false
+        "disable_top_padding": true
       }
     },
     "multicolumn_P4qdnG": {
@@ -319,7 +319,7 @@
         "video_embed": "",
         "color_scheme": "scheme-2",
         "disable_bottom_padding": false,
-        "disable_top_padding": false
+        "disable_top_padding": true
       }
     },
     "multicolumn_ip98FQ": {
