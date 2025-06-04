@@ -9,7 +9,7 @@
     .brimm-blocks--mega.no-bottom {
         padding-bottom: 0;
     }
-    .brimm-blocks--mega.no-top .brimm-blocks--mega-grid {
+    .brimm-blocks--mega.no-top .brimm-blocks--mega-top {
         padding-top: 0;
     }
     .brimm-blocks--mega .button {
@@ -64,7 +64,7 @@
     }
 {% endstyle %}
 
-<section class="brimm-blocks--mega color-{{ section.settings.color_scheme }}{% if section.settings.disable_bottom_padding %} no-bottom{% endif %}{% if section.settings.top %} no-top{% endif %}" id="{{ section.id }}">
+<section class="brimm-blocks--mega color-{{ section.settings.color_scheme }}{% if section.settings.disable_bottom_padding %} no-bottom{% endif %}{% if section.settings.disable_top_padding %} no-top{% endif %}" id="{{ section.id }}">
   <div class="page-width brimm-blocks--mega-content">
     <div class="brimm-blocks--mega-top brimm-blocks--mega-grid">
       {% for block in section.blocks %}
