@@ -76,22 +76,11 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "custom_liquid_CFfcGr": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<iframe src=\"https://swonie.substack.com/embed\" width=\"100%\" height=\"320\" style=\"border:1px solid #EEE; background:white;\" frameborder=\"0\" scrolling=\"no\"></iframe>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "image_banner_MbVpnM",
-    "rich_text_BHLXeQ",
-    "custom_liquid_CFfcGr"
+    "rich_text_BHLXeQ"
   ]
 }
