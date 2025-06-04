@@ -114,6 +114,11 @@
         "padding_bottom": 12
       }
     },
+    "accreditations_block_icQUPp": {
+      "type": "accreditations-block",
+      "name": "Accreditations",
+      "settings": {}
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -190,6 +195,7 @@
   },
   "order": [
     "main",
+    "accreditations_block_icQUPp",
     "multicolumn",
     "related-products"
   ]
