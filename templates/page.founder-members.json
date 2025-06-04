@@ -134,7 +134,8 @@
       "settings": {
         "video_embed": "",
         "color_scheme": "scheme-2",
-        "disable_bottom_padding": false
+        "disable_bottom_padding": false,
+        "disable_top_padding": true
       }
     },
     "multicolumn_7QbhyP": {
@@ -218,7 +219,8 @@
       "settings": {
         "video_embed": "",
         "color_scheme": "scheme-2",
-        "disable_bottom_padding": false
+        "disable_bottom_padding": false,
+        "disable_top_padding": false
       }
     },
     "multicolumn_P4qdnG": {
@@ -316,7 +318,8 @@
       "settings": {
         "video_embed": "",
         "color_scheme": "scheme-2",
-        "disable_bottom_padding": false
+        "disable_bottom_padding": false,
+        "disable_top_padding": false
       }
     },
     "multicolumn_ip98FQ": {
