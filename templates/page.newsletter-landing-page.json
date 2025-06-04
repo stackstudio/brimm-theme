@@ -99,7 +99,7 @@
         "heading_N6RGtn"
       ],
       "custom_css": [
-        "div > div > div > div > h2.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in.scroll-trigger--design-mode {font-weight: 500;}"
+        "div > div > div > div > h2.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in.scroll-trigger--design-mode {font-weight: 500 !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
