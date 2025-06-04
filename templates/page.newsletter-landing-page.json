@@ -108,7 +108,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 40
       }
     },
     "multicolumn_n4DgPf": {
@@ -117,8 +117,9 @@
         "column_NfddMW": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-1.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -126,8 +127,9 @@
         "column_z4HPJ3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -135,8 +137,9 @@
         "column_xndHWz": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-3.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -148,7 +151,7 @@
         "column_xndHWz"
       ],
       "custom_css": [
-        "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title {justify-content: center;}",
+        "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title {justify-content: center; padding-bottom: 10px !important;}",
         "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title > h2 {font-weight: 600;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
@@ -159,12 +162,12 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
