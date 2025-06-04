@@ -82,32 +82,24 @@
         "heading_yFdigj": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Welcome to BRiMM’s feel-good newsletter for low-impact intel, conscious culture and collective joy",
+            "heading_size": "h2"
+          }
+        },
+        "heading_N6RGtn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Brimm’s newsletter? - How’s Brimm’s newsletter different?",
             "heading_size": "h1"
-          }
-        },
-        "text_kGCtEw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_6GACh3": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_yFdigj",
-        "text_kGCtEw",
-        "button_6GACh3"
+        "heading_N6RGtn"
+      ],
+      "custom_css": [
+        "div > div > div > div > h2.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in.scroll-trigger--design-mode {font-weight: 500;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -118,12 +110,71 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_n4DgPf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NfddMW": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z4HPJ3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xndHWz": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NfddMW",
+        "column_z4HPJ3",
+        "column_xndHWz"
+      ],
+      "custom_css": [
+        "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title {justify-content: center;}",
+        "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title > h2 {font-weight: 600;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "DISCOVER PREVIOUS NEWSLETTERS",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_YKcGgn",
     "image_banner_MbVpnM",
-    "rich_text_BHLXeQ"
+    "rich_text_BHLXeQ",
+    "multicolumn_n4DgPf"
   ]
 }
