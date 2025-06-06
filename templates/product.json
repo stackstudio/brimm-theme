@@ -32,7 +32,7 @@
           "settings": {
             "heading": "What's in the box",
             "icon": "none",
-            "content": "{{ block.settings.page.metafields.custom.why_we_love_it | metafield_tag }}",
+            "content": "{{ block.settings.page.metafields.custom.product_details | metafield_tag }}",
             "page": ""
           }
         },
@@ -41,7 +41,7 @@
           "settings": {
             "heading": "How did we curate it?",
             "icon": "none",
-            "content": "{{ block.settings.page.metafields.custom.product_details | metafield_tag }}",
+            "content": "{{ block.settings.page.metafields.custom.why_we_love_it | metafield_tag }}",
             "page": ""
           }
         },
