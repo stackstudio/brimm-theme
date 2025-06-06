@@ -199,7 +199,7 @@
         "text_QjRbUV"
       ],
       "custom_css": [
-        "h2 {color: #EB492B !important;}"
+        "h2 {color: #eb492b !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -289,6 +289,9 @@
         "heading_XwgDqL",
         "paragraph_6HmcQX",
         "email_form_hqfLc3"
+      ],
+      "custom_css": [
+        "p {font-size: 24px; line-height: 3.8rem;}"
       ],
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
