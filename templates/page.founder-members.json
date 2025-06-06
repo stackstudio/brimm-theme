@@ -114,43 +114,35 @@
         "column_wKBTNm": {
           "type": "column",
           "settings": {
-            "title": "",
-            "content": "",
-            "benefits": "",
-            "button_label": "Learn more",
+            "title": "Top Tier",
+            "content": "<p>The top of the top tier. All standard benefits, with <strong>£80 credit every year</strong> towards reset boxes.</p>",
+            "yearly_price": "£129",
+            "monthly_price": "£12.99",
+            "button_label": "Join now",
             "button_url": ""
           }
         },
         "column_iidwx3": {
           "type": "column",
           "settings": {
-            "title": "",
-            "content": "",
-            "benefits": "",
-            "button_label": "Learn more",
-            "button_url": ""
-          }
-        },
-        "column_NXacWG": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "content": "",
-            "benefits": "",
-            "button_label": "Learn more",
+            "title": "Mid Tier",
+            "content": "<p>The middle tier. All standard benefits, with <strong>£40 credit every year</strong> towards reset boxes.</p>",
+            "yearly_price": "£129",
+            "monthly_price": "£12.99",
+            "button_label": "Join now",
             "button_url": ""
           }
         }
       },
       "block_order": [
         "column_wKBTNm",
-        "column_iidwx3",
-        "column_NXacWG"
+        "column_iidwx3"
       ],
       "name": "Membership Columns",
       "settings": {
         "heading": "Why join us?",
         "subheading": "<p>Explore the benefits of membership</p>",
+        "global_benefits": "<p><strong>All our tiers offer…</strong></p><h4>CASHBACK</h4><p>10% on all store orders go to you</p><h4>PLANET FUND</h4><p>10% on all store orders go to you</p><h4>SUPPER CLUBS</h4><p>10% on all store orders go to you</p><h4>FILM SCREENINGS</h4><p>10% on all store orders go to you</p><h4>FIELD TRIPS</h4><p>10% on all store orders go to you</p><h4>JOURNAL ACCESS</h4><p>10% on all store orders go to you</p>",
         "columns": 3
       }
     },
