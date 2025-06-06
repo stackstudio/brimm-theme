@@ -480,6 +480,86 @@
         "name": "rich_text_field",
         "category": "TEXT"
       }
+    },
+    {
+      "key": "dietary-preferences",
+      "namespace": "shopify",
+      "name": "Dietary preferences",
+      "description": "Helps identify products suitable for specific diets, e.g. vegan, nut free",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "allergen-information",
+      "namespace": "shopify",
+      "name": "Allergen information",
+      "description": "Indicates potential allergens present in food or beverages, such as wheat or peanuts",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "pasta-type",
+      "namespace": "shopify",
+      "name": "Pasta type",
+      "description": "Classifies pasta products by their specific shape or form, e.g. macaroni, penne",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "food-product-form",
+      "namespace": "shopify",
+      "name": "Food product form",
+      "description": "Specifies the form in which the food product is presented, such as dried or frozen",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "heat-level",
+      "namespace": "shopify",
+      "name": "Heat level",
+      "description": "Indicates the spiciness of food and beverage products, such as mild or very hot",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "ingredients",
+      "namespace": "custom",
+      "name": "Ingredients",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "curation",
+      "namespace": "custom",
+      "name": "Curation",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "in_the_box",
+      "namespace": "custom",
+      "name": "In the box",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "variant": [

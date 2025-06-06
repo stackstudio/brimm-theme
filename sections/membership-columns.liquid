@@ -15,6 +15,12 @@
       "default": "<p>Explore the benefits of membership</p>"
     },
     {
+      "type": "richtext",
+      "id": "global_benefits",
+      "label": "Global Benefits",
+      "default": "<h3>A benefit</h3><p>A description</p>"
+    },
+    {
       "type": "range",
       "id": "columns",
       "label": "Number of columns",
@@ -45,9 +51,14 @@
           "label": "Content"
         },
         {
-          "type": "richtext",
-          "id": "benefits",
-          "label": "Membership Benefits"
+          "type": "text",
+          "id": "yearly_price",
+          "label": "Yearly price"
+        },
+        {
+          "type": "text",
+          "id": "monthly_price",
+          "label": "Monthly price"
         },
         {
           "type": "text",
@@ -68,7 +79,6 @@
       "name": "Membership Columns",
       "blocks": [
         { "type": "column" },
-        { "type": "column" },
         { "type": "column" }
       ]
     }
@@ -80,9 +90,12 @@
     <div class="page-width">
         <div class="brimm-blocks--section-header">
             <h2>{{ section.settings.heading }}</h2>
-            <ddiv class="rte">{{ section.settings.subheading }}</ddiv>
+            <div class="rte">{{ section.settings.subheading }}</div>
         </div>
         <div class="brimm-blocks--membership-columns grid-cols-{{ section.settings.columns }}">
+            <div class="brimm-blocks--global-benefits">
+                <div class="rte">{{ section.settings.global_benefits }}</div>
+            </div>
             {% for block in section.blocks %}
                 <div class="brimm-blocks--column">
                     <div class="brimm-blocks--column-top">
@@ -95,15 +108,17 @@
                             >
                         {% endif %}
                         <h3>{{ block.settings.title }}</h3>
-                        <div class="brimm-blocks--benefits">
-                            {{ block.settings.benefits }}
-                        </div>
                     </div>
-                    {% if block.settings.button_label %}
-                        <a href="{{ block.settings.button_url }}" class="button">
-                            {{ block.settings.button_label }}
-                        </a>
-                    {% endif %}
+                    <div class="brimm-blocks--column-content">
+                        <p>{{ block.settings.content }}</p>
+                    </div>
+                    <div class="brimm-blocks--column-bottom">
+                        {% if block.settings.button_label %}
+                            <a href="{{ block.settings.button_url }}" class="button">
+                                {{ block.settings.button_label }}
+                            </a>
+                        {% endif %}
+                    </div>
                 </div>
             {% endfor %}
         </div>
