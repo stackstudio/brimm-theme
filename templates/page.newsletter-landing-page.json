@@ -293,7 +293,8 @@
       "custom_css": [
         "p {font-size: 24px; line-height: 3.8rem;}",
         ".banner__content--form {width: 100% !important;}",
-        ".banner__content--text {max-width: 100% !important; text-align: center !important;}"
+        ".banner__content--text {max-width: 100% !important; text-align: center !important;}",
+        "div > div {display: flex;}"
       ],
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
