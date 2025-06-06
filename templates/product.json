@@ -50,7 +50,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "",
+            "content": "{{ block.settings.page.metafields.custom.ingredients | metafield_tag }}",
             "page": ""
           }
         },
