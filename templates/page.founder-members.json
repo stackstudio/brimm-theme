@@ -140,8 +140,8 @@
       ],
       "name": "Membership Columns",
       "settings": {
-        "heading": "Why join us?",
-        "subheading": "<p>Explore the benefits of membership</p>",
+        "heading": "CHOOSE A PACKAGE",
+        "subheading": "<p>We’re live in three categories with top, vetted brands—and more are joining weekly.</p>",
         "global_benefits": "<p><strong>All our tiers offer…</strong></p><h4>CASHBACK</h4><p>10% on all store orders go to you</p><h4>PLANET FUND</h4><p>10% on all store orders go to you</p><h4>SUPPER CLUBS</h4><p>10% on all store orders go to you</p><h4>FILM SCREENINGS</h4><p>10% on all store orders go to you</p><h4>FIELD TRIPS</h4><p>10% on all store orders go to you</p><h4>JOURNAL ACCESS</h4><p>10% on all store orders go to you</p>",
         "columns": 3
       }
