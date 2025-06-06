@@ -108,6 +108,52 @@
         "padding_bottom": 0
       }
     },
+    "membership_columns_XcwD66": {
+      "type": "membership-columns",
+      "blocks": {
+        "column_wKBTNm": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "content": "",
+            "benefits": "",
+            "button_label": "Learn more",
+            "button_url": ""
+          }
+        },
+        "column_iidwx3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "content": "",
+            "benefits": "",
+            "button_label": "Learn more",
+            "button_url": ""
+          }
+        },
+        "column_NXacWG": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "content": "",
+            "benefits": "",
+            "button_label": "Learn more",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wKBTNm",
+        "column_iidwx3",
+        "column_NXacWG"
+      ],
+      "name": "Membership Columns",
+      "settings": {
+        "heading": "Why join us?",
+        "subheading": "<p>Explore the benefits of membership</p>",
+        "columns": 3
+      }
+    },
     "wrapped_mega_image_LbEWxD": {
       "type": "wrapped-mega-image",
       "blocks": {
@@ -773,6 +819,7 @@
     "main",
     "justified_hero_HkX8CR",
     "multicolumn_XGLUDx",
+    "membership_columns_XcwD66",
     "wrapped_mega_image_LbEWxD",
     "multicolumn_7QbhyP",
     "wrapped_mega_image_JcxHdJ",
