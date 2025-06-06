@@ -198,6 +198,9 @@
         "heading_VK4YDf",
         "text_QjRbUV"
       ],
+      "custom_css": [
+        "h2 {color: #EB492B !important;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -205,6 +208,40 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_LTyPzK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6fPU44": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plus on Thursdays",
+            "heading_size": "h1"
+          }
+        },
+        "text_EGydNx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>First look at fresh drops from the BRiMM Journal</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6fPU44",
+        "text_EGydNx"
+      ],
+      "custom_css": [
+        "h2 {color: #eb492b !important;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
         "padding_bottom": 40
       }
     },
@@ -232,8 +269,15 @@
         "heading_XwgDqL": {
           "type": "heading",
           "settings": {
-            "heading": "SIGN UP BEFORE SUNDAY TO CATCH THIS WEEK’S INBOX DROP",
+            "heading": "SIGN UP NOW TO GET INSTANT ACCESS TO",
             "heading_size": "h1"
+          }
+        },
+        "paragraph_6HmcQX": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Our full archive of newsletters, playlists and recipes</p>",
+            "text_style": "body"
           }
         },
         "email_form_hqfLc3": {
@@ -243,7 +287,42 @@
       },
       "block_order": [
         "heading_XwgDqL",
+        "paragraph_6HmcQX",
         "email_form_hqfLc3"
+      ],
+      "name": "t:sections.email-signup-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "collection_theme": "core-light-theme",
+        "show_background_image": true,
+        "sticky_on_mobile": false,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "email_signup_banner_8CQeae": {
+      "type": "email-signup-banner",
+      "blocks": {
+        "heading_yrPR9z": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIGN UP BEFORE SUNDAY TO CATCH THIS WEEK’S INBOX DROP",
+            "heading_size": "h1"
+          }
+        },
+        "email_form_nfNkEc": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_yrPR9z",
+        "email_form_nfNkEc"
       ],
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
@@ -268,7 +347,9 @@
     "rich_text_BHLXeQ",
     "multicolumn_n4DgPf",
     "rich_text_YWkXGN",
+    "rich_text_LTyPzK",
     "1749248791be2566db",
-    "email_signup_banner_nRHRmN"
+    "email_signup_banner_nRHRmN",
+    "email_signup_banner_8CQeae"
   ]
 }
