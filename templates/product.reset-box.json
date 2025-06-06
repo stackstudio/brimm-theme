@@ -10,7 +10,7 @@
 {
   "sections": {
     "main": {
-      "type": "reset-box-product",
+      "type": "main-product",
       "blocks": {
         "vendor": {
           "type": "text",
