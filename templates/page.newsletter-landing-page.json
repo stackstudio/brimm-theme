@@ -176,6 +176,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1749248791be2566db": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_DFAbEJ": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_DFAbEJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "email_signup_banner_nRHRmN": {
+      "type": "email-signup-banner",
+      "blocks": {
+        "heading_XwgDqL": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIGN UP BEFORE SUNDAY TO CATCH THIS WEEK’S INBOX DROP",
+            "heading_size": "h1"
+          }
+        },
+        "email_form_hqfLc3": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_XwgDqL",
+        "email_form_hqfLc3"
+      ],
+      "name": "t:sections.email-signup-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "collection_theme": "brimm-theme",
+        "show_background_image": true,
+        "sticky_on_mobile": false,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -183,6 +235,8 @@
     "custom_liquid_YKcGgn",
     "image_banner_MbVpnM",
     "rich_text_BHLXeQ",
-    "multicolumn_n4DgPf"
+    "multicolumn_n4DgPf",
+    "1749248791be2566db",
+    "email_signup_banner_nRHRmN"
   ]
 }
