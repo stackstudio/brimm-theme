@@ -31,6 +31,9 @@
         gap: 48px;
         padding: 5rem 4rem;
         align-items: end;
+        @media(max-width: 900px) {
+            grid-template-columns: 1fr;
+        }
     }
     .no-bottom .brimm-blocks--mega-grid:last-child {
         padding-bottom: 0;
@@ -38,6 +41,9 @@
     .brimm-blocks--mega-bottom {
         align-items: center;
         grid-template-columns: 2fr 1fr;
+        @media(max-width: 900px) {
+            grid-template-columns: 1fr;
+        }
     }
     .brimm-blocks--mega-grid h1 {
         text-transform: uppercase;

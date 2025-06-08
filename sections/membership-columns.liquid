@@ -108,9 +108,13 @@
                             >
                         {% endif %}
                         <h3>{{ block.settings.title }}</h3>
+                        <div class="brimm-blocks--column-content">
+                            <p>{{ block.settings.content }}</p>
+                        </div>
                     </div>
-                    <div class="brimm-blocks--column-content">
-                        <p>{{ block.settings.content }}</p>
+                    <div class="brimm-blocks--column-pricing">
+                        <p class="brimm-blocks--large-para">{{ block.settings.yearly_price }} annually</p>
+                        <p class="brimm-blocks--monthly-pricing">or {{ block.settings.monthly_price }} monthly</p>
                     </div>
                     <div class="brimm-blocks--column-bottom">
                         {% if block.settings.button_label %}
