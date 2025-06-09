@@ -688,10 +688,9 @@
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 707;
   line-height: 120%;
   /* 16.8px */
-  letter-spacing: -0.28px;
 }
 
 .brimm-theme .image-with-text__button-wrapper .button {
@@ -713,10 +712,6 @@
 
 .image-with-text__content h2 {
     margin-top: 0;
-}
-
-.image-with-text__content__top {
-    margin-bottom: 4rem;
 }
 
 .image-with-text__button-wrapper .button {

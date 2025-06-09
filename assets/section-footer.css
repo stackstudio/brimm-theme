@@ -518,6 +518,7 @@
 
 .brimm-blocks--custom-footer {
     padding-top: clamp(44px, 8rem, 120px);
+    font-family: var(--font-heading-family);
 }
 
 .brimm-blocks--footer-main,

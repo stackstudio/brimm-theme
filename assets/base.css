@@ -244,7 +244,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 .text-body {
   font-size: 1.5rem;
-  line-height: calc(1 + 0.8 / var(--font-body-scale));
+  line-height: calc(1 + 0.6 / var(--font-body-scale));
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
@@ -422,9 +422,9 @@ blockquote {
 
 .body-medium {
   /* Global/Body/Medium/14 */
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 125%;
 }
 
@@ -1324,7 +1324,9 @@ button.shopify-payment-button__button--unbranded {
   padding: 0 3rem;
   cursor: pointer;
   font: inherit;
+  font-family: var(--font-heading-family);
   font-size: 1.5rem;
+  font-weight: 577;
   text-decoration: none;
   color: rgb(var(--color-button-text));
   transition: box-shadow var(--duration-short) ease;
@@ -2978,7 +2980,7 @@ details[open] > .header__submenu {
 
   .header--middle-left .header__inline-menu {
     margin-left: 0;
-    width: 280px;
+    width: 292px;
   }
 }
 
@@ -3003,6 +3005,7 @@ details[open] > .header__submenu {
 
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
+  font-family: 'Manrope';
 }
 
 .header__menu-item:hover span {

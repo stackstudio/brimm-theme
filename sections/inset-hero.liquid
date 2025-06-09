@@ -13,30 +13,27 @@
 {% style %}
   #{{ section.id }} {
     padding: clamp(3rem, 10vh, 100px) 4rem;
+    @media(max-width: 749px) {
+        padding: 0;
+    }
   }
   #{{ section.id }} .brimm-blocks--hero-content {
     border-radius: 16px;
+    @media(max-width: 749px) {
+        border-radius: 0;
+    }
   }
   .brimm-blocks--inset-hero {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    @media(max-width: 749px) {
+    margin-top: 3rem;
+    }
   }
-  .brimm-blocks--inset-hero .brimm-blocks--hero-content {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: clamp(3rem, 6rem, 60px);
-  }
+
   .brimm-blocks--inset-hero .brimm-blocks--hero-content h2 {
     margin: 0;
-  }
-  .brimm-blocks--inset-hero .brimm-blocks--hero-para {
-    max-width: 580px;
-    font-size: 2rem;
   }
 {% endstyle %}
 

@@ -38,6 +38,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media(max-width: 900px) {
+      height: auto;
+  }
 }
 .brimm-blocks--inset-hero .brimm-blocks--hero-content {
   height: 100%;
@@ -45,8 +48,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: clamp(3rem, 6rem, 60px);
-  border-radius: 16px;
+  padding: clamp(3rem, 6vh, 60px) clamp(3rem, 6vw, 60px);
+  @media(max-width: 749px) {
+      height: auto;
+      border-radius: 0;
+  }
 }
 .brimm-blocks--product-hero {
     max-height: 80vh;
@@ -73,12 +79,12 @@
 }
 .brimm-blocks--inset-hero .brimm-blocks--hero-para {
   max-width: 580px;
-  font-size: 2rem;
+  font-size: clamp(16px, 3vw, 2rem);
 }
 
 h1.brimm-blocks--justified-header,
 .brimm-blocks--heading-l {
-  font-size: clamp(4rem, 8vw, 130px);
+  font-size: clamp(3rem, 7vw, 100px);
 }
 
 .brimm-blocks--heading-l {
@@ -140,8 +146,9 @@ h4.brimm-blocks--justified-header {
 
 .brimm-blocks--hero-content p {
   max-width: 720px;
-  font-size: 2rem;
-  font-weight: 577;
+  font-size: clamp(16px, 3vw, 2rem);
+  font-weight: 464;
+  line-height: 1.4;
 }
 
 .brimm-blocks--hero-content h1 {
@@ -304,7 +311,7 @@ h4.brimm-blocks--justified-header {
 
 .brimm-blocks--membership-columns .brimm-blocks--column-content {
     font-size: 1.6rem;
-    font-weight: 577;
+    font-weight: 377;
 }
 
 .brimm-blocks--membership-columns li {
@@ -360,6 +367,7 @@ h4.brimm-blocks--justified-header {
 
 .brimm-blocks--column-pricing {
     text-align: center;
+    font-family: 'Manrope';
     @media(max-width: 549px) {
         margin-bottom: 4rem;
     }
