@@ -422,8 +422,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#customer-portal-root .shipping-and-address-panel-wrap,#customer-portal-root .products-panel-wrap{display: none;}",
-      "div['data-bold-component-id=\"order-history-panel\"']{display: none;}"
+      "#customer-portal-root .shipping-and-address-panel-wrap,#customer-portal-root .products-panel-wrap {display: none;}",
+      "[data-bold-component-id=\"future-orders-panel\"] {display: none;}"
     ]
   }
 }
