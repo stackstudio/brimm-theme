@@ -2018,7 +2018,7 @@ input[type='checkbox'] {
   width: calc(14rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
   display: flex;
   border-radius: var(--inputs-radius);
-  min-height: calc((var(--inputs-border-width) * 2) + 4.5rem);
+  min-height: calc((var(--inputs-border-width) * 2) + 3.5rem);
 }
 
 .quantity:after {
@@ -3825,6 +3825,15 @@ details-disclosure > details {
     stroke-dashoffset: 280;
     transform: rotate(450deg);
   }
+}
+
+.cart-item {
+    margin-bottom: 2rem;
+}
+
+.tax-note {
+    font-size: 1.1rem;
+    font-style: italic;
 }
 
 .loading__spinner:not(.hidden) + .cart-item__price-wrapper,
