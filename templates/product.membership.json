@@ -49,6 +49,13 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
         "bold_subscriptions_bsub_widget_block_RpYLfE": {
           "type": "shopify://apps/bold-subscriptions/blocks/bsub-widget-block/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
           "settings": {
@@ -78,13 +85,6 @@
             "initial_dynamic_discount_text": "Save {initial_percent_discount}% ({initial_fixed_discount})",
             "subsequent_dynamic_discounts_text": "{subsequent_percent_discount}% ({subsequent_fixed_discount}) after {order_count} order(s)"
           }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
         }
       },
       "block_order": [
@@ -95,8 +95,8 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "bold_subscriptions_bsub_widget_block_RpYLfE",
-        "buy_buttons"
+        "buy_buttons",
+        "bold_subscriptions_bsub_widget_block_RpYLfE"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -114,10 +114,36 @@
         "padding_bottom": 12
       }
     },
-    "accreditations_block_icQUPp": {
-      "type": "accreditations-block",
-      "name": "Accreditations",
-      "settings": {}
+    "rich_text_am6nHN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EDtYmq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop benefits",
+            "heading_size": "h1"
+          }
+        },
+        "text_U9VKdk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Membership is amazing</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EDtYmq",
+        "text_U9VKdk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     },
     "multicolumn": {
       "type": "multicolumn",
@@ -195,7 +221,7 @@
   },
   "order": [
     "main",
-    "accreditations_block_icQUPp",
+    "rich_text_am6nHN",
     "multicolumn",
     "related-products"
   ]
