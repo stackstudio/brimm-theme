@@ -448,7 +448,11 @@
     "custom_css": [
       "#customer-portal-root .shipping-and-address-panel-wrap,#customer-portal-root .products-panel-wrap {display: none;}",
       "[data-bold-component-id=\"future-orders-panel\"] {display: none;}",
-      "#customer-portal-root .active-subscription__action {border-top: 1px solid #e1e1e1; background: black; color: white; padding: .5rem 1rem;}"
+      "#customer-portal-root .prepaid-metadata-header {border: 0;}",
+      "#customer-portal-root .customer-info__section {border-radius: 0; border: 1px solid black; padding: 24px;}",
+      "#customer-portal-root .active-subscription {border-radius: 0; box-shadow: none; margin-bottom: 1rem; border: 1px solid black;}",
+      "#customer-portal-root .active-subscription__action {border-top: 1px solid #e1e1e1; background: black; color: white; padding: 0.5rem 1rem;}",
+      "#customer-portal-root .active-subscription__action span {color: white;}"
     ]
   }
 }
