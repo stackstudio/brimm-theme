@@ -671,23 +671,6 @@
           </a>
         </section>
       </div>
-      <div class="product--content">
-        {% assign included_products = product.metafields.custom.included_products.value %}
-        {% if product.metafields.custom.included_products.value != blank %}
-            <h1>What's in the box?</h1>
-            <div class="brimm-blocks--included-products-grid">
-                {% for item in included_products %}
-                    <div class="brimm-blocks--product-card">
-                    {% if item.image != blank %}
-                        <img src="{{ item.image | image_url }}" alt="{{ item.title }}">
-                    {% endif %}
-                    <h3>{{ item.name }}</h3>
-                    {{ item.description | metafield_tag }}</p>
-                    </div>
-                {% endfor %}
-            </div>
-        {% endif %}
-      </div>
     </div>
 
     {% render 'product-media-modal', variant_images: variant_images %}
