@@ -35,7 +35,7 @@
           "disabled": true,
           "settings": {
             "heading": "Company",
-            "menu": "footer-menu-company"
+            "menu": ""
           }
         },
         "link_list_ei3xxE": {
@@ -43,7 +43,7 @@
           "disabled": true,
           "settings": {
             "heading": "Follow",
-            "menu": "footer-menu-social"
+            "menu": ""
           }
         }
       },

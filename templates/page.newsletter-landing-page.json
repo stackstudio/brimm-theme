@@ -21,7 +21,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.holding-logo {\n    width: 100%;\n    background: black;\n    background-opacity: 50%;\n}\n\n#MainContent > div > img {\n  filter: invert(100%);\n}\n</style>",
+        "custom_liquid": "<style>\n.holding-logo {\n    width: 100%;\n    background: transparent;\n    background-opacity: 50%;\n}\n\n#MainContent > div > img {\n  filter: invert(100%);\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -265,23 +265,6 @@
         "include_margins": true
       }
     },
-    "image_banner_qL7wrW": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "email_signup_banner_nRHRmN": {
       "type": "email-signup-banner",
       "blocks": {
@@ -327,6 +310,23 @@
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_banner_qL7wrW": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
