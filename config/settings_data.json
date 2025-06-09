@@ -447,7 +447,8 @@
   "platform_customizations": {
     "custom_css": [
       "#customer-portal-root .shipping-and-address-panel-wrap,#customer-portal-root .products-panel-wrap {display: none;}",
-      "[data-bold-component-id=\"future-orders-panel\"] {display: none;}"
+      "[data-bold-component-id=\"future-orders-panel\"] {display: none;}",
+      "#customer-portal-root .active-subscription__action {border-top: 1px solid #e1e1e1; background: black; color: white; padding: .5rem 1rem;}"
     ]
   }
 }
