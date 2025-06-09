@@ -2214,8 +2214,11 @@ input[type='checkbox'] {
 }
 
 .cart-count-bubble {
-  position: absolute;
-  color: var(--color-brimm-red);
+  font-family: 'Manrope';
+  text-decoration: none;
+  margin-left: 4px;
+  color: black;
+  background-color: hsl(72deg, 89%, 78%, 100%);
   height: 1.7rem;
   width: 1.7rem;
   border-radius: 100%;
@@ -2225,9 +2228,19 @@ input[type='checkbox'] {
   font-size: 0.9rem;
   bottom: 0.8rem;
   left: auto;
-  top: 14px;
+  top: -4px;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
   font-weight: 600;
+
+}
+
+.header__icon--cart {
+    text-decoration: none;
+    gap: 4px;
+}
+
+.cart-count-bubble span {
+    text-decoration: none !important;
 }
 
 /* utility-bar */
@@ -2568,7 +2581,7 @@ input[type='checkbox'] {
 
   /* for holding page */
   .header--middle-left {
-    grid-template-areas: 'heading navigation';
+    grid-template-areas: 'heading navigation icons';
     grid-template-columns: auto 0fr;
     column-gap: 3.4rem;
   }
@@ -2991,7 +3004,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1rem;
   text-decoration: none;
-  color: #E3F994;
+  color: white;
   font-weight: 500;
 }
 
