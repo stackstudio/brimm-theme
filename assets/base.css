@@ -2624,6 +2624,9 @@ input[type='checkbox'] {
 
 .header > .header__heading-link {
   line-height: 0;
+  @media(max-width: 640px) {
+      min-width: 400px;
+  }
 }
 
 .header__heading,
