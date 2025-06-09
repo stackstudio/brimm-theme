@@ -419,5 +419,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#customer-portal-root .shipping-and-address-panel-wrap {display: none;}"
+    ]
   }
 }
