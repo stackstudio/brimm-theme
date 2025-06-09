@@ -371,7 +371,15 @@ a.product__text {
 }
 
 .product-form__buttons {
-  max-width: 44rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-items: center;
+  gap: 2rem;
+}
+
+.shopify-payment-button {
+  width: 100%;
 }
 
 .product--no-media .product__info-container > modal-opener {
@@ -618,6 +626,7 @@ a.product__text {
     outline-offset: 2px;
   }
 }
+
 .product__media-toggle.focused {
   outline: 0;
   box-shadow: none;
@@ -1148,6 +1157,7 @@ a.product__text {
     outline: transparent solid 1px;
   }
 }
+
 .thumbnail[aria-current]:focus:not(:focus-visible) {
   outline: 0;
   box-shadow: 0 0 0 0.1rem rgb(var(--color-foreground));
@@ -1504,6 +1514,7 @@ a.product__text {
   display: block;
   animation: animateMenuOpen var(--duration-default) ease;
 }
+
 .recipient-form
   > input[type='checkbox']:not(:checked, :disabled)
   ~ .recipient-fields,

@@ -2581,7 +2581,7 @@ input[type='checkbox'] {
   /* for holding page */
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto 0fr auto;
+    grid-template-columns: 137px auto 48px;
     column-gap: 3.4rem;
   }
 
@@ -2983,7 +2983,7 @@ details[open] > .header__submenu {
 @media screen and (min-width: 990px) {
   .header__inline-menu {
     display: block;
-    justify-self: end;
+    justify-self: center;
   }
 
   .header--top-center .header__inline-menu {
