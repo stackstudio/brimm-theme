@@ -338,6 +338,21 @@
     },
     "image_banner_qL7wrW": {
       "type": "image-banner",
+      "blocks": {
+        "text_Vtep83": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At BRiMM, we believe planet positive living is better together. Our newsletter isn’t just a read - it’s a community in your inbox. One that’s growing fast, sharing generously and always curious. </p><p><br/><strong>Becky Lucas, Editor-in-chief, BRiMM</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Vtep83"
+      ],
+      "custom_css": [
+        ".gradient {background: rgb(0, 0, 0, 0.8)}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01.jpg",
@@ -346,7 +361,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
