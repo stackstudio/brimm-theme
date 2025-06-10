@@ -139,7 +139,7 @@
 }
 {% endschema %}
 
-<div class="brimm-blocks--membership">
+<div class="brimm-blocks--membership" id="packages">
     <div class="page-width">
         <div class="brimm-blocks--section-header">
             <h2>{{ section.settings.heading }}</h2>
@@ -179,22 +179,35 @@
                 </div>
             {% endfor %}
         </div>
-        <div class="brimm-blocks--supporter">
-            <div class="brimm-blocks--supporter-header">
-                <div>
-                    <h4>{{ section.settings.supporter_heading }}</h4>
-                    <p class="rte">{{ section.settings.supporter_text }}</p>
-                </div>
-                <div class="brimm-blocks--supporter-actions">
-                    <div class="brimm-blocks--column-pricing">
-                        <p class="brimm-blocks--large-para">{{ section.settings.supporter_yearly_price }} annually</p>
-                        <p class="brimm-blocks--monthly-pricing">or {{ section.settings.supporter_monthly_price }} monthly</p>
+        <div class="brimm-blocks--supporter-wrapper">
+            <div class="brimm-blocks--supporter">
+                <div class="brimm-blocks--supporter-header">
+                    <div>
+                        <h3>{{ section.settings.supporter_heading }}</h3>
+                        {{ section.settings.supporter_text }}
                     </div>
-                    {% if section.settings.supporter_button_label %}
-                        <a href="{{ section.settings.supporter_button_url }}" class="button">
-                            {{ section.settings.supporter_button_label }}
-                        </a>
-                    {% endif %}
+                    <div class="brimm-blocks--supporter-actions">
+                        <div class="brimm-blocks--column-pricing">
+                            <p class="brimm-blocks--large-para">{{ section.settings.supporter_yearly_price }} annually</p>
+                            <p class="brimm-blocks--monthly-pricing">or {{ section.settings.supporter_monthly_price }} monthly</p>
+                        </div>
+                        {% if section.settings.supporter_button_label %}
+                            <a href="{{ section.settings.supporter_button_url }}" class="button">
+                                {{ section.settings.supporter_button_label }}
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="brimm-blocks--supporter-content">
+                    <div>
+                        {{ section.settings.supporter_benefit_one }}
+                    </div>
+                    <div>
+                        {{ section.settings.supporter_benefit_two }}
+                    </div>
+                    <div>
+                        {{ section.settings.supporter_benefit_three }}
+                    </div>
                 </div>
             </div>
         </div>

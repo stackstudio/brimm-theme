@@ -377,12 +377,78 @@ h4.brimm-blocks--justified-header {
     margin: 0;
 }
 
-.brimm-blocks--monthly-pricing {
-    font-style: italic;
-}
-
 .brimm-blocks--membership-columns .button {
     background: black;
     width: 100%;
     align-self: baseline;;
+}
+
+.brimm-blocks--supporter-wrapper {
+    margin-top: 2rem;
+    padding-top: 5rem;
+    border-top: 1px dotted white;
+}
+
+.brimm-blocks--supporter {
+    background: rgba(255,255,255,.4);
+    border-radius: 3px;
+    padding: 3rem;
+}
+
+.brimm-blocks--supporter-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.brimm-blocks--supporter-header h4 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.brimm-blocks--supporter-header h3 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.brimm-blocks--supporter-header h3 + p {
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+
+.brimm-blocks--supporter-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+}
+
+.brimm-blocks--supporter-actions .button {
+    color: black;
+    border: 1px solid black;
+    height: fit-content;
+}
+
+.brimm-blocks--supporter-header .brimm-blocks--column-pricing {
+    text-align: left;
+}
+
+.brimm-blocks--supporter-header .brimm-blocks--column-pricing .brimm-blocks--monthly-pricing {
+    margin-top: -8px;
+}
+
+.brimm-blocks--supporter-content {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid hsla(43, 19%, 88%, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.brimm-blocks--supporter-content h4 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.brimm-blocks--supporter-content p {
+    margin: 0;
 }
