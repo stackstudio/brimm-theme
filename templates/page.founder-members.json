@@ -132,11 +132,39 @@
             "button_label": "Join now",
             "button_url": "shopify://products/the-middle-tier-membership"
           }
+        },
+        "benefit_nJLKYV": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
+          }
+        },
+        "benefit_8eL4a7": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
+          }
+        },
+        "benefit_i3ETkR": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
+          }
+        },
+        "benefit_RMhBXp": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
+          }
         }
       },
       "block_order": [
         "column_wKBTNm",
-        "column_iidwx3"
+        "column_iidwx3",
+        "benefit_nJLKYV",
+        "benefit_8eL4a7",
+        "benefit_i3ETkR",
+        "benefit_RMhBXp"
       ],
       "name": "Membership Columns",
       "settings": {
