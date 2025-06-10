@@ -125,6 +125,17 @@
           "label": "Button URL"
         }
       ]
+    },
+    {
+        "type": "benefit",
+        "name": "Supporter Benefit",
+        "settings": [
+            {
+                "type": "richtext",
+                "id": "benefit_content",
+                "label": "Content"
+            },
+        ]
     }
   ],
   "presets": [
@@ -150,33 +161,35 @@
                 <div class="rte">{{ section.settings.global_benefits }}</div>
             </div>
             {% for block in section.blocks %}
-                <div class="brimm-blocks--column">
-                    <div class="brimm-blocks--column-top">
-                        {% if block.settings.column_image %}
-                            <img
-                                src="{{ block.settings.column_image | image_url: width: 800 }}"
-                                alt="{{ block.settings.column_image.alt | escape }}"
-                                class="brimm-blocks--column-image"
-                                loading="lazy"
-                            >
-                        {% endif %}
-                        <h3>{{ block.settings.title }}</h3>
-                        <div class="brimm-blocks--column-content">
-                            <p>{{ block.settings.content }}</p>
+                {% if block.type == "column" %}
+                    <div class="brimm-blocks--column">
+                        <div class="brimm-blocks--column-top">
+                            {% if block.settings.column_image %}
+                                <img
+                                    src="{{ block.settings.column_image | image_url: width: 800 }}"
+                                    alt="{{ block.settings.column_image.alt | escape }}"
+                                    class="brimm-blocks--column-image"
+                                    loading="lazy"
+                                >
+                            {% endif %}
+                            <h3>{{ block.settings.title }}</h3>
+                            <div class="brimm-blocks--column-content">
+                                <p>{{ block.settings.content }}</p>
+                            </div>
+                        </div>
+                        <div class="brimm-blocks--column-pricing">
+                            <p class="brimm-blocks--large-para">{{ block.settings.yearly_price }} annually</p>
+                            <p class="brimm-blocks--monthly-pricing">or {{ block.settings.monthly_price }} monthly</p>
+                        </div>
+                        <div class="brimm-blocks--column-bottom">
+                            {% if block.settings.button_label %}
+                                <a href="{{ block.settings.button_url }}" class="button">
+                                    {{ block.settings.button_label }}
+                                </a>
+                            {% endif %}
                         </div>
                     </div>
-                    <div class="brimm-blocks--column-pricing">
-                        <p class="brimm-blocks--large-para">{{ block.settings.yearly_price }} annually</p>
-                        <p class="brimm-blocks--monthly-pricing">or {{ block.settings.monthly_price }} monthly</p>
-                    </div>
-                    <div class="brimm-blocks--column-bottom">
-                        {% if block.settings.button_label %}
-                            <a href="{{ block.settings.button_url }}" class="button">
-                                {{ block.settings.button_label }}
-                            </a>
-                        {% endif %}
-                    </div>
-                </div>
+                {% endif %}
             {% endfor %}
         </div>
         <div class="brimm-blocks--supporter-wrapper">
@@ -199,15 +212,11 @@
                     </div>
                 </div>
                 <div class="brimm-blocks--supporter-content">
-                    <div>
-                        {{ section.settings.supporter_benefit_one }}
-                    </div>
-                    <div>
-                        {{ section.settings.supporter_benefit_two }}
-                    </div>
-                    <div>
-                        {{ section.settings.supporter_benefit_three }}
-                    </div>
+                    {% for block in section.blocks %}
+                        {% if block.type == "benefit" %}
+                            <div>{{ block.settings.benefit_content }}</div>
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>
