@@ -144,6 +144,8 @@
         "subheading": "<p>We’re live in three categories with top, vetted brands—and more are joining weekly.</p>",
         "supporter_heading": "Supporter Tier",
         "supporter_text": "<p>Support BRiMM and power the planet fund.</p>",
+        "supporter_yearly_price": "£60",
+        "supporter_monthly_price": "£6",
         "supporter_button_label": "Join Now",
         "supporter_button_url": "shopify://products/the-middle-tier-yearly",
         "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
@@ -166,7 +168,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Choose a package",
-            "link": "#",
+            "link": "#packages",
             "style": "primary"
           }
         }
@@ -251,7 +253,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Choose a package",
-            "link": "#",
+            "link": "#packages",
             "style": "primary"
           }
         }
@@ -350,7 +352,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Choose a package",
-            "link": "#",
+            "link": "#packages",
             "style": "primary"
           }
         }
