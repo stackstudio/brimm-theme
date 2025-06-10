@@ -440,8 +440,8 @@ h4.brimm-blocks--justified-header {
     margin-top: 2rem;
     padding-top: 2rem;
     border-top: 1px solid hsla(43, 19%, 88%, 1);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
 }
 
 .brimm-blocks--supporter-content h4 {
