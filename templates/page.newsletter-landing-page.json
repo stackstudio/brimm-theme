@@ -112,7 +112,8 @@
         "text_rNA6cH"
       ],
       "custom_css": [
-        "div > div > div > div > h2.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in.scroll-trigger--design-mode {font-weight: 500 !important;}"
+        "div > div > div > div > h2.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in.scroll-trigger--design-mode {font-weight: 400 !important;}",
+        "div {width: 100% !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -183,6 +184,16 @@
         "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 36
+      }
+    },
+    "custom_liquid_Jie6EV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .carousel-container {\n    position: relative;\n    max-width: 100%;\n    overflow: hidden;\n    padding: 20px 0;\n  }\n\n  .carousel-wrapper {\n    display: flex;\n    gap: 20px;\n    overflow-x: auto;\n    scroll-behavior: smooth;\n    scroll-snap-type: x mandatory;\n    -webkit-overflow-scrolling: touch;\n    padding-bottom: 10px;\n  }\n\n  .carousel-track {\n    display: flex;\n    gap: 20px;\n    flex: none;\n  }\n\n  .carousel-item {\n    flex: 0 0 calc(33.333% - 13.33px); /* 3 items per view */\n    scroll-snap-align: start;\n    box-sizing: border-box;\n  }\n\n  .carousel-item img {\n    width: 100%;\n    height: auto;\n    border-radius: 8px;\n    object-fit: cover;\n  }\n\n  .carousel-btn {\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    background-color: rgba(0, 0, 0, 0.5);\n    color: white;\n    border: none;\n    padding: 10px 15px;\n    font-size: 20px;\n    cursor: pointer;\n    z-index: 2;\n    border-radius: 50%;\n    transition: background-color 0.3s ease;\n  }\n\n  .carousel-btn:hover {\n    background-color: rgba(0, 0, 0, 0.8);\n  }\n\n  .prev {\n    left: -30px;\n  }\n\n  .next {\n    right: -30px;\n  }\n\n  /* Hide scrollbar for cleaner look */\n  .carousel-wrapper::-webkit-scrollbar {\n    display: none;\n  }\n\n  .carousel-wrapper {\n    -ms-overflow-style: none;  /* IE and Edge */\n    scrollbar-width: none;     /* Firefox */\n  }\n\n  @media (max-width: 768px) {\n    .carousel-item {\n      flex: 0 0 calc(33.333% - 13.33px);\n    }\n  }\n\n  @media (max-width: 500px) {\n    .carousel-item {\n      flex: 0 0 calc(100% - 13.33px);\n    }\n\n    .carousel-btn {\n      top: 40%;\n    }\n\n    .prev, .next {\n      left: 10px;\n      right: 10px;\n    }\n  }\n</style>\n\n<div class=\"carousel-container\">\n  <div class=\"carousel-wrapper\">\n    <div class=\"carousel-track\">\n      <div class=\"carousel-item\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 1\"></div>\n      <div class=\"carousel-item\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 2\"></div>\n      <div class=\"carousel-item\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 3\"></div>\n      <div class=\"carousel-item\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 4\"></div>\n      <div class=\"carousel-item\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 5\"></div>\n    </div>\n  </div>\n\n  <!-- Navigation Arrows -->\n  <button class=\"carousel-btn prev\" aria-label=\"Previous\">&#10094;</button> \n  <button class=\"carousel-btn next\" aria-label=\"Next\">&#10095;</button>\n</div>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function () {\n    const track = document.querySelector('.carousel-wrapper');\n\n    document.querySelector('.next')?.addEventListener('click', () => {\n      track.scrollBy({ left: 340, behavior: 'smooth' });\n    });\n\n    document.querySelector('.prev')?.addEventListener('click', () => {\n      track.scrollBy({ left: -340, behavior: 'smooth' });\n    });\n  });\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "rich_text_YWkXGN": {
@@ -379,6 +390,7 @@
     "image_banner_MbVpnM",
     "rich_text_BHLXeQ",
     "multicolumn_n4DgPf",
+    "custom_liquid_Jie6EV",
     "rich_text_YWkXGN",
     "rich_text_LTyPzK",
     "1749248791be2566db",
