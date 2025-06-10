@@ -398,6 +398,9 @@ h4.brimm-blocks--justified-header {
 .brimm-blocks--supporter-header {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    @media(max-width: 749px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .brimm-blocks--supporter-header h4 {
@@ -420,6 +423,9 @@ h4.brimm-blocks--justified-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: fit-content;
+    @media(max-width: 749px) {
+        margin-top: 2rem;
+    }
 }
 
 .brimm-blocks--supporter-actions .button {
@@ -442,11 +448,22 @@ h4.brimm-blocks--justified-header {
     border-top: 1px solid hsla(43, 19%, 88%, 1);
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    @media(max-width: 749px) {
+        /* display: block; */
+    }
+}
+
+.brimm-blocks--supporter-content > div {
+    min-width: 240px;
 }
 
 .brimm-blocks--supporter-content h4 {
     text-transform: uppercase;
     margin: 0;
+    @media(max-width: 749px) {
+        margin-top: 2rem;
+    }
 }
 
 .brimm-blocks--supporter-content p {
