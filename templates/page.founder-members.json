@@ -142,6 +142,13 @@
       "settings": {
         "heading": "CHOOSE A PACKAGE",
         "subheading": "<p>We’re live in three categories with top, vetted brands—and more are joining weekly.</p>",
+        "supporter_heading": "Supporter Tier",
+        "supporter_text": "<p>Support BRiMM and power the planet fund.</p>",
+        "supporter_button_label": "Join Now",
+        "supporter_button_url": "shopify://products/the-middle-tier-yearly",
+        "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_two": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
         "global_benefits": "<p><strong>All our tiers offer…</strong></p><h4>CASHBACK</h4><p>10% on all store orders go to you</p><h4>PLANET FUND</h4><p>10% on all store orders go to you</p><h4>SUPPER CLUBS</h4><p>10% on all store orders go to you</p><h4>FILM SCREENINGS</h4><p>10% on all store orders go to you</p><h4>FIELD TRIPS</h4><p>10% on all store orders go to you</p><h4>JOURNAL ACCESS</h4><p>10% on all store orders go to you</p>",
         "columns": 3
       }
