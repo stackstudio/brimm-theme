@@ -1,5 +1,8 @@
 /*! tailwindcss v4.1.9 | MIT License | https://tailwindcss.com */
 @layer properties;
+.absolute {
+  position: absolute;
+}
 .fixed {
   position: fixed;
 }
