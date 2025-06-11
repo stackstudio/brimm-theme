@@ -108,6 +108,33 @@
         "padding_bottom": 24
       }
     },
+    "rich_text_9RAJwk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BhFjp8": {
+          "type": "heading",
+          "settings": {
+            "heading": "DISCOVER PREVIOUS NEWSLETTERS",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BhFjp8"
+      ],
+      "custom_css": [
+        "h2 {font-size: 28px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_Xtjff4": {
       "type": "multicolumn",
       "blocks": {
@@ -199,6 +226,7 @@
     "main",
     "image_banner_6DKj38",
     "rich_text_KaFC8P",
+    "rich_text_9RAJwk",
     "multicolumn_Xtjff4",
     "custom_liquid_7cyLYz"
   ]
