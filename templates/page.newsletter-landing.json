@@ -275,38 +275,53 @@
         "padding_bottom": 52
       }
     },
-    "newsletter_dkGkEm": {
-      "type": "newsletter",
+    "email_signup_banner_C99DNC": {
+      "type": "email-signup-banner",
       "blocks": {
-        "heading_bAtVFP": {
+        "heading_nVtwHJ": {
           "type": "heading",
           "settings": {
-            "heading": "Sign Up Now to Get Instant Access to",
+            "heading": "SIGN UP NOW TO GET INSTANT ACCESS TO",
             "heading_size": "h1"
           }
         },
-        "paragraph_LTdYrh": {
+        "paragraph_Kb7aFn": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Our full archive of newsletters, playlists and recipes</p>"
+            "text": "<p>Our full archive of newsletters, playlists and recipes</p>",
+            "text_style": "body"
           }
         },
-        "email_form_KRHQMq": {
+        "email_form_xkKCEf": {
           "type": "email_form",
           "settings": {}
         }
       },
       "block_order": [
-        "heading_bAtVFP",
-        "paragraph_LTdYrh",
-        "email_form_KRHQMq"
+        "heading_nVtwHJ",
+        "paragraph_Kb7aFn",
+        "email_form_xkKCEf"
       ],
-      "name": "t:sections.newsletter.presets.name",
+      "custom_css": [
+        "p {font-size: 1.6rem; line-height: 3.8rem;}",
+        ".banner__content--form {width: 100% !important;}",
+        ".banner__content--text {max-width: 100% !important; text-align: center !important; padding-bottom: 20px;}",
+        "div > div {display: flex; flex-direction: column; align-items: center;}",
+        ".banner--medium {height: auto !important;}"
+      ],
+      "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_overlay_opacity": 0,
+        "collection_theme": "core-light-theme",
+        "show_background_image": true,
+        "sticky_on_mobile": false,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     }
   },
@@ -318,6 +333,6 @@
     "multicolumn_Xtjff4",
     "custom_liquid_7cyLYz",
     "rich_text_xMNf4e",
-    "newsletter_dkGkEm"
+    "email_signup_banner_C99DNC"
   ]
 }
