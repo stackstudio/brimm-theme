@@ -11,13 +11,25 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "custom_liquid_nQN6Vm": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<section class=\"thank-you-page\">\n  <div class=\"container\">\n    <h1>Thanks for joining us.</h1>\n    <p class=\"subtitle\">\n      Welcome email, sent.<br>\n      If you don’t see it in your inbox, check your spam, promotions, or junk folders.\n    </p>\n\n    <a href=\"/blogs/journal\" class=\"btn\">Read Today’s Briefing</a>\n    <p class=\"read-time\">Est. read time: ~5 minutes</p>\n\n    <hr>\n\n    <p class=\"small-header\"><strong>Now, 1440 is read by millions. But it began as an email we sent to 78 people.</strong></p>\n\n    <p class=\"bottom-text\">\n      Thanks for supporting the comprehensive news source\n      <span class=\"highlight\">edited to be unbiased as humanly possible</span>.\n    </p>\n\n    <p class=\"bottom-text\">\n      Want to share 1440 with family and friends?\n      Just copy this link: <a href=\"https://join1440.com/welcome\">https://join1440.com/welcome</a>\n    </p>\n  </div>\n</section>\n\n<style>\n.thank-you-page {\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 40px 20px;\n}\n\n.container {\n  max-width: 600px;\n  text-align: center;\n}\n\nh1 {\n  font-size: 36px;\n  font-weight: bold;\n  margin-bottom: 20px;\n}\n\n.subtitle {\n  font-size: 16px;\n  margin-bottom: 30px;\n  line-height: 1.5;\n}\n\n.btn {\n  background-color: black;\n  color: white;\n  padding: 14px 28px;\n  text-decoration: none;\n  border-radius: 6px;\n  display: inline-block;\n  font-size: 16px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n.read-time {\n  font-size: 14px;\n  color: #555;\n  margin-bottom: 40px;\n}\n\nhr {\n  border: none;\n  border-top: 1px solid #ccc;\n  margin: 40px 0;\n}\n\n.small-header {\n  font-size: 16px;\n  margin-bottom: 20px;\n}\n\n.bottom-text {\n  font-size: 15px;\n  margin-bottom: 10px;\n  line-height: 1.5;\n}\n\n.highlight {\n  background-color: yellow;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_nQN6Vm"
   ]
 }
