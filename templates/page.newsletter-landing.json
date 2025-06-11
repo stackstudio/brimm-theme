@@ -105,13 +105,85 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 24
+      }
+    },
+    "multicolumn_Xtjff4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gDYmqQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-3.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fRTRPP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-3.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_y3Gtnz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-3.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gDYmqQ",
+        "column_fRTRPP",
+        "column_y3Gtnz"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "DISCOVER PREVIOUS NEWSLETTERS",
+        "no-gap": false,
+        "text_block": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 60
       }
     }
   },
   "order": [
     "main",
     "image_banner_6DKj38",
-    "rich_text_KaFC8P"
+    "rich_text_KaFC8P",
+    "multicolumn_Xtjff4"
   ]
 }
