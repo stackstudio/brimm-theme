@@ -274,6 +274,40 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "newsletter_dkGkEm": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_bAtVFP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign Up Now to Get Instant Access to",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_LTdYrh": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Our full archive of newsletters, playlists and recipes</p>"
+          }
+        },
+        "email_form_KRHQMq": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_bAtVFP",
+        "paragraph_LTdYrh",
+        "email_form_KRHQMq"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -283,6 +317,7 @@
     "rich_text_9RAJwk",
     "multicolumn_Xtjff4",
     "custom_liquid_7cyLYz",
-    "rich_text_xMNf4e"
+    "rich_text_xMNf4e",
+    "newsletter_dkGkEm"
   ]
 }
