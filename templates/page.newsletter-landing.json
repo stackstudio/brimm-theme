@@ -323,6 +323,73 @@
         "mobile_content_alignment": "center",
         "show_text_below": true
       }
+    },
+    "inset_hero_G69whq": {
+      "type": "inset-hero",
+      "blocks": {
+        "heading_kRBbaf": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "HEADING MAYBE"
+          }
+        },
+        "text_X97R3U": {
+          "type": "text",
+          "settings": {
+            "copy": "At BRiMM, we believe planet positive living is better together. Our newsletter isn’t just a read - it’s a community in your inbox. One that’s growing fast, sharing generously and always curious."
+          }
+        },
+        "text_b3eyYR": {
+          "type": "text",
+          "settings": {
+            "copy": "<b>Becky Lucas, Editor-in-chief, BRiMM</b>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kRBbaf",
+        "text_X97R3U",
+        "text_b3eyYR"
+      ],
+      "name": "Inset Hero",
+      "settings": {
+        "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01_87731b08-887c-489d-97b9-76c8976159f9.jpg",
+        "color_scheme": "scheme-1"
+      }
+    },
+    "email_signup_banner_9BKfVd": {
+      "type": "email-signup-banner",
+      "blocks": {
+        "heading_qpwAr3": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIGN UP BEFORE SUNDAY TO CATCH THIS WEEK’S INBOX DROP",
+            "heading_size": "h1"
+          }
+        },
+        "email_form_g4jEEp": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_qpwAr3",
+        "email_form_g4jEEp"
+      ],
+      "name": "t:sections.email-signup-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "collection_theme": "brimm-theme",
+        "show_background_image": true,
+        "sticky_on_mobile": true,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -333,6 +400,8 @@
     "multicolumn_Xtjff4",
     "custom_liquid_7cyLYz",
     "rich_text_xMNf4e",
-    "email_signup_banner_C99DNC"
+    "email_signup_banner_C99DNC",
+    "inset_hero_G69whq",
+    "email_signup_banner_9BKfVd"
   ]
 }
