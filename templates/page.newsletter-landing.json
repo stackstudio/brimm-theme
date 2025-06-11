@@ -71,10 +71,47 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "rich_text_KaFC8P": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WjPHxk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to our feel-good roundup of low-impact intel, conscious culture and collective joy",
+            "heading_size": "h1"
+          }
+        },
+        "heading_DBXX3w": {
+          "type": "heading",
+          "settings": {
+            "heading": "A mini-magazine in an email, The Planet Positive Edit is both rich with recommendations, reflections and high quality writing, and wonderfully easy to lazily browse from bed. Inside it you'll find a little meditation on the week’s low-impact theme, plus four related articles, videos or podcasts, a quick catch-up with someone fascinating from our collective (which, if you subscribe, could be you), plus planet-positive tips from other readers and all the latest BRiMM news. Oh, and we mustn’t forget the weekly recipe and freshly spun playlist. Not bad for an entirely free newsletter.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WjPHxk",
+        "heading_DBXX3w"
+      ],
+      "custom_css": [
+        "div > div > div > div > h2.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-weight: 300 !important;}",
+        "div {width: 100% !important;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_6DKj38"
+    "image_banner_6DKj38",
+    "rich_text_KaFC8P"
   ]
 }
