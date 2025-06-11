@@ -321,7 +321,8 @@
         ".banner__content--text {max-width: 100% !important; text-align: center !important; padding-bottom: 20px;}",
         "div > div {display: flex; flex-direction: column; align-items: center;}",
         ".banner--medium {height: auto !important;}",
-        ".banner--sticky-mobile {position: relative;}"
+        ".banner--sticky-mobile {position: relative;}",
+        ".banner__content {padding-bottom: 0px !important;}"
       ],
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
