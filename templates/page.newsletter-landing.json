@@ -224,6 +224,56 @@
         "padding_top": 28,
         "padding_bottom": 60
       }
+    },
+    "rich_text_xMNf4e": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Tgc6Qg": {
+          "type": "heading",
+          "settings": {
+            "heading": "What you’ll get every Sunday",
+            "heading_size": "h1"
+          }
+        },
+        "text_kaC6QK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sunday deep-dive to reset your week<br/>Smart, conscious takes you’ll actually want to read<br/>Curated picks to do, eat, drink, buy, watch, wear and travel to<br/>Real voices from the BRiMM collective<br/>A playlist to set the vibe</p>"
+          }
+        },
+        "heading_MHqggB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plus on Thursdays",
+            "heading_size": "h1"
+          }
+        },
+        "text_jjQEbP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The inside-track on BRiMM happenings, from the latest shop-drops to upcoming exclusive events, offers and brand news</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tgc6Qg",
+        "text_kaC6QK",
+        "heading_MHqggB",
+        "text_jjQEbP"
+      ],
+      "custom_css": [
+        "h2 {color: #eb492b !important;}",
+        "p {color: black !important; font-weight: 500; font-size: 18px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -232,6 +282,7 @@
     "rich_text_KaFC8P",
     "rich_text_9RAJwk",
     "multicolumn_Xtjff4",
-    "custom_liquid_7cyLYz"
+    "custom_liquid_7cyLYz",
+    "rich_text_xMNf4e"
   ]
 }
