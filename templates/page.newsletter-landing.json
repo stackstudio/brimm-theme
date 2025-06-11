@@ -312,7 +312,6 @@
         "paragraph_Kb7aFn",
         "email_form_xkKCEf"
       ],
-      "disabled": true,
       "custom_css": [
         "p {font-size: 1.6rem; line-height: 3.8rem;}",
         ".banner__content--form {width: 100% !important;}",
@@ -393,7 +392,7 @@
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
-        "collection_theme": "brimm-theme",
+        "collection_theme": "core-light-theme",
         "show_background_image": true,
         "sticky_on_mobile": false,
         "image_height": "medium",
