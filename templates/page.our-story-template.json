@@ -76,7 +76,8 @@
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-2",
-        "disable_bottom_padding": false
+        "disable_bottom_padding": false,
+        "disable_top_padding": false
       }
     },
     "image_with_text_kV37Vn": {
