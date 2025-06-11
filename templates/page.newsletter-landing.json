@@ -331,7 +331,7 @@
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-1",
         "mobile_content_alignment": "center",
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "inset_hero_G69whq": {
@@ -386,19 +386,22 @@
         "heading_qpwAr3",
         "email_form_g4jEEp"
       ],
+      "custom_css": [
+        ".banner--medium {height: auto !important;}"
+      ],
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
         "collection_theme": "brimm-theme",
         "show_background_image": true,
-        "sticky_on_mobile": true,
+        "sticky_on_mobile": false,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "mobile_content_alignment": "center",
-        "show_text_below": true
+        "show_text_below": false
       }
     }
   },
