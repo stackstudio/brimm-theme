@@ -317,7 +317,8 @@
         ".banner__content--form {width: 100% !important;}",
         ".banner__content--text {max-width: 100% !important; text-align: center !important; padding-bottom: 20px;}",
         "div > div {display: flex; flex-direction: column; align-items: center;}",
-        ".banner--medium {height: auto !important;}"
+        ".banner--medium {height: auto !important;}",
+        ".banner--sticky-mobile {position: relative;}"
       ],
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
@@ -387,7 +388,8 @@
         "email_form_g4jEEp"
       ],
       "custom_css": [
-        ".banner--medium {height: auto !important;}"
+        ".banner--medium {height: auto !important;}",
+        ".banner--sticky-mobile {position: relative;}"
       ],
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
