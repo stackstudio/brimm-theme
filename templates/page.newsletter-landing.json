@@ -159,6 +159,11 @@
         "column_fRTRPP",
         "column_y3Gtnz"
       ],
+      "custom_css": [
+        "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title {justify-content: center; padding-bottom: 10px !important;}",
+        "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title > h2 {font-weight: 600;}",
+        "@media only screen and (min-width: 768px) {div {display: none !important; }}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "DISCOVER PREVIOUS NEWSLETTERS",
