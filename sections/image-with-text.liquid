@@ -14,6 +14,12 @@
 
 <section class='section-{{ section.id }}-padding {{ section.settings.collection_theme }}'>
   <div class='page-width'>
+    {%- assign has_accordians = false -%}
+    {%- for block in section.blocks -%}
+      {%- if block.type == "accordians" -%}
+        {%- assign has_accordians = true -%}
+      {%- endif -%}
+    {%- endfor -%}
     <div class='image-with-text {% if has_accordians == true %}image-with-text--has-accordians{% endif %} {% if section.settings.image == blank %}no-image{% endif %} {% if section.settings.has_background != true %}no-bg{% endif %} image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
       <div class='image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}'>
         {%- if section.settings.mobile_heading != blank and section.settings.mobile_text != blank -%}
@@ -31,12 +37,7 @@
             {%- if section.settings.image_label != blank -%}
               <p class='image-with-text__label'>{{ section.settings.image_label }}</p>
             {%- endif -%}
-            {%- assign has_accordians = false -%}
-            {%- for block in section.blocks -%}
-              {%- if block.type == "accordians" -%}
-                {%- assign has_accordians = true -%}
-              {%- endif -%}
-            {%- endfor -%}
+
             <div
               class='image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %} {%if has_accordians == true%}accordian--has-images{% endif %}'
               {% if section.settings.height == 'adapt' and section.settings.image != blank %}
