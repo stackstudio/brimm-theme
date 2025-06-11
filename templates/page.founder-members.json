@@ -136,7 +136,7 @@
         "benefit_nJLKYV": {
           "type": "benefit",
           "settings": {
-            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
+            "benefit_content": "<h4>Journal Access</h4><p>Why it's good for</p>"
           }
         },
         "benefit_8eL4a7": {
@@ -175,7 +175,7 @@
         "supporter_yearly_price": "£60",
         "supporter_monthly_price": "£6",
         "supporter_button_label": "Join Now",
-        "supporter_button_url": "shopify://products/the-middle-tier-yearly",
+        "supporter_button_url": "shopify://products/supporter-tier",
         "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
         "supporter_benefit_two": "<h4>Journal Access</h4><p>Why this is good.</p>",
         "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
