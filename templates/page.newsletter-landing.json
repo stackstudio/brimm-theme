@@ -312,6 +312,7 @@
         "paragraph_Kb7aFn",
         "email_form_xkKCEf"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 1.6rem; line-height: 3.8rem;}",
         ".banner__content--form {width: 100% !important;}",
