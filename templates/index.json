@@ -130,6 +130,24 @@
         "heading": ""
       }
     },
+    "featured_blog_fTPrPd": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "heading": "STORIES TO INSPIRE",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "wrapped_mega_image_jH9J4f": {
       "type": "wrapped-mega-image",
       "blocks": {
@@ -172,59 +190,6 @@
         "color_scheme": "scheme-2",
         "disable_bottom_padding": false,
         "disable_top_padding": false
-      }
-    },
-    "image_with_text_Y8PWgJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JVGdpg": {
-          "type": "heading",
-          "settings": {
-            "heading": "Reset your life with our discovery boxes",
-            "heading_size": "h1"
-          }
-        },
-        "text_RcyyRE": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Want to kick start your Planet Positive Journey? Discover new brands effortlessly.</h3><p>Imagine resetting your kitchen or bathroom ritual to be Planet Positive - in one go. </p><p>And every purchase drives real change and impact.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_aGiLdD": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse Reset Boxes",
-            "button_link": "shopify://pages/reset-boxes",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_JVGdpg",
-        "text_RcyyRE",
-        "button_aGiLdD"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CleaningBox.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "image_with_text_yTMkNL": {
@@ -614,8 +579,8 @@
     "image_with_text_AgJ7ei",
     "collection_list_HHf8Cf",
     "hero_Wyq8H8",
+    "featured_blog_fTPrPd",
     "wrapped_mega_image_jH9J4f",
-    "image_with_text_Y8PWgJ",
     "image_with_text_yTMkNL",
     "inset_hero_yEK8EF",
     "featured_blog_XAVwgE",
