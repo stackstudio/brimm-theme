@@ -126,7 +126,8 @@
         "div {background: #d9fc85;}",
         "div > div > div {padding: 0px !important;}",
         "div > div > div > div > h2:nth-child(2) {margin-top: 0px !important;}",
-        "h2 {color: #1862b7;}"
+        "h2 {color: #1862b7;}",
+        "@media only screen and (max-width: 768px) {div {display: none !important; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -134,7 +135,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 40
       }
     },
     "rich_text_KaFC8P": {
