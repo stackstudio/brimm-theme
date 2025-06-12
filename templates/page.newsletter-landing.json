@@ -394,7 +394,7 @@
         "heading_Tgc6Qg": {
           "type": "heading",
           "settings": {
-            "heading": "What you’ll get every Sunday",
+            "heading": "WHAT YOU'LL FIND IN OUR SUNDAY NEWSLETTER",
             "heading_size": "h1"
           }
         },
@@ -407,7 +407,7 @@
         "heading_MHqggB": {
           "type": "heading",
           "settings": {
-            "heading": "Plus on Thursdays",
+            "heading": "PLUS ON THURSDAYS",
             "heading_size": "h1"
           }
         },
@@ -425,7 +425,7 @@
         "text_jjQEbP"
       ],
       "custom_css": [
-        "h2 {color: #eb492b !important;}",
+        "h2 {color: #eb492b !important; font-size: 38px;}",
         "p {color: black !important; font-weight: 500; font-size: 18px;}"
       ],
       "settings": {
