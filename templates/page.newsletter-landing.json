@@ -175,7 +175,7 @@
       "custom_css": [
         "div > div > div > div > h2.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-weight: 300 !important;}",
         "div {width: 100% !important;}",
-        "h2:nth-child(1) {font-size: 38px;}"
+        "h2:nth-child(1) {font-size: 38px; color: #eb492b !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
