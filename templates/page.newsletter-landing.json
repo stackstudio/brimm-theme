@@ -201,7 +201,8 @@
         "heading_BhFjp8"
       ],
       "custom_css": [
-        "h2 {font-size: 28px; color: #ea4928;}",
+        "h2 {color: #eb492b !important; font-size: 38px;}",
+        "p {color: black !important; font-weight: 500; font-size: 18px;}",
         "@media only screen and (max-width: 768px) {div {display: none !important; }}"
       ],
       "settings": {
