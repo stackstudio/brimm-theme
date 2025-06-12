@@ -17,6 +17,16 @@
         "padding_bottom": 28
       }
     },
+    "custom_liquid_FRD9A3": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n#Banner-template--25469075784022__image_banner_6DKj38 > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in.scroll-trigger--design-mode > div > div.banner__text.rte.body {\nfont-size: 18px;\n}\n\n@media only screen and (min-width: 768px) {\n#Banner-template--25469075784022__image_banner_6DKj38 > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in.scroll-trigger--design-mode > div {\ndisplay: none !important;\n}\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_6DKj38": {
       "type": "image-banner",
       "blocks": {
@@ -58,16 +68,15 @@
         ".brimm--button--primary {padding: 10px 30px 10px 30px;}",
         "@media only screen and (max-width: 768px) {div.banner__content {position: absolute !important; bottom: 10vh !important; } .gradient {background: rgb(0, 0, 0, 0.5); } .banner__media {height: 70vh !important; }}"
       ],
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/16_9.jpg",
+        "image": "shopify://shop_images/Screenshot_2025-06-12_at_23.16.13.png",
         "image_overlay_opacity": 30,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-6",
-        "image_behavior": "fixed",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -99,7 +108,6 @@
         "div > div > div > div > h2.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-weight: 300 !important;}",
         "div {width: 100% !important;}"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -127,7 +135,6 @@
         "h2 {font-size: 28px;}",
         "@media only screen and (max-width: 768px) {div {display: none !important; }}"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -193,7 +200,6 @@
         "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title > h2 {font-weight: 600;}",
         "@media only screen and (min-width: 768px) {div {display: none !important; }}"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "DISCOVER PREVIOUS NEWSLETTERS",
         "no-gap": false,
@@ -218,7 +224,6 @@
       "custom_css": [
         "@media only screen and (max-width: 768px) {div {display: none !important; }}"
       ],
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<style>\n  .carousel-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px 40px;\n    box-sizing: border-box;\n  }\n\n  .swiper {\n    width: 100%;\n    padding-bottom: 2rem;\n    opacity: 0;\n    transition: opacity 0.3s ease;\n  }\n\n  .swiper-initialized {\n    opacity: 1;\n  }\n\n  .swiper-slide {\n    text-align: center;\n    font-size: 18px;\n    background-color: #fff;\n    border-radius: 0;\n    overflow: hidden;\n    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.05);\n  }\n\n  .swiper-slide img {\n    display: block;\n    width: 100%;\n    height: auto;\n    object-fit: cover;\n    border-radius: 0;\n  }\n</style>\n\n<div class=\"carousel-container\">\n  <div class=\"swiper\">\n    <div class=\"swiper-wrapper\">\n      <div class=\"swiper-slide\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 1\"></div>\n      <div class=\"swiper-slide\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 2\"></div>\n      <div class=\"swiper-slide\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 3\"></div>\n      <div class=\"swiper-slide\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 4\"></div>\n      <div class=\"swiper-slide\"><img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-2_430x.jpg?v=1749079883\" alt=\"Slide 5\"></div>\n    </div>\n  </div>\n</div>\n\n<!-- Swiper JS CDN -->\n<script src=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js\"></script>\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css\">\n\n<script>\n  document.addEventListener('DOMContentLoaded', function () {\n    const swiper = new Swiper('.swiper', {\n      slidesPerView: 3,\n      spaceBetween: 20,\n      loop: true,\n      autoplay: {\n        delay: 3000,\n        disableOnInteraction: false,\n      },\n      pagination: false,\n      navigation: false,\n      on: {\n        afterInit: function () {\n          // Swiper tam yüklendiğinde opacity'i aç\n          document.querySelector('.swiper').classList.add('swiper-initialized');\n        }\n      }\n    });\n\n    // Hover'da autoplay duraklatma\n    const container = document.querySelector('.carousel-container');\n    container.addEventListener('mouseenter', () => swiper.autoplay.stop());\n    container.addEventListener('mouseleave', () => swiper.autoplay.start());\n  });\n</script>",
         "color_scheme": "",
@@ -232,7 +237,6 @@
         "@media only screen and (min-width: 768px) {div > div > section > div > div > div:nth-child(2) > p.quote {font-size: 2.3rem; } div > div > section > div > div > div:nth-child(1) > p.quote {font-size: 1.8rem; } div > div > section > div > div > div:nth-child(3) > p.quote {font-size: 1.45rem; } .brimm-testimonials {padding: 60px 60px; }}",
         "@media only screen and (max-width: 768px) {.brimm-testimonials {margin-top: -45px; } .quote {font-size: 1.75rem; }}"
       ],
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<section class=\"brimm-testimonials\">\n  <div class=\"container\">\n    <h2 class=\"h1\">HEAR WHAT OUR SUBSCRIBERS SAY ABOUT BRIMM’SLETTER?</h2>\n    <div class=\"testimonial-grid\">\n      <div class=\"testimonial-item\">\n        <p class=\"quote\">\"What brought me to BRiMM was the brilliant newsletter. Partly because it sounded just like me, and was highlighting things I love. And then there were all the other things I hadn't heard of yet that I wanted to go and check out.\"</p>\n        <p class=\"author\">— Tiff</p>\n      </div>\n      <div class=\"testimonial-item\">\n        <p class=\"quote\">\"It's not just any old well-written newsletter. There are at least about 25 links of amazing related stuff to go and dig into.\"</p>\n        <p class=\"author\">— Matt</p>\n      </div>\n      <div class=\"testimonial-item\">\n        <p class=\"quote\">\"I like the carefully curated features, news, events, how it highlights some places I love already i.e Silo restaurant in a recent one. I learn from other members about similar or new places and events, and love their music playlists, because I love to learn more about what others listen to. And I like the questionnaires too, and finding out more about fellow members' lives.\"</p>\n        <p class=\"author\">— Shiraz</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<style>\n.brimm-testimonials {\n  padding: 0px\n  font-family: inherit;\n}\n\n.brimm-testimonials .container {\n  max-width: 1400px;\n  margin: 0 auto;\n}\n\n.h1 {\n  text-align: center;\n  margin-bottom: 40px;\n  color: #EB492B;\n  font-family: inherit;\n}\n\n.testimonial-grid {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 40px;\n}\n\n.testimonial-item {\n  background: white;\n  padding: 30px;\n  border-left: 4px solid #EB492B;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n  height: 100%;\n  min-height: 100%;\n}\n\n.quote {\n  line-height: 1.6;\n  color: inherit;\n  font-family: inherit;\n  font-weight: 500;\n  flex-grow: 1;\n}\n\n.author {\n  margin-top: auto;\n  font-weight: bold;\n  color: #EB492B;\n  font-family: inherit;\n  padding-top: 20px;\n  font-size: 1.7rem;\n}\n\n@media(min-width: 768px) {\n  .testimonial-grid {\n    grid-template-columns: 1fr 1fr;\n  }\n}\n@media(min-width: 1024px) {\n  .testimonial-grid {\n    grid-template-columns: 1fr 1fr 1fr;\n  }\n}\n</style>",
         "color_scheme": "scheme-1",
@@ -280,7 +284,6 @@
         "h2 {color: #eb492b !important;}",
         "p {color: black !important; font-weight: 500; font-size: 18px;}"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -326,7 +329,6 @@
         ".banner--sticky-mobile {position: relative;}",
         ".banner__content {padding-bottom: 0px !important;}"
       ],
-      "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
         "collection_theme": "core-light-theme",
@@ -368,7 +370,6 @@
         "text_X97R3U",
         "text_b3eyYR"
       ],
-      "name": "Inset Hero",
       "settings": {
         "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01_87731b08-887c-489d-97b9-76c8976159f9.jpg",
         "color_scheme": "scheme-1"
@@ -397,7 +398,6 @@
         ".banner--medium {height: auto !important;}",
         ".banner--sticky-mobile {position: relative;}"
       ],
-      "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
         "collection_theme": "brimm-theme",
@@ -415,6 +415,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_FRD9A3",
     "image_banner_6DKj38",
     "rich_text_KaFC8P",
     "rich_text_9RAJwk",
