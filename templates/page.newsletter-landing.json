@@ -494,6 +494,7 @@
         "paragraph_Kb7aFn",
         "email_form_xkKCEf"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 1.6rem; line-height: 3.8rem;}",
         ".banner__content--form {width: 100% !important;}",
@@ -515,6 +516,16 @@
         "color_scheme": "scheme-1",
         "mobile_content_alignment": "center",
         "show_text_below": false
+      }
+    },
+    "custom_liquid_7VxJVT": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .quote-section {\n    max-width: 800px;\n    margin: 60px auto;\n    text-align: center;\n    padding: 0 20px;\n  }\n\n  .quote-text {\n    font-style: italic;\n    font-weight: 800;\n    font-size: 22px;\n    line-height: 1.6;\n    color: #000;\n    margin-bottom: 20px;\n  }\n\n  .quote-author {\n    font-size: 16px;\n    font-weight: 500;\n    color: #111;\n  }\n\n  @media screen and (max-width: 768px) {\n    .quote-text {\n      font-size: 18px;\n    }\n\n    .quote-author {\n      font-size: 14px;\n    }\n  }\n</style>\n\n<div class=\"quote-section\">\n  <div class=\"quote-text\">\n    “At BRiMM, we believe planet positive living is better together.<br>\n    Our newsletter isn’t just a read – it’s a community in your inbox.<br>\n    One that’s growing fast, sharing generously and always curious.”\n  </div>\n  <div class=\"quote-author\">\n    Becky Lucas, Editor-in-chief, BRiMM\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     },
     "inset_hero_G69whq": {
@@ -544,6 +555,7 @@
         "text_X97R3U",
         "text_b3eyYR"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01_87731b08-887c-489d-97b9-76c8976159f9.jpg",
         "color_scheme": "scheme-1"
@@ -570,7 +582,8 @@
       ],
       "custom_css": [
         ".banner--medium {height: auto !important;}",
-        ".banner--sticky-mobile {position: relative;}"
+        ".banner--sticky-mobile {position: relative;}",
+        "@media screen and (min-width: 749px) {.email-signup-banner .banner__content {padding-left: 0px; padding-right: 0px; }}"
       ],
       "settings": {
         "image_overlay_opacity": 0,
@@ -602,6 +615,7 @@
     "custom_liquid_xBUGNA",
     "rich_text_GJKHck",
     "email_signup_banner_C99DNC",
+    "custom_liquid_7VxJVT",
     "inset_hero_G69whq",
     "email_signup_banner_9BKfVd"
   ]
