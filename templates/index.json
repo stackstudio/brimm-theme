@@ -28,6 +28,67 @@
         "color_scheme": "scheme-6"
       }
     },
+    "image_with_text_AgJ7ei": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mQNArK": {
+          "type": "heading",
+          "settings": {
+            "heading": "A movement, not just a marketplace. Discover stories, products and people creating a planet-positive future",
+            "heading_size": "h1"
+          }
+        },
+        "text_UDy4qg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join 10K+ planet-positive citizens making every choice count.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_8kcVdC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a member",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mQNArK",
+        "text_UDy4qg",
+        "button_8kcVdC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC06378.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "hero_Wyq8H8": {
+      "type": "hero",
+      "name": "Hero section",
+      "settings": {
+        "heading": ""
+      }
+    },
     "wrapped_mega_image_jH9J4f": {
       "type": "wrapped-mega-image",
       "blocks": {
@@ -509,6 +570,8 @@
   },
   "order": [
     "justified_hero_qEnNDW",
+    "image_with_text_AgJ7ei",
+    "hero_Wyq8H8",
     "wrapped_mega_image_jH9J4f",
     "image_with_text_Y8PWgJ",
     "image_with_text_yTMkNL",
