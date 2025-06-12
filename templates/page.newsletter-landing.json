@@ -219,7 +219,7 @@
         "column_gDYmqQ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-3.jpg",
+            "image": "shopify://shop_images/10AprSM_BRiMM_MainCover-01.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -233,7 +233,7 @@
         "column_fRTRPP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-3.jpg",
+            "image": "shopify://shop_images/3May_Cover-01.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -247,7 +247,77 @@
         "column_y3Gtnz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BRiMM_-_Social_Media_Strategy_and_Content_Calendar-3.jpg",
+            "image": "shopify://shop_images/26March_BRiMM_Social-22.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8FRqrV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/April_4_Carrousel-30.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4tEUEj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/23_May_BRiMM-01.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wg8b8p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/8_May_Cover_BRiMM_MainCoverMagz.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wXfdKp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BRIMM_CollectivePower-01.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FGGAEQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/20March_BRiMM_V2-p1.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -262,7 +332,12 @@
       "block_order": [
         "column_gDYmqQ",
         "column_fRTRPP",
-        "column_y3Gtnz"
+        "column_y3Gtnz",
+        "column_8FRqrV",
+        "column_4tEUEj",
+        "column_Wg8b8p",
+        "column_wXfdKp",
+        "column_FGGAEQ"
       ],
       "custom_css": [
         "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title {justify-content: center; padding-bottom: 10px !important;}",
@@ -294,7 +369,7 @@
         "@media only screen and (max-width: 768px) {div {display: none !important; }}"
       ],
       "settings": {
-        "custom_liquid": "<style>\n  .carousel-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px 40px;\n    box-sizing: border-box;\n  }\n\n  .swiper {\n    width: 100%;\n    padding-bottom: 2rem;\n    opacity: 0;\n    transition: opacity 0.3s ease;\n  }\n\n  .swiper-initialized {\n    opacity: 1;\n  }\n\n  .swiper-slide {\n    text-align: center;\n    font-size: 18px;\n    background-color: #fff;\n    border-radius: 0;\n    overflow: hidden;\n    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.05);\n  }\n\n  .swiper-slide img {\n    display: block;\n    width: 100%;\n    height: auto;\n    object-fit: cover;\n    border-radius: 0;\n  }\n</style>\n\n<div class=\"carousel-container\">\n  <div class=\"swiper\">\n    <div class=\"swiper-wrapper\">\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/10AprSM_BRiMM_MainCover-01.jpg?v=1749762140\" alt=\"Slide 1\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/3May_Cover-01.jpg?v=1749762141\" alt=\"Slide 2\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/26March_BRiMM_Social-22.jpg?v=1749762141\" alt=\"Slide 3\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/April_4_Carrousel-30.jpg?v=1749762141\" alt=\"Slide 4\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/23_May_BRiMM-01.jpg?v=1749762142\" alt=\"Slide 5\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/8_May_Cover_BRiMM_MainCoverMagz.jpg?v=1749762142\" alt=\"Slide 6\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRIMM_CollectivePower-01.jpg?v=1749762143\" alt=\"Slide 7\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/20March_BRiMM_V2-p1.jpg?v=1749762142\" alt=\"Slide 8\">\n      </div>\n    </div>\n  </div>\n</div>\n\n\n<!-- Swiper JS CDN -->\n<script src=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js\"></script>\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css\">\n\n<script>\n  document.addEventListener('DOMContentLoaded', function () {\n    const swiper = new Swiper('.swiper', {\n      slidesPerView: 3,\n      spaceBetween: 20,\n      loop: true,\n      autoplay: {\n        delay: 3000,\n        disableOnInteraction: false,\n      },\n      pagination: false,\n      navigation: false,\n      on: {\n        afterInit: function () {\n          // Swiper tam yüklendiğinde opacity'i aç\n          document.querySelector('.swiper').classList.add('swiper-initialized');\n        }\n      }\n    });\n\n    // Hover'da autoplay duraklatma\n    const container = document.querySelector('.carousel-container');\n    container.addEventListener('mouseenter', () => swiper.autoplay.stop());\n    container.addEventListener('mouseleave', () => swiper.autoplay.start());\n  });\n</script>",
+        "custom_liquid": "<style>\n  .carousel-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px 40px;\n    box-sizing: border-box;\n  }\n\n  .swiper {\n    width: 100%;\n    padding-bottom: 2rem;\n    opacity: 0;\n    transition: opacity 0.3s ease;\n  }\n\n  .swiper-initialized {\n    opacity: 1;\n  }\n\n  .swiper-slide {\n    text-align: center;\n    font-size: 18px;\n    background-color: #fff;\n    border-radius: 0;\n    overflow: hidden;\n    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.05);\n  }\n\n  .swiper-slide img {\n    display: block;\n    width: 100%;\n    height: auto;\n    object-fit: cover;\n    border-radius: 0;\n  }\n</style>\n\n<div class=\"carousel-container\">\n  <div class=\"swiper\">\n    <div class=\"swiper-wrapper\">\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/10AprSM_BRiMM_MainCover-01.jpg?v=1749762140\" alt=\"Slide 1\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/3May_Cover-01.jpg?v=1749762141\" alt=\"Slide 2\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/26March_BRiMM_Social-22.jpg?v=1749762141\" alt=\"Slide 3\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/April_4_Carrousel-30.jpg?v=1749762141\" alt=\"Slide 4\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/23_May_BRiMM-01.jpg?v=1749762142\" alt=\"Slide 5\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/8_May_Cover_BRiMM_MainCoverMagz.jpg?v=1749762142\" alt=\"Slide 6\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRIMM_CollectivePower-01.jpg?v=1749762143\" alt=\"Slide 7\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/20March_BRiMM_V2-p1.jpg?v=1749762142\" alt=\"Slide 8\">\n      </div>\n    </div>\n  </div>\n</div>\n\n<!-- Swiper JS CDN -->\n<script src=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js\"></script>\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css\">\n\n<script>\n  document.addEventListener('DOMContentLoaded', function () {\n    const swiper = new Swiper('.swiper', {\n      slidesPerView: 3,\n      spaceBetween: 20,\n      loop: true,\n      autoplay: {\n        delay: 3000,\n        disableOnInteraction: false,\n      },\n      pagination: false,\n      navigation: false,\n      on: {\n        afterInit: function () {\n          // Swiper tam yüklendiğinde opacity'i aç\n          document.querySelector('.swiper').classList.add('swiper-initialized');\n        }\n      }\n    });\n\n    // Hover'da autoplay duraklatma\n    const container = document.querySelector('.carousel-container');\n    container.addEventListener('mouseenter', () => swiper.autoplay.stop());\n    container.addEventListener('mouseleave', () => swiper.autoplay.start());\n  });\n</script>",
         "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 32
