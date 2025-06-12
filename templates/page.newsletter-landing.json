@@ -141,6 +141,16 @@
         "padding_bottom": 40
       }
     },
+    "custom_liquid_d696gz": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"max-width: 800px; margin: 0 auto; padding: 20px;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Screenshot_2025-06-12_at_23.41.59.png?v=1749760961&width=1250\" alt=\"Screenshot\" style=\"width: 100%; height: auto; display: block;\" />\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_KaFC8P": {
       "type": "rich-text",
       "blocks": {
@@ -478,6 +488,7 @@
     "custom_liquid_FRD9A3",
     "image_banner_6DKj38",
     "rich_text_7tpdVy",
+    "custom_liquid_d696gz",
     "rich_text_KaFC8P",
     "rich_text_9RAJwk",
     "multicolumn_Xtjff4",
