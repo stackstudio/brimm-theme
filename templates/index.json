@@ -82,6 +82,47 @@
         "padding_bottom": 36
       }
     },
+    "collection_list_HHf8Cf": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_QMbLXm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "reset-boxes"
+          }
+        },
+        "featured_collection_6m4wqm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "reset-boxes"
+          }
+        },
+        "featured_collection_9PCGgb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "reset-boxes"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_QMbLXm",
+        "featured_collection_6m4wqm",
+        "featured_collection_9PCGgb"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "RESET YOUR EVERYDAY",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "hero_Wyq8H8": {
       "type": "hero",
       "name": "Hero section",
@@ -95,13 +136,13 @@
         "heading_pmGa6r": {
           "type": "heading",
           "settings": {
-            "heading_text": "Low impact living with less sacrifice"
+            "heading_text": "Low impact. More joy"
           }
         },
         "top_paragraph_ftDW3C": {
           "type": "top_paragraph",
           "settings": {
-            "top_copy": "<p>BRiMM is a collective of brand founders, makers, dreamers and doers working together to prove that low-impact living isn't living less.</p>"
+            "top_copy": "<p>Living within limits isn’t living less - it’s living with what matters most</p>"
           }
         },
         "bottom_paragraph_wyQNJ7": {
@@ -571,6 +612,7 @@
   "order": [
     "justified_hero_qEnNDW",
     "image_with_text_AgJ7ei",
+    "collection_list_HHf8Cf",
     "hero_Wyq8H8",
     "wrapped_mega_image_jH9J4f",
     "image_with_text_Y8PWgJ",
