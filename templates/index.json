@@ -22,7 +22,6 @@
       "block_order": [
         "heading_DRd4EB"
       ],
-      "name": "Justified Hero",
       "settings": {
         "image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
         "color_scheme": "scheme-6"
@@ -59,7 +58,6 @@
         "text_UDy4qg",
         "button_8kcVdC"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/DSC06378.jpg",
         "video_embed": "",
@@ -109,7 +107,6 @@
         "featured_collection_6m4wqm",
         "featured_collection_9PCGgb"
       ],
-      "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "RESET YOUR EVERYDAY",
         "heading_size": "h1",
@@ -125,14 +122,12 @@
     },
     "hero_Wyq8H8": {
       "type": "hero",
-      "name": "Hero section",
       "settings": {
         "heading": ""
       }
     },
     "featured_blog_fTPrPd": {
       "type": "featured-blog",
-      "name": "t:sections.featured-blog.presets.name",
       "settings": {
         "heading": "STORIES TO INSPIRE",
         "heading_size": "h1",
@@ -184,7 +179,6 @@
         "bottom_paragraph_wyQNJ7",
         "cta_button_hhrbzr"
       ],
-      "name": "Mega",
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true&playerColor=e3f994&controlsVisibleOnLoad=false\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-2",
@@ -274,31 +268,11 @@
         "richtext_TcVUai",
         "cta_button_eMxNiy"
       ],
-      "name": "Inset Hero",
       "settings": {
         "image": "shopify://shop_images/Copy_of_5185423_MED.jpg",
         "split_header": true,
         "is_product": false,
         "color_scheme": "scheme-2"
-      }
-    },
-    "featured_blog_XAVwgE": {
-      "type": "featured-blog",
-      "disabled": true,
-      "name": "t:sections.featured-blog.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "blog": "journal",
-        "post_limit": 2,
-        "columns_desktop": 2,
-        "color_scheme": "scheme-6",
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "show_view_all": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "partner_logos_xMwzLh": {
@@ -372,6 +346,24 @@
       ],
       "settings": {
         "block_text": "Our beautiful brands"
+      }
+    },
+    "featured_blog_XAVwgE": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-6",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_tWTg8h": {
@@ -455,7 +447,6 @@
         "member_packages_fAB7BM"
       ],
       "disabled": true,
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Base_camp_package.jpg",
         "video_embed": "",
@@ -501,7 +492,6 @@
         "text_pG7FpY"
       ],
       "disabled": true,
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "video_embed": "",
         "has_background": true,
@@ -568,7 +558,6 @@
     },
     "hero_bMD8Ce": {
       "type": "hero",
-      "name": "Hero section",
       "settings": {
         "heading": ""
       }
@@ -577,6 +566,7 @@
   "order": [
     "justified_hero_qEnNDW",
     "image_with_text_AgJ7ei",
+    "partner_logos_xMwzLh",
     "collection_list_HHf8Cf",
     "hero_Wyq8H8",
     "featured_blog_fTPrPd",
@@ -584,7 +574,6 @@
     "image_with_text_yTMkNL",
     "inset_hero_yEK8EF",
     "featured_blog_XAVwgE",
-    "partner_logos_xMwzLh",
     "image_with_text_tWTg8h",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
