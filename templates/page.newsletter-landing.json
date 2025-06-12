@@ -126,8 +126,10 @@
       "custom_css": [
         "div {background: #d9fc85;}",
         "div > div > div {padding: 0px !important;}",
-        "div > div > div > div > h2:nth-child(2) {margin-top: 0px !important;}",
-        "h2 {color: #1862b7;}",
+        "div > div > div > div > h2:nth-child(1) {color: #1862b7;}",
+        "div > div > div > div > h2:nth-child(2) {margin-top: 0px !important; color: #1862b7;}",
+        "div > div > div > div > h2:nth-child(3) {font-size: 26px;}",
+        ".button {padding: 10px 40px 10px 40px; background: #ea4928;}",
         "@media only screen and (max-width: 768px) {div {display: none !important; }}"
       ],
       "settings": {
