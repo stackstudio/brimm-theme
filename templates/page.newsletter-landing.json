@@ -125,9 +125,9 @@
       "custom_css": [
         "div {background: #d9fc85;}",
         "div > div > div {padding: 0px !important;}",
-        "div > div > div > div > h2:nth-child(2) {margin-top: 0px !important;}"
+        "div > div > div > div > h2:nth-child(2) {margin-top: 0px !important;}",
+        "h2 {color: #1862b7;}"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
