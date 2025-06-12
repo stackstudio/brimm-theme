@@ -81,6 +81,62 @@
         "show_text_below": true
       }
     },
+    "rich_text_7tpdVy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Uk7cMX": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE PLANT POSITIVE EDIT:",
+            "heading_size": "h1"
+          }
+        },
+        "heading_WrjQUK": {
+          "type": "heading",
+          "settings": {
+            "heading": "BRIMM'S SUNDAY MORNING NEWSLETTER",
+            "heading_size": "h1"
+          }
+        },
+        "text_GncaTi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_RkVhMJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Uk7cMX",
+        "heading_WrjQUK",
+        "text_GncaTi",
+        "button_RkVhMJ"
+      ],
+      "custom_css": [
+        "div {background: #d9fc85;}",
+        "div > div > div {padding: 0px !important;}",
+        "div > div > div > div > h2:nth-child(2) {margin-top: 0px !important;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_KaFC8P": {
       "type": "rich-text",
       "blocks": {
@@ -416,6 +472,7 @@
     "main",
     "custom_liquid_FRD9A3",
     "image_banner_6DKj38",
+    "rich_text_7tpdVy",
     "rich_text_KaFC8P",
     "rich_text_9RAJwk",
     "multicolumn_Xtjff4",
