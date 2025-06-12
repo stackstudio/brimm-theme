@@ -400,29 +400,15 @@
         },
         "text_kaC6QK": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Sunday deep-dive to reset your week<br/>Smart, conscious takes you’ll actually want to read<br/>Curated picks to do, eat, drink, buy, watch, wear and travel to<br/>Real voices from the BRiMM collective<br/>A playlist to set the vibe</p>"
-          }
-        },
-        "heading_MHqggB": {
-          "type": "heading",
-          "settings": {
-            "heading": "PLUS ON THURSDAYS",
-            "heading_size": "h1"
-          }
-        },
-        "text_jjQEbP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The inside-track on BRiMM happenings, from the latest shop-drops to upcoming exclusive events, offers and brand news</p>"
           }
         }
       },
       "block_order": [
         "heading_Tgc6Qg",
-        "text_kaC6QK",
-        "heading_MHqggB",
-        "text_jjQEbP"
+        "text_kaC6QK"
       ],
       "custom_css": [
         "h2 {color: #eb492b !important; font-size: 38px;}",
@@ -434,6 +420,50 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_xBUGNA": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .custom-grid-wrapper {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px;\n    max-width: 600px;\n    margin: 0 auto;\n    padding: 40px 20px;\n  }\n\n  @media screen and (max-width: 768px) {\n    .custom-grid-wrapper {\n      grid-template-columns: repeat(2, 1fr);\n    }\n  }\n\n  .custom-box {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    height: 200px;\n    font-weight: bold;\n    text-align: center;\n    padding: 10px;\n    font-size: 18px;\n    border-radius: 4px;\n  }\n\n  .box-1 { background-color: #e6e1d3; color: #6c1d1d; }\n  .box-2 { background-color: #e7bdfd; color: #0047ab; }\n  .box-3 { background-color: #dcff84; color: #0047ab; }\n  .box-4 { background-color: #f1441b; color: #dcff84; }\n  .box-5 { background-color: #6c1d1d; color: #f1f1c0; }\n  .box-6 { background-color: #0057cc; color: #f1f1f1; }\n</style>\n\n<div class=\"custom-grid-wrapper\">\n  <div class=\"custom-box box-1\">LOW-IMPACT<br>INTERIORS</div>\n  <div class=\"custom-box box-2\">PLASTIC - FREE<br>SELF CARE</div>\n  <div class=\"custom-box box-3\">CIRCULAR<br>FASHION FINDS</div>\n  <div class=\"custom-box box-4\">FEEL GOOD<br>GATHERINGS</div>\n  <div class=\"custom-box box-5\">OFF-GRID<br>DESTINATIONS</div>\n  <div class=\"custom-box box-6\">PLANT BASED<br>RECIPES</div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_GJKHck": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JKjBLk": {
+          "type": "heading",
+          "settings": {
+            "heading": "PLUS ON THURSDAYS",
+            "heading_size": "h1"
+          }
+        },
+        "text_HNh7wF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The inside-track on BRiMM happenings, from the latest shop-drops to upcoming exclusive events, offers and brand news</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JKjBLk",
+        "text_HNh7wF"
+      ],
+      "custom_css": [
+        "h2 {color: #eb492b !important; font-size: 38px;}",
+        "p {color: black !important; font-weight: 500; font-size: 18px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
         "padding_bottom": 52
       }
     },
@@ -569,6 +599,8 @@
     "custom_liquid_7cyLYz",
     "custom_liquid_DMKHU8",
     "rich_text_xMNf4e",
+    "custom_liquid_xBUGNA",
+    "rich_text_GJKHck",
     "email_signup_banner_C99DNC",
     "inset_hero_G69whq",
     "email_signup_banner_9BKfVd"
