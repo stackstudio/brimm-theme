@@ -15,7 +15,7 @@
         "heading_DRd4EB": {
           "type": "heading",
           "settings": {
-            "heading_text": "WELCOME TO PLANET POSITIVE LIVING"
+            "heading_text": "LIVE BRIGHT, TREAD LIGHT. WELCOME TO THE ENOUGH STORE."
           }
         }
       },
@@ -68,7 +68,8 @@
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true&playerColor=e3f994&controlsVisibleOnLoad=false\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-2",
-        "disable_bottom_padding": false
+        "disable_bottom_padding": false,
+        "disable_top_padding": false
       }
     },
     "image_with_text_Y8PWgJ": {
