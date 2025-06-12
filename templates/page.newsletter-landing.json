@@ -342,7 +342,7 @@
       ],
       "custom_css": [
         "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title {justify-content: center; padding-bottom: 10px !important;}",
-        "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title > h2 {font-weight: 800; color: #ea4928;}",
+        "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title > h2 {font-weight: 800; color: #ea4928; font-size: 38px; text-align: center;}",
         "@media only screen and (min-width: 768px) {div {display: none !important; }}"
       ],
       "settings": {
