@@ -47,7 +47,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SIGN UP",
-            "button_link_1": "#signupnow",
+            "button_link_1": "#Banner-template--25469075784022__email_signup_banner_C99DNC",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -98,18 +98,19 @@
             "heading_size": "h1"
           }
         },
-        "text_GncaTi": {
-          "type": "text",
+        "heading_X6TMFU": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "heading": "SIGN UP NOW - IT'S FREE",
+            "heading_size": "h1"
           }
         },
         "button_RkVhMJ": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
+            "button_label": "SIGN UP",
+            "button_link": "#Banner-template--25469075784022__email_signup_banner_C99DNC",
+            "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -119,7 +120,7 @@
       "block_order": [
         "heading_Uk7cMX",
         "heading_WrjQUK",
-        "text_GncaTi",
+        "heading_X6TMFU",
         "button_RkVhMJ"
       ],
       "custom_css": [
@@ -132,7 +133,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 40
