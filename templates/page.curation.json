@@ -35,6 +35,51 @@
         "color_scheme": "scheme-6"
       }
     },
+    "image_with_text_N4ciKF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7QgCKH": {
+          "type": "heading",
+          "settings": {
+            "heading": "CURATED BY INDUSTRY EXPERTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_3HDg6g": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At BRiMM, every product is thoughtfully curated by industry experts (hello, Sam & Christabel) to ensure they not only perform beautifully but also smell and taste fantastic.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7QgCKH",
+        "text_3HDg6g"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Group_92.png",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "scheme-2",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "wrapped_mega_image_XFkj89": {
       "type": "wrapped-mega-image",
       "blocks": {
@@ -241,6 +286,7 @@
   "order": [
     "main",
     "justified_hero_EBXFMb",
+    "image_with_text_N4ciKF",
     "wrapped_mega_image_XFkj89",
     "collapsible_content_jAxa3T",
     "collapsible_content_XrFRnp",
