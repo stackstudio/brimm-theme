@@ -139,7 +139,7 @@
     "blocks": {
       "5557296251606798448": {
         "type": "shopify://apps/bold-subscriptions/blocks/bsub-embed/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
