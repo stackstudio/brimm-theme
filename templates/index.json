@@ -259,6 +259,75 @@
         "disable_top_padding": false
       }
     },
+    "multicolumn_tKFpqH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_B6w9Nt": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gWeFma": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Riq9p9": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_B6w9Nt",
+        "column_gWeFma",
+        "column_Riq9p9"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "EVENTS",
+        "no-gap": false,
+        "text_block": "Meet the makers, thinkers, dreamers shaping what’s next",
+        "heading_size": "h1",
+        "split_header": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_yTMkNL": {
       "type": "image-with-text",
       "blocks": {
@@ -571,6 +640,7 @@
     "hero_Wyq8H8",
     "featured_blog_fTPrPd",
     "wrapped_mega_image_jH9J4f",
+    "multicolumn_tKFpqH",
     "image_with_text_yTMkNL",
     "inset_hero_yEK8EF",
     "featured_blog_XAVwgE",
