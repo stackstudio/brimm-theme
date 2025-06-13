@@ -370,147 +370,25 @@
         "show_text_below": true
       }
     },
-    "collapsible_content_jAxa3T": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_LtxXzK": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Curation Step One",
-            "icon": "nut_free",
-            "row_content": "<p>We do this lovely thing</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_YtNq3X": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Curation Step Two",
-            "icon": "stopwatch",
-            "row_content": "<p>We do this lovely thing</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_PELV8K": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Curation Step Three",
-            "icon": "leather",
-            "row_content": "<p>We do this lovely thing</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_K9xngc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Curation Step Four",
-            "icon": "dairy",
-            "row_content": "<p>We do this lovely thing</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_LtxXzK",
-        "collapsible_row_YtNq3X",
-        "collapsible_row_PELV8K",
-        "collapsible_row_K9xngc"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "HOW CURATION WORKS",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_XrFRnp": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_HXDPdQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Vetting Step One",
-            "icon": "nut_free",
-            "row_content": "<p>We do this lovely thing</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3qDXhi": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Vetting Step Two",
-            "icon": "stopwatch",
-            "row_content": "<p>We do this lovely thing</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_QxCCn9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Vetting",
-            "icon": "leather",
-            "row_content": "<p>We do this lovely thing</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_mXiN6J": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Vetting Step Four",
-            "icon": "dairy",
-            "row_content": "<p>We do this lovely thing</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_HXDPdQ",
-        "collapsible_row_3qDXhi",
-        "collapsible_row_QxCCn9",
-        "collapsible_row_mXiN6J"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "HOW VETTING WORKS",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "inset_hero_GKhiqC": {
       "type": "inset-hero",
       "blocks": {
         "heading_eJbee9": {
           "type": "heading",
           "settings": {
-            "heading_text": "have your say"
+            "heading_text": "GET CURATED"
           }
         },
         "richtext_xfz9Xg": {
           "type": "richtext",
           "settings": {
-            "copy": "<p>Tell people in a couple of sentences why they should care about curation and vetting. It's important stuff.</p>"
+            "copy": "<p>Want to see how curation and vetting comes together to make planet-positive living easy and full of joy?</p>"
           }
         },
         "cta_button_CJaac4": {
           "type": "cta_button",
           "settings": {
-            "label": "Become a Founder Member",
+            "label": "See reset boxes",
             "link": "shopify://pages/founder-members",
             "style": "primary"
           }
@@ -522,7 +400,7 @@
         "cta_button_CJaac4"
       ],
       "settings": {
-        "image": "shopify://shop_images/unlicensed_stills_24127_kelsey-smith_1.png",
+        "image": "shopify://shop_images/UpCircle-is-the-Skincare-Brand-Pioneering-By-product-beauty.jpg",
         "split_header": false,
         "is_product": false,
         "color_scheme": "scheme-2"
@@ -543,8 +421,6 @@
     "image_banner_nGyVQM",
     "rich_text_xFmdpQ",
     "image_banner_z89KfE",
-    "collapsible_content_jAxa3T",
-    "collapsible_content_XrFRnp",
     "inset_hero_GKhiqC"
   ]
 }
