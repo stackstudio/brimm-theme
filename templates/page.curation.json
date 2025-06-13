@@ -57,7 +57,6 @@
         "heading_7QgCKH",
         "text_3HDg6g"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Group_92.png",
         "video_embed": "",
@@ -82,7 +81,6 @@
     },
     "partner_logos_hUUrNA": {
       "type": "partner-logos",
-      "name": "Partner Logos",
       "settings": {
         "block_text": "BRANDS OUR CURATION & VETTING EXPERTS HAVE WORKED with"
       }
@@ -109,7 +107,6 @@
         "heading_XaGQgz",
         "text_bQwVkC"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/20250514_BRIMM_652_1.png",
         "video_embed": "",
@@ -134,7 +131,6 @@
     },
     "partner_logos_pmqNqp": {
       "type": "partner-logos",
-      "name": "Partner Logos",
       "settings": {
         "block_text": "VETTING ACCREDITATONS"
       }
@@ -195,14 +191,13 @@
         "heading_PT6gHA",
         "text_iM9rTx"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 44
       }
     },
     "image_banner_ye89gH": {
@@ -239,9 +234,69 @@
         "text_giUUHq",
         "buttons_LeKMfK"
       ],
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/COS_May_Toned_Down_1_EDITED_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_T3hM7z": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "image_banner_nGyVQM": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DkaMhF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "headline-extra"
+          }
+        },
+        "text_jPnbpG": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_ETqdUU": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DkaMhF",
+        "text_jPnbpG",
+        "buttons_ETqdUU"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/UpCircle-is-the-Skincare-Brand-Pioneering-By-product-beauty.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -423,6 +478,8 @@
     "wrapped_mega_image_XFkj89",
     "rich_text_NXHXAh",
     "image_banner_ye89gH",
+    "rich_text_T3hM7z",
+    "image_banner_nGyVQM",
     "collapsible_content_jAxa3T",
     "collapsible_content_XrFRnp",
     "inset_hero_GKhiqC"
