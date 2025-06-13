@@ -127,9 +127,9 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "EVENT BENEFITS",
-            "text": "<p>Connection with like-minded people. Access to intimate supper clubs, screenings and panel events.</p>",
+            "text": "<p>Meet your community at intimate supper clubs, screenings, and panel events.</p>",
             "image_label": "",
-            "link_label": "Find out more",
+            "link_label": "",
             "link": "#"
           }
         },
@@ -140,10 +140,10 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "CONTENT BENEFITS",
-            "text": "<p>Member-only content from established writers each and every week.</p>",
+            "title": "INSPIRING CONTENT",
+            "text": "<p>Weekly member-only stories from leading writers—expect inspiration, clever tips, and expert insights.</p>",
             "image_label": "",
-            "link_label": "Find out more",
+            "link_label": "",
             "link": "#"
           }
         }
