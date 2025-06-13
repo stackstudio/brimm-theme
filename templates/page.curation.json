@@ -266,22 +266,22 @@
         "heading_DkaMhF": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "UPCIRCLE",
             "heading_size": "headline-extra"
           }
         },
         "text_jPnbpG": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "UpCircle transforms natural by-products - such as used coffee grounds and fruit stones - into highly effective skincare. They utilize recyclable and refillable packaging, are certified plastic-negative, and hold ethical certifications (B Corp, vegan, cruelty-free, and organic). UpCircle is transparent about its ingredients and actively supports community and environmental initiatives. While independent accreditation for all this innovation may not always be feasible, their commitment is undeniably inspiring and truly planet-positive.",
             "text_style": "body"
           }
         },
         "buttons_ETqdUU": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Learn more",
+            "button_link_1": "shopify://products/brimm-luxury-bathroom-reset-box",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
