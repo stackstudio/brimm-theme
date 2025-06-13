@@ -52,8 +52,8 @@
         "column_iidwx3": {
           "type": "column",
           "settings": {
-            "title": "Mid Tier",
-            "content": "<p>The middle tier. All standard benefits, with <strong>£40 credit every year</strong> towards reset boxes.</p>",
+            "title": "EXPLORER MEMBER",
+            "content": "<p>Enjoy all the benefits with £40 credit for Reset Boxes.</p>",
             "yearly_price": "£129",
             "monthly_price": "£12.99",
             "button_label": "Join now",
