@@ -265,11 +265,12 @@
         "column_B6w9Nt": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/DSC06433.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>E.L.V. DENIM, a British luxury brand dedicated to crafting timeless fashion pieces from 100% up-cycled materials, and BRiMM had a Negroni knees up. Imagine top fashionistas and planet-positive pioneers coming together to talk about what’s next.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -307,7 +308,6 @@
         "column_gWeFma",
         "column_Riq9p9"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "EVENTS",
         "no-gap": false,
@@ -387,19 +387,19 @@
         "heading_UiB8ar": {
           "type": "heading",
           "settings": {
-            "heading_text": "BECOME A BRiMM MEMBER"
+            "heading_text": "Membership that multiplies your impact"
           }
         },
         "richtext_TcVUai": {
           "type": "richtext",
           "settings": {
-            "copy": "<p>As a member you’re part of a collective that’s making a new way of living real - where every choice you make powers change and every member helps rewrite the rules.</p>"
+            "copy": "<p>Exclusive access to curated products, private content, and planet-positive events.</p>"
           }
         },
         "cta_button_eMxNiy": {
           "type": "cta_button",
           "settings": {
-            "label": "View Membership",
+            "label": "BECOME A MEMBER",
             "link": "shopify://pages/founder-members",
             "style": "primary"
           }
@@ -431,57 +431,6 @@
         "show_date": false,
         "show_author": false,
         "show_view_all": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_tWTg8h": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_8xHCC9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Featured founder members",
-            "heading_size": "h1"
-          }
-        },
-        "text_3ijQnt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We’ve handpicked a crew of planet-positive pioneers. Brand founders, activists and climate researchers who are already shaping the future of planet positive living with BRiMM.</p><p>Join them and help to shape BRiMM from the ground up.</p>",
-            "text_style": "body"
-          }
-        },
-        "accordians_kbAYmf": {
-          "type": "accordians",
-          "settings": {
-            "accordians": "<details name=\"founder\"\ndata-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Amy-Powney-creative-director-AKYN-2025.webp?v=1744822906\"\n>\n  <summary>Amy Powney</summary>\n  <p>Pioneering creative director</p>\n<p>Founder and Creative Director of AKYN. The former Creative Director of Mother of Pearl, Amy Powney is a UK based fashion designer and activist living in London, star of an award nominated documentary and recipient of the British Fashion Council /Vogue Designer Fashion Fund.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Anna_Foster_Head_Shot_3_1080x_28229f04-d1db-4916-99dc-f9dea8c3131b.webp?v=1744822907\" name=\"founder\">\n  <summary>Anna Foster</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/jocelyn.png?v=1744822909\" name=\"founder\">\n  <summary>Jocelyn Longdon</summary>\n  <p>Author, academic and activist</p>\n<p>Joycelyn Longdon is an award-winning environmental justice technologist, writer, and educator. She is a PhD candidate at the University of Cambridge, where her research focuses on justice-led conservation technologies for monitoring biodiversity with local communities in Ghana. Longdon is the founder of ClimateInColour, an influential platform making climate science more accessible and diverse. She was the 2022 Emerging Designer London Design Medal winner, featured in British Vogue’s ‘Forces for Change’ issue, and is recognized as a leading voice in climate justice and technology</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Chantelle_Nicholson.png?v=1744822908\" name=\"founder\">\n  <summary>Chantelle Nicholson</summary>\n  <p>Green Michelin Starred chef</p>\n<p>Chantelle Nicholson is a multi-award-winning chef, restaurateur, and author, celebrated for her commitment to sustainable, veg-forward cuisine. Originally from New Zealand, she is the founder of Apricity in Mayfair, a restaurant recognized with a Michelin Green Star for its focus on conscious cooking and regenerative practices. Nicholson is a leading advocate for seasonality and circularity in hospitality, serving as an ambassador for Chefs in Schools, a board member for ReLondon, and a member of City Harvest’s Food Council.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Melanie_Rickey.png?v=1744822909\" name=\"founder\">\n  <summary>Orsola de Castro</summary>\n  <p>Sustainable fashion activist</p>\n<p>Orsola de Castro is an internationally recognized leader in sustainable fashion, known for her pioneering work in upcycling and industry activism. She founded the upcycling label From Somewhere and co-founded Estethica at London Fashion Week. In 2013, she launched Fashion Revolution, now the world’s largest fashion activism movement, and is the author of Loved Clothes Last.</p>\n</details>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8xHCC9",
-        "text_3ijQnt",
-        "accordians_kbAYmf"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "FEATURED FOUNDER MEMBERS",
-        "mobile_text": "<p>We’ve handpicked a crew of planet-positive pioneers. Brand founders, activists and climate researchers who are already shaping the future of planet positive living with BRiMM.</p><p>Join them and help to shape BRiMM from the ground up.</p>",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -644,7 +593,6 @@
     "image_with_text_yTMkNL",
     "inset_hero_yEK8EF",
     "featured_blog_XAVwgE",
-    "image_with_text_tWTg8h",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
     "email_signup_banner_644mkD",
