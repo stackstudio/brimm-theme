@@ -30,9 +30,8 @@
       "block_order": [
         "heading_V63QpY"
       ],
-      "name": "Justified Hero",
       "settings": {
-        "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01_87731b08-887c-489d-97b9-76c8976159f9.jpg",
+        "image": "shopify://shop_images/20250514_BRIMM_445_1.png",
         "color_scheme": "scheme-6"
       }
     },
@@ -72,7 +71,6 @@
         "bottom_paragraph_iqPwGQ",
         "cta_button_rfjdXC"
       ],
-      "name": "Mega",
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-2",
@@ -175,7 +173,6 @@
         "column_hRaUey",
         "column_8ADtcz"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "HOW WE'RE DIFFERENT",
         "no-gap": false,
@@ -395,7 +392,6 @@
         "row_KCc38A",
         "row_U9WqRj"
       ],
-      "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -624,7 +620,6 @@
         "button_C9WmFn"
       ],
       "disabled": true,
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "video_embed": "",
         "has_background": true,
@@ -675,7 +670,6 @@
         "richtext_fFAaAV",
         "cta_button_eMxNiy"
       ],
-      "name": "Inset Hero",
       "settings": {
         "image": "shopify://shop_images/Copy_of_5185423_MED.jpg",
         "split_header": true,
