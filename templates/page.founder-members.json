@@ -35,73 +35,6 @@
         "color_scheme": "scheme-6"
       }
     },
-    "membership_columns_XcwD66": {
-      "type": "membership-columns",
-      "blocks": {
-        "column_wKBTNm": {
-          "type": "column",
-          "settings": {
-            "title": "Pioneer Member",
-            "content": "<p>Experience the ultimate in planet-positive living. All the benefits, plus £80 credit for Reset Boxes</p>",
-            "yearly_price": "£180",
-            "monthly_price": "£18",
-            "button_label": "Join now",
-            "button_url": "shopify://products/the-top-membership"
-          }
-        },
-        "column_iidwx3": {
-          "type": "column",
-          "settings": {
-            "title": "EXPLORER MEMBER",
-            "content": "<p>Enjoy all the benefits with £40 credit for Reset Boxes.</p>",
-            "yearly_price": "£120",
-            "monthly_price": "£12",
-            "button_label": "Join now",
-            "button_url": "shopify://products/the-middle-tier-membership"
-          }
-        },
-        "benefit_nJLKYV": {
-          "type": "benefit",
-          "settings": {
-            "benefit_content": "<h4>EVENTS</h4><p>Members-only invites to intimate supper clubs, film screenings and field trips.</p>"
-          }
-        },
-        "benefit_8eL4a7": {
-          "type": "benefit",
-          "settings": {
-            "benefit_content": "<h4>planet fund</h4><p>10% of your order supports the Planet Fund to help brands cut emissions.</p>"
-          }
-        },
-        "benefit_i3ETkR": {
-          "type": "benefit",
-          "settings": {
-            "benefit_content": "<h4>Journal Access</h4><p>Inspiration from top writers on planet-positive fashion, travel, beauty, home and food.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "column_wKBTNm",
-        "column_iidwx3",
-        "benefit_nJLKYV",
-        "benefit_8eL4a7",
-        "benefit_i3ETkR"
-      ],
-      "settings": {
-        "heading": "CHOOSE YOUR MEMBERSHIP",
-        "subheading": "<p>Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards</p>",
-        "supporter_heading": "Supporter Tier",
-        "supporter_text": "<p>Join as a Supporter and make a meaningful impact</p>",
-        "supporter_yearly_price": "£60",
-        "supporter_monthly_price": "£6",
-        "supporter_button_label": "Join Now",
-        "supporter_button_url": "shopify://products/supporter-tier",
-        "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
-        "supporter_benefit_two": "<h4>Journal Access</h4><p>Why this is good.</p>",
-        "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
-        "global_benefits": "<p><strong>All our tiers offer…</strong></p><h4>CASHBACK</h4><p>10% cashback on every order - making it easy to choose planet-positive products.</p><h4>PLANET FUND</h4><p>10% of every order goes to the Planet Fund - fuelling brands’ climate action.</p><h4>EVENTS</h4><p>Exclusive invites to intimate supper clubs, film screenings and field trips.</p><h4>JOURNAL ACCESS</h4><p>Get inspired by leading voices in planet-positive fashion, travel, beauty, home, and (irresistible) food.</p>",
-        "columns": 3
-      }
-    },
     "multicolumn_XGLUDx": {
       "type": "multicolumn",
       "blocks": {
@@ -171,6 +104,73 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "membership_columns_XcwD66": {
+      "type": "membership-columns",
+      "blocks": {
+        "column_wKBTNm": {
+          "type": "column",
+          "settings": {
+            "title": "Pioneer Member",
+            "content": "<p>Experience the ultimate in planet-positive living. All the benefits, plus £80 credit for Reset Boxes</p>",
+            "yearly_price": "£180",
+            "monthly_price": "£18",
+            "button_label": "Join now",
+            "button_url": "shopify://products/the-top-membership"
+          }
+        },
+        "column_iidwx3": {
+          "type": "column",
+          "settings": {
+            "title": "EXPLORER MEMBER",
+            "content": "<p>Enjoy all the benefits with £40 credit for Reset Boxes.</p>",
+            "yearly_price": "£120",
+            "monthly_price": "£12",
+            "button_label": "Join now",
+            "button_url": "shopify://products/the-middle-tier-membership"
+          }
+        },
+        "benefit_nJLKYV": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>EVENTS</h4><p>Members-only invites to intimate supper clubs, film screenings and field trips.</p>"
+          }
+        },
+        "benefit_8eL4a7": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>planet fund</h4><p>10% of your order supports the Planet Fund to help brands cut emissions.</p>"
+          }
+        },
+        "benefit_i3ETkR": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>Journal Access</h4><p>Inspiration from top writers on planet-positive fashion, travel, beauty, home and food.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_wKBTNm",
+        "column_iidwx3",
+        "benefit_nJLKYV",
+        "benefit_8eL4a7",
+        "benefit_i3ETkR"
+      ],
+      "settings": {
+        "heading": "CHOOSE YOUR MEMBERSHIP",
+        "subheading": "<p>Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards</p>",
+        "supporter_heading": "Supporter Tier",
+        "supporter_text": "<p>Join as a Supporter and make a meaningful impact</p>",
+        "supporter_yearly_price": "£60",
+        "supporter_monthly_price": "£6",
+        "supporter_button_label": "Join Now",
+        "supporter_button_url": "shopify://products/supporter-tier",
+        "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_two": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "global_benefits": "<p><strong>All our tiers offer…</strong></p><h4>CASHBACK</h4><p>10% cashback on every order - making it easy to choose planet-positive products.</p><h4>PLANET FUND</h4><p>10% of every order goes to the Planet Fund - fuelling brands’ climate action.</p><h4>EVENTS</h4><p>Exclusive invites to intimate supper clubs, film screenings and field trips.</p><h4>JOURNAL ACCESS</h4><p>Get inspired by leading voices in planet-positive fashion, travel, beauty, home, and (irresistible) food.</p>",
+        "columns": 3
       }
     },
     "image_with_text_GG3a9F": {
@@ -553,8 +553,8 @@
   "order": [
     "main",
     "justified_hero_HkX8CR",
-    "membership_columns_XcwD66",
     "multicolumn_XGLUDx",
+    "membership_columns_XcwD66",
     "image_with_text_GG3a9F",
     "multicolumn_8pNr8C",
     "collapsible_content_HmpeVH",
