@@ -80,6 +80,65 @@
         "padding_bottom": 36
       }
     },
+    "partner_logos_hUUrNA": {
+      "type": "partner-logos",
+      "name": "Partner Logos",
+      "settings": {
+        "block_text": "BRANDS OUR CURATION & VETTING EXPERTS HAVE WORKED AT"
+      }
+    },
+    "image_with_text_iKBBfX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XaGQgz": {
+          "type": "heading",
+          "settings": {
+            "heading": "rigourous vetting process",
+            "heading_size": "h1"
+          }
+        },
+        "text_bQwVkC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our rigorous 90+ point vetting process, developed by sustainability expert Tom Berry, is grounded in independent standards and accreditations. Tom has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XaGQgz",
+        "text_bQwVkC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/20250514_BRIMM_652_1.png",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "scheme-2",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "partner_logos_pmqNqp": {
+      "type": "partner-logos",
+      "name": "Partner Logos",
+      "settings": {
+        "block_text": "VETTING ACCREDITATONS"
+      }
+    },
     "wrapped_mega_image_XFkj89": {
       "type": "wrapped-mega-image",
       "blocks": {
@@ -287,6 +346,9 @@
     "main",
     "justified_hero_EBXFMb",
     "image_with_text_N4ciKF",
+    "partner_logos_hUUrNA",
+    "image_with_text_iKBBfX",
+    "partner_logos_pmqNqp",
     "wrapped_mega_image_XFkj89",
     "collapsible_content_jAxa3T",
     "collapsible_content_XrFRnp",
