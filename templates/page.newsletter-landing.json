@@ -179,7 +179,7 @@
         "div > div {display: flex; flex-direction: column; align-items: center;}",
         ".banner--medium {height: auto;}",
         ".banner--sticky-mobile {position: relative;}",
-        ".banner__content {padding-bottom: 80px; margin-top: -120px; z-index: 1;}",
+        ".banner__content {padding-bottom: 80px; margin-top: -120px; z-index: 0;}",
         "div {background: #d9fc85;}",
         "@media only screen and (max-width: 768px) {.banner__content {margin-top: -80px; padding-bottom: 60px; }}"
       ],
