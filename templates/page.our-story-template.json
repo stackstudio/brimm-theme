@@ -204,7 +204,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "James Haycock",
-            "text": "<p>Exited founder, angel investor and the vision behind BRiMM. James has been at the forefront of the London design scene for over a decade. Bringing together bright minds, building outstanding teams, and the best workplace culture you could ask for.</p>",
+            "text": "<p>Visionary founder and angel investor. A decade at the forefront of London design, James brings bright minds together and builds teams and culture that inspire.</p>",
             "image_label": "Founder & CEO",
             "link_label": "",
             "link": ""
@@ -218,7 +218,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Christabel Biella",
-            "text": "<p>With 20+ years experience of ecommerce startups and scale ups, Christabel brings rigour and focus across commercial, finance, supply chain and operations. She’s the glue between much of what we do at BRiMM.</p>",
+            "text": "<p>Ecommerce veteran with 20+ years in startups and scale-ups. She keeps commercial, finance, supply chain and operations tightly aligned - the glue of BRiMM.</p>",
             "image_label": "Commercial and Operations",
             "link_label": "",
             "link": ""
@@ -232,7 +232,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Dan Kolodziej",
-            "text": "<p>Working with the likes of L’Oreal, Penhaligons and Puig to create new digital experiences across retail and ecommerce, Dan likes to roll up his sleeves and wear many hats. (Both literally and figuratively) He also creates new startups from scratch for CPG brands (handy really).</p>",
+            "text": "<p>Digital pioneer for L’Oreal, Penhaligons, and Puig. Dan rolls up his sleeves across retail and ecommerce, building startups from scratch for CPG brands - versatile and hands-on.</p>",
             "image_label": "Product & Experience",
             "link_label": "",
             "link": ""
@@ -246,7 +246,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Becky Lucas",
-            "text": "<p>Vogue, Time Out, Condé Nast Traveller and Cosmopolitan. You name it, Becky’s worked with them. She knows what's going on, and how to write about it. Head honcho for our content, editorial and awesome newsletter (sign up if you haven't already, it’s ace).</p>",
+            "text": "<p>Editor extraordinaire with credits including Vogue, Time Out, and Condé Nast Traveller. She leads our content, editorial, and newsletter - sign up for some seriously good reads.</p>",
             "image_label": "Content & Editorial",
             "link_label": "",
             "link": ""
@@ -260,7 +260,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Sam Zimmerman",
-            "text": "<p>Beauty and brand consultant working with the likes of Tatler, Stylist and Grazia. Sam brings oodles of experience, carefully curating our beauty products. You can often see her in the Director chair when we shoot photos and videos, too.</p>",
+            "text": "<p>Beauty and brand consultant for Tatler, Stylist, and Grazia. Sam carefully curates our beauty picks and directs many of our photoshoots and videos. </p>",
             "image_label": "Head of Beauty",
             "link_label": "",
             "link": ""
@@ -274,7 +274,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Tom Berry",
-            "text": "<p>With over 20 years in sustainability, strategy, and innovation, Tom has led sustainability programs at Innocent Drinks and FARFETCH. He also sits on the steering committee for circular fashion innovation at the British Fashion Council.</p>",
+            "text": "<p>Sustainability strategist with 20+ years at Innocent Drinks and FARFETCH. Tom steers circular fashion innovation at the British Fashion Council. </p>",
             "image_label": "Sustainability Advisor",
             "link_label": "",
             "link": ""
@@ -288,21 +288,36 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Tiffanie Darke",
-            "text": "<p>Tiffanie Darke is a British writer and fashion journalist, renowned for her advocacy in sustainable fashion. Heard of the rule of 5 in fashion? Yeah, that's her. She’s served as the fashion editor for The Telegraph, The Times and Harrods. She once told Dan she liked his coat. He was made up.</p>",
+            "text": "<p>Fashion journalist and sustainable style advocate known for the rule of 5. Former fashion editor at The Telegraph, The Times, and Harrods. She once complimented Dan’s coat - a moment he still cherishes. </p>",
             "image_label": "Editorial and Fashion Advisor",
             "link_label": "",
             "link": ""
           }
         },
-        "column_jTU94U": {
+        "column_NLRQD7": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-15_at_7.41.39_PM.png",
             "image_is_icon": false,
-            "has_waitlist_cta": true,
-            "has_bg_color": true,
-            "title": "",
-            "text": "<h1>BECOME A FOUNDING MEMBER</h1><p>Take back your agency and jump in as one of a limited number of BRiMM founder members.<br/><br/>You'll get to shape BRiMM from the ground up. And every purchase with BRiMM is a vote on the future you want.<br/><br/>You'll also decide where we invest 10% of profits, helping your new favourite brands hit net zero - making our margin matter.<br/><br/>Ready to team up and turn the tide?<br/><br/>Sign up and get on the waitlist for our founder member launch.</p>",
-            "image_label": "",
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Ahmet Ugur Yilmaz",
+            "text": "<p>Marketing maestro with 12+ years at Meta, shaping ad campaigns and e-comm launches globally. Innovator in generative AI, featured in Vogue Business and Entrepreneur. </p>",
+            "image_label": "Editorial and Fashion Advisor",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xDjCk3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/matt_h.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Matt Hardisty",
+            "text": "<p>Brand strategist and marine restoration advocate, with 28 years shaping sustainability and social impact for Virgin Atlantic, Heineken and Eurostar. He’s the architect of BRiMM’s regenerative mission and how we show up in the world.</p>",
+            "image_label": "Brand Strategy",
             "link_label": "",
             "link": ""
           }
@@ -316,12 +331,13 @@
         "column_FaJEyV",
         "column_4gnWxR",
         "column_h8Gm7G",
-        "column_jTU94U"
+        "column_NLRQD7",
+        "column_xDjCk3"
       ],
       "settings": {
         "title": "WHO'S BEHIND BRiMM?",
         "no-gap": true,
-        "text_block": "We’re a Collective of climate optimists. Designers, doers and dreamers who believe in the power of enough. We’re supported by high-profile founder members, trusted contributors and world-class investors. And a growing network of brands and partners who share our vision. BRiMM is built by us, powered by you and sustained by all of us.",
+        "text_block": "We’re a collective of climate optimists who believe in the power of enough. Supported by an inspiring network of founder members, impactful brands and world-class investors, BRiMM is built by us, powered by you and sustained by all of us.",
         "heading_size": "h2",
         "split_header": false,
         "image_width": "full",
@@ -340,58 +356,6 @@
     },
     "multirow_cWpBrT": {
       "type": "multirow",
-      "blocks": {
-        "row_c3pXLf": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/unlicensed_stills_352537_lauren-jones_1.png",
-            "caption": "",
-            "heading": "STYLE AND SUBSTANCE",
-            "text": "<p>Sustainability shouldn't mean sacrificing style. Or joy. We're here for the beauty in better choices.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_E3rTne": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/unlicensed_stills_352518_tessa-burris_1.png",
-            "caption": "",
-            "heading": "OPTIMISM OVER OVERWHELM",
-            "text": "<p>The climate crisis. Is. A. Lot. We've been down but now believe in up.</p><p>Big changes starts with small, purposeful steps. We celebrate progress not perfection. Let's make it easier, welcoming and joyful. </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_KCc38A": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/KZPHW10031.jpg",
-            "caption": "",
-            "heading": "COMMUNITY OVER CHAOS",
-            "text": "<p>We believe in we over me. Belonging and collective action are the heart of everything we do. We're brighter together.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_U9WqRj": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Copy_of_DTS_HI-TREK_Fanette_Guilloud_11223.jpg_1.jpg",
-            "caption": "",
-            "heading": "ACTION OVER APATHY",
-            "text": "<p>Every purchase, every story, every member helps power real, measurable change. No greenwashing, no guilt trips - just brighter living for all.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_c3pXLf",
-        "row_E3rTne",
-        "row_KCc38A",
-        "row_U9WqRj"
-      ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
