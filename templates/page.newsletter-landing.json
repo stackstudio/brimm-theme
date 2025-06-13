@@ -174,8 +174,8 @@
       ],
       "custom_css": [
         "p {font-size: 1.6rem; line-height: 3.8rem;}",
-        ".banner__content--form {width: 100% !important;}",
-        ".banner__content--text {max-width: 100% !important; text-align: center !important; padding-bottom: 20px;}",
+        ".banner__content--form {width: 100%;}",
+        ".banner__content--text {max-width: 100%; text-align: center; padding-bottom: 20px;}",
         "div > div {display: flex; flex-direction: column; align-items: center;}",
         ".banner--medium {height: auto;}",
         ".banner--sticky-mobile {position: relative;}",
