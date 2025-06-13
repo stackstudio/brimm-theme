@@ -122,77 +122,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_FtmALJ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_qzDjWz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/purposefulcommerce.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "PURPOSEFUL COMMERCE",
-            "text": "<p>We don’t just sell planet-positive products - we reinvest a chunk (10%) of change you  into our Planet Fund, helping the brands you love go further, faster. Insetting, not offsetting impact.</p><p>This year, we’re investing £250k to put our money where our mouth is. Starting with £100k on solar energy for our brands. The rest - you decide.</p><p>Because shopping should power the planet, not just line pockets.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_hRaUey": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_66.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "CURATED, NOT OVERFLOWING",
-            "text": "<p>We’re the ‘enough store’, not the ‘everything store’. </p><p>Often find that where you shop is overflowing with too many brands, products And stuff. Do we really need it all?!</p><p></p><p>On BRiMM expect fewer, better, more beautiful things - each one vetted for quality, style and sustainability.</p><p>Less stuff, more swoon.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_8ADtcz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Frame_68.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "PEOPLE-POWERED IMPACT",
-            "text": "<p>Every member, every purchase, every brand is part of a feedback loop that multiplies good.</p><p>When you lower your impact, you help brands lower theirs too. All via carbon insetting. And Community isn't a buzzword here it's an engine for change.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_qzDjWz",
-        "column_hRaUey",
-        "column_8ADtcz"
-      ],
-      "settings": {
-        "title": "HOW WE'RE DIFFERENT",
-        "no-gap": false,
-        "text_block": "",
-        "heading_size": "h0",
-        "split_header": true,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_8pNr8C": {
       "type": "multicolumn",
       "blocks": {
@@ -647,7 +576,6 @@
     "justified_hero_qQAFRn",
     "wrapped_mega_image_aEQRcq",
     "image_with_text_kV37Vn",
-    "multicolumn_FtmALJ",
     "multicolumn_8pNr8C",
     "multirow_cWpBrT",
     "image_with_text_4HfRc9",
