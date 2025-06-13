@@ -136,6 +136,20 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "3574392619549291866": {
+        "type": "shopify://apps/memberr/blocks/memberr-sdk/194ab7be-4c67-4401-b894-70d3aeddbc73",
+        "disabled": true,
+        "settings": {
+          "launcher_visible_logged_in_only": false
+        }
+      },
+      "7584948915495707528": {
+        "type": "shopify://apps/joy-loyalty-program/blocks/app-embed/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
