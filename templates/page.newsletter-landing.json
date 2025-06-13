@@ -60,6 +60,7 @@
         "text_RW9NmT",
         "buttons_N36yaP"
       ],
+      "disabled": true,
       "custom_css": [
         "div.banner__content {justify-content: center !important;}",
         ".banner__box {display: flex !important; align-content: center !important; text-align: center !important;}",
@@ -107,6 +108,7 @@
         },
         "button_RkVhMJ": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "SIGN UP",
             "button_link": "#Banner-template--25469075784022__email_signup_banner_C99DNC",
@@ -124,7 +126,7 @@
         "button_RkVhMJ"
       ],
       "custom_css": [
-        "div {background: #d9fc85;}",
+        "div {background: #d9fc85; z-index: 9999;}",
         "div > div > div {padding: 0px !important;}",
         "div > div > div > div > h2:nth-child(1) {color: #1862b7; font-size: 36px;}",
         "div > div > div > div > h2:nth-child(2) {margin-top: 0px !important; font-size: 36px; color: #1862b7;}",
@@ -141,8 +143,62 @@
         "padding_bottom": 40
       }
     },
+    "email_signup_banner_C99DNC": {
+      "type": "email-signup-banner",
+      "blocks": {
+        "heading_nVtwHJ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "SIGN UP NOW TO GET INSTANT ACCESS TO",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_Kb7aFn": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our full archive of newsletters, playlists and recipes</p>",
+            "text_style": "body"
+          }
+        },
+        "email_form_xkKCEf": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_nVtwHJ",
+        "paragraph_Kb7aFn",
+        "email_form_xkKCEf"
+      ],
+      "custom_css": [
+        "p {font-size: 1.6rem; line-height: 3.8rem;}",
+        ".banner__content--form {width: 100% !important;}",
+        ".banner__content--text {max-width: 100% !important; text-align: center !important; padding-bottom: 20px;}",
+        "div > div {display: flex; flex-direction: column; align-items: center;}",
+        ".banner--medium {height: auto !important;}",
+        ".banner--sticky-mobile {position: relative;}",
+        ".banner__content {padding-bottom: 40px !important; margin-top: -120px;}",
+        "div {background: #d9fc85;}"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "collection_theme": "core-light-theme",
+        "show_background_image": true,
+        "sticky_on_mobile": false,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
     "custom_liquid_d696gz": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"max-width: 800px; margin: 0 auto; padding: 20px;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Screenshot_2025-06-12_at_23.41.59.png?v=1749760961&width=1250\" alt=\"Screenshot\" style=\"width: 100%; height: auto; display: block;\" />\n</div>",
         "color_scheme": "",
@@ -172,6 +228,7 @@
         "heading_WjPHxk",
         "heading_DBXX3w"
       ],
+      "disabled": true,
       "custom_css": [
         "div > div > div > div > h2.rich-text__heading.rte.inline-richtext.h2.scroll-trigger.animate--slide-in {font-weight: 300 !important;}",
         "div {width: 100% !important;}",
@@ -467,57 +524,6 @@
         "padding_bottom": 52
       }
     },
-    "email_signup_banner_C99DNC": {
-      "type": "email-signup-banner",
-      "blocks": {
-        "heading_nVtwHJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "SIGN UP NOW TO GET INSTANT ACCESS TO",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_Kb7aFn": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Our full archive of newsletters, playlists and recipes</p>",
-            "text_style": "body"
-          }
-        },
-        "email_form_xkKCEf": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_nVtwHJ",
-        "paragraph_Kb7aFn",
-        "email_form_xkKCEf"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "p {font-size: 1.6rem; line-height: 3.8rem;}",
-        ".banner__content--form {width: 100% !important;}",
-        ".banner__content--text {max-width: 100% !important; text-align: center !important; padding-bottom: 20px;}",
-        "div > div {display: flex; flex-direction: column; align-items: center;}",
-        ".banner--medium {height: auto !important;}",
-        ".banner--sticky-mobile {position: relative;}",
-        ".banner__content {padding-bottom: 0px !important;}"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "collection_theme": "core-light-theme",
-        "show_background_image": true,
-        "sticky_on_mobile": false,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
     "custom_liquid_7VxJVT": {
       "type": "custom-liquid",
       "settings": {
@@ -579,6 +585,7 @@
         "heading_qpwAr3",
         "email_form_g4jEEp"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner--medium {height: auto !important;}",
         ".banner--sticky-mobile {position: relative;}",
@@ -604,6 +611,7 @@
     "custom_liquid_FRD9A3",
     "image_banner_6DKj38",
     "rich_text_7tpdVy",
+    "email_signup_banner_C99DNC",
     "custom_liquid_d696gz",
     "rich_text_KaFC8P",
     "rich_text_9RAJwk",
@@ -613,7 +621,6 @@
     "rich_text_xMNf4e",
     "custom_liquid_xBUGNA",
     "rich_text_GJKHck",
-    "email_signup_banner_C99DNC",
     "custom_liquid_7VxJVT",
     "inset_hero_G69whq",
     "email_signup_banner_9BKfVd"
