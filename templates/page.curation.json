@@ -309,6 +309,67 @@
         "show_text_below": true
       }
     },
+    "rich_text_xFmdpQ": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "image_banner_z89KfE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_X76gcT": {
+          "type": "heading",
+          "settings": {
+            "heading": "KINFILL",
+            "heading_size": "headline-extra"
+          }
+        },
+        "text_MhjwJE": {
+          "type": "text",
+          "settings": {
+            "text": "Kinfill offers concentrated, non-toxic home cleaning products in reusable, elevated aluminum bottles - eliminating single-use plastics. Their plant-based, cruelty-free formulas are free from harsh chemicals, and all packaging is recyclable. With local production to minimize transport impact, Kinfill is also B Corp certified. While no standard currently exists for this level of design and sustainability detail, their commitment is genuine and not greenwashed.",
+            "text_style": "body"
+          }
+        },
+        "buttons_3w3N7E": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn more",
+            "button_link_1": "shopify://products/bathroom-minimalist-reset-box",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_X76gcT",
+        "text_MhjwJE",
+        "buttons_3w3N7E"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Kinfill_bottles.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "collapsible_content_jAxa3T": {
       "type": "collapsible-content",
       "blocks": {
@@ -480,6 +541,8 @@
     "image_banner_ye89gH",
     "rich_text_T3hM7z",
     "image_banner_nGyVQM",
+    "rich_text_xFmdpQ",
+    "image_banner_z89KfE",
     "collapsible_content_jAxa3T",
     "collapsible_content_XrFRnp",
     "inset_hero_GKhiqC"
