@@ -35,6 +35,80 @@
         "color_scheme": "scheme-6"
       }
     },
+    "membership_columns_XcwD66": {
+      "type": "membership-columns",
+      "blocks": {
+        "column_wKBTNm": {
+          "type": "column",
+          "settings": {
+            "title": "Pioneer Member",
+            "content": "<p><strong>Pioneer Member:</strong> Experience the ultimate in planet-positive living. All the benefits, plus £80 credit for Reset Boxes</p>",
+            "yearly_price": "£180",
+            "monthly_price": "£18",
+            "button_label": "Join now",
+            "button_url": "shopify://products/the-top-membership"
+          }
+        },
+        "column_iidwx3": {
+          "type": "column",
+          "settings": {
+            "title": "Mid Tier",
+            "content": "<p>The middle tier. All standard benefits, with <strong>£40 credit every year</strong> towards reset boxes.</p>",
+            "yearly_price": "£129",
+            "monthly_price": "£12.99",
+            "button_label": "Join now",
+            "button_url": "shopify://products/the-middle-tier-membership"
+          }
+        },
+        "benefit_nJLKYV": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>Journal Access</h4><p>Why it's good for</p>"
+          }
+        },
+        "benefit_8eL4a7": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
+          }
+        },
+        "benefit_i3ETkR": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
+          }
+        },
+        "benefit_RMhBXp": {
+          "type": "benefit",
+          "settings": {
+            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_wKBTNm",
+        "column_iidwx3",
+        "benefit_nJLKYV",
+        "benefit_8eL4a7",
+        "benefit_i3ETkR",
+        "benefit_RMhBXp"
+      ],
+      "settings": {
+        "heading": "CHOOSE YOUR MEMBERSHIP",
+        "subheading": "<p>Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards</p>",
+        "supporter_heading": "Supporter Tier",
+        "supporter_text": "<p>Support BRiMM and power the planet fund.</p>",
+        "supporter_yearly_price": "£60",
+        "supporter_monthly_price": "£6",
+        "supporter_button_label": "Join Now",
+        "supporter_button_url": "shopify://products/supporter-tier",
+        "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_two": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "global_benefits": "<p><strong>All our tiers offer…</strong></p><h4>CASHBACK</h4><p>10% cashback on every order - making it easy to choose planet-positive products</p><h4>PLANET FUND</h4><p>10% of every order goes to the Planet Fund - fuelling brands’ climate action</p><h4>EVENTS</h4><p>Exclusive invites to intimate supper clubs, film screenings and field trips</p><h4>JOURNAL ACCESS</h4><p>Get inspired by leading voices in planet-positive fashion, travel, beauty, home, and (irresistible) food</p>",
+        "columns": 3
+      }
+    },
     "multicolumn_XGLUDx": {
       "type": "multicolumn",
       "blocks": {
@@ -104,80 +178,6 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "membership_columns_XcwD66": {
-      "type": "membership-columns",
-      "blocks": {
-        "column_wKBTNm": {
-          "type": "column",
-          "settings": {
-            "title": "Top Tier",
-            "content": "<p>The top of the top tier. All standard benefits, with <strong>£80 credit every year</strong> towards reset boxes.</p>",
-            "yearly_price": "£129",
-            "monthly_price": "£12.99",
-            "button_label": "Join now",
-            "button_url": "shopify://products/the-top-membership"
-          }
-        },
-        "column_iidwx3": {
-          "type": "column",
-          "settings": {
-            "title": "Mid Tier",
-            "content": "<p>The middle tier. All standard benefits, with <strong>£40 credit every year</strong> towards reset boxes.</p>",
-            "yearly_price": "£129",
-            "monthly_price": "£12.99",
-            "button_label": "Join now",
-            "button_url": "shopify://products/the-middle-tier-membership"
-          }
-        },
-        "benefit_nJLKYV": {
-          "type": "benefit",
-          "settings": {
-            "benefit_content": "<h4>Journal Access</h4><p>Why it's good for</p>"
-          }
-        },
-        "benefit_8eL4a7": {
-          "type": "benefit",
-          "settings": {
-            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
-          }
-        },
-        "benefit_i3ETkR": {
-          "type": "benefit",
-          "settings": {
-            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
-          }
-        },
-        "benefit_RMhBXp": {
-          "type": "benefit",
-          "settings": {
-            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
-          }
-        }
-      },
-      "block_order": [
-        "column_wKBTNm",
-        "column_iidwx3",
-        "benefit_nJLKYV",
-        "benefit_8eL4a7",
-        "benefit_i3ETkR",
-        "benefit_RMhBXp"
-      ],
-      "settings": {
-        "heading": "CHOOSE A PACKAGE",
-        "subheading": "<p>We’re live in three categories with top, vetted brands—and more are joining weekly.</p>",
-        "supporter_heading": "Supporter Tier",
-        "supporter_text": "<p>Support BRiMM and power the planet fund.</p>",
-        "supporter_yearly_price": "£60",
-        "supporter_monthly_price": "£6",
-        "supporter_button_label": "Join Now",
-        "supporter_button_url": "shopify://products/supporter-tier",
-        "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
-        "supporter_benefit_two": "<h4>Journal Access</h4><p>Why this is good.</p>",
-        "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
-        "global_benefits": "<p><strong>All our tiers offer…</strong></p><h4>CASHBACK</h4><p>10% on all store orders go to you</p><h4>PLANET FUND</h4><p>10% on all store orders go to you</p><h4>SUPPER CLUBS</h4><p>10% on all store orders go to you</p><h4>FILM SCREENINGS</h4><p>10% on all store orders go to you</p><h4>FIELD TRIPS</h4><p>10% on all store orders go to you</p><h4>JOURNAL ACCESS</h4><p>10% on all store orders go to you</p>",
-        "columns": 3
       }
     },
     "wrapped_mega_image_LbEWxD": {
@@ -837,8 +837,8 @@
   "order": [
     "main",
     "justified_hero_HkX8CR",
-    "multicolumn_XGLUDx",
     "membership_columns_XcwD66",
+    "multicolumn_XGLUDx",
     "wrapped_mega_image_LbEWxD",
     "multicolumn_7QbhyP",
     "wrapped_mega_image_JcxHdJ",
