@@ -126,13 +126,13 @@
         "button_RkVhMJ"
       ],
       "custom_css": [
-        "div {background: #d9fc85; z-index: 2 !important;}",
+        "div {background: #d9fc85; z-index: 50 !important;}",
         "div > div > div {padding: 0px !important;}",
         "div > div > div > div > h2:nth-child(1) {color: #1862b7; font-size: 36px;}",
         "div > div > div > div > h2:nth-child(2) {margin-top: 0px !important; font-size: 36px; color: #1862b7;}",
         "div > div > div > div > h2:nth-child(3) {font-size: 26px;}",
         ".button {padding: 10px 40px 10px 40px; background: #ea4928;}",
-        "@media only screen and (max-width: 768px) {div {display: relative !important; } .isolate {margin-top: -45px; z-index: 2; }}"
+        "@media only screen and (max-width: 768px) {div {display: relative !important; } .isolate {margin-top: -45px; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -179,7 +179,7 @@
         "div > div {display: flex; flex-direction: column; align-items: center;}",
         ".banner--medium {height: auto;}",
         ".banner--sticky-mobile {position: relative;}",
-        ".banner__content {padding-bottom: 80px; margin-top: -120px; z-index: 1 !important;}",
+        ".banner__content {padding-bottom: 80px; margin-top: -120px;}",
         "div {background: #d9fc85;}",
         "@media only screen and (max-width: 768px) {.banner__content {margin-top: -80px; padding-bottom: 60px; }}"
       ],
