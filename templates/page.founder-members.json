@@ -54,8 +54,8 @@
           "settings": {
             "title": "EXPLORER MEMBER",
             "content": "<p>Enjoy all the benefits with £40 credit for Reset Boxes.</p>",
-            "yearly_price": "£129",
-            "monthly_price": "£12.99",
+            "yearly_price": "£120",
+            "monthly_price": "£12",
             "button_label": "Join now",
             "button_url": "shopify://products/the-middle-tier-membership"
           }
@@ -97,7 +97,7 @@
         "heading": "CHOOSE YOUR MEMBERSHIP",
         "subheading": "<p>Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards</p>",
         "supporter_heading": "Supporter Tier",
-        "supporter_text": "<p>Support BRiMM and power the planet fund.</p>",
+        "supporter_text": "<p>Join as a Supporter and make a meaningful impact</p>",
         "supporter_yearly_price": "£60",
         "supporter_monthly_price": "£6",
         "supporter_button_label": "Join Now",
