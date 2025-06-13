@@ -23,16 +23,15 @@
         "heading_bhAwHy": {
           "type": "heading",
           "settings": {
-            "heading_text": "THIS HEADING IS LIVING LIFE TO THE BRiMM"
+            "heading_text": "ONLY THE TRULY PLANET POSITIVE MAKE THE CUT"
           }
         }
       },
       "block_order": [
         "heading_bhAwHy"
       ],
-      "name": "Justified Hero",
       "settings": {
-        "image": "shopify://shop_images/KZSP10419.jpg",
+        "image": "shopify://shop_images/SBTRCT-09-02-2189400_79aace55-77f2-42b9-beeb-f623841fb895.jpg",
         "color_scheme": "scheme-6"
       }
     },
@@ -72,12 +71,12 @@
         "bottom_paragraph_QzYaMG",
         "cta_button_QnjMPj"
       ],
-      "name": "Mega",
       "settings": {
         "image": "shopify://shop_images/Journal__Image.jpg",
         "video_embed": "",
         "color_scheme": "scheme-2",
-        "disable_bottom_padding": false
+        "disable_bottom_padding": false,
+        "disable_top_padding": false
       }
     },
     "collapsible_content_jAxa3T": {
@@ -126,7 +125,6 @@
         "collapsible_row_PELV8K",
         "collapsible_row_K9xngc"
       ],
-      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
         "heading": "HOW CURATION WORKS",
@@ -188,7 +186,6 @@
         "collapsible_row_QxCCn9",
         "collapsible_row_mXiN6J"
       ],
-      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
         "heading": "HOW VETTING WORKS",
@@ -233,7 +230,6 @@
         "richtext_xfz9Xg",
         "cta_button_CJaac4"
       ],
-      "name": "Inset Hero",
       "settings": {
         "image": "shopify://shop_images/unlicensed_stills_24127_kelsey-smith_1.png",
         "split_header": false,
