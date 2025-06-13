@@ -77,12 +77,6 @@
           "settings": {
             "benefit_content": "<h4>Journal Access</h4><p>Inspiration from top writers on planet-positive fashion, travel, beauty, home and food.</p>"
           }
-        },
-        "benefit_RMhBXp": {
-          "type": "benefit",
-          "settings": {
-            "benefit_content": "<h4>Journal Access</h4><p>Why it's good</p>"
-          }
         }
       },
       "block_order": [
@@ -90,8 +84,7 @@
         "column_iidwx3",
         "benefit_nJLKYV",
         "benefit_8eL4a7",
-        "benefit_i3ETkR",
-        "benefit_RMhBXp"
+        "benefit_i3ETkR"
       ],
       "settings": {
         "heading": "CHOOSE YOUR MEMBERSHIP",
