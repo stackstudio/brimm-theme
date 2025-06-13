@@ -48,7 +48,7 @@
           "type": "button",
           "settings": {
             "button_label": "Become a member",
-            "button_link": "",
+            "button_link": "shopify://pages/member-sign-up-form",
             "button_style_secondary": false
           }
         }
@@ -78,6 +78,79 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "partner_logos_xMwzLh": {
+      "type": "partner-logos",
+      "blocks": {
+        "logo_B9Qmqw": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Frame_94_9a806a83-3e2d-42f2-bfcd-fb5c648bc176.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_h8HULL": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Frame_95_831c1d3a-5c34-4ccf-b695-c42ddd6655a2.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_9UPhxV": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Frame_98_563de907-800a-43f7-8a20-7b6ba8aa2b69.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_bHWgDG": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Frame_99_dc84d58b-43b4-444a-a17a-6cf1f8c6db50.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_xXyEq7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/KLEE_Instagram_Post_Square_1680x_9f421509-72d0-4d08-85e5-fcec190558f7.webp",
+            "alt_text": "Partner Logo",
+            "logo_width": 130
+          }
+        },
+        "logo_YPwt78": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_79.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_xEwxGT": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Frame_97.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        }
+      },
+      "block_order": [
+        "logo_B9Qmqw",
+        "logo_h8HULL",
+        "logo_9UPhxV",
+        "logo_bHWgDG",
+        "logo_xXyEq7",
+        "logo_YPwt78",
+        "logo_xEwxGT"
+      ],
+      "settings": {
+        "block_text": "Our beautiful brands"
       }
     },
     "collection_list_HHf8Cf": {
@@ -273,79 +346,6 @@
         "split_header": true,
         "is_product": false,
         "color_scheme": "scheme-2"
-      }
-    },
-    "partner_logos_xMwzLh": {
-      "type": "partner-logos",
-      "blocks": {
-        "logo_B9Qmqw": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_94_9a806a83-3e2d-42f2-bfcd-fb5c648bc176.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_h8HULL": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_95_831c1d3a-5c34-4ccf-b695-c42ddd6655a2.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_9UPhxV": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_98_563de907-800a-43f7-8a20-7b6ba8aa2b69.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_bHWgDG": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_99_dc84d58b-43b4-444a-a17a-6cf1f8c6db50.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_xXyEq7": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/KLEE_Instagram_Post_Square_1680x_9f421509-72d0-4d08-85e5-fcec190558f7.webp",
-            "alt_text": "Partner Logo",
-            "logo_width": 130
-          }
-        },
-        "logo_YPwt78": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/image_79.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_xEwxGT": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_97.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        }
-      },
-      "block_order": [
-        "logo_B9Qmqw",
-        "logo_h8HULL",
-        "logo_9UPhxV",
-        "logo_bHWgDG",
-        "logo_xXyEq7",
-        "logo_YPwt78",
-        "logo_xEwxGT"
-      ],
-      "settings": {
-        "block_text": "Our beautiful brands"
       }
     },
     "featured_blog_XAVwgE": {
