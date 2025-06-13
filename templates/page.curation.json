@@ -159,21 +159,12 @@
           "settings": {
             "bottom_copy": "<p>Smaller brands are often at the forefront of innovation. They’re not just crafting exceptional products; they’re setting the next generation of standards and accreditations that larger brands will follow (eventually).</p>"
           }
-        },
-        "cta_button_QnjMPj": {
-          "type": "cta_button",
-          "settings": {
-            "label": "And Link Somewhere",
-            "link": "shopify://products/bathroom-minimalist-reset-box",
-            "style": "primary"
-          }
         }
       },
       "block_order": [
         "heading_KF7Fji",
         "top_paragraph_WFXrGJ",
-        "bottom_paragraph_QzYaMG",
-        "cta_button_QnjMPj"
+        "bottom_paragraph_QzYaMG"
       ],
       "settings": {
         "image": "shopify://shop_images/ever-bottle-new-york-aluminium.webp",
@@ -181,6 +172,86 @@
         "color_scheme": "scheme-2",
         "disable_bottom_padding": false,
         "disable_top_padding": false
+      }
+    },
+    "rich_text_NXHXAh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PT6gHA": {
+          "type": "heading",
+          "settings": {
+            "heading": "CURIOUS ABOUT SOME EXAMPLES?",
+            "heading_size": "h1"
+          }
+        },
+        "text_iM9rTx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We also choose brands based on their provenance, innovation, and exceptional design. Together, we can help them establish the new standards of tomorrow.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PT6gHA",
+        "text_iM9rTx"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_banner_ye89gH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_KyCbfM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "headline-extra"
+          }
+        },
+        "text_giUUHq": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_LeKMfK": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KyCbfM",
+        "text_giUUHq",
+        "buttons_LeKMfK"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/COS_May_Toned_Down_1_EDITED_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "collapsible_content_jAxa3T": {
@@ -350,6 +421,8 @@
     "image_with_text_iKBBfX",
     "partner_logos_pmqNqp",
     "wrapped_mega_image_XFkj89",
+    "rich_text_NXHXAh",
+    "image_banner_ye89gH",
     "collapsible_content_jAxa3T",
     "collapsible_content_XrFRnp",
     "inset_hero_GKhiqC"
