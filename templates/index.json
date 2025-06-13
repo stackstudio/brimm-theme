@@ -328,59 +328,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_yTMkNL": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_CErazw": {
-          "type": "heading",
-          "settings": {
-            "heading": "Beautiful, design-led brands",
-            "heading_size": "h1"
-          }
-        },
-        "text_ztHWap": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We're an \"enough\" store not an \"everything\" store.<br/><br/>Discover responsibly curated products - vetted for style, substance and Planet Positivity. </p><p>We’ve done the hard work so you don’t have to. Switch to a shop where every purchase powers real change.<br/></p>",
-            "text_style": "body"
-          }
-        },
-        "button_iyRgCd": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse Products",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_CErazw",
-        "text_ztHWap",
-        "button_iyRgCd"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Brimm25_march27_-_Boxes0815_1_copy_2.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "inset_hero_yEK8EF": {
       "type": "inset-hero",
       "blocks": {
@@ -590,7 +537,6 @@
     "featured_blog_fTPrPd",
     "wrapped_mega_image_jH9J4f",
     "multicolumn_tKFpqH",
-    "image_with_text_yTMkNL",
     "inset_hero_yEK8EF",
     "featured_blog_XAVwgE",
     "image_with_text_rcKjFt",
