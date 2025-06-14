@@ -104,3 +104,23 @@
     }
   }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.newsletter-form');
+    if (!form) return;
+
+    form.addEventListener('submit', (e) => {
+      // Klaviyo async submit olduğundan, burada direk redirect yapmak doğru değil.
+      // Bu yüzden Klaviyo success mesajını beklemek gerekiyor.
+
+      // Örnek: 2 saniye sonra otomatik redirect (başarı varsayımıyla)
+      setTimeout(() => {
+        const successMsg = document.querySelector('.newsletter-success');
+        if (successMsg && successMsg.style.display !== 'none') {
+          window.location.href = '/pages/newsletter-thank-you-page';
+        }
+      }, 2000); 
+    });
+  }); 
+</script>
