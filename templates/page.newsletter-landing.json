@@ -636,6 +636,16 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom_liquid_JJ7cB8": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  /* Ana container */\n  .klaviyo-signup-form > div {\n    max-width: 480px !important;\n    margin: 0 auto !important;\n    padding: 0 10px !important;\n    box-sizing: border-box !important;\n  }\n\n  /* Yeni wrapper flex */\n  .newsletter-form__fields-wrapper {\n    display: flex !important;\n    width: 100% !important;\n    gap: 0 !important;\n  }\n\n  /* Email input */\n  .newsletter-form__field {\n    flex-grow: 1 !important;\n    height: 40px !important;\n    border-top-right-radius: 0 !important;\n    border-bottom-right-radius: 0 !important;\n    border-right: none !important;\n    padding: 0 12px !important;\n    font-size: 16px !important;\n    box-sizing: border-box !important;\n    min-width: 0 !important;\n  }\n\n  /* Submit button */\n  .newsletter-form__button {\n    flex-grow: 0 !important;\n    flex-shrink: 0 !important;\n    width: 100px !important;\n    height: 40px !important;\n    border-top-left-radius: 0 !important;\n    border-bottom-left-radius: 0 !important;\n    cursor: pointer !important;\n    font-size: 16px !important;\n    box-sizing: border-box !important;\n    border-left: 1px solid #ccc !important;\n  }\n\n  /* Checkbox ve label */\n  .newsletter-form__terms {\n    width: 100% !important;\n    margin-top: 8px !important;\n    font-size: 11px !important;\n    display: flex !important;\n    align-items: center !important;\n    gap: 6px !important;\n    color: #555 !important;\n  }\n\n  .newsletter-form__terms-input {\n    width: 14px !important;\n    height: 14px !important;\n    margin: 0 !important;\n    cursor: pointer !important;\n  }\n\n  .newsletter-form__terms-label-text a {\n    font-size: 11px !important;\n    text-decoration: underline !important;\n    color: #0073e6 !important;\n  }\n</style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    var form = document.querySelector('.klaviyo-signup-form .newsletter-form');\n    if (!form) return;\n\n    var emailInput = form.querySelector('input[type=\"email\"]');\n    var submitButton = form.querySelector('button[type=\"submit\"]');\n\n    if (emailInput && submitButton) {\n      // Yeni wrapper div oluştur\n      var wrapper = document.createElement('div');\n      wrapper.className = 'newsletter-form__fields-wrapper';\n\n      // Email input ve butonu wrapper içine taşı\n      emailInput.parentNode.insertBefore(wrapper, emailInput);\n      wrapper.appendChild(emailInput);\n      wrapper.appendChild(submitButton);\n    }\n  });\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -657,6 +667,7 @@
     "inset_hero_G69whq",
     "email_signup_banner_9BKfVd",
     "custom_liquid_wzEUfy",
-    "custom_liquid_UnWBBQ"
+    "custom_liquid_UnWBBQ",
+    "custom_liquid_JJ7cB8"
   ]
 }
