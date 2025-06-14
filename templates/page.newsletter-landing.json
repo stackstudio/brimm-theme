@@ -125,6 +125,7 @@
         "heading_X6TMFU",
         "button_RkVhMJ"
       ],
+      "disabled": true,
       "custom_css": [
         "div {background: #d9fc85; z-index: 2 !important;}",
         "div > div > div {padding: 0px !important;}",
@@ -172,6 +173,7 @@
         "paragraph_Kb7aFn",
         "email_form_xkKCEf"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 1.6rem; line-height: 3.8rem;}",
         ".banner__content--form {width: 100%;}",
@@ -258,6 +260,7 @@
       "block_order": [
         "heading_BhFjp8"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {color: #eb492b !important; font-size: 38px;}",
         "p {color: black !important; font-weight: 500; font-size: 18px;}",
@@ -398,6 +401,7 @@
         "column_wXfdKp",
         "column_FGGAEQ"
       ],
+      "disabled": true,
       "custom_css": [
         "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title {justify-content: center; padding-bottom: 10px !important;}",
         "div > div > div.title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin.multicolumn__title > h2 {font-weight: 800; color: #ea4928; font-size: 38px; text-align: center;}",
@@ -424,6 +428,7 @@
     },
     "custom_liquid_7cyLYz": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "@media only screen and (max-width: 768px) {div {display: none !important; }}"
       ],
@@ -436,6 +441,7 @@
     },
     "custom_liquid_DMKHU8": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "h2 {color: #eb492b !important; font-size: 38px; font-weight: 800;}",
         "@media only screen and (max-width: 768px) {.testimonial-title-wrapper {margin-top: -70px !important; }}"
@@ -469,6 +475,7 @@
         "heading_Tgc6Qg",
         "text_kaC6QK"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {color: #eb492b !important; font-size: 38px;}",
         "p {color: black !important; font-weight: 500; font-size: 18px;}"
@@ -484,6 +491,7 @@
     },
     "custom_liquid_xBUGNA": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .custom-grid-wrapper {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px;\n    max-width: 600px;\n    margin: 0 auto;\n    padding: 40px 20px;\n  }\n\n  @media screen and (max-width: 768px) {\n    .custom-grid-wrapper {\n      grid-template-columns: repeat(2, 1fr);\n    }\n  }\n\n  .custom-box {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    height: 200px;\n    font-weight: bold;\n    text-align: center;\n    padding: 10px;\n    font-size: 18px;\n    border-radius: 4px;\n  }\n\n  .box-1 { background-color: #e6e1d3; color: #6c1d1d; }\n  .box-2 { background-color: #e7bdfd; color: #0047ab; }\n  .box-3 { background-color: #dcff84; color: #0047ab; }\n  .box-4 { background-color: #f1441b; color: #dcff84; }\n  .box-5 { background-color: #6c1d1d; color: #f1f1c0; }\n  .box-6 { background-color: #0057cc; color: #f1f1f1; }\n</style>\n\n<div class=\"custom-grid-wrapper\">\n  <div class=\"custom-box box-1\">LOW-IMPACT<br>INTERIORS</div>\n  <div class=\"custom-box box-2\">PLASTIC - FREE<br>SELF CARE</div>\n  <div class=\"custom-box box-3\">CIRCULAR<br>FASHION FINDS</div>\n  <div class=\"custom-box box-4\">FEEL GOOD<br>GATHERINGS</div>\n  <div class=\"custom-box box-5\">OFF-GRID<br>DESTINATIONS</div>\n  <div class=\"custom-box box-6\">PLANT BASED<br>RECIPES</div>\n</div>",
         "color_scheme": "",
@@ -512,6 +520,7 @@
         "heading_JKjBLk",
         "text_HNh7wF"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {color: #eb492b !important; font-size: 38px;}",
         "p {color: black !important; font-weight: 500; font-size: 18px;}"
@@ -527,6 +536,7 @@
     },
     "custom_liquid_7VxJVT": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .quote-section {\n    max-width: 800px;\n    margin: 60px auto;\n    text-align: center;\n    padding: 0 20px;\n  }\n\n  .quote-text {\n    font-style: italic;\n    font-weight: 800;\n    font-size: 22px;\n    line-height: 1.6;\n    color: #000;\n    margin-bottom: 20px;\n  }\n\n  .quote-author {\n    font-size: 16px;\n    font-weight: 500;\n    color: #111;\n  }\n\n  @media screen and (max-width: 768px) {\n    .quote-text {\n      font-size: 18px;\n    }\n\n    .quote-author {\n      font-size: 14px;\n    }\n  }\n</style>\n\n<div class=\"quote-section\">\n  <div class=\"quote-text\">\n    “At BRiMM, we believe planet positive living is better together.<br>\n    Our newsletter isn’t just a read – it’s a community in your inbox.<br>\n    One that’s growing fast, sharing generously and always curious.”\n  </div>\n  <div class=\"quote-author\">\n    Becky Lucas, Editor-in-chief, BRiMM\n  </div>\n</div>",
         "color_scheme": "",
@@ -615,6 +625,17 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom_liquid_UnWBBQ": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .brimm-wrapper {\n    background-color: #D9FC86;\n  }\n\n  .brimm-section {\n    display: flex;\n    flex-direction: column;\n    gap: 40px;\n    padding: 40px 20px 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 768px) {\n    .brimm-section {\n      flex-direction: row-reverse;\n      padding: 60px 40px 30px;\n    }\n  }\n\n  .brimm-image {\n    display: flex;\n    justify-content: center;\n  }\n\n  @media (min-width: 768px) {\n    .brimm-image {\n      align-self: center;\n    }\n  }\n\n  .brimm-image img {\n    width: 100%;\n    max-width: 320px;\n    height: auto;\n    display: block;\n    border-radius: 12px;\n  }\n\n  .brimm-content {\n    flex: 1;\n  }\n\n  .brimm-content h1 {\n    font-size: 40px;\n    font-weight: 700;\n    color: #1C66B7;\n    margin: 0 0 12px;\n  }\n\n  .brimm-content h2 {\n    font-size: 22px;\n    font-weight: 700;\n    margin: 0 0 20px;\n    color: #000;\n  }\n\n  .brimm-content p {\n    font-size: 18px;\n    color: #000;\n    margin-bottom: 20px;\n  }\n\n  .klaviyo-signup-form {\n    width: 100%;\n    margin: 10px 0 20px;\n  }\n\n  .brimm-join-note {\n    font-size: 14px;\n    font-style: italic;\n    margin-bottom: 20px;\n  }\n\n  .brimm-testimonial-section {\n    background-color: #D9FC86;\n    padding: 30px 20px;\n  }\n\n  @media (min-width: 768px) {\n    .brimm-testimonial-section {\n      padding: 30px 40px;\n    }\n  }\n\n  .brimm-testimonials {\n    display: grid;\n    gap: 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 768px) {\n    .brimm-testimonials {\n      grid-template-columns: repeat(3, 1fr);\n    }\n  }\n\n  .brimm-testimonial {\n    font-size: 15px;\n    font-style: italic;\n    color: #000;\n  }\n\n  .brimm-testimonial strong {\n    font-style: normal;\n    display: block;\n    margin-top: 5px;\n  }\n</style>\n\n<!-- Üst Alan (Görsel + İçerik) -->\n<div class=\"brimm-wrapper\">\n  <div class=\"brimm-section\">\n    <div class=\"brimm-image\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Screenshot_2025-06-12_at_23.41.59.png?v=1749760961\" alt=\"Newsletter Visual\">\n    </div>\n    <div class=\"brimm-content\">\n      <h1>Brighter news, Better Sundays</h1>\n      <h2>A free, 5min newsletter covering Planet Positive stories, inspiration and tips</h2>\n      <p>\n        We do the digging, you get the joy—every Sunday, unwrap the very best in planet-positive stories on style, food, travel and more.\n        Accompanied by a great playlist and recipe. All to help you live bright and tread light.\n      </p>\n\n      {% render 'klaviyo-signup-form' %}\n\n      <p class=\"brimm-join-note\">Join thousands of other climate optimists</p>\n    </div>\n  </div>\n</div>\n\n<!-- Testimonial Alanı (Full Width, Container İçinde) -->\n<div class=\"brimm-testimonial-section\">\n  <div class=\"brimm-testimonials\">\n    <div class=\"brimm-testimonial\">\n      “It's not just any old well-written newsletter. There are at least about 25 links of amazing related stuff to go and dig into,\n      from recipes to beautiful planet-friendly things to buy.”\n      <strong>— Matt, Marketing Strategist</strong>\n    </div>\n    <div class=\"brimm-testimonial\">\n      “Reading it felt like I’d stumbled across an interesting community of people sharing unknown gems..”\n      <strong>— Tiff, Journalist and Author</strong>\n    </div>\n    <div class=\"brimm-testimonial\">\n      “I love the breadth of links they feature. From mind-expanding long-reads, to the latest restaurants or a great new fashion brand.”\n      <strong>— Shiraz, DJ</strong>\n    </div>\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -635,6 +656,7 @@
     "custom_liquid_7VxJVT",
     "inset_hero_G69whq",
     "email_signup_banner_9BKfVd",
-    "custom_liquid_wzEUfy"
+    "custom_liquid_wzEUfy",
+    "custom_liquid_UnWBBQ"
   ]
 }
