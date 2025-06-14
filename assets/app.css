@@ -39,9 +39,6 @@
 .table {
   display: table;
 }
-.flex-shrink {
-  flex-shrink: 1;
-}
 .flex-grow {
   flex-grow: 1;
 }
@@ -83,9 +80,6 @@
 }
 .italic {
   font-style: italic;
-}
-.underline {
-  text-decoration-line: underline;
 }
 .outline {
   outline-style: var(--tw-outline-style);
