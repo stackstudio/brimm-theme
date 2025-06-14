@@ -1,5 +1,6 @@
 {% comment %}
   Custom signup form with Klaviyo script, styled and structured as requested.
+  Terms checkbox completely removed.
 {% endcomment %}
 
 <script src='{{ "klaviyo-signup-form.js" | asset_url }}' defer></script>
@@ -31,23 +32,6 @@
         >
           Sign up
         </button>
-      </div>
-
-      <div class="custom-terms-wrapper">
-        <input
-          type="checkbox"
-          name="newsletter_terms"
-          id="newsletter_terms"
-          class="custom-terms-checkbox"
-          aria-label="Accept terms"
-          <!-- required kaldırıldı -->
-        />
-        <label for="newsletter_terms" class="custom-terms-label">
-          <span>
-            Join thousands of other climate optimists. Read our
-            <a href="/pages/privacy" target="_blank">privacy policy here.</a>
-          </span>
-        </label>
       </div>
 
       <div id="newsletter-error">
@@ -110,26 +94,6 @@
   .custom-submit-button:hover {
     background-color: #d35430;
   }
-  .custom-terms-wrapper {
-    font-size: 11px;
-    margin-top: 12px;
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-    line-height: 1.3;
-    color: #555;
-  }
-  .custom-terms-checkbox {
-    margin-top: 3px;
-    width: 14px;
-    height: 14px;
-    cursor: pointer;
-  }
-  .custom-terms-label a {
-    font-size: 11px;
-    text-decoration: underline;
-    color: #0073e6;
-  }
   /* Responsive */
   @media (max-width: 480px) {
     .custom-submit-button {
@@ -138,9 +102,6 @@
     }
     .custom-email-input {
       font-size: 14px;
-    }
-    .custom-terms-wrapper {
-      font-size: 10px;
     }
   }
 </style>
