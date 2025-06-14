@@ -616,6 +616,16 @@
         "show_text_below": false
       }
     },
+    "custom_liquid_gRErV6": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "custom_liquid_UnWBBQ": {
       "type": "custom-liquid",
       "custom_css": [],
@@ -656,6 +666,7 @@
     "custom_liquid_7VxJVT",
     "inset_hero_G69whq",
     "email_signup_banner_9BKfVd",
+    "custom_liquid_gRErV6",
     "custom_liquid_UnWBBQ",
     "custom_liquid_JJ7cB8"
   ]
