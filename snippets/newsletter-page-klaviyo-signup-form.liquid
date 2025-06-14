@@ -40,7 +40,7 @@
           id="newsletter_terms"
           class="custom-terms-checkbox"
           aria-label="Accept terms"
-          required
+          <!-- required kaldırıldı -->
         />
         <label for="newsletter_terms" class="custom-terms-label">
           <span>
@@ -69,6 +69,9 @@
 </klaviyo-signup-form>
 
 <style>
+  .newsletter-form {
+    max-width: 100% !important;
+  }
   .custom-klaviyo-form-wrapper {
     max-width: 1200px;
     margin: 0 auto;
