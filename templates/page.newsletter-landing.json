@@ -620,7 +620,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n  /* Başta formu gizle */\n  .custom-klaviyo-form-wrapper {\n    opacity: 0;\n    transition: opacity 0.3s ease;\n    pointer-events: none; /* Gizliyken tıklanmasın */\n  }\n\n  /* Görünür hale geldiğinde */\n  .custom-klaviyo-form-wrapper.visible {\n    opacity: 1;\n    pointer-events: auto;\n  }\n</style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const klaviyoForm = document.querySelector('klaviyo-signup-form');\n    if (!klaviyoForm) return;\n\n    // Önce içerik temizlenip oluşturuluyor (örnek önceki kod)\n    klaviyoForm.innerHTML = '';\n\n    const container = document.createElement('div');\n    container.className = 'custom-klaviyo-form-wrapper';\n\n    // Form oluşturma işlemi (önceki koddan aynı)\n    // ... form ve elemanlar burada oluşturulacak ...\n    // Örneğin:\n    const form = document.createElement('form');\n    form.className = 'newsletter-form';\n    form.method = 'POST';\n    // vs.\n\n    container.appendChild(form);\n    klaviyoForm.appendChild(container);\n\n    // Burada form tamamen yüklendi, görünür yap:\n    // Küçük bir delay ile de yapabiliriz, gerekirse\n    setTimeout(() => {\n      container.classList.add('visible');\n    }, 50);\n  });\n</script>",
+        "custom_liquid": "<style>\n.klaviyo-signup-form {\ndisplay: none !important;\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
