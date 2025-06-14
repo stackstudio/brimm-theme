@@ -619,7 +619,7 @@
     "custom_liquid_UnWBBQ": {
       "type": "custom-liquid",
       "custom_css": [
-        ".newsletter-form {max-width: 100% !important;}"
+        ".newsletter-form {max-width: 100% !important; align-items: flex-start;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
