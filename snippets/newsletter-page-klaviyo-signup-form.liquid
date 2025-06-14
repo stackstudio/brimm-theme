@@ -1,0 +1,146 @@
+{% comment %}
+  Custom signup form with Klaviyo script, styled and structured as requested.
+{% endcomment %}
+
+<script src='{{ "klaviyo-signup-form.js" | asset_url }}' defer></script>
+
+<klaviyo-signup-form account-id="RJAyDu" list-id="UdQf4b">
+  <div class="custom-klaviyo-form-wrapper">
+    <form class="newsletter-form" method="POST" novalidate>
+      <input type="hidden" name="g" value="UdQf4b" />
+
+      <div class="custom-fields-wrapper">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="custom-email-input"
+          aria-required="true"
+          autocorrect="off"
+          autocapitalize="off"
+          autocomplete="email"
+          placeholder="Enter your email"
+          required
+        />
+        <button
+          type="submit"
+          class="custom-submit-button"
+          name="commit"
+          id="Subscribe"
+          aria-label="Sign up"
+        >
+          Sign up
+        </button>
+      </div>
+
+      <div class="custom-terms-wrapper">
+        <input
+          type="checkbox"
+          name="newsletter_terms"
+          id="newsletter_terms"
+          class="custom-terms-checkbox"
+          aria-label="Accept terms"
+          required
+        />
+        <label for="newsletter_terms" class="custom-terms-label">
+          <span>
+            Join thousands of other climate optimists. Read our
+            <a href="/pages/privacy" target="_blank">privacy policy here.</a>
+          </span>
+        </label>
+      </div>
+
+      <div id="newsletter-error">
+        <p class="form__messages"></p>
+      </div>
+    </form>
+
+    <div class="newsletter-success" style="display:none;">
+      <div class="newsletter-form__fields">
+        <div class="form__messages banner__content--text">
+          <h2 class="email-signup-banner__heading">Thank you</h2>
+          <div class="newsletter__subheading">
+            {{ "newsletter.success_message" | t }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</klaviyo-signup-form>
+
+<style>
+  .newsletter-form {
+    max-width: 100% !important;
+  }
+  .custom-klaviyo-form-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .custom-fields-wrapper {
+    display: flex;
+    width: 100%;
+  }
+  .custom-email-input {
+    flex-grow: 1;
+    min-width: 0;
+    height: 44px;
+    padding: 0 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    box-sizing: border-box;
+  }
+  .custom-submit-button {
+    width: 90px;
+    height: 44px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #F06645;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0;
+  }
+  .custom-submit-button:hover {
+    background-color: #d35430;
+  }
+  .custom-terms-wrapper {
+    font-size: 11px;
+    margin-top: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    line-height: 1.3;
+    color: #555;
+  }
+  .custom-terms-checkbox {
+    margin-top: 3px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+  }
+  .custom-terms-label a {
+    font-size: 11px;
+    text-decoration: underline;
+    color: #0073e6;
+  }
+  /* Responsive */
+  @media (max-width: 480px) {
+    .custom-submit-button {
+      width: 80px;
+      font-size: 14px;
+    }
+    .custom-email-input {
+      font-size: 14px;
+    }
+    .custom-terms-wrapper {
+      font-size: 10px;
+    }
+  }
+</style>
