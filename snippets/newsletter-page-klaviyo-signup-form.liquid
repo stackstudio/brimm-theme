@@ -1,6 +1,5 @@
 {% comment %}
-  Custom signup form with Klaviyo script, styled and structured as requested.
-  Terms checkbox completely removed.
+  Signup form with terms checkbox required.
 {% endcomment %}
 
 <script src='{{ "klaviyo-signup-form.js" | asset_url }}' defer></script>
@@ -34,6 +33,21 @@
         </button>
       </div>
 
+      <div class="custom-terms-wrapper">
+        <input
+          type="checkbox"
+          id="newsletter_terms"
+          name="newsletter_terms"
+          class="custom-terms-checkbox"
+          required
+          aria-required="true"
+        />
+        <label for="newsletter_terms" class="custom-terms-label">
+          Please accept the terms and conditions. See our
+          <a href="/pages/privacy" target="_blank">privacy policy</a>.
+        </label>
+      </div>
+
       <div id="newsletter-error">
         <p class="form__messages"></p>
       </div>
@@ -57,8 +71,9 @@
     max-width: 100% !important;
   }
   .custom-klaviyo-form-wrapper {
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
+    padding: 0 16px;
     box-sizing: border-box;
   }
   .custom-fields-wrapper {
@@ -93,6 +108,24 @@
   .custom-submit-button:hover {
     background-color: #d35430;
   }
+  .custom-terms-wrapper {
+    font-size: 12px;
+    margin-top: 16px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .custom-terms-checkbox {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+  }
+  .custom-terms-label a {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #0073e6;
+  }
   /* Responsive */
   @media (max-width: 480px) {
     .custom-submit-button {
@@ -102,25 +135,11 @@
     .custom-email-input {
       font-size: 14px;
     }
+    .custom-terms-wrapper {
+      font-size: 10px;
+    }
+    .custom-terms-label a {
+      font-size: 10px;
+    }
   }
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const form = document.querySelector('.newsletter-form');
-    if (!form) return;
-
-    form.addEventListener('submit', (e) => {
-      // Klaviyo async submit olduğundan, burada direk redirect yapmak doğru değil.
-      // Bu yüzden Klaviyo success mesajını beklemek gerekiyor.
-
-      // Örnek: 2 saniye sonra otomatik redirect (başarı varsayımıyla)
-      setTimeout(() => {
-        const successMsg = document.querySelector('.newsletter-success');
-        if (successMsg && successMsg.style.display !== 'none') {
-          window.location.href = '/pages/newsletter-thank-you-page';
-        }
-      }, 2000); 
-    });
-  }); 
-</script>
