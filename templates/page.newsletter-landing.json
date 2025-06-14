@@ -618,6 +618,7 @@
     },
     "custom_liquid_gRErV6": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<style>\n.klaviyo-signup-form {\ndisplay: none !important;\n}\n</style>",
