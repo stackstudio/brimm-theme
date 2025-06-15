@@ -1,5 +1,5 @@
 {% comment %}
-  Signup form with terms checkbox required.
+  Signup form with hidden prechecked terms checkbox.
 {% endcomment %}
 
 <script src='{{ "klaviyo-signup-form.js" | asset_url }}' defer></script>
@@ -35,7 +35,7 @@
 
       <div class="subscriber-count">Over 1,500 subscribers</div>
 
-      <div class="custom-terms-wrapper">
+      <div class="custom-terms-wrapper" style="display:none;">
         <input
           type="checkbox"
           id="newsletter_terms"
@@ -43,6 +43,7 @@
           class="custom-terms-checkbox"
           required
           aria-required="true"
+          checked
         />
         <label for="newsletter_terms" class="custom-terms-label">
           Please accept our
