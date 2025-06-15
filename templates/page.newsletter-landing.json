@@ -190,11 +190,36 @@
         "padding_bottom": 32
       }
     },
-    "custom_liquid_7cyLYz": {
-      "type": "custom-liquid",
+    "rich_text_9RAJwk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BhFjp8": {
+          "type": "heading",
+          "settings": {
+            "heading": "DISCOVER PREVIOUS NEWSLETTERS",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BhFjp8"
+      ],
       "custom_css": [
+        "h2 {color: #eb492b !important; font-size: 38px;}",
+        "p {color: black !important; font-weight: 500; font-size: 18px;}",
         "@media only screen and (max-width: 768px) {div {display: none !important; }}"
       ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_7cyLYz": {
+      "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<style>\n  .carousel-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px 40px;\n    box-sizing: border-box;\n  }\n\n  .swiper {\n    width: 100%;\n    padding-bottom: 2rem;\n    opacity: 0;\n    transition: opacity 0.3s ease;\n  }\n\n  .swiper-initialized {\n    opacity: 1;\n  }\n\n  .swiper-slide {\n    text-align: center;\n    font-size: 18px;\n    background-color: #fff;\n    border-radius: 0;\n    overflow: hidden;\n    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.05);\n  }\n\n  .swiper-slide img {\n    display: block;\n    width: 100%;\n    height: auto;\n    object-fit: cover;\n    border-radius: 0;\n  }\n</style>\n\n<div class=\"carousel-container\">\n  <div class=\"swiper\">\n    <div class=\"swiper-wrapper\">\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/10AprSM_BRiMM_MainCover-01.jpg?v=1749762140\" alt=\"Slide 1\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/3May_Cover-01.jpg?v=1749762141\" alt=\"Slide 2\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/26March_BRiMM_Social-22.jpg?v=1749762141\" alt=\"Slide 3\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/April_4_Carrousel-30.jpg?v=1749762141\" alt=\"Slide 4\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/23_May_BRiMM-01.jpg?v=1749762142\" alt=\"Slide 5\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/8_May_Cover_BRiMM_MainCoverMagz.jpg?v=1749762142\" alt=\"Slide 6\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRIMM_CollectivePower-01.jpg?v=1749762143\" alt=\"Slide 7\">\n      </div>\n      <div class=\"swiper-slide\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/20March_BRiMM_V2-p1.jpg?v=1749762142\" alt=\"Slide 8\">\n      </div>\n    </div>\n  </div>\n</div>\n\n<!-- Swiper JS CDN -->\n<script src=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js\"></script>\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css\">\n\n<script>\n  document.addEventListener('DOMContentLoaded', function () {\n    const swiper = new Swiper('.swiper', {\n      slidesPerView: 3,\n      spaceBetween: 20,\n      loop: true,\n      autoplay: {\n        delay: 3000,\n        disableOnInteraction: false,\n      },\n      pagination: false,\n      navigation: false,\n      on: {\n        afterInit: function () {\n          // Swiper tam yüklendiğinde opacity'i aç\n          document.querySelector('.swiper').classList.add('swiper-initialized');\n        }\n      }\n    });\n\n    // Hover'da autoplay duraklatma\n    const container = document.querySelector('.carousel-container');\n    container.addEventListener('mouseenter', () => swiper.autoplay.stop());\n    container.addEventListener('mouseleave', () => swiper.autoplay.start());\n  });\n</script>",
         "color_scheme": "",
@@ -375,16 +400,6 @@
         "show_text_below": false
       }
     },
-    "custom_liquid_d696gz": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div style=\"max-width: 800px; margin: 0 auto; padding: 20px;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Screenshot_2025-06-12_at_23.41.59.png?v=1749760961&width=1250\" alt=\"Screenshot\" style=\"width: 100%; height: auto; display: block;\" />\n</div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_KaFC8P": {
       "type": "rich-text",
       "blocks": {
@@ -420,35 +435,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 24
-      }
-    },
-    "rich_text_9RAJwk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_BhFjp8": {
-          "type": "heading",
-          "settings": {
-            "heading": "DISCOVER PREVIOUS NEWSLETTERS",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_BhFjp8"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h2 {color: #eb492b !important; font-size: 38px;}",
-        "p {color: black !important; font-weight: 500; font-size: 18px;}",
-        "@media only screen and (max-width: 768px) {div {display: none !important; }}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
     "custom_liquid_DMKHU8": {
@@ -634,13 +620,12 @@
     "custom_liquid_FRD9A3",
     "custom_liquid_UnWBBQ",
     "multicolumn_Xtjff4",
+    "rich_text_9RAJwk",
     "custom_liquid_7cyLYz",
     "image_banner_6DKj38",
     "rich_text_7tpdVy",
     "email_signup_banner_C99DNC",
-    "custom_liquid_d696gz",
     "rich_text_KaFC8P",
-    "rich_text_9RAJwk",
     "custom_liquid_DMKHU8",
     "rich_text_xMNf4e",
     "custom_liquid_xBUGNA",
