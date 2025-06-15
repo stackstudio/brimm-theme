@@ -33,6 +33,8 @@
         </button>
       </div>
 
+      <div class="subscriber-count">Over 1,500 subscribers</div>
+
       <div class="custom-terms-wrapper">
         <input
           type="checkbox"
@@ -104,6 +106,12 @@
   .custom-submit-button:hover {
     background-color: #d35430;
   }
+  .subscriber-count {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
   .custom-terms-wrapper {
     font-size: 14px;
     margin-top: 16px;
@@ -137,6 +145,9 @@
     .custom-terms-label a {
       font-size: 14px;
     }
+    .subscriber-count {
+      font-size: 14px;
+    }
   }
 </style>
 
@@ -146,10 +157,6 @@
     if (!form) return;
 
     form.addEventListener('submit', (e) => {
-      // Klaviyo async submit olduğundan, burada direk redirect yapmak doğru değil.
-      // Bu yüzden Klaviyo success mesajını beklemek gerekiyor.
-
-      // Örnek: 2 saniye sonra otomatik redirect (başarı varsayımıyla)
       setTimeout(() => {
         const successMsg = document.querySelector('.newsletter-success');
         if (successMsg && successMsg.style.display !== 'none') {
