@@ -620,7 +620,7 @@
       "type": "custom-liquid",
       "custom_css": [
         ".newsletter-form {max-width: 100% !important; align-items: flex-start;}",
-        ".brimm-image {margin-top: -50px;}"
+        ".brimm-image {margin-top: -30px;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
