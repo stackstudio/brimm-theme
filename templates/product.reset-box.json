@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -76,36 +69,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "bold_subscriptions_bsub_widget_block_RpYLfE": {
-          "type": "shopify://apps/bold-subscriptions/blocks/bsub-widget-block/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
-          "settings": {
-            "default_subscribe": true,
-            "primary_color": "#000000",
-            "secondary_color": "#000000",
-            "background_color": "#eaeada",
-            "border_radius": 0,
-            "header_text": "",
-            "one_time_text": "One-time Purchase",
-            "recurring_text": "",
-            "prepaid_recurring_text": "",
-            "discount_summary_text": "(Save {discount})",
-            "discount_summary_plural_text": "(Save up to {discount})",
-            "frequency_header": "Membership Frequency",
-            "frequency_text": "month",
-            "prepaid_checkbox_label_text": "Prepay for membership",
-            "billing_frequency_header": "Billing Frequency",
-            "billing_frequency_text": "{count} Orders",
-            "delivery_frequency_discount_text": "({discount} off)",
-            "billing_frequency_discount_text": "({discount} off)",
-            "prepaid_total_text": "Billed {price} today",
-            "prepaid_continue_as_prepaid_text": "Prepaid order will auto-renew after {count} orders",
-            "prepaid_continue_as_standard_text": "Becomes a regular membership after {count} orders",
-            "convertible_header": "Converts to",
-            "eligible_for_subscription_header": "Eligible for Membership",
-            "initial_dynamic_discount_text": "Save {initial_percent_discount}% ({initial_fixed_discount})",
-            "subsequent_dynamic_discounts_text": "{subsequent_percent_discount}% ({subsequent_fixed_discount}) after {order_count} order(s)"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -115,7 +78,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "description_LRfyUQ",
         "collapsible_tab_GJPkcz",
@@ -125,7 +87,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "bold_subscriptions_bsub_widget_block_RpYLfE",
         "buy_buttons"
       ],
       "settings": {
