@@ -490,9 +490,9 @@ blockquote {
 
 .headline-extra-uppercase {
   /* Global/Headline/Extra Bold/40 */
-  font-size: clamp(24px, 7vw, 110px);
-  @media(max-width: 749px) {
-    font-size: clamp(20px, 6vw, 44px);
+  font-size: clamp(24px, 7vw, 40px);
+  @media(max-width: 900px) {
+    font-size: clamp(20px, 6vw, 40px);
   }
   font-style: normal;
   font-weight: 800;

@@ -85,6 +85,9 @@
 h1.brimm-blocks--justified-header,
 .brimm-blocks--heading-l {
   font-size: clamp(24px, 8.4vw, 110px);
+  @media(max-width: 1200px) {
+    font-size: clamp(24px, 7.4vw, 90px);
+  }
   @media(max-width: 749px) {
     font-size: clamp(24px, 7vw, 44px);
   }
