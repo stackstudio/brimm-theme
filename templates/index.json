@@ -225,6 +225,78 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_KaRHfp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KWq8dY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/KZCLMM10025.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "<a href=\"/blogs/journal/why-less-really-is-more-beauty-editor-lisa-oxenham-s-take-on-the-most-effective-skincare\" title=\"Why Less Really Is More: How and Why It’s Time To Take a Different Approach to Skincare\">Why less is more</a>",
+            "text": "<p>Former Maire Claire Beauty and Style Editor Lisa Oxenham shares how the over-innovation in the beauty industry hasn't served us or our planet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": "shopify://blogs/journal/why-less-really-is-more-beauty-editor-lisa-oxenham-s-take-on-the-most-effective-skincare"
+          }
+        },
+        "column_yjPaWM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/16_9.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "<a href=\"/blogs/journal/the-power-of-what-we-eat-how-a-new-food-system-can-heal-us-and-the-planet-2\" title=\"The Power of What We Eat: How a New  Food System Can Heal Us and the Planet\">How our food system can heal us and our planet</a>",
+            "text": "<p>Sustainability and innovation expert Mark Shayler shares how tweaking just a few things in our diet can leave us and mother nature happier and healthier.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": "shopify://blogs/journal/the-power-of-what-we-eat-how-a-new-food-system-can-heal-us-and-the-planet-2"
+          }
+        },
+        "column_R8h6LG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/KZSP10553_2a372a42-5fc4-4343-b713-93fe50365305.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "The endless individuality presented by second-hand shopping",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": "shopify://blogs/journal/the-endless-individuality-made-possible-by-second-hand-shopping"
+          }
+        }
+      },
+      "block_order": [
+        "column_KWq8dY",
+        "column_yjPaWM",
+        "column_R8h6LG"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "STORIES THAT SPARK CHANGE",
+        "no-gap": false,
+        "text_block": "Weekly dispatches from people reimagining tomorrow.",
+        "heading_size": "h1",
+        "split_header": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "hero_Wyq8H8": {
       "type": "hero",
       "settings": {
@@ -565,6 +637,7 @@
     "image_with_text_AgJ7ei",
     "partner_logos_xMwzLh",
     "multicolumn_k9rxVY",
+    "multicolumn_KaRHfp",
     "hero_Wyq8H8",
     "featured_blog_fTPrPd",
     "wrapped_mega_image_jH9J4f",
