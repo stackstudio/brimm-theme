@@ -23,7 +23,7 @@
         "heading_eNfybe": {
           "type": "heading",
           "settings": {
-            "heading_text": "10% FOR THE PLANET 10% FOR YOU"
+            "heading_text": "10% FOR THE PLANET EMPOWERING CHANGE TOGETHER"
           }
         }
       },
@@ -34,6 +34,59 @@
       "settings": {
         "image": "shopify://shop_images/unlicensed_stills_240224_kelsey-smith_1.png",
         "color_scheme": "scheme-6"
+      }
+    },
+    "image_with_text_qhHAqB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GqbTae": {
+          "type": "heading",
+          "settings": {
+            "heading": "PEOPLE-POWERED MOVEMENT FOR CHANGE",
+            "heading_size": "h1"
+          }
+        },
+        "text_9r7DFY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_4Qdg7q": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GqbTae",
+        "text_9r7DFY",
+        "button_4Qdg7q"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_cbgHTz": {
@@ -262,6 +315,7 @@
   "order": [
     "main",
     "justified_hero_Mrd9QU",
+    "image_with_text_qhHAqB",
     "multicolumn_cbgHTz",
     "image_with_text_A8dx4k",
     "collapsible_content_fn6QLr",
