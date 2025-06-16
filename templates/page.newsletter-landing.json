@@ -584,7 +584,6 @@
     },
     "custom_liquid_YH7qq7": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const iframe = document.getElementById(\"storefront-iframe-2\");\n\n  iframe.addEventListener(\"load\", function () {\n    try {\n      const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;\n      const footerLogo = iframeDoc.querySelector(\"footer img\"); // veya belirli bir selector varsa onu kullan\n      if (footerLogo) {\n        footerLogo.src = \"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM_Static_Logo_Black_5.png?v=1750088354\";\n      }\n    } catch (e) {\n      console.warn(\"Cross-origin hatası: iframe içeriğine erişilemiyor.\", e);\n    }\n  });\n});\n</script>",
