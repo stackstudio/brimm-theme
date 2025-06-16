@@ -153,86 +153,49 @@
         "block_text": "some of our impact led brands"
       }
     },
-    "collection_list_HHf8Cf": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_QMbLXm": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "reset-boxes"
-          }
-        },
-        "featured_collection_6m4wqm": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "reset-boxes"
-          }
-        },
-        "featured_collection_9PCGgb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "reset-boxes"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_QMbLXm",
-        "featured_collection_6m4wqm",
-        "featured_collection_9PCGgb"
-      ],
-      "settings": {
-        "title": "RESET YOUR EVERYDAY",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_k9rxVY": {
       "type": "multicolumn",
       "blocks": {
         "column_MGBbKT": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Plastic_Free_Box2_1_703cf8cd-9106-425d-8988-7e94a6cf59cc.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Bathroom - Minimalist, plastic-free or British luxury",
+            "text": "",
             "image_label": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Reset your kitchen",
+            "link": "shopify://collections/reset-boxes"
           }
         },
         "column_AQibDb": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Food_Box2_afca239e-220a-4fa7-9fa9-ece254b54a27.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Pantry - Regenerative. Delicious. Planet-positive. Check your pantry into better habits",
+            "text": "",
             "image_label": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Pantry reset",
+            "link": "shopify://products/brimm-pantry-essentials-reset-box"
           }
         },
         "column_b8bDzN": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Brimm25march27-Boxes08711copy.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Kitchen - Design-led resets for clearer air and calmer counters",
+            "text": "",
             "image_label": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Kitchen reset",
+            "link": "shopify://products/brimm-kitchen-reset-cleaning-box"
           }
         }
       },
@@ -243,9 +206,9 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "RESET YOUR EVERYDAY",
         "no-gap": false,
-        "text_block": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+        "text_block": "From minimalist bathrooms to regenerative pantries - planet-positive living starts here. More coming soon.",
         "heading_size": "h1",
         "split_header": false,
         "image_width": "full",
@@ -253,7 +216,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -601,7 +564,6 @@
     "justified_hero_qEnNDW",
     "image_with_text_AgJ7ei",
     "partner_logos_xMwzLh",
-    "collection_list_HHf8Cf",
     "multicolumn_k9rxVY",
     "hero_Wyq8H8",
     "featured_blog_fTPrPd",
