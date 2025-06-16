@@ -199,18 +199,19 @@
         </div>
         <div class="brimm-blocks--footer-links">
           <div class="brimm-blocks--link-group">
-            <a href="/pages/our-story">Our story</a>
-            <a href="/pages/founder-members">Founder members</a>
-            <a href="/pages/the-collective">Planet fund</a>
+            {% for link in linklists.new-ecomm-footer-1.links %}
+                <a href="{{ link.url }}">{{ link.title }}</a>
+            {% endfor %}
           </div>
           <div class="brimm-blocks--link-group">
-            <a href="/pages/reset-boxes">Reset boxes</a>
-            <a href="/pages/curation-and-vetting">Curation &amp; Vetting</a>
-            <a href="/blogs/journal">Journal</a>
+            {% for link in linklists.new-ecomm-footer-2.links %}
+                <a href="{{ link.url }}">{{ link.title }}</a>
+            {% endfor %}
           </div>
           <div class="brimm-blocks--link-group">
-            <a href="https://www.instagram.com/brimmcollective?igsh=bmFodmozZXVvZXFi">Instagram</a>
-            <a href="https://www.tiktok.com/@brimmcollective">TikTok</a>
+            {% for link in linklists.new-ecomm-footer-socials.links %}
+                <a href="{{ link.url }}">{{ link.title }}</a>
+            {% endfor %}
           </div>
         </div>
     </div>
