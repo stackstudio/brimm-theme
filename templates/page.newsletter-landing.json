@@ -596,7 +596,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  // Butonun bulunduğu container'ı seçiyoruz\n  var container = document.querySelector(\"#Subscribe\");\n\n  if (container) {\n    // MutationObserver ile container'daki değişiklikleri izliyoruz\n    var observer = new MutationObserver(function (mutations) {\n      mutations.forEach(function (mutation) {\n        // Eğer buton metni \"Sign up\" ise, metni değiştiriyoruz\n        if (mutation.target.textContent.trim() === \"Sign up\") {\n          mutation.target.textContent = \"Join for free\";\n        }\n      });\n    });\n\n    observer.observe(container, {\n      childList: true,\n      subtree: true\n    });\n  }\n});\n</script>",
+        "custom_liquid": "<script>\n$(document).ready(function () {\n  // Butonun ID'sini kullanarak butonu seçiyoruz\n  var button = $(\"#Subscribe\");\n\n  // Eğer buton mevcutsa, metnini değiştiriyoruz\n  if (button.length) {\n    button.text(\"Join for free\");\n  }\n});\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
