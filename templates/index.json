@@ -303,23 +303,6 @@
         "heading": ""
       }
     },
-    "featured_blog_fTPrPd": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "STORIES TO INSPIRE",
-        "heading_size": "h1",
-        "blog": "",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "wrapped_mega_image_jH9J4f": {
       "type": "wrapped-mega-image",
       "blocks": {
@@ -423,7 +406,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -639,7 +622,6 @@
     "multicolumn_k9rxVY",
     "multicolumn_KaRHfp",
     "hero_Wyq8H8",
-    "featured_blog_fTPrPd",
     "wrapped_mega_image_jH9J4f",
     "multicolumn_tKFpqH",
     "inset_hero_yEK8EF",
