@@ -251,7 +251,8 @@
       "custom_css": [
         ".banner--medium {height: auto !important;}",
         ".banner--sticky-mobile {position: relative;}",
-        "@media screen and (min-width: 749px) {.email-signup-banner .banner__content {padding-left: 0px; padding-right: 0px; }}"
+        "@media screen and (min-width: 749px) {.email-signup-banner .banner__content {padding-left: 0px; padding-right: 0px; }}",
+        ".newsletter-form__button {background-color: #eb492b !important;}"
       ],
       "settings": {
         "image_overlay_opacity": 0,
@@ -595,7 +596,7 @@
     "custom_liquid_4JwEhJ": {
       "type": "custom-liquid",
       "custom_css": [
-        ".newsletter-form__button {background: #EB492B !important;}"
+        ".newsletter-form__button {background: #eb492b !important;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
