@@ -222,6 +222,7 @@ h4.brimm-blocks--justified-header {
 
 .brimm-blocks--membership {
     background-color: rgb(234, 234, 218);
+    padding-bottom: 4rem;
 }
 
 .brimm-blocks--membership .brimm-blocks--section-header {
@@ -452,8 +453,12 @@ h4.brimm-blocks--justified-header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 3rem;
     @media(max-width: 749px) {
         /* display: block; */
+    }
+    div {
+        flex-basis: 25%;
     }
 }
 

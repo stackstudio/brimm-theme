@@ -558,10 +558,11 @@
 }
 
 .brimm-blocks--footer-links a {
-    font-size: clamp(12px, 1.7vw, 23px);
+    font-size: clamp(18px, 1.7vw, 20px);
     display: block;
     color: inherit;
     text-decoration: none;
+
 }
 
 .brimm-blocks--footer-links {
@@ -570,6 +571,13 @@
     grid-template-columns: 1fr 1fr 1fr;
     @media screen and (max-width: 749px) {
         margin-top: 4rem;
+        gap: 12px;
+    }
+    @media screen and (max-width: 449px) {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
 
