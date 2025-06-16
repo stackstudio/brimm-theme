@@ -596,7 +596,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  function fixButtonText() {\n    var button = document.querySelector(\"#Subscribe\");\n    if (!button) return false;\n\n    if (button.textContent.trim() === \"Sign up\") {\n      button.textContent = \"Join for free\";\n      return true;\n    }\n    return false;\n  }\n\n  // İlk deneme\n  fixButtonText();\n\n  // 500ms arayla 10 kere dene (5 saniye boyunca)\n  let attempts = 0;\n  let interval = setInterval(function() {\n    if (fixButtonText() || attempts > 10) {\n      clearInterval(interval);\n    }\n    attempts++;\n  }, 500);\n});\n</script>",
+        "custom_liquid": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  function fixButtonText() {\n    var button = document.querySelector(\".newsletter-form__button.body-medium\");\n    if (!button) return false;\n\n    if (button.textContent.trim() === \"Sign up\") {\n      button.textContent = \"Join for free\";\n      return true;\n    }\n    return false;\n  }\n\n  fixButtonText();\n\n  let attempts = 0;\n  let interval = setInterval(function() {\n    if (fixButtonText() || attempts > 10) {\n      clearInterval(interval);\n    }\n    attempts++;\n  }, 500);\n});\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
