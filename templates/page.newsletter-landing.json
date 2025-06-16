@@ -252,7 +252,8 @@
         ".banner--medium {height: auto !important;}",
         ".banner--sticky-mobile {position: relative;}",
         "@media screen and (min-width: 749px) {.email-signup-banner .banner__content {padding-left: 0px; padding-right: 0px; }}",
-        ".newsletter-form__button {background-color: #eb492b !important;}"
+        ".newsletter-form__button {background-color: #eb492b !important;}",
+        ".newsletter-form__button:hover {background-color: #005fb7 !important;}"
       ],
       "settings": {
         "image_overlay_opacity": 0,
