@@ -158,7 +158,7 @@
         "heading_yJ7zwm": {
           "type": "heading",
           "settings": {
-            "heading": "Curated and vetted",
+            "heading": "HOW WE CHOOSE OUR PRODUCTS",
             "heading_size": "h1"
           }
         },
@@ -172,7 +172,7 @@
         "button_7EKgcC": {
           "type": "button",
           "settings": {
-            "button_label": "FIND OUT MORE",
+            "button_label": "DISCOVER MORE",
             "button_link": "shopify://pages/curation-and-vetting",
             "button_style_secondary": false
           }
