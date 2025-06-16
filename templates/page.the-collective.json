@@ -153,6 +153,75 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_9AWmDg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AGdLwE": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "<p>We partner with brands that create beautiful, lower-impact products.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QMmQcY": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "<p>Together, we define their purpose and track their progress.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BqjLwe": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "<p>Together, we identify and support joint initiatives through expertise, partnerships, and funding.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AGdLwE",
+        "column_QMmQcY",
+        "column_BqjLwe"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "OUR COLLECTIVE: THE HEART OF OUR MOVEMENT",
+        "no-gap": false,
+        "text_block": "Our revolutionary model thrives thanks to the collaboration of our members and brands.",
+        "heading_size": "h1",
+        "split_header": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_A8dx4k": {
       "type": "image-with-text",
       "blocks": {
@@ -309,6 +378,7 @@
     "justified_hero_Mrd9QU",
     "image_with_text_qhHAqB",
     "multicolumn_cbgHTz",
+    "multicolumn_9AWmDg",
     "image_with_text_A8dx4k",
     "collapsible_content_fn6QLr",
     "inset_hero_g9BwVh"
