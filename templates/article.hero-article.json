@@ -48,19 +48,10 @@
       "type": "repeater-block",
       "name": "Meta object page content",
       "settings": {}
-    },
-    "blog_footer_section_dhMjG4": {
-      "type": "blog-footer-section",
-      "name": "Blog Footer Section",
-      "settings": {
-        "background_color": "#e6e6d1",
-        "rich_text_content": "<p>Team BRiMM and our collective bring you lush, low-impact food and drink tips and insights in our Sunday newsletter every week. Sign up now if you haven’t already. Head to our BRiMM Manifesto to find out all the other ways you can get involved and start eating and drinking better – while living brighter and treading lighter</p>"
-      }
     }
   },
   "order": [
     "main",
-    "repeater_block_XjWbWC",
-    "blog_footer_section_dhMjG4"
+    "repeater_block_XjWbWC"
   ]
 }
