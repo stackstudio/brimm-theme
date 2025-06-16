@@ -376,8 +376,8 @@
         "cta_button_hhrbzr": {
           "type": "cta_button",
           "settings": {
-            "label": "Become a Member",
-            "link": "shopify://pages/founder-members",
+            "label": "What our story",
+            "link": "shopify://pages/our-story",
             "style": "primary"
           }
         }
