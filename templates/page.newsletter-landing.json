@@ -596,7 +596,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script>\ndocument.querySelector(\"#Subscribe\").textContent = \"Join for free\";\n\n</script>",
+        "custom_liquid": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var targetNode = document.body;\n  var observer = new MutationObserver(function(mutations, obs) {\n    var button = document.querySelector(\"#Subscribe\");\n    if (button) {\n      button.textContent = \"Join for free\";\n      obs.disconnect(); // Bulunca durdur\n    }\n  });\n\n  observer.observe(targetNode, { childList: true, subtree: true });\n});\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
