@@ -91,8 +91,8 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "A FEATURE OF THE COLLECTIVE",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "OUR COLLECTIVE",
+            "text": "<p>How our members and brands unite to drive positive change</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -134,9 +134,9 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Nice folks doing nice things for the planet",
+        "title": "",
         "no-gap": false,
-        "text_block": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+        "text_block": "",
         "heading_size": "h1",
         "split_header": false,
         "image_width": "full",
