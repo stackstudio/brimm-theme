@@ -591,6 +591,16 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom_liquid_4JwEhJ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  // Butonun bulunduğu container'ı seçiyoruz\n  var container = document.querySelector(\"#Subscribe\");\n\n  if (container) {\n    // MutationObserver ile container'daki değişiklikleri izliyoruz\n    var observer = new MutationObserver(function (mutations) {\n      mutations.forEach(function (mutation) {\n        // Eğer buton metni \"Sign up\" ise, metni değiştiriyoruz\n        if (mutation.target.textContent.trim() === \"Sign up\") {\n          mutation.target.textContent = \"Join for free\";\n        }\n      });\n    });\n\n    observer.observe(container, {\n      childList: true,\n      subtree: true\n    });\n  }\n});\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -610,6 +620,7 @@
     "custom_liquid_xBUGNA",
     "rich_text_GJKHck",
     "custom_liquid_7VxJVT",
-    "custom_liquid_YH7qq7"
+    "custom_liquid_YH7qq7",
+    "custom_liquid_4JwEhJ"
   ]
 }
