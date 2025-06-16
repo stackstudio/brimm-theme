@@ -728,11 +728,6 @@
     margin-top: 4rem;
 }
 
-.image-with-text__media {
-  @media screen and (max-width: 750px) {
-    padding-bottom: 70% !important;
-  }
-}
 
 .image-with-text__media > img {
   @media screen and (max-width: 750px) {
