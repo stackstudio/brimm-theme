@@ -401,20 +401,21 @@
         "column_B6w9Nt": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/DSC06433.jpg",
+            "image": "shopify://shop_images/Common_Ground_Cover_Image.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>E.L.V. DENIM, a British luxury brand dedicated to crafting timeless fashion pieces from 100% up-cycled materials, and BRiMM had a Negroni knees up. Imagine top fashionistas and planet-positive pioneers coming together to talk about what’s next.</p>",
+            "title": "<strong>Join the Common Ground film screening</strong>",
+            "text": "<p>Join us for an exclusive screening of this excellent regenerative agriculture documentary followed by a panel discussion with BRiMM brands.</p>",
             "image_label": "",
-            "link_label": "",
+            "link_label": "Get your ticket",
             "link": ""
           }
         },
         "column_gWeFma": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/british_pasture_leather.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -428,6 +429,7 @@
         "column_Riq9p9": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
