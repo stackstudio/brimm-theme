@@ -596,7 +596,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n<script>\n$(document).ready(function() {\n  function changeText() {\n    var btn = $(\"#Subscribe\");\n    if (btn.length) {\n      btn.text(\"Join for free\");\n      return true;\n    }\n    return false;\n  }\n  if (!changeText()) {\n    let attempts = 0;\n    let intervalId = setInterval(function() {\n      if (changeText() || attempts > 10) clearInterval(intervalId);\n      attempts++;\n    }, 500);\n  }\n});\n</script>",
+        "custom_liquid": "<script>\ndocument.querySelector(\"#Subscribe\").textContent = \"Join for free\";\n\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
