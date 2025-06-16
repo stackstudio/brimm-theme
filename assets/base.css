@@ -1323,14 +1323,14 @@ button.shopify-payment-button__button--unbranded {
   cursor: pointer;
   font: inherit;
   font-family: var(--font-heading-family);
-  font-size: 1.5rem;
-  font-weight: 577;
+  font-size: 1rem;
+  font-weight: 677;
   text-decoration: none;
   color: rgb(var(--color-button-text));
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: var(--color-button);
+  background-color: black;
 }
 
 .button:before,

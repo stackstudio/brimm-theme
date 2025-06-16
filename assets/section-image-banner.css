@@ -322,12 +322,6 @@
   margin-bottom: -2rem;
 }
 
-.banner__text p {
-  font-weight: 500;
-  line-height: 120%;
-  letter-spacing: -0.28px;
-}
-
 .banner__buttons {
   display: inline-flex;
   flex-wrap: wrap;
