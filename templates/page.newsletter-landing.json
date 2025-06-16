@@ -586,7 +586,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    var logo = document.querySelector('.footer-logo');\n\n    if (logo && logo.tagName === \"IMG\") {\n      logo.src = \"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM_Static_Logo_Black_5.png?v=1750088354\";\n    } else {\n      console.warn(\"'.footer-logo' sınıfına sahip bir <img> bulunamadı.\");\n    }\n  });\n</script>",
+        "custom_liquid": "<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    var logo = document.querySelector('.footer-logo');\n\n    if (logo && logo.tagName === \"IMG\") {\n      logo.src = \"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM_Static_Logo_Black_5.png?v=1750088354\";\n    } else {\n      console.warn(\"'.footer-logo' sınıfına sahip bir <img> bulunamadı.\");\n    }\n  });\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var button = document.querySelector(\"#Subscribe .newsletter-form__button\");\n  if (button) {\n    button.textContent = \"Join for free\";\n  }\n});\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
