@@ -84,36 +84,6 @@
         "padding_bottom": 12
       }
     },
-    "rich_text_am6nHN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_EDtYmq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop benefits",
-            "heading_size": "h1"
-          }
-        },
-        "text_U9VKdk": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Membership is amazing</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EDtYmq",
-        "text_U9VKdk"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -190,7 +160,6 @@
   },
   "order": [
     "main",
-    "rich_text_am6nHN",
     "multicolumn",
     "related-products"
   ]
