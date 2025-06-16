@@ -124,6 +124,7 @@ h4.brimm-blocks--justified-header {
   filter: saturate(1.3);
   @media(max-width: 749px) {
       min-height: 60vh;
+      padding: 0;
   }
 }
 
@@ -486,4 +487,8 @@ h4.brimm-blocks--justified-header {
     font-size: 1.6rem;
     max-width: 620px;
     margin: auto;
+}
+
+.newsletter-form__terms-label-text {
+    font-size: 1rem;
 }
