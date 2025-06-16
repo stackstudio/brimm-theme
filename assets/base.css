@@ -1428,7 +1428,7 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .brimm--button--primary {
-  --color-button: var(--color-brimm-red);
+  --color-button: black;
   --color-button-text: 254, 254, 254;
 }
 
