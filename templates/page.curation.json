@@ -220,7 +220,7 @@
         "buttons_LeKMfK": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "LEARN MORE",
+            "button_label_1": "Learn More",
             "button_link_1": "shopify://collections/reset-boxes",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
