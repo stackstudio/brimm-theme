@@ -401,24 +401,24 @@
         "heading_RCLQbb": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "OUR MOST IMPORTANT SHAREHOLDER",
             "heading_size": "headline-extra"
           }
         },
         "text_dWFybq": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Hear how we're making Mother Nature an owner of our business and what it means.",
             "text_style": "body"
           }
         },
         "buttons_R4hhrT": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "READ MORE",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
