@@ -284,6 +284,10 @@ h4.brimm-blocks--justified-header {
     }
 }
 
+.brimm-blocks--global-benefits .rte {
+    padding-right: 3rem;
+}
+
 .brimm-blocks--global-benefits h4 {
     margin: 0;
 }
@@ -476,4 +480,10 @@ h4.brimm-blocks--justified-header {
 
 .brimm-blocks--supporter-content p {
     margin: 0;
+}
+
+#shopify-section-template--25433006834006__rich_text_NXHXAh .isolate p {
+    font-size: 1.6rem;
+    max-width: 620px;
+    margin: auto;
 }

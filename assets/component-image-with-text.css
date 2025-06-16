@@ -419,6 +419,8 @@
 .image-with-text__text p {
   margin-top: 0;
   margin-bottom: 1rem;
+  max-width: 580px;
+  line-height: 1.5;
   color: #000000;
 }
 
