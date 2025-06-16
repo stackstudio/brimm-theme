@@ -405,6 +405,34 @@
         "is_product": false,
         "color_scheme": "scheme-2"
       }
+    },
+    "justified_hero_mVAXLL": {
+      "type": "justified-hero",
+      "blocks": {
+        "heading_4kM6Ec": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "FULL BLEED HERO SECTION"
+          }
+        },
+        "cta_button_JXpfMt": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Click me",
+            "link": "shopify://collections/reset-boxes",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4kM6Ec",
+        "cta_button_JXpfMt"
+      ],
+      "name": "Justified Hero",
+      "settings": {
+        "image": "shopify://shop_images/unlicensed_stills_240224_kelsey-smith_1.png",
+        "color_scheme": "scheme-6"
+      }
     }
   },
   "order": [
@@ -421,6 +449,7 @@
     "image_banner_nGyVQM",
     "rich_text_xFmdpQ",
     "image_banner_z89KfE",
-    "inset_hero_GKhiqC"
+    "inset_hero_GKhiqC",
+    "justified_hero_mVAXLL"
   ]
 }
