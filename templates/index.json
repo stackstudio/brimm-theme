@@ -144,7 +144,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Shop our reset boxes",
-        "button_link": "",
+        "button_link": "shopify://pages/reset-boxes",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
