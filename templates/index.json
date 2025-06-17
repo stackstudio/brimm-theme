@@ -135,7 +135,7 @@
       "settings": {
         "title": "RESET YOUR EVERYDAY",
         "no-gap": false,
-        "text_block": "From minimalist bathrooms to regenerative pantries - planet-positive living starts here. More coming soon.",
+        "text_block": "From minimalist bathrooms to regenerative pantries - planet-positive living starts here. <em>More coming soon.</em>",
         "heading_size": "h1",
         "split_header": false,
         "image_width": "full",
