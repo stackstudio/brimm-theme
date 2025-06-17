@@ -183,6 +183,34 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "justified_hero_rPD4Fx": {
+      "type": "justified-hero",
+      "blocks": {
+        "heading_ckbwwG": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Default Heading"
+          }
+        },
+        "cta_button_mzgUNz": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Read more",
+            "link": "shopify://blogs/journal/first-brimm-event-elv-denim",
+            "style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ckbwwG",
+        "cta_button_mzgUNz"
+      ],
+      "name": "Justified Hero",
+      "settings": {
+        "image": "shopify://shop_images/DSC06229.jpg",
+        "color_scheme": "scheme-6"
+      }
     }
   },
   "order": [
@@ -190,6 +218,7 @@
     "main",
     "multicolumn_3ieqcJ",
     "justified_header_section_XYt8hK",
-    "multirow_aw3Mcy"
+    "multirow_aw3Mcy",
+    "justified_hero_rPD4Fx"
   ]
 }
