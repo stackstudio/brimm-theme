@@ -81,13 +81,14 @@
         "padding_bottom": 36
       }
     },
-    "inset_hero_EFiC6B": {
-      "type": "inset-hero",
-      "name": "Inset Hero",
+    "wrapped_mega_image_cLgHKc": {
+      "type": "wrapped-mega-image",
+      "name": "Mega",
       "settings": {
-        "split_header": false,
-        "is_product": false,
-        "color_scheme": ""
+        "video_embed": "",
+        "color_scheme": "",
+        "disable_bottom_padding": false,
+        "disable_top_padding": false
       }
     },
     "multicolumn_cbgHTz": {
@@ -494,7 +495,7 @@
     "main",
     "justified_hero_Mrd9QU",
     "image_with_text_qhHAqB",
-    "inset_hero_EFiC6B",
+    "wrapped_mega_image_cLgHKc",
     "multicolumn_cbgHTz",
     "multicolumn_9AWmDg",
     "partner_logos_dQBnjf",
