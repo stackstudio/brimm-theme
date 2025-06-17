@@ -407,8 +407,8 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "<p>Every time you shop or join as a member, 10% of what you spend flows straight into the Planet Fund</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -420,21 +420,8 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_V7zWDV": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "<p>This fund backs projects—like renewables, supply chains, or material innovation—that help our brands reduce impact</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -443,14 +430,13 @@
       },
       "block_order": [
         "column_8XmLB9",
-        "column_yizTCk",
-        "column_V7zWDV"
+        "column_yizTCk"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "PLANET FUND",
         "no-gap": false,
-        "text_block": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+        "text_block": "The Planet Fund: Fuel for a Planet-Positive Future. We believe in mitigation rather than offsetting. Our fund is how we make it happen.",
         "heading_size": "h1",
         "split_header": false,
         "image_width": "full",
