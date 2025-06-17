@@ -52,7 +52,8 @@
       "settings": {
         "video_embed": "",
         "color_scheme": "scheme-1",
-        "disable_bottom_padding": true
+        "disable_bottom_padding": true,
+        "disable_top_padding": false
       }
     },
     "featured_collection_7z4pTV": {
@@ -281,7 +282,7 @@
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "WHY WE'RE DOING THIS",
+        "heading": "HOW OUR RESET BOXES HELP YOU AND THE PLANET",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
