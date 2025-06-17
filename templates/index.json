@@ -135,7 +135,7 @@
       "settings": {
         "title": "RESET YOUR EVERYDAY",
         "no-gap": false,
-        "text_block": "From minimalist bathrooms to regenerative pantries - planet-positive living starts here. <em>More coming soon.</em>",
+        "text_block": "From minimalist bathrooms to regenerative pantries - planet-positive living starts here. <em>More coming soon</em>",
         "heading_size": "h1",
         "split_header": false,
         "image_width": "full",
@@ -329,7 +329,7 @@
       "settings": {
         "title": "STORIES THAT SPARK CHANGE",
         "no-gap": false,
-        "text_block": "Weekly dispatches from people reimagining tomorrow.",
+        "text_block": "Weekly dispatches from people reimagining tomorrow",
         "heading_size": "h1",
         "split_header": false,
         "image_width": "full",
@@ -449,7 +449,7 @@
       "settings": {
         "title": "EVENTS",
         "no-gap": false,
-        "text_block": "Meet the makers, thinkers, dreamers shaping what’s next.",
+        "text_block": "Meet the makers, thinkers, dreamers shaping what’s next",
         "heading_size": "h1",
         "split_header": false,
         "image_width": "full",
