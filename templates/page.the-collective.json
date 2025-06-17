@@ -568,7 +568,7 @@
         "cta_button_6iBjfq": {
           "type": "cta_button",
           "settings": {
-            "label": "Become a Founder Member",
+            "label": "BECOME A MEMBER TODAY",
             "link": "shopify://pages/founder-members",
             "style": "primary"
           }
