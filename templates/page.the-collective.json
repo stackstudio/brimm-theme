@@ -36,51 +36,6 @@
         "color_scheme": "scheme-6"
       }
     },
-    "image_with_text_qhHAqB": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_GqbTae": {
-          "type": "heading",
-          "settings": {
-            "heading": "PEOPLE-POWERED MOVEMENT FOR CHANGE",
-            "heading_size": "h1"
-          }
-        },
-        "text_9r7DFY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At BRiMM, we believe it’s time for a fresh approach - one where every individual action truly makes a difference</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GqbTae",
-        "text_9r7DFY"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/DSC06429.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "scheme-2",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "brimm-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "wrapped_mega_image_cLgHKc": {
       "type": "wrapped-mega-image",
       "blocks": {
@@ -95,18 +50,11 @@
           "settings": {
             "top_copy": "<p>At BRiMM, we believe it's time for a fresh approach - one where every individual action truly makes a difference</p>"
           }
-        },
-        "bottom_paragraph_MW34TW": {
-          "type": "bottom_paragraph",
-          "settings": {
-            "bottom_copy": "<p>This is your default rich text content.</p>"
-          }
         }
       },
       "block_order": [
         "heading_Dbrfzw",
-        "top_paragraph_BPPnPH",
-        "bottom_paragraph_MW34TW"
+        "top_paragraph_BPPnPH"
       ],
       "name": "Mega",
       "settings": {
@@ -519,7 +467,6 @@
   "order": [
     "main",
     "justified_hero_Mrd9QU",
-    "image_with_text_qhHAqB",
     "wrapped_mega_image_cLgHKc",
     "multicolumn_cbgHTz",
     "multicolumn_9AWmDg",
