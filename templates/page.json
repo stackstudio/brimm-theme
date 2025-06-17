@@ -190,7 +190,13 @@
         "heading_ckbwwG": {
           "type": "heading",
           "settings": {
-            "heading_text": "Default Heading"
+            "heading_text": "BRiMM x ELV"
+          }
+        },
+        "text_WFLhd6": {
+          "type": "text",
+          "settings": {
+            "copy": "Read about our recent event we hosted together with ELV Denim. 100% post consumer waste, negronis and good people."
           }
         },
         "cta_button_mzgUNz": {
@@ -204,6 +210,7 @@
       },
       "block_order": [
         "heading_ckbwwG",
+        "text_WFLhd6",
         "cta_button_mzgUNz"
       ],
       "name": "Justified Hero",
