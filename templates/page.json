@@ -31,9 +31,10 @@
         "row_PeU4tn": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Common_Ground_Cover_Image.png",
+            "caption": "",
+            "heading": "<strong>Join a Common Ground film screening</strong>",
+            "text": "<p>Join us for an exclusive screening of this excellent regenerative agriculture documentary followed by a panel discussion with BRiMM brands.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -41,9 +42,10 @@
         "row_WcPkaq": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/british_pasture_leather.jpg",
+            "caption": "",
+            "heading": "<strong>Take a field trip to a regenerative farm</strong>",
+            "text": "<p>Join us for a day out on one of the UK’s leading regenerative farms for a tour hosted by British Pasture Leather.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -51,9 +53,10 @@
         "row_BmiEYg": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
+            "caption": "",
+            "heading": "Join a stitch n bitch",
+            "text": "<p>Join us for a hands-on clothing repair workshop with sustainable fashion pioneer Orsola de Castro.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
