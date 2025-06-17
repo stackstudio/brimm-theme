@@ -17,19 +17,41 @@
         "padding_bottom": 28
       }
     },
+    "custom_liquid_inGB9j": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.policies {\ndisplay: none !important;\n}\n.section-header {\n position: absolute;\n}\n.header {\nwidth: 100% !important;\nbackdrop-filter: none !important;\ndisplay: flex !important;\njustify-content: center;\n}\n.header__inline-menu {\ndisplay: none !important;\n}\n#Banner-template--25469075784022__image_banner_6DKj38 > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in.scroll-trigger--design-mode > div > div.banner__text.rte.body {\nfont-size: 18px;\n}\n\n@media only screen and (min-width: 768px) {\n#Banner-template--25469075784022__image_banner_6DKj38 > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in > div {\n   display: none !important;\n}\n}\n\n#shopify-section-sections--25045045674326__footer > footer > div > div:nth-child(2) > div > ul > li:nth-child(2) {\ndisplay: none !important;\n}\n\n#shopify-section-sections--25045045674326__footer > footer > div > div:nth-child(3) > div > ul > li > a {\nfont-size: 24px !important;\nfont-weight: 800;\n}\n\n@media only screen and (max-width: 768px) {\n#Details-menu-drawer-container {\ndisplay: none;\n}\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "custom_liquid_nQN6Vm": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<section class=\"thank-you-page\">\n  <div class=\"container\">\n    <h1>Thanks for joining us.</h1>\n    <p class=\"subtitle\">\n      Welcome email, sent.<br>\n      If you don’t see it in your inbox, check your spam, promotions, or junk folders.\n    </p>\n\n    <a href=\"/blogs/journal\" class=\"btn\">Read Today’s Briefing</a>\n    <p class=\"read-time\">Est. read time: ~5 minutes</p>\n\n    <hr>\n\n    <p class=\"small-header\"><strong>Now, 1440 is read by millions. But it began as an email we sent to 78 people.</strong></p>\n\n    <p class=\"bottom-text\">\n      Thanks for supporting the comprehensive news source\n      <span class=\"highlight\">edited to be unbiased as humanly possible</span>.\n    </p>\n\n    <p class=\"bottom-text\">\n      Want to share 1440 with family and friends?\n      Just copy this link: <a href=\"https://join1440.com/welcome\">https://join1440.com/welcome</a>\n    </p>\n  </div>\n</section>\n\n<style>\n.thank-you-page {\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 40px 20px;\n}\n\n.container {\n  max-width: 600px;\n  text-align: center;\n}\n\nh1 {\n  font-size: 36px;\n  font-weight: bold;\n  margin-bottom: 20px;\n}\n\n.subtitle {\n  font-size: 16px;\n  margin-bottom: 30px;\n  line-height: 1.5;\n}\n\n.btn {\n  background-color: black;\n  color: white;\n  padding: 14px 28px;\n  text-decoration: none;\n  border-radius: 6px;\n  display: inline-block;\n  font-size: 16px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n.read-time {\n  font-size: 14px;\n  color: #555;\n  margin-bottom: 40px;\n}\n\nhr {\n  border: none;\n  border-top: 1px solid #ccc;\n  margin: 40px 0;\n}\n\n.small-header {\n  font-size: 16px;\n  margin-bottom: 20px;\n}\n\n.bottom-text {\n  font-size: 15px;\n  margin-bottom: 10px;\n  line-height: 1.5;\n}\n\n.highlight {\n  background-color: yellow;\n}\n</style>",
+        "custom_liquid": "<section class=\"thank-you-page\">\n  <div class=\"container\">\n    <h1>Thanks for joining the BRiMM collective.</h1>\n    <p class=\"subtitle\">\n      Open your welcome email (check spam and junk folders) to make sure you receive our weekly roundup of planet-positive stories, inspiration and tips covering food, style, travel, music and mind-expanding ideas – plus much, much more.\n    </p>\n\n    <hr>\n\n    <div class=\"content-block\">\n      <h2 class=\"block-heading\">But we’re more than a newsletter.</h2>\n      <p class=\"bottom-text\">\n        We’re a planet-positive shop, journal and collective where every purchase powers change.\n      </p>\n    </div>\n\n    <div class=\"content-columns\">\n      <div class=\"column\">\n        <h3>Shop</h3>\n        <p>Design-led brands, curated to spark joy – every item is chosen with purpose.</p>\n      </div>\n      <div class=\"column\">\n        <h3>Journal</h3>\n        <p>Tune in for the stories and guides that matter from our planet-positive pioneers.</p>\n      </div>\n      <div class=\"column\">\n        <h3>Collective</h3>\n        <p>Events and a Planet Fund that supports direct climate action.</p>\n      </div>\n    </div>\n\n    <hr>\n\n    <p class=\"bottom-text\">\n      Can’t wait till the next email drop?<br>\n      <strong>\n        Follow us on \n        <a href=\"https://www.instagram.com/wearebrimm\" target=\"_blank\">Instagram</a> and \n        <a href=\"https://www.tiktok.com/@wearebrimm\" target=\"_blank\">TikTok</a>.\n      </strong>\n    </p>\n  </div>\n</section>\n\n<style>\n.thank-you-page {\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 40px 20px;\n  background-color: #fefefe;\n}\n\n.container {\n  max-width: 700px;\n  text-align: center;\n}\n\nh1 {\n  font-size: 32px;\n  font-weight: bold;\n  margin-bottom: 20px;\n}\n\n.subtitle {\n  font-size: 16px;\n  margin-bottom: 30px;\n  line-height: 1.6;\n}\n\nhr {\n  border: none;\n  border-top: 1px solid #ddd;\n  margin: 40px 0;\n}\n\n.content-block {\n  margin-bottom: 40px;\n}\n\n.block-heading {\n  font-size: 20px;\n  font-weight: 600;\n  margin-bottom: 10px;\n}\n\n.content-columns {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n\n@media (min-width: 768px) {\n  .content-columns {\n    flex-direction: row;\n    justify-content: space-between;\n    text-align: left;\n  }\n}\n\n.column {\n  flex: 1;\n  padding: 0 10px;\n}\n\n.column h3 {\n  font-size: 18px;\n  font-weight: 600;\n  margin-bottom: 8px;\n}\n\n.column p {\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n.bottom-text {\n  font-size: 15px;\n  line-height: 1.6;\n}\n\n.bottom-text a {\n  color: #000;\n  text-decoration: underline;\n  transition: color 0.2s ease;\n}\n\n.bottom-text a:hover {\n  color: #4CAF50; /* or any brand accent color */\n}\n</style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "custom_liquid_CJVA3A": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script>\n// Logo değiştirme\n document.addEventListener(\"DOMContentLoaded\", function () {\n    var logo = document.querySelector('.footer-logo');\n\n    if (logo && logo.tagName === \"IMG\") {\n      logo.src = \"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Copy_of_BRIMM_Static_Logo_Black_5.png?v=1750088354\";\n    } else {\n      console.warn(\"'.footer-logo' sınıfına sahip bir <img> bulunamadı.\");\n    }\n  });\n\n// Text değiştirme\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  function fixButtonText() {\n    var button = document.querySelector(\".newsletter-form__button.body-medium\");\n    if (!button) return false;\n\n    if (button.textContent.trim() === \"Sign up\") {\n      button.textContent = \"Join for free\";\n      return true;\n    }\n    return false;\n  }\n\n  fixButtonText();\n\n  let attempts = 0;\n  let interval = setInterval(function() {\n    if (fixButtonText() || attempts > 10) {\n      clearInterval(interval);\n    }\n    attempts++;\n  }, 500);\n});\n\n// Logo tıklama iptal\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var logo = document.querySelector(\".header__heading-logo\");\n\n  if (!logo) return;\n\n  // Eğer logo <a> ise href kaldır\n  if (logo.tagName === \"A\") {\n    logo.removeAttribute(\"href\");\n  }\n\n  // Üstte olmadıysa, ya da ekstra olarak tıklamayı engelle\n  logo.style.pointerEvents = \"auto\"; // önce etkinleştir\n  logo.addEventListener(\"click\", function(e) {\n    e.preventDefault();\n    e.stopPropagation();\n  });\n\n  // İmleç normal olsun\n  logo.style.cursor = \"default\";\n});\n\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "main",
-    "custom_liquid_nQN6Vm"
+    "custom_liquid_inGB9j",
+    "custom_liquid_nQN6Vm",
+    "custom_liquid_CJVA3A"
   ]
 }
