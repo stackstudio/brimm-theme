@@ -278,6 +278,75 @@
         "block_text": "some of our impact led brands"
       }
     },
+    "multicolumn_pLcGF8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_m6ifPC": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "<p>Your membership is vital - your support fuels our mission and model</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3wjPAJ": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "<p>Every purchase contributes to our Planet Fund. As membership revenue sustains our business, we can reinvest profits to reduce the impact of our brands</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DMKHTV": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "",
+            "text": "<p>You have a voice - members vote on the initiatives we support</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_m6ifPC",
+        "column_3wjPAJ",
+        "column_DMKHTV"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "OUR MEMBERS",
+        "no-gap": false,
+        "text_block": "",
+        "heading_size": "h1",
+        "split_header": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_A8dx4k": {
       "type": "image-with-text",
       "blocks": {
@@ -471,6 +540,7 @@
     "multicolumn_cbgHTz",
     "multicolumn_9AWmDg",
     "partner_logos_dQBnjf",
+    "multicolumn_pLcGF8",
     "image_with_text_A8dx4k",
     "image_banner_RGrfQM",
     "image_banner_HRjXWW",
