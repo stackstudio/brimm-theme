@@ -85,7 +85,7 @@
       "type": "wrapped-mega-image",
       "name": "Mega",
       "settings": {
-        "video_embed": "",
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true&playerColor=e3f994&controlsVisibleOnLoad=false\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "",
         "disable_bottom_padding": false,
         "disable_top_padding": false
