@@ -9,19 +9,19 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "justified_hero_QM4eHB": {
       "type": "justified-hero",
       "name": "Justified Hero",
       "settings": {
         "image": "shopify://shop_images/DSC06433.jpg",
         "color_scheme": "scheme-6"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "multirow_aw3Mcy": {
@@ -82,8 +82,8 @@
     }
   },
   "order": [
-    "main",
     "justified_hero_QM4eHB",
+    "main",
     "multirow_aw3Mcy"
   ]
 }
