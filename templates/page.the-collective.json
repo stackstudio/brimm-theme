@@ -338,7 +338,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -353,7 +353,7 @@
         "heading_EDaUXG": {
           "type": "heading",
           "settings": {
-            "heading": "OUR MEMBERS",
+            "heading": "FOUNDER MEMBERS",
             "heading_size": "h1"
           }
         },
