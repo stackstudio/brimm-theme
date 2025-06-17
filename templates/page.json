@@ -15,7 +15,7 @@
         "heading_Fx9jWy": {
           "type": "heading",
           "settings": {
-            "heading_text": "Default Heading"
+            "heading_text": "CONNECT WITH CLIMATE OPTIMISTS"
           }
         }
       },
@@ -46,7 +46,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Film screenings",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Thought provoking films and documentaries accompanied by panel discussions.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -59,7 +59,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Supper clubs",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Great food, intimate locations and stimulating conversation.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -72,7 +72,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Field days and workshops",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Hands on experiences with the thinkers, doers and makers imagining a planet-positive future.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -88,7 +88,7 @@
       "settings": {
         "title": "Join BRiMM events",
         "no-gap": false,
-        "text_block": "Meet your community at intimate supper clubs, screenings and panel events",
+        "text_block": "We run regular events to get our collective of brands and members together. You can expect:",
         "heading_size": "h1",
         "split_header": false,
         "image_width": "full",
