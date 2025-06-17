@@ -84,20 +84,6 @@
     "multicolumn_cbgHTz": {
       "type": "multicolumn",
       "blocks": {
-        "column_Uyg3DC": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/purposefulcommerce.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "OUR COLLECTIVE",
-            "text": "<p>Discover how our members and brands unite to drive positive change</p>",
-            "image_label": "",
-            "link_label": "READ MORE",
-            "link": ""
-          }
-        },
         "column_Wpp3zJ": {
           "type": "column",
           "settings": {
@@ -107,6 +93,20 @@
             "has_bg_color": false,
             "title": "PLANET FUND",
             "text": "<p>We invest 10% of our revenue into initiatives that create meaningful change</p>",
+            "image_label": "",
+            "link_label": "READ MORE",
+            "link": ""
+          }
+        },
+        "column_Uyg3DC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/purposefulcommerce.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "OUR COLLECTIVE",
+            "text": "<p>Discover how our members and brands unite to drive positive change</p>",
             "image_label": "",
             "link_label": "READ MORE",
             "link": ""
@@ -128,8 +128,8 @@
         }
       },
       "block_order": [
-        "column_Uyg3DC",
         "column_Wpp3zJ",
+        "column_Uyg3DC",
         "column_x7BX34"
       ],
       "name": "t:sections.multicolumn.presets.name",
