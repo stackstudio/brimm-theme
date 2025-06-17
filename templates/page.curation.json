@@ -264,23 +264,11 @@
             "text": "UpCircle transforms natural by-products - such as used coffee grounds and fruit stones - into highly effective skincare. They utilize recyclable and refillable packaging, are certified plastic-negative, and hold ethical certifications (B Corp, vegan, cruelty-free, and organic). UpCircle is transparent about its ingredients and actively supports community and environmental initiatives. While independent accreditation for all this innovation may not always be feasible, their commitment is undeniably inspiring and truly planet-positive.",
             "text_style": "body"
           }
-        },
-        "buttons_ETqdUU": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Learn more",
-            "button_link_1": "shopify://products/brimm-luxury-bathroom-reset-box",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_DkaMhF",
-        "text_jPnbpG",
-        "buttons_ETqdUU"
+        "text_jPnbpG"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -325,23 +313,11 @@
             "text": "Kinfill offers concentrated, non-toxic home cleaning products in reusable, elevated aluminum bottles - eliminating single-use plastics. Their plant-based, cruelty-free formulas are free from harsh chemicals, and all packaging is recyclable. With local production to minimize transport impact, Kinfill is also B Corp certified. While no standard currently exists for this level of design and sustainability detail, their commitment is genuine and not greenwashed.",
             "text_style": "body"
           }
-        },
-        "buttons_3w3N7E": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Learn more",
-            "button_link_1": "shopify://products/bathroom-minimalist-reset-box",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_X76gcT",
-        "text_MhjwJE",
-        "buttons_3w3N7E"
+        "text_MhjwJE"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
