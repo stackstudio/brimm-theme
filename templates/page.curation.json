@@ -216,23 +216,11 @@
             "text": "With over 1,400 five-star reviews, their award-winning extra-virgin olive oils are a true taste sensation. As a certified B-Corp, they go above and beyond with initiatives that matter. They champion female farmers and collaborate with those who actively promote biodiversity through diverse planting, allowing animals to graze between the groves and practicing low or no tillage. This is what people refer to as ‘regenerative farming.’ It’s no wonder we proudly stock their products!",
             "text_style": "body"
           }
-        },
-        "buttons_LeKMfK": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Learn More",
-            "button_link_1": "shopify://collections/reset-boxes",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_KyCbfM",
-        "text_giUUHq",
-        "buttons_LeKMfK"
+        "text_giUUHq"
       ],
       "settings": {
         "image": "shopify://shop_images/COS_May_Toned_Down_1_EDITED_1.webp",
