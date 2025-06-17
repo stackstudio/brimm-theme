@@ -171,7 +171,7 @@
         "@media only screen and (min-width: 768px) {div {display: none !important; }}"
       ],
       "settings": {
-        "title": "DISCOVER PREVIOUS NEWSLETTERS",
+        "title": "Join free to unlock every past edition of our newsletter",
         "no-gap": false,
         "text_block": "",
         "heading_size": "h2",
@@ -195,7 +195,7 @@
         "heading_BhFjp8": {
           "type": "heading",
           "settings": {
-            "heading": "DISCOVER PREVIOUS NEWSLETTERS",
+            "heading": "Join free to unlock every past edition of our newsletter",
             "heading_size": "h2"
           }
         }
