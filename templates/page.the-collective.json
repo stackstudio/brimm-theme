@@ -83,6 +83,31 @@
     },
     "wrapped_mega_image_cLgHKc": {
       "type": "wrapped-mega-image",
+      "blocks": {
+        "heading_Dbrfzw": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Default Heading"
+          }
+        },
+        "top_paragraph_BPPnPH": {
+          "type": "top_paragraph",
+          "settings": {
+            "top_copy": "<p>This is your default rich text content.</p>"
+          }
+        },
+        "bottom_paragraph_MW34TW": {
+          "type": "bottom_paragraph",
+          "settings": {
+            "bottom_copy": "<p>This is your default rich text content.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dbrfzw",
+        "top_paragraph_BPPnPH",
+        "bottom_paragraph_MW34TW"
+      ],
       "name": "Mega",
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true&playerColor=e3f994&controlsVisibleOnLoad=false\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
