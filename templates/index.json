@@ -47,7 +47,7 @@
         "button_8kcVdC": {
           "type": "button",
           "settings": {
-            "button_label": "Become a member",
+            "button_label": "Join as a Member",
             "button_link": "shopify://pages/member-sign-up-form",
             "button_style_secondary": false
           }
@@ -93,7 +93,7 @@
             "title": "Minimalist, plastic-free or British luxury",
             "text": "",
             "image_label": "",
-            "link_label": "Bathroom reset",
+            "link_label": "Bathroom Reset",
             "link": "shopify://pages/reset-boxes"
           }
         },
@@ -107,7 +107,7 @@
             "title": "Regenerative. Delicious. Planet-positive. Update your pantry with better habits",
             "text": "",
             "image_label": "",
-            "link_label": "Pantry reset",
+            "link_label": "Pantry Reset",
             "link": "shopify://products/brimm-pantry-essentials-reset-box"
           }
         },
@@ -121,7 +121,7 @@
             "title": "Design-led resets for clearer air and calmer counters",
             "text": "",
             "image_label": "",
-            "link_label": "Kitchen reset",
+            "link_label": "Kitchen Reset",
             "link": "shopify://products/brimm-kitchen-reset-cleaning-box"
           }
         }
@@ -143,7 +143,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Shop our reset boxes",
+        "button_label": "Shop our Reset boxes",
         "button_link": "shopify://pages/reset-boxes",
         "color_scheme": "",
         "columns_mobile": "1",
