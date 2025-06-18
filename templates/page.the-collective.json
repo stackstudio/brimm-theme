@@ -347,57 +347,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_A8dx4k": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_EDaUXG": {
-          "type": "heading",
-          "settings": {
-            "heading": "FOUNDER MEMBERS",
-            "heading_size": "h1"
-          }
-        },
-        "text_JEayR6": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "accordians_RUp4Qj": {
-          "type": "accordians",
-          "settings": {
-            "accordians": "<details name=\"founder\"\ndata-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Amy-Powney-creative-director-AKYN-2025.webp?v=1744822906\"\n>\n  <summary>Hasna Kourda</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Anna_Foster_Head_Shot_3_1080x_28229f04-d1db-4916-99dc-f9dea8c3131b.webp?v=1744822907\" name=\"founder\">\n  <summary>Guy Hayler</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/jocelyn.png?v=1744822909\" name=\"founder\">\n  <summary>Lisa Oxenham</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Chantelle_Nicholson.png?v=1744822908\" name=\"founder\">\n  <summary>Melanie Rickey</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Melanie_Rickey.png?v=1744822909\" name=\"founder\">\n  <summary>Lucy Cleland</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>\n<details data-img-src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/Chantelle_Nicholson.png?v=1744822908\" name=\"founder\">\n  <summary>Mark Shayler</summary>\n  <p>Sustainable denim pioneer</p>\n<p>Founder and Creative Director of pioneering sustainable denim brand E.L.V. DENIM. Prior to founding the brand Anna was a fashion editor for twenty years at publications such as Exit, and i-D Magazine. Anna didn’t understand why the denim industry was producing 4bn pairs of jeans a year from virgin fibres. She decided to rework existing jeans into new modern, sophisticated styles.</p>\n</details>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EDaUXG",
-        "text_JEayR6",
-        "accordians_RUp4Qj"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_gPrhdF": {
       "type": "multicolumn",
       "blocks": {
@@ -596,7 +545,6 @@
     "multicolumn_9AWmDg",
     "partner_logos_dQBnjf",
     "multicolumn_pLcGF8",
-    "image_with_text_A8dx4k",
     "multicolumn_gPrhdF",
     "image_banner_RGrfQM",
     "image_banner_HRjXWW",
