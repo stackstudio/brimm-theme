@@ -205,79 +205,6 @@
         "padding_bottom": 36
       }
     },
-    "partner_logos_dQBnjf": {
-      "type": "partner-logos",
-      "blocks": {
-        "logo_7jH7BU": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_94_9a806a83-3e2d-42f2-bfcd-fb5c648bc176.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_8hpXeR": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_95_831c1d3a-5c34-4ccf-b695-c42ddd6655a2.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_7aRN7c": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_98_563de907-800a-43f7-8a20-7b6ba8aa2b69.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_XH3VDx": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_99_dc84d58b-43b4-444a-a17a-6cf1f8c6db50.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_Nz3czh": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/KLEE_Instagram_Post_Square_1680x_9f421509-72d0-4d08-85e5-fcec190558f7.webp",
-            "alt_text": "Partner Logo",
-            "logo_width": 130
-          }
-        },
-        "logo_PARQDN": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/image_79.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        },
-        "logo_TiWgBY": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Frame_97.png",
-            "alt_text": "Partner Logo",
-            "logo_width": 150
-          }
-        }
-      },
-      "block_order": [
-        "logo_7jH7BU",
-        "logo_8hpXeR",
-        "logo_7aRN7c",
-        "logo_XH3VDx",
-        "logo_Nz3czh",
-        "logo_PARQDN",
-        "logo_TiWgBY"
-      ],
-      "settings": {
-        "block_text": "some of our impact led brands"
-      }
-    },
     "multicolumn_pLcGF8": {
       "type": "multicolumn",
       "blocks": {
@@ -543,7 +470,6 @@
     "wrapped_mega_image_cLgHKc",
     "multicolumn_cbgHTz",
     "multicolumn_9AWmDg",
-    "partner_logos_dQBnjf",
     "multicolumn_pLcGF8",
     "multicolumn_gPrhdF",
     "image_banner_RGrfQM",
