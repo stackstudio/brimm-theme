@@ -1,13 +1,7 @@
 /*! tailwindcss v4.1.10 | MIT License | https://tailwindcss.com */
 @layer properties;
-.absolute {
-  position: absolute;
-}
 .fixed {
   position: fixed;
-}
-.relative {
-  position: relative;
 }
 .static {
   position: static;
