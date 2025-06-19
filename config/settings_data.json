@@ -197,7 +197,7 @@
           "price_on_sale_class": "",
           "sale_price_description": "[sale_price]",
           "regular_price_description": "[regular_price]",
-          "delay": 0,
+          "delay": 100,
           "customer_metafields_to_check": "",
           "calculate_discount_based_on_quantity": false,
           "log_level": "error",
