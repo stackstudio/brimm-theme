@@ -153,33 +153,6 @@
           "cards_border_color": "rgba(0,0,0,0)"
         }
       },
-      "9137299313046473183": {
-        "type": "shopify://apps/regios-discounts/blocks/regios_discounts_embed/dc1514bb-4830-4102-bffa-e8b300bac5bd",
-        "disabled": true,
-        "settings": {
-          "theme_type": "auto_detect",
-          "currency_code_enabled": false,
-          "discount_description": "[discount_message]",
-          "discount_description_css": "",
-          "badge_description": "[discount_percentage] OFF",
-          "badge_css": "",
-          "price_on_sale_class": "",
-          "sale_price_description": "[sale_price]",
-          "regular_price_description": "[regular_price]",
-          "delay": 0,
-          "customer_metafields_to_check": "",
-          "calculate_discount_based_on_quantity": false,
-          "log_level": "error",
-          "feature_flags": ""
-        }
-      },
-      "3408556835904117202": {
-        "type": "shopify://apps/regios-discounts/blocks/regios_add_to_cart_embed/dc1514bb-4830-4102-bffa-e8b300bac5bd",
-        "disabled": true,
-        "settings": {
-          "reload_in_unsupported_themes": true
-        }
-      },
       "1923486770171284578": {
         "type": "shopify://apps/simplee-memberships/blocks/app-block/f502d2a4-3112-42c9-ad39-89fb8aca93a7",
         "disabled": false,
@@ -202,6 +175,33 @@
           "link_text": "My Membership",
           "link_css": ".simplee-membership-link{}",
           "link_icon_size": 16
+        }
+      },
+      "3408556835904117202": {
+        "type": "shopify://apps/regios-discounts/blocks/regios_add_to_cart_embed/dc1514bb-4830-4102-bffa-e8b300bac5bd",
+        "disabled": false,
+        "settings": {
+          "reload_in_unsupported_themes": true
+        }
+      },
+      "9137299313046473183": {
+        "type": "shopify://apps/regios-discounts/blocks/regios_discounts_embed/dc1514bb-4830-4102-bffa-e8b300bac5bd",
+        "disabled": false,
+        "settings": {
+          "theme_type": "auto_detect",
+          "currency_code_enabled": false,
+          "discount_description": "[discount_message]",
+          "discount_description_css": "",
+          "badge_description": "[discount_percentage] OFF",
+          "badge_css": "",
+          "price_on_sale_class": "",
+          "sale_price_description": "[sale_price]",
+          "regular_price_description": "[regular_price]",
+          "delay": 0,
+          "customer_metafields_to_check": "",
+          "calculate_discount_based_on_quantity": false,
+          "log_level": "error",
+          "feature_flags": ""
         }
       }
     },
