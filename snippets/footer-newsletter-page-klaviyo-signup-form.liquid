@@ -1,153 +1,64 @@
 {% comment %}
-  Signup form with hidden prechecked terms checkbox.
+  Renders sign up form.
 {% endcomment %}
 
-<script src='{{ "klaviyo-signup-form.js" | asset_url }}' defer></script>
-
-<klaviyo-signup-form account-id="RJAyDu" list-id="UdQf4b">
-  <div class="custom-klaviyo-form-wrapper">
-    <form class="newsletter-form" method="POST" novalidate>
-      <input type="hidden" name="g" value="UdQf4b" />
-
-      <div class="custom-fields-wrapper">
+<script src='{{ 'klaviyo-signup-form.js' | asset_url }}' defer='defer'></script>
+<klaviyo-signup-form account-id='RJAyDu' list-id='UdQf4b'>
+  <div class=''>
+    <form class='klaviyo-signup-form newsletter-form' method='POST'>
+      <input type='hidden' name='g' value='UdQf4b'>
+      <input
+        type='email'
+        id='email'
+        name='email'
+        class='newsletter-form__field field__input'
+        aria-required='true'
+        autocorrect='off'
+        autocapitalize='off'
+        autocomplete='email'
+        placeholder='Enter your email'
+      >
+      <label class='field__label' for='NewsletterForm--{{ section.id }}'>
+        {{ 'newsletter.label' | t }}
+      </label>
+      <button
+        type='submit'
+        class='newsletter-form__button body-medium'
+        name='commit'
+        id='Subscribe'
+        aria-label='{{ 'newsletter.button_label' | t }}'
+      >
+        Sign up
+      </button>
+      <div class='newsletter-form__terms'>
         <input
-          type="email"
-          id="email"
-          name="email"
-          class="custom-email-input"
-          aria-required="true"
-          autocorrect="off"
-          autocapitalize="off"
-          autocomplete="email"
-          placeholder="Enter your email"
-          required
-        />
-        <button
-          type="submit"
-          class="custom-submit-button"
-          name="commit"
-          id="Subscribe"
-          aria-label="Sign up"
+          type='checkbox'
+          name='newsletter_terms'
+          id='newsletter_terms'
+          class='newsletter-form__terms-input'
+          aria-label='{{ 'newsletter.button_label' | t }}'
+          tabindex='0'
         >
-          Join for free
-        </button>
-      </div>
-
-      <div class="subscriber-count">Loved by over 1,500 subscribers</div>
-
-      <div class="custom-terms-wrapper" style="display:none;">
-        <input
-          type="checkbox"
-          id="newsletter_terms"
-          name="newsletter_terms"
-          class="custom-terms-checkbox"
-          required
-          aria-required="true"
-          checked
-        />
-        <label for="newsletter_terms" class="custom-terms-label">
-          Please accept our
-          <a href="/policies/privacy-policy" target="_blank">privacy policy</a>.
+        <label for='newsletter_terms' class='newsletter-form__terms-label' tabindex='0'>
+          <span class='newsletter-form__terms-label-text body-medium'>
+            {{ 'newsletter.terms' | t }}
+            <a href='/pages/privacy' target='_blank'>here.</a>
+          </span>
         </label>
       </div>
-
-      <div id="newsletter-error">
-        <p class="form__messages"></p>
+      <div id='newsletter-error'>
+        <p class='form__messages body-medium'></p>
       </div>
     </form>
-
-    <div class="newsletter-success" style="display:none;">
-      <div class="newsletter-form__fields">
-        <div class="form__messages banner__content--text">
-          <h2 class="email-signup-banner__heading">Thank you</h2>
-          <div class="newsletter__subheading">
-            {{ "newsletter.success_message" | t }}
+    <div class='newsletter-success' style='display: none;'>
+      <div class='newsletter-form__fields'>
+        <div class='form__messages banner__content--text'>
+          <h2 class='email-signup-banner__heading h1'>Thank you</h2>
+          <div class='newsletter__subheading rte body-medium'>
+            {{ 'newsletter.success_message' | t }}
           </div>
         </div>
       </div>
     </div>
   </div>
 </klaviyo-signup-form>
-
-<form method="post" action="/contact#newsletter" class="brimm-newsletter__form-elements">
-  <input
-    type="email"
-    name="contact[email]"
-    placeholder="Email"
-    required
-    class="brimm-newsletter__input"
-  >
-  
-  <button type="submit" class="brimm-newsletter__button">
-    Sign up
-  </button>
-
-  <label class="brimm-newsletter__consent">
-    <input type="checkbox" required>
-    <span>By joining, you agree to receive BRiMMs' newsletters. Unsubscribe any time at the bottom of the newsletter. Read more in Privacy Policy <a href="/policies/privacy-policy" target="_blank">here</a>.</span>
-  </label>
-</form>
-
-<style>
-  .brimm-newsletter__form-elements {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .brimm-newsletter__input {
-    padding: 14px 16px;
-    font-size: 14px;
-    border: 1px solid #000;
-    background-color: transparent;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .brimm-newsletter__button {
-    padding: 14px 16px;
-    font-size: 14px;
-    font-weight: 600;
-    background-color: #e44325;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-  }
-
-  .brimm-newsletter__consent {
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    font-size: 12px;
-    line-height: 16px;
-  }
-
-  .brimm-newsletter__consent input[type="checkbox"] {
-    margin-top: 2px;
-    width: 14px;
-    height: 14px;
-  }
-
-  .brimm-newsletter__consent a {
-    text-decoration: underline;
-    color: inherit;
-  }
-</style>
-
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const form = document.querySelector('.newsletter-form');
-    if (!form) return;
-
-    form.addEventListener('submit', (e) => {
-      setTimeout(() => {
-        const successMsg = document.querySelector('.newsletter-success');
-        if (successMsg && successMsg.style.display !== 'none') {
-          window.location.href = '/pages/newsletter-thank-you-page';
-        }
-      }, 1000); 
-    });
-  });
-</script>
