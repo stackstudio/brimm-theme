@@ -69,89 +69,72 @@
   </div>
 </klaviyo-signup-form>
 
+<form method="post" action="/contact#newsletter" class="brimm-newsletter__form-elements">
+  <input
+    type="email"
+    name="contact[email]"
+    placeholder="Email"
+    required
+    class="brimm-newsletter__input"
+  >
+  
+  <button type="submit" class="brimm-newsletter__button">
+    Sign up
+  </button>
+
+  <label class="brimm-newsletter__consent">
+    <input type="checkbox" required>
+    <span>By joining, you agree to receive BRiMMs' newsletters. Unsubscribe any time at the bottom of the newsletter. Read more in Privacy Policy <a href="/policies/privacy-policy" target="_blank">here</a>.</span>
+  </label>
+</form>
+
 <style>
-  .custom-klaviyo-form-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+  .brimm-newsletter__form-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .brimm-newsletter__input {
+    padding: 14px 16px;
+    font-size: 14px;
+    border: 1px solid #000;
+    background-color: transparent;
+    width: 100%;
     box-sizing: border-box;
   }
-  .custom-fields-wrapper {
-    display: flex;
+
+  .brimm-newsletter__button {
+    padding: 14px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #e44325;
+    color: #fff;
+    border: none;
+    cursor: pointer;
     width: 100%;
   }
-  .custom-email-input {
-    flex-grow: 1;
-    min-width: 0;
-    height: 44px;
-    padding: 0 12px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-right: none;
-    border-radius: 6px 0 0 6px;
-    box-sizing: border-box;
-  }
-  .custom-submit-button {
-    width: 180px;
-    height: 44px;
-    border: 1px solid #ccc;
-    border-left: none;
-    background-color: #EC492B;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 0 6px 6px 0;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    flex-shrink: 0;
-  }
-  .custom-submit-button:hover {
-    background-color: #005FB7;
-  }
-  .subscriber-count {
-    margin-top: 16px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    font-style: italic;
-  }
-  .custom-terms-wrapper {
-    font-size: 14px;
-    margin-top: 16px;
-    font-style: italic;
+
+  .brimm-newsletter__consent {
     display: flex;
-    align-items: center;
-    gap: 6px;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 12px;
+    line-height: 16px;
   }
-  .custom-terms-checkbox {
-    width: 16px;
-    height: 16px;
-    cursor: pointer;
+
+  .brimm-newsletter__consent input[type="checkbox"] {
+    margin-top: 2px;
+    width: 14px;
+    height: 14px;
   }
-  .custom-terms-label a {
-    font-size: 14px;
+
+  .brimm-newsletter__consent a {
     text-decoration: underline;
-    color: #0073e6;
-  }
-  /* Responsive */
-  @media (max-width: 480px) {
-    .custom-submit-button {
-      width: 120px;
-      font-size: 14px;
-    }
-    .custom-email-input {
-      font-size: 14px;
-    }
-    .custom-terms-wrapper {
-      font-size: 14px;
-    }
-    .custom-terms-label a {
-      font-size: 14px;
-    }
-    .subscriber-count {
-      font-size: 14px;
-    }
+    color: inherit;
   }
 </style>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
