@@ -137,46 +137,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "1923486770171284578": {
-        "type": "shopify://apps/simplee-memberships/blocks/app-block/f502d2a4-3112-42c9-ad39-89fb8aca93a7",
-        "disabled": false,
-        "settings": {
-          "text_color": "#2F3537",
-          "widget_background_color": "#FFFFFF",
-          "background_color": "#2E90FA",
-          "description_color": "#5B5F62",
-          "renewal_color": "#9FA9AD",
-          "heading_color": "#2F3537",
-          "button_color": "#667085",
-          "selected_button_color": "#ffffff",
-          "renewal_text": "/ Renewal",
-          "trial_days_text": "[initial_price] for [count] days, then [regular_price]",
-          "trial_orders_text": "[initial_price] for [count] orders, then [regular_price]",
-          "life_time_text": "Lifetime Access",
-          "simplee_widget_type": "widget_1",
-          "css": "#Simplee-Product_widget{}",
-          "link_color": "#000000",
-          "link_text": "My Membership",
-          "link_css": ".simplee-membership-link{}",
-          "link_icon_size": 16
-        }
-      },
-      "17151115064775110295": {
-        "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
-        "disabled": false,
-        "settings": {
-          "color_brand": "#467C99",
-          "contrast_color": "#FFFFFF",
-          "color_brand_secondary": "#467C99",
-          "corners": "8px",
-          "app_background": "#f9f8f4",
-          "app_container": 1200,
-          "app_vertical_padding": 32,
-          "images_aspect_ratio": "1",
-          "cards_background": "#FFFFFF",
-          "cards_border_color": "rgba(0,0,0,0)"
-        }
-      },
       "3408556835904117202": {
         "type": "shopify://apps/regios-discounts/blocks/regios_add_to_cart_embed/dc1514bb-4830-4102-bffa-e8b300bac5bd",
         "disabled": false,
@@ -202,6 +162,46 @@
           "calculate_discount_based_on_quantity": false,
           "log_level": "error",
           "feature_flags": ""
+        }
+      },
+      "17151115064775110295": {
+        "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
+        "disabled": true,
+        "settings": {
+          "color_brand": "#467c99",
+          "contrast_color": "#ffffff",
+          "color_brand_secondary": "#467c99",
+          "corners": "8px",
+          "app_background": "#f9f8f4",
+          "app_container": 1200,
+          "app_vertical_padding": 32,
+          "images_aspect_ratio": "1",
+          "cards_background": "#ffffff",
+          "cards_border_color": "rgba(0,0,0,0)"
+        }
+      },
+      "1923486770171284578": {
+        "type": "shopify://apps/simplee-memberships/blocks/app-block/f502d2a4-3112-42c9-ad39-89fb8aca93a7",
+        "disabled": false,
+        "settings": {
+          "text_color": "#2f3537",
+          "widget_background_color": "#ffffff",
+          "background_color": "#2e90fa",
+          "description_color": "#5b5f62",
+          "renewal_color": "#9fa9ad",
+          "heading_color": "#2f3537",
+          "button_color": "#667085",
+          "selected_button_color": "#ffffff",
+          "renewal_text": "/ Renewal",
+          "trial_days_text": "[initial_price] for [count] days, then [regular_price]",
+          "trial_orders_text": "[initial_price] for [count] orders, then [regular_price]",
+          "life_time_text": "Lifetime Access",
+          "simplee_widget_type": "widget_1",
+          "css": "#Simplee-Product_widget{}",
+          "link_color": "#000000",
+          "link_text": "My Membership",
+          "link_css": ".simplee-membership-link{}",
+          "link_icon_size": 16
         }
       }
     },
