@@ -144,7 +144,7 @@
         "text_ztHWap"
       ],
       "settings": {
-        "image": "shopify://shop_images/Brimm25_march27_-_Boxes0817_1_copy_2.jpg",
+        "image": "shopify://shop_images/Beauty_Plastic_Free_Box_Products.jpg",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
@@ -188,7 +188,7 @@
         "text_RcyyRE"
       ],
       "settings": {
-        "image": "shopify://shop_images/Brimm25_march27_-_Boxes1140_copy_2.jpg",
+        "image": "shopify://shop_images/Beauty_Minimalist_Reset_Box.jpg",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
@@ -536,7 +536,6 @@
           "type": "member_package",
           "settings": {
             "index": 0,
-            "member_package_image": "shopify://shop_images/Brimm25_march27_-_Boxes1140_copy_2.jpg",
             "member_package_heading": "Discovery",
             "member_package_text": "<p>Along with the Founder Member benefits, the Discovery package gets you a BRiMM Reset box of home, beauty or food products worth £100. For free.<br/><br/>Discover a selection of curated, premium products - with provenance. Imagine pioneering Planet Positive brands that smell and taste amazing.</p><ul><li>Lifetime Founder Membership benefits</li><li>Choose a reset box of curated Planet Positive products worth £100</li></ul>",
             "member_package_price": "£225",
