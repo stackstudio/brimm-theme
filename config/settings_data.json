@@ -182,7 +182,7 @@
       },
       "1923486770171284578": {
         "type": "shopify://apps/simplee-memberships/blocks/app-block/f502d2a4-3112-42c9-ad39-89fb8aca93a7",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "text_color": "#2f3537",
           "widget_background_color": "#ffffff",
