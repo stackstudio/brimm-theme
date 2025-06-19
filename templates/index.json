@@ -184,6 +184,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/Beauty_Luxury_Reset_Box_Products_landscape.jpg",
         "video_embed": "",
         "has_background": true,
         "image_label": "",
