@@ -59,7 +59,6 @@
         "button_8kcVdC"
       ],
       "settings": {
-        "image": "shopify://shop_images/Luxury_Box2.jpg",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
@@ -86,7 +85,7 @@
         "column_MGBbKT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Plastic_Free_Box2_1_703cf8cd-9106-425d-8988-7e94a6cf59cc.jpg",
+            "image": "shopify://shop_images/Beauty_Luxury_Reset_Box_Products.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -100,7 +99,7 @@
         "column_AQibDb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Food_Box2_afca239e-220a-4fa7-9fa9-ece254b54a27.jpg",
+            "image": "shopify://shop_images/Food_Box_wrong_version_dorset_sea_salt.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -114,7 +113,7 @@
         "column_b8bDzN": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Brimm25march27-Boxes08711copy.jpg",
+            "image": "shopify://shop_images/Kitchen_Cleaning_Reset_Box.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
