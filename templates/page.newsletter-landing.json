@@ -271,6 +271,13 @@
     },
     "custom_liquid_WGABdq": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".banner--medium {height: auto !important;}",
+        ".banner--sticky-mobile {position: relative;}",
+        "@media screen and (min-width: 749px) {.email-signup-banner .banner__content {padding-left: 0px; padding-right: 0px; }}",
+        ".newsletter-form__button {background-color: #eb492b !important; font-weight: 600;}",
+        ".newsletter-form__button:hover {background-color: #005fb7 !important;}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"brimm-newsletter\">\n  <div class=\"brimm-newsletter__inner\">\n    <div class=\"brimm-newsletter__text\">\n      <h2>SIGN UP BEFORE SUNDAY TO<br class=\"mobile-break\">CATCH THIS WEEK’S INBOX-DROP</h2>\n    </div>\n    <div class=\"brimm-newsletter__form\">\n      {% render 'footer-newsletter-page-klaviyo-signup-form' %}\n    </div>\n  </div>\n</div>\n\n<style>\n  .brimm-newsletter {\n    background-color: #e7e6d3;\n    padding: 60px 40px;\n  }\n\n  .brimm-newsletter__inner {\n    display: flex;\n    flex-direction: column;\n    max-width: 1200px;\n    margin: 0 auto;\n    gap: 24px;\n  }\n\n  .brimm-newsletter__text h2 {\n    font-size: 36px;\n    font-weight: 800;\n    line-height: 42px;\n    color: #000;\n    margin: 0;\n  }\n\n  .brimm-newsletter__form {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n  }\n\n  .mobile-break {\n    display: none;\n  }\n\n  @media (min-width: 768px) {\n    .brimm-newsletter__inner {\n      flex-direction: row;\n      justify-content: space-between;\n      align-items: flex-start;\n    }\n\n    .brimm-newsletter__text {\n      width: 50%;\n    }\n\n    .brimm-newsletter__form {\n      width: 50%;\n    }\n\n    .mobile-break {\n      display: inline;\n    }\n  }\n</style>",
