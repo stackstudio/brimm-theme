@@ -239,6 +239,13 @@
             "heading_size": "h1"
           }
         },
+        "paragraph_mX6AmA": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>You’ll also unlock every past edition with all the reads, recipes and playlists our collective has loved.</p>",
+            "text_style": "body"
+          }
+        },
         "email_form_g4jEEp": {
           "type": "email_form",
           "settings": {}
@@ -246,6 +253,7 @@
       },
       "block_order": [
         "heading_qpwAr3",
+        "paragraph_mX6AmA",
         "email_form_g4jEEp"
       ],
       "custom_css": [
@@ -253,7 +261,8 @@
         ".banner--sticky-mobile {position: relative;}",
         "@media screen and (min-width: 749px) {.email-signup-banner .banner__content {padding-left: 0px; padding-right: 0px; }}",
         ".newsletter-form__button {background-color: #eb492b !important; font-weight: 600;}",
-        ".newsletter-form__button:hover {background-color: #005fb7 !important;}"
+        ".newsletter-form__button:hover {background-color: #005fb7 !important;}",
+        "p {font-style: italic;}"
       ],
       "settings": {
         "image_overlay_opacity": 0,
