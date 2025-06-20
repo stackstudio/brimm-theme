@@ -77,7 +77,6 @@
         {% if cart == empty %}
         class=" is-empty"
         {% endif %}>
-        {% assign cart_has_membership = null %}
         <form
           action="{{ routes.cart_url }}"
           id="CartDrawer-Form"
@@ -113,10 +112,6 @@
                   </thead>
                   <tbody role="rowgroup">
                     {%- for item in cart.items -%}
-                      {% if item.selling_plan_allocation != null %}
-                        {% assign cart_has_membership = true %}
-                        {% break %}
-                      {% endif %}
                       <tr
                         id="CartDrawer-Item-{{ item.index | plus: 1 }}"
                         class="cart-item"
@@ -477,12 +472,23 @@
                 placeholder="{{ 'sections.cart.note' | t }}">{{ cart.note }}</textarea>
             </cart-note>
           </details>
-      {%- endif -%}
+        {%- endif -%}
 
         <!-- Start blocks -->
         <!-- Subtotals -->
 
-        {% assign discount_text = cart_has_membership ? 'eligible items as a member' : 'eligible items' %}
+        {%- liquid
+          assign cart_has_membership = false
+          if item.selling_plan_allocation != null or item.selling_plan_allocation != blank
+            assign cart_has_membership = true
+          endif
+          if cart_has_membership
+            assign discount_text = 'eligible items as a member'
+          else
+            assign discount_text = 'eligible items'
+          endif
+        -%}
+
 
         <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
           <div>
