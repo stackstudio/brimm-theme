@@ -105,11 +105,12 @@
   }
 
   .custom-klaviyo-form-wrapper.banner2 .subscriber-count {
-    margin-top: 16px;
+    margin-top: 8px; /* Daha yakın */
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     font-style: italic;
+    color: #555; /* Hafif gri tonu */
   }
 
   .custom-klaviyo-form-wrapper.banner2 .custom-terms-wrapper {
@@ -155,11 +156,9 @@
       setTimeout(() => {
         const successMsg = document.querySelector('.custom-klaviyo-form-wrapper.banner2 .newsletter-success');
         if (successMsg && successMsg.style.display !== 'none') {
-
           if (typeof fbq === 'function') {
             fbq('track', 'CompleteRegistration');
           }
-
           window.location.href = '/pages/thank-you';
         }
       }, 1000);
