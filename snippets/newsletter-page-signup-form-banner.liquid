@@ -1,11 +1,11 @@
 {% comment %}
-  Signup form with hidden prechecked terms checkbox.
+  2. banner Klaviyo signup form
 {% endcomment %}
 
 <script src='{{ "klaviyo-signup-form.js" | asset_url }}' defer></script>
 
 <klaviyo-signup-form account-id="RJAyDu" list-id="S5VAFY">
-  <div class="custom-klaviyo-form-wrapper">
+  <div class="custom-klaviyo-form-wrapper banner2">
     <form class="newsletter-form" method="POST" novalidate>
       <input type="hidden" name="g" value="S5VAFY" />
 
@@ -14,19 +14,14 @@
           type="email"
           id="email"
           name="email"
-          class="custom-email-input"
-          aria-required="true"
-          autocorrect="off"
-          autocapitalize="off"
-          autocomplete="email"
+          class="custom-email-input banner2-input"
           placeholder="Enter your email"
           required
         />
         <button
           type="submit"
-          class="custom-submit-button"
+          class="custom-submit-button banner2-button"
           name="commit"
-          id="Subscribe"
           aria-label="Sign up"
         >
           Join for free
@@ -41,8 +36,6 @@
           id="newsletter_terms"
           name="newsletter_terms"
           class="custom-terms-checkbox"
-          required
-          aria-required="true"
           checked
         />
         <label for="newsletter_terms" class="custom-terms-label">
@@ -70,51 +63,56 @@
 </klaviyo-signup-form>
 
 <style>
-  .custom-klaviyo-form-wrapper {
-    max-width: 1200px;
+  .custom-klaviyo-form-wrapper.banner2 {
+    max-width: 600px;
     margin: 0 auto;
     box-sizing: border-box;
   }
-  .custom-fields-wrapper {
+
+  .custom-klaviyo-form-wrapper.banner2 .custom-fields-wrapper {
     display: flex;
+    flex-direction: column;
+    gap: 12px;
     width: 100%;
   }
-  .custom-email-input {
-    flex-grow: 1;
-    min-width: 0;
+
+  .custom-klaviyo-form-wrapper.banner2 .banner2-input,
+  .custom-klaviyo-form-wrapper.banner2 .banner2-button {
+    width: 100%;
     height: 44px;
-    padding: 0 12px;
     font-size: 16px;
     border: 1px solid #ccc;
-    border-right: none;
-    border-radius: 6px 0 0 6px;
+    border-radius: 0;
     box-sizing: border-box;
   }
-  .custom-submit-button {
-    width: 180px;
-    height: 44px;
-    border: 1px solid #ccc;
-    border-left: none;
+
+  .custom-klaviyo-form-wrapper.banner2 .banner2-input {
+    padding: 0 12px;
+    background-color: transparent;
+    color: #000;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .banner2-button {
     background-color: #EC492B;
     color: white;
-    font-size: 16px;
     font-weight: 600;
-    border-radius: 0 6px 6px 0;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    flex-shrink: 0;
   }
-  .custom-submit-button:hover {
+
+  .custom-klaviyo-form-wrapper.banner2 .banner2-button:hover {
     background-color: #005FB7;
   }
-  .subscriber-count {
+
+  .custom-klaviyo-form-wrapper.banner2 .subscriber-count {
     margin-top: 16px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     font-style: italic;
   }
-  .custom-terms-wrapper {
+
+  .custom-klaviyo-form-wrapper.banner2 .custom-terms-wrapper {
     font-size: 14px;
     margin-top: 16px;
     font-style: italic;
@@ -122,32 +120,27 @@
     align-items: center;
     gap: 6px;
   }
-  .custom-terms-checkbox {
+
+  .custom-klaviyo-form-wrapper.banner2 .custom-terms-checkbox {
     width: 16px;
     height: 16px;
     cursor: pointer;
   }
-  .custom-terms-label a {
+
+  .custom-klaviyo-form-wrapper.banner2 .custom-terms-label a {
     font-size: 14px;
     text-decoration: underline;
     color: #0073e6;
   }
-  /* Responsive */
+
   @media (max-width: 480px) {
-    .custom-submit-button {
-      width: 120px;
+    .custom-klaviyo-form-wrapper.banner2 .banner2-button {
       font-size: 14px;
     }
-    .custom-email-input {
+    .custom-klaviyo-form-wrapper.banner2 .banner2-input {
       font-size: 14px;
     }
-    .custom-terms-wrapper {
-      font-size: 14px;
-    }
-    .custom-terms-label a {
-      font-size: 14px;
-    }
-    .subscriber-count {
+    .custom-klaviyo-form-wrapper.banner2 .subscriber-count {
       font-size: 14px;
     }
   }
@@ -155,12 +148,12 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const form = document.querySelector('.newsletter-form');
+    const form = document.querySelector('.custom-klaviyo-form-wrapper.banner2 .newsletter-form');
     if (!form) return;
 
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', () => {
       setTimeout(() => {
-        const successMsg = document.querySelector('.newsletter-success');
+        const successMsg = document.querySelector('.custom-klaviyo-form-wrapper.banner2 .newsletter-success');
         if (successMsg && successMsg.style.display !== 'none') {
 
           if (typeof fbq === 'function') {
