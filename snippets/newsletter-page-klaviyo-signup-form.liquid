@@ -167,4 +167,36 @@
       }, 1000); 
     });
   });
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.newsletter-form');
+    const emailInput = document.getElementById('email');
+    const errorContainer = document.querySelector('#newsletter-error .form__messages');
+
+    form.addEventListener('submit', (e) => {
+      errorContainer.textContent = '';
+
+      if (!emailInput.value.trim()) {
+        e.preventDefault(); // Sadece bu durumda engelle
+        errorContainer.textContent = 'Please enter a valid email address.';
+        emailInput.focus();
+        return;
+      }
+
+      // E-mail doluysa, Klaviyo submit'e devam edebilir (e.preventDefault yok)
+    });
+
+    // Başarı durumunda yönlendirme
+    const observer = new MutationObserver(() => {
+      const successMsg = document.querySelector('.newsletter-success');
+      if (successMsg && successMsg.style.display !== 'none') {
+        window.location.href = '/pages/thank-you';
+      }
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  });
 </script>
