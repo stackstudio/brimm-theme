@@ -63,17 +63,10 @@
 </klaviyo-signup-form>
 
 <style>
-  /* Banner yüksekliği örnek (istediğine göre ayarla) */
   .custom-klaviyo-form-wrapper.banner2 {
     max-width: 600px;
     margin: 0 auto;
     box-sizing: border-box;
-
-    /* Dikey ortalama için */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 300px; /* veya parent container'dan %100 alabilir */
   }
 
   .custom-klaviyo-form-wrapper.banner2 .custom-fields-wrapper {
@@ -112,11 +105,11 @@
   }
 
   .custom-klaviyo-form-wrapper.banner2 .subscriber-count {
-    margin-top: 4px; /* çok daha az boşluk */
-    font-size: 14px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
     text-align: center;
     font-style: italic;
-    color: #555;
   }
 
   .custom-klaviyo-form-wrapper.banner2 .custom-terms-wrapper {
@@ -148,7 +141,7 @@
       font-size: 14px;
     }
     .custom-klaviyo-form-wrapper.banner2 .subscriber-count {
-      font-size: 13px;
+      font-size: 14px;
     }
   }
 </style>
@@ -162,9 +155,11 @@
       setTimeout(() => {
         const successMsg = document.querySelector('.custom-klaviyo-form-wrapper.banner2 .newsletter-success');
         if (successMsg && successMsg.style.display !== 'none') {
+
           if (typeof fbq === 'function') {
             fbq('track', 'CompleteRegistration');
           }
+
           window.location.href = '/pages/thank-you';
         }
       }, 1000);
