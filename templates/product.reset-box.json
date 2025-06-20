@@ -223,7 +223,7 @@
         "supporter_yearly_price": "£60",
         "supporter_monthly_price": "£6",
         "supporter_button_label": "",
-        "supporter_button_url": "shopify://products/supporter-tier",
+        "supporter_button_url": "",
         "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
         "supporter_benefit_two": "<h4>Journal Access</h4><p>Why this is good.</p>",
         "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
