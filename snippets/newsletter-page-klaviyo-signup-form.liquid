@@ -162,9 +162,16 @@
       setTimeout(() => {
         const successMsg = document.querySelector('.newsletter-success');
         if (successMsg && successMsg.style.display !== 'none') {
+
+          // Meta Pixel CompleteRegistration eventini tetikle
+          if (typeof fbq === 'function') {
+            fbq('track', 'CompleteRegistration');
+          }
+
+          // Thank you sayfasına yönlendir
           window.location.href = '/pages/thank-you';
         }
-      }, 1000); 
+      }, 1000);
     });
   });
 </script>
