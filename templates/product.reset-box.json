@@ -110,6 +110,18 @@
       "name": "Accreditations",
       "settings": {}
     },
+    "rich_text_a3THei": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "membership_columns_mYjbkz": {
       "type": "membership-columns",
       "blocks": {
@@ -254,6 +266,7 @@
   "order": [
     "main",
     "accreditations_block_icQUPp",
+    "rich_text_a3THei",
     "membership_columns_mYjbkz",
     "multicolumn",
     "related-products"
