@@ -3,6 +3,7 @@
 {% endcomment %}
 
 <script src='{{ 'klaviyo-signup-form.js' | asset_url }}' defer='defer'></script>
+
 <klaviyo-signup-form account-id='RJAyDu' list-id='S5VAFY'>
   <div class=''>
     <form class='klaviyo-signup-form newsletter-form' method='POST'>
@@ -65,22 +66,19 @@
 </klaviyo-signup-form>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const form = document.querySelector('.newsletter-form');
-    if (!form) return;
+  // Klaviyo form submit başarılı olunca tetiklenen event'i dinle
+  document.addEventListener('klaviyoForms', (e) => {
+    if (e.detail.type === 'submit' && e.detail.success) {
 
-    form.addEventListener('submit', () => {
+      // Meta Pixel CompleteRegistration eventini tetikle
+      if (typeof fbq === 'function') {
+        fbq('track', 'CompleteRegistration');
+      }
+
+      // 1 saniye sonra yönlendir (pixel tetiklenmesi için kısa gecikme)
       setTimeout(() => {
-        const successMsg = document.querySelector('.newsletter-success');
-        if (successMsg && successMsg.style.display !== 'none') {
-
-          if (typeof fbq === 'function') {
-            fbq('track', 'CompleteRegistration');
-          }
-
-          window.location.href = '/pages/thank-you';
-        }
+        window.location.href = '/pages/thank-you';
       }, 1000);
-    });
+    }
   });
 </script>
