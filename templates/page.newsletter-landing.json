@@ -261,14 +261,14 @@
         "image_overlay_opacity": 0,
         "collection_theme": "brimm-theme",
         "show_background_image": true,
-        "sticky_on_mobile": true,
+        "sticky_on_mobile": false,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "mobile_content_alignment": "center",
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "email_signup_banner_9BKfVd": {
