@@ -256,6 +256,7 @@
         "paragraph_mX6AmA",
         "email_form_g4jEEp"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner--medium {height: auto !important;}",
         ".banner--sticky-mobile {position: relative;}",
@@ -298,6 +299,48 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "newsletter_page_signup_banner_AapJyC": {
+      "type": "newsletter-page-signup-banner",
+      "blocks": {
+        "heading_8cYCjC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Opening soon",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_iTTK7X": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know when we launch.</p>",
+            "text_style": "body"
+          }
+        },
+        "email_form_txGyKd": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_8cYCjC",
+        "paragraph_iTTK7X",
+        "email_form_txGyKd"
+      ],
+      "name": "t:sections.email-signup-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "collection_theme": "brimm-theme",
+        "show_background_image": true,
+        "sticky_on_mobile": true,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -307,6 +350,7 @@
     "multicolumn_Xtjff4",
     "rich_text_9RAJwk",
     "custom_liquid_7cyLYz",
+    "newsletter_page_signup_banner_AapJyC",
     "email_signup_banner_9BKfVd",
     "custom_liquid_YH7qq7",
     "custom_liquid_6ymHPg"
