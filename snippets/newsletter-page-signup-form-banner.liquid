@@ -1,0 +1,175 @@
+{% comment %}
+  Signup form with hidden prechecked terms checkbox.
+{% endcomment %}
+
+<script src='{{ "klaviyo-signup-form.js" | asset_url }}' defer></script>
+
+<klaviyo-signup-form account-id="RJAyDu" list-id="S5VAFY">
+  <div class="custom-klaviyo-form-wrapper">
+    <form class="newsletter-form" method="POST" novalidate>
+      <input type="hidden" name="g" value="S5VAFY" />
+
+      <div class="custom-fields-wrapper">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="custom-email-input"
+          aria-required="true"
+          autocorrect="off"
+          autocapitalize="off"
+          autocomplete="email"
+          placeholder="Enter your email"
+          required
+        />
+        <button
+          type="submit"
+          class="custom-submit-button"
+          name="commit"
+          id="Subscribe"
+          aria-label="Sign up"
+        >
+          Join for free
+        </button>
+      </div>
+
+      <div class="subscriber-count">Loved by over 1,500 subscribers</div>
+
+      <div class="custom-terms-wrapper" style="display:none;">
+        <input
+          type="checkbox"
+          id="newsletter_terms"
+          name="newsletter_terms"
+          class="custom-terms-checkbox"
+          required
+          aria-required="true"
+          checked
+        />
+        <label for="newsletter_terms" class="custom-terms-label">
+          Please accept our
+          <a href="/policies/privacy-policy" target="_blank">privacy policy</a>.
+        </label>
+      </div>
+
+      <div id="newsletter-error">
+        <p class="form__messages"></p>
+      </div>
+    </form>
+
+    <div class="newsletter-success" style="display:none;">
+      <div class="newsletter-form__fields">
+        <div class="form__messages banner__content--text">
+          <h2 class="email-signup-banner__heading">Thank you</h2>
+          <div class="newsletter__subheading">
+            {{ "newsletter.success_message" | t }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</klaviyo-signup-form>
+
+<style>
+  .custom-klaviyo-form-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .custom-fields-wrapper {
+    display: flex;
+    width: 100%;
+  }
+  .custom-email-input {
+    flex-grow: 1;
+    min-width: 0;
+    height: 44px;
+    padding: 0 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    box-sizing: border-box;
+  }
+  .custom-submit-button {
+    width: 180px;
+    height: 44px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #EC492B;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0;
+  }
+  .custom-submit-button:hover {
+    background-color: #005FB7;
+  }
+  .subscriber-count {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+  }
+  .custom-terms-wrapper {
+    font-size: 14px;
+    margin-top: 16px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .custom-terms-checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .custom-terms-label a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #0073e6;
+  }
+  /* Responsive */
+  @media (max-width: 480px) {
+    .custom-submit-button {
+      width: 120px;
+      font-size: 14px;
+    }
+    .custom-email-input {
+      font-size: 14px;
+    }
+    .custom-terms-wrapper {
+      font-size: 14px;
+    }
+    .custom-terms-label a {
+      font-size: 14px;
+    }
+    .subscriber-count {
+      font-size: 14px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.newsletter-form');
+    if (!form) return;
+
+    form.addEventListener('submit', (e) => {
+      setTimeout(() => {
+        const successMsg = document.querySelector('.newsletter-success');
+        if (successMsg && successMsg.style.display !== 'none') {
+
+          if (typeof fbq === 'function') {
+            fbq('track', 'CompleteRegistration');
+          }
+
+          window.location.href = '/pages/thank-you';
+        }
+      }, 1000);
+    });
+  });
+</script>
