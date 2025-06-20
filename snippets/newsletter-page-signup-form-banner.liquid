@@ -153,21 +153,22 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const form = document.querySelector('.custom-klaviyo-form-wrapper.banner2 .newsletter-form');
-    if (!form) return;
+    const formWrapper = document.querySelector('.custom-klaviyo-form-wrapper.banner2');
+    const successContainer = formWrapper?.querySelector('.newsletter-success');
 
-    form.addEventListener('submit', () => {
-      setTimeout(() => {
-        const successMsg = document.querySelector('.custom-klaviyo-form-wrapper.banner2 .newsletter-success');
-        if (successMsg && successMsg.style.display !== 'none') {
+    if (!formWrapper || !successContainer) return;
 
-          if (typeof fbq === 'function') {
-            fbq('track', 'CompleteRegistration');
-          }
-
-          window.location.href = '/pages/thank-you';
+    // DOM değişikliklerini izle
+    const observer = new MutationObserver(() => {
+      if (getComputedStyle(successContainer).display !== 'none') {
+        if (typeof fbq === 'function') {
+          fbq('track', 'CompleteRegistration');
         }
-      }, 1000);
+        window.location.href = '/pages/thank-you';
+      }
     });
+
+    observer.observe(successContainer, { attributes: true, attributeFilter: ['style'] });
   });
 </script>
+
