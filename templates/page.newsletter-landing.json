@@ -262,7 +262,8 @@
         "@media screen and (min-width: 749px) {.email-signup-banner .banner__content {padding-left: 0px; padding-right: 0px; }}",
         ".newsletter-form__button {background-color: #eb492b !important; font-weight: 600;}",
         ".newsletter-form__button:hover {background-color: #005fb7 !important;}",
-        "p {font-style: italic; font-weight: 600;}"
+        "p {font-style: italic; font-weight: 600;}",
+        ".newsletter-form__terms-label:before {display: none !important;}"
       ],
       "settings": {
         "image_overlay_opacity": 0,
