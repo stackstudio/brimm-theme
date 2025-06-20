@@ -164,6 +164,53 @@
         "padding_bottom": 36
       }
     },
+    "membership_columns_ewBeiT": {
+      "type": "membership-columns",
+      "blocks": {
+        "column_ghaYjz": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "content": "",
+            "yearly_price": "",
+            "monthly_price": "",
+            "button_label": "Learn more",
+            "button_url": ""
+          }
+        },
+        "column_GcGbnw": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "content": "",
+            "yearly_price": "",
+            "monthly_price": "",
+            "button_label": "Learn more",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ghaYjz",
+        "column_GcGbnw"
+      ],
+      "name": "Membership Columns",
+      "settings": {
+        "heading": "Why join us?",
+        "subheading": "<p>Explore the benefits of membership</p>",
+        "supporter_heading": "Supporter Tier",
+        "supporter_text": "<p>Support BRiMM and power the planet fund.</p>",
+        "supporter_yearly_price": "£60",
+        "supporter_monthly_price": "£6",
+        "supporter_button_label": "Learn more",
+        "supporter_button_url": "",
+        "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_two": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "global_benefits": "<h3>A benefit</h3><p>A description</p>",
+        "columns": 3
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -188,6 +235,7 @@
     "main",
     "accreditations_block_icQUPp",
     "multicolumn",
+    "membership_columns_ewBeiT",
     "related-products"
   ]
 }
