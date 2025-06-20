@@ -288,6 +288,16 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom_liquid_6ymHPg": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.newsletter-form__terms-label {\n  padding-left: 0px !important;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -298,6 +308,7 @@
     "rich_text_9RAJwk",
     "custom_liquid_7cyLYz",
     "email_signup_banner_9BKfVd",
-    "custom_liquid_YH7qq7"
+    "custom_liquid_YH7qq7",
+    "custom_liquid_6ymHPg"
   ]
 }
