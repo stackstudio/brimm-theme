@@ -168,25 +168,29 @@
     });
   });
 
-    document.addEventListener('DOMContentLoaded', () => {
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('.newsletter-form');
     const emailInput = document.getElementById('email');
-    const errorContainer = document.querySelector('#newsletter-error .form__messages');
+    
+    // Hata mesajını eklenecek yeni bir <div> yarat
+    const customError = document.createElement('div');
+    customError.style.color = 'red';
+    customError.style.marginTop = '8px';
+    customError.style.fontSize = '14px';
+    emailInput.insertAdjacentElement('afterend', customError);
 
     form.addEventListener('submit', (e) => {
-      errorContainer.textContent = '';
+      customError.textContent = '';
 
       if (!emailInput.value.trim()) {
-        e.preventDefault(); // Sadece bu durumda engelle
-        errorContainer.textContent = 'Please enter a valid email address.';
+        e.preventDefault();
+        customError.textContent = 'Please enter a valid email address.';
         emailInput.focus();
-        return;
       }
-
-      // E-mail doluysa, Klaviyo submit'e devam edebilir (e.preventDefault yok)
     });
 
-    // Başarı durumunda yönlendirme
+    // Başarı durumunu izleyip yönlendirme yap
     const observer = new MutationObserver(() => {
       const successMsg = document.querySelector('.newsletter-success');
       if (successMsg && successMsg.style.display !== 'none') {
@@ -199,4 +203,6 @@
       subtree: true
     });
   });
+</script>
+
 </script>
