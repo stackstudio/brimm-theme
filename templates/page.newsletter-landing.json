@@ -229,6 +229,48 @@
         "padding_bottom": 32
       }
     },
+    "newsletter_page_signup_banner_AapJyC": {
+      "type": "newsletter-page-signup-banner",
+      "blocks": {
+        "heading_8cYCjC": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIGN UP BEFORE SUNDAY TO CATCH THIS WEEK’S INBOX-DROP",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_iTTK7X": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>You’ll also unlock every past edition with all the reads, recipes and playlists our collective has loved.</p>",
+            "text_style": "body"
+          }
+        },
+        "email_form_txGyKd": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_8cYCjC",
+        "paragraph_iTTK7X",
+        "email_form_txGyKd"
+      ],
+      "name": "t:sections.email-signup-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "collection_theme": "brimm-theme",
+        "show_background_image": true,
+        "sticky_on_mobile": true,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "email_signup_banner_9BKfVd": {
       "type": "email-signup-banner",
       "blocks": {
@@ -298,48 +340,6 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "newsletter_page_signup_banner_AapJyC": {
-      "type": "newsletter-page-signup-banner",
-      "blocks": {
-        "heading_8cYCjC": {
-          "type": "heading",
-          "settings": {
-            "heading": "Opening soon",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_iTTK7X": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know when we launch.</p>",
-            "text_style": "body"
-          }
-        },
-        "email_form_txGyKd": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_8cYCjC",
-        "paragraph_iTTK7X",
-        "email_form_txGyKd"
-      ],
-      "name": "t:sections.email-signup-banner.presets.name",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "collection_theme": "brimm-theme",
-        "show_background_image": true,
-        "sticky_on_mobile": true,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "mobile_content_alignment": "center",
-        "show_text_below": true
       }
     }
   },
