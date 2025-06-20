@@ -164,115 +164,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_product_W86T43": {
-      "type": "featured-product",
-      "blocks": {
-        "text_QpiMPK": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "uppercase"
-          }
-        },
-        "title_xBNmiU": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_VVRrWk": {
-          "type": "price",
-          "disabled": true,
-          "settings": {}
-        },
-        "variant_picker_EQb6ap": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "buy_buttons_U8VxQG": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        }
-      },
-      "block_order": [
-        "text_QpiMPK",
-        "title_xBNmiU",
-        "price_VVRrWk",
-        "variant_picker_EQb6ap",
-        "buy_buttons_U8VxQG"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "the-top-membership",
-        "color_scheme": "scheme-2",
-        "secondary_background": true,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "none",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_product_yMahwg": {
-      "type": "featured-product",
-      "blocks": {
-        "text_TxWEDG": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "uppercase"
-          }
-        },
-        "title_DRtRfc": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_cpGnqF": {
-          "type": "price",
-          "settings": {}
-        },
-        "buy_buttons_nTq6JW": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        }
-      },
-      "block_order": [
-        "text_TxWEDG",
-        "title_DRtRfc",
-        "price_cpGnqF",
-        "buy_buttons_nTq6JW"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "the-middle-tier-membership",
-        "color_scheme": "scheme-2",
-        "secondary_background": true,
-        "media_size": "small",
-        "constrain_to_viewport": false,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "none",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "membership_columns_mYjbkz": {
       "type": "membership-columns",
       "blocks": {
@@ -364,8 +255,6 @@
     "main",
     "accreditations_block_icQUPp",
     "multicolumn",
-    "featured_product_W86T43",
-    "featured_product_yMahwg",
     "membership_columns_mYjbkz",
     "related-products"
   ]
