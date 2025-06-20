@@ -229,16 +229,6 @@
         "padding_bottom": 32
       }
     },
-    "custom_liquid_6ymHPg": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<style>\n.newsletter-form__terms-label {\n  padding-left: 0px !important;\n}\n</style>\n\n<script>\n  window.addEventListener('DOMContentLoaded', function () {\n    var checkbox = document.getElementById('newsletter_terms');\n    if (checkbox) {\n      checkbox.checked = true;\n    }\n  });\n</script>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "email_signup_banner_9BKfVd": {
       "type": "email-signup-banner",
       "blocks": {
@@ -298,6 +288,16 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom_liquid_6ymHPg": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.newsletter-form__terms-label {\n  padding-left: 0px !important;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -307,8 +307,8 @@
     "multicolumn_Xtjff4",
     "rich_text_9RAJwk",
     "custom_liquid_7cyLYz",
-    "custom_liquid_6ymHPg",
     "email_signup_banner_9BKfVd",
-    "custom_liquid_YH7qq7"
+    "custom_liquid_YH7qq7",
+    "custom_liquid_6ymHPg"
   ]
 }
