@@ -3,7 +3,6 @@
 {% endcomment %}
 
 <script src='{{ 'klaviyo-signup-form.js' | asset_url }}' defer='defer'></script>
-
 <klaviyo-signup-form account-id='RJAyDu' list-id='S5VAFY'>
   <div class=''>
     <form class='klaviyo-signup-form newsletter-form' method='POST'>
@@ -64,21 +63,3 @@
     </div>
   </div>
 </klaviyo-signup-form>
-
-<script>
-  // Klaviyo form submit başarılı olunca tetiklenen event'i dinle
-  document.addEventListener('klaviyoForms', (e) => {
-    if (e.detail.type === 'submit' && e.detail.success) {
-
-      // Meta Pixel CompleteRegistration eventini tetikle
-      if (typeof fbq === 'function') {
-        fbq('track', 'CompleteRegistration');
-      }
-
-      // 1 saniye sonra yönlendir (pixel tetiklenmesi için kısa gecikme)
-      setTimeout(() => {
-        window.location.href = '/pages/thank-you';
-      }, 1000);
-    }
-  });
-</script>
