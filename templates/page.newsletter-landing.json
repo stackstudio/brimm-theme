@@ -293,7 +293,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.newsletter-form__terms-label {\n  padding-left: 0px !important;\n}\n</style>",
+        "custom_liquid": "<style>\n.newsletter-form__terms-label {\n  padding-left: 0px !important;\n}\n</style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', () => {\n    const form = document.querySelector('.newsletter-form');\n    if (!form) return;\n\n    form.addEventListener('submit', (e) => {\n      setTimeout(() => {\n        const successMsg = document.querySelector('.newsletter-success');\n        if (successMsg && successMsg.style.display !== 'none') {\n          window.location.href = '/pages/thank-you';\n        }\n      }, 1000); \n    });\n  });\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
