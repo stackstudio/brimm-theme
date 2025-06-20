@@ -153,3 +153,18 @@
   }
 </style>
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.newsletter-form');
+    if (!form) return;
+
+    form.addEventListener('submit', (e) => {
+      setTimeout(() => {
+        const successMsg = document.querySelector('.newsletter-success');
+        if (successMsg && successMsg.style.display !== 'none') {
+          window.location.href = '/pages/thank-you';
+        }
+      }, 1000); 
+    });
+  });
+</script>
