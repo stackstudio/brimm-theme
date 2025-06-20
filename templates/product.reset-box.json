@@ -174,8 +174,8 @@
             "content": "<p>Experience the ultimate in planet-positive living. All the benefits, plus £80 credit for Reset Boxes</p>",
             "yearly_price": "£180",
             "monthly_price": "£18",
-            "button_label": "Join now",
-            "button_url": "shopify://products/the-top-membership"
+            "button_label": "",
+            "button_url": ""
           }
         },
         "column_T8z4qE": {
@@ -185,8 +185,8 @@
             "content": "<p>Enjoy all the benefits with £40 credit for Reset Boxes.</p>",
             "yearly_price": "£120",
             "monthly_price": "£12",
-            "button_label": "Join now",
-            "button_url": "shopify://products/the-middle-tier-membership"
+            "button_label": "",
+            "button_url": ""
           }
         },
         "benefit_Y6w3Gh": {
