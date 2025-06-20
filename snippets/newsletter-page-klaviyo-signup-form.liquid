@@ -155,21 +155,29 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const form = document.querySelector('.newsletter-form');
-    if (!form) return;
+    // Görünürlük kontrolü fonksiyonu
+    const isVisible = (el) => !!(el && el.offsetParent !== null);
 
-    form.addEventListener('submit', (e) => {
-      setTimeout(() => {
-        const successMsg = document.querySelector('.newsletter-success');
-        if (successMsg && successMsg.style.display !== 'none') {
-
-          if (typeof fbq === 'function') {
-            fbq('track', 'CompleteRegistration');
+    // Tüm newsletter formlarına event listener ekle
+    document.querySelectorAll('.newsletter-form').forEach((form) => {
+      form.addEventListener('submit', (e) => {
+        // MutationObserver ile .newsletter-success görünür olunca yakala
+        const observer = new MutationObserver(() => {
+          const successMsg = form.querySelector('.newsletter-success');
+          if (isVisible(successMsg)) {
+            observer.disconnect();
+            if (typeof fbq === 'function') {
+              fbq('track', 'CompleteRegistration');
+            }
+            window.location.href = '/pages/thank-you';
           }
+        });
 
-          window.location.href = '/pages/thank-you';
-        }
-      }, 1000);
+        observer.observe(document.body, { childList: true, subtree: true });
+
+        // Eğer 5 saniye içinde başarılı mesaj gelmezse observer iptal olur
+        setTimeout(() => observer.disconnect(), 5000);
+      });
     });
   });
 </script>
