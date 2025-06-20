@@ -64,14 +64,3 @@
   </div>
 </klaviyo-signup-form>
 
-<script>
-  document.addEventListener('klaviyoForms', (e) => {
-    if (e.detail.type === 'submit' && e.detail.success) {
-      if (typeof fbq === 'function') {
-        fbq('track', 'CompleteRegistration');
-      }
-      window.location.href = '/pages/thank-you';
-    }
-  });
-</script>
-
