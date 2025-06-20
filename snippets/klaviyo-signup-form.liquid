@@ -63,3 +63,26 @@
     </div>
   </div>
 </klaviyo-signup-form>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.newsletter-form');
+    if (!form) return;
+
+    form.addEventListener('submit', () => {
+      setTimeout(() => {
+        const successMsg = document.querySelector('.newsletter-success');
+        if (successMsg && successMsg.style.display !== 'none') {
+
+          // Meta Pixel CompleteRegistration event tetikle
+          if (typeof fbq === 'function') {
+            fbq('track', 'CompleteRegistration');
+          }
+
+          // İstersen yönlendirme ekle, yoksa kaldır
+          // window.location.href = '/pages/thank-you';
+        }
+      }, 1000);
+    });
+  });
+</script>
