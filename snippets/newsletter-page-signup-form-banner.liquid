@@ -150,25 +150,3 @@
     color: black !important;
   }
 </style>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const formWrapper = document.querySelector('.custom-klaviyo-form-wrapper.banner2');
-    const successContainer = formWrapper?.querySelector('.newsletter-success');
-
-    if (!formWrapper || !successContainer) return;
-
-    // DOM değişikliklerini izle
-    const observer = new MutationObserver(() => {
-      if (getComputedStyle(successContainer).display !== 'none') {
-        if (typeof fbq === 'function') {
-          fbq('track', 'CompleteRegistration');
-        }
-        window.location.href = '/pages/thank-you';
-      }
-    });
-
-    observer.observe(successContainer, { attributes: true, attributeFilter: ['style'] });
-  });
-</script>
-
