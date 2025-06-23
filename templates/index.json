@@ -208,6 +208,73 @@
         "color_scheme": ""
       }
     },
+    "logo_scroller_DU3FL7": {
+      "type": "logo-scroller",
+      "blocks": {
+        "column_6zKchP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_KkafWN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_4mc9Wk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_z4eT9U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_NJR6Xz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_TgitRK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_t4mD6C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_CbbEkg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_6zKchP",
+        "column_KkafWN",
+        "column_4mc9Wk",
+        "column_z4eT9U",
+        "column_NJR6Xz",
+        "column_TgitRK",
+        "column_t4mD6C",
+        "column_CbbEkg"
+      ],
+      "name": "Logo Scroller",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
     "multicolumn_k9rxVY": {
       "type": "multicolumn",
       "blocks": {
@@ -800,6 +867,7 @@
     "stacked_hero_xxPi8q",
     "multicolumn_simple_cCpCQn",
     "flush_columns_cYTaw6",
+    "logo_scroller_DU3FL7",
     "multicolumn_k9rxVY",
     "member_packages_DXnQLz",
     "partner_logos_xMwzLh",
