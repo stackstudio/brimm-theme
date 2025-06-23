@@ -134,7 +134,6 @@
         "no-gap": false,
         "first_col": true,
         "text_block": "From minimalist bathrooms to regenerative pantries—planet-positive living starts here. More coming soon.",
-        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -147,6 +146,66 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "flush_columns_cYTaw6": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_txAt4X": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-1.png",
+            "title": "Quality",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NdQMPf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-2.png",
+            "title": "Impact",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wgz7mw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-3.png",
+            "title": "Culture",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WFzWd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-4.png",
+            "title": "Activism",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_txAt4X",
+        "column_NdQMPf",
+        "column_wgz7mw",
+        "column_WFzWd8"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "ONLY THE TRULY PLANET POSITIVE MAKE THE CUT",
+        "text_block": "At BRiMM, every product is thoughtfully curated by industry experts  to ensure they not only perform beautifully but also smell and taste fantastic.",
+        "columns_desktop": 3,
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": ""
       }
     },
     "multicolumn_k9rxVY": {
@@ -740,6 +799,7 @@
     "stacked_hero_qme3YR",
     "stacked_hero_xxPi8q",
     "multicolumn_simple_cCpCQn",
+    "flush_columns_cYTaw6",
     "multicolumn_k9rxVY",
     "member_packages_DXnQLz",
     "partner_logos_xMwzLh",
