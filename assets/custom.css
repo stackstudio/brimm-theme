@@ -46,6 +46,7 @@ header.header {
 
 .brimm-blocks--hero.full-screen {
     max-height: calc(100vh - 77px);
+    display: flex;
 }
 
 .brimm-blocks--stacked-hero {
