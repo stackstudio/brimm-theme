@@ -1,4 +1,11 @@
-<section class="brimm-blocks--hero color-{{ section.settings.color_scheme }} {% if section.settings.invert %}inverted{% endif %}{% if section.settings.two_image %} two-image{% endif %}" id="{{ section.id }}">
+<section class="
+    brimm-blocks--hero color-{{ section.settings.color_scheme }}
+    {% if section.settings.invert %}inverted{% endif %}
+    {% if section.settings.two_image %} two-image{% endif %}
+    {% if section.settings.full_screen %} full-screen{% endif %}
+  "
+  id="{{ section.id }}"
+>
   <div class="brimm-blocks--stacked-hero">
     <div class="brimm-blocks--callout-column">
         {% for block in section.blocks %}
@@ -57,6 +64,11 @@
         "type": "checkbox",
         "label": "Two image?",
         "id": "two_image"
+    },
+    {
+        "type": "checkbox",
+        "label": "Full-screen",
+        "id": "full_screen"
     },
     {
         "type": "checkbox",
