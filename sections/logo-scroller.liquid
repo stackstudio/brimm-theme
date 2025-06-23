@@ -1,0 +1,65 @@
+
+<div class='brimm-blocks--logo-scroller color-{{ section.settings.color_scheme }}'>
+    <div class="logos">
+        {%- for block in section.blocks -%}
+            <div class="brimm-blocks--logo-item">
+                <img src="{{ block.settings.image | image_url }}" />
+            </div>
+        {%- endfor -%}
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Flush Columns",
+    "class": "section",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+        {
+            "type": "color_scheme",
+            "id": "color_scheme",
+            "label": "t:sections.all.colors.label",
+            "default": "scheme-1"
+        },
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Flush Columns",
+        "blocks": [
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .text_block {
+    max-width: 50%;
+    color: black;
+  }
+{% endstylesheet %}
