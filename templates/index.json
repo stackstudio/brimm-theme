@@ -282,7 +282,7 @@
         "column_yCXrX4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/bathroom-eg.png",
+            "image": "shopify://shop_images/border-eg.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -296,7 +296,7 @@
         "column_LUHXRt": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/bathroom-eg.png",
+            "image": "shopify://shop_images/border-eg.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
