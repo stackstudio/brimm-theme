@@ -182,14 +182,23 @@ header.header {
 
 .brimm-blocks--flush-columns-title {
     text-align: center;
-    padding: var(--space-l);
+    padding: var(--space-m) var(--space-l) var(--space-l);
     h2 {
         font-size: var(--step-5);
+        margin-top: 0;
     }
 }
 
 .brimm-blocks--flush-columns-content {
-    padding: var(--space-2xl) var(--space-l) 0;
+    padding: var(--space-2xl) var(--space-xl) 0;
+    display: flex;
+    justify-content: space-between;
+    a {
+        flex-grow: 0;
+        flex-basis: 1;
+        height: auto;
+        margin-bottom: auto;
+    }
 }
 
 .brimm-blocks--vendor-header {
