@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "stacked_hero_qme3YR": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_ADNgV7": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Live Bright Tread Light. WELCOME TO THE ENOUGH STORE."
+          }
+        },
+        "text_YY8gky": {
+          "type": "text",
+          "settings": {
+            "copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
+          }
+        }
+      },
+      "block_order": [
+        "heading_ADNgV7",
+        "text_YY8gky"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": true,
+        "invert": false,
+        "narrow_image": "shopify://shop_images/narrow-eg.png",
+        "wide_image": "shopify://shop_images/wide-eg.png",
+        "color_scheme": ""
+      }
+    },
     "justified_hero_qEnNDW": {
       "type": "justified-hero",
       "blocks": {
@@ -667,6 +696,7 @@
     }
   },
   "order": [
+    "stacked_hero_qme3YR",
     "justified_hero_qEnNDW",
     "image_with_text_AgJ7ei",
     "multicolumn_k9rxVY",
