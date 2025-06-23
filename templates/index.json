@@ -32,6 +32,7 @@
       "name": "Stacked Hero",
       "settings": {
         "two_image": true,
+        "full_screen": true,
         "invert": false,
         "narrow_image": "shopify://shop_images/narrow-eg.png",
         "wide_image": "shopify://shop_images/wide-eg.png",
@@ -70,6 +71,7 @@
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
+        "full_screen": false,
         "invert": true,
         "wide_image": "shopify://shop_images/1010.png",
         "color_scheme": "scheme-2"
