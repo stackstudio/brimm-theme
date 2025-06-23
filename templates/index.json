@@ -77,54 +77,74 @@
         "color_scheme": "scheme-2"
       }
     },
-    "image_with_text_AgJ7ei": {
-      "type": "image-with-text",
+    "multicolumn_wGALGV": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_mQNArK": {
-          "type": "heading",
+        "column_GD68WE": {
+          "type": "column",
           "settings": {
-            "heading": "<strong>A movement, not just a marketplace. Discover stories, products and people creating a planet-positive future</strong>",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/pantry-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "PANTRY",
+            "text": "<p>Reset your kitchen with a regenerative pantry reset box.</p>",
+            "image_label": "",
+            "link_label": "Find out more",
+            "link": "shopify://products/brimm-pantry-essentials-reset-box"
           }
         },
-        "text_UDy4qg": {
-          "type": "text",
+        "column_AJnB4A": {
+          "type": "column",
           "settings": {
-            "text": "<p>Join 10,000+ planet-positive citizens making every choice count.</p>",
-            "text_style": "body"
+            "image": "shopify://shop_images/bathroom-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "BATHROOM",
+            "text": "<p>Reset your kitchen with a regenerative pantry reset box.</p>",
+            "image_label": "",
+            "link_label": "Find out more",
+            "link": "shopify://products/brimm-luxury-bathroom-reset-box"
           }
         },
-        "button_8kcVdC": {
-          "type": "button",
+        "column_xYMKNw": {
+          "type": "column",
           "settings": {
-            "button_label": "Join as a Member",
-            "button_link": "shopify://pages/member-sign-up-form",
-            "button_style_secondary": false
+            "image": "shopify://shop_images/cleaning-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "CLEANING",
+            "text": "<p>Reset your kitchen with a regenerative pantry reset box.</p>",
+            "image_label": "",
+            "link_label": "Find out more",
+            "link": "shopify://products/brimm-kitchen-reset-cleaning-box"
           }
         }
       },
       "block_order": [
-        "heading_mQNArK",
-        "text_UDy4qg",
-        "button_8kcVdC"
+        "column_GD68WE",
+        "column_AJnB4A",
+        "column_xYMKNw"
       ],
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "scheme-2",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "brimm-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "title": "Reset your everyday",
+        "no-gap": false,
+        "text_block": "From minimalist bathrooms to regenerative pantries—planet-positive living starts here. More coming soon.",
+        "heading_size": "h1",
+        "split_header": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -719,7 +739,7 @@
   "order": [
     "stacked_hero_qme3YR",
     "stacked_hero_xxPi8q",
-    "image_with_text_AgJ7ei",
+    "multicolumn_wGALGV",
     "multicolumn_k9rxVY",
     "member_packages_DXnQLz",
     "partner_logos_xMwzLh",
