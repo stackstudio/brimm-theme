@@ -46,7 +46,7 @@
         {%- if section.settings.text_block != blank -%}
             <div class='rte body-extra-20 text_block'>{{ section.settings.text_block }}</div>
         {%- endif -%}
-        {%- if section.settings.button_label != blank and show_mobile_slider -%}
+        {%- if section.settings.button_label != blank -%}
             <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
             {{- section.settings.button_label | escape -}}
             </a>
