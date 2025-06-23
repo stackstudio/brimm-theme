@@ -42,16 +42,17 @@ header.header {
     display: none;
 }
 
+/* NEW STACKED HEROS */
+
 .brimm-blocks--hero.full-screen {
-    height: calc(100vh - 77px);
+    max-height: calc(100vh - 77px);
 }
 
 .brimm-blocks--stacked-hero {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    max-height: calc(100vh - 77px);
     grid-template-areas: "content wide";
-    max-height: calc(100vh -100px);
-    height: 100%;
 }
 
 .inverted .brimm-blocks--stacked-hero {
@@ -69,12 +70,10 @@ header.header {
    grid-template-areas: "wide narrow content";
 }
 
-.brimm-blocks--stacked-hero .narrow-image {
-    grid-area: narrow;
-}
-
-.brimm-blocks--stacked-hero .wide-image {
+.brimm-blocks--stacked-hero .brimm-blocks--wide-image {
     grid-area: wide;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .brimm-blocks--stacked-hero .brimm-blocks--callout-column {
@@ -84,6 +83,7 @@ header.header {
 .brimm-blocks--narrow-image {
     object-fit: cover;
     overflow: hidden;
+    grid-area: narrow;
 }
 
 .brimm-blocks--stacked-hero img {
@@ -99,14 +99,60 @@ header.header {
     justify-content: space-between;
 }
 
-.brimm-blocks--callout-column p {
-    font-size: var(--step-3);
+.brimm-blocks--callout-column.no-pad {
+    padding: 0;
 }
 
-.brimm-blocks--callout-column h1 {
+.brimm-blocks--callout-column p {
+    font-size: var(--step-2);
+}
+
+.brimm-blocks--callout-column h1,
+.brimm-blocks--callout-column h2 {
     font-size: var(--step-5);
     text-transform: uppercase;
-    text-align: justify;
+    margin-top: 0;
+}
+
+/* NEW MULTICOL */
+.brimm-blocks--simple-multicolumn {
+    padding: var(--space-3xl) var(--space-m);
+    .brimm-blocks--callout-column.no-pad {
+        padding-right: var(--space-xl);
+    }
+}
+.brimm-blocks--simple-multicolumn-grid {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    gap: var(--space-s);
+    .multicolumn-card__info {
+        padding: 0;
+        p {
+            font-size: var(--step-1);
+            padding-right: var(--space-l);
+            line-height: 115%;
+        }
+    }
+}
+.brimm-blocks--simple-multicolumn-item {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.border-link {
+    padding-top: var(--space-xs);
+    margin-top: var(--space-m);
+    border-top: 1px solid;
+    .link {
+        margin-top: 0 !important;
+        font-weight: 600;
+    }
+}
+
+.brimm-blocks--simple-multicolumn-grid img {
+    width: 100%;
+    height: auto;
 }
 
 .brimm-blocks--vendor-header {
