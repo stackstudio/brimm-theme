@@ -5,7 +5,7 @@
     class='section-{{ section.id }}-padding isolate'
     <div class='multicolumn__grid-wrapper'>
       {%- unless section.settings.title == blank -%}
-        {%- unless section.settings.first_col -%}
+        {%- if section.settings.first_col == false and section.settings.last_col == false -%}
             <div class='title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title'>
                 <h2 class='title inline-richtext {{ section.settings.heading_size }}{% if section.settings.split_header %} brimm-blocks--split-text brimm-blocks--justified-header{% endif %}'>
                     {{ section.settings.title }}
@@ -19,7 +19,7 @@
                     </a>
                 {%- endif -%}
             </div>
-        {%- endunless -%}
+        {%- endif -%}
       {%- endunless -%}
       <div class="brimm-blocks--simple-multicolumn-grid">
         {%- if section.settings.first_col -%}
@@ -94,7 +94,6 @@
                         <p>{{ section.settings.text_block }}</p>
                     {%- endif -%}
                     {%- if section.settings.button_label != blank -%}
-                      <div class='center{% if show_mobile_slider %} small-hide medium-hide{% endif %}'>
                         <a
                           class='button button--primary'
                           {% if section.settings.button_link == blank %}
@@ -105,7 +104,6 @@
                           {% endif %}>
                           {{ section.settings.button_label | escape }}
                         </a>
-                      </div>
                     {%- endif -%}
                 </div>
             </div>
