@@ -22,21 +22,23 @@
         {%- endunless -%}
       {%- endunless -%}
       <div class="brimm-blocks--simple-multicolumn-grid">
-        <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad">
-          <h2>
-              {{ section.settings.title }}
-          </h2>
-          <div>
-            {%- if section.settings.text_block != blank -%}
-                <p>{{ section.settings.text_block }}</p>
-            {%- endif -%}
-            {%- if section.settings.button_label != blank-%}
-                <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
-                {{- section.settings.button_label | escape -}}
-                </a>
-            {%- endif -%}
-          </div>
-        </div>
+        {%- if section.settings.first_col -%}
+            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad">
+                <h2>
+                    {{ section.settings.title }}
+                </h2>
+                <div>
+                    {%- if section.settings.text_block != blank -%}
+                        <p>{{ section.settings.text_block }}</p>
+                    {%- endif -%}
+                    {%- if section.settings.button_label != blank-%}
+                        <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
+                        {{- section.settings.button_label | escape -}}
+                        </a>
+                    {%- endif -%}
+                </div>
+            </div>
+        {%- endif -%}
         {%- for block in section.blocks -%}
         <div class="brimm-blocks--simple-multicolumn-item">
             <div class='multicolumn-card content-container'>
@@ -77,6 +79,23 @@
             </div>
         </div>
         {%- endfor -%}
+        {%- if section.settings.last_col -%}
+            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad">
+                <h2>
+                    {{ section.settings.title }}
+                </h2>
+                <div>
+                    {%- if section.settings.text_block != blank -%}
+                        <p>{{ section.settings.text_block }}</p>
+                    {%- endif -%}
+                    {%- if section.settings.button_label != blank-%}
+                        <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
+                        {{- section.settings.button_label | escape -}}
+                        </a>
+                    {%- endif -%}
+                </div>
+            </div>
+        {%- endif -%}
       </div>
       {%- if section.settings.button_label != blank -%}
         <div class='center{% if show_mobile_slider %} small-hide medium-hide{% endif %}'>
@@ -122,6 +141,12 @@
         "id": "first_col",
         "default": false,
         "label": "First column intro?"
+      },
+      {
+        "type": "checkbox",
+        "id": "last_col",
+        "default": false,
+        "label": "Last column intro?"
       },
       {
         "type": "inline_richtext",

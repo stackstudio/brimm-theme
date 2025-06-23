@@ -54,7 +54,6 @@ header.header {
 .brimm-blocks--stacked-hero {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    max-height: calc(100vh - 77px);
     grid-template-areas: "content wide";
 }
 
@@ -218,7 +217,7 @@ header.header {
     gap: var(--logo-gap);
     align-items: center;
     min-width: 100%;
-    animation: scroll 10s linear infinite;
+    animation: scroll 18s linear infinite;
     h3 {
         width: fit-content;
         flex: 1 0 auto;
