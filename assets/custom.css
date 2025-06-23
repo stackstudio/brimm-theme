@@ -121,6 +121,7 @@ header.header {
     padding: var(--space-3xl) var(--space-m);
     .brimm-blocks--callout-column.no-pad {
         padding-right: var(--space-xl);
+        max-width: 25%;
     }
 }
 .brimm-blocks--simple-multicolumn-grid {
@@ -137,6 +138,7 @@ header.header {
         }
     }
 }
+
 .brimm-blocks--simple-multicolumn-item {
     flex-grow: 1;
     flex-basis: 0;
@@ -155,6 +157,12 @@ header.header {
 .brimm-blocks--simple-multicolumn-grid img {
     width: 100%;
     height: auto;
+    max-height: 630px;
+    object-fit: cover;
+}
+
+.brimm-blocks--callout-column .button {
+    width: 100%;
 }
 
 /* NEW FLUSH COLUMNS */

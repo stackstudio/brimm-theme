@@ -31,9 +31,16 @@
                     {%- if section.settings.text_block != blank -%}
                         <p>{{ section.settings.text_block }}</p>
                     {%- endif -%}
-                    {%- if section.settings.button_label != blank-%}
-                        <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
-                        {{- section.settings.button_label | escape -}}
+                    {%- if section.settings.button_label != blank -%}
+                        <a
+                          class='button button--primary'
+                          {% if section.settings.button_link == blank %}
+                          role='link'
+                          aria-disabled='true'
+                          {% else %}
+                          href='{{ section.settings.button_link }}'
+                          {% endif %}>
+                          {{ section.settings.button_label | escape }}
                         </a>
                     {%- endif -%}
                 </div>
@@ -42,40 +49,38 @@
         {%- for block in section.blocks -%}
         <div class="brimm-blocks--simple-multicolumn-item">
             <div class='multicolumn-card content-container'>
-            {%- if block.settings.image != blank -%}
-                <div>
-                <div>
-                    {{
-                    block.settings.image | image_url: width: 3200 | image_tag: widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200', sizes: sizes, class: 'multicolumn-card__image'
-                    }}
-                </div>
-                </div>
-            {%- endif -%}
-            <div class='multicolumn-card__info'>
-                {%- if block.settings.title != blank -%}
-                <h3 class='inline-richtext body-extra'>{{ block.settings.title }}</h3>
+                {%- if block.settings.image != blank -%}
+                    <div>
+                        {{
+                        block.settings.image | image_url: width: 3200 | image_tag: widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200', sizes: sizes, class: 'multicolumn-card__image'
+                        }}
+                    </div>
                 {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                <div class='rte body-medium'>{{ block.settings.text }}</div>
-                {%- endif -%}
-                {%- if block.settings.link_label != blank -%}
-                <div class="border-link">
-                    <a
-                        class='link animate-arrow'
-                        {% if block.settings.link == blank %}
-                        role='link'
-                        aria-disabled='true'
-                        {% else %}
-                        href='{{ block.settings.link }}'
-                        {% endif %}>
-                        {{- block.settings.link_label | escape -}}
-                        <span class='svg-wrapper'>
-                        <span class='icon-wrap'>&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span>
-                        </span>
-                    </a>
+                <div class='multicolumn-card__info'>
+                    {%- if block.settings.title != blank -%}
+                    <h3 class='inline-richtext body-extra'>{{ block.settings.title }}</h3>
+                    {%- endif -%}
+                    {%- if block.settings.text != blank -%}
+                    <div class='rte body-medium'>{{ block.settings.text }}</div>
+                    {%- endif -%}
+                    {%- if block.settings.link_label != blank -%}
+                    <div class="border-link">
+                        <a
+                            class='link animate-arrow'
+                            {% if block.settings.link == blank %}
+                            role='link'
+                            aria-disabled='true'
+                            {% else %}
+                            href='{{ block.settings.link }}'
+                            {% endif %}>
+                            {{- block.settings.link_label | escape -}}
+                            <span class='svg-wrapper'>
+                            <span class='icon-wrap'>&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span>
+                            </span>
+                        </a>
+                    </div>
+                    {%- endif -%}
                 </div>
-                {%- endif -%}
-            </div>
             </div>
         </div>
         {%- endfor -%}
@@ -88,29 +93,24 @@
                     {%- if section.settings.text_block != blank -%}
                         <p>{{ section.settings.text_block }}</p>
                     {%- endif -%}
-                    {%- if section.settings.button_label != blank-%}
-                        <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
-                        {{- section.settings.button_label | escape -}}
+                    {%- if section.settings.button_label != blank -%}
+                      <div class='center{% if show_mobile_slider %} small-hide medium-hide{% endif %}'>
+                        <a
+                          class='button button--primary'
+                          {% if section.settings.button_link == blank %}
+                          role='link'
+                          aria-disabled='true'
+                          {% else %}
+                          href='{{ section.settings.button_link }}'
+                          {% endif %}>
+                          {{ section.settings.button_label | escape }}
                         </a>
+                      </div>
                     {%- endif -%}
                 </div>
             </div>
         {%- endif -%}
       </div>
-      {%- if section.settings.button_label != blank -%}
-        <div class='center{% if show_mobile_slider %} small-hide medium-hide{% endif %}'>
-          <a
-            class='button button--primary'
-            {% if section.settings.button_link == blank %}
-            role='link'
-            aria-disabled='true'
-            {% else %}
-            href='{{ section.settings.button_link }}'
-            {% endif %}>
-            {{ section.settings.button_label | escape }}
-          </a>
-        </div>
-      {%- endif -%}
     </div>
   </div>
 </div>
