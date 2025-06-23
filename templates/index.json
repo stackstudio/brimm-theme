@@ -38,24 +38,6 @@
         "color_scheme": ""
       }
     },
-    "justified_hero_qEnNDW": {
-      "type": "justified-hero",
-      "blocks": {
-        "heading_DRd4EB": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "LIVE BRIGHT TREAD LIGHT. WELCOME TO THE ENOUGH STORE."
-          }
-        }
-      },
-      "block_order": [
-        "heading_DRd4EB"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
-        "color_scheme": "scheme-6"
-      }
-    },
     "image_with_text_AgJ7ei": {
       "type": "image-with-text",
       "blocks": {
@@ -697,7 +679,6 @@
   },
   "order": [
     "stacked_hero_qme3YR",
-    "justified_hero_qEnNDW",
     "image_with_text_AgJ7ei",
     "multicolumn_k9rxVY",
     "member_packages_DXnQLz",
