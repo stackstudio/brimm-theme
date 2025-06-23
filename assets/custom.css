@@ -173,42 +173,6 @@ header.header {
     letter-spacing: 0;
 }
 
-.brimm-blocks--split-text {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.brimm-blocks--split-text span {
-  display: inline-block;
-  text-align: center;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.brimm-blocks--split-text .brimm-blocks--line-break {
-  flex-basis: 100%;
-  /* Force a new line */
-  display: block;
-}
-
-.brimm-blocks--hero-content p {
-
-}
-
-.brimm-blocks--hero-content h1 {
-  margin: 0;
-}
-
-.brimm-blocks--hero-content {
-
-}
-
-.brimm-blocks--hero-para {
-  letter-spacing: 0;
-}
-
 .brimm-blocks--hidden {
   visibility: hidden;
   height: 0;
