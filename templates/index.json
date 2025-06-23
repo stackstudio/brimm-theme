@@ -441,6 +441,7 @@
         "column_AQibDb",
         "column_b8bDzN"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "RESET YOUR EVERYDAY",
@@ -493,6 +494,7 @@
         "text_4FWbRK",
         "button_7EKgcC"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Beauty_Luxury_Reset_Box_Products_landscape.jpg",
@@ -581,6 +583,7 @@
         "logo_YPwt78",
         "logo_xEwxGT"
       ],
+      "disabled": true,
       "settings": {
         "block_text": "MEET OUR COLLECTIVE OF PLANET-POSITIVE PIONEERS"
       }
@@ -636,6 +639,7 @@
         "column_yjPaWM",
         "column_R8h6LG"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "STORIES THAT SPARK CHANGE",
@@ -659,6 +663,7 @@
     },
     "hero_Wyq8H8": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "heading": ""
       }
@@ -699,6 +704,7 @@
         "bottom_paragraph_wyQNJ7",
         "cta_button_hhrbzr"
       ],
+      "disabled": true,
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true&playerColor=e3f994&controlsVisibleOnLoad=false\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-2",
@@ -757,6 +763,7 @@
         "column_gWeFma",
         "column_Riq9p9"
       ],
+      "disabled": true,
       "settings": {
         "title": "EVENTS",
         "no-gap": false,
@@ -806,6 +813,7 @@
         "richtext_TcVUai",
         "cta_button_eMxNiy"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Copy_of_5185423_MED.jpg",
         "split_header": true,
