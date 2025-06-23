@@ -38,6 +38,43 @@
         "color_scheme": ""
       }
     },
+    "stacked_hero_xxPi8q": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_KnzE6h": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Shopping brimm as a member pays for itself"
+          }
+        },
+        "text_aiwhMp": {
+          "type": "text",
+          "settings": {
+            "copy": "Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards"
+          }
+        },
+        "cta_button_TdzEQD": {
+          "type": "cta_button",
+          "settings": {
+            "label": "View Membership",
+            "link": "shopify://pages/founder-members",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KnzE6h",
+        "text_aiwhMp",
+        "cta_button_TdzEQD"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "invert": true,
+        "wide_image": "shopify://shop_images/1010.png",
+        "color_scheme": "scheme-2"
+      }
+    },
     "image_with_text_AgJ7ei": {
       "type": "image-with-text",
       "blocks": {
@@ -679,6 +716,7 @@
   },
   "order": [
     "stacked_hero_qme3YR",
+    "stacked_hero_xxPi8q",
     "image_with_text_AgJ7ei",
     "multicolumn_k9rxVY",
     "member_packages_DXnQLz",
