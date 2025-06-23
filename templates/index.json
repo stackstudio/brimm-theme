@@ -333,6 +333,63 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_simple_UKDfAn": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_fM33pr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/border-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        },
+        "column_tz6R6a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/border-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fM33pr",
+        "column_tz6R6a"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Moments to connect",
+        "no-gap": false,
+        "first_col": false,
+        "last_col": true,
+        "text_block": "Weekly dispatches from people reimagining tomorrow.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "View Events",
+        "button_link": "shopify://blogs/journal",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_k9rxVY": {
       "type": "multicolumn",
       "blocks": {
@@ -927,6 +984,7 @@
     "flush_columns_cYTaw6",
     "logo_scroller_DU3FL7",
     "multicolumn_simple_iNMR3b",
+    "multicolumn_simple_UKDfAn",
     "multicolumn_k9rxVY",
     "member_packages_DXnQLz",
     "partner_logos_xMwzLh",
