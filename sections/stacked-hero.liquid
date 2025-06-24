@@ -41,7 +41,9 @@
     {% endif %}
     {%- if section.settings.video_embed != blank and section.settings.image == blank %}
       <div class="brimm-blocks--wide-image">
-        {{ section.settings.video_embed }}
+        <div class="brimm-blocks--full-width-vid">
+            {{ section.settings.video_embed }}
+        </div>
       </div>
     {%- endif -%}
   </div>
