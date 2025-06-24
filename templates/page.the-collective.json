@@ -17,6 +17,93 @@
         "padding_bottom": 28
       }
     },
+    "stacked_hero_QMQVmL": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_cUxFwc": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "10% For The Planet"
+          }
+        },
+        "text_zcTPdD": {
+          "type": "text",
+          "settings": {
+            "copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
+          }
+        }
+      },
+      "block_order": [
+        "heading_cUxFwc",
+        "text_zcTPdD"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/1010.png",
+        "color_scheme": ""
+      }
+    },
+    "multicolumn_simple_T3BVEp": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_BU7TXd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pantry-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "CONSUMERS GET",
+            "text": "<ul><li>Support our business with their membership</li><li>We give a series of benefits to support their planet positive life</li><li>10% of everything they spend goes to our Planet Fund to support</li><li>Vote on initiatives that the Planet Fund supports</li></ul>",
+            "image_label": "",
+            "link_label": "Find out more",
+            "link": ""
+          }
+        },
+        "column_HQxecY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bathroom-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "OUR MEMBERS GET",
+            "text": "<ul><li>Support our business with their membership</li><li>We give a series of benefits to support their planet positive life</li><li>10% of everything they spend goes to our Planet Fund to support</li><li>Vote on initiatives that the Planet Fund supports</li></ul>",
+            "image_label": "",
+            "link_label": "Find out more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BU7TXd",
+        "column_HQxecY"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>PEOPLE POWERED MOVEMENT FOR CHANGE</strong>",
+        "no-gap": false,
+        "first_col": false,
+        "last_col": true,
+        "text_block": "At BRiMM, we believe its time for a fresh approach - one where every individual action truly makes a difference",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "justified_hero_Mrd9QU": {
       "type": "justified-hero",
       "blocks": {
@@ -30,6 +117,7 @@
       "block_order": [
         "heading_eNfybe"
       ],
+      "disabled": true,
       "name": "Justified Hero",
       "settings": {
         "image": "shopify://shop_images/unlicensed_stills_240224_kelsey-smith_1.png",
@@ -56,6 +144,7 @@
         "heading_Dbrfzw",
         "top_paragraph_BPPnPH"
       ],
+      "disabled": true,
       "name": "Mega",
       "settings": {
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true&playerColor=e3f994&controlsVisibleOnLoad=false\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
@@ -115,13 +204,14 @@
         "column_Uyg3DC",
         "column_x7BX34"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "no-gap": false,
+        "first_col": false,
         "text_block": "",
         "heading_size": "h1",
-        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -184,13 +274,14 @@
         "column_QMmQcY",
         "column_BqjLwe"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "OUR COLLECTIVE: THE HEART OF OUR MOVEMENT",
         "no-gap": false,
+        "first_col": false,
         "text_block": "Our revolutionary model thrives thanks to the collaboration of our members and brands.",
         "heading_size": "h1",
-        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -253,13 +344,14 @@
         "column_3wjPAJ",
         "column_DMKHTV"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "OUR MEMBERS",
         "no-gap": false,
+        "first_col": false,
         "text_block": "",
         "heading_size": "h1",
-        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -308,13 +400,14 @@
         "column_8XmLB9",
         "column_yizTCk"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "PLANET FUND",
         "no-gap": false,
+        "first_col": false,
         "text_block": "The Planet Fund: Fuel for a Planet-Positive Future. We believe in mitigation rather than offsetting. Our fund is how we make it happen.",
         "heading_size": "h1",
-        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -363,6 +456,7 @@
         "text_hLThDm",
         "buttons_4DqxLV"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/naja-bertolt-jensen-oxbzN6KY17s-unsplash.jpg",
@@ -412,6 +506,7 @@
         "text_dWFybq",
         "buttons_R4hhrT"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
@@ -455,6 +550,7 @@
         "richtext_bFGPCd",
         "cta_button_6iBjfq"
       ],
+      "disabled": true,
       "name": "Inset Hero",
       "settings": {
         "image": "shopify://shop_images/Copy_of_5185423_MED.jpg",
@@ -466,6 +562,8 @@
   },
   "order": [
     "main",
+    "stacked_hero_QMQVmL",
+    "multicolumn_simple_T3BVEp",
     "justified_hero_Mrd9QU",
     "wrapped_mega_image_cLgHKc",
     "multicolumn_cbgHTz",
