@@ -4,6 +4,7 @@
     {% if section.settings.two_image %} two-image{% endif %}
     {% if section.settings.full_screen %} full-screen{% endif %}
     {% if section.settings.wider %} wider-text{% endif %}
+    {% if section.settings.padded %} padded{% endif %}
   "
   id="{{ section.id }}"
 >
@@ -91,6 +92,12 @@
         "type": "checkbox",
         "label": "Wider Text?",
         "id": "wider"
+    },
+    {
+      "type": "checkbox",
+      "id": "padded",
+      "default": false,
+      "label": "Padded"
     },
     {
         "type": "image_picker",

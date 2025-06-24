@@ -51,11 +51,19 @@ header.header {
     display: flex;
 }
 
+.brimm-blocks--hero.padded {
+    padding: var(--space-3xl);
+}
+
 .brimm-blocks--stacked-hero {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-areas: "content wide";
     width: 100%;
+}
+
+.padded .brimm-blocks--stacked-hero {
+    gap: var(--space-2xl);
 }
 
 .wider-text .brimm-blocks--stacked-hero {
