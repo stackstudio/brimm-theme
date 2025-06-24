@@ -39,6 +39,11 @@
           <img src={{ section.settings.wide_image | image_url }} />
         </div>
     {% endif %}
+    {%- if section.settings.video_embed != blank and section.settings.image == blank %}
+      <div class="brimm-blocks--wide-image">
+        {{ section.settings.video_embed }}
+      </div>
+    {%- endif -%}
   </div>
   <!-- <div class="page-width brimm-blocks--hero-content">
     {% for block in section.blocks %}
@@ -83,6 +88,12 @@
         "type": "image_picker",
         "label": "Narrow Image",
         "id": "narrow_image"
+    },
+    {
+      "type": "liquid",
+      "id": "video_embed",
+      "label": "t:sections.image-with-text.settings.video_embed.label",
+      "info": "t:sections.image-with-text.settings.video_embed.info"
     },
     {
         "type": "image_picker",
