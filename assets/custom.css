@@ -58,6 +58,19 @@ header.header {
     width: 100%;
 }
 
+.wider-text .brimm-blocks--stacked-hero {
+    grid-template-columns: 2fr 3fr;
+    max-height: 90vh;
+}
+
+.inverted.wider-text .brimm-blocks--stacked-hero {
+    grid-template-columns: 3fr 2fr;
+}
+
+.wider-text .brimm-blocks--stacked-hero img {
+    max-height: 90vh
+}
+
 .inverted .brimm-blocks--stacked-hero {
     grid-template-columns: 3fr 1fr;
     grid-template-areas: "wide content";
