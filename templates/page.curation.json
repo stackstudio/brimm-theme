@@ -575,107 +575,6 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
-    },
-    "image_banner_z89KfE": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_X76gcT": {
-          "type": "heading",
-          "settings": {
-            "heading": "KINFILL",
-            "heading_size": "headline-extra"
-          }
-        },
-        "text_MhjwJE": {
-          "type": "text",
-          "settings": {
-            "text": "Kinfill offers concentrated, non-toxic home cleaning products in reusable, elevated aluminum bottles - eliminating single-use plastics. Their plant-based, cruelty-free formulas are free from harsh chemicals, and all packaging is recyclable. With local production to minimize transport impact, Kinfill is also B Corp certified. While no standard currently exists for this level of design and sustainability detail, their commitment is genuine and not greenwashed.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_X76gcT",
-        "text_MhjwJE"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Kinfill_bottles.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "inset_hero_GKhiqC": {
-      "type": "inset-hero",
-      "blocks": {
-        "heading_eJbee9": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "GET CURATED"
-          }
-        },
-        "richtext_xfz9Xg": {
-          "type": "richtext",
-          "settings": {
-            "copy": "<p>Want to see how curation and vetting comes together to make planet-positive living easy and full of joy?</p>"
-          }
-        },
-        "cta_button_CJaac4": {
-          "type": "cta_button",
-          "settings": {
-            "label": "See reset boxes",
-            "link": "shopify://pages/founder-members",
-            "style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_eJbee9",
-        "richtext_xfz9Xg",
-        "cta_button_CJaac4"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/UpCircle-is-the-Skincare-Brand-Pioneering-By-product-beauty.jpg",
-        "split_header": false,
-        "is_product": false,
-        "color_scheme": "scheme-2"
-      }
-    },
-    "justified_hero_mVAXLL": {
-      "type": "justified-hero",
-      "blocks": {
-        "heading_4kM6Ec": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "FULL BLEED HERO SECTION"
-          }
-        },
-        "cta_button_JXpfMt": {
-          "type": "cta_button",
-          "settings": {
-            "label": "Click me",
-            "link": "shopify://collections/reset-boxes",
-            "style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_4kM6Ec",
-        "cta_button_JXpfMt"
-      ],
-      "name": "Justified Hero",
-      "settings": {
-        "image": "shopify://shop_images/unlicensed_stills_240224_kelsey-smith_1.png",
-        "color_scheme": "scheme-6"
-      }
     }
   },
   "order": [
@@ -696,9 +595,6 @@
     "stacked_hero_96xN8c",
     "stacked_hero_4q7bxk",
     "rich_text_T3hM7z",
-    "rich_text_xFmdpQ",
-    "image_banner_z89KfE",
-    "inset_hero_GKhiqC",
-    "justified_hero_mVAXLL"
+    "rich_text_xFmdpQ"
   ]
 }
