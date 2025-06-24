@@ -17,22 +17,222 @@
         "padding_bottom": 28
       }
     },
-    "justified_hero_EBXFMb": {
-      "type": "justified-hero",
+    "stacked_hero_Xiwchw": {
+      "type": "stacked-hero",
       "blocks": {
-        "heading_bhAwHy": {
+        "heading_UUGJWd": {
           "type": "heading",
           "settings": {
-            "heading_text": "ONLY THE TRULY PLANET POSITIVE MAKE THE CUT"
+            "heading_text": "Live Bright Tread Light. WELCOME TO THE ENOUGH STORE."
+          }
+        },
+        "text_dDrnpd": {
+          "type": "text",
+          "settings": {
+            "copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
           }
         }
       },
       "block_order": [
-        "heading_bhAwHy"
+        "heading_UUGJWd",
+        "text_dDrnpd"
       ],
+      "name": "Stacked Hero",
       "settings": {
-        "image": "shopify://shop_images/SBTRCT-09-02-2189400_79aace55-77f2-42b9-beeb-f623841fb895.jpg",
-        "color_scheme": "scheme-6"
+        "two_image": true,
+        "full_screen": true,
+        "invert": false,
+        "narrow_image": "shopify://shop_images/narrow-eg.png",
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/wide-eg.png",
+        "color_scheme": ""
+      }
+    },
+    "flush_columns_4zpTXq": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_4MP6xG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-1.png",
+            "title": "Quality",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_c9BW33": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-2.png",
+            "title": "Impact",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Kq8GWU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-3.png",
+            "title": "Culture",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wLXCmb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-4.png",
+            "title": "Activism",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4MP6xG",
+        "column_c9BW33",
+        "column_Kq8GWU",
+        "column_wLXCmb"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "ONLY THE TRULY PLANET POSITIVE MAKE THE CUT",
+        "text_block": "At BRiMM, every product is thoughtfully curated by industry experts  to ensure they not only perform beautifully but also smell and taste fantastic.",
+        "columns_desktop": 4,
+        "button_label": "How We Vet",
+        "button_link": "",
+        "color_scheme": ""
+      }
+    },
+    "stacked_hero_kniMg7": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_qVt4ER": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "CURATED BY INDUSTRY EXPERTS"
+          }
+        },
+        "text_86YCpx": {
+          "type": "text",
+          "settings": {
+            "copy": "At BRiMM, every product is thoughtfully curated by industry experts (hello, Sam & Christabel) to ensure they not only perform beautifully but also smell and taste fantastic."
+          }
+        }
+      },
+      "block_order": [
+        "heading_qVt4ER",
+        "text_86YCpx"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Group_92.png",
+        "color_scheme": "scheme-2"
+      }
+    },
+    "logo_scroller_ANciWD": {
+      "type": "logo-scroller",
+      "blocks": {
+        "column_EQ4btt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_8dTebt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_YzA3fK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_8TBDJU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_qLYbPp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_rYqyzV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_7CxDfU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_HWwYWB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_EQ4btt",
+        "column_8dTebt",
+        "column_YzA3fK",
+        "column_8TBDJU",
+        "column_qLYbPp",
+        "column_rYqyzV",
+        "column_7CxDfU",
+        "column_HWwYWB"
+      ],
+      "name": "Logo Scroller",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
+    "stacked_hero_kxMRgY": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_wEQ4JG": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "rigourous vetting process"
+          }
+        },
+        "text_bVnjdn": {
+          "type": "text",
+          "settings": {
+            "copy": "Our rigorous 90+ point vetting process, developed by sustainability expert Tom Berry, is grounded in independent standards and accreditations. Tom has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive."
+          }
+        }
+      },
+      "block_order": [
+        "heading_wEQ4JG",
+        "text_bVnjdn"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/20250514_BRIMM_652_1.png",
+        "color_scheme": "scheme-2"
       }
     },
     "image_with_text_N4ciKF": {
@@ -57,6 +257,7 @@
         "heading_7QgCKH",
         "text_3HDg6g"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Group_92.png",
         "video_embed": "",
@@ -81,6 +282,7 @@
     },
     "partner_logos_hUUrNA": {
       "type": "partner-logos",
+      "disabled": true,
       "settings": {
         "block_text": "BRANDS OUR CURATION & VETTING EXPERTS HAVE WORKED with"
       }
@@ -110,10 +312,10 @@
       "settings": {
         "image": "shopify://shop_images/20250514_BRIMM_652_1.png",
         "video_embed": "",
-        "has_background": true,
+        "has_background": false,
         "show_waitlist": false,
         "image_label": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "mobile_heading": "",
         "mobile_text": "",
         "height": "adapt",
@@ -401,7 +603,11 @@
   },
   "order": [
     "main",
-    "justified_hero_EBXFMb",
+    "stacked_hero_Xiwchw",
+    "flush_columns_4zpTXq",
+    "stacked_hero_kniMg7",
+    "logo_scroller_ANciWD",
+    "stacked_hero_kxMRgY",
     "image_with_text_N4ciKF",
     "partner_logos_hUUrNA",
     "image_with_text_iKBBfX",
