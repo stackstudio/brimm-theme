@@ -118,6 +118,35 @@
         "padding_bottom": 36
       }
     },
+    "stacked_hero_njRPaW": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_z8WpEy": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "We’re flipping the script on sustainability."
+          }
+        },
+        "text_8E4waQ": {
+          "type": "text",
+          "settings": {
+            "copy": "BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to show that you can live well and tread light - without compromise."
+          }
+        }
+      },
+      "block_order": [
+        "heading_z8WpEy",
+        "text_8E4waQ"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "color_scheme": "scheme-2"
+      }
+    },
     "image_with_text_rcKjFt": {
       "type": "image-with-text",
       "blocks": {
@@ -334,6 +363,7 @@
     "stacked_hero_k9zdC6",
     "wrapped_mega_image_ebtEiP",
     "featured_collection_7z4pTV",
+    "stacked_hero_njRPaW",
     "image_with_text_rcKjFt",
     "image_with_text_mkA8Fb",
     "email_signup_banner_644mkD",
