@@ -204,7 +204,7 @@
       ],
       "name": "Logo Scroller",
       "settings": {
-        "color_scheme": ""
+        "color_scheme": "scheme-1"
       }
     },
     "stacked_hero_kxMRgY": {
@@ -229,13 +229,14 @@
       ],
       "name": "Stacked Hero",
       "settings": {
-        "two_image": false,
+        "two_image": true,
         "full_screen": false,
-        "invert": false,
-        "wider": true,
+        "invert": true,
+        "wider": false,
+        "narrow_image": "shopify://shop_images/20250514_BRIMM_652_1.png",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/20250514_BRIMM_652_1.png",
-        "color_scheme": "scheme-2"
+        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "color_scheme": "scheme-1"
       }
     },
     "image_with_text_N4ciKF": {
@@ -312,6 +313,7 @@
         "heading_XaGQgz",
         "text_bQwVkC"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/20250514_BRIMM_652_1.png",
         "video_embed": "",
@@ -336,8 +338,89 @@
     },
     "partner_logos_pmqNqp": {
       "type": "partner-logos",
+      "disabled": true,
       "settings": {
         "block_text": "VETTING ACCREDITATONS"
+      }
+    },
+    "stacked_hero_iyBFLz": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_QtxD6X": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "NOT ALL BRANDS ARE CREATED EQUALLY"
+          }
+        },
+        "text_h3DJQ4": {
+          "type": "text",
+          "settings": {
+            "copy": "Smaller brands are often at the forefront of innovation. They’re not just crafting exceptional products; they’re setting the next generation of standards and accreditations that larger brands will follow (eventually)."
+          }
+        }
+      },
+      "block_order": [
+        "heading_QtxD6X",
+        "text_h3DJQ4"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "color_scheme": "scheme-1"
+      }
+    },
+    "flush_columns_XHYRMh": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_wzLnHr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-1.png",
+            "title": "CITIZENS OF SOIL",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3YnXry": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-2.png",
+            "title": "UPCIRCLE",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BmBxEg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cleaning-eg.png",
+            "title": "KINFILL",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wzLnHr",
+        "column_3YnXry",
+        "column_BmBxEg"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "CURIOUS ABOUT SOME EXAMPLES?",
+        "text_block": "We also choose brands based on their provenance, innovation, and exceptional design. Together, we can help them establish the new standards of tomorrow.",
+        "columns_desktop": 4,
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": ""
       }
     },
     "wrapped_mega_image_XFkj89": {
@@ -367,42 +450,13 @@
         "top_paragraph_WFXrGJ",
         "bottom_paragraph_QzYaMG"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/ever-bottle-new-york-aluminium.webp",
         "video_embed": "",
         "color_scheme": "scheme-2",
         "disable_bottom_padding": false,
         "disable_top_padding": false
-      }
-    },
-    "rich_text_NXHXAh": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_PT6gHA": {
-          "type": "heading",
-          "settings": {
-            "heading": "CURIOUS ABOUT SOME EXAMPLES?",
-            "heading_size": "h1"
-          }
-        },
-        "text_iM9rTx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We also choose brands based on their provenance, innovation, and exceptional design. Together, we can help them establish the new standards of tomorrow.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PT6gHA",
-        "text_iM9rTx"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 44
       }
     },
     "image_banner_ye89gH": {
@@ -439,6 +493,37 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "stacked_hero_BNfitJ": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_B6AXbh": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "CITIZENS OF SOIL"
+          }
+        },
+        "text_fY8C8V": {
+          "type": "text",
+          "settings": {
+            "copy": "With over 1,400 five-star reviews, their award-winning extra-virgin olive oils are a true taste sensation. As a certified B-Corp, they go above and beyond with initiatives that matter. They champion female farmers and collaborate with those who actively promote biodiversity through diverse planting, allowing animals to graze between the groves and practicing low or no tillage. This is what people refer to as ‘regenerative farming.’ It’s no wonder we proudly stock their products!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B6AXbh",
+        "text_fY8C8V"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": true,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "color_scheme": "scheme-1"
       }
     },
     "rich_text_T3hM7z": {
@@ -615,9 +700,11 @@
     "partner_logos_hUUrNA",
     "image_with_text_iKBBfX",
     "partner_logos_pmqNqp",
+    "stacked_hero_iyBFLz",
+    "flush_columns_XHYRMh",
     "wrapped_mega_image_XFkj89",
-    "rich_text_NXHXAh",
     "image_banner_ye89gH",
+    "stacked_hero_BNfitJ",
     "rich_text_T3hM7z",
     "image_banner_nGyVQM",
     "rich_text_xFmdpQ",
