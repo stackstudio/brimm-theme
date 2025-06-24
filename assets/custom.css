@@ -118,7 +118,7 @@ header.header {
 
 /* NEW MULTICOL */
 .brimm-blocks--simple-multicolumn {
-    padding: var(--space-3xl) var(--space-m);
+    padding: var(--space-3xl) var(--space-xl);
     .brimm-blocks--callout-column.no-pad {
         padding-right: var(--space-xl);
         max-width: 25%;
@@ -170,6 +170,9 @@ header.header {
 }
 
 /* NEW FLUSH COLUMNS */
+.brimm-blocks--flush-columns {
+    padding-top: var(--space-xl);
+}
 .brimm-blocks--flush-columns-grid {
     width: 100%;
     display: flex;

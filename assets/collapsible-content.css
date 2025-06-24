@@ -45,10 +45,8 @@
 }
 
 .collapsible-content-wrapper-narrow {
-  margin: 0 auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  max-width: 73.4rem;
+  margin: 0 var(--space-xl);
+  max-width: clamp(440px, 73.4rem, 980px);
 }
 
 .collapsible-content__header {
@@ -58,6 +56,7 @@
 .collapsible-content__heading {
   margin-bottom: 2rem;
   margin-top: 0;
+  text-align: left;
 }
 
 @media screen and (min-width: 750px) {
@@ -95,6 +94,7 @@
 .collapsible-row-layout .accordion summary,
 .collapsible-row-layout .accordion .accordion__content {
   padding: 1.5rem;
+  padding-left: 0;
 }
 
 .collapsible-row-layout .accordion .accordion__content {
