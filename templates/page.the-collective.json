@@ -44,7 +44,7 @@
         "invert": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/1010.png",
-        "color_scheme": ""
+        "color_scheme": "scheme-1"
       }
     },
     "multicolumn_simple_T3BVEp": {
@@ -53,28 +53,28 @@
         "column_BU7TXd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/pantry-eg.png",
+            "image": "shopify://shop_images/Newsletter_Blue.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "CONSUMERS GET",
             "text": "<ul><li>Support our business with their membership</li><li>We give a series of benefits to support their planet positive life</li><li>10% of everything they spend goes to our Planet Fund to support</li><li>Vote on initiatives that the Planet Fund supports</li></ul>",
             "image_label": "",
-            "link_label": "Find out more",
+            "link_label": "",
             "link": ""
           }
         },
         "column_HQxecY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/bathroom-eg.png",
+            "image": "shopify://shop_images/Newsletter_Yellow.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "OUR MEMBERS GET",
             "text": "<ul><li>Support our business with their membership</li><li>We give a series of benefits to support their planet positive life</li><li>10% of everything they spend goes to our Planet Fund to support</li><li>Vote on initiatives that the Planet Fund supports</li></ul>",
             "image_label": "",
-            "link_label": "Find out more",
+            "link_label": "",
             "link": ""
           }
         }
@@ -95,9 +95,9 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
+        "button_label": "View Membership",
+        "button_link": "shopify://pages/founder-members",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
