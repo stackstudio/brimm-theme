@@ -17,22 +17,326 @@
         "padding_bottom": 28
       }
     },
-    "justified_hero_HkX8CR": {
-      "type": "justified-hero",
+    "stacked_hero_hdCfVJ": {
+      "type": "stacked-hero",
       "blocks": {
-        "heading_YhrxGT": {
+        "heading_kaXGxK": {
           "type": "heading",
           "settings": {
-            "heading_text": "WHERE CLIMATE OPTIMISTS TAKE ACTION TOGETHER"
+            "heading_text": "BRIMM MEMBERSHIP"
+          }
+        },
+        "text_jLVpTi": {
+          "type": "text",
+          "settings": {
+            "copy": "Where climate optimists take action together."
+          }
+        },
+        "cta_button_ENCyUD": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Choose a Tier",
+            "link": "#",
+            "style": "primary"
           }
         }
       },
       "block_order": [
-        "heading_YhrxGT"
+        "heading_kaXGxK",
+        "text_jLVpTi",
+        "cta_button_ENCyUD"
       ],
+      "name": "Stacked Hero",
       "settings": {
-        "image": "shopify://shop_images/2MAYNEW_WebsiteCover-01.jpg",
-        "color_scheme": "scheme-6"
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wide_image": "shopify://shop_images/memb-eg.png",
+        "color_scheme": ""
+      }
+    },
+    "flush_columns_mVkqkM": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_hYJYxy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-2.png",
+            "title": "CREDIT",
+            "text": "<p>Get <strong>£40-£80</strong> reset box credit to start your planet-positive journey</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aCifnQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/memb-eg.png",
+            "title": "CASHBACK",
+            "text": "<p>10% cashback every time you shop, and 10% to the planet fund.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MLFFWY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-3.png",
+            "title": "EVENTS",
+            "text": "<p>Meet your community at intimate supper clubs, screenings, and panel events.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6wHLCn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-1.png",
+            "title": "CONTENT",
+            "text": "<p>Weekly stories from leading writers—inspiration, clever tips, and expert insights.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_hYJYxy",
+        "column_aCifnQ",
+        "column_MLFFWY",
+        "column_6wHLCn"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "MEMBER BENEFITS",
+        "text_block": "Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards",
+        "columns_desktop": 3,
+        "button_label": "Choose a Tier",
+        "button_link": "#",
+        "color_scheme": ""
+      }
+    },
+    "stacked_hero_7GDFy6": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_NcnrUM": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Membership makes our unique model possible"
+          }
+        },
+        "text_MW7F3y": {
+          "type": "text",
+          "settings": {
+            "copy": "Your membership supports our business while we repurpose margin from what you spend in our planet fund."
+          }
+        },
+        "cta_button_fmcUPr": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Choose a Tier",
+            "link": "#",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NcnrUM",
+        "text_MW7F3y",
+        "cta_button_fmcUPr"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wide_image": "shopify://shop_images/1010.png",
+        "color_scheme": "scheme-2"
+      }
+    },
+    "multicolumn_simple_4pjjMQ": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_DWhkxF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hasna_kourda.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cQRDEm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hasna_kourda.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7KkYa9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hasna_kourda.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DWhkxF",
+        "column_cQRDEm",
+        "column_7KkYa9"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Our Founder Members",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "text_block": "We’ve already got a line-up of inspiring early members—designers, writers, and changemakers who are helping shape BRiMM from day one. Join them and kickstart a flywheel of change.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_simple_PPEayE": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_zcdYCR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/border-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        },
+        "column_JECEpc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/border-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zcdYCR",
+        "column_JECEpc"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Stories that spark change",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "text_block": "Weekly dispatches from people reimagining tomorrow.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Read the Journal",
+        "button_link": "shopify://blogs/journal",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_simple_nQn6Tp": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_dPJx6e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/event-1_59ca7ad0-614b-4760-ab36-18cf1b6ee7e8.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        },
+        "column_WwaVUh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/event-2.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dPJx6e",
+        "column_WwaVUh"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Moments to connect",
+        "no-gap": false,
+        "first_col": false,
+        "last_col": true,
+        "text_block": "Weekly dispatches from people reimagining tomorrow.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "View Events",
+        "button_link": "shopify://blogs/journal",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_XGLUDx": {
@@ -86,12 +390,13 @@
         "column_eq649N",
         "column_LyFYah"
       ],
+      "disabled": true,
       "settings": {
         "title": "ENHANCE YOUR PLANET POSITIVE LIFESTYLE",
         "no-gap": false,
+        "first_col": false,
         "text_block": "",
         "heading_size": "hxl",
-        "split_header": true,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -157,6 +462,7 @@
         "benefit_8eL4a7",
         "benefit_i3ETkR"
       ],
+      "disabled": true,
       "settings": {
         "heading": "CHOOSE YOUR MEMBERSHIP",
         "subheading": "<p>Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards</p>",
@@ -346,9 +652,9 @@
       "settings": {
         "title": "OUR TEAM",
         "no-gap": false,
+        "first_col": false,
         "text_block": "This isn't our first Rodeo. Each team member brings a unique perspective, experience and set of skills to BRiMM.",
         "heading_size": "h1",
-        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
@@ -363,6 +669,78 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_simple_MzLNDF": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_CLrixM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hasna_kourda.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_itmV99": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hasna_kourda.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pk7FHV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hasna_kourda.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_CLrixM",
+        "column_itmV99",
+        "column_pk7FHV"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "text_block": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_HmpeVH": {
       "type": "collapsible-content",
       "blocks": {
@@ -370,7 +748,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Why do you have a membership?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>We have this simple but big idea that we can divert profits from the things you buy to have a positive impact. But we're still a business and need to make money so the membership funds our business. What the membership really enables is for us to pool our power—funding clean energy, supporting innovative brands, and making planet-positive living easier (and more fun) for everyone. Plus, you get great rewards for doing good. Win-win?</p>",
             "page": ""
           }
@@ -379,7 +757,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Can non-members experience BRiMM?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Yes with a capital Y. Anyone can shop our curated collection. Read our inspiring articles and, if there's space, join our events. Members just get extra perks—like store credit, cashback, exclusive content, and 10% of their spend going to our Planet Fund. But we don't believe in gatekeeping, just more good stuff for everyone.</p>",
             "page": ""
           }
@@ -388,7 +766,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How does the Planet Fund work?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Every time you shop or pay your membership, 10% of BRiMM’s revenue goes straight into our Planet Fund. This fund invests in clean energy and regenerative projects for the brands you love—like putting solar panels on their roofs or supporting new materials. You even get a say in where the money goes. In year one though to put our money where our mouth is, we're investing £250k ahead of having any revenue to kickstart this activity. </p>",
             "page": ""
           }
@@ -397,7 +775,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What does it mean that nature has equity in the business?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>We're making mother nature a shareholder and a director in our business so that her voice is heard in important company decisions. Beyond this our intent is that mother nature will benefit if the company grows in value which means that profits can be distributed to invest in nature protection and restoration.</p><p>We're working with Lawyers for Nature and Bates Wells to help us do this.</p><p>It's still a relatively new concept and we plan to share what we learn on the way.</p>",
             "page": ""
           }
@@ -406,7 +784,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How do you choose which products to stock?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>We’re picky—in the best way. Every product is vetted for quality, style, and planet-positive impact. We have a thorough vetting process reviewing supply chain, materiality and packaging and more. While we don't claim that any product is the most sustainable in it's category, we believe the brands we pick have intent and are innovating someway to lower their impact.</p>",
             "page": ""
           }
@@ -415,7 +793,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How does membership work beyond founder membership?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>After our limited founder spaces have gone, we'll offer three tiers, so you can pick your planet-positive pace ranging from £6/month or £60/year to £18/month or £180/year.</p><p><br/>Each tier unlocks more perks, impact, and access.</p>",
             "page": ""
           }
@@ -424,7 +802,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What does planet-positive mean?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>We use these words a lot. When we say them we mean a combination of optimism and positive impact. </p>",
             "page": ""
           }
@@ -433,7 +811,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How does member credit work?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Member credit is intended to help encourage you to switch to planet positive products to kick-start your journey to a lower impact life. Together with cashback we've designed it so that if you return regularly to our shop you'll more than pay back your membership.</p><p>On annual memberships, once you've paid we will credit your account with a number of gift cards which you can spend on our discovery and reset boxes. </p><p>On monthly memberships we credit your account each quarter at the end of your membership period. </p>",
             "page": ""
           }
@@ -442,7 +820,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How does cashback work?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>We offer 10% cashback to our members on all purchases they make, unless credit has been applied to the transaction.</p><p>This cashback is paid quarterly into your account and can be used to bring down the cost of future transactions.</p><p></p>",
             "page": ""
           }
@@ -451,7 +829,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What are your reset boxes?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>We've curated a series of boxes to help you reset a part of your life. We've done this to help discovering planet positive brands easier to save you time and ease.</p><p>They're fixed selections today but if our members would value this we're looking to make them customisable in the near future. </p>",
             "page": ""
           }
@@ -460,7 +838,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Are you reset boxes a subscription?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>No, they're a one-off discovery box to help you discover some new brands. Because of the different selection of products we imagine they'll run out at different times so we didn't think it would make sense to make them a subscription.</p><p>We might create a subscription model in the future and would welcome any ideas you might have on this.</p>",
             "page": ""
           }
@@ -469,7 +847,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How do you work out the annual value of the membership?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Membership costs from £6 or £60/yr. We say they're worth more than that though and here's how we calculate that.</p><p><strong>How it works with our middle tier @ £120/yr</strong></p><p>Based on an assumed spend of £600, this membership offers value of £200 per year.</p><p>This is calculated as £60 of content, £80 of credit and £60 cashback (10% of £600)</p><p>On top of this you will contribute £72 to our planet fund which we hope you agree is great value.</p><p><strong>How it works with our top tier @ £180/yr</strong></p><p>Based on an assumed spend of £800, this membership offers value of £300 per year.</p><p>This is calculated as £60 of content, £120 of credit and £80 cashback (10% of £800)</p><p>On top of this you will contribute £98 to our planet fund which we hope you agree is phenomenal value.</p>",
             "page": ""
           }
@@ -552,7 +930,13 @@
   },
   "order": [
     "main",
-    "justified_hero_HkX8CR",
+    "stacked_hero_hdCfVJ",
+    "flush_columns_mVkqkM",
+    "stacked_hero_7GDFy6",
+    "multicolumn_simple_4pjjMQ",
+    "multicolumn_simple_MzLNDF",
+    "multicolumn_simple_PPEayE",
+    "multicolumn_simple_nQn6Tp",
     "multicolumn_XGLUDx",
     "membership_columns_XcwD66",
     "image_with_text_GG3a9F",
