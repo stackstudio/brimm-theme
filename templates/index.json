@@ -162,7 +162,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-1.png",
-            "title": "Quality",
+            "title": "Performance",
             "text": "",
             "link_label": "",
             "link": ""
@@ -172,7 +172,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-2.png",
-            "title": "Impact",
+            "title": "Desirability",
             "text": "",
             "link_label": "",
             "link": ""
@@ -182,7 +182,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-3.png",
-            "title": "Culture",
+            "title": "Integrity",
             "text": "",
             "link_label": "",
             "link": ""
@@ -192,7 +192,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-4.png",
-            "title": "Activism",
+            "title": "Stewardship",
             "text": "",
             "link_label": "",
             "link": ""
