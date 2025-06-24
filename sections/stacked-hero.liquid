@@ -12,18 +12,22 @@
             {% if block.type == 'heading' %}
                 <h1 >{{ block.settings.heading_text }}</h1>
             {% endif %}
-            <div>
-                {% if block.type == 'text' %}
-                    <p class="brimm-blocks--hero-para">{{ block.settings.copy }}</p>
-                {% endif %}
-                {% if block.settings.label and block.settings.link %}
-                    <a href="{{ block.settings.link }}"
-                        class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
-                        {{ block.settings.label }}
-                    </a>
-                {% endif %}
-            </div>
         {% endfor %}
+        <div>
+            {% for block in section.blocks %}
+                <div>
+                    {% if block.type == 'text' %}
+                        <p class="brimm-blocks--hero-para">{{ block.settings.copy }}</p>
+                    {% endif %}
+                    {% if block.settings.label and block.settings.link %}
+                        <a href="{{ block.settings.link }}"
+                            class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
+                            {{ block.settings.label }}
+                        </a>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
     </div>
     {% if section.settings.narrow_image %}
         <div class="brimm-blocks--narrow-image">

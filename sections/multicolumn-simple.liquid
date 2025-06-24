@@ -10,14 +10,16 @@
                 <h2 class='title inline-richtext {{ section.settings.heading_size }}{% if section.settings.split_header %} brimm-blocks--split-text brimm-blocks--justified-header{% endif %}'>
                     {{ section.settings.title }}
                 </h2>
-                {%- if section.settings.text_block != blank -%}
-                    <div class='rte body-extra-20 text_block'>{{ section.settings.text_block }}</div>
-                {%- endif -%}
-                {%- if section.settings.button_label != blank and show_mobile_slider -%}
-                    <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
-                    {{- section.settings.button_label | escape -}}
-                    </a>
-                {%- endif -%}
+                <div>
+                    {%- if section.settings.text_block != blank -%}
+                        <div class='rte body-extra-20 text_block'>{{ section.settings.text_block }}</div>
+                    {%- endif -%}
+                    {%- if section.settings.button_label != blank and show_mobile_slider -%}
+                        <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
+                        {{- section.settings.button_label | escape -}}
+                        </a>
+                    {%- endif -%}
+                </div>
             </div>
         {%- endif -%}
       {%- endunless -%}
@@ -27,7 +29,7 @@
                 <h2>
                     {{ section.settings.title }}
                 </h2>
-                <div>
+                <div class="bottom">
                     {%- if section.settings.text_block != blank -%}
                         <p>{{ section.settings.text_block }}</p>
                     {%- endif -%}
