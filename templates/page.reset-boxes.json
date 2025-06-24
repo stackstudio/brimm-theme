@@ -22,10 +22,42 @@
       "block_order": [
         "heading_DRd4EB"
       ],
+      "disabled": true,
       "name": "Justified Hero",
       "settings": {
         "image": "shopify://shop_images/CleaningBox.jpg",
         "color_scheme": "scheme-6"
+      }
+    },
+    "stacked_hero_k9zdC6": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_k6PdfM": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "RESET YOUR LIFE WITH OUR DISCOVERY BOXES"
+          }
+        },
+        "text_paKbLc": {
+          "type": "text",
+          "settings": {
+            "copy": "Want to kick start your Planet Positive Journey? Reset your food, cleaning or bathroom rituals to be planet-positive - in one box."
+          }
+        }
+      },
+      "block_order": [
+        "heading_k6PdfM",
+        "text_paKbLc"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": true,
+        "full_screen": true,
+        "invert": false,
+        "narrow_image": "shopify://shop_images/Brimm25_march27_-_Boxes1283_copy.jpg",
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/PlasticFreeBox2.jpg",
+        "color_scheme": ""
       }
     },
     "wrapped_mega_image_ebtEiP": {
@@ -48,6 +80,7 @@
         "heading_BGe3mY",
         "top_paragraph_zFyPbT"
       ],
+      "disabled": true,
       "name": "Mega",
       "settings": {
         "video_embed": "",
@@ -67,13 +100,13 @@
         "description_style": "body",
         "collection": "reset-boxes",
         "products_to_show": 14,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": true,
@@ -298,6 +331,7 @@
   },
   "order": [
     "justified_hero_qEnNDW",
+    "stacked_hero_k9zdC6",
     "wrapped_mega_image_ebtEiP",
     "featured_collection_7z4pTV",
     "image_with_text_rcKjFt",
