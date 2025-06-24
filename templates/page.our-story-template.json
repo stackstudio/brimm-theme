@@ -138,6 +138,66 @@
         "disable_top_padding": false
       }
     },
+    "flush_columns_HGr9JL": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_jhbU9H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-1.png",
+            "title": "Quality",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VD9r9M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-2.png",
+            "title": "Impact",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DXnerM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-3.png",
+            "title": "Culture",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GK9edz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-4.png",
+            "title": "Activism",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jhbU9H",
+        "column_VD9r9M",
+        "column_DXnerM",
+        "column_GK9edz"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "<strong>WHY WE EXIST</strong>",
+        "text_block": "We were tired of being told that living sustainably meant a life stripped of colour, comfort and fun. We wanted to do something about the climate crisis, but we also wanted to enjoy the ride.",
+        "columns_desktop": 4,
+        "button_label": "Join the Ride",
+        "button_link": "shopify://pages/founder-members",
+        "color_scheme": ""
+      }
+    },
     "image_with_text_kV37Vn": {
       "type": "image-with-text",
       "blocks": {
@@ -160,6 +220,7 @@
         "heading_QpRFyL",
         "text_k4Jj7X"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/KZVS10114.jpg",
         "video_embed": "",
@@ -637,6 +698,7 @@
     "stacked_hero_GAQbCF",
     "justified_hero_qQAFRn",
     "wrapped_mega_image_aEQRcq",
+    "flush_columns_HGr9JL",
     "image_with_text_kV37Vn",
     "multicolumn_8pNr8C",
     "multirow_cWpBrT",
