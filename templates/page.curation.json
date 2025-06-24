@@ -42,6 +42,7 @@
         "two_image": true,
         "full_screen": true,
         "invert": false,
+        "wider": false,
         "narrow_image": "shopify://shop_images/narrow-eg.png",
         "video_embed": "",
         "wide_image": "shopify://shop_images/wide-eg.png",
@@ -133,6 +134,7 @@
         "two_image": false,
         "full_screen": false,
         "invert": false,
+        "wider": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/Group_92.png",
         "color_scheme": "scheme-2"
@@ -230,6 +232,7 @@
         "two_image": false,
         "full_screen": false,
         "invert": false,
+        "wider": true,
         "video_embed": "",
         "wide_image": "shopify://shop_images/20250514_BRIMM_652_1.png",
         "color_scheme": "scheme-2"
