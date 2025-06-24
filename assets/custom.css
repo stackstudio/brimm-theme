@@ -260,6 +260,39 @@ header.header {
   }
 }
 
+/* COOKIE BANNER */
+section.shopify-pc__banner__dialog {
+    background: #6E1C20;
+    h2, p, a {
+        font-family: 'Manrope';
+        color: #E3B2FF;
+    }
+    p {
+        font-weight: 500;
+    }
+}
+
+section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-manage-prefs {
+    color: #E3B2FF;
+    font-family: 'Manrope';
+}
+
+section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-accept {
+    background: #E3B2FF;
+    color: #6E1C20;
+    border: none;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+
+section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
+    background: transparent;
+    color: #E3B2FF;
+    border: 1px solid;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+
 .brimm-blocks--vendor-header {
     /* color: black; */
     text-transform: uppercase;
