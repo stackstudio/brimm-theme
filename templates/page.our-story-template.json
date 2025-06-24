@@ -17,6 +17,36 @@
         "padding_bottom": 28
       }
     },
+    "stacked_hero_6tHzXB": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_wpnNni": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Live Bright Tread Light. WELCOME TO THE ENOUGH STORE."
+          }
+        },
+        "text_8w7gnD": {
+          "type": "text",
+          "settings": {
+            "copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
+          }
+        }
+      },
+      "block_order": [
+        "heading_wpnNni",
+        "text_8w7gnD"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": true,
+        "full_screen": true,
+        "invert": false,
+        "narrow_image": "shopify://shop_images/DSC06252.jpg",
+        "wide_image": "shopify://shop_images/BRiMM_Team_Press_shoot.png",
+        "color_scheme": ""
+      }
+    },
     "justified_hero_qQAFRn": {
       "type": "justified-hero",
       "blocks": {
@@ -30,8 +60,8 @@
       "block_order": [
         "heading_V63QpY"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/20250514_BRIMM_445_1.png",
         "color_scheme": "scheme-6"
       }
     },
@@ -266,9 +296,9 @@
       "settings": {
         "title": "WHO'S BEHIND BRiMM?",
         "no-gap": true,
+        "first_col": false,
         "text_block": "We’re a collective of climate optimists who believe in the power of enough. Supported by an inspiring network of founder members, impactful brands and world-class investors, BRiMM is built by us, powered by you and sustained by all of us.",
         "heading_size": "h2",
-        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
@@ -573,6 +603,7 @@
   },
   "order": [
     "main",
+    "stacked_hero_6tHzXB",
     "justified_hero_qQAFRn",
     "wrapped_mega_image_aEQRcq",
     "image_with_text_kV37Vn",
