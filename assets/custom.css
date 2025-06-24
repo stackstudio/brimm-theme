@@ -117,6 +117,19 @@ header.header {
     margin-top: 0;
 }
 
+.brimm-blocks--full-width-vid > div {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+.brimm-blocks--full-width-vid iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
 /* NEW MULTICOL */
 .brimm-blocks--simple-multicolumn {
     padding: var(--space-3xl) var(--space-xl);
