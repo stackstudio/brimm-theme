@@ -93,9 +93,9 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "",
+        "title": "RESET YOUR LIFE WITH OUR DISCOVERY BOXES",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Want to kick start your Planet Positive Journey? Reset your food, cleaning or bathroom rituals to be planet-positive - in one box.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "reset-boxes",
