@@ -243,183 +243,187 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_8pNr8C": {
-      "type": "multicolumn",
+    "multicolumn_simple_nDGEEE": {
+      "type": "multicolumn-simple",
       "blocks": {
-        "column_nGgJcL": {
+        "column_W7MKp3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1c951587b72ecbc730903499b6f7b697.jpg",
+            "image": "shopify://shop_images/team-1.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "James Haycock",
-            "text": "<p>Visionary founder and angel investor. A decade at the forefront of London design, James brings bright minds together and builds teams and culture that inspire.</p>",
-            "image_label": "Founder & CEO",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_9wgh4D": {
+        "column_4jNtdY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/835cd15dc1c8c0eba996a2888cd47c5a.jpg",
+            "image": "shopify://shop_images/team-2.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Christabel Biella",
-            "text": "<p>Ecommerce veteran with 20+ years in startups and scale-ups. Working previously at House of Fraser, Farmdrop and Swoon, she keeps commercial, finance and operations tightly aligned - the glue of BRiMM.</p>",
-            "image_label": "Commercial and Operations",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_aB9M6E": {
+        "column_JDJPFq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/8507aca4b80fe21d90977ecff5c1fd5a.jpg",
+            "image": "shopify://shop_images/team-3.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Dan Kolodziej",
-            "text": "<p>Digital pioneer for L’Oreal, Penhaligons, and Puig. Dan rolls up his sleeves across retail and ecommerce, building startups from scratch for CPG brands - versatile and hands-on.</p>",
-            "image_label": "Product & Experience",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FaEmpF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/32bec42d1fa8e0c4893840db4e14ff67.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Becky Lucas",
-            "text": "<p>A former editor at <em>Time Out</em>, <em>Condé Nast</em> <em>Traveller</em> and <em>GQ</em>, she leads our content, editorial, and newsletter - sign up for some seriously good reads.</p>",
-            "image_label": "Content & Editorial",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FaJEyV": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/e2c61e0f66266d1faa78767eb70d2612.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Sam Zimmerman",
-            "text": "<p>Ex-beauty editor working previously at <em>Grazia</em>, <em>Tatler</em> and <em>Stylist</em>. Sam carefully curates our beauty picks and directs many of our photoshoots and videos.</p>",
-            "image_label": "Head of Beauty",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4gnWxR": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/69f001530b402b201d11a9280573db5d.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Tom Berry",
-            "text": "<p>Sustainability strategist with 20+ years at Innocent Drinks and FARFETCH. Tom steers circular fashion innovation at the British Fashion Council. </p>",
-            "image_label": "Sustainability Advisor",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_h8Gm7G": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/1f069cb946f207a5188ff079eba6f041.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Tiffanie Darke",
-            "text": "<p>Fashion journalist and sustainable style advocate known for the rule of 5. Former fashion editor at <em>The Telegraph</em>, <em>The Times</em>, and Harrods. She once complimented Dan’s coat - a moment he still cherishes. </p>",
-            "image_label": "Editorial and Fashion Advisor",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NLRQD7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-05-15_at_7.41.39_PM.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Ahmet Ugur Yilmaz",
-            "text": "<p>Marketing maestro with 12+ years at Meta, shaping ad campaigns and e-comm launches globally. Innovator in generative AI, featured in Vogue Business and Entrepreneur. </p>",
-            "image_label": "Editorial and Fashion Advisor",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_xDjCk3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/matt_h.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Matt Hardisty",
-            "text": "<p>Brand strategist and marine restoration advocate, with 28 years shaping sustainability and social impact for Virgin Atlantic, Heineken and Eurostar. He’s the architect of BRiMM’s regenerative mission and how we show up in the world.</p>",
-            "image_label": "Brand Strategy",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_nGgJcL",
-        "column_9wgh4D",
-        "column_aB9M6E",
-        "column_FaEmpF",
-        "column_FaJEyV",
-        "column_4gnWxR",
-        "column_h8Gm7G",
-        "column_NLRQD7",
-        "column_xDjCk3"
+        "column_W7MKp3",
+        "column_4jNtdY",
+        "column_JDJPFq"
       ],
+      "name": "Simple Multicolumn",
       "settings": {
         "title": "WHO'S BEHIND BRiMM?",
-        "no-gap": true,
-        "first_col": false,
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
         "text_block": "We’re a collective of climate optimists who believe in the power of enough. Supported by an inspiring network of founder members, impactful brands and world-class investors, BRiMM is built by us, powered by you and sustained by all of us.",
-        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "multirow_cWpBrT": {
-      "type": "multirow",
+    "multicolumn_simple_FQJqhe": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_9nBN7k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/team-1.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KDTLVm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/team-2.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hxq7pn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/team-3.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9nBN7k",
+        "column_KDTLVm",
+        "column_hxq7pn"
+      ],
+      "name": "Simple Multicolumn",
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
+        "title": "",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "text_block": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "stacked_hero_VbbaBH": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_ReJxBH": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Shopping brimm as a member pays for itself"
+          }
+        },
+        "text_RwFxem": {
+          "type": "text",
+          "settings": {
+            "copy": "Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards"
+          }
+        },
+        "cta_button_M3HTyb": {
+          "type": "cta_button",
+          "settings": {
+            "label": "View Membership",
+            "link": "shopify://pages/founder-members",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ReJxBH",
+        "text_RwFxem",
+        "cta_button_M3HTyb"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/1010.png",
+        "color_scheme": "scheme-3"
       }
     },
     "image_with_text_4HfRc9": {
@@ -654,42 +658,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "inset_hero_yEK8EF": {
-      "type": "inset-hero",
-      "blocks": {
-        "heading_UiB8ar": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "BECOME A BRiMM FOUNDER MEMBER"
-          }
-        },
-        "richtext_fFAaAV": {
-          "type": "richtext",
-          "settings": {
-            "copy": "<p>As a founder member you’re part of a collective that’s making a new way of living real - where every choice you make powers change and every member helps rewrite the rules.</p>"
-          }
-        },
-        "cta_button_eMxNiy": {
-          "type": "cta_button",
-          "settings": {
-            "label": "View Membership",
-            "link": "shopify://pages/founder-members",
-            "style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_UiB8ar",
-        "richtext_fFAaAV",
-        "cta_button_eMxNiy"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Copy_of_5185423_MED.jpg",
-        "split_header": true,
-        "is_product": false,
-        "color_scheme": "scheme-2"
-      }
     }
   },
   "order": [
@@ -700,13 +668,13 @@
     "wrapped_mega_image_aEQRcq",
     "flush_columns_HGr9JL",
     "image_with_text_kV37Vn",
-    "multicolumn_8pNr8C",
-    "multirow_cWpBrT",
+    "multicolumn_simple_nDGEEE",
+    "multicolumn_simple_FQJqhe",
+    "stacked_hero_VbbaBH",
     "image_with_text_4HfRc9",
     "image_with_text_BybLYy",
     "image_with_text_wqdhPw",
     "image_with_text_MB8gr3",
-    "image_with_text_Kftnmg",
-    "inset_hero_yEK8EF"
+    "image_with_text_Kftnmg"
   ]
 }
