@@ -459,42 +459,6 @@
         "disable_top_padding": false
       }
     },
-    "image_banner_ye89gH": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_KyCbfM": {
-          "type": "heading",
-          "settings": {
-            "heading": "CITIZENS OF SOIL",
-            "heading_size": "headline-extra"
-          }
-        },
-        "text_giUUHq": {
-          "type": "text",
-          "settings": {
-            "text": "With over 1,400 five-star reviews, their award-winning extra-virgin olive oils are a true taste sensation. As a certified B-Corp, they go above and beyond with initiatives that matter. They champion female farmers and collaborate with those who actively promote biodiversity through diverse planting, allowing animals to graze between the groves and practicing low or no tillage. This is what people refer to as ‘regenerative farming.’ It’s no wonder we proudly stock their products!",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_KyCbfM",
-        "text_giUUHq"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/COS_May_Toned_Down_1_EDITED_1.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "stacked_hero_BNfitJ": {
       "type": "stacked-hero",
       "blocks": {
@@ -526,6 +490,68 @@
         "color_scheme": "scheme-1"
       }
     },
+    "stacked_hero_96xN8c": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_RbnQYW": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "UPCIRCLE"
+          }
+        },
+        "text_UdjK4z": {
+          "type": "text",
+          "settings": {
+            "copy": "UpCircle transforms natural by-products - such as used coffee grounds and fruit stones - into highly effective skincare. They utilize recyclable and refillable packaging, are certified plastic-negative, and hold ethical certifications (B Corp, vegan, cruelty-free, and organic). UpCircle is transparent about its ingredients and actively supports community and environmental initiatives. While independent accreditation for all this innovation may not always be feasible, their commitment is undeniably inspiring and truly planet-positive."
+          }
+        }
+      },
+      "block_order": [
+        "heading_RbnQYW",
+        "text_UdjK4z"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wider": true,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "color_scheme": "scheme-1"
+      }
+    },
+    "stacked_hero_4q7bxk": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_BBpGrL": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "KINFILL"
+          }
+        },
+        "text_3daPhx": {
+          "type": "text",
+          "settings": {
+            "copy": "Kinfill offers concentrated, non-toxic home cleaning products in reusable, elevated aluminum bottles - eliminating single-use plastics. Their plant-based, cruelty-free formulas are free from harsh chemicals, and all packaging is recyclable. With local production to minimize transport impact, Kinfill is also B Corp certified. While no standard currently exists for this level of design and sustainability detail, their commitment is genuine and not greenwashed."
+          }
+        }
+      },
+      "block_order": [
+        "heading_BBpGrL",
+        "text_3daPhx"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": true,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "color_scheme": "scheme-1"
+      }
+    },
     "rich_text_T3hM7z": {
       "type": "rich-text",
       "name": "t:sections.rich-text.presets.name",
@@ -536,43 +562,6 @@
         "full_width": true,
         "padding_top": 12,
         "padding_bottom": 12
-      }
-    },
-    "image_banner_nGyVQM": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_DkaMhF": {
-          "type": "heading",
-          "settings": {
-            "heading": "UPCIRCLE",
-            "heading_size": "headline-extra"
-          }
-        },
-        "text_jPnbpG": {
-          "type": "text",
-          "settings": {
-            "text": "UpCircle transforms natural by-products - such as used coffee grounds and fruit stones - into highly effective skincare. They utilize recyclable and refillable packaging, are certified plastic-negative, and hold ethical certifications (B Corp, vegan, cruelty-free, and organic). UpCircle is transparent about its ingredients and actively supports community and environmental initiatives. While independent accreditation for all this innovation may not always be feasible, their commitment is undeniably inspiring and truly planet-positive.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DkaMhF",
-        "text_jPnbpG"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/UpCircle-is-the-Skincare-Brand-Pioneering-By-product-beauty.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "rich_text_xFmdpQ": {
@@ -703,10 +692,10 @@
     "stacked_hero_iyBFLz",
     "flush_columns_XHYRMh",
     "wrapped_mega_image_XFkj89",
-    "image_banner_ye89gH",
     "stacked_hero_BNfitJ",
+    "stacked_hero_96xN8c",
+    "stacked_hero_4q7bxk",
     "rich_text_T3hM7z",
-    "image_banner_nGyVQM",
     "rich_text_xFmdpQ",
     "image_banner_z89KfE",
     "inset_hero_GKhiqC",
