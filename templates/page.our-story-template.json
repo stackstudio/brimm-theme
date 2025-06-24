@@ -39,10 +39,9 @@
       ],
       "name": "Stacked Hero",
       "settings": {
-        "two_image": true,
+        "two_image": false,
         "full_screen": true,
         "invert": false,
-        "narrow_image": "shopify://shop_images/DSC06252.jpg",
         "wide_image": "shopify://shop_images/BRiMM_Team_Press_shoot.png",
         "color_scheme": ""
       }
