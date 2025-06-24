@@ -53,7 +53,7 @@
         "column_BU7TXd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Newsletter_Blue.png",
+            "image": "shopify://shop_images/event-1_59ca7ad0-614b-4760-ab36-18cf1b6ee7e8.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -67,7 +67,7 @@
         "column_HQxecY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Newsletter_Yellow.png",
+            "image": "shopify://shop_images/event-2.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -97,7 +97,7 @@
         "background_style": "none",
         "button_label": "View Membership",
         "button_link": "shopify://pages/founder-members",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -320,6 +320,63 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_simple_eTaTHY": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_FTVgqV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/border-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        },
+        "column_PpAD8K": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/border-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FTVgqV",
+        "column_PpAD8K"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Stories that spark change",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "text_block": "Weekly dispatches from people reimagining tomorrow.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Read the Journal",
+        "button_link": "shopify://blogs/journal",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -790,6 +847,7 @@
     "stacked_hero_Rp3YYK",
     "multicolumn_simple_eyxzAQ",
     "multicolumn_simple_MAK4aD",
+    "multicolumn_simple_eTaTHY",
     "justified_hero_Mrd9QU",
     "wrapped_mega_image_cLgHKc",
     "multicolumn_cbgHTz",
