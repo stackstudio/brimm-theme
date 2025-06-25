@@ -147,8 +147,18 @@ if (!customElements.get('product-form')) {
                 id: membership.variantId,
                 quantity: 1,
                 selling_plan: membership.sellingPlanId,
+                sections: cartSectiondata,
+                sections_url: window.location.pathname,
               }),
-            }).then((response) => response.json());
+            }).then((response) => {
+              publish(PUB_SUB_EVENTS.cartUpdate, {
+                source: 'product-form',
+                productVariantId: membership.variantId,
+                sellingPlanId: membership.sellingPlanId,
+                cartData: response,
+              });
+              this.cart.renderContents(response);
+            });
           } catch (error) {
             console.error('Error adding membership to cart:', error);
           }
