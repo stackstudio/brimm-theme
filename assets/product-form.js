@@ -135,7 +135,7 @@ if (!customElements.get('product-form')) {
           );
 
           try {
-            await fetch(`${routes.cart_update_url}`, {
+            await fetch(`${routes.cart_add_url}`, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
