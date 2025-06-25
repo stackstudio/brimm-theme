@@ -23,13 +23,13 @@
         "heading_UUGJWd": {
           "type": "heading",
           "settings": {
-            "heading_text": "Live Bright Tread Light. WELCOME TO THE ENOUGH STORE."
+            "heading_text": "OUR PRODUCT SELECTION"
           }
         },
         "text_dDrnpd": {
           "type": "text",
           "settings": {
-            "copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
+            "copy": "We partner with brands that create beautiful, lower-impact products."
           }
         }
       },
@@ -44,9 +44,9 @@
         "invert": false,
         "wider": false,
         "padded": false,
-        "narrow_image": "shopify://shop_images/narrow-eg.png",
+        "narrow_image": "shopify://shop_images/Rollr_12_24_152_1_1.jpg",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/wide-eg.png",
+        "wide_image": "shopify://shop_images/Plastic_Free_Box2_close_up.jpg",
         "color_scheme": ""
       }
     },
@@ -140,6 +140,55 @@
         "video_embed": "",
         "wide_image": "shopify://shop_images/Group_92.png",
         "color_scheme": "scheme-2"
+      }
+    },
+    "flush_columns_rWMFzU": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_8EMQxz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Christabel_BRIMM_359.jpg",
+            "title": "CHRISTABEL BIELLA",
+            "text": "<p>Heading up Home & Food with over 20 years in retail product selection, previously a Buyer at House of Fraser, Farmdrop</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8QcP9k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tiff_BRIMM_075.jpg",
+            "title": "TIFF DARKE",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wn87Dq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sam_BRIMM_762.jpg",
+            "title": "SAM FREEDMAN",
+            "text": "<p>Ex-Beauty editor at Grazia...</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8EMQxz",
+        "column_8QcP9k",
+        "column_wn87Dq"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "CURATED BY INDUSTRY EXPERTS",
+        "text_block": "At BRiMM, every product is thoughtfully curated by industry experts (hello, Sam & Christabel) to ensure they not only perform beautifully but also smell and taste fantastic.",
+        "columns_desktop": 4,
+        "button_label": "REMOVE BUTTON",
+        "button_link": "",
+        "color_scheme": ""
       }
     },
     "logo_scroller_ANciWD": {
@@ -589,6 +638,7 @@
     "stacked_hero_Xiwchw",
     "flush_columns_4zpTXq",
     "stacked_hero_kniMg7",
+    "flush_columns_rWMFzU",
     "logo_scroller_ANciWD",
     "stacked_hero_kxMRgY",
     "image_with_text_N4ciKF",
