@@ -27,7 +27,7 @@
         "cta_button_BbiwnF": {
           "type": "cta_button",
           "settings": {
-            "label": "Shop Reset Boxes",
+            "label": "Shop our Store",
             "link": "shopify://pages/reset-boxes",
             "style": "primary"
           }
@@ -47,7 +47,7 @@
         "padded": false,
         "narrow_image": "shopify://shop_images/narrow-eg.png",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/wide-eg.png",
+        "wide_image": "shopify://shop_images/Brimm_10962_SHOT_2_copy_4_4x5_05e3474a-a773-4a83-9a61-1a22b710042a.jpg",
         "color_scheme": ""
       }
     },
