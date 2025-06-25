@@ -171,8 +171,8 @@
           "settings": {
             "title": "Member",
             "content": "<ul><li>Access to member only content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Earn 10% cashback with each purchase*</li><li>Pay member prices on reset boxes (20% off)</li></ul>",
-            "yearly_price": "120",
-            "monthly_price": "12",
+            "yearly_price": "£120",
+            "monthly_price": "£12",
             "button_label": "Add to cart",
             "button_url": ""
           }
@@ -180,11 +180,11 @@
         "column_kjjDmH": {
           "type": "column",
           "settings": {
-            "title": "",
-            "content": "",
-            "yearly_price": "",
-            "monthly_price": "",
-            "button_label": "Learn more",
+            "title": "Supporter",
+            "content": "<ul><li>Access to member-only content</li><li>Early access to events</li></ul>",
+            "yearly_price": "£60",
+            "monthly_price": "£6",
+            "button_label": "Add to cart",
             "button_url": ""
           }
         }
