@@ -239,12 +239,6 @@
             "image": "shopify://shop_images/Northern_Pasta_logo.png"
           }
         },
-        "column_KkafWN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/haeckles.jpg"
-          }
-        },
         "column_4mc9Wk": {
           "type": "column",
           "settings": {
@@ -291,7 +285,6 @@
       "block_order": [
         "column_LpDinq",
         "column_6zKchP",
-        "column_KkafWN",
         "column_4mc9Wk",
         "column_z4eT9U",
         "column_NJR6Xz",
