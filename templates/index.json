@@ -227,6 +227,12 @@
     "logo_scroller_DU3FL7": {
       "type": "logo-scroller",
       "blocks": {
+        "column_LpDinq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bold_bean_logo.png"
+          }
+        },
         "column_6zKchP": {
           "type": "column",
           "settings": {
@@ -277,6 +283,7 @@
         }
       },
       "block_order": [
+        "column_LpDinq",
         "column_6zKchP",
         "column_KkafWN",
         "column_4mc9Wk",
