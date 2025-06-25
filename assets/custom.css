@@ -40,8 +40,19 @@
   --logo-gap: 4vw;
 }
 
-header.header {
+/* header.header {
     display: none;
+} */
+
+.header {
+    width: 100%;
+    background: #E3B2FF;
+    color: #6E1C20;
+}
+
+.header-wrapper {
+    bottom: 0;
+    top: auto;
 }
 
 /* NEW STACKED HEROS */

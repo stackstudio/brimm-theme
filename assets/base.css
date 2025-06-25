@@ -2738,7 +2738,7 @@ input[type='checkbox'] {
 }
 
 .header__icon {
-  color: rgb(var(--color-foreground));
+  color: #6E1C20;
 }
 
 .header__icon span {
@@ -3003,7 +3003,7 @@ details[open] > .header__submenu {
 
   .header--middle-left .header__inline-menu {
     margin-left: 0;
-    width: 410px;
+    width: auto;
   }
 }
 
@@ -3014,7 +3014,6 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1rem;
   text-decoration: none;
-  color: #E6E6D3;
   font-weight: 500;
 }
 
