@@ -204,6 +204,10 @@ header.header {
     object-fit: cover;
 }
 
+.brimm-blocks--simple-multicolumn-grid.bordered img {
+    border: 5px solid;
+}
+
 .brimm-blocks--callout-column .button {
     width: 100%;t pu
 }

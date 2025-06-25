@@ -1,6 +1,6 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 
-<div class='brimm-blocks--simple-multicolumn color-{{ section.settings.color_scheme }} {% if section.settings.title == blank %} no-heading{% endif %}'>
+<div class='brimm-blocks--simple-multicolumn color-{{ section.settings.color_scheme }} {% if section.settings.bordered %} bordered{% endif %} {% if section.settings.title == blank %} no-heading{% endif %}'>
   <div
     class='section-{{ section.id }}-padding isolate'
     <div class='multicolumn__grid-wrapper'>
@@ -147,6 +147,12 @@
         "id": "last_col",
         "default": false,
         "label": "Last column intro?"
+      },
+      {
+        "type": "checkbox",
+        "id": "bordered",
+        "default": false,
+        "label": "Image borders"
       },
       {
         "type": "inline_richtext",
