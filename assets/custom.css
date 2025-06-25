@@ -208,6 +208,14 @@ header.header {
     border: 5px solid;
 }
 
+.image-ratio--portrait img {
+    aspect-ratio: 9/16;
+}
+
+.image-ratio--square img {
+    aspect-ratio: 1/1;
+}
+
 .brimm-blocks--callout-column .button {
     width: 100%;t pu
 }
