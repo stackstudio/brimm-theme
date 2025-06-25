@@ -47,7 +47,6 @@
         "padded": false,
         "narrow_image": "shopify://shop_images/narrow-eg.png",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Brimm_10962_SHOT_2_copy_4_4x5_05e3474a-a773-4a83-9a61-1a22b710042a.jpg",
         "color_scheme": ""
       }
     },
@@ -149,9 +148,10 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "bordered": false,
         "text_block": "From minimalist bathrooms to regenerative pantries—planet-positive living starts with our Reset Boxes.",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
@@ -174,6 +174,7 @@
             "title": "Performance",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -184,6 +185,7 @@
             "title": "Desirability",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -194,6 +196,7 @@
             "title": "Integrity",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -204,6 +207,7 @@
             "title": "Stewardship",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         }
@@ -340,6 +344,7 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "bordered": false,
         "text_block": "Weekly dispatches from people reimagining tomorrow.",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -397,6 +402,7 @@
         "no-gap": false,
         "first_col": false,
         "last_col": true,
+        "bordered": false,
         "text_block": "Experience a planet-positive life first hand. Meet the founders, innovators and changemakers imagining tomorrow",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -550,7 +556,6 @@
         "logo_h8HULL": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/Frame_95_831c1d3a-5c34-4ccf-b695-c42ddd6655a2.png",
             "alt_text": "Partner Logo",
             "logo_width": 150
           }
@@ -558,7 +563,6 @@
         "logo_9UPhxV": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/Frame_98_563de907-800a-43f7-8a20-7b6ba8aa2b69.png",
             "alt_text": "Partner Logo",
             "logo_width": 150
           }
@@ -566,7 +570,6 @@
         "logo_bHWgDG": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/Frame_99_dc84d58b-43b4-444a-a17a-6cf1f8c6db50.png",
             "alt_text": "Partner Logo",
             "logo_width": 150
           }
@@ -574,7 +577,6 @@
         "logo_xXyEq7": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/KLEE_Instagram_Post_Square_1680x_9f421509-72d0-4d08-85e5-fcec190558f7.webp",
             "alt_text": "Partner Logo",
             "logo_width": 130
           }
@@ -582,7 +584,6 @@
         "logo_YPwt78": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/image_79.png",
             "alt_text": "Partner Logo",
             "logo_width": 150
           }
@@ -590,7 +591,6 @@
         "logo_xEwxGT": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/Frame_97.png",
             "alt_text": "Partner Logo",
             "logo_width": 150
           }
