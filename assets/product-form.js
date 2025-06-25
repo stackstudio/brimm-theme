@@ -63,32 +63,6 @@ if (!customElements.get('product-form')) {
         }
         config.body = formData;
 
-        if (selectedOption === 'explorer' || selectedOption === 'supporter') {
-          const membership = this.membershipPlans[selectedOption];
-          console.log(
-            `Adding ${selectedOption} membership to cart`,
-            membership,
-          );
-
-          try {
-            await fetch(`${routes.cart_update_url}`, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-                Accept: 'application/json',
-              },
-              body: JSON.stringify({
-                form_type: 'product',
-                id: membership.variantId,
-                quantity: 1,
-                selling_plan: membership.sellingPlanId,
-              }),
-            }).then((response) => response.json());
-          } catch (error) {
-            console.error('Error adding membership to cart:', error);
-          }
-        }
-
         try {
           await fetch(`${routes.cart_add_url}`, config)
             .then((response) => response.json())
@@ -151,6 +125,32 @@ if (!customElements.get('product-form')) {
             });
         } catch (error) {
           console.error('Error adding main product to cart:', error);
+        }
+
+        if (selectedOption === 'explorer' || selectedOption === 'supporter') {
+          const membership = this.membershipPlans[selectedOption];
+          console.log(
+            `Adding ${selectedOption} membership to cart`,
+            membership,
+          );
+
+          try {
+            await fetch(`${routes.cart_update_url}`, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                Accept: 'application/json',
+              },
+              body: JSON.stringify({
+                form_type: 'product',
+                id: membership.variantId,
+                quantity: 1,
+                selling_plan: membership.sellingPlanId,
+              }),
+            }).then((response) => response.json());
+          } catch (error) {
+            console.error('Error adding membership to cart:', error);
+          }
         }
       }
 
