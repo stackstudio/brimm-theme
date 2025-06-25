@@ -95,9 +95,9 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "RESET YOUR LIFE WITH OUR DISCOVERY BOXES",
+        "title": "DISCOVER OUR CURATED RESET BOXES",
         "heading_size": "h1",
-        "description": "<p>Want to kick start your Planet Positive Journey? Reset your food, cleaning or bathroom rituals to be planet-positive - in one box.</p>",
+        "description": "<p>Each box has been carefully curated and packed with regeneratively farmed ingredients, plant-based, sometimes made from by-products, whilst removing nasty preservatives and bad stuff to give you a truly remarkable lifestyle reset with these beautiful products</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "reset-boxes",
