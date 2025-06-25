@@ -63,7 +63,7 @@
         "text_aiwhMp": {
           "type": "text",
           "settings": {
-            "copy": "Our membership has been designed to make planet-positive living easier. Discover content, shop and event benefits."
+            "copy": "Our membership has been designed to make planet-positive living easier. With every purchase, earn 10% back and give 10% to our Planet Fund"
           }
         },
         "cta_button_TdzEQD": {
@@ -98,14 +98,14 @@
         "column_eYLqFz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/pantry-eg.png",
+            "image": "shopify://shop_images/Food_packshot_red_16-9.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "PANTRY",
-            "text": "<p>Reset your kitchen with a regenerative pantry reset box.</p>",
+            "text": "<p>Reset your pantry with our regenerative food reset box.</p>",
             "image_label": "",
-            "link_label": "Find out more",
+            "link_label": "Shop Pantry",
             "link": ""
           }
         },
@@ -116,10 +116,10 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "BATHROOM",
-            "text": "<p>Reset your kitchen with a regenerative pantry reset box.</p>",
+            "title": "BEAUTY",
+            "text": "<p>Reset your daily routine with our bathroom  boxes.</p>",
             "image_label": "",
-            "link_label": "Find out more",
+            "link_label": "Shop Beauty",
             "link": ""
           }
         },
@@ -131,9 +131,9 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "CLEANING",
-            "text": "<p>Reset your kitchen with a regenerative pantry reset box.</p>",
+            "text": "<p>Reset your kitchen with these cleaning essentials.</p>",
             "image_label": "",
-            "link_label": "Find out more",
+            "link_label": "Shop Cleaning",
             "link": ""
           }
         }
@@ -149,14 +149,14 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
-        "text_block": "From minimalist bathrooms to regenerative pantries—planet-positive living starts here. More coming soon.",
+        "text_block": "From minimalist bathrooms to regenerative pantries—planet-positive living starts with our Reset Boxes.",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Shop Reset Boxes",
+        "button_link": "shopify://pages/reset-boxes",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
