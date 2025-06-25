@@ -256,7 +256,7 @@ header.header {
 
 .desaturate:hover .inline-bg {
     filter: contrast(100%) brightness(1) saturate(100%);
-    scale: 1.15;
+    scale: 1.05;
 }
 
 .brimm-blocks--flush-column-item {
