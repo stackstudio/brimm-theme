@@ -68,6 +68,7 @@
             "title": "RESET",
             "text": "<p>Our Reset Boxes are a great way to start your planet-positive journey, with 20% off RRP</p>",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -78,6 +79,7 @@
             "title": "CASHBACK",
             "text": "<p>Earn 10% cashback every time you shop whilst giving 10% to the planet fund</p>",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -88,6 +90,7 @@
             "title": "EVENTS",
             "text": "<p>Meet our community at events like intimate supper clubs, fashion chats and film screenings</p>",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -98,6 +101,7 @@
             "title": "JOURNAL",
             "text": "<p>Weekly stories from leading writers—inspiration, clever tips, and expert insights</p>",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         }
@@ -159,6 +163,53 @@
         "color_scheme": "scheme-2"
       }
     },
+    "membership_columns_jLA4hM": {
+      "type": "membership-columns",
+      "blocks": {
+        "column_TePFcQ": {
+          "type": "column",
+          "settings": {
+            "title": "Member",
+            "content": "<ul><li>Access to member only content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Earn 10% cashback with each purchase*</li><li>Pay member prices on reset boxes (20% off)</li></ul>",
+            "yearly_price": "120",
+            "monthly_price": "12",
+            "button_label": "Add to cart",
+            "button_url": ""
+          }
+        },
+        "column_kjjDmH": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "content": "",
+            "yearly_price": "",
+            "monthly_price": "",
+            "button_label": "Learn more",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TePFcQ",
+        "column_kjjDmH"
+      ],
+      "name": "Membership Columns",
+      "settings": {
+        "heading": "What you get",
+        "subheading": "<p>At BRiMM, we believe its time for a fresh approach - one where every individual action truly makes a difference</p>",
+        "supporter_heading": "Supporter Tier",
+        "supporter_text": "<p>Support BRiMM and power the planet fund.</p>",
+        "supporter_yearly_price": "£60",
+        "supporter_monthly_price": "£6",
+        "supporter_button_label": "Learn more",
+        "supporter_button_url": "",
+        "supporter_benefit_one": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_two": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
+        "global_benefits": "<h3>A benefit</h3><p>A description</p>",
+        "columns": 3
+      }
+    },
     "multicolumn_simple_4pjjMQ": {
       "type": "multicolumn-simple",
       "blocks": {
@@ -216,9 +267,10 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "bordered": false,
         "text_block": "We’ve already got a line-up of inspiring early members—designers, writers, and changemakers who are helping shape BRiMM from day one. Join them and kickstart a flywheel of change.",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
@@ -288,9 +340,10 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "bordered": false,
         "text_block": "",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
@@ -345,6 +398,7 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "bordered": false,
         "text_block": "Weekly dispatches from people reimagining tomorrow.",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -402,6 +456,7 @@
         "no-gap": false,
         "first_col": false,
         "last_col": true,
+        "bordered": false,
         "text_block": "Weekly dispatches from people reimagining tomorrow.",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -939,6 +994,7 @@
     "stacked_hero_hdCfVJ",
     "flush_columns_mVkqkM",
     "stacked_hero_7GDFy6",
+    "membership_columns_jLA4hM",
     "multicolumn_simple_4pjjMQ",
     "multicolumn_simple_MzLNDF",
     "multicolumn_simple_PPEayE",
