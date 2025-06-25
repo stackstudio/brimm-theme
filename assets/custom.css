@@ -230,6 +230,34 @@ header.header {
     display: flex;
 }
 
+.inline-bg {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    aspect-ratio: 9/17;
+    z-index: -1;
+}
+
+.desaturate .inline-bg {
+    filter: contrast(75%) brightness(0.5) saturate(95%);
+    transition: all .6s ease;
+}
+
+.desaturate:hover h3 {
+    /* color: #E3B2FF; */
+    text-shadow: 0 0 6px rgba(0,0,0,.4);
+}
+
+.desaturate:hover p {
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+}
+
+.desaturate:hover .inline-bg {
+    filter: contrast(100%) brightness(1) saturate(100%);
+}
+
 .brimm-blocks--flush-column-item {
     flex-grow: 1;
     flex-basis: 0;
@@ -241,6 +269,8 @@ header.header {
     display: flex;
     align-items: end;
     justify-content: center;
+    position: relative;
+    object-fit: cover;
     h3 {
         color: white;
         text-transform: uppercase;

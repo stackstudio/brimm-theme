@@ -12,7 +12,12 @@
         {%- endunless -%}
         <div class="brimm-blocks--flush-columns-grid">
             {%- for block in section.blocks -%}
-                <div class="brimm-blocks--flush-column-item" style="background-image: url({{ block.settings.image | image_url }})">
+                {%- if block.settings.link != blank -%}
+                    <a class="brimm-blocks--flush-column-item {% if block.settings.desaturate %} desaturate{% endif %}" >
+                {%- else -%}
+                    <div class="brimm-blocks--flush-column-item {% if block.settings.desaturate %} desaturate{% endif %}" >
+                {%- endif -%}
+                    <img class="inline-bg" src={{ block.settings.image | image_url }} />
                     <div class='multicolumn-card__info'>
                         {%- if block.settings.title != blank -%}
                         <h3 class='inline-richtext body-extra'>{{ block.settings.title }}</h3>
@@ -38,7 +43,11 @@
                         </div>
                         {%- endif -%}
                     </div>
-                </div>
+                    {%- if block.settings.link != blank -%}
+                        </a>
+                    {%- else -%}
+                        </div>
+                    {%- endif -%}
             {%- endfor -%}
         </div>
     </div>
@@ -128,6 +137,12 @@
             "type": "text",
             "id": "link_label",
             "label": "t:sections.multicolumn.blocks.column.settings.link_label.label"
+          },
+          {
+            "type": "checkbox",
+            "id": "desaturate",
+            "label": "Desturate images",
+            "default": true
           },
           {
             "type": "url",
