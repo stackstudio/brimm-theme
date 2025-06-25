@@ -332,8 +332,8 @@
         "collapsible_row_yFcKHF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "The most innovative brands",
-            "icon": "washing",
+            "heading": "The most innovative brands vetted",
+            "icon": "check_mark",
             "row_content": "<p>Want to kick start your Planet Positive Journey? Reset your kitchen or bathroom ritual to be Planet Positive - in one go.</p>",
             "page": ""
           }
