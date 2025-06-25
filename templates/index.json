@@ -23,11 +23,20 @@
           "settings": {
             "copy": "We're a membership-based shop, journal and collective pioneering a people-powered model of change."
           }
+        },
+        "cta_button_BbiwnF": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Click me",
+            "link": "",
+            "style": "primary"
+          }
         }
       },
       "block_order": [
         "heading_ADNgV7",
-        "text_YY8gky"
+        "text_YY8gky",
+        "cta_button_BbiwnF"
       ],
       "name": "Stacked Hero",
       "settings": {
@@ -60,7 +69,7 @@
         "cta_button_TdzEQD": {
           "type": "cta_button",
           "settings": {
-            "label": "View Membership",
+            "label": "Join as a Member",
             "link": "shopify://pages/founder-members",
             "style": "primary"
           }
