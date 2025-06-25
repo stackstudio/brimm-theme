@@ -365,10 +365,10 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Why We Created the BRiMM Reset Boxes",
+            "title": "Common Ground Screening 16th-17th July",
             "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
             "image_label": "",
-            "link_label": "Read more",
+            "link_label": "View Event",
             "link": ""
           }
         },
@@ -379,10 +379,10 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Why We Created the BRiMM Reset Boxes",
-            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "title": "Farm Field Trip",
+            "text": "<p>Visit our friends Pasture for Leather at their regenerative farm in Devon</p>",
             "image_label": "",
-            "link_label": "Read more",
+            "link_label": "View event",
             "link": ""
           }
         }
