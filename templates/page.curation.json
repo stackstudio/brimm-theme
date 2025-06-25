@@ -110,38 +110,6 @@
         "color_scheme": ""
       }
     },
-    "stacked_hero_kniMg7": {
-      "type": "stacked-hero",
-      "blocks": {
-        "heading_qVt4ER": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "CURATED BY INDUSTRY EXPERTS"
-          }
-        },
-        "text_86YCpx": {
-          "type": "text",
-          "settings": {
-            "copy": "At BRiMM, every product is thoughtfully curated by industry experts (hello, Sam & Christabel) to ensure they not only perform beautifully but also smell and taste fantastic."
-          }
-        }
-      },
-      "block_order": [
-        "heading_qVt4ER",
-        "text_86YCpx"
-      ],
-      "name": "Stacked Hero",
-      "settings": {
-        "two_image": false,
-        "full_screen": false,
-        "invert": false,
-        "wider": false,
-        "padded": false,
-        "video_embed": "",
-        "wide_image": "shopify://shop_images/Group_92.png",
-        "color_scheme": "scheme-2"
-      }
-    },
     "flush_columns_rWMFzU": {
       "type": "flush-columns",
       "blocks": {
@@ -287,7 +255,7 @@
         "padded": false,
         "narrow_image": "shopify://shop_images/20250514_BRIMM_652_1.png",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "wide_image": "shopify://shop_images/Tom_vetting_hotel_mike.jpg",
         "color_scheme": "scheme-1"
       }
     },
@@ -423,7 +391,7 @@
         "wider": false,
         "padded": false,
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "wide_image": "shopify://shop_images/BRiMM250401_B_1283T01.jpg",
         "color_scheme": "scheme-1"
       }
     },
@@ -637,7 +605,6 @@
     "main",
     "stacked_hero_Xiwchw",
     "flush_columns_4zpTXq",
-    "stacked_hero_kniMg7",
     "flush_columns_rWMFzU",
     "logo_scroller_ANciWD",
     "stacked_hero_kxMRgY",
