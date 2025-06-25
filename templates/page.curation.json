@@ -60,6 +60,7 @@
             "title": "BRAND MISSION",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -70,6 +71,7 @@
             "title": "PRODUCT INNOVATION",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -80,6 +82,7 @@
             "title": "ACCREDITATIONS",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         }
@@ -109,6 +112,7 @@
             "title": "CHRISTABEL BIELLA",
             "text": "<p>Heading up Home & Food with over 20 years in retail product selection, previously a Buyer at House of Fraser, Farmdrop</p>",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -117,8 +121,9 @@
           "settings": {
             "image": "shopify://shop_images/Tiff_BRIMM_075.jpg",
             "title": "TIFF DARKE",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>A fashion journalist, renowned for her advocacy in sustainable fashion. Former fashion editor for The Telegraph, The Times and Harrods.</p>",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -129,6 +134,7 @@
             "title": "SAM FREEDMAN",
             "text": "<p>Ex-Beauty editor at Grazia, Sam brings oodles of experience, carefully curating our beauty products.</p>",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         }
@@ -279,7 +285,6 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Group_92.png",
         "video_embed": "",
         "has_background": true,
         "show_waitlist": false,
@@ -387,7 +392,6 @@
         "wider": false,
         "padded": false,
         "video_embed": "",
-        "wide_image": "shopify://shop_images/BRiMM250401_B_1283T01.jpg",
         "color_scheme": "scheme-1"
       }
     },
@@ -401,6 +405,7 @@
             "title": "CITIZENS OF SOIL",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -411,6 +416,7 @@
             "title": "UPCIRCLE",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -421,6 +427,7 @@
             "title": "KINFILL",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         }
