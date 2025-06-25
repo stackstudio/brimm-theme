@@ -27,37 +27,46 @@
     <product-form
       class="product-form"
       data-hide-errors="{{ gift_card_recipient_feature_active }}"
-      data-section-id="{{ section.id }}"
-    >
-      <div class="product-form__error-message-wrapper" role="alert" hidden>
+      data-section-id="{{ section.id }}">
+      <div
+        class="product-form__error-message-wrapper"
+        role="alert"
+        hidden>
         <span class="svg-wrapper">
           {{- 'icon-error.svg' | inline_asset_content -}}
         </span>
         <span class="product-form__error-message"></span>
       </div>
 
-      {%- form 'product',
-        product,
-        id: product_form_id,
-        class: 'form',
-        novalidate: 'novalidate',
-        data-type: 'add-to-cart-form'
+      {%- form 'product'
+        , product
+        , id: product_form_id
+        , class: 'form'
+        , novalidate: 'novalidate'
+        , data-type: 'add-to-cart-form'
       -%}
+
         <input
           type="hidden"
           name="id"
           value="{{ product.selected_or_first_available_variant.id }}"
-          {% if product.selected_or_first_available_variant.available == false
-            or quantity_rule_soldout
-            or product.selected_or_first_available_variant == null
-          %}
-            disabled
+
+
+          {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout or product.selected_or_first_available_variant == null %}
+          disabled
           {% endif %}
-          class="product-variant-id"
-        >
+          class="product-variant-id">
+        <input
+          type="hidden"
+          name="membership"
+          class="product-membership"
+          value="null">
 
         {%- if gift_card_recipient_feature_active -%}
-          {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
+          {%- render 'gift-card-recipient-form'
+            , product: product
+            , form: form
+            , section: section -%}
         {%- endif -%}
 
         <div class="product-form__buttons">
@@ -75,13 +84,11 @@
             type="submit"
             name="add"
             class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
-            {% if product.selected_or_first_available_variant.available == false
-              or quantity_rule_soldout
-              or product.selected_or_first_available_variant == null
-            %}
-              disabled
-            {% endif %}
-          >
+
+
+            {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout or product.selected_or_first_available_variant == null %}
+            disabled
+            {% endif %}>
             <span>
               {%- if product.selected_or_first_available_variant == null -%}
                 {{ 'products.product.unavailable' | t }}
@@ -106,8 +113,7 @@
           type="submit"
           name="add"
           class="product-form__submit button button--full-width button--primary"
-          disabled
-        >
+          disabled>
           {{ 'products.product.sold_out' | t }}
         </button>
       </div>
@@ -117,20 +123,18 @@
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
-    {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities
-      | where: 'pick_up_enabled', true
+    {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true
     -%}
 
     <pickup-availability
       class="product__pickup-availabilities quick-add-hidden"
       {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %}
-        available
+      available
       {% endif %}
       data-root-url="{{ routes.root_url }}"
       data-variant-id="{{ product.selected_or_first_available_variant.id }}"
       data-has-only-default-variant="{{ product.has_only_default_variant }}"
-      data-product-page-color-scheme="gradient color-{{ section.settings.color_scheme }}"
-    >
+      data-product-page-color-scheme="gradient color-{{ section.settings.color_scheme }}">
       <template>
         <pickup-availability-preview class="pickup-availability-preview">
           <span class="svg-wrapper">

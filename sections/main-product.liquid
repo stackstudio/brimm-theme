@@ -120,15 +120,6 @@
                   {% comment %} {% assign member_price = regular_price %} {% endcomment %}
                   {% assign p = regular_price | times: member_discount_rate %}
                   {% assign member_price = regular_price | times: 1.0 | minus: p %}
-                  <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
-                    {%- render 'price',
-                      product: product,
-                      use_variant: true,
-                      show_badges: true,
-                      price_class: 'price--large',
-                      member_price: member_price
-                    -%}
-                  </div>
 
                   <div class="membership-choice my-6">
                     <p class="font-medium mb-2">How would you like to purchase?</p>
@@ -147,22 +138,8 @@
                     </label>
 
                     <label class="flex items-center mb-4">
-                      <input type="radio" name="purchase_option" value="pioneer" class="mr-2">
-                      <span>Buy with Pioneer membership to get (10% off)</span>
-                      <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
-                        {%- render 'price',
-                          product: product,
-                          use_variant: true,
-                          show_badges: true,
-                          price_class: 'price--large',
-                          member_price: member_price
-                        -%}
-                      </div>
-                    </label>
-
-                    <label class="flex items-center mb-4">
                       <input type="radio" name="purchase_option" value="explorer" class="mr-2">
-                      <span>Buy with Explorer membership to get (10% off)</span>
+                      <span>Buy with membership to get (10% cashback)</span>
                       <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
                         {%- render 'price',
                           product: product,
@@ -173,27 +150,6 @@
                         -%}
                       </div>
                     </label>
-
-                    <button
-                      type="submit"
-                      id="dual-buy-button"
-                      name="add"
-                      class="button product-form__submit bg-black text-white px-6 py-3 rounded"
-                      data-product-id="{{ product.selected_or_first_available_variant.id }}"
-                    >
-                      Add to cart
-                    </button>
-                  </div>
-
-                  <div class="membership-cta mb-6">
-                    <button
-                      id="buy-with-membership"
-                      type="button"
-                      class="button bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded"
-                      data-main-variant-id="{{ product.selected_or_first_available_variant.id }}"
-                    >
-                      Buy Membership – {{ member_price | money }}
-                    </button>
                   </div>
 
                   {% else %}
@@ -228,8 +184,8 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
+                {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 <div {{ block.shopify_attributes }}>
-                  {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                   {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
                     <input type='hidden' name='id' value='{{ product.selected_or_first_available_variant.id }}'>
                     {{ form | payment_terms }}
@@ -2353,54 +2309,3 @@
   ]
 }
 {% endschema %}
-
-
-<script>
-  const MEMBERSHIP_VARIANT_ID = 50626320695638; // Replace with actual membership variant ID 9666110357846
-  const SELLING_PLAN_ID = 690228887894; // Replace with Simplee's selling plan ID
-
-  document.addEventListener('DOMContentLoaded', function () {
-    const dualAddBtn = document.getElementById('buy-with-membership');
-
-    if (!dualAddBtn) return;
-
-    dualAddBtn.addEventListener('click', function () {
-      const mainVariantId = parseInt(dualAddBtn.dataset.mainVariantId, 10);
-
-      // Step 1: Add main product
-      fetch('/cart/add.js', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify({
-          id: mainVariantId,
-          quantity: 1
-        })
-      })
-      .then(res => res.json())
-      .then(() => {
-        // Step 2: Add membership with selling plan
-        return fetch('/cart/add.js', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-          },
-          body: JSON.stringify({
-            id: MEMBERSHIP_VARIANT_ID,
-            quantity: 1,
-            selling_plan: SELLING_PLAN_ID
-          })
-        });
-      })
-      .then(() => {
-
-      })
-      .catch(err => {
-        console.error('Error adding to cart:', err);
-      });
-    });
-  });
-</script>

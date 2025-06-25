@@ -1578,7 +1578,14 @@ const dualAddToCart = () => {
 
   document.addEventListener('DOMContentLoaded', function () {
     const dualBuyButton = document.getElementById('dual-buy-button');
+    const productFormSubmit = document.querySelector(
+      'form .product-form__submit',
+    );
     const radios = document.getElementsByName('purchase_option');
+    const section = document.querySelector('.product__info-container');
+    const sectionId = section ? section.getAttribute('id') : null;
+    const hiddenMembershipInput = document.querySelector('.product-membership');
+    console.log(productFormSubmit);
 
     if (!dualBuyButton) return;
 
@@ -1591,8 +1598,9 @@ const dualAddToCart = () => {
       // Step 1: Add main product
 
       // Step 2: If a membership is selected, add the correct one
-      if (selectedOption === 'pioneer' || selectedOption === 'explorer') {
+      if (selectedOption === 'explorer') {
         const membership = MEMBERSHIPS[selectedOption];
+        hiddenMembershipInput.value = membership.sellingPlanId || '';
         console.log(`Adding ${selectedOption} membership to cart`, membership);
 
         fetch('/cart/add', {
@@ -1604,7 +1612,7 @@ const dualAddToCart = () => {
           body: JSON.stringify({
             form_type: 'product',
             utf8: '✓',
-            'section-id': 'template--25527513383254__main',
+            'section-id': sectionId,
             sections: 'cart-drawer,cart-icon-bubble',
             id: mainVariantId,
             quantity: 1,
@@ -1621,7 +1629,7 @@ const dualAddToCart = () => {
               body: JSON.stringify({
                 form_type: 'product',
                 utf8: '✓',
-                'section-id': 'template--25527513383254__main',
+                'section-id': sectionId,
                 sections: 'cart-drawer,cart-icon-bubble',
                 id: membership.variantId,
                 quantity: 1,
@@ -1630,6 +1638,28 @@ const dualAddToCart = () => {
             });
           })
           .then((res) => {})
+          .catch((err) => {
+            console.error('Error adding to cart:', err);
+          });
+      } else {
+        console.log(`Adding main product ${mainVariantId} to cart`);
+        fetch('/cart/add', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify({
+            form_type: 'product',
+            utf8: '✓',
+            'section-id': 'template--25527513383254__main',
+            sections: 'cart-drawer,cart-icon-bubble',
+            id: mainVariantId,
+            quantity: 1,
+          }),
+        })
+          .then((res) => res.json())
+          .then(() => {})
           .catch((err) => {
             console.error('Error adding to cart:', err);
           });
