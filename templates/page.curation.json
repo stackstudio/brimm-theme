@@ -209,6 +209,12 @@
           "settings": {
             "image": "shopify://shop_images/Sbtrct_logo.png"
           }
+        },
+        "column_NEWykc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hotel_Mike_logo_Black.png"
+          }
         }
       },
       "block_order": [
@@ -219,7 +225,8 @@
         "column_qLYbPp",
         "column_rYqyzV",
         "column_7CxDfU",
-        "column_HWwYWB"
+        "column_HWwYWB",
+        "column_NEWykc"
       ],
       "name": "Logo Scroller",
       "settings": {
