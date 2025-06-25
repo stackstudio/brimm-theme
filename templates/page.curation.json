@@ -56,8 +56,8 @@
         "column_4MP6xG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-1.png",
-            "title": "Quality",
+            "image": "shopify://shop_images/fc-3.png",
+            "title": "BRAND MISSION",
             "text": "",
             "link_label": "",
             "link": ""
@@ -67,7 +67,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-2.png",
-            "title": "Impact",
+            "title": "PRODUCT INNOVATION",
             "text": "",
             "link_label": "",
             "link": ""
@@ -76,18 +76,8 @@
         "column_Kq8GWU": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-3.png",
-            "title": "Culture",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wLXCmb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/fc-4.png",
-            "title": "Purpose",
+            "image": "shopify://shop_images/fc-1.png",
+            "title": "ACCREDITATIONS",
             "text": "",
             "link_label": "",
             "link": ""
@@ -97,8 +87,7 @@
       "block_order": [
         "column_4MP6xG",
         "column_c9BW33",
-        "column_Kq8GWU",
-        "column_wLXCmb"
+        "column_Kq8GWU"
       ],
       "name": "Flush Columns",
       "settings": {
