@@ -1489,6 +1489,34 @@ if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
 
+openPricingTooltip = (event) => {
+  const tooltip = event.currentTarget.querySelector('.pricing-tooltip');
+  if (!tooltip) return;
+
+  const isOpen = tooltip.getAttribute('aria-hidden') === 'false';
+  tooltip.setAttribute('aria-hidden', isOpen ? 'true' : 'false');
+  tooltip.classList.toggle('is-open', !isOpen);
+
+  if (!isOpen) {
+    trapFocus(tooltip, tooltip.querySelector('button'));
+  } else {
+    removeTrapFocus(event.currentTarget);
+  }
+  event.stopPropagation();
+  event.preventDefault();
+};
+
+closePricingTooltip = (event) => {
+  const tooltip = event.currentTarget.querySelector('.pricing-tooltip');
+  if (!tooltip) return;
+
+  tooltip.setAttribute('aria-hidden', 'true');
+  tooltip.classList.remove('is-open');
+  removeTrapFocus(event.currentTarget);
+  event.stopPropagation();
+  event.preventDefault();
+};
+
 function initializeDetailsWithImages() {
   const details = document.querySelectorAll('details[data-img-src]');
   if (!details.length) return;
@@ -1535,3 +1563,79 @@ function toggleTabs() {
 }
 
 toggleTabs();
+
+const dualAddToCart = () => {
+  const MEMBERSHIPS = {
+    pioneer: {
+      variantId: 48578732097878,
+      sellingPlanId: 690226200918,
+    },
+    explorer: {
+      variantId: 48556931481942,
+      sellingPlanId: 690221023574,
+    },
+  };
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const dualBuyButton = document.getElementById('dual-buy-button');
+    const radios = document.getElementsByName('purchase_option');
+
+    if (!dualBuyButton) return;
+
+    dualBuyButton.addEventListener('click', function () {
+      const selectedOption = Array.from(radios).find((r) => r.checked)?.value;
+      const mainVariantId = parseInt(dualBuyButton.dataset.productId, 10);
+
+      if (!selectedOption) return;
+
+      // Step 1: Add main product
+
+      // Step 2: If a membership is selected, add the correct one
+      if (selectedOption === 'pioneer' || selectedOption === 'explorer') {
+        const membership = MEMBERSHIPS[selectedOption];
+        console.log(`Adding ${selectedOption} membership to cart`, membership);
+
+        fetch('/cart/add', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify({
+            form_type: 'product',
+            utf8: '✓',
+            'section-id': 'template--25527513383254__main',
+            sections: 'cart-drawer,cart-icon-bubble',
+            id: mainVariantId,
+            quantity: 1,
+          }),
+        })
+          .then((res) => res.json())
+          .then(() => {
+            return fetch('/cart/add', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                Accept: 'application/json',
+              },
+              body: JSON.stringify({
+                form_type: 'product',
+                utf8: '✓',
+                'section-id': 'template--25527513383254__main',
+                sections: 'cart-drawer,cart-icon-bubble',
+                id: membership.variantId,
+                quantity: 1,
+                selling_plan: membership.sellingPlanId,
+              }),
+            });
+          })
+          .then((res) => {})
+          .catch((err) => {
+            console.error('Error adding to cart:', err);
+          });
+      }
+    });
+  });
+};
+
+dualAddToCart();
