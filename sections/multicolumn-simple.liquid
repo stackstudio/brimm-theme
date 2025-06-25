@@ -87,7 +87,7 @@
         </div>
         {%- endfor -%}
         {%- if section.settings.last_col -%}
-            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad">
+            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad {% if section.settings.justify == false %}no-justify{% endif %}">
                 <h2>
                     {{ section.settings.title }}
                 </h2>
