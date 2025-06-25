@@ -242,7 +242,7 @@ header.header {
 
 .desaturate .inline-bg {
     filter: contrast(75%) brightness(0.5) saturate(95%);
-    transition: all .6s ease;
+    transition: all 1.2s ease;
 }
 
 .desaturate:hover h3 {
@@ -256,6 +256,7 @@ header.header {
 
 .desaturate:hover .inline-bg {
     filter: contrast(100%) brightness(1) saturate(100%);
+    scale: 1.15;
 }
 
 .brimm-blocks--flush-column-item {
@@ -271,10 +272,11 @@ header.header {
     justify-content: center;
     position: relative;
     object-fit: cover;
+    overflow: hidden;
     h3 {
         color: white;
         text-transform: uppercase;
-        font-size: var(--step-5);
+        font-size: var(--step-4);
     }
 }
 

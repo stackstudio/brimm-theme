@@ -25,23 +25,6 @@
                         {%- if block.settings.text != blank -%}
                         <div class='rte body-medium'>{{ block.settings.text }}</div>
                         {%- endif -%}
-                        {%- if block.settings.link_label != blank -%}
-                        <div class="border-link">
-                            <a
-                                class='link animate-arrow'
-                                {% if block.settings.link == blank %}
-                                role='link'
-                                aria-disabled='true'
-                                {% else %}
-                                href='{{ block.settings.link }}'
-                                {% endif %}>
-                                {{- block.settings.link_label | escape -}}
-                                <span class='svg-wrapper'>
-                                <span class='icon-wrap'>&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span>
-                                </span>
-                            </a>
-                        </div>
-                        {%- endif -%}
                     </div>
                     {%- if block.settings.link != blank -%}
                         </a>
