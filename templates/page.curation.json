@@ -87,7 +87,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-4.png",
-            "title": "Activism",
+            "title": "Purpose",
             "text": "",
             "link_label": "",
             "link": ""
@@ -491,7 +491,7 @@
         "wider": true,
         "padded": true,
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "wide_image": "shopify://shop_images/Citizens_of_Soil_lifestyle_Luna.png",
         "color_scheme": "scheme-1"
       }
     },
@@ -523,7 +523,7 @@
         "wider": true,
         "padded": true,
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "wide_image": "shopify://shop_images/Banner_Editorial_Skincare_Group-2_HR.jpg",
         "color_scheme": "scheme-1"
       }
     },
@@ -555,7 +555,7 @@
         "wider": true,
         "padded": true,
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
+        "wide_image": "shopify://shop_images/cleaning-eg.png",
         "color_scheme": "scheme-1"
       }
     },

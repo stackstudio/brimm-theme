@@ -29,14 +29,14 @@
         "text_jLVpTi": {
           "type": "text",
           "settings": {
-            "copy": "Where climate optimists take action together."
+            "copy": "Enhance your planet-positive lifestyle. Where climate optimists take action together."
           }
         },
         "cta_button_ENCyUD": {
           "type": "cta_button",
           "settings": {
-            "label": "Choose a Tier",
-            "link": "#",
+            "label": "Join as a Member",
+            "link": "shopify://pages/founder-members",
             "style": "primary"
           }
         }
@@ -51,6 +51,9 @@
         "two_image": false,
         "full_screen": true,
         "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
         "wide_image": "shopify://shop_images/memb-eg.png",
         "color_scheme": "scheme-2"
       }
@@ -61,9 +64,9 @@
         "column_hYJYxy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-2.png",
-            "title": "CREDIT",
-            "text": "<p>Get <strong>£40-£80</strong> reset box credit to start your planet-positive journey</p>",
+            "image": "shopify://shop_images/Beauty_Luxury_Reset_Box_Products.jpg",
+            "title": "RESET",
+            "text": "<p>Our Reset Boxes are a great way to start your planet-positive journey, with 20% off RRP</p>",
             "link_label": "",
             "link": ""
           }
@@ -73,7 +76,7 @@
           "settings": {
             "image": "shopify://shop_images/memb-eg.png",
             "title": "CASHBACK",
-            "text": "<p>10% cashback every time you shop, and 10% to the planet fund.</p>",
+            "text": "<p>Earn 10% cashback every time you shop whilst giving 10% to the planet fund</p>",
             "link_label": "",
             "link": ""
           }
@@ -81,9 +84,9 @@
         "column_MLFFWY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-3.png",
+            "image": "shopify://shop_images/DSC06331.jpg",
             "title": "EVENTS",
-            "text": "<p>Meet your community at intimate supper clubs, screenings, and panel events.</p>",
+            "text": "<p>Meet our community at events like intimate supper clubs, fashion chats and film screenings</p>",
             "link_label": "",
             "link": ""
           }
@@ -92,8 +95,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-1.png",
-            "title": "CONTENT",
-            "text": "<p>Weekly stories from leading writers—inspiration, clever tips, and expert insights.</p>",
+            "title": "JOURNAL",
+            "text": "<p>Weekly stories from leading writers—inspiration, clever tips, and expert insights</p>",
             "link_label": "",
             "link": ""
           }
@@ -108,9 +111,9 @@
       "name": "Flush Columns",
       "settings": {
         "title": "MEMBER BENEFITS",
-        "text_block": "Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards",
+        "text_block": "Join a community dedicated to making a difference. Discover our membership offering unique planet-positive rewards, or start out as a Supporter",
         "columns_desktop": 3,
-        "button_label": "Choose a Tier",
+        "button_label": "Join as a Member",
         "button_link": "#",
         "color_scheme": ""
       }
@@ -127,13 +130,13 @@
         "text_MW7F3y": {
           "type": "text",
           "settings": {
-            "copy": "Your membership supports our business while we repurpose margin from what you spend in our planet fund."
+            "copy": "Your membership supports our business. Each purchase earns you 10% back, while we repurpose 10% from what you spend in our Planet Fund."
           }
         },
         "cta_button_fmcUPr": {
           "type": "cta_button",
           "settings": {
-            "label": "Choose a Tier",
+            "label": "Find out more",
             "link": "#",
             "style": "primary"
           }
@@ -149,6 +152,9 @@
         "two_image": false,
         "full_screen": false,
         "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
         "wide_image": "shopify://shop_images/1010.png",
         "color_scheme": "scheme-2"
       }
