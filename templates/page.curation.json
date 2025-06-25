@@ -143,8 +143,8 @@
         "title": "CURATED BY INDUSTRY EXPERTS",
         "text_block": "At BRiMM, every product is thoughtfully curated by industry experts (hello, Sam & Christabel) to ensure they not only perform beautifully but also smell and taste fantastic.",
         "columns_desktop": 4,
-        "button_label": "REMOVE BUTTON",
-        "button_link": "",
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://pages/reset-boxes",
         "color_scheme": ""
       }
     },
