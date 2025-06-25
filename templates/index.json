@@ -27,8 +27,8 @@
         "cta_button_BbiwnF": {
           "type": "cta_button",
           "settings": {
-            "label": "Click me",
-            "link": "",
+            "label": "Shop Reset Boxes",
+            "link": "shopify://pages/reset-boxes",
             "style": "primary"
           }
         }
