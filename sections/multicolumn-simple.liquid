@@ -25,7 +25,7 @@
       {%- endunless -%}
       <div class="brimm-blocks--simple-multicolumn-grid">
         {%- if section.settings.first_col -%}
-            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad">
+            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad {% if section.settings.justify == false %}no-justify{% endif %}">
                 <h2>
                     {{ section.settings.title }}
                 </h2>
@@ -147,6 +147,12 @@
         "id": "last_col",
         "default": false,
         "label": "Last column intro?"
+      },
+      {
+        "type": "checkbox",
+        "id": "justify",
+        "default": true,
+        "label": "Justify intro"
       },
       {
         "type": "checkbox",
