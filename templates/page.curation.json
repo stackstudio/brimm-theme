@@ -57,7 +57,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-1.png",
-            "title": "Quality",
+            "title": "SOURCING",
             "text": "",
             "link_label": "",
             "link": ""
@@ -67,7 +67,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-2.png",
-            "title": "Impact",
+            "title": "DESIGN",
             "text": "",
             "link_label": "",
             "link": ""
@@ -77,7 +77,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-3.png",
-            "title": "Culture",
+            "title": "ACCREDITATIONS",
             "text": "",
             "link_label": "",
             "link": ""
@@ -87,7 +87,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-4.png",
-            "title": "Purpose",
+            "title": "MISSION",
             "text": "",
             "link_label": "",
             "link": ""
