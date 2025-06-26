@@ -6,6 +6,10 @@ function getFocusableElements(container) {
   );
 }
 
+const cart =
+  document.querySelector('cart-notification') ||
+  document.querySelector('cart-drawer');
+
 class SectionId {
   static #separator = '__';
 
@@ -1661,7 +1665,8 @@ dualAddToCart();
 const membershipCartButtons = document.querySelectorAll(
   '.brimm-blocks--column-button__add-to-cart',
 );
-const cart = document.querySelector('cart-drawer');
+
+const cartSectiondata = cart.getSectionsToRender().map((section) => section.id);
 
 const addMembershipProductToCart = async (membershipCartButton) => {
   const variantId = membershipCartButton?.dataset?.memberVariantId;
@@ -1694,6 +1699,7 @@ const addMembershipProductToCart = async (membershipCartButton) => {
         id: variantId,
         quantity: 1,
         selling_plan: sellingPlanId,
+        sections: cartSectiondata,
         sections_url: window.location.pathname,
       }),
     });
@@ -1708,7 +1714,7 @@ const addMembershipProductToCart = async (membershipCartButton) => {
     });
 
     // Optional: refresh cart drawer
-    // cart.renderContents(cartData);
+    cart.renderContents(cartData);
   } catch (error) {
     console.error('Error adding membership to cart:', error);
   }
