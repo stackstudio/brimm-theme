@@ -124,8 +124,8 @@
                   <div class="membership-choice my-6">
                     <p class="font-medium mb-2">How would you like to purchase?</p>
 
-                    <label class="flex items-center mb-2">
-                      <input type="radio" name="purchase_option" value="regular" checked class="mr-2">
+                    <label class="flex items-center mb-2" for="regular">
+                      <input type="radio" name="purchase_option" id="regular" value="regular" checked class="mr-2">
                       <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
                         {%- render 'price',
                           product: product,
@@ -136,8 +136,8 @@
                       </div>
                     </label>
 
-                    <label class="flex items-center mb-4">
-                      <input type="radio" name="purchase_option" value="explorer" class="mr-2">
+                    <label class="flex items-center mb-4" for="explorer">
+                      <input type="radio" name="purchase_option" id="explorer" value="explorer" class="mr-2">
                       <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
                         {%- render 'price',
                           product: product,
@@ -147,7 +147,7 @@
                           member_price: member_price
                         -%}
                       </div>
-                      <div class="icon open-pricing-tooltip has-pricing-tooltip">
+                      <!-- <div class="icon open-pricing-tooltip has-pricing-tooltip">
                         <div class="pricing-info hidden">
                             <p>MEMBER-ONLY CONTENT</p>
                             <p>PRIORITY ACCESS AND MEMBER PRICES ON EVENTS</p>
@@ -159,7 +159,7 @@
                         <span class="svg-wrapper">
                           {{- 'icon-question-mark.svg' | inline_asset_content -}}
                         </span>
-                      </div>
+                      </div> -->
                     </label>
                   </div>
 

@@ -194,6 +194,7 @@ product-info {
 
 .product-form__submit {
   margin-bottom: 1rem;
+  background: black;
 }
 
 .product-form__submit[aria-disabled='true']
@@ -364,14 +365,6 @@ a.product__text {
 
 .product-form__quantity-top .form__label {
   margin-bottom: 1.2rem;
-}
-
-.product-form__buttons {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-items: center;
-  gap: 2rem;
 }
 
 .shopify-payment-button {
