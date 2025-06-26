@@ -21,7 +21,7 @@
         "text_YY8gky": {
           "type": "text",
           "settings": {
-            "copy": "We're a membership-based shop, journal and collective pioneering a people-powered model of change."
+            "copy": "<p>We're a membership-based shop, journal and collective pioneering a people-powered model of change.</p>"
           }
         },
         "cta_button_BbiwnF": {
@@ -63,7 +63,7 @@
         "text_aiwhMp": {
           "type": "text",
           "settings": {
-            "copy": "Our membership has been designed to make planet-positive living easier. With every purchase, earn 10% back and give 10% to our Planet Fund"
+            "copy": "<p>Our membership has been designed to make planet-positive living easier. With every purchase, earn 10% back and give 10% to our Planet Fund</p>"
           }
         },
         "cta_button_TdzEQD": {
@@ -112,7 +112,7 @@
         "column_dw8jiL": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/bathroom-eg.png",
+            "image": "shopify://shop_images/Brimm_25_March_27_Boxes_1047.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
