@@ -176,7 +176,7 @@
 }
 
 .brimm-blocks--stacked-hero .brimm-blocks--wide-image img {
-    aspect-ratio: 16 / 9;
+    /* aspect-ratio: 16 / 9; */
 }
 
 .brimm-blocks--stacked-hero .brimm-blocks--callout-column {
