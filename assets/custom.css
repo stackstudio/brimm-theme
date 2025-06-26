@@ -58,10 +58,16 @@
     margin-bottom: 0;
     bottom: 0;
     top: auto;
+    z-index: 999;
     @media(max-width: 989px) {
         bottom: auto;
         top: 0;
     }
+}
+
+.header-wrapper.sticky {
+    position: sticky;
+    top: 0;
 }
 
 .footer {
