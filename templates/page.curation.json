@@ -133,7 +133,7 @@
           "settings": {
             "image": "shopify://shop_images/Tiff_BRIMM_075.jpg",
             "title": "TIFF DARKE",
-            "text": "<p>A fashion journalist, renowned for her advocacy in sustainable fashion. Former fashion editor for The Telegraph, The Times and Harrods.</p>",
+            "text": "<p>A fashion journalist, renowned for her advocacy in sustainable fashion. Former fashion editor for The Telegraph, The Times and Harrods</p>",
             "link_label": "",
             "desaturate": true,
             "link": ""
@@ -144,7 +144,7 @@
           "settings": {
             "image": "shopify://shop_images/Sam_BRIMM_762.jpg",
             "title": "SAM FREEDMAN",
-            "text": "<p>Ex-Beauty editor at Grazia, Sam brings oodles of experience, carefully curating our beauty products.</p>",
+            "text": "<p>Ex-Beauty editor at Grazia, Sam brings oodles of experience, carefully curating our beauty products</p>",
             "link_label": "",
             "desaturate": true,
             "link": ""
