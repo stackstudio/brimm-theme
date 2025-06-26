@@ -149,12 +149,24 @@
             "desaturate": true,
             "link": ""
           }
+        },
+        "column_Jzjeig": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tom_Brimm.jpg",
+            "title": "Tom Berry",
+            "text": "<p>Sustainability expert Tom Berry has decades experience at well known brands like FarFetch and Innocent</p>",
+            "link_label": "",
+            "desaturate": true,
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_8EMQxz",
         "column_8QcP9k",
-        "column_wn87Dq"
+        "column_wn87Dq",
+        "column_Jzjeig"
       ],
       "name": "Flush Columns",
       "settings": {
