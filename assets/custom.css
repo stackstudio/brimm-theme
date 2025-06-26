@@ -71,7 +71,8 @@
 }
 
 .footer {
-    padding-bottom: 77px;
+    padding-bottom: var(--space-l);
+    border-top: 4px solid #6E1C20;
 }
 
 .copyright__text {
@@ -172,6 +173,10 @@
     @media(max-width: 749px) {
         aspect-ratio: 14/10;
     }
+}
+
+.brimm-blocks--stacked-hero .brimm-blocks--wide-image img {
+    aspect-ratio: 16 / 9;
 }
 
 .brimm-blocks--stacked-hero .brimm-blocks--callout-column {
