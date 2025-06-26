@@ -29,7 +29,7 @@
         "text_dDrnpd": {
           "type": "text",
           "settings": {
-            "copy": "We curate and vet all our products to ensure they're good for you and better for the planet."
+            "copy": "<p>We curate and vet all our products to ensure they're good for you and better for the planet.</p>"
           }
         }
       },
@@ -44,9 +44,8 @@
         "invert": false,
         "wider": false,
         "padded": false,
-        "narrow_image": "shopify://shop_images/Rollr_12_24_152_1_1.jpg",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Plastic_Free_Box2_close_up.jpg",
+        "wide_image": "shopify://shop_images/BRiMM_products_vetting.jpg",
         "color_scheme": ""
       }
     },
@@ -264,7 +263,7 @@
         "text_bVnjdn": {
           "type": "text",
           "settings": {
-            "copy": "Our rigorous vetting process, developed by sustainability expert Tom Berry, is grounded in independent standards and accreditations. Tom has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive."
+            "copy": "<p>Our rigorous vetting process, developed by sustainability expert Tom Berry, is grounded in independent standards and accreditations. Tom has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive.</p>"
           }
         }
       },
@@ -281,7 +280,7 @@
         "padded": false,
         "narrow_image": "shopify://shop_images/Kleen_Yellow_Mellow_12.00_www.kleensoaps.com_2.jpg",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/BRiMM_products_vetting.jpg",
+        "wide_image": "shopify://shop_images/Tom_vetting_hotel_mike.jpg",
         "color_scheme": "scheme-1"
       }
     },
@@ -400,7 +399,7 @@
         "text_h3DJQ4": {
           "type": "text",
           "settings": {
-            "copy": "Smaller brands are often at the forefront of innovation. They’re not just crafting exceptional products; they’re setting the next generation of standards and accreditations that larger brands will follow (eventually)."
+            "copy": "<p>Smaller brands are often at the forefront of innovation. They’re not just crafting exceptional products; they’re setting the next generation of standards and accreditations that larger brands will follow (eventually).</p>"
           }
         }
       },
@@ -519,7 +518,7 @@
         "text_fY8C8V": {
           "type": "text",
           "settings": {
-            "copy": "With over 1,400 five-star reviews, their award-winning extra-virgin olive oils are a true taste sensation. As a certified B-Corp, they go above and beyond with initiatives that matter. They champion female farmers and collaborate with those who actively promote biodiversity through diverse planting, allowing animals to graze between the groves and practicing low or no tillage. This is what people refer to as ‘regenerative farming.’ It’s no wonder we proudly stock their products!"
+            "copy": "<p>With over 1,400 five-star reviews, their award-winning extra-virgin olive oils are a true taste sensation. As a certified B-Corp, they go above and beyond with initiatives that matter. They champion female farmers and collaborate with those who actively promote biodiversity through diverse planting, allowing animals to graze between the groves and practicing low or no tillage. This is what people refer to as ‘regenerative farming.’ It’s no wonder we proudly stock their products!</p>"
           }
         }
       },
@@ -551,7 +550,7 @@
         "text_UdjK4z": {
           "type": "text",
           "settings": {
-            "copy": "UpCircle transforms natural by-products - such as used coffee grounds and fruit stones - into highly effective skincare. They utilize recyclable and refillable packaging, are certified plastic-negative, and hold ethical certifications (B Corp, vegan, cruelty-free, and organic). UpCircle is transparent about its ingredients and actively supports community and environmental initiatives. While independent accreditation for all this innovation may not always be feasible, their commitment is undeniably inspiring and truly planet-positive."
+            "copy": "<p>UpCircle transforms natural by-products - such as used coffee grounds and fruit stones - into highly effective skincare. They utilize recyclable and refillable packaging, are certified plastic-negative, and hold ethical certifications (B Corp, vegan, cruelty-free, and organic). UpCircle is transparent about its ingredients and actively supports community and environmental initiatives. While independent accreditation for all this innovation may not always be feasible, their commitment is undeniably inspiring and truly planet-positive.</p>"
           }
         }
       },
@@ -583,7 +582,7 @@
         "text_3daPhx": {
           "type": "text",
           "settings": {
-            "copy": "Kinfill offers concentrated, non-toxic home cleaning products in reusable, elevated aluminum bottles - eliminating single-use plastics. Their plant-based, cruelty-free formulas are free from harsh chemicals, and all packaging is recyclable. With local production to minimize transport impact, Kinfill is also B Corp certified. While no standard currently exists for this level of design and sustainability detail, their commitment is genuine and not greenwashed."
+            "copy": "<p>Kinfill offers concentrated, non-toxic home cleaning products in reusable, elevated aluminum bottles - eliminating single-use plastics. Their plant-based, cruelty-free formulas are free from harsh chemicals, and all packaging is recyclable. With local production to minimize transport impact, Kinfill is also B Corp certified. While no standard currently exists for this level of design and sustainability detail, their commitment is genuine and not greenwashed.</p>"
           }
         }
       },
