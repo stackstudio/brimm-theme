@@ -126,7 +126,6 @@
 
                     <label class="flex items-center mb-2">
                       <input type="radio" name="purchase_option" value="regular" checked class="mr-2">
-                      <span>Buy without membership</span>
                       <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
                         {%- render 'price',
                           product: product,
@@ -139,7 +138,6 @@
 
                     <label class="flex items-center mb-4">
                       <input type="radio" name="purchase_option" value="explorer" class="mr-2">
-                      <span>Buy with membership to get (10% cashback)</span>
                       <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
                         {%- render 'price',
                           product: product,
@@ -148,6 +146,19 @@
                           price_class: 'price--large',
                           member_price: member_price
                         -%}
+                      </div>
+                      <div class="icon open-pricing-tooltip has-pricing-tooltip">
+                        <div class="pricing-info hidden">
+                            <p>MEMBER-ONLY CONTENT</p>
+                            <p>PRIORITY ACCESS AND MEMBER PRICES ON EVENTS</p>
+                            <p>GIVE 10% TO PLANET FUND WITH EACH PURCHASE</p>
+                            <p>EARN 10% CASHBACK WITH EACH PURCHASE*</p>
+                            <p>PAY MEMBER PRICES ON RESET BOXES</p>
+                            <p>(20% off)</p>
+                        </div>
+                        <span class="svg-wrapper">
+                          {{- 'icon-question-mark.svg' | inline_asset_content -}}
+                        </span>
                       </div>
                     </label>
                   </div>

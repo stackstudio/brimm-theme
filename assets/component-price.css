@@ -99,3 +99,25 @@
   text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.7);
 }
+
+.open-pricing-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pricing-info {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -100%);
+  background: white;
+  border: 1px solid rgba(var(--color-foreground), 0.1);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  z-index: 10;
+  min-height: fit-content;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(var(--color-foreground), 0.1);
+}

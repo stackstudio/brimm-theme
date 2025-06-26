@@ -134,7 +134,7 @@ if (!customElements.get('product-form')) {
             membership,
           );
 
-          await new Promise((resolve) => setTimeout(resolve, 2500));
+          await new Promise((resolve) => setTimeout(resolve, 1500));
           try {
             await fetch(`${routes.cart_add_url}`, {
               method: 'POST',

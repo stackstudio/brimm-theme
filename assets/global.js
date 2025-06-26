@@ -1489,33 +1489,32 @@ if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
 
-openPricingTooltip = (event) => {
-  const tooltip = event.currentTarget.querySelector('.pricing-tooltip');
+function openPricingTooltip(event) {
+  const tooltip = event.target;
+  if (!tooltip) return;
+  document.querySelector('.pricing-info')?.classList.remove('hidden');
+
+  tooltip.setAttribute('aria-hidden', 'false');
+  tooltip.classList.add('is-open');
+  trapFocus(tooltip, tooltip.querySelector('button'));
+}
+
+function closePricingTooltip(event) {
+  const tooltip = event.target;
   if (!tooltip) return;
 
-  const isOpen = tooltip.getAttribute('aria-hidden') === 'false';
-  tooltip.setAttribute('aria-hidden', isOpen ? 'true' : 'false');
-  tooltip.classList.toggle('is-open', !isOpen);
-
-  if (!isOpen) {
-    trapFocus(tooltip, tooltip.querySelector('button'));
-  } else {
-    removeTrapFocus(event.currentTarget);
-  }
-  event.stopPropagation();
-  event.preventDefault();
-};
-
-closePricingTooltip = (event) => {
-  const tooltip = event.currentTarget.querySelector('.pricing-tooltip');
-  if (!tooltip) return;
+  document.querySelector('.pricing-info')?.classList.add('hidden');
 
   tooltip.setAttribute('aria-hidden', 'true');
   tooltip.classList.remove('is-open');
   removeTrapFocus(event.currentTarget);
-  event.stopPropagation();
-  event.preventDefault();
-};
+}
+
+// Attach mouseenter/mouseleave listeners to elements with .has-pricing-tooltip
+document.querySelectorAll('.has-pricing-tooltip').forEach((el) => {
+  el.addEventListener('mouseenter', openPricingTooltip);
+  el.addEventListener('mouseleave', closePricingTooltip);
+});
 
 function initializeDetailsWithImages() {
   const details = document.querySelectorAll('details[data-img-src]');
@@ -1563,6 +1562,8 @@ function toggleTabs() {
 }
 
 toggleTabs();
+openPricingTooltip();
+closePricingTooltip();
 
 const dualAddToCart = () => {
   const MEMBERSHIPS = {
