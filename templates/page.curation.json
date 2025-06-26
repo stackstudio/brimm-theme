@@ -85,12 +85,24 @@
             "desaturate": true,
             "link": ""
           }
+        },
+        "column_UBA3BN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fc-1.png",
+            "title": "social",
+            "text": "",
+            "link_label": "",
+            "desaturate": true,
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_4MP6xG",
         "column_c9BW33",
-        "column_Kq8GWU"
+        "column_Kq8GWU",
+        "column_UBA3BN"
       ],
       "name": "Flush Columns",
       "settings": {
