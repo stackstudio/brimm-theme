@@ -30,7 +30,7 @@
         "text_xieHzd": {
           "type": "text",
           "settings": {
-            "copy": "Your text here…"
+            "copy": "{{ collection.description }}"
           }
         }
       },
