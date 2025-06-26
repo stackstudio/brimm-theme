@@ -41,7 +41,7 @@
         "text_paKbLc": {
           "type": "text",
           "settings": {
-            "copy": "Kick start your planet-positive journey and discover innovative products to Reset your food, cleaning or bathroom rituals - in one box."
+            "copy": "<p>Kick start your planet-positive journey and discover innovative products to Reset your food, cleaning or bathroom rituals - in one box.</p>"
           }
         }
       },
@@ -58,7 +58,7 @@
         "padded": false,
         "narrow_image": "shopify://shop_images/Brimm_boxes_skinny_-_Edited.jpg",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/PlasticFreeBox2.jpg",
+        "wide_image": "shopify://shop_images/Brimm_boxes_-_Edited.jpg",
         "color_scheme": "scheme-2"
       }
     },
@@ -132,7 +132,7 @@
         "text_8E4waQ": {
           "type": "text",
           "settings": {
-            "copy": "BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to enable you to live well and tread light - without compromise."
+            "copy": "<p>BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to enable you to live well and tread light - without compromise.</p>"
           }
         }
       },
