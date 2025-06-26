@@ -47,6 +47,7 @@
         "padded": false,
         "narrow_image": "shopify://shop_images/narrow-eg.png",
         "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_10962_Shot_2_4x5_debdc39f-93cb-46af-9d15-1b1e428ee5bc.jpg",
         "color_scheme": ""
       }
     },
@@ -148,6 +149,7 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "justify": true,
         "bordered": false,
         "text_block": "From minimalist bathrooms to regenerative pantries—planet-positive living starts with our Reset Boxes.",
         "image_width": "full",
@@ -344,6 +346,7 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "justify": true,
         "bordered": false,
         "text_block": "Weekly dispatches from people reimagining tomorrow.",
         "image_width": "full",
@@ -402,6 +405,7 @@
         "no-gap": false,
         "first_col": false,
         "last_col": true,
+        "justify": true,
         "bordered": false,
         "text_block": "Experience a planet-positive life first hand. Meet the founders, innovators and changemakers imagining tomorrow",
         "image_width": "full",
