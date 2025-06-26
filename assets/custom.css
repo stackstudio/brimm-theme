@@ -163,6 +163,9 @@
     grid-area: wide;
     object-fit: cover;
     overflow: hidden;
+    @media(max-width: 749px) {
+        aspect-ratio: 14/10;
+    }
 }
 
 .brimm-blocks--stacked-hero .brimm-blocks--callout-column {
@@ -287,6 +290,9 @@
 
 .image-ratio--portrait img {
     aspect-ratio: 9/13;
+    @media(-max-width: 749px) {
+        aspect-ratio: 13/9;
+    }
 }
 
 .image-ratio--square img {
@@ -334,6 +340,9 @@
     left: 0;
     aspect-ratio: 9/17;
     z-index: -1;
+    @media(max-width: 550px) {
+        aspect-ratio: 9/14;
+    }
 }
 
 .desaturate .inline-bg {
@@ -373,6 +382,9 @@
         color: white;
         text-transform: uppercase;
         font-size: var(--step-4);
+    }
+    @media(max-width: 550px) {
+        aspect-ratio: 9/14;
     }
 }
 
