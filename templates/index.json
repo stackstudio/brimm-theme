@@ -206,7 +206,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-4.png",
-            "title": "Stewardship",
+            "title": "social",
             "text": "",
             "link_label": "",
             "desaturate": true,
