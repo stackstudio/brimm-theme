@@ -9,34 +9,6 @@
  */
 {
   "sections": {
-    "wrapped_mega_image_Lcmfmw": {
-      "type": "wrapped-mega-image",
-      "blocks": {
-        "heading_AMxjwf": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "{{ collection.title }}"
-          }
-        },
-        "top_paragraph_K873GN": {
-          "type": "top_paragraph",
-          "settings": {
-            "top_copy": "{{ collection.description }}"
-          }
-        }
-      },
-      "block_order": [
-        "heading_AMxjwf",
-        "top_paragraph_K873GN"
-      ],
-      "name": "Mega",
-      "settings": {
-        "image": "{{ collection.image }}",
-        "video_embed": "",
-        "color_scheme": "scheme-2",
-        "disable_bottom_padding": true
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -44,6 +16,38 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "color_scheme": "scheme-2"
+      }
+    },
+    "stacked_hero_tTUcXe": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_zthACV": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "{{ collection.title }}"
+          }
+        },
+        "text_xieHzd": {
+          "type": "text",
+          "settings": {
+            "copy": "Your text here…"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zthACV",
+        "text_xieHzd"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "{{ collection.image }}",
+        "color_scheme": ""
       }
     },
     "product-grid": {
@@ -68,8 +72,8 @@
     }
   },
   "order": [
-    "wrapped_mega_image_Lcmfmw",
     "banner",
+    "stacked_hero_tTUcXe",
     "product-grid"
   ]
 }
