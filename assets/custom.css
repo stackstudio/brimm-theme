@@ -510,6 +510,12 @@
     font-weight: 800;
 }
 
+.card__badge {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
 /* COOKIE BANNER */
 section.shopify-pc__banner__dialog {
     background: #6E1C20;
