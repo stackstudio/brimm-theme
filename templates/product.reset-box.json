@@ -9,6 +9,38 @@
  */
 {
   "sections": {
+    "stacked_hero_VbVKLp": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_yRKQWP": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "{{ product.title }}"
+          }
+        },
+        "text_mzxM9P": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>{{ product.metafields.custom.image_with_text_body | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yRKQWP",
+        "text_mzxM9P"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "{{ product.featured_image }}",
+        "color_scheme": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -147,9 +179,9 @@
       "settings": {
         "title": "",
         "no-gap": false,
+        "first_col": false,
         "text_block": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
         "heading_size": "h1",
-        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -185,6 +217,7 @@
     }
   },
   "order": [
+    "stacked_hero_VbVKLp",
     "main",
     "accreditations_block_icQUPp",
     "multicolumn",
