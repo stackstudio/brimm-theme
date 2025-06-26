@@ -20,9 +20,9 @@ if (!customElements.get('product-form')) {
         this.hideErrors = this.dataset.hideErrors === 'true';
 
         this.membershipPlans = {
-          pioneer: {
-            variantId: 48578732097878,
-            sellingPlanId: 690226200918,
+          supporter: {
+            variantId: 48556935086422,
+            sellingPlanId: 690226135382,
           },
           explorer: {
             variantId: 48556931481942,

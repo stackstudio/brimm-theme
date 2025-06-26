@@ -1490,24 +1490,11 @@ if (!customElements.get('bulk-add')) {
 }
 
 function openPricingTooltip(event) {
-  const tooltip = event.target;
-  if (!tooltip) return;
   document.querySelector('.pricing-info')?.classList.remove('hidden');
-
-  tooltip.setAttribute('aria-hidden', 'false');
-  tooltip.classList.add('is-open');
-  trapFocus(tooltip, tooltip.querySelector('button'));
 }
 
 function closePricingTooltip(event) {
-  const tooltip = event.target;
-  if (!tooltip) return;
-
   document.querySelector('.pricing-info')?.classList.add('hidden');
-
-  tooltip.setAttribute('aria-hidden', 'true');
-  tooltip.classList.remove('is-open');
-  removeTrapFocus(event.currentTarget);
 }
 
 // Attach mouseenter/mouseleave listeners to elements with .has-pricing-tooltip
@@ -1670,3 +1657,65 @@ const dualAddToCart = () => {
 };
 
 dualAddToCart();
+
+const membershipCartButtons = document.querySelectorAll(
+  '.brimm-blocks--column-button__add-to-cart',
+);
+const cart = document.querySelector('cart-drawer');
+
+const addMembershipProductToCart = async (membershipCartButton) => {
+  const variantId = membershipCartButton?.dataset?.memberVariantId;
+  const sellingPlanId = membershipCartButton?.dataset?.memberSellingPlanId;
+
+  if (!variantId || !sellingPlanId) {
+    console.warn(
+      'Missing membership dataset values on button:',
+      membershipCartButton,
+    );
+    return;
+  }
+
+  console.log(
+    `Adding membership product to cart: ${variantId}, selling plan: ${sellingPlanId}`,
+  );
+
+  try {
+    // Wait 1.5 seconds if needed
+    await new Promise((resolve) => setTimeout(resolve, 1500));
+
+    const response = await fetch(`${routes.cart_add_url}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        form_type: 'product',
+        id: variantId,
+        quantity: 1,
+        selling_plan: sellingPlanId,
+        sections_url: window.location.pathname,
+      }),
+    });
+
+    const cartData = await response.json(); // or just pass response if raw
+
+    publish(PUB_SUB_EVENTS.cartUpdate, {
+      source: 'product-form',
+      productVariantId: variantId,
+      sellingPlanId: sellingPlanId,
+      cartData,
+    });
+
+    // Optional: refresh cart drawer
+    // cart.renderContents(cartData);
+  } catch (error) {
+    console.error('Error adding membership to cart:', error);
+  }
+};
+
+membershipCartButtons.forEach((button) => {
+  button.addEventListener('click', (evt) => {
+    addMembershipProductToCart(evt.currentTarget);
+  });
+});
