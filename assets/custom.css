@@ -58,6 +58,10 @@
     margin-bottom: 0;
     bottom: 0;
     top: auto;
+    @media(max-width: 989px) {
+        bottom: auto;
+        top: 0;
+    }
 }
 
 .footer {
@@ -73,6 +77,9 @@
 .brimm-blocks--hero.full-screen {
     height: calc(100vh - 77px);
     display: flex;
+    @media(max-width: 750px) {
+        height: auto;
+    }
 }
 
 .brimm-blocks--hero.padded {
@@ -84,6 +91,14 @@
     grid-template-columns: 1fr 3fr;
     grid-template-areas: "content wide";
     width: 100%;
+    @media(max-width: 1080px) {
+        grid-template-columns: 1fr 2fr;
+    }
+    @media(max-width: 750px) {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
 }
 
 .padded .brimm-blocks--stacked-hero {
@@ -106,16 +121,42 @@
 .inverted .brimm-blocks--stacked-hero {
     grid-template-columns: 3fr 1fr;
     grid-template-areas: "wide content";
+    @media(max-width: 1080px) {
+        grid-template-columns: 2fr 1fr;
+    }
+    @media(max-width: 750px) {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
 }
 
 .two-image .brimm-blocks--stacked-hero {
    grid-template-columns: 1fr 1fr 2fr;
    grid-template-areas: "content narrow wide";
+   @media(max-width: 1080px) {
+       grid-template-columns: 1fr 2fr;
+       grid-template-areas: "content wide";
+   }
+   @media(max-width: 750px) {
+       display: flex;
+       flex-direction: column-reverse;
+       height: auto;
+   }
 }
 
 .inverted.two-image .brimm-blocks--stacked-hero {
-   grid-template-columns: 2fr 1fr 1fr;
-   grid-template-areas: "wide narrow content";
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: "wide narrow content";
+    @media(max-width: 1080px) {
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "wide content";
+    }
+    @media(max-width: 750px) {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
 }
 
 .brimm-blocks--stacked-hero .brimm-blocks--wide-image {
@@ -132,6 +173,9 @@
     object-fit: cover;
     overflow: hidden;
     grid-area: narrow;
+    @media(max-width: 1080px) {
+        display: none;
+    }
 }
 
 .brimm-blocks--stacked-hero img {
@@ -185,6 +229,9 @@
     .brimm-blocks--callout-column.no-pad {
         padding-right: var(--space-xl);
         max-width: 25%;
+        @media(max-width: 750px) {
+            max-width: 100%;;
+        }
     }
 }
 .brimm-blocks--simple-multicolumn-grid {
@@ -204,11 +251,17 @@
             line-height: 115%;
         }
     }
+    @media(max-width: 750px) {
+        display: block;
+    }
 }
 
 .brimm-blocks--simple-multicolumn-item {
     flex-grow: 1;
     flex-basis: 0;
+    @media(max-width: 750px) {
+        margin-bottom: var(--space-xl);
+    }
 }
 
 .border-link {
@@ -264,6 +317,13 @@
 .brimm-blocks--flush-columns-grid {
     width: 100%;
     display: flex;
+    @media(max-width: 1080px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    @media(max-width: 550px) {
+        display: block;
+    }
 }
 
 .inline-bg {
@@ -334,6 +394,17 @@
         flex-basis: 1;
         height: auto;
         margin-bottom: auto;
+        @media(max-width: 900px) {
+            margin-top: var(--space-l);
+        }
+    }
+    .text_block {
+        @media(max-width: 900px) {
+            width: 100%;
+        }
+    }
+    @media(max-width: 900px) {
+        display: block;
     }
 }
 
@@ -499,12 +570,31 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
     gap: 4rem;
     padding-bottom: 10vh;
     align-items: center;
-    @media(max-width: 749px) {
+    /* @media(max-width: 749px) {
         grid-template-columns: 1fr 1fr;
-    }
-    @media(max-width: 549px) {
+        grid-template-areas:
+            "intro intro"
+            "first second"
+    } */
+    @media(max-width: 749px) {
+        display: block;
         grid-template-columns: 1fr;
     }
+}
+
+.brimm-blocks--membership-columns .brimm-blocks--callout-column {
+    grid-area: intro;
+}
+
+.brimm-blocks--membership-columns .brimm-blocks--column:nth-child(2) {
+    grid-area: first;
+    @media(max-width: 749px) {
+        margin-bottom: var(--space-xl);
+    }
+}
+
+.brimm-blocks--membership-columns .brimm-blocks--column:nth-child(3) {
+    grid-area: second;
 }
 
 .brimm-blocks--membership-columns h2 {
@@ -525,7 +615,7 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
     list-style: none;
     border-bottom: 1px solid #6E1C20;
     color: #6E1C20;
-    padding: 1rem 0;
+    padding: 1rem var(--space-m);
     position: relative;
     text-align: center;
     font-family: manrope;
