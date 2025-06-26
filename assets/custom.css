@@ -697,6 +697,7 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 .brimm-blocks--membership-columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "intro first second";
     gap: 4rem;
     padding-bottom: 10vh;
     align-items: center;
