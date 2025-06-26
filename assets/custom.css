@@ -59,10 +59,10 @@
     bottom: 0;
     top: auto;
     z-index: 999;
-    @media(max-width: 989px) {
+    /* @media(max-width: 989px) {
         bottom: auto;
         top: 0;
-    }
+    } */
 }
 
 .header-wrapper.sticky {
@@ -239,7 +239,8 @@
         padding-right: var(--space-xl);
         max-width: 25%;
         @media(max-width: 750px) {
-            max-width: 100%;;
+            max-width: 100%;
+            padding-right: 0;
         }
     }
 }
@@ -414,11 +415,13 @@
         margin-bottom: auto;
         @media(max-width: 900px) {
             margin-top: var(--space-l);
+            width: 100%;
         }
     }
     .text_block {
         @media(max-width: 900px) {
             width: 100%;
+            max-width: 100%;
         }
     }
     @media(max-width: 900px) {
