@@ -21,6 +21,9 @@
 .contents {
   display: contents;
 }
+.flex {
+  display: flex;
+}
 .grid {
   display: grid;
 }
@@ -38,6 +41,9 @@
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
 }
 .truncate {
   overflow: hidden;
