@@ -57,7 +57,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-3.png",
-            "title": "BRAND MISSION",
+            "title": "performance",
             "text": "",
             "link_label": "",
             "desaturate": true,
@@ -68,7 +68,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-2.png",
-            "title": "PRODUCT INNOVATION",
+            "title": "style",
             "text": "",
             "link_label": "",
             "desaturate": true,
