@@ -75,6 +75,10 @@
     >
   {%- endif -%}
 
+  {% liquid
+    assign collections = product.collections | where: 'handle', section.settings.related_products_collection_handle | first
+  %}
+
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class='page-width'>
     <div class='product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}'>
@@ -109,14 +113,69 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
-                  {%- render 'price',
-                    product: product,
-                    use_variant: true,
-                    show_badges: true,
-                    price_class: 'price--large'
-                  -%}
-                </div>
+                 {% if product.product_type != 'Membership' and collections.handle contains 'reset-boxes' %}
+
+                  {% assign member_discount_rate = 0.10 %}
+                  {% assign regular_price = product.price %}
+                  {% comment %} {% assign member_price = regular_price %} {% endcomment %}
+                  {% assign p = regular_price | times: member_discount_rate %}
+                  {% assign member_price = regular_price | times: 1.0 | minus: p %}
+
+                  <div class="membership-choice my-6">
+                    <p class="font-medium mb-2">How would you like to purchase?</p>
+
+                    <label class="flex items-center mb-2">
+                      <input type="radio" name="purchase_option" value="regular" checked class="mr-2">
+                      <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
+                        {%- render 'price',
+                          product: product,
+                          use_variant: true,
+                          show_badges: true,
+                          price_class: 'price--large',
+                        -%}
+                      </div>
+                    </label>
+
+                    <label class="flex items-center mb-4">
+                      <input type="radio" name="purchase_option" value="explorer" class="mr-2">
+                      <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
+                        {%- render 'price',
+                          product: product,
+                          use_variant: true,
+                          show_badges: true,
+                          price_class: 'price--large',
+                          member_price: member_price
+                        -%}
+                      </div>
+                      <div class="icon open-pricing-tooltip has-pricing-tooltip">
+                        <div class="pricing-info hidden">
+                            <p>MEMBER-ONLY CONTENT</p>
+                            <p>PRIORITY ACCESS AND MEMBER PRICES ON EVENTS</p>
+                            <p>GIVE 10% TO PLANET FUND WITH EACH PURCHASE</p>
+                            <p>EARN 10% CASHBACK WITH EACH PURCHASE*</p>
+                            <p>PAY MEMBER PRICES ON RESET BOXES</p>
+                            <p>(20% off)</p>
+                        </div>
+                        <span class="svg-wrapper">
+                          {{- 'icon-question-mark.svg' | inline_asset_content -}}
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+
+                  {% else %}
+
+                  <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
+                    {%- render 'price',
+                      product: product,
+                      use_variant: true,
+                      show_badges: true,
+                      price_class: 'price--large'
+                    -%}
+                  </div>
+
+                 {% endif %}
+
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class='volume-pricing-note' id='Volume-Note-{{ section.id }}'>
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
@@ -136,8 +195,8 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
+                {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 <div {{ block.shopify_attributes }}>
-                  {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                   {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
                     <input type='hidden' name='id' value='{{ product.selected_or_first_available_variant.id }}'>
                     {{ form | payment_terms }}

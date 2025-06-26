@@ -1489,6 +1489,33 @@ if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
 
+function openPricingTooltip(event) {
+  const tooltip = event.target;
+  if (!tooltip) return;
+  document.querySelector('.pricing-info')?.classList.remove('hidden');
+
+  tooltip.setAttribute('aria-hidden', 'false');
+  tooltip.classList.add('is-open');
+  trapFocus(tooltip, tooltip.querySelector('button'));
+}
+
+function closePricingTooltip(event) {
+  const tooltip = event.target;
+  if (!tooltip) return;
+
+  document.querySelector('.pricing-info')?.classList.add('hidden');
+
+  tooltip.setAttribute('aria-hidden', 'true');
+  tooltip.classList.remove('is-open');
+  removeTrapFocus(event.currentTarget);
+}
+
+// Attach mouseenter/mouseleave listeners to elements with .has-pricing-tooltip
+document.querySelectorAll('.has-pricing-tooltip').forEach((el) => {
+  el.addEventListener('mouseenter', openPricingTooltip);
+  el.addEventListener('mouseleave', closePricingTooltip);
+});
+
 function initializeDetailsWithImages() {
   const details = document.querySelectorAll('details[data-img-src]');
   if (!details.length) return;
@@ -1535,3 +1562,111 @@ function toggleTabs() {
 }
 
 toggleTabs();
+openPricingTooltip();
+closePricingTooltip();
+
+const dualAddToCart = () => {
+  const MEMBERSHIPS = {
+    pioneer: {
+      variantId: 48578732097878,
+      sellingPlanId: 690226200918,
+    },
+    explorer: {
+      variantId: 48556931481942,
+      sellingPlanId: 690221023574,
+    },
+  };
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const dualBuyButton = document.getElementById('dual-buy-button');
+    const productFormSubmit = document.querySelector(
+      'form .product-form__submit',
+    );
+    const radios = document.getElementsByName('purchase_option');
+    const section = document.querySelector('.product__info-container');
+    const sectionId = section ? section.getAttribute('id') : null;
+    const hiddenMembershipInput = document.querySelector('.product-membership');
+    console.log(productFormSubmit);
+
+    if (!dualBuyButton) return;
+
+    dualBuyButton.addEventListener('click', function () {
+      const selectedOption = Array.from(radios).find((r) => r.checked)?.value;
+      const mainVariantId = parseInt(dualBuyButton.dataset.productId, 10);
+
+      if (!selectedOption) return;
+
+      // Step 1: Add main product
+
+      // Step 2: If a membership is selected, add the correct one
+      if (selectedOption === 'explorer') {
+        const membership = MEMBERSHIPS[selectedOption];
+        hiddenMembershipInput.value = membership.sellingPlanId || '';
+        console.log(`Adding ${selectedOption} membership to cart`, membership);
+
+        fetch('/cart/add', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify({
+            form_type: 'product',
+            utf8: '✓',
+            'section-id': sectionId,
+            sections: 'cart-drawer,cart-icon-bubble',
+            id: mainVariantId,
+            quantity: 1,
+          }),
+        })
+          .then((res) => res.json())
+          .then(() => {
+            return fetch('/cart/add', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                Accept: 'application/json',
+              },
+              body: JSON.stringify({
+                form_type: 'product',
+                utf8: '✓',
+                'section-id': sectionId,
+                sections: 'cart-drawer,cart-icon-bubble',
+                id: membership.variantId,
+                quantity: 1,
+                selling_plan: membership.sellingPlanId,
+              }),
+            });
+          })
+          .then((res) => {})
+          .catch((err) => {
+            console.error('Error adding to cart:', err);
+          });
+      } else {
+        console.log(`Adding main product ${mainVariantId} to cart`);
+        fetch('/cart/add', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify({
+            form_type: 'product',
+            utf8: '✓',
+            'section-id': 'template--25527513383254__main',
+            sections: 'cart-drawer,cart-icon-bubble',
+            id: mainVariantId,
+            quantity: 1,
+          }),
+        })
+          .then((res) => res.json())
+          .then(() => {})
+          .catch((err) => {
+            console.error('Error adding to cart:', err);
+          });
+      }
+    });
+  });
+};
+
+dualAddToCart();
