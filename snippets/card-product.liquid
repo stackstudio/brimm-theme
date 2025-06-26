@@ -362,6 +362,7 @@
                       disabled
                     {% endif %}
                   >
+                {% if card_product.available %}
                   <button
                     id='{{ product_form_id }}-submit'
                     type='submit'
@@ -392,6 +393,7 @@
                     {%- endif -%}
                     {%- render 'loading-spinner' -%}
                   </button>
+                {% endif %}
                 {%- endform -%}
               </product-form>
             {%- endif -%}

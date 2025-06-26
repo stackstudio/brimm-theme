@@ -478,10 +478,10 @@
 }
 
 /* New Stacked Collection */
-.collection-grid {
+/* .collection-grid {
     display: grid;
     grid-template-columns: 25% 1fr;
-}
+} */
 
 .collection-grid .slider-mobile-gutter {
     padding: 0;
@@ -494,6 +494,20 @@
 .collection-grid .quick-add__submit {
     background: var(--color-button);
     color: rgb(var(--color-button-text));
+}
+
+.facets-container, .facet-filters, .facets-container {
+    font-family: 'Manrope', sans-serif;
+}
+
+.select__select, .product-count__text {
+    font-family: 'Manrope', sans-serif;
+}
+
+.facets__heading, .facet-filters__label {
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0;
+    font-weight: 800;
 }
 
 /* COOKIE BANNER */
