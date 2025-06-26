@@ -171,10 +171,10 @@
       "name": "Flush Columns",
       "settings": {
         "title": "CURATED BY INDUSTRY EXPERTS",
-        "text_block": "At BRiMM, every product is thoughtfully curated by industry experts (hello, Sam & Christabel) to ensure they not only perform beautifully but also smell and taste fantastic.",
+        "text_block": "Our rigorous vetting process, developed by Tom Berry, is grounded in independent standards and accreditations. Read more about what we look for in our brands.",
         "columns_desktop": 4,
-        "button_label": "SHOP NOW",
-        "button_link": "shopify://pages/reset-boxes",
+        "button_label": "READ MORE",
+        "button_link": "shopify://blogs/journal/microplastic-free-beauty-wellness",
         "color_scheme": ""
       }
     },
