@@ -481,7 +481,7 @@
           "type": "cta_button",
           "settings": {
             "label": "BECOME A MEMBER",
-            "link": "shopify://pages/founder-members",
+            "link": "shopify://pages/membership",
             "style": "primary"
           }
         }

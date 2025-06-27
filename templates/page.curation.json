@@ -353,7 +353,7 @@
           "type": "cta_button",
           "settings": {
             "label": "See reset boxes",
-            "link": "shopify://pages/founder-members",
+            "link": "shopify://pages/membership",
             "style": "primary"
           }
         }

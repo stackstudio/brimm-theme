@@ -445,7 +445,7 @@
           "type": "cta_button",
           "settings": {
             "label": "BECOME A MEMBER TODAY",
-            "link": "shopify://pages/founder-members",
+            "link": "shopify://pages/membership",
             "style": "primary"
           }
         }
