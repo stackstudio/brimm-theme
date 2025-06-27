@@ -121,6 +121,38 @@
         "color_scheme": ""
       }
     },
+    "stacked_hero_ADYGmV": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_yJHVXe": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Default Heading"
+          }
+        },
+        "text_jchHpz": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Your text here…</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yJHVXe",
+        "text_jchHpz"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Common_Ground_Cover_Image.png",
+        "color_scheme": ""
+      }
+    },
     "multirow_aw3Mcy": {
       "type": "multirow",
       "blocks": {
@@ -221,6 +253,7 @@
     "stacked_hero_6XrCb8",
     "flush_columns_6dwDNR",
     "justified_header_section_XYt8hK",
+    "stacked_hero_ADYGmV",
     "multirow_aw3Mcy",
     "justified_hero_rPD4Fx"
   ]
