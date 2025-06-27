@@ -94,10 +94,10 @@
       "name": "Flush Columns",
       "settings": {
         "title": "CONNECT WITH CLIMATE OPTIMISTS",
-        "text_block": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
+        "text_block": "Members get priority access and member only prices",
         "columns_desktop": 3,
-        "button_label": "Button label",
-        "button_link": "",
+        "button_label": "Become a member",
+        "button_link": "shopify://pages/membership",
         "color_scheme": ""
       }
     },
