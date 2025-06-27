@@ -9,31 +9,25 @@
  */
 {
   "sections": {
-    "justified_hero_QM4eHB": {
-      "type": "justified-hero",
-      "blocks": {
-        "heading_Fx9jWy": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "CONNECT WITH CLIMATE OPTIMISTS"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Fx9jWy"
-      ],
-      "name": "Justified Hero",
-      "settings": {
-        "image": "shopify://shop_images/DSC06433.jpg",
-        "color_scheme": "scheme-6"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "stacked_hero_6XrCb8": {
+      "type": "stacked-hero",
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "color_scheme": "scheme-3"
       }
     },
     "multicolumn_3ieqcJ": {
@@ -88,9 +82,9 @@
       "settings": {
         "title": "Join BRiMM events",
         "no-gap": false,
+        "first_col": false,
         "text_block": "We run regular events to get our collective of brands and members together. You can expect:",
         "heading_size": "h1",
-        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -221,8 +215,8 @@
     }
   },
   "order": [
-    "justified_hero_QM4eHB",
     "main",
+    "stacked_hero_6XrCb8",
     "multicolumn_3ieqcJ",
     "justified_header_section_XYt8hK",
     "multirow_aw3Mcy",

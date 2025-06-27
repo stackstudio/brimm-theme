@@ -120,8 +120,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Christabel_BRIMM_359.jpg",
-            "title": "HOME & FOOD",
-            "text": "<p>Heading up Home & Food with over 20 years in retail, Christabel Biella is former Buyer at House of Fraser, and Farmdrop</p>",
+            "title": "CHRISTABEL BIELLA",
+            "text": "<p>Heading up Home & Food with over 20 years in retail product selection, previously a Buyer at House of Fraser, Farmdrop</p>",
             "link_label": "",
             "desaturate": true,
             "link": ""
@@ -131,8 +131,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Tiff_BRIMM_075.jpg",
-            "title": "FASHION",
-            "text": "<p>Tiffanie Darke, fashion writer and journalist, is renowned for her advocacy in sustainable fashion. Former fashion editor for The Telegraph, The Times and Harrods</p>",
+            "title": "TIFF DARKE",
+            "text": "<p>A fashion journalist, renowned for her advocacy in sustainable fashion. Former fashion editor for The Telegraph, The Times and Harrods</p>",
             "link_label": "",
             "desaturate": true,
             "link": ""
@@ -142,8 +142,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Sam_BRIMM_762.jpg",
-            "title": "BEAUTY",
-            "text": "<p>Sam Freedman, is ex-Beauty editor at Grazia,  bringing oodles of experience, carefully curating our beauty products</p>",
+            "title": "SAM FREEDMAN",
+            "text": "<p>Ex-Beauty editor at Grazia, Sam brings oodles of experience, carefully curating our beauty products</p>",
             "link_label": "",
             "desaturate": true,
             "link": ""
@@ -153,7 +153,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Tom_Brimm.jpg",
-            "title": "SUSTAINABILITY",
+            "title": "Tom Berry",
             "text": "<p>Sustainability expert Tom Berry has decades experience at well known brands like FarFetch and Innocent</p>",
             "link_label": "",
             "desaturate": true,
