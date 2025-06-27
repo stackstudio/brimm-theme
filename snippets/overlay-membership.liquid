@@ -52,7 +52,7 @@
   {% if customer %}
     {% assign has_membership_tag = false %}
     {% for tag in customer.tags %}
-      {% if tag == 'get_inspired_tier' or tag == 'reset_your_life_tier' or tag == 'invest_in_the_future_we_need_tier' %}
+      {% if tag == 'mid_tier' or tag == 'member' %}
         {% assign has_membership_tag = true %}
         {% break %}
       {% endif %}
