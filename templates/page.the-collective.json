@@ -193,13 +193,13 @@
         "text_4iePUp": {
           "type": "text",
           "settings": {
-            "copy": "<p>BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.</p>"
+            "copy": "<p>Our very first project, funded by our members action is a solar project that allows the brands we stock to go 100% renewable, for less than they would currently pay for energy</p>"
           }
         },
         "cta_button_AzjAQ3": {
           "type": "cta_button",
           "settings": {
-            "label": "Read a Blog Post",
+            "label": "Read more",
             "link": "shopify://pages/a-recipe",
             "style": "primary"
           }
