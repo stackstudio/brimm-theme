@@ -135,11 +135,20 @@
           "settings": {
             "copy": "<p>Join us for an exclusive screening of this excellent documentary on regenerative agriculture followed by a panel discussion with BRiMM brands</p>"
           }
+        },
+        "cta_button_UR4RTX": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Register interest",
+            "link": "",
+            "style": "primary"
+          }
         }
       },
       "block_order": [
         "heading_yJHVXe",
-        "text_jchHpz"
+        "text_jchHpz",
+        "cta_button_UR4RTX"
       ],
       "name": "Stacked Hero",
       "settings": {
