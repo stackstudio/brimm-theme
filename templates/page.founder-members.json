@@ -132,7 +132,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Find out more",
-            "link": "#",
+            "link": "shopify://pages/the-collective",
             "style": "primary"
           }
         }
