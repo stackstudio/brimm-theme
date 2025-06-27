@@ -29,7 +29,7 @@
         "text_zcTPdD": {
           "type": "text",
           "settings": {
-            "copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
+            "copy": "<p>Imagine if shopping could be a force for good. Imagine if every purchase could power positive change. With BRiMM it does, meaning your action makes a difference</p>"
           }
         }
       },
@@ -42,6 +42,8 @@
         "two_image": false,
         "full_screen": false,
         "invert": false,
+        "wider": false,
+        "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/1010.png",
         "color_scheme": "scheme-1"
@@ -89,6 +91,8 @@
         "no-gap": false,
         "first_col": false,
         "last_col": true,
+        "justify": true,
+        "bordered": false,
         "text_block": "At BRiMM, we believe its time for a fresh approach - one where every individual action truly makes a difference",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -116,7 +120,7 @@
         "text_DpTEpE": {
           "type": "text",
           "settings": {
-            "copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
+            "copy": "<p>BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.</p>"
           }
         },
         "cta_button_VTCgDn": {
@@ -138,6 +142,8 @@
         "two_image": false,
         "full_screen": false,
         "invert": false,
+        "wider": false,
+        "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/1010.png",
         "color_scheme": "scheme-2"
@@ -155,7 +161,7 @@
         "text_4iePUp": {
           "type": "text",
           "settings": {
-            "copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
+            "copy": "<p>BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less.</p>"
           }
         },
         "cta_button_AzjAQ3": {
@@ -177,6 +183,8 @@
         "two_image": false,
         "full_screen": false,
         "invert": true,
+        "wider": false,
+        "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/1010.png",
         "color_scheme": "scheme-2"
@@ -239,6 +247,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "justify": true,
+        "bordered": false,
         "text_block": "We’ve already got a line-up of inspiring early members—designers, writers, and changemakers who are helping shape BRiMM from day one. Join them and kickstart a flywheel of change.",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -311,6 +321,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "justify": true,
+        "bordered": false,
         "text_block": "",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -368,6 +380,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "justify": true,
+        "bordered": false,
         "text_block": "Weekly dispatches from people reimagining tomorrow.",
         "image_width": "full",
         "image_ratio": "adapt",
