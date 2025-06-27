@@ -65,8 +65,9 @@
         "column_Qj9KtB": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Food_packshot_red_16-9.jpg",
+            "title": "Supper clubs",
+            "text": "<p>Connect with planet enthusiasts over great food and conversation</p>",
             "link_label": "",
             "desaturate": true,
             "link": ""
