@@ -83,7 +83,7 @@
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
-        "full_screen": false,
+        "full_screen": true,
         "invert": true,
         "wider": false,
         "padded": false,
