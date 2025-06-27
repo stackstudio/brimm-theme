@@ -225,6 +225,7 @@
         "text_jchHpz",
         "cta_button_UR4RTX"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
@@ -266,6 +267,7 @@
         "text_frazkG",
         "cta_button_qxTBfC"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
@@ -307,6 +309,7 @@
         "text_XT9qm4",
         "cta_button_Vj64tn"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
