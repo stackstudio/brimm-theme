@@ -60,7 +60,7 @@
             "text": "<p>Our Reset Boxes are a great way to start your planet-positive journey, with 20% off RRP</p>",
             "link_label": "",
             "desaturate": true,
-            "link": ""
+            "link": "shopify://pages/reset-boxes"
           }
         },
         "column_aCifnQ": {
@@ -82,7 +82,7 @@
             "text": "<p>Meet our community at events like intimate supper clubs, fashion chats and film screenings</p>",
             "link_label": "",
             "desaturate": true,
-            "link": ""
+            "link": "shopify://pages/events"
           }
         },
         "column_6wHLCn": {
@@ -93,7 +93,7 @@
             "text": "<p>Weekly stories from leading writers—inspiration, clever tips, and expert insights</p>",
             "link_label": "",
             "desaturate": true,
-            "link": ""
+            "link": "shopify://pages/editorial-home-page"
           }
         }
       },
@@ -866,9 +866,9 @@
         "collapsible_row_3FgUGh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does member credit work?",
+            "heading": "How does member pricing work?",
             "icon": "none",
-            "row_content": "<p>Member credit is intended to help encourage you to switch to planet positive products to kick-start your journey to a lower impact life. Together with cashback we've designed it so that if you return regularly to our shop you'll more than pay back your membership.</p><p>On annual memberships, once you've paid we will credit your account with a number of gift cards which you can spend on our discovery and reset boxes. </p><p>On monthly memberships we credit your account each quarter at the end of your membership period. </p>",
+            "row_content": "<p>For our Reset boxes, we offer our members discounted pricing to help encourage you to switch to planet-positive products and kick-start your journey to a lower impact life. As our Reset boxes are already discounted, these are <strong>excluded</strong> from any further 10%  cashback on purchase.</p><p>Together with cashback on purchases of our other products, we've designed it so that if you return regularly to our shop you'll more than pay back your membership.</p>",
             "page": ""
           }
         },
@@ -907,6 +907,15 @@
             "row_content": "<p>Membership costs from £6 or £60/yr. We say they're worth more than that though and here's how we calculate that.</p><p><strong>How it works with our middle tier @ £120/yr</strong></p><p>Based on an assumed spend of £600, this membership offers value of £200 per year.</p><p>This is calculated as £60 of content, £80 of credit and £60 cashback (10% of £600)</p><p>On top of this you will contribute £72 to our planet fund which we hope you agree is great value.</p><p><strong>How it works with our top tier @ £180/yr</strong></p><p>Based on an assumed spend of £800, this membership offers value of £300 per year.</p><p>This is calculated as £60 of content, £120 of credit and £80 cashback (10% of £800)</p><p>On top of this you will contribute £98 to our planet fund which we hope you agree is phenomenal value.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_8VtJ8K": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I subscribe to your Reset boxes?",
+            "icon": "none",
+            "row_content": "<p>Our reset boxes are designed for you to discover a selection of our great products and brands from our store at a discounted price. We will not be offering these on subscription.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -921,7 +930,8 @@
         "collapsible_row_Dc388Y",
         "collapsible_row_U6B7ya",
         "collapsible_row_CqEdEw",
-        "collapsible_row_9jwtnP"
+        "collapsible_row_9jwtnP",
+        "collapsible_row_8VtJ8K"
       ],
       "settings": {
         "caption": "",
