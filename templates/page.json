@@ -162,6 +162,20 @@
         "color_scheme": ""
       }
     },
+    "stacked_hero_tVJ9Vi": {
+      "type": "stacked-hero",
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Orsola_2021_28_portrait_jpg.jpg",
+        "color_scheme": ""
+      }
+    },
     "stacked_hero_aa4G6q": {
       "type": "stacked-hero",
       "blocks": {
@@ -280,6 +294,7 @@
     "flush_columns_6dwDNR",
     "justified_header_section_XYt8hK",
     "stacked_hero_ADYGmV",
+    "stacked_hero_tVJ9Vi",
     "stacked_hero_aa4G6q",
     "multirow_aw3Mcy",
     "justified_hero_rPD4Fx"
