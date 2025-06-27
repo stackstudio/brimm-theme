@@ -19,6 +19,24 @@
     },
     "stacked_hero_6XrCb8": {
       "type": "stacked-hero",
+      "blocks": {
+        "heading_BQbxnD": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "planet positive events"
+          }
+        },
+        "text_cihYja": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Your text here…</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BQbxnD",
+        "text_cihYja"
+      ],
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
