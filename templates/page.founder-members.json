@@ -29,22 +29,13 @@
         "text_jLVpTi": {
           "type": "text",
           "settings": {
-            "copy": "Enhance your planet-positive lifestyle. Where climate optimists take action together."
-          }
-        },
-        "cta_button_ENCyUD": {
-          "type": "cta_button",
-          "settings": {
-            "label": "Join as a Member",
-            "link": "shopify://pages/founder-members",
-            "style": "primary"
+            "copy": "<p>Enhance your planet-positive lifestyle. Where climate optimists take action together.</p>"
           }
         }
       },
       "block_order": [
         "heading_kaXGxK",
-        "text_jLVpTi",
-        "cta_button_ENCyUD"
+        "text_jLVpTi"
       ],
       "name": "Stacked Hero",
       "settings": {
@@ -134,7 +125,7 @@
         "text_MW7F3y": {
           "type": "text",
           "settings": {
-            "copy": "Your membership supports our business. Each purchase earns you 10% back, while we repurpose 10% from what you spend in our Planet Fund."
+            "copy": "<p>Your membership supports our business. Each purchase earns you 10% back, while we repurpose 10% from what you spend in our Planet Fund.</p>"
           }
         },
         "cta_button_fmcUPr": {
