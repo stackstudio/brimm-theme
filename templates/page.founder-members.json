@@ -877,7 +877,7 @@
           "settings": {
             "heading": "How does cashback work?",
             "icon": "none",
-            "row_content": "<p>We offer 10% cashback to our members on all purchases they make, unless credit has been applied to the transaction.</p><p>This cashback is paid quarterly into your account and can be used to bring down the cost of future transactions.</p><p></p>",
+            "row_content": "<p>We offer 10% cashback to our members on all purchases they make (exclusing discounted membership products like the Reset boxes), excluding any other credit or promotions applied to your order.</p><p>This cashback accrues as credit in your membership account and can be used to bring down the cost of future transactions.</p>",
             "page": ""
           }
         },
