@@ -195,7 +195,7 @@
       "settings": {
         "two_image": false,
         "full_screen": false,
-        "invert": true,
+        "invert": false,
         "wider": false,
         "padded": false,
         "video_embed": "",
@@ -206,17 +206,6 @@
     "multirow_aw3Mcy": {
       "type": "multirow",
       "blocks": {
-        "row_WcPkaq": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/british_pasture_leather.jpg",
-            "caption": "",
-            "heading": "<strong>Take a field trip to a regenerative farm</strong>",
-            "text": "<p>Join us for a day out on one of the UK’s leading regenerative farms for a tour hosted by British Pasture Leather.</p>",
-            "button_label": "Find out more",
-            "button_link": "shopify://pages/join-brimm-british-pasture-leather-for-a-regenerative-farming-field-day-like-no-other"
-          }
-        },
         "row_BmiEYg": {
           "type": "row",
           "settings": {
@@ -230,7 +219,6 @@
         }
       },
       "block_order": [
-        "row_WcPkaq",
         "row_BmiEYg"
       ],
       "name": "t:sections.multirow.presets.name",
