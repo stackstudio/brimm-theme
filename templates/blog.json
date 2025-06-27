@@ -9,40 +9,54 @@
  */
 {
   "sections": {
-    "justified_hero_ncRD6f": {
-      "type": "justified-hero",
+    "stacked_hero_bYweWU": {
+      "type": "stacked-hero",
       "blocks": {
-        "heading_EwrjhQ": {
+        "heading_7Npehm": {
           "type": "heading",
           "settings": {
-            "heading_text": "READ ARTICLES THAT INSPIRE"
+            "heading_text": "Read articles that inspire"
+          }
+        },
+        "text_qKrtjA": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>We're a membership-based shop, journal and collective pioneering a people-powered model of change.</p>"
           }
         }
       },
       "block_order": [
-        "heading_EwrjhQ"
+        "heading_7Npehm",
+        "text_qKrtjA"
       ],
-      "name": "Justified Hero",
+      "name": "Stacked Hero",
       "settings": {
-        "image": "shopify://shop_images/Rambler_package.jpg",
-        "color_scheme": "scheme-6"
+        "two_image": true,
+        "full_screen": true,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "narrow_image": "shopify://shop_images/narrow-eg.png",
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_10962_Shot_2_4x5_debdc39f-93cb-46af-9d15-1b1e428ee5bc.jpg",
+        "color_scheme": ""
       }
     },
     "main": {
       "type": "main-blog",
       "settings": {
-        "layout": "grid",
+        "layout": "collage",
         "show_image": true,
         "image_height": "medium",
-        "show_date": false,
-        "show_author": false,
+        "show_date": true,
+        "show_author": true,
         "padding_top": 52,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "justified_hero_ncRD6f",
+    "stacked_hero_bYweWU",
     "main"
   ]
 }
