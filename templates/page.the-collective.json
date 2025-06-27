@@ -158,7 +158,7 @@
         "cta_button_VTCgDn": {
           "type": "cta_button",
           "settings": {
-            "label": "Read a Blog Post",
+            "label": "Read more",
             "link": "shopify://pages/a-recipe",
             "style": "primary"
           }
