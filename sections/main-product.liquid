@@ -124,7 +124,7 @@
                   {% if customer.tags contains 'mid_tier' or customer.tags contains 'member' %}
 
                       <label class="flex items-center mb-4" for="explorer">
-                        <input type="radio" name="purchase_option" id="explorer" value="explorer" checked class="mr-2">
+                        <input type="radio" name="purchase_option" id="explorer" checked class="mr-2">
                         <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
                           {%- render 'price',
                             product: product,
