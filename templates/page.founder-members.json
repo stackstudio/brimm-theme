@@ -845,21 +845,21 @@
             "page": ""
           }
         },
-        "collapsible_row_9GrFtA": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does membership work beyond founder membership?",
-            "icon": "none",
-            "row_content": "<p>After our limited founder spaces have gone, we'll offer membership for £120 per year or £12 per month. If you're not yet ready to join as a full member, we also offer a supporter option for £60 per year or £6 per month. Head on to our membership page to find out more.</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_PkzjKt": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What does planet-positive mean?",
             "icon": "none",
             "row_content": "<p>We use these words a lot. When we say them we mean a combination of optimism and positive impact on our planet from both the activities we do as a business and the brands we work with.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9GrFtA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does membership work beyond founder membership?",
+            "icon": "none",
+            "row_content": "<p>After our limited founder spaces have gone, we'll offer membership for £120 per year or £12 per month. If you're not yet ready to join as a full member, we also offer a supporter option for £60 per year or £6 per month. Head on to our membership page to find out more.</p>",
             "page": ""
           }
         },
@@ -881,30 +881,21 @@
             "page": ""
           }
         },
-        "collapsible_row_U6B7ya": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are your reset boxes?",
-            "icon": "none",
-            "row_content": "<p>We've curated a series of boxes to help you reset a part of your life. We've done this to help discovering planet positive brands easier to save you time and ease.</p><p>They're fixed selections today but if our members would value this we're looking to make them customisable in the near future. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_CqEdEw": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are you reset boxes a subscription?",
-            "icon": "none",
-            "row_content": "<p>No, they're a one-off discovery box to help you discover some new brands. Because of the different selection of products we imagine they'll run out at different times so we didn't think it would make sense to make them a subscription.</p><p>We might create a subscription model in the future and would welcome any ideas you might have on this.</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_9jwtnP": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How do you work out the annual value of the membership?",
             "icon": "none",
             "row_content": "<p>Membership costs from £6 or £60/yr. We say they're worth more than that though and here's how we calculate that.</p><p><strong>How it works with our middle tier @ £120/yr</strong></p><p>Based on an assumed spend of £600, this membership offers value of £200 per year.</p><p>This is calculated as £60 of content, £80 of credit and £60 cashback (10% of £600)</p><p>On top of this you will contribute £72 to our planet fund which we hope you agree is great value.</p><p><strong>How it works with our top tier @ £180/yr</strong></p><p>Based on an assumed spend of £800, this membership offers value of £300 per year.</p><p>This is calculated as £60 of content, £120 of credit and £80 cashback (10% of £800)</p><p>On top of this you will contribute £98 to our planet fund which we hope you agree is phenomenal value.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_U6B7ya": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are your reset boxes?",
+            "icon": "none",
+            "row_content": "<p>We've curated a series of boxes to help you reset a part of your life. We've done this to help discovering planet positive brands easier to save you time and ease.</p><p>They're fixed selections today but if our members would value this we're looking to make them customisable in the near future. </p>",
             "page": ""
           }
         },
@@ -924,13 +915,12 @@
         "collapsible_row_4CwHdQ",
         "collapsible_row_EQYETU",
         "collapsible_row_zyntJQ",
-        "collapsible_row_9GrFtA",
         "collapsible_row_PkzjKt",
+        "collapsible_row_9GrFtA",
         "collapsible_row_3FgUGh",
         "collapsible_row_Dc388Y",
-        "collapsible_row_U6B7ya",
-        "collapsible_row_CqEdEw",
         "collapsible_row_9jwtnP",
+        "collapsible_row_U6B7ya",
         "collapsible_row_8VtJ8K"
       ],
       "settings": {
