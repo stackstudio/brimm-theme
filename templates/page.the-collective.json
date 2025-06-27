@@ -240,7 +240,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Become a Founder Member",
-            "link": "shopify://pages/founder-members",
+            "link": "shopify://pages/membership",
             "style": "primary"
           }
         }

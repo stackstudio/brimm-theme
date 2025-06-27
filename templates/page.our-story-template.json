@@ -664,7 +664,7 @@
           "type": "cta_button",
           "settings": {
             "label": "View Membership",
-            "link": "shopify://pages/founder-members",
+            "link": "shopify://pages/membership",
             "style": "primary"
           }
         }
