@@ -119,13 +119,13 @@
         "heading_NcnrUM": {
           "type": "heading",
           "settings": {
-            "heading_text": "Membership makes our unique model possible"
+            "heading_text": "Membership funds direct climate action"
           }
         },
         "text_MW7F3y": {
           "type": "text",
           "settings": {
-            "copy": "<p>Your membership supports our business. Each purchase earns you 10% back, while we repurpose 10% from what you spend in our Planet Fund.</p>"
+            "copy": "<p>We repurpose the margin from what you spend, diverting it to fund climate mitigation. Your membership makes this unique model possible.</p>"
           }
         },
         "cta_button_fmcUPr": {
