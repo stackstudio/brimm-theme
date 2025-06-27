@@ -180,7 +180,7 @@
         "cta_button_Vj64tn": {
           "type": "cta_button",
           "settings": {
-            "label": "Click me",
+            "label": "Register your interest",
             "link": "",
             "style": "primary"
           }
