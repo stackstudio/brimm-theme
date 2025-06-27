@@ -195,7 +195,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-3.png",
-            "title": "Environmental",
+            "title": "ENVIRONMENTAL",
             "text": "",
             "link_label": "",
             "desaturate": true,
@@ -206,7 +206,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fc-4.png",
-            "title": "social",
+            "title": "SOCIAL IMPACT",
             "text": "",
             "link_label": "",
             "desaturate": true,
