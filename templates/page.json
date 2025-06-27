@@ -76,8 +76,9 @@
         "column_qCetKD": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/bathroom-eg.png",
+            "title": "FIELDS TRIPS AND WORKSHOPS",
+            "text": "<p>Hands on experiences with a planet-positive future</p>",
             "link_label": "",
             "desaturate": true,
             "link": ""
@@ -97,75 +98,6 @@
         "button_label": "Button label",
         "button_link": "",
         "color_scheme": ""
-      }
-    },
-    "multicolumn_3ieqcJ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_ntBXMw": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Film screenings",
-            "text": "<p>Thought provoking films and documentaries accompanied by panel discussions.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_m6UqGU": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Supper clubs",
-            "text": "<p>Great food, intimate locations and stimulating conversation.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Eb9UwN": {
-          "type": "column",
-          "settings": {
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Field days and workshops",
-            "text": "<p>Hands on experiences with the thinkers, doers and makers imagining a planet-positive future.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_ntBXMw",
-        "column_m6UqGU",
-        "column_Eb9UwN"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Join BRiMM events",
-        "no-gap": false,
-        "first_col": false,
-        "text_block": "We run regular events to get our collective of brands and members together. You can expect:",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "justified_header_section_XYt8hK": {
@@ -287,7 +219,6 @@
     "main",
     "stacked_hero_6XrCb8",
     "flush_columns_6dwDNR",
-    "multicolumn_3ieqcJ",
     "justified_header_section_XYt8hK",
     "multirow_aw3Mcy",
     "justified_hero_rPD4Fx"
