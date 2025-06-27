@@ -164,6 +164,33 @@
     },
     "stacked_hero_tVJ9Vi": {
       "type": "stacked-hero",
+      "blocks": {
+        "heading_6UWgBx": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Join a stitch n bitch"
+          }
+        },
+        "text_frazkG": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Your text here…</p>"
+          }
+        },
+        "cta_button_qxTBfC": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Click me",
+            "link": "",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6UWgBx",
+        "text_frazkG",
+        "cta_button_qxTBfC"
+      ],
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
