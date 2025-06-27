@@ -132,31 +132,46 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Why We Created the BRiMM Reset Boxes",
-            "text": "<p>We had one clear mission: to help people 'reset; their lives in the areas that matter most...</p>",
+            "title": "Event",
+            "text": "",
             "image_label": "",
-            "link_label": "Read article",
+            "link_label": "See event",
             "link": "shopify://blogs/journal/why-we-created-the-brimm-reset-boxes"
           }
         },
-        "column_8T6fwG": {
+        "column_jb8jka": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/naja-bertolt-jensen-oxbzN6KY17s-unsplash.jpg",
+            "image": "shopify://shop_images/border-eg.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Why Less Really is More: How and why it's time to take a different approach to skincare",
-            "text": "<p>Tweaking a handful of diet and drink choices throughout our day-to-days is just about the most impactful thing we can do to improve our health...</p>",
+            "title": "Event",
+            "text": "",
             "image_label": "",
-            "link_label": "Read article",
-            "link": "shopify://blogs/journal/why-less-really-is-more-beauty-editor-lisa-oxenham-s-take-on-the-most-effective-skincare"
+            "link_label": "See event",
+            "link": "shopify://blogs/journal/why-we-created-the-brimm-reset-boxes"
+          }
+        },
+        "column_6wmWdw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/border-eg.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Event",
+            "text": "",
+            "image_label": "",
+            "link_label": "See event",
+            "link": "shopify://blogs/journal/why-we-created-the-brimm-reset-boxes"
           }
         }
       },
       "block_order": [
         "column_rQYUWp",
-        "column_8T6fwG"
+        "column_jb8jka",
+        "column_6wmWdw"
       ],
       "name": "Simple Multicolumn",
       "settings": {
