@@ -55,11 +55,11 @@
         "column_hYJYxy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Beauty_Luxury_Reset_Box_Products.jpg",
-            "title": "RESET",
-            "text": "<p>Our Reset Boxes are a great way to start your planet-positive journey, with 20% off RRP</p>",
+            "image": "shopify://shop_images/Fanette_Guilloud_Photos_1.jpg",
+            "title": "MEMBER PRICES",
+            "text": "<p>Pay 20% less on our Reset Boxes which are designed to kick-start your planet-positive journey</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": "shopify://pages/reset-boxes"
           }
         },
