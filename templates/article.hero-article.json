@@ -9,6 +9,38 @@
  */
 {
   "sections": {
+    "stacked_hero_BzNWjF": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_W3qRP8": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "{{ article.title }}"
+          }
+        },
+        "text_wb3zAn": {
+          "type": "text",
+          "settings": {
+            "copy": "{{ article.content }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_W3qRP8",
+        "text_wb3zAn"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "{{ article.image }}",
+        "color_scheme": ""
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -51,6 +83,7 @@
     }
   },
   "order": [
+    "stacked_hero_BzNWjF",
     "main",
     "repeater_block_XjWbWC"
   ]
