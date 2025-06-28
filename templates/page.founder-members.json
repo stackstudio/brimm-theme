@@ -541,6 +541,80 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_simple_BqQwfJ": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_HKnwgb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Chantelle_Nicholson.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Chantelle Nicholson",
+            "text": "<p>Green Michelin Starred Chef. Co-Founder Apricity and The Cordia Collective</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tBt6FP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3rd_SHOT_Lisa_Oxenham.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Lisa Oxenham",
+            "text": "<p>Former Beauty and Style Editor Marie Claire</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wbzw4A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/guy_hayler.webp",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Guy Hayler",
+            "text": "<p>Co-Founder Blue Earth </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_HKnwgb",
+        "column_tBt6FP",
+        "column_wbzw4A"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "justify": true,
+        "bordered": false,
+        "text_block": "",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_XGLUDx": {
       "type": "multicolumn",
       "blocks": {
@@ -1069,6 +1143,7 @@
     "multicolumn_simple_4pjjMQ",
     "multicolumn_simple_MzLNDF",
     "multicolumn_simple_AkiADg",
+    "multicolumn_simple_BqQwfJ",
     "multicolumn_XGLUDx",
     "membership_columns_XcwD66",
     "image_with_text_GG3a9F",
