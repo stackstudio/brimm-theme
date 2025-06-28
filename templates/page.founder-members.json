@@ -88,11 +88,11 @@
         "column_6wHLCn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Herbal_Pioneer_Photos_Felix_Nikado.jpg",
+            "image": "shopify://shop_images/Forager_Photos_by_Daniel_Faro_1.jpg",
             "title": "JOURNAL",
             "text": "<p>Weekly stories from leading writers—inspiration, clever tips, and expert insights</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": "shopify://pages/editorial-home-page"
           }
         }
