@@ -243,41 +243,6 @@
         "wide_image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
         "color_scheme": ""
       }
-    },
-    "multirow_aw3Mcy": {
-      "type": "multirow",
-      "blocks": {
-        "row_BmiEYg": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
-            "caption": "",
-            "heading": "Join a stitch n bitch",
-            "text": "<p>Join us for a hands-on clothing repair workshop with sustainable fashion pioneer Orsola de Castro.</p>",
-            "button_label": "Find out more",
-            "button_link": "shopify://pages/stitch-bitch-sip-a-hands-on-workshop-with-orsola-de-castro-at-her-peckham-cafe"
-          }
-        }
-      },
-      "block_order": [
-        "row_BmiEYg"
-      ],
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -287,7 +252,6 @@
     "justified_header_section_XYt8hK",
     "stacked_hero_QaD3X3",
     "stacked_hero_cgBAJi",
-    "stacked_hero_6pkEf6",
-    "multirow_aw3Mcy"
+    "stacked_hero_6pkEf6"
   ]
 }
