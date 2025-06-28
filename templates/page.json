@@ -203,20 +203,50 @@
         "color_scheme": ""
       }
     },
+    "stacked_hero_6pkEf6": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_YELrLj": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Common ground screening"
+          }
+        },
+        "text_i6eVxQ": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Join us for an exclusive screening of this excellent documentary investigating regenerative farming practices and here from a panel of BRiMM brands.</p>"
+          }
+        },
+        "cta_button_9xewyA": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Click me",
+            "link": "",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YELrLj",
+        "text_i6eVxQ",
+        "cta_button_9xewyA"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
+        "color_scheme": ""
+      }
+    },
     "multirow_aw3Mcy": {
       "type": "multirow",
       "blocks": {
-        "row_WcPkaq": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/british_pasture_leather.jpg",
-            "caption": "",
-            "heading": "<strong>Take a field trip to a regenerative farm</strong>",
-            "text": "<p>Join us for a day out on one of the UK’s leading regenerative farms for a tour hosted by British Pasture Leather.</p>",
-            "button_label": "Find out more",
-            "button_link": "shopify://pages/join-brimm-british-pasture-leather-for-a-regenerative-farming-field-day-like-no-other"
-          }
-        },
         "row_BmiEYg": {
           "type": "row",
           "settings": {
@@ -230,7 +260,6 @@
         }
       },
       "block_order": [
-        "row_WcPkaq",
         "row_BmiEYg"
       ],
       "name": "t:sections.multirow.presets.name",
@@ -249,41 +278,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "justified_hero_rPD4Fx": {
-      "type": "justified-hero",
-      "blocks": {
-        "heading_ckbwwG": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "BRiMM x ELV"
-          }
-        },
-        "text_WFLhd6": {
-          "type": "text",
-          "settings": {
-            "copy": "Read about our recent event we hosted together with ELV Denim. 100% post consumer waste, negronis and good people."
-          }
-        },
-        "cta_button_mzgUNz": {
-          "type": "cta_button",
-          "settings": {
-            "label": "Read more",
-            "link": "shopify://blogs/journal/first-brimm-event-elv-denim",
-            "style": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ckbwwG",
-        "text_WFLhd6",
-        "cta_button_mzgUNz"
-      ],
-      "name": "Justified Hero",
-      "settings": {
-        "image": "shopify://shop_images/DSC06229.jpg",
-        "color_scheme": "scheme-6"
-      }
     }
   },
   "order": [
@@ -293,7 +287,7 @@
     "justified_header_section_XYt8hK",
     "stacked_hero_QaD3X3",
     "stacked_hero_cgBAJi",
-    "multirow_aw3Mcy",
-    "justified_hero_rPD4Fx"
+    "stacked_hero_6pkEf6",
+    "multirow_aw3Mcy"
   ]
 }
