@@ -121,17 +121,16 @@
 
 .newsletter-form__terms-label-text {
   margin-left: 1rem;
-  color: black;
+  color: #6E1C20;
 }
 
 .newsletter-form__terms-label-text a {
   font-family: Manrope;
-  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 120%; /* 16.8px */
   letter-spacing: -0.28px;
-  color: black;
+  color: #6E1C20;
 }
 
 .newsletter-form__terms-label-text a:hover {

@@ -471,6 +471,22 @@
   }
 }
 
+/* Journal tweaks */
+.main-blog {
+    background: #6E1C20;
+    color: #E3B2FF;
+}
+.blog-articles {
+    background: #6E1C20;
+    color: #E3B2FF;
+    .full-unstyled-link {
+        color:#E3B2FF;
+    }
+    .caption-with-letter-spacing {
+        color: #E3B2FF;
+    }
+}
+
 /* New Stacked Collection */
 /* .collection-grid {
     display: grid;
@@ -908,5 +924,5 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 }
 
 .newsletter-form__terms-label-text {
-    font-size: 1rem;
+    font-size: var(--step-1);
 }

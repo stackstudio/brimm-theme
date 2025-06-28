@@ -14,9 +14,13 @@
 }
 
 .brimm-blocks--newsletter .newsletter-form__button {
-    background: black;
-    color: white;
+    background: #6E1C20;
+    color: #E3B2FF;
     margin-bottom: 2rem;
+}
+
+.brimm-blocks--newsletter .newsletter-form__button:hover {
+    background: black;
 }
 
 .brimm-blocks--newsletter .newsletter-form {

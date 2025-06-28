@@ -24,7 +24,6 @@
 }
 
 .pagination__item {
-  color: rgb(var(--color-foreground));
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +32,12 @@
   width: 100%;
   padding: 0;
   text-decoration: none;
+  color: #E3B2FF;
+  font-family: 'Manrope';
+  font-weight: 800;
+  a {
+      color: #E3B2FF;
+  }
 }
 
 a.pagination__item:hover::after {
@@ -43,12 +48,14 @@ a.pagination__item:hover::after {
   height: 0.6rem;
 }
 
-.pagination__item--current::after {
-  height: 0.1rem;
+.pagination__item--current {
+    background: #E3B2FF;
+    color: #6E1C20;
+    border-radius: 8px;
 }
 
-.pagination__item--current::after,
-.pagination__item:hover::after {
+
+.pagination__item:hover:not(.pagination__item--current)::after {
   content: '';
   display: block;
   width: 2rem;
