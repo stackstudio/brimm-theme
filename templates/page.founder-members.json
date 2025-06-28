@@ -113,47 +113,6 @@
         "color_scheme": ""
       }
     },
-    "stacked_hero_7GDFy6": {
-      "type": "stacked-hero",
-      "blocks": {
-        "heading_NcnrUM": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "Your support funds direct climate action"
-          }
-        },
-        "text_MW7F3y": {
-          "type": "text",
-          "settings": {
-            "copy": "<p>We repurpose 10% of revenue, diverting it to fund climate mitigation. Your membership makes this unique model possible. Every purchase leads gives 10% and you get 10% as a thank you</p>"
-          }
-        },
-        "cta_button_fmcUPr": {
-          "type": "cta_button",
-          "settings": {
-            "label": "Find out more",
-            "link": "shopify://pages/the-collective",
-            "style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_NcnrUM",
-        "text_MW7F3y",
-        "cta_button_fmcUPr"
-      ],
-      "name": "Stacked Hero",
-      "settings": {
-        "two_image": false,
-        "full_screen": false,
-        "invert": true,
-        "wider": false,
-        "padded": false,
-        "video_embed": "",
-        "wide_image": "shopify://shop_images/1010.png",
-        "color_scheme": "scheme-2"
-      }
-    },
     "membership_columns_jLA4hM": {
       "type": "membership-columns",
       "blocks": {
@@ -199,6 +158,47 @@
         "supporter_benefit_three": "<h4>Journal Access</h4><p>Why this is good.</p>",
         "global_benefits": "<h3>A benefit</h3><p>A description</p>",
         "columns": 3
+      }
+    },
+    "stacked_hero_7GDFy6": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_NcnrUM": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Your support funds direct climate action"
+          }
+        },
+        "text_MW7F3y": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>We repurpose 10% of revenue, diverting it to fund climate mitigation. Your membership makes this unique model possible. Every purchase leads gives 10% and you get 10% as a thank you</p>"
+          }
+        },
+        "cta_button_fmcUPr": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Find out more",
+            "link": "shopify://pages/the-collective",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NcnrUM",
+        "text_MW7F3y",
+        "cta_button_fmcUPr"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/1010.png",
+        "color_scheme": "scheme-2"
       }
     },
     "multicolumn_simple_4pjjMQ": {
@@ -988,8 +988,8 @@
     "main",
     "stacked_hero_hdCfVJ",
     "flush_columns_mVkqkM",
-    "stacked_hero_7GDFy6",
     "membership_columns_jLA4hM",
+    "stacked_hero_7GDFy6",
     "multicolumn_simple_4pjjMQ",
     "multicolumn_simple_MzLNDF",
     "multicolumn_simple_PPEayE",
