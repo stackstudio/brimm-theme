@@ -155,8 +155,8 @@
         "two_image": false,
         "full_screen": false,
         "invert": false,
-        "wider": false,
-        "padded": false,
+        "wider": true,
+        "padded": true,
         "video_embed": "",
         "wide_image": "shopify://shop_images/Common_Ground_Cover_Image.png",
         "color_scheme": ""
@@ -196,8 +196,8 @@
         "two_image": false,
         "full_screen": false,
         "invert": true,
-        "wider": false,
-        "padded": false,
+        "wider": true,
+        "padded": true,
         "video_embed": "",
         "wide_image": "shopify://shop_images/british_pasture_leather.jpg",
         "color_scheme": ""
@@ -237,8 +237,8 @@
         "two_image": false,
         "full_screen": false,
         "invert": false,
-        "wider": false,
-        "padded": false,
+        "wider": true,
+        "padded": true,
         "video_embed": "",
         "wide_image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
         "color_scheme": ""
