@@ -399,11 +399,11 @@
         "column_pk7FHV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/jocelyn.png",
+            "image": "shopify://shop_images/Hiroki_Shirasuka.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Jocelyn Longdon",
+            "title": "Hiroki Shirasuka",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "image_label": "",
             "link_label": "",
