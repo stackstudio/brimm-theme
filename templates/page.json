@@ -162,20 +162,50 @@
         "color_scheme": ""
       }
     },
+    "stacked_hero_cgBAJi": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_NbTeEJ": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Field trip to a regenerative farm"
+          }
+        },
+        "text_pDVWWz": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Join us for a day our on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather</p>"
+          }
+        },
+        "cta_button_wNLCc6": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Click me",
+            "link": "",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NbTeEJ",
+        "text_pDVWWz",
+        "cta_button_wNLCc6"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Common_Ground_Cover_Image.png",
+        "color_scheme": ""
+      }
+    },
     "multirow_aw3Mcy": {
       "type": "multirow",
       "blocks": {
-        "row_PeU4tn": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Common_Ground_Cover_Image.png",
-            "caption": "",
-            "heading": "<strong>Join a Common Ground film screening</strong>",
-            "text": "<p>Join us for an exclusive screening of this excellent regenerative agriculture documentary followed by a panel discussion with BRiMM brands.</p>",
-            "button_label": "Find out more",
-            "button_link": "shopify://pages/common-ground-film-screening-and-panel-discussion"
-          }
-        },
         "row_WcPkaq": {
           "type": "row",
           "settings": {
@@ -200,7 +230,6 @@
         }
       },
       "block_order": [
-        "row_PeU4tn",
         "row_WcPkaq",
         "row_BmiEYg"
       ],
@@ -263,6 +292,7 @@
     "flush_columns_6dwDNR",
     "justified_header_section_XYt8hK",
     "stacked_hero_QaD3X3",
+    "stacked_hero_cgBAJi",
     "multirow_aw3Mcy",
     "justified_hero_rPD4Fx"
   ]
