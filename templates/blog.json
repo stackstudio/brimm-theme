@@ -134,12 +134,12 @@
         "column_VpHGNP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Becky_BRIMM_184.jpg",
+            "image": "shopify://shop_images/Monisha_Rajesh.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Becky Lucas",
-            "text": "<p>BRiMMs Editor</p>",
+            "title": "Monisja Rajesh",
+            "text": "<p>Train travel expert and published author</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
