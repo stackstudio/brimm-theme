@@ -51,14 +51,13 @@
       ],
       "name": "Stacked Hero",
       "settings": {
-        "two_image": true,
+        "two_image": false,
         "full_screen": true,
         "invert": false,
         "wider": false,
         "padded": false,
-        "narrow_image": "shopify://shop_images/Brimm_boxes_skinny_-_Edited.jpg",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Luxury_Bathroom_Reset_Box_angled.jpg",
+        "wide_image": "shopify://shop_images/Brimm_1_Shot_6_Version_4_copy_2_16x9_a3852612-0e1d-411d-8b9c-1b83b86eea55.jpg",
         "color_scheme": "scheme-2"
       }
     },
