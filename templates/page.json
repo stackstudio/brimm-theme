@@ -44,8 +44,9 @@
         "invert": false,
         "wider": false,
         "padded": false,
+        "narrow_image": "shopify://shop_images/Lewis_Ferris_Photos.jpg",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Brimm_Lifestyle_shot_kitchen_cupboard.jpg",
+        "wide_image": "shopify://shop_images/british_pasture_leather.jpg",
         "color_scheme": "scheme-3"
       }
     },
