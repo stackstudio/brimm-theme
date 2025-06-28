@@ -193,11 +193,11 @@
         "column_wgz7mw": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-3.png",
+            "image": "shopify://shop_images/Lost_Jelly_Luise_Photos.jpg",
             "title": "ENVIRONMENTAL",
             "text": "",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
