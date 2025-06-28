@@ -17,15 +17,15 @@
                 {%- else -%}
                     <div class="brimm-blocks--flush-column-item {% if block.settings.desaturate %} desaturate{% endif %}" >
                 {%- endif -%}
-                    <img class="inline-bg" src={{ block.settings.image | image_url }} />
                     <div class='multicolumn-card__info'>
+                        <img class="inline-bg" src={{ block.settings.image | image_url }} />
                         {%- if block.settings.title != blank -%}
                         <h3 class='inline-richtext body-extra'>{{ block.settings.title }}</h3>
                         {%- endif -%}
-                        {%- if block.settings.text != blank -%}
-                        <div class='rte body-medium'>{{ block.settings.text }}</div>
-                        {%- endif -%}
                     </div>
+                    {%- if block.settings.text != blank -%}
+                        <div class='rte body-medium'>{{ block.settings.text }}</div>
+                    {%- endif -%}
                     {%- if block.settings.link != blank -%}
                         </a>
                     {%- else -%}

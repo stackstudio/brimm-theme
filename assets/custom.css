@@ -362,26 +362,20 @@
     transition: all 1.2s ease;
 }
 
-.desaturate:hover h3 {
-    /* color: #E3B2FF; */
-    text-shadow: 0 0 6px rgba(0,0,0,.4);
-}
-
-.desaturate:hover p {
-    text-shadow: 0 0 2px rgba(0,0,0,.4);
-}
-
-.desaturate:hover .inline-bg {
-    filter: contrast(100%) brightness(1) saturate(100%);
-    scale: 1.05;
-}
-
 .brimm-blocks--flush-column-item {
     flex-grow: 1;
     flex-basis: 0;
-    aspect-ratio: 9/17;
-    background-size: cover;
-    background-position: bottom center;
+    .rte {
+        padding: var(--space-m);
+        font-family: 'Manrope';
+        font-weight: bold;
+    }
+}
+
+.brimm-blocks--flush-column-item .multicolumn-card__info {
+    flex-grow: 1;
+    flex-basis: 0;
+    aspect-ratio: 9/14;
     color: white;
     text-align: center;
     display: flex;
