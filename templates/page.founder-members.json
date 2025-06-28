@@ -478,21 +478,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Hasna Kourda",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wyEdcA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/guy_hayler.webp",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Guy Hayler",
-            "text": "<p>Co-Founder Blue Earth </p>",
+            "text": "<p>Founder SaveYourWardrobe</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -511,12 +497,26 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_wyEdcA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/guy_hayler.webp",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Guy Hayler",
+            "text": "<p>Co-Founder Blue Earth </p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_HwKeyq",
-        "column_wyEdcA",
-        "column_Mah6Xk"
+        "column_Mah6Xk",
+        "column_wyEdcA"
       ],
       "name": "Simple Multicolumn",
       "settings": {
