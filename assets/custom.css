@@ -803,6 +803,11 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
     width: 100%;
     align-self: baseline;
     font-weight: 866;
+    transition: all .4s ease;
+}
+
+.brimm-blocks--membership-columns .button:hover {
+    background: white;
 }
 
 .brimm-blocks--supporter-wrapper {

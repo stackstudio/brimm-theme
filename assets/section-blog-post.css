@@ -1,19 +1,6 @@
-.article-template > *:first-child:not(.article-template__hero-container) {
-  margin-top: 5rem;
-}
-
-.article-template {
-  margin: 6rem 0;
-}
-
-@media screen and (min-width: 750px) {
-  .article-template {
-    margin: 12rem 0 0 0;
-  }
-}
 
 .article-template--repeater-block {
-  padding: 6rem 0 0;
+  padding: var(--size-xl) 0 0;
 }
 
 .article-template--repeater-block .body-medium p {
@@ -24,7 +11,7 @@
 
 @media screen and (min-width: 750px) {
   .article-template--repeater-block {
-    padding: 6rem 0 0;
+    padding: var(--space-l) 0 0;
   }
 }
 
@@ -38,9 +25,24 @@
   padding: 4rem 0;
 }
 
+.article-template > *:first-child:not(.article-template__hero-container) {
+    margin: 0;
+    max-width: 100%;
+    padding: var(--space-3xl);
+    background: #6E1C20;
+    color: #E3B2FF;
+    h1 {
+       color: #E3B2FF;
+    }
+}
+
 @media screen and (min-width: 750px) {
   .article-template > *:first-child:not(.article-template__hero-container) {
-    margin-top: calc(5rem + var(--page-width-margin));
+      margin: 0;
+      max-width: 100%;
+      padding: var(--space-3xl);
+      background: #6E1C20;
+      color: #E3B2FF;
   }
 }
 
@@ -107,7 +109,7 @@
   text-align: center;
   /* Global/Headline/Extra Bold/36 */
   font-family: Manrope;
-  font-size: 36px;
+  font-size: calc(var(--step-5) + var(--step-2));
   font-style: normal;
   font-weight: 800;
   line-height: 120%;
@@ -136,28 +138,17 @@
 
 .article-template__content {
   max-width: 100%;
-  padding: 0 9rem;
+  padding: 0;
   color: var(--Primary-Mono-Black, #000);
-  text-align: justify;
+  font-size: var(--step-4);
+  font-weight: 100;
+  font-style: italic;
 
-  /* Global/Headline/Extra Bold/24 */
-  font-family: Manrope;
-  font-size: clamp(20px, 4vw, 36px);
-  font-style: normal;
-  font-weight: 800;
-  line-height: 125%;
-  /* 30px */
-  text-transform: uppercase;
 }
 
 .article-template__content {
-  margin: 6rem 0;
-}
-
-@media screen and (min-width: 750px) {
-  .article-template__content {
-    margin: 12rem auto 0;
-  }
+  margin: var(--space-3xl) auto 0;
+  max-width: 80rem;
 }
 
 .article-template__social-sharing {
