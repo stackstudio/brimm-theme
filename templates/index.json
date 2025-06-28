@@ -182,11 +182,11 @@
         "column_NdQMPf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-2.png",
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_7_88296c10-a71d-49e9-a598-bc51fa1ab379.jpg",
             "title": "Style",
             "text": "",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
