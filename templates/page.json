@@ -123,6 +123,33 @@
     },
     "stacked_hero_QaD3X3": {
       "type": "stacked-hero",
+      "blocks": {
+        "heading_TNNyUX": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Common ground screening"
+          }
+        },
+        "text_UPcU7w": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Your text here…</p>"
+          }
+        },
+        "cta_button_TtFag9": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Click me",
+            "link": "",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TNNyUX",
+        "text_UPcU7w",
+        "cta_button_TtFag9"
+      ],
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
