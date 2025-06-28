@@ -201,6 +201,65 @@
         "color_scheme": "scheme-2"
       }
     },
+    "multicolumn_simple_nQn6Tp": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_dPJx6e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/event-1_59ca7ad0-614b-4760-ab36-18cf1b6ee7e8.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        },
+        "column_WwaVUh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/event-2.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dPJx6e",
+        "column_WwaVUh"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Moments to connect",
+        "no-gap": false,
+        "first_col": false,
+        "last_col": true,
+        "justify": true,
+        "bordered": false,
+        "text_block": "Weekly dispatches from people reimagining tomorrow.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "View Events",
+        "button_link": "shopify://blogs/journal",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_simple_4pjjMQ": {
       "type": "multicolumn-simple",
       "blocks": {
@@ -400,65 +459,6 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Read the Journal",
-        "button_link": "shopify://blogs/journal",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_simple_nQn6Tp": {
-      "type": "multicolumn-simple",
-      "blocks": {
-        "column_dPJx6e": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/event-1_59ca7ad0-614b-4760-ab36-18cf1b6ee7e8.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Why We Created the BRiMM Reset Boxes",
-            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
-            "image_label": "",
-            "link_label": "Read more",
-            "link": ""
-          }
-        },
-        "column_WwaVUh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/event-2.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Why We Created the BRiMM Reset Boxes",
-            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
-            "image_label": "",
-            "link_label": "Read more",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_dPJx6e",
-        "column_WwaVUh"
-      ],
-      "name": "Simple Multicolumn",
-      "settings": {
-        "title": "Moments to connect",
-        "no-gap": false,
-        "first_col": false,
-        "last_col": true,
-        "justify": true,
-        "bordered": false,
-        "text_block": "Weekly dispatches from people reimagining tomorrow.",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "View Events",
         "button_link": "shopify://blogs/journal",
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
@@ -990,10 +990,10 @@
     "flush_columns_mVkqkM",
     "membership_columns_jLA4hM",
     "stacked_hero_7GDFy6",
+    "multicolumn_simple_nQn6Tp",
+    "multicolumn_simple_PPEayE",
     "multicolumn_simple_4pjjMQ",
     "multicolumn_simple_MzLNDF",
-    "multicolumn_simple_PPEayE",
-    "multicolumn_simple_nQn6Tp",
     "multicolumn_XGLUDx",
     "membership_columns_XcwD66",
     "image_with_text_GG3a9F",
