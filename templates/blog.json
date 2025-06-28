@@ -85,6 +85,20 @@
             "link": ""
           }
         },
+        "column_EY8PAF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lisa_Oxenham.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Lisa Oxenham",
+            "text": "<p>Former Beauty and Style Director of Marie Claire</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_FfdiK6": {
           "type": "column",
           "settings": {
@@ -102,6 +116,7 @@
       "block_order": [
         "column_kQaYmW",
         "column_xjQpRa",
+        "column_EY8PAF",
         "column_FfdiK6"
       ],
       "name": "Simple Multicolumn",
