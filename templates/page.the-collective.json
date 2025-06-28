@@ -155,106 +155,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_simple_T3BVEp": {
-      "type": "multicolumn-simple",
-      "blocks": {
-        "column_BU7TXd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/event-1_59ca7ad0-614b-4760-ab36-18cf1b6ee7e8.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "CONSUMERS GET",
-            "text": "<ul><li>Support our business with their membership</li><li>We give a series of benefits to support their planet positive life</li><li>10% of everything they spend goes to our Planet Fund to support</li><li>Vote on initiatives that the Planet Fund supports</li></ul>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_HQxecY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/event-2.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "OUR MEMBERS GET",
-            "text": "<ul><li>Support our business with their membership</li><li>We give a series of benefits to support their planet positive life</li><li>10% of everything they spend goes to our Planet Fund to support</li><li>Vote on initiatives that the Planet Fund supports</li></ul>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_BU7TXd",
-        "column_HQxecY"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "<strong>PEOPLE POWERED MOVEMENT FOR CHANGE</strong>",
-        "no-gap": false,
-        "first_col": false,
-        "last_col": true,
-        "justify": true,
-        "bordered": false,
-        "text_block": "At BRiMM, we believe its time for a fresh approach - one where every individual action truly makes a difference",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "View Membership",
-        "button_link": "shopify://pages/founder-members",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "stacked_hero_FH4hxq": {
-      "type": "stacked-hero",
-      "blocks": {
-        "heading_nCRVwF": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "OUR MOST IMPORTANT SHAREHOLDER"
-          }
-        },
-        "text_DpTEpE": {
-          "type": "text",
-          "settings": {
-            "copy": "<p>We're making mother nature a shareholder and director giving her a seat at the table and a voice in our decisions</p>"
-          }
-        },
-        "cta_button_VTCgDn": {
-          "type": "cta_button",
-          "settings": {
-            "label": "Read more",
-            "link": "shopify://pages/a-recipe",
-            "style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nCRVwF",
-        "text_DpTEpE",
-        "cta_button_VTCgDn"
-      ],
-      "name": "Stacked Hero",
-      "settings": {
-        "two_image": false,
-        "full_screen": false,
-        "invert": false,
-        "wider": false,
-        "padded": false,
-        "video_embed": "",
-        "wide_image": "shopify://shop_images/1010.png",
-        "color_scheme": "scheme-2"
-      }
-    },
     "stacked_hero_Rp3YYK": {
       "type": "stacked-hero",
       "blocks": {
@@ -296,6 +196,107 @@
         "color_scheme": "scheme-2"
       }
     },
+    "stacked_hero_FH4hxq": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_nCRVwF": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "OUR MOST IMPORTANT SHAREHOLDER"
+          }
+        },
+        "text_DpTEpE": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>We're making mother nature a shareholder and director giving her a seat at the table and a voice in our decisions</p>"
+          }
+        },
+        "cta_button_VTCgDn": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Read more",
+            "link": "shopify://pages/a-recipe",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nCRVwF",
+        "text_DpTEpE",
+        "cta_button_VTCgDn"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/1010.png",
+        "color_scheme": "scheme-3"
+      }
+    },
+    "multicolumn_simple_T3BVEp": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_BU7TXd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/event-1_59ca7ad0-614b-4760-ab36-18cf1b6ee7e8.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "CONSUMERS GET",
+            "text": "<ul><li>Support our business with their membership</li><li>We give a series of benefits to support their planet positive life</li><li>10% of everything they spend goes to our Planet Fund to support</li><li>Vote on initiatives that the Planet Fund supports</li></ul>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HQxecY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/event-2.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "OUR MEMBERS GET",
+            "text": "<ul><li>Support our business with their membership</li><li>We give a series of benefits to support their planet positive life</li><li>10% of everything they spend goes to our Planet Fund to support</li><li>Vote on initiatives that the Planet Fund supports</li></ul>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BU7TXd",
+        "column_HQxecY"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>PEOPLE POWERED MOVEMENT FOR CHANGE</strong>",
+        "no-gap": false,
+        "first_col": false,
+        "last_col": true,
+        "justify": true,
+        "bordered": false,
+        "text_block": "At BRiMM, we believe its time for a fresh approach - one where every individual action truly makes a difference",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "View Membership",
+        "button_link": "shopify://pages/founder-members",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_simple_eTaTHY": {
       "type": "multicolumn-simple",
       "blocks": {
@@ -332,6 +333,7 @@
         "column_FTVgqV",
         "column_PpAD8K"
       ],
+      "disabled": true,
       "name": "Simple Multicolumn",
       "settings": {
         "title": "Stories that spark change",
@@ -816,9 +818,9 @@
     "stacked_hero_QMQVmL",
     "stacked_hero_wTNyC9",
     "multicolumn_simple_eyxzAQ",
-    "multicolumn_simple_T3BVEp",
-    "stacked_hero_FH4hxq",
     "stacked_hero_Rp3YYK",
+    "stacked_hero_FH4hxq",
+    "multicolumn_simple_T3BVEp",
     "multicolumn_simple_eTaTHY",
     "justified_hero_Mrd9QU",
     "wrapped_mega_image_cLgHKc",
