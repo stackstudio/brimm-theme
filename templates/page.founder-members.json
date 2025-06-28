@@ -66,11 +66,11 @@
         "column_aCifnQ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Food_blue_background_edited.jpg",
+            "image": "shopify://shop_images/Fanette_Guilloud_Photo_1.jpg",
             "title": "CASHBACK",
             "text": "<p>Earn 10% cashback every time you shop whilst giving 10% to the planet fund</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
