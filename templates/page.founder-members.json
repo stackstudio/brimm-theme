@@ -470,6 +470,20 @@
     "multicolumn_simple_AkiADg": {
       "type": "multicolumn-simple",
       "blocks": {
+        "column_HwKeyq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hasna_kourda.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Hasna Kourda",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_wyEdcA": {
           "type": "column",
           "settings": {
@@ -478,20 +492,6 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Hiroki Shirasuka",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rUNgR6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Anna_Foster_Head_Shot_3_1080x_28229f04-d1db-4916-99dc-f9dea8c3131b.webp",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Anna foster",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "image_label": "",
             "link_label": "",
@@ -514,8 +514,8 @@
         }
       },
       "block_order": [
+        "column_HwKeyq",
         "column_wyEdcA",
-        "column_rUNgR6",
         "column_Mah6Xk"
       ],
       "name": "Simple Multicolumn",
