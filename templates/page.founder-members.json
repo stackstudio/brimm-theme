@@ -487,12 +487,12 @@
         "column_wyEdcA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Hiroki_Shirasuka.jpg",
+            "image": "shopify://shop_images/guy_hayler.webp",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Guy Hayler",
-            "text": "",
+            "text": "<p>Co-Founder Blue Earth </p>",
             "image_label": "",
             "link_label": "",
             "link": ""
