@@ -571,26 +571,11 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_wbzw4A": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/guy_hayler.webp",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Guy Hayler",
-            "text": "<p>Co-Founder Blue Earth </p>",
-            "image_label": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column_HKnwgb",
-        "column_tBt6FP",
-        "column_wbzw4A"
+        "column_tBt6FP"
       ],
       "name": "Simple Multicolumn",
       "settings": {
