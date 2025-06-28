@@ -94,20 +94,6 @@
     "multicolumn_simple_cCpCQn": {
       "type": "multicolumn-simple",
       "blocks": {
-        "column_eYLqFz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Food_packshot_red_16-9.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "PANTRY",
-            "text": "<p>Reset your pantry with our regenerative food reset box.</p>",
-            "image_label": "",
-            "link_label": "Shop Pantry",
-            "link": "shopify://products/brimm-pantry-essentials-reset-box"
-          }
-        },
         "column_dw8jiL": {
           "type": "column",
           "settings": {
@@ -120,6 +106,20 @@
             "image_label": "",
             "link_label": "Shop Beauty",
             "link": "shopify://pages/reset-boxes"
+          }
+        },
+        "column_eYLqFz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Food_packshot_red_16-9.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "PANTRY",
+            "text": "<p>Reset your pantry with our regenerative food reset box.</p>",
+            "image_label": "",
+            "link_label": "Shop Pantry",
+            "link": "shopify://products/brimm-pantry-essentials-reset-box"
           }
         },
         "column_Dmwhzr": {
@@ -138,8 +138,8 @@
         }
       },
       "block_order": [
-        "column_eYLqFz",
         "column_dw8jiL",
+        "column_eYLqFz",
         "column_Dmwhzr"
       ],
       "name": "t:sections.multicolumn.presets.name",
