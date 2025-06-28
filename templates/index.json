@@ -204,11 +204,11 @@
         "column_WFzWd8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-4.png",
-            "title": "SOCIAL IMPACT",
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_9.jpg",
+            "title": "SOCIAL",
             "text": "",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         }
