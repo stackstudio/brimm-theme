@@ -933,21 +933,21 @@
     "collapsible_content_HmpeVH": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_UAjqnF": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Why do you have a membership?",
-            "icon": "none",
-            "row_content": "<p>We have this simple but big idea that we can divert profits from the things you buy to have a positive impact. But we're still a business and need to make money so the membership funds our business. What the membership really enables is for us to pool our power—funding clean energy, supporting innovative brands, and making planet-positive living easier (and more fun) for everyone. Plus, you get great rewards for doing good. Win-win?</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_dcTrGm": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Can non-members experience BRiMM?",
             "icon": "none",
             "row_content": "<p>Yes with a capital Y. Anyone can shop in our store. Read our inspiring articles and, if there's space, join our events. Members just get extra perks—like members pricing, cashback, exclusive content, and 10% of their spend going to our Planet Fund. But we don't believe in gatekeeping, just more good stuff for everyone.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UAjqnF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why do you have a membership?",
+            "icon": "none",
+            "row_content": "<p>We have this simple but big idea that we can divert profits from the things you buy to have a positive impact. But we're still a business and need to make money so the membership funds our business. What the membership really enables is for us to pool our power—funding clean energy, supporting innovative brands, and making planet-positive living easier (and more fun) for everyone. Plus, you get great rewards for doing good. Win-win?</p>",
             "page": ""
           }
         },
@@ -1043,8 +1043,8 @@
         }
       },
       "block_order": [
-        "collapsible_row_UAjqnF",
         "collapsible_row_dcTrGm",
+        "collapsible_row_UAjqnF",
         "collapsible_row_4CwHdQ",
         "collapsible_row_EQYETU",
         "collapsible_row_zyntJQ",
