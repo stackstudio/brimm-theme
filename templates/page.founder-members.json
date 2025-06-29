@@ -221,12 +221,12 @@
         "column_WwaVUh": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/event-2.png",
+            "image": "shopify://shop_images/Beauty_Green_Background_edited.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "CASHBACK ON ALL OTHER PURCHASES",
-            "text": "<p>Brief introduction to the article. Lorem ipsum dolor sit amet.</p>",
+            "text": "<p>Having discovered products you love you members receive 10% off individual purchases</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
