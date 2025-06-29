@@ -102,12 +102,14 @@
       ],
       "name": "Stacked Hero",
       "settings": {
-        "two_image": false,
-        "full_screen": false,
+        "two_image": true,
+        "full_screen": true,
         "invert": false,
         "wider": false,
         "padded": false,
+        "narrow_image": "shopify://shop_images/Chris_Abatzis_Photos_7_88296c10-a71d-49e9-a598-bc51fa1ab379.jpg",
         "video_embed": "",
+        "wide_image": "shopify://shop_images/Fanette_Guilloud_Photo.jpg",
         "color_scheme": "scheme-3"
       }
     },
