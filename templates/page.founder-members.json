@@ -120,7 +120,7 @@
           "type": "column",
           "settings": {
             "title": "Member",
-            "content": "<ul><li>Support member only content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Earn 10% cashback with each purchase*</li><li>Pay member prices on reset boxes (20% off)</li></ul>",
+            "content": "<ul><li>Support member only content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Pay member prices on reset boxes (20% off - worth £100+ /yr)</li><li>Earn 10% cashback with each purchase*</li></ul>",
             "yearly_price": "£120",
             "monthly_price": "£12",
             "button_label": "Add to cart",
