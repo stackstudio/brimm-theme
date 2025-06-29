@@ -131,7 +131,7 @@
           "type": "column",
           "settings": {
             "title": "Supporter",
-            "content": "<ul><li>Support member-only content</li><li>Early access to events</li></ul>",
+            "content": "<ul><li>Support member-only content</li><li>Early access to events</li><li>Give 10% to the Planet Fund with each purchase</li></ul>",
             "yearly_price": "£60",
             "monthly_price": "£6",
             "button_label": "Add to cart",
