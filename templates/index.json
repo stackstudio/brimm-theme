@@ -168,22 +168,22 @@
     "flush_columns_cYTaw6": {
       "type": "flush-columns",
       "blocks": {
-        "column_txAt4X": {
+        "column_NdQMPf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Escapism_by_Daniel_Faro_4.jpg",
-            "title": "Performance",
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_7_88296c10-a71d-49e9-a598-bc51fa1ab379.jpg",
+            "title": "Style",
             "text": "",
             "link_label": "",
             "desaturate": false,
             "link": ""
           }
         },
-        "column_NdQMPf": {
+        "column_txAt4X": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Chris_Abatzis_Photos_7_88296c10-a71d-49e9-a598-bc51fa1ab379.jpg",
-            "title": "Style",
+            "image": "shopify://shop_images/Escapism_by_Daniel_Faro_4.jpg",
+            "title": "health",
             "text": "",
             "link_label": "",
             "desaturate": false,
@@ -214,8 +214,8 @@
         }
       },
       "block_order": [
-        "column_txAt4X",
         "column_NdQMPf",
+        "column_txAt4X",
         "column_wgz7mw",
         "column_WFzWd8"
       ],
