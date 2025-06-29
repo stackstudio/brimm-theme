@@ -167,59 +167,15 @@
         "column_DXnerM",
         "column_GK9edz"
       ],
+      "disabled": true,
       "name": "Flush Columns",
       "settings": {
         "title": "<strong>WHY WE EXIST</strong>",
         "text_block": "We were tired of being told that living sustainably meant a life stripped of colour, comfort and fun. We wanted to do something about the climate crisis, but we also wanted to enjoy the ride.",
         "columns_desktop": 4,
-        "button_label": "Join the Ride",
+        "button_label": "",
         "button_link": "shopify://pages/founder-members",
         "color_scheme": ""
-      }
-    },
-    "image_with_text_kV37Vn": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_QpRFyL": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Why we exist</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_k4Jj7X": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>BRiMM was born out of frustration—and hope.</h4><p>We were tired of being told that living sustainably meant a life stripped of colour, comfort and fun.</p><p>We wanted to do something about the climate crisis, but we also wanted to enjoy the ride.</p><p>Drab clothes and endless kale? No thanks. <br/><br/>We set out to prove that living within limits isn’t living less - it’s living more.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_QpRFyL",
-        "text_k4Jj7X"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/KZVS10114.jpg",
-        "video_embed": "",
-        "has_background": true,
-        "show_waitlist": false,
-        "image_label": "",
-        "color_scheme": "",
-        "mobile_heading": "",
-        "mobile_text": "",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "collection_theme": "core-light-theme",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "multicolumn_simple_nDGEEE": {
@@ -651,7 +607,6 @@
     "stacked_hero_GAQbCF",
     "stacked_hero_PLJmeD",
     "flush_columns_HGr9JL",
-    "image_with_text_kV37Vn",
     "multicolumn_simple_nDGEEE",
     "multicolumn_simple_FQJqhe",
     "stacked_hero_VbbaBH",
