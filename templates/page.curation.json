@@ -55,11 +55,11 @@
         "column_4MP6xG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-3.png",
+            "image": "shopify://shop_images/Escapism_by_Daniel_Faro_4.jpg",
             "title": "performance",
             "text": "",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
