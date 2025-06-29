@@ -80,66 +80,35 @@
         "color_scheme": "scheme-2"
       }
     },
-    "justified_hero_qQAFRn": {
-      "type": "justified-hero",
+    "stacked_hero_PLJmeD": {
+      "type": "stacked-hero",
       "blocks": {
-        "heading_V63QpY": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "OVER FLOWING WITH POSSIBILITY"
-          }
-        }
-      },
-      "block_order": [
-        "heading_V63QpY"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-6"
-      }
-    },
-    "wrapped_mega_image_aEQRcq": {
-      "type": "wrapped-mega-image",
-      "blocks": {
-        "heading_xWiXLh": {
+        "heading_yNFEgJ": {
           "type": "heading",
           "settings": {
             "heading_text": "We’re flipping the script on sustainability."
           }
         },
-        "top_paragraph_d7NYkz": {
-          "type": "top_paragraph",
+        "text_wixxpg": {
+          "type": "text",
           "settings": {
-            "top_copy": "<p>BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to show that you can live well and tread light - without compromise.</p>"
-          }
-        },
-        "bottom_paragraph_iqPwGQ": {
-          "type": "bottom_paragraph",
-          "settings": {
-            "bottom_copy": "<p>We’re rewriting the rules of how we buy and give back. Here, enough is everything. And every purchase powers positive change.</p>"
-          }
-        },
-        "cta_button_rfjdXC": {
-          "type": "cta_button",
-          "settings": {
-            "label": "Join the Collective",
-            "link": "/",
-            "style": "primary"
+            "copy": "<p>BRiMM is a movement - bringing together bold ideas and beautiful brands to show that you can live well and tread light without compromise</p>"
           }
         }
       },
       "block_order": [
-        "heading_xWiXLh",
-        "top_paragraph_d7NYkz",
-        "bottom_paragraph_iqPwGQ",
-        "cta_button_rfjdXC"
+        "heading_yNFEgJ",
+        "text_wixxpg"
       ],
-      "disabled": true,
+      "name": "Stacked Hero",
       "settings": {
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
-        "color_scheme": "scheme-2",
-        "disable_bottom_padding": false,
-        "disable_top_padding": false
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "color_scheme": "scheme-3"
       }
     },
     "flush_columns_HGr9JL": {
@@ -678,8 +647,7 @@
     "main",
     "stacked_hero_6tHzXB",
     "stacked_hero_GAQbCF",
-    "justified_hero_qQAFRn",
-    "wrapped_mega_image_aEQRcq",
+    "stacked_hero_PLJmeD",
     "flush_columns_HGr9JL",
     "image_with_text_kV37Vn",
     "multicolumn_simple_nDGEEE",
