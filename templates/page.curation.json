@@ -88,11 +88,11 @@
         "column_UBA3BN": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-1.png",
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_9.jpg",
             "title": "social",
             "text": "",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         }
@@ -123,7 +123,7 @@
             "title": "CHRISTABEL BIELLA",
             "text": "<p>Heading up Home & Food with over 20 years in retail product selection, previously a Buyer at House of Fraser, Farmdrop</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
@@ -134,7 +134,7 @@
             "title": "TIFF DARKE",
             "text": "<p>A fashion journalist, renowned for her advocacy in sustainable fashion. Former fashion editor for The Telegraph, The Times and Harrods</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
