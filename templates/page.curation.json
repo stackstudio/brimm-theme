@@ -66,11 +66,11 @@
         "column_c9BW33": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fc-2.png",
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_7.jpg",
             "title": "style",
             "text": "",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
