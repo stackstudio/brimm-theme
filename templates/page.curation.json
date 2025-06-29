@@ -145,7 +145,7 @@
             "title": "SAM FREEDMAN",
             "text": "<p>Ex-Beauty editor at Grazia, Sam brings oodles of experience, carefully curating our beauty products</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
@@ -156,7 +156,7 @@
             "title": "Tom Berry",
             "text": "<p>Sustainability expert Tom Berry has decades experience at well known brands like FarFetch and Innocent</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         }
