@@ -386,6 +386,7 @@
         "text_RwFxem",
         "cta_button_M3HTyb"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
