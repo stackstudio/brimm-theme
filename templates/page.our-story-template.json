@@ -23,13 +23,13 @@
         "heading_wpnNni": {
           "type": "heading",
           "settings": {
-            "heading_text": "Live Bright Tread Light. WELCOME TO THE ENOUGH STORE."
+            "heading_text": "Overflowing with possibility"
           }
         },
         "text_8w7gnD": {
           "type": "text",
           "settings": {
-            "copy": "BRiMM is a Collective of brand founders, activists and innovators. Proving that low impact living, isn't living less."
+            "copy": "<p>Overflowing with possibility. Why we believe its time to live bright and tread light</p>"
           }
         }
       },
@@ -42,6 +42,8 @@
         "two_image": false,
         "full_screen": true,
         "invert": false,
+        "wider": false,
+        "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/BRiMM_Team_Press_shoot.png",
         "color_scheme": ""
@@ -59,7 +61,7 @@
         "text_wq9WUi": {
           "type": "text",
           "settings": {
-            "copy": "BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to show that you can live well and tread light - without compromise."
+            "copy": "<p>BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to show that you can live well and tread light - without compromise.</p>"
           }
         }
       },
@@ -72,6 +74,8 @@
         "two_image": false,
         "full_screen": false,
         "invert": true,
+        "wider": false,
+        "padded": false,
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-2"
       }
@@ -148,6 +152,7 @@
             "title": "Quality",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -158,6 +163,7 @@
             "title": "Impact",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -168,6 +174,7 @@
             "title": "Culture",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         },
@@ -178,6 +185,7 @@
             "title": "Activism",
             "text": "",
             "link_label": "",
+            "desaturate": true,
             "link": ""
           }
         }
@@ -300,6 +308,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "justify": true,
+        "bordered": false,
         "text_block": "We’re a collective of climate optimists who believe in the power of enough. Supported by an inspiring network of founder members, impactful brands and world-class investors, BRiMM is built by us, powered by you and sustained by all of us.",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -372,6 +382,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "justify": true,
+        "bordered": false,
         "text_block": "",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -399,7 +411,7 @@
         "text_RwFxem": {
           "type": "text",
           "settings": {
-            "copy": "Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards"
+            "copy": "<p>Join a community dedicated to making a difference. Discover three membership tiers, each offering unique planet-positive rewards</p>"
           }
         },
         "cta_button_M3HTyb": {
@@ -421,6 +433,8 @@
         "two_image": false,
         "full_screen": false,
         "invert": true,
+        "wider": false,
+        "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/1010.png",
         "color_scheme": "scheme-3"
