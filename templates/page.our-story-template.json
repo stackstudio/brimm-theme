@@ -326,6 +326,37 @@
         "padding_bottom": 36
       }
     },
+    "stacked_hero_YrKfLD": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_JacBmp": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "We’re flipping the script on sustainability."
+          }
+        },
+        "text_gBag8n": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>BRiMM is a movement - bringing together bold ideas and beautiful brands to show that you can live well and tread light without compromise</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JacBmp",
+        "text_gBag8n"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "color_scheme": "scheme-3"
+      }
+    },
     "stacked_hero_VbbaBH": {
       "type": "stacked-hero",
       "blocks": {
@@ -609,6 +640,7 @@
     "flush_columns_HGr9JL",
     "multicolumn_simple_nDGEEE",
     "multicolumn_simple_FQJqhe",
+    "stacked_hero_YrKfLD",
     "stacked_hero_VbbaBH",
     "image_with_text_4HfRc9",
     "image_with_text_BybLYy",
