@@ -120,7 +120,7 @@
           "type": "column",
           "settings": {
             "title": "Member",
-            "content": "<ul><li>Support member only content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Pay member prices on Reset Boxes (20% off - worth £100+/yr)</li><li>Earn 10% cashback with each purchase*</li></ul>",
+            "content": "<ul><li>Support high-quality content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Pay member prices on Reset Boxes (20% off - worth £100+/yr)</li><li>Earn 10% cashback with each purchase*</li></ul>",
             "yearly_price": "£120",
             "monthly_price": "£12",
             "button_label": "Add to cart",
@@ -131,7 +131,7 @@
           "type": "column",
           "settings": {
             "title": "Supporter",
-            "content": "<ul><li>Support member-only content</li><li>Early access to events</li><li>Give 10% to the Planet Fund with each purchase</li></ul>",
+            "content": "<ul><li>Support high-quality content</li><li>Early access to events</li><li>Give 10% to the Planet Fund with each purchase</li></ul>",
             "yearly_price": "£60",
             "monthly_price": "£6",
             "button_label": "Add to cart",
@@ -325,7 +325,7 @@
         "column_DWhkxF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
+            "image": "shopify://shop_images/Orsola_2021_28_portrait_jpg.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
