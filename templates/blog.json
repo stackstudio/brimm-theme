@@ -47,6 +47,7 @@
         "column_7NagyM": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Fanette_Guilloud_Photos_1.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -60,6 +61,7 @@
         "column_bzLtmK": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Fanette_Guilloud_Photos_1.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
