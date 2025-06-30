@@ -106,7 +106,7 @@
       "name": "Flush Columns",
       "settings": {
         "title": "MEMBER BENEFITS",
-        "text_block": "Join a community dedicated to making a difference. Discover our membership offering unique planet-positive rewards, or start out as a Supporter",
+        "text_block": "",
         "columns_desktop": 1,
         "button_label": "",
         "button_link": "#",
