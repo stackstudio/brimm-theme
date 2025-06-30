@@ -70,14 +70,14 @@
             "link": ""
           }
         },
-        "column_iHmJyJ": {
+        "column_fMAzAr": {
           "type": "column",
           "settings": {
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "member exclusives weekly",
+            "text": "<p>While we will be covering more than this our members can expect one long form piece per week</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -87,7 +87,7 @@
       "block_order": [
         "column_7NagyM",
         "column_bzLtmK",
-        "column_iHmJyJ"
+        "column_fMAzAr"
       ],
       "name": "Simple Multicolumn",
       "settings": {
@@ -100,7 +100,7 @@
         "text_block": "Hear from our editor Becky on what you can expect from the BRiMM journal",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Read more",
