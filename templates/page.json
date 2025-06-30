@@ -180,8 +180,8 @@
         "cta_button_wNLCc6": {
           "type": "cta_button",
           "settings": {
-            "label": "Click me",
-            "link": "",
+            "label": "Learn more",
+            "link": "shopify://blogs/events",
             "style": "primary"
           }
         }
@@ -221,8 +221,8 @@
         "cta_button_9xewyA": {
           "type": "cta_button",
           "settings": {
-            "label": "Click me",
-            "link": "",
+            "label": "Learn more",
+            "link": "shopify://blogs/events",
             "style": "primary"
           }
         }
