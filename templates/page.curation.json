@@ -524,7 +524,7 @@
             "title": "KINFILL",
             "text": "",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         }
