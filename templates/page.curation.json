@@ -273,14 +273,13 @@
       ],
       "name": "Stacked Hero",
       "settings": {
-        "two_image": true,
+        "two_image": false,
         "full_screen": false,
         "invert": true,
         "wider": false,
         "padded": false,
-        "narrow_image": "shopify://shop_images/Kleen_Yellow_Mellow_12.00_www.kleensoaps.com_2.jpg",
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Tom_vetting_hotel_mike.jpg",
+        "wide_image": "shopify://shop_images/Chris_Abatzis_Photos_10.jpg",
         "color_scheme": "scheme-1"
       }
     },
