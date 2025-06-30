@@ -1660,11 +1660,19 @@ const dualAddToCart = () => {
 
 dualAddToCart();
 
-console.log(cart);
-
 const membershipCartButtons = document.querySelectorAll(
   '.brimm-blocks--column-button__add-to-cart',
 );
+
+const planButtonWrappers = document.querySelectorAll(
+  '.js-membership-column-bottom',
+);
+
+const membershipButtonsWidget = document.querySelector(
+  '.js-membership-column-bottom',
+);
+
+let membership_added = false;
 
 const addMembershipProductToCart = async (membershipCartButton) => {
   const variantId = membershipCartButton?.dataset?.memberVariantId;
@@ -1682,9 +1690,17 @@ const addMembershipProductToCart = async (membershipCartButton) => {
     `Adding membership product to cart: ${variantId}, selling plan: ${sellingPlanId}`,
   );
 
+  membershipCartButton?.setAttribute('disabled', 'disabled');
+  membershipButtonsWidget?.setAttribute('aria-disabled', 'true');
+  membershipButtonsWidget?.setAttribute('aria-busy', 'true');
+  membershipButtonsWidget?.setAttribute('aria-label', 'Adding to cart...');
+  planButtonWrappers.forEach((wrapper) => {
+    wrapper.classList.add('is-adding');
+  });
+
   try {
-    // Wait 1.5 seconds if needed
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    // Wait 1 second if needed
+    await new Promise((resolve) => setTimeout(resolve, 1000));
 
     const response = await fetch(`${routes.cart_add_url}`, {
       method: 'POST',
@@ -1700,13 +1716,34 @@ const addMembershipProductToCart = async (membershipCartButton) => {
         sections: ['cart-drawer', 'cart-icon-bubble'],
         sections_url: window.location.pathname,
       }),
-    });
+    })
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res;
+      })
+      .then((res) => {
+        membershipButtonsWidget.classList.remove('loading');
+        membershipCartButton?.classList.remove('loading');
+        membershipCartButton?.removeAttribute('disabled');
+        membershipButtonsWidget?.removeAttribute('aria-disabled');
+        membershipButtonsWidget?.removeAttribute('aria-busy');
+        membershipButtonsWidget?.removeAttribute('aria-label');
+        planButtonWrappers.forEach((wrapper) => {
+          wrapper.classList.add('is-disabled');
+          wrapper.classList.remove('is-adding');
+          wrapper.classList.add('added_to_cart');
+        });
+        membership_added = true;
+        return res;
+      });
 
     const cartData = await response.json(); // or just pass response if raw
 
     publish(PUB_SUB_EVENTS.cartUpdate, {
       source: 'product-form',
-      productVariantId: variantId,
+      variantId: variantId,
       sellingPlanId: sellingPlanId,
       cartData,
     });

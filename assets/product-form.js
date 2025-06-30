@@ -92,7 +92,7 @@ if (!customElements.get('product-form')) {
               if (!this.error)
                 publish(PUB_SUB_EVENTS.cartUpdate, {
                   source: 'product-form',
-                  productVariantId: formData.get('id'),
+                  variantId: formData.get('id'),
                   cartData: response,
                 });
               this.error = false;
@@ -153,7 +153,7 @@ if (!customElements.get('product-form')) {
             }).then((response) => {
               publish(PUB_SUB_EVENTS.cartUpdate, {
                 source: 'product-form',
-                productVariantId: membership.variantId,
+                variantId: membership.variantId,
                 sellingPlanId: membership.sellingPlanId,
                 cartData: response,
               });

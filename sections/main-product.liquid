@@ -115,13 +115,15 @@
               {%- when 'price' -%}
                  {% if product.product_type != 'Membership' and collections.handle contains 'reset-boxes' %}
 
-                  {% assign member_discount_rate = 0.10 %}
+                  {% assign member_discount_rate = 0.20 %}
                   {% assign regular_price = product.price %}
                   {% assign p = regular_price | times: member_discount_rate %}
                   {% assign member_price = regular_price | times: 1.0 | minus: p %}
 
                   <div class="membership-choice my-6">
                   {% if customer.tags contains 'mid_tier' or customer.tags contains 'member' %}
+
+                    <p class="font-medium mb-2">As a member you get {{ member_discount_rate | times: 100 | round: 0 }}% off</p>
 
                       <label class="flex items-center mb-4" for="explorer">
                         <input type="radio" name="purchase_option" id="explorer" checked class="mr-2">
