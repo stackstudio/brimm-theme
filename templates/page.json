@@ -197,7 +197,7 @@
         "full_screen": true,
         "invert": true,
         "wider": false,
-        "padded": true,
+        "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/british_pasture_leather.jpg",
         "color_scheme": ""
@@ -238,7 +238,7 @@
         "full_screen": true,
         "invert": false,
         "wider": true,
-        "padded": true,
+        "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
         "color_scheme": ""
