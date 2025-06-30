@@ -502,7 +502,7 @@
             "title": "CITIZENS OF SOIL",
             "text": "",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
@@ -513,7 +513,7 @@
             "title": "UPCIRCLE",
             "text": "",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
