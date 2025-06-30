@@ -1672,6 +1672,8 @@ const membershipButtonsWidget = document.querySelector(
   '.js-membership-column-bottom',
 );
 
+const cartDrawer = document.querySelector('.drawer');
+
 let membership_added = false;
 
 const addMembershipProductToCart = async (membershipCartButton) => {
@@ -1735,6 +1737,9 @@ const addMembershipProductToCart = async (membershipCartButton) => {
           wrapper.classList.remove('is-adding');
           wrapper.classList.add('added_to_cart');
         });
+        if (cartDrawer.classList.contains('is-empty')) {
+          cartDrawer.classList.remove('is-empty');
+        }
         membership_added = true;
         return res;
       });
