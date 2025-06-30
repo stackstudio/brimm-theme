@@ -107,7 +107,7 @@
       "settings": {
         "title": "MEMBER BENEFITS",
         "text_block": "Join a community dedicated to making a difference. Discover our membership offering unique planet-positive rewards, or start out as a Supporter",
-        "columns_desktop": 3,
+        "columns_desktop": 1,
         "button_label": "",
         "button_link": "#",
         "color_scheme": ""
@@ -317,6 +317,38 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "stacked_hero_RVaXxN": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_TBjhkR": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Content benefits"
+          }
+        },
+        "text_6rDFti": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Your text here…</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TBjhkR",
+        "text_6rDFti"
+      ],
+      "disabled": true,
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "color_scheme": ""
       }
     },
     "multicolumn_simple_4pjjMQ": {
@@ -1125,6 +1157,7 @@
     "stacked_hero_7GDFy6",
     "multicolumn_simple_nQn6Tp",
     "multicolumn_simple_PPEayE",
+    "stacked_hero_RVaXxN",
     "multicolumn_simple_4pjjMQ",
     "multicolumn_simple_MzLNDF",
     "multicolumn_simple_AkiADg",
