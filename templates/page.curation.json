@@ -406,6 +406,7 @@
         "heading_QtxD6X",
         "text_h3DJQ4"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
@@ -426,8 +427,8 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Accreditations",
+            "text": "<p>We start by looking at the accreditations that brands have - from B Corp to organic and everything inbetween</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
