@@ -41,6 +41,38 @@
         "color_scheme": "scheme-3"
       }
     },
+    "stacked_hero_q3hq7U": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_7Fk3wB": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Read articles that inspire"
+          }
+        },
+        "text_xDFXrC": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Ideas, provocations and insight from a planet-positive future from the voices that know</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7Fk3wB",
+        "text_xDFXrC"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/16_9.jpg",
+        "color_scheme": "scheme-3"
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -204,6 +236,7 @@
   },
   "order": [
     "stacked_hero_bYweWU",
+    "stacked_hero_q3hq7U",
     "main",
     "multicolumn_simple_LKiAaL",
     "multicolumn_simple_a3kn9z"
