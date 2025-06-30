@@ -670,7 +670,7 @@
         "full_screen": false,
         "invert": false,
         "wider": true,
-        "padded": true,
+        "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/cleaning-eg.png",
         "color_scheme": "scheme-1"
