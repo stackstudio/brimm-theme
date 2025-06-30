@@ -263,7 +263,7 @@
         "text_bVnjdn": {
           "type": "text",
           "settings": {
-            "copy": "<p>Our rigorous vetting process, developed by sustainability expert Tom Berry, is grounded in independent standards and accreditations. Tom has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive.</p>"
+            "copy": "<p>Our rigorous vetting process, developed by sustainability expert Tom Berry, is grounded in independent standards and accreditations. Tom has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive</p>"
           }
         }
       },
@@ -411,7 +411,7 @@
         "two_image": false,
         "full_screen": false,
         "invert": false,
-        "wider": false,
+        "wider": true,
         "padded": false,
         "video_embed": "",
         "color_scheme": "scheme-1"
