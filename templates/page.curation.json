@@ -638,9 +638,9 @@
         "full_screen": false,
         "invert": true,
         "wider": true,
-        "padded": true,
+        "padded": false,
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Banner_Editorial_Skincare_Group-2_HR.jpg",
+        "wide_image": "shopify://shop_images/OnSkin_Conditioner_LR.jpg",
         "color_scheme": "scheme-1"
       }
     },
