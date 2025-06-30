@@ -450,6 +450,7 @@
         "column_MGgWEP": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_11.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
