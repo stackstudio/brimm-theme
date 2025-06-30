@@ -113,6 +113,38 @@
         "color_scheme": ""
       }
     },
+    "stacked_hero_kxMRgY": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_wEQ4JG": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "LOWER IMPACT LIVING SHOULDN'T REQUIRE SACRIFICE"
+          }
+        },
+        "text_bVnjdn": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Our rigorous vetting process, developed by sustainability expert Tom Berry, is grounded in independent standards and accreditations. Tom has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wEQ4JG",
+        "text_bVnjdn"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Chris_Abatzis_Photos_10.jpg",
+        "color_scheme": "scheme-1"
+      }
+    },
     "flush_columns_rWMFzU": {
       "type": "flush-columns",
       "blocks": {
@@ -248,38 +280,6 @@
       ],
       "name": "Logo Scroller",
       "settings": {
-        "color_scheme": "scheme-1"
-      }
-    },
-    "stacked_hero_kxMRgY": {
-      "type": "stacked-hero",
-      "blocks": {
-        "heading_wEQ4JG": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "LOWER IMPACT LIVING SHOULDN'T REQUIRE SACRIFICE"
-          }
-        },
-        "text_bVnjdn": {
-          "type": "text",
-          "settings": {
-            "copy": "<p>Our rigorous vetting process, developed by sustainability expert Tom Berry, is grounded in independent standards and accreditations. Tom has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_wEQ4JG",
-        "text_bVnjdn"
-      ],
-      "name": "Stacked Hero",
-      "settings": {
-        "two_image": false,
-        "full_screen": false,
-        "invert": true,
-        "wider": false,
-        "padded": false,
-        "video_embed": "",
-        "wide_image": "shopify://shop_images/Chris_Abatzis_Photos_10.jpg",
         "color_scheme": "scheme-1"
       }
     },
@@ -705,9 +705,9 @@
     "main",
     "stacked_hero_Xiwchw",
     "flush_columns_4zpTXq",
+    "stacked_hero_kxMRgY",
     "flush_columns_rWMFzU",
     "logo_scroller_ANciWD",
-    "stacked_hero_kxMRgY",
     "image_with_text_N4ciKF",
     "partner_logos_hUUrNA",
     "image_with_text_iKBBfX",
