@@ -965,6 +965,33 @@
     "collapsible_content_HmpeVH": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_UAjqnF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why do you have a membership?",
+            "icon": "none",
+            "row_content": "<p>We have this simple but big idea that we can divert profits from the things you buy to have a positive impact. But we're still a business and need to make money so the membership funds our business. What the membership really enables is for us to pool our power—funding clean energy, supporting innovative brands, and making planet-positive living easier (and more fun) for everyone. Plus, you get great rewards for doing good. Win-win?</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3FgUGh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does member pricing work?",
+            "icon": "none",
+            "row_content": "<p>For our Reset boxes, we offer member special prices to help encourage you to switch to planet-positive products and kick-start your journey to a lower impact life. As a member you pay 20% less on the boxes</p><p>Together with cashback on purchases of our other products, we've designed it so that if you return regularly to our shop you'll more than pay back your membership.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Dc388Y": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does cashback work?",
+            "icon": "none",
+            "row_content": "<p>We offer 10% cashback to our members on all purchases they make (excluding discounted membership products like the Reset boxes), excluding any other credit or promotions applied to your order.</p><p>This cashback is distributed quarterly and can be used to bring down the cost of future transactions.</p>",
+            "page": ""
+          }
+        },
         "collapsible_row_dcTrGm": {
           "type": "collapsible_row",
           "settings": {
@@ -974,12 +1001,13 @@
             "page": ""
           }
         },
-        "collapsible_row_UAjqnF": {
+        "collapsible_row_9jwtnP": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
-            "heading": "Why do you have a membership?",
+            "heading": "How do you work out the annual value of the membership?",
             "icon": "none",
-            "row_content": "<p>We have this simple but big idea that we can divert profits from the things you buy to have a positive impact. But we're still a business and need to make money so the membership funds our business. What the membership really enables is for us to pool our power—funding clean energy, supporting innovative brands, and making planet-positive living easier (and more fun) for everyone. Plus, you get great rewards for doing good. Win-win?</p>",
+            "row_content": "<p>Membership costs from £6 or £60/yr. We say they're worth more than that though and here's how we calculate that.</p><p><strong>How it works with our middle tier @ £120/yr</strong></p><p>Based on an assumed spend of £600, this membership offers value of £200 per year.</p><p>This is calculated as £60 of content, £80 of credit and £60 cashback (10% of £600)</p><p>On top of this you will contribute £72 to our planet fund which we hope you agree is great value.</p><p><strong>How it works with our top tier @ £180/yr</strong></p><p>Based on an assumed spend of £800, this membership offers value of £300 per year.</p><p>This is calculated as £60 of content, £120 of credit and £80 cashback (10% of £800)</p><p>On top of this you will contribute £98 to our planet fund which we hope you agree is phenomenal value.</p>",
             "page": ""
           }
         },
@@ -1012,15 +1040,6 @@
             "page": ""
           }
         },
-        "collapsible_row_PkzjKt": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What does planet-positive mean?",
-            "icon": "none",
-            "row_content": "<p>We use these words a lot. When we say them we mean a combination of optimism and positive impact on our planet from both the activities we do as a business and the brands we work with.</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_9GrFtA": {
           "type": "collapsible_row",
           "disabled": true,
@@ -1028,33 +1047,6 @@
             "heading": "How does membership work beyond founder membership?",
             "icon": "none",
             "row_content": "<p>After our limited founder spaces have gone, we'll offer membership for £120 per year or £12 per month. If you're not yet ready to join as a full member, we also offer a supporter option for £60 per year or £6 per month. Head on to our membership page to find out more.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3FgUGh": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does member pricing work?",
-            "icon": "none",
-            "row_content": "<p>For our Reset boxes, we offer member special prices to help encourage you to switch to planet-positive products and kick-start your journey to a lower impact life. As a member you pay 20% less on the boxes</p><p>Together with cashback on purchases of our other products, we've designed it so that if you return regularly to our shop you'll more than pay back your membership.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_Dc388Y": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does cashback work?",
-            "icon": "none",
-            "row_content": "<p>We offer 10% cashback to our members on all purchases they make (excluding discounted membership products like the Reset boxes), excluding any other credit or promotions applied to your order.</p><p>This cashback is distributed quarterly and can be used to bring down the cost of future transactions.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_9jwtnP": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do you work out the annual value of the membership?",
-            "icon": "none",
-            "row_content": "<p>Membership costs from £6 or £60/yr. We say they're worth more than that though and here's how we calculate that.</p><p><strong>How it works with our middle tier @ £120/yr</strong></p><p>Based on an assumed spend of £600, this membership offers value of £200 per year.</p><p>This is calculated as £60 of content, £80 of credit and £60 cashback (10% of £600)</p><p>On top of this you will contribute £72 to our planet fund which we hope you agree is great value.</p><p><strong>How it works with our top tier @ £180/yr</strong></p><p>Based on an assumed spend of £800, this membership offers value of £300 per year.</p><p>This is calculated as £60 of content, £120 of credit and £80 cashback (10% of £800)</p><p>On top of this you will contribute £98 to our planet fund which we hope you agree is phenomenal value.</p>",
             "page": ""
           }
         },
@@ -1075,21 +1067,30 @@
             "row_content": "<p>Our reset boxes are designed for you to discover a selection of our great products and brands from our store at a discounted price. We will not be offering these on subscription.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_PkzjKt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does planet-positive mean?",
+            "icon": "none",
+            "row_content": "<p>We use these words a lot. When we say them we mean a combination of optimism and positive impact on our planet from both the activities we do as a business and the brands we work with.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_dcTrGm",
         "collapsible_row_UAjqnF",
+        "collapsible_row_3FgUGh",
+        "collapsible_row_Dc388Y",
+        "collapsible_row_dcTrGm",
+        "collapsible_row_9jwtnP",
         "collapsible_row_4CwHdQ",
         "collapsible_row_EQYETU",
         "collapsible_row_zyntJQ",
-        "collapsible_row_PkzjKt",
         "collapsible_row_9GrFtA",
-        "collapsible_row_3FgUGh",
-        "collapsible_row_Dc388Y",
-        "collapsible_row_9jwtnP",
         "collapsible_row_U6B7ya",
-        "collapsible_row_8VtJ8K"
+        "collapsible_row_8VtJ8K",
+        "collapsible_row_PkzjKt"
       ],
       "settings": {
         "caption": "",
