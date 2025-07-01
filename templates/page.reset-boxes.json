@@ -301,8 +301,8 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "The most innovative brands vetted",
-            "icon": "check_mark",
-            "row_content": "<p>Want to kick start your Planet Positive Journey? Reset your kitchen or bathroom ritual to be Planet Positive - in one go.</p>",
+            "icon": "none",
+            "row_content": "<p>We've worked hard to bring together a great selection of brands that are pushing the bar in their lower impact business models. </p><p></p>",
             "page": ""
           }
         }
