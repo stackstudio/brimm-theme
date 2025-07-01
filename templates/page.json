@@ -59,7 +59,7 @@
             "title": "FILM SCREENINGS",
             "text": "<p>Thought provoking films and documentaries</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
@@ -81,7 +81,7 @@
             "title": "FIELDS TRIPS AND WORKSHOPS",
             "text": "<p>Hands on experiences with a planet-positive future</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         }
