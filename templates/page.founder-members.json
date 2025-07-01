@@ -57,7 +57,7 @@
           "settings": {
             "image": "shopify://shop_images/Fanette_Guilloud_Photos_1.jpg",
             "title": "MEMBER PRICES",
-            "text": "<p>Pay 20% less on our Reset Boxes which are designed to kick-start your planet-positive journey</p>",
+            "text": "<p>Save 20% on our Reset Boxes which are designed to kick-start your planet-positive journey</p>",
             "link_label": "",
             "desaturate": false,
             "link": "shopify://pages/reset-boxes"
@@ -120,10 +120,11 @@
           "type": "column",
           "settings": {
             "title": "Member",
-            "content": "<ul><li>Support high-quality content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Pay member prices on Reset Boxes (20% off - worth £100+/yr)</li><li>Earn 10% cashback with each purchase*</li></ul>",
+            "content": "<ul><li>Support high-quality content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Pay member prices on Reset Boxes (Save 20% - worth £100+/yr)</li><li>Earn 10% cashback with each purchase*</li></ul>",
             "yearly_price": "£120",
             "monthly_price": "£12",
-            "button_label": "Add to cart",
+            "button_label_monthly": "Join Monthly",
+            "button_label_yearly": "Join Yearly",
             "button_url": ""
           }
         },
@@ -134,7 +135,8 @@
             "content": "<ul><li>Support high-quality content</li><li>Early access to events</li><li>Give 10% to the Planet Fund with each purchase</li></ul>",
             "yearly_price": "£60",
             "monthly_price": "£6",
-            "button_label": "Add to cart",
+            "button_label_monthly": "Join Monthly",
+            "button_label_yearly": "Join Yearly",
             "button_url": ""
           }
         }
@@ -714,7 +716,8 @@
             "content": "<p>Experience the ultimate in planet-positive living. All the benefits, plus £80 credit for Reset Boxes</p>",
             "yearly_price": "£180",
             "monthly_price": "£18",
-            "button_label": "Join now",
+            "button_label_monthly": "Join Monthly",
+            "button_label_yearly": "Join Yearly",
             "button_url": "shopify://products/the-top-membership"
           }
         },
@@ -725,7 +728,8 @@
             "content": "<p>Enjoy all the benefits with £40 credit for Reset Boxes.</p>",
             "yearly_price": "£120",
             "monthly_price": "£12",
-            "button_label": "Join now",
+            "button_label_monthly": "Join Monthly",
+            "button_label_yearly": "Join Yearly",
             "button_url": "shopify://products/the-middle-tier-membership"
           }
         },
