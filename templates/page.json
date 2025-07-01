@@ -52,17 +52,6 @@
     "flush_columns_6dwDNR": {
       "type": "flush-columns",
       "blocks": {
-        "column_YnAKPP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Jelly_Luise_Photos.jpg",
-            "title": "FILM SCREENINGS",
-            "text": "<p>Thought provoking films and documentaries</p>",
-            "link_label": "",
-            "desaturate": false,
-            "link": ""
-          }
-        },
         "column_Qj9KtB": {
           "type": "column",
           "settings": {
@@ -77,9 +66,20 @@
         "column_qCetKD": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/bathroom-eg.png",
+            "image": "shopify://shop_images/Forager_Photos_by_Daniel_Faro_2.jpg",
             "title": "FIELDS TRIPS AND WORKSHOPS",
             "text": "<p>Hands on experiences with a planet-positive future</p>",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_YnAKPP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Jelly_Luise_Photos.jpg",
+            "title": "FILM SCREENINGS",
+            "text": "<p>Thought provoking films and documentaries</p>",
             "link_label": "",
             "desaturate": false,
             "link": ""
@@ -87,9 +87,9 @@
         }
       },
       "block_order": [
-        "column_YnAKPP",
         "column_Qj9KtB",
-        "column_qCetKD"
+        "column_qCetKD",
+        "column_YnAKPP"
       ],
       "name": "Flush Columns",
       "settings": {
