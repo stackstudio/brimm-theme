@@ -140,7 +140,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Learn more",
-            "link": "shopify://blogs/events",
+            "link": "shopify://blogs/events/common-ground-film-screening-and-panel-discussion",
             "style": "primary"
           }
         }
