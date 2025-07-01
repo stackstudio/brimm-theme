@@ -417,8 +417,8 @@
       "settings": {
         "title": "Moments to connect",
         "no-gap": false,
-        "first_col": false,
-        "last_col": true,
+        "first_col": true,
+        "last_col": false,
         "justify": true,
         "bordered": false,
         "text_block": "Experience a planet-positive future first hand. Meet the makers, thinkers dreamers shaping what's next",
