@@ -66,11 +66,11 @@
         "column_Qj9KtB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Food_packshot_red_16-9.jpg",
+            "image": "shopify://shop_images/DTS_Banquet_Photos_Daniel_Faro.jpg",
             "title": "Supper clubs",
             "text": "<p>Connect with planet enthusiasts over great food and conversation</p>",
             "link_label": "",
-            "desaturate": true,
+            "desaturate": false,
             "link": ""
           }
         },
