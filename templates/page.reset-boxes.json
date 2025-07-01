@@ -292,8 +292,8 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Reset your life room by room",
-            "icon": "return",
-            "row_content": "<p>Want to kick start your Planet Positive Journey? Reset your kitchen or bathroom ritual to be Planet Positive - in one go.</p>",
+            "icon": "none",
+            "row_content": "<p>We wanted to make it easy, with one simple action, to reset each room of your house or part of your house to planetary settings. </p><p>With our Reset Boxes you don't have to think about it.</p>",
             "page": ""
           }
         },
