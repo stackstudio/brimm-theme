@@ -306,6 +306,34 @@
     "multicolumn_simple_iNMR3b": {
       "type": "multicolumn-simple",
       "blocks": {
+        "column_LUHXRt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Prada_004-01.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "a fermentation masterclass",
+            "text": "<p>Dr Johnny Drain is a fermentation expert. Check out our interview with him</p>",
+            "image_label": "",
+            "link_label": "Read article",
+            "link": "shopify://blogs/journal/dr-johnny-drain-interview"
+          }
+        },
+        "column_6c8M6t": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Fanette_Guilloud_Photo_2.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why Less Really is More: How and why it's time to take a different approach to skincare",
+            "text": "<p>Tweaking a handful of diet and drink choices throughout our day-to-days is just about the most impactful thing we can do to improve our health...</p>",
+            "image_label": "",
+            "link_label": "Read article",
+            "link": "shopify://blogs/journal/why-less-really-is-more-beauty-editor-lisa-oxenham-s-take-on-the-most-effective-skincare"
+          }
+        },
         "column_yCXrX4": {
           "type": "column",
           "settings": {
@@ -319,25 +347,12 @@
             "link_label": "Read article",
             "link": "shopify://blogs/journal/why-we-created-the-brimm-reset-boxes"
           }
-        },
-        "column_LUHXRt": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Fanette_Guilloud_Photo_2.jpg",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Why Less Really is More: How and why it's time to take a different approach to skincare",
-            "text": "<p>Tweaking a handful of diet and drink choices throughout our day-to-days is just about the most impactful thing we can do to improve our health...</p>",
-            "image_label": "",
-            "link_label": "Read article",
-            "link": "shopify://blogs/journal/why-less-really-is-more-beauty-editor-lisa-oxenham-s-take-on-the-most-effective-skincare"
-          }
         }
       },
       "block_order": [
-        "column_yCXrX4",
-        "column_LUHXRt"
+        "column_LUHXRt",
+        "column_6c8M6t",
+        "column_yCXrX4"
       ],
       "name": "Simple Multicolumn",
       "settings": {
