@@ -509,7 +509,7 @@
         "column_3YnXry": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Square_Lifestyle_VC_Conditioner_1_LR.jpg",
+            "image": "shopify://shop_images/Upcircle_Square_Lifestyle_VC_Conditioner_1_LR.jpg",
             "title": "UPCIRCLE",
             "text": "",
             "link_label": "",
@@ -573,7 +573,6 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/ever-bottle-new-york-aluminium.webp",
         "video_embed": "",
         "color_scheme": "scheme-2",
         "disable_bottom_padding": false,
@@ -640,7 +639,6 @@
         "wider": true,
         "padded": false,
         "video_embed": "",
-        "wide_image": "shopify://shop_images/OnSkin_Conditioner_LR.jpg",
         "color_scheme": "scheme-1"
       }
     },
