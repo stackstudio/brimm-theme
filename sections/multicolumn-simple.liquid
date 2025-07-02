@@ -87,7 +87,7 @@
         </div>
         {%- endfor -%}
         {%- if section.settings.last_col -%}
-            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad {% if section.settings.justify == false %}no-justify{% endif %}">
+            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad {% if section.settings.justify == false %}no-justify{% endif %} {% if section.settings.no_top %}no-top{% endif %}">
                 <h2>
                     {{ section.settings.title }}
                 </h2>
@@ -147,6 +147,12 @@
         "id": "last_col",
         "default": false,
         "label": "Last column intro?"
+      },
+      {
+        "type": "checkbox",
+        "id": "no_top",
+        "default": false,
+        "label": "No top padding (multirow)"
       },
       {
         "type": "checkbox",
