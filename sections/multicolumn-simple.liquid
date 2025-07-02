@@ -1,6 +1,6 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 
-<div class='brimm-blocks--simple-multicolumn color-{{ section.settings.color_scheme }} {% if section.settings.no_top %}no-top{% endif %} {% if section.settings.bottom %}no-bottom{% endif %} {% if section.settings.bordered %} bordered{% endif %} {% if section.settings.title == blank %} no-heading{% endif %}'>
+<div class='brimm-blocks--simple-multicolumn color-{{ section.settings.color_scheme }} {% if section.settings.no_top %}no-top{% endif %} {% if section.settings.no_bottom %}no-bottom{% endif %} {% if section.settings.bordered %} bordered{% endif %} {% if section.settings.title == blank %} no-heading{% endif %}'>
   <div
     class='section-{{ section.id }}-padding isolate'
     <div class='multicolumn__grid-wrapper'>
@@ -153,6 +153,12 @@
         "id": "no_top",
         "default": false,
         "label": "No top padding (multirow)"
+      },
+      {
+        "type": "checkbox",
+        "id": "no_bottom",
+        "default": false,
+        "label": "No bottom padding (multirow)"
       },
       {
         "type": "checkbox",
