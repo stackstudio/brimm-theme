@@ -782,6 +782,9 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
   justify-content: space-between;
   align-items: baseline;
   padding-top: 1rem;
+  @media(max-width: 580px) {
+      display: block;
+  }
 }
 
 .vendor-and-price .caption-with-letter-spacing {

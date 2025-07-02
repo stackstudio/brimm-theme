@@ -295,6 +295,11 @@
 
 .card__badge.right {
   justify-self: flex-end;
+  @media(max-width: 749px) {
+      justify-self: start;
+          grid-row-start: 1;
+          align-self: start;
+  }
 }
 
 .card:not(.card--horizontal) > .card__content > .card__badge {
