@@ -262,6 +262,12 @@
             "image": "shopify://shop_images/kinfill_logo_1.png"
           }
         },
+        "column_TgitRK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CoS.png"
+          }
+        },
         "column_z4eT9U": {
           "type": "column",
           "settings": {
@@ -274,22 +280,16 @@
             "image": "shopify://shop_images/Upcircle_logo.png"
           }
         },
-        "column_TgitRK": {
+        "column_CbbEkg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CoS.png"
+            "image": "shopify://shop_images/sbtrct-padded.png"
           }
         },
         "column_t4mD6C": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/rollr.png"
-          }
-        },
-        "column_CbbEkg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/sbtrct-padded.png"
           }
         },
         "column_yjCBEh": {
@@ -303,11 +303,11 @@
         "column_LpDinq",
         "column_6zKchP",
         "column_4mc9Wk",
+        "column_TgitRK",
         "column_z4eT9U",
         "column_NJR6Xz",
-        "column_TgitRK",
-        "column_t4mD6C",
         "column_CbbEkg",
+        "column_t4mD6C",
         "column_yjCBEh"
       ],
       "name": "Logo Scroller",
