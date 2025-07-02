@@ -9,14 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "stacked_hero_QMQVmL": {
       "type": "stacked-hero",
       "blocks": {
@@ -47,6 +39,14 @@
         "video_embed": "",
         "wide_image": "shopify://shop_images/Philia_Daniel_Faro_Photo.jpg",
         "color_scheme": "scheme-3"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "stacked_hero_wTNyC9": {
@@ -845,8 +845,8 @@
     }
   },
   "order": [
-    "main",
     "stacked_hero_QMQVmL",
+    "main",
     "stacked_hero_wTNyC9",
     "multicolumn_simple_eyxzAQ",
     "stacked_hero_Rp3YYK",
