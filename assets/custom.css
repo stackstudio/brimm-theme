@@ -46,6 +46,9 @@ body {
 
 body.sticky-header {
     padding-top: 0;
+    @media(max-width: 750px) {
+        padding-top: 77px;
+    }
 }
 
 /* header.header {
