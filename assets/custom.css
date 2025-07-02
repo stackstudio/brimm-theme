@@ -826,7 +826,6 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 'intro first second';
   gap: 4rem;
-  padding-bottom: 10vh;
   align-items: center;
 
   /* @media(max-width: 749px) {
