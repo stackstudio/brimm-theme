@@ -1,7 +1,7 @@
 <div class='brimm-blocks--text-banner color-{{ section.settings.color_scheme }}'>
     {%- if section.settings.text -%}
         <div class="brimm-blocks--text-banner-text">
-            {{ section.settings.text }}
+            {{ section.settings.text != blank }}
         </div>
     {%- endif -%}
     {%- if section.settings.url and section.settings.button_text -%}
@@ -34,7 +34,13 @@
         "type": "text",
         "id": "button_text",
         "label": "Button Link"
-      }
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
+      },
     ],
     "presets": [
       {
