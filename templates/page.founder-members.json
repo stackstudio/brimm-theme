@@ -123,8 +123,8 @@
             "content": "<ul><li>Support high-quality content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Save 20% on Reset Boxes</li><li>Earn 10% cashback with each purchase*</li></ul>",
             "yearly_price": "£120",
             "monthly_price": "£12",
-            "button_label_monthly": "Join Monthly",
-            "button_label_yearly": "Join Yearly",
+            "button_label_monthly": "Pay Monthly",
+            "button_label_yearly": "Pay Yearly",
             "button_url": ""
           }
         },
