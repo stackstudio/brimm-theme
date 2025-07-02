@@ -120,7 +120,7 @@
           "type": "column",
           "settings": {
             "title": "Member",
-            "content": "<ul><li>Support high-quality content</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Save 20% on Reset Boxes</li><li>Earn 10% cashback with each purchase*</li></ul>",
+            "content": "<ul><li>Support high-quality writing</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Save 20% on Reset Boxes</li><li>Earn 10% cashback with each purchase*</li></ul>",
             "yearly_price": "£120",
             "monthly_price": "£12",
             "button_label_monthly": "Pay Monthly",
