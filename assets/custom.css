@@ -564,6 +564,7 @@ body.sticky-header {
 /* NEW TEXT BANNER */
 .brimm-blocks--text-banner {
     padding: var(--space-l) var(--space-xl);
+    margin-top: var(--space-3xl);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -573,11 +574,18 @@ body.sticky-header {
         font-size: var(--step-2);
         margin: 0;
     }
+    strong {
+        font-weight: 900;
+    }
     .button {
         background: none;
         color: inherit;
+        border: 2px solid;
         font-weight: 688;
-        text-decoration: underline;
+    }
+    .button:hover {
+        background: rgb(var(--color-button));
+        color: rgb(var(--color-button-text));
     }
 }
 
