@@ -48,28 +48,10 @@
       "type": "repeater-block",
       "name": "Meta object page content",
       "settings": {}
-    },
-    "video_HH4wA8": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/RESET BOXES R5.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify://shop_images/BRiMM_products_vetting.jpg",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "video_HH4wA8",
     "repeater_block_XjWbWC"
   ]
 }
