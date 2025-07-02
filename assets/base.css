@@ -2671,6 +2671,9 @@ input[type='checkbox'] {
   transition: width 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
 }
 
+#HeaderMenu-sign-in {
+    display: none;
+}
 
 
 @media screen and (max-width: 989px) {
