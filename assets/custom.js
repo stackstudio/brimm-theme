@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const firstBlock = document.querySelector('main > div:first-child')
   if(firstBlock.querySelector('section:first-child').classList.contains('brimm-blocks--hero')) {
     firstBlock.after(header)
+    document.querySelector('body').classList.add('sticky-header')
     header.classList.add('sticky')
   }
 });

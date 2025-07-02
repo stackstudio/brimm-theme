@@ -40,6 +40,14 @@
   --logo-gap: 4vw;
 }
 
+body {
+    padding-top: 77px;
+}
+
+body.sticky-header {
+    padding-top: 0;
+}
+
 /* header.header {
     display: none;
 } */
