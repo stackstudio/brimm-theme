@@ -280,6 +280,14 @@ body.sticky-header {
   }
 }
 
+.brimm-blocks--simple-multicolumn.no-top {
+    padding-top: 0;
+}
+
+.brimm-blocks--simple-multicolumn.no-bottom {
+    padding-bottom: 0;
+}
+
 #shopify-section-template--25566311219542__multicolumn_simple_cCpCQn .brimm-blocks--simple-multicolumn {
     padding-bottom: 0;
 }
