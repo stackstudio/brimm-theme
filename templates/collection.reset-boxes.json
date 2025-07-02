@@ -47,7 +47,7 @@
         "padded": false,
         "video_embed": "",
         "wide_image": "{{ collection.image }}",
-        "color_scheme": ""
+        "color_scheme": "scheme-2"
       }
     },
     "rich_text_qntRMw": {
@@ -56,14 +56,14 @@
         "heading_7dd7VQ": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "DISCOVER OUR CURATED RESET BOXES",
             "heading_size": "h1"
           }
         },
         "text_wGDKii": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Each box has been carefully curated and packed with regeneratively farmed, plant-based ingredients, some items are made from by-products, whilst removing nasty preservatives and bad stuff to give you a truly remarkable lifestyle reset that's good for you, and better for the planet</p>"
           }
         }
       },
