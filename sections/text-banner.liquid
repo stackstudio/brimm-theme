@@ -4,7 +4,7 @@
             {{ section.settings.text }}
         </div>
     {%- endif -%}
-    {%- if section.settings.url && section.settings.button_text -%}
+    {%- if section.settings.url and section.settings.button_text -%}
         <a class="button" href={{ section.settings.url }}>
             {{ section.settings.button_text }}
         </a>
