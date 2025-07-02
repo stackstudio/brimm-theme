@@ -2687,11 +2687,18 @@ input[type='checkbox'] {
 }
 
 @media screen and (max-width: 760px) {
+    .footer {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
   .header__heading-logo-wrapper {
     width: 30%;
   }
   .header--mobile-left .header__heading-link {
-      min-width: 280px;
+      min-width: 200px;
+  }
+  a.header__icon--account.link {
+      display: none;
   }
 }
 

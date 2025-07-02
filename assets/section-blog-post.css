@@ -31,6 +31,9 @@
     padding: var(--space-3xl);
     background: #6E1C20;
     color: #E3B2FF;
+    @media (max-width: 750px) {
+        padding: var(--space-s);
+    }
     h1 {
        color: #E3B2FF;
     }
@@ -40,7 +43,7 @@
   .article-template > *:first-child:not(.article-template__hero-container) {
       margin: 0;
       max-width: 100%;
-      padding: var(--space-3xl);
+      padding: var(--space-xl);
       background: #6E1C20;
       color: #E3B2FF;
   }
@@ -142,6 +145,9 @@
   font-size: var(--step-4);
   font-weight: 100;
   font-style: italic;
+  @media(max-width: 750px) {
+      padding: 0 2rem;
+  }
 
 }
 
