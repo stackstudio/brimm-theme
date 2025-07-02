@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,9 +15,67 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "member_packages_mpqTwX": {
+      "type": "member-packages",
+      "blocks": {
+        "heading_PXmdz3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Box Return Instructions",
+            "heading_size": "h1"
+          }
+        },
+        "text_fXh6ni": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve designed our boxes so you can fold them flat and return them back to us to be re-used.</p><p>1. Follow in sequence the numbered instructions on our box to fold it flat. (There are 5 steps). Here’s a quick visual guide:</p><p>2. Reply to your Order confirmation or email <a href=\"mailto:hello@wearebrimm.com\">hello@wearebrimm.com</a> requesting to return your BRiMM box</p><p>3. We’ll send you a prepaid return label to attach to your box</p><p>4. We’ll let you know where you can drop off drop off your box</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PXmdz3",
+        "text_fXh6ni"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Brimm_Reset_Box_Small_Packaging.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_HNn4MK": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "member_packages_mpqTwX",
+    "video_HNn4MK"
   ]
 }
