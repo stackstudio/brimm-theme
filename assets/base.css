@@ -2293,6 +2293,9 @@ input[type='checkbox'] {
   .utility-bar .utility-bar__grid .list-social {
     display: none;
   }
+  body {
+      padding-top: 77px;
+  }
 }
 
 .utility-bar .list-social__item .icon {
