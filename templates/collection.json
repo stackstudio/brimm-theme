@@ -70,6 +70,78 @@
         "padding_bottom": 36
       }
     },
+    "collapsible_content_KTd4UF": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_zbBLp4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Better for the environment",
+            "icon": "none",
+            "row_content": "<p>All of the brands and products we feature are working on lower impact business models. </p><p>Whether it be how they're packaged, sourced or manufactured all of the brands are working hard to lighten their impact. </p><p>Read more on how we curate and vet the brands <a href=\"/pages/curation-and-vetting\" title=\"Curation and Vetting\">here</a>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aJNYrX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Great for you",
+            "icon": "none",
+            "row_content": "<p>We know if can be hard discovering new brands and checking them to ensure they're better for the environment yet still work for you. </p><p>We've worked hard to ensure each and every product we feature ticks the box on both fronts.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fgUVQt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Reset your life room by room",
+            "icon": "none",
+            "row_content": "<p>We wanted to make it easy, with one simple action, to reset each room of your house or part of your house to planetary settings. </p><p>With our Reset Boxes you don't have to think about it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qii8z8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "The most innovative brands vetted",
+            "icon": "none",
+            "row_content": "<p>We've worked hard to bring together a great selection of brands that are pushing the bar in their lower impact business models. </p><p></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8htrhd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Your purchase helps our brands do more",
+            "icon": "none",
+            "row_content": "<p>We invest 10% of our revenue in supporting the brands we stock to help them lower their impact even faster.</p><p>Our first project is a solar project to help them increase the volume of renewable energy they use. But beyond this we've got lots more planned.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_zbBLp4",
+        "collapsible_row_aJNYrX",
+        "collapsible_row_fgUVQt",
+        "collapsible_row_qii8z8",
+        "collapsible_row_8htrhd"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "HOW OUR RESET BOXES HELP YOU AND THE PLANET",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "stacked_hero_ETCpkL": {
       "type": "stacked-hero",
       "blocks": {
@@ -106,6 +178,7 @@
     "banner",
     "stacked_hero_tTUcXe",
     "product-grid",
+    "collapsible_content_KTd4UF",
     "stacked_hero_ETCpkL"
   ]
 }
