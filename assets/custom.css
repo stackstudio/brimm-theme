@@ -664,6 +664,19 @@
   display: none;
 }
 
+.membership-choice .account-prompt p {
+  font-family: 'Bespoke Serif', serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: var(--space-m);
+}
+
+.membership-choice .account-prompt p a {
+  text-decoration: none;
+  color: #6e1c20;
+  text-decoration: underline;
+}
+
 details .product__tax {
   display: none;
 }

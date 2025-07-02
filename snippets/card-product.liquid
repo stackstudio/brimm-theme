@@ -147,6 +147,15 @@
               </span>
             {%- endif -%}
           </div>
+          <div class='card__badge bottom right'>
+              <span
+                id='NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}'
+                class='badge badge--bottom-left color-3'
+              >
+                Member benefits inc
+              </span>
+
+          </div>
         </div>
       </div>
       <div class='card__content'>
@@ -211,7 +220,21 @@
                   <span class='visually-hidden'>{{ 'accessibility.vendor' | t }}</span>
                   <div class='caption-with-letter-spacing light'>{{ card_product.vendor }}</div>
                 {%- endif -%}
-                {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+                {% assign product_collections = card_product.collections | map: 'handle' %}
+                {% assign reset_boxes = false %}
+                {% if product_collections contains 'reset-boxes' %}
+                  {% assign reset_boxes = false %}
+                {% endif %}
+
+                {% if reset_boxes %}
+                  {% assign member_discount_rate = 0.20 %}
+                  {% assign regular_price = card_product.price %}
+                  {% assign p = regular_price | times: member_discount_rate %}
+                  {% assign member_price = regular_price | times: 1.0 | minus: p %}
+                  {% render 'price', product: card_product, price_class: '', show_compare_at_price: true, member_price: member_price %}
+                {% else %}
+                  {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+                {% endif %}
             </div>
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants.size == 1 and quick_add == 'bulk' %}
@@ -625,7 +648,7 @@
               <span class='visually-hidden'>{{ 'accessibility.vendor' | t }}</span>
               <div class='caption-with-letter-spacing light'>{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
-            {% render 'price', placeholder: placeholder, show_compare_at_price: true %}
+            {% comment %} {% render 'price', placeholder: placeholder, show_compare_at_price: true %} {% endcomment %}
           </div>
         </div>
       </div>
