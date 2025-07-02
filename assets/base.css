@@ -2701,7 +2701,7 @@ input[type='checkbox'] {
     width: 30%;
   }
   .header--mobile-left .header__heading-link {
-      min-width: 200px;
+      min-width: 280px;
   }
   a.header__icon--account.link {
       display: none;
