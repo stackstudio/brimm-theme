@@ -173,7 +173,8 @@
       "settings": {
         "content": "More products coming soon. We're more than reset boxes…",
         "url": "shopify://blogs/journal/why-we-created-the-brimm-reset-boxes",
-        "button_text": "Read More"
+        "button_text": "Read More",
+        "color_scheme": "scheme-3"
       }
     },
     "flush_columns_cYTaw6": {
