@@ -69,6 +69,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "hive_product_delivery_promise_BwfzBB": {
+          "type": "shopify://apps/hive/blocks/product_delivery_promise/28e61a32-b940-4725-8c15-5452d2292095",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -87,6 +91,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "hive_product_delivery_promise_BwfzBB",
         "buy_buttons"
       ],
       "settings": {
