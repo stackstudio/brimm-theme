@@ -167,6 +167,25 @@
                         </div>
                       </label>
                   {% endif %}
+                    <div class="accordian">
+                      <details class="membership-details" open>
+                        <summary role="button" aria-expanded="false">
+                          <span class="summary__title">
+                            Membership costs £12/month or £120/year<span class="summary__link">, see more.</span>
+                            {{- 'icon-caret.svg' | inline_asset_content -}}
+                          </span>
+                        </summary>
+                        <div class="accordion__content rte">
+                          <ul>
+                            <li>Support high-quality content</li>
+                            <li>Priority access to events</li>
+                            <li>Give 10% to the Planet Fund with each purchase</li>
+                            <li>Pay member prices on Reset Boxes (20% off - worth £100+/yr)</li>
+                            <li>Earn 10% cashback with each purchase*</li>
+                          </ul>
+                        </div>
+                      </details>
+                    </div>
                   </div>
 
                   {% else %}

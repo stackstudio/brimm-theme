@@ -9,10 +9,7 @@
         <span>{{ item.brand.value }}</span>
         <span class="accordion-icon">+</span>
       </button>
-      <div
-        class="pdp-accreditations"
-        id="accreditations-panel-{{ item.brand.value | handle }}"
-        hidden>
+      <div class="pdp-accreditations hidden" id="accreditations-panel-{{ item.brand.value | handle }}">
         {{ item.description | metafield_tag }}
         <div class="vendor-logos">
           {% for vendor in item.vendors.value %}
@@ -30,8 +27,7 @@
 
 {% style %}
   .pdp-accreditations {
-    margin: 0;
-    margin-top: 1rem;
+    margin: 1rem 0 0;
   }
   .pdp-accreditations h2 {
     font-size: 1.5rem;
@@ -90,16 +86,20 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.accordion-toggle').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-            var panel = btn.nextElementSibling;
-            var expanded = btn.getAttribute('aria-expanded') === 'true';
-            btn.setAttribute('aria-expanded', !expanded);
-            if (expanded) {
-                panel.hidden = true;
-            } else {
-                panel.hidden = false;
-            }
-        });
+      btn.addEventListener('click', function(event) {
+        event.preventDefault();
+        console.log('Accordion button clicked:', event.target.parentElement);
+        var panel = event.target.parentElement.nextElementSibling;
+        console.log('Accordion panel:', panel);
+        var isExpanded = panel.classList.contains('hidden');
+        console.log('Is panel expanded:', !isExpanded);
+        event.target.parentElement.setAttribute('aria-expanded', !isExpanded);
+        if (isExpanded) {
+          panel.classList.add('hidden');
+        } else {
+          panel.classList.remove('hidden');
+        }
+      });
     });
   });
 </script>

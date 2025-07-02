@@ -644,7 +644,27 @@
   font-weight: 555;
 }
 
-.product__tax {
+.membership-choice details {
+  padding-top: 2rem;
+}
+
+.membership-choice details summary {
+  font-weight: 500;
+}
+
+.membership-choice details summary .icon-caret {
+  right: 0;
+}
+
+.membership-choice details[open] summary .icon-caret {
+  transform: rotate(180deg);
+}
+
+.membership-choice details[open] summary .summary__link {
+  display: none;
+}
+
+details .product__tax {
   display: none;
 }
 
