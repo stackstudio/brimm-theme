@@ -1,8 +1,8 @@
 <div class='brimm-blocks--text-banner color-{{ section.settings.color_scheme }}'>
-    {%- if section.settings.text -%}
-        <div class="brimm-blocks--text-banner-text">
-            {{ section.settings.text != blank }}
-        </div>
+    {%- if section.settings.content != blank -%}
+        <p class="brimm-blocks--text-banner-text">
+            {{ section.settings.content }}
+        </p>
     {%- endif -%}
     {%- if section.settings.url and section.settings.button_text -%}
         <a class="button" href={{ section.settings.url }}>

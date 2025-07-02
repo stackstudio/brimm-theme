@@ -561,6 +561,26 @@ body.sticky-header {
   }
 }
 
+/* NEW TEXT BANNER */
+.brimm-blocks--text-banner {
+    padding: var(--space-l) var(--space-xl);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 577;
+        font-size: var(--step-2);
+        margin: 0;
+    }
+    .button {
+        background: none;
+        color: inherit;
+        font-weight: 688;
+        text-decoration: underline;
+    }
+}
+
 /* New Stacked Collection */
 /* .collection-grid {
     display: grid;
