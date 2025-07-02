@@ -567,6 +567,22 @@ body.sticky-header {
     grid-template-columns: 25% 1fr;
 } */
 
+.accreditations-header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-xl) 0;
+}
+
+.accreditations-header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.accreditations-header .button {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
 .collection-grid .slider-mobile-gutter {
   padding: 0;
 }
