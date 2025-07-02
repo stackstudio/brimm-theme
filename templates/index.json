@@ -167,6 +167,15 @@
         "padding_bottom": 36
       }
     },
+    "text_banner_PdFGD4": {
+      "type": "text-banner",
+      "name": "Text Banner",
+      "settings": {
+        "content": "More products coming soon. We're more than reset boxes…",
+        "url": "shopify://blogs/journal/why-we-created-the-brimm-reset-boxes",
+        "button_text": "Read More"
+      }
+    },
     "flush_columns_cYTaw6": {
       "type": "flush-columns",
       "blocks": {
@@ -1034,6 +1043,7 @@
     "stacked_hero_qme3YR",
     "stacked_hero_xxPi8q",
     "multicolumn_simple_cCpCQn",
+    "text_banner_PdFGD4",
     "flush_columns_cYTaw6",
     "logo_scroller_DU3FL7",
     "multicolumn_simple_iNMR3b",
