@@ -133,6 +133,7 @@
         },
         "collapsible_row_qii8z8": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "The most innovative brands vetted",
             "icon": "none",
