@@ -148,6 +148,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
         "justify": true,
         "bordered": false,
         "text_block": "We're launching with our Reset Boxes to help kick start your planet-positive journey. From minimalist bathrooms to regenerative pantries - reset your life one room at a time",
@@ -314,7 +316,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "a fermentation masterclass",
-            "text": "<p>Dr Johnny Drain is a fermentation expert. Check out our interview with him</p>",
+            "text": "<p>Dr Johnny Drain is the chef on a quest to spread the word about \"flavour and sustainability\"</p>",
             "image_label": "",
             "link_label": "Read article",
             "link": "shopify://blogs/journal/dr-johnny-drain-interview"
@@ -360,6 +362,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
         "justify": true,
         "bordered": false,
         "text_block": "Weekly dispatches from people reimagining tomorrow",
@@ -419,6 +423,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
         "justify": true,
         "bordered": false,
         "text_block": "Experience a planet-positive future first hand. Meet the makers, thinkers dreamers shaping what's next",
@@ -456,7 +462,6 @@
         "column_AQibDb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Food_Box_wrong_version_dorset_sea_salt.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
