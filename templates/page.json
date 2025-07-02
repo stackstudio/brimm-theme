@@ -181,7 +181,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Learn more",
-            "link": "shopify://blogs/events",
+            "link": "shopify://blogs/events/join-us-for-a-field-trip-to-a-regenerative-farm",
             "style": "primary"
           }
         }
