@@ -2698,10 +2698,10 @@ input[type='checkbox'] {
         margin-bottom: 0;
     }
   .header__heading-logo-wrapper {
-    width: 30%;
+    width: 80%;
   }
   .header--mobile-left .header__heading-link {
-      min-width: 280px;
+      /* min-width: 280px; */
   }
   a.header__icon--account.link {
       display: none;
