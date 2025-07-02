@@ -1169,7 +1169,7 @@ summary::-webkit-details-marker {
 
   .grid--2-col-tablet-down {
       display: grid;
-      grid-tempalte-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   }
 
   .grid--2-col-tablet-down .grid__item {
