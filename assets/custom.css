@@ -269,7 +269,6 @@ body.sticky-header {
 /* NEW MULTICOL */
 .brimm-blocks--simple-multicolumn {
   padding: var(--space-3xl) var(--space-xl);
-
   .brimm-blocks--callout-column.no-pad {
     padding-right: var(--space-xl);
     max-width: 25%;
@@ -279,6 +278,10 @@ body.sticky-header {
       padding-right: 0;
     }
   }
+}
+
+#shopify-section-template--25566311219542__multicolumn_simple_cCpCQn .brimm-blocks--simple-multicolumn {
+    padding-bottom: 0;
 }
 
 .brimm-blocks--simple-multicolumn-grid {
@@ -313,6 +316,9 @@ body.sticky-header {
 
   @media (max-width: 750px) {
     margin-bottom: var(--space-xl);
+    &:last-child {
+        margin-bottom: 0;
+    }
   }
 }
 
