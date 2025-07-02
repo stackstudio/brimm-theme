@@ -37,7 +37,7 @@
   /* Custom pairs */
   --space-s-l: clamp(0.875rem, 0.4837rem + 1.9565vw, 2rem);
 
-  --logo-gap: 4vw;
+  --logo-gap: 8vw;
 }
 
 body {
@@ -536,12 +536,13 @@ body.sticky-header {
 
   .brimm-blocks--logo-item {
     max-width: 180px;
-    min-width: 90px;
-    flex: 0 1 auto;
-
+    /* min-width: 90px; */
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
     img {
       width: 100%;
-      max-height: 48px;
+      max-height: 58px;
     }
   }
 }
