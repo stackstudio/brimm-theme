@@ -11,9 +11,155 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "collapsible_content_fmU4hA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_XUt8Jt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why do you have a membership?",
+            "icon": "none",
+            "row_content": "<p>We have this simple but big idea that we can divert profits from the things you buy to have a positive impact. But we're still a business and need to make money so the membership funds our business. What the membership really enables is for us to pool our power—funding clean energy, supporting innovative brands, and making planet-positive living easier (and more fun) for everyone. Plus, you get great rewards for supporting the movement. Win-win?</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FditPP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does member pricing work?",
+            "icon": "none",
+            "row_content": "<p>For our Reset boxes, we offer member special prices to help encourage you to switch to planet-positive products and kick-start your journey to a lower impact life. As a member you pay 20% less on the boxes</p><p>Together with cashback on purchases of our other products, we've designed it so that if you return regularly to our shop you'll more than pay back your membership.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9mg9tz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does cashback work?",
+            "icon": "none",
+            "row_content": "<p>We offer 10% cashback to our members on all purchases they make (excluding discounted membership products like the Reset boxes), excluding any other credit or promotions applied to your order.</p><p>This cashback is distributed quarterly and can be used to bring down the cost of future transactions.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zir6Cc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can non-members experience BRiMM?",
+            "icon": "none",
+            "row_content": "<p>Yes with a capital Y. Anyone can shop in our store. Read our inspiring articles and, if there's space, join our events. Members just get extra perks—like members pricing, cashback, exclusive content, and 10% of their spend going to our Planet Fund. But we don't believe in gatekeeping, just more good stuff for everyone.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8QXc6x": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How do you work out the annual value of the membership?",
+            "icon": "none",
+            "row_content": "<p>Membership costs from £6 or £60/yr. We say they're worth more than that though and here's how we calculate that.</p><p><strong>How it works with our middle tier @ £120/yr</strong></p><p>Based on an assumed spend of £600, this membership offers value of £200 per year.</p><p>This is calculated as £60 of content, £80 of credit and £60 cashback (10% of £600)</p><p>On top of this you will contribute £72 to our planet fund which we hope you agree is great value.</p><p><strong>How it works with our top tier @ £180/yr</strong></p><p>Based on an assumed spend of £800, this membership offers value of £300 per year.</p><p>This is calculated as £60 of content, £120 of credit and £80 cashback (10% of £800)</p><p>On top of this you will contribute £98 to our planet fund which we hope you agree is phenomenal value.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_h7zn3q": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How does the Planet Fund work?",
+            "icon": "none",
+            "row_content": "<p>Every time you shop or pay your membership, 10% of BRiMM’s revenue goes towards our Planet Fund. This not-for-profit fund invests in climate impact initiatives such as clean energy and regenerative projects for the brands you love. You even get a say in where the money goes. In year one though to put our money where our mouth is, we're investing £250k ahead of having any revenue to kickstart this activity. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BbAtY8": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What does it mean that nature has equity in the business?",
+            "icon": "none",
+            "row_content": "<p>We're making mother nature a shareholder and a director in our business so that her voice is heard in important company decisions. Beyond this our intent is that mother nature will benefit if the company grows in value which means that profits can be distributed to invest in nature protection and restoration.</p><p>We're working with Lawyers for Nature and Bates Wells to help us do this.</p><p>It's still a relatively new concept and we plan to share what we learn on the way.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fhD4z7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do you choose which products are on your store?",
+            "icon": "none",
+            "row_content": "<p>We’re picky—in the best way. Every product is vetted for quality, performance, style, and planet-positive impact. We have a thorough vetting process reviewing supply chain, materiality and packaging and more. While we don't claim that any product is the most sustainable in it's category, we believe the brands we pick have intent and are innovating someway to lower their impact.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6wY3L9": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How does membership work beyond founder membership?",
+            "icon": "none",
+            "row_content": "<p>After our limited founder spaces have gone, we'll offer membership for £120 per year or £12 per month. If you're not yet ready to join as a full member, we also offer a supporter option for £60 per year or £6 per month. Head on to our membership page to find out more.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_D48fEA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are your reset boxes?",
+            "icon": "none",
+            "row_content": "<p>We've curated a series of boxes to help you reset a part of your life. We've done this to help discovering planet positive brands easier to save you time and ease.</p><p>They're fixed selections today but if our members would value this we're looking to make them customisable in the near future. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HdFnjH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I subscribe to your Reset boxes?",
+            "icon": "none",
+            "row_content": "<p>Our reset boxes are designed for you to discover a selection of our great products and brands from our store at a discounted price. We will not be offering these on subscription.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_D4nW97": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does planet-positive mean?",
+            "icon": "none",
+            "row_content": "<p>We use these words a lot. When we say them we mean a combination of optimism and positive impact on our planet from both the activities we do as a business and the brands we work with.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_XUt8Jt",
+        "collapsible_row_FditPP",
+        "collapsible_row_9mg9tz",
+        "collapsible_row_zir6Cc",
+        "collapsible_row_8QXc6x",
+        "collapsible_row_h7zn3q",
+        "collapsible_row_BbAtY8",
+        "collapsible_row_fhD4z7",
+        "collapsible_row_6wY3L9",
+        "collapsible_row_D48fEA",
+        "collapsible_row_HdFnjH",
+        "collapsible_row_D4nW97"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQS",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "stacked_hero_6XrCb8": {
@@ -252,6 +398,7 @@
   },
   "order": [
     "main",
+    "collapsible_content_fmU4hA",
     "stacked_hero_6XrCb8",
     "flush_columns_6dwDNR",
     "justified_header_section_XYt8hK",
