@@ -181,7 +181,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Find out more",
-            "link": "shopify://pages/the-collective",
+            "link": "shopify://pages/ten-percent-for-the-planet",
             "style": "primary"
           }
         }
