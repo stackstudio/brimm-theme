@@ -576,11 +576,21 @@ body.sticky-header {
 .accreditations-header h1 {
     margin: 0;
     padding: 0;
+    @media(max-width: 550px) {
+        font-size: var(--step-5);
+    }
 }
 
 .accreditations-header .button {
     flex-grow: 0;
     flex-shrink: 1;
+    @media(max-width: 550px) {
+        padding: 0;
+        background: transparent;
+        color: black;
+        text-decoration: underline;
+        font-size: var(--step-1);
+    }
 }
 
 .collection-grid .slider-mobile-gutter {
