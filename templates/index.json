@@ -68,7 +68,7 @@
         "cta_button_TdzEQD": {
           "type": "cta_button",
           "settings": {
-            "label": "Join as a Member",
+            "label": "Discover More",
             "link": "shopify://pages/founder-members",
             "style": "primary"
           }
