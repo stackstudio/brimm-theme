@@ -1000,7 +1000,7 @@ summary::-webkit-details-marker {
 @media screen and (min-width: 750px) {
   .grid__item {
     width: calc(15% - var(--grid-desktop-horizontal-spacing) * 1 / 2);
-    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: 100%;
   }
 }
 
@@ -1167,8 +1167,14 @@ summary::-webkit-details-marker {
     margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
   }
 
+  .grid--2-col-tablet-down {
+      display: grid;
+      grid-tempalte-columns: 1fr 1fr;
+  }
+
   .grid--2-col-tablet-down .grid__item {
-    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+    width: 100%;
+    max-width: 100%;
   }
 
   .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
