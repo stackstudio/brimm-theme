@@ -90,7 +90,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   align-content: space-between;
   overflow-y: auto;
   height: 100%;
-  background: black;
+  background: #E3B2FF;
 }
 
 .menu-drawer__navigation {
@@ -112,7 +112,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   text-decoration: none;
   font-size: 1.8rem;
   font-family: 'Manrope';
-  color: white;
+  color: #6E1C20;
 }
 
 .menu-drawer summary.menu-drawer__menu-item {
@@ -124,7 +124,8 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__close-button:focus,
 .menu-drawer__menu-item:hover,
 .menu-drawer__close-button:hover {
-  color: white;
+  color: #6E1C20;
+  font-weight: bold;
   background-color: rgba(var(--color-foreground), 0.04);
 }
 
