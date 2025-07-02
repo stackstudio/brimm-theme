@@ -253,7 +253,7 @@
         "column_6zKchP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Northern_Pasta_logo.png"
+            "image": "shopify://shop_images/pasta.png"
           }
         },
         "column_4mc9Wk": {
@@ -265,7 +265,7 @@
         "column_z4eT9U": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Kit_Kin_logo_monochrome.png"
+            "image": "shopify://shop_images/kk.png"
           }
         },
         "column_NJR6Xz": {
@@ -277,19 +277,19 @@
         "column_TgitRK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Citizens_of_Soil_logo.png"
+            "image": "shopify://shop_images/CoS.png"
           }
         },
         "column_t4mD6C": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Rollr_logo_monochrome.png"
+            "image": "shopify://shop_images/rollr.png"
           }
         },
         "column_CbbEkg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sbtrct_logo.png"
+            "image": "shopify://shop_images/sbtrct.png"
           }
         },
         "column_yjCBEh": {
