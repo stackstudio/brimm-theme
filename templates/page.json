@@ -94,7 +94,7 @@
       "name": "Flush Columns",
       "settings": {
         "title": "CONNECT WITH CLIMATE OPTIMISTS",
-        "text_block": "Members get priority access and member only prices",
+        "text_block": "Members get priority access and member only prices for our planet-positive events.",
         "columns_desktop": 3,
         "button_label": "Become a member",
         "button_link": "shopify://pages/membership",
@@ -118,7 +118,7 @@
       ],
       "name": "Justified Header + Content",
       "settings": {
-        "color_scheme": ""
+        "color_scheme": "scheme-3"
       }
     },
     "stacked_hero_QaD3X3": {
@@ -159,7 +159,7 @@
         "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/Copson_London_Photos.jpg",
-        "color_scheme": "scheme-1"
+        "color_scheme": "scheme-3"
       }
     },
     "stacked_hero_cgBAJi": {
@@ -200,7 +200,7 @@
         "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/british_pasture_leather.jpg",
-        "color_scheme": ""
+        "color_scheme": "scheme-3"
       }
     },
     "stacked_hero_6pkEf6": {
@@ -222,7 +222,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Learn more",
-            "link": "shopify://blogs/events",
+            "link": "shopify://blogs/events/stitch-bitch-sip-a-hands-on-workshop-with-orsola-de-castro-at-her-peckham-cafe",
             "style": "primary"
           }
         }
@@ -241,7 +241,7 @@
         "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
-        "color_scheme": ""
+        "color_scheme": "scheme-3"
       }
     }
   },
