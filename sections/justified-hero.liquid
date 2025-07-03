@@ -1,0 +1,108 @@
+{% if section.settings.image != blank %}
+  {% assign background_image_url = section.settings.image | image_url: width: 4000 %}
+  {% style %}
+    #{{ section.id }} {
+      background-image: url({{ background_image_url }});
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  {% endstyle %}
+{% endif %}
+
+<section class="brimm-blocks--hero color-{{ section.settings.color_scheme }}" id="{{ section.id }}">
+  <div class="page-width brimm-blocks--hero-content">
+    {% for block in section.blocks %}
+      {% if block.type == 'heading' %}
+        <h1 class="brimm-blocks--split-text brimm-blocks--justified-header">{{ block.settings.heading_text }}</h1>
+      {% endif %}
+      {% if block.type == 'text' %}
+        <p class="brimm-blocks--hero-para">{{ block.settings.copy }}</p>
+      {% endif %}
+      {% if block.type == 'text' %}
+        {% if block.settings.label and block.settings.link %}
+            <a href="{{ block.settings.link }}"
+                class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
+                {{ block.settings.label }}
+            </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Justified Hero",
+  "settings": [
+    {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "image"
+    },
+    {
+        "type": "color_scheme",
+        "label": "Color Scheme",
+        "id": "color_scheme"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading_text",
+          "label": "Heading Text",
+          "default": "Default Heading"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Paragraph Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "copy",
+          "label": "Paragraph Text",
+          "default": "Your text here…"
+        }
+      ]
+    },
+    {
+      "type": "cta_button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Button label",
+          "default": "Click me"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "style",
+          "label": "Button style",
+          "default": "primary",
+          "options": [
+            { "value": "primary", "label": "Primary" },
+            { "value": "secondary", "label": "Secondary" }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+        "name": "Justified Hero"
+    }
+  ]
+}
+{% endschema %}

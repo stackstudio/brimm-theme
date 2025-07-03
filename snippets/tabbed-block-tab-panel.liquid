@@ -1,0 +1,44 @@
+{%- liquid
+  assign fetch_priority = 'auto'
+  assign loading = 'lazy'
+  if index == 1
+    assign fetch_priority = 'high'
+    assign loading = 'eager'
+  endif
+
+  assign tab_image = tab.media_image.value
+-%}
+
+<div
+  id="{{ tab.system.handle }}"
+  role="tabpanel"
+  class="tab-panel tabbed-block__grid {% if is_hidden %}hidden{% endif %}">
+  <div class="tabbed-block__text scroll-trigger animate--slide-in">
+    <h2 class="tabbed-block__heading">{{ tab.headline }}</h2>
+    <div class="tabbed-block__rich-text">
+      {{ tab.rich_text | metafield_tag }}
+    </div>
+    {% if tab.cta_button.value.url != blank and tab.cta_button.value.text != blank %}
+      <a class="cta-button" href="{{ tab.cta_button.value.url }}">{{ tab.cta_button.value.text }}</a>
+    {% endif %}
+  </div>
+  <div class="tabbed-block__media scroll-trigger animate--slide-in">
+    {%- if tab.media_badge != blank -%}
+      <span class="tabbed-block__badge">{{ tab.media_badge }}</span>
+    {%- endif -%}
+    <img
+      src="{{ tab_image.src | image_url: width: 1500 }}"
+      srcset="
+          {{ tab_image.src | image_url: width: 300 }} 300w,
+          {{ tab_image.src | image_url: width: 600 }} 600w,
+          {{ tab_image.src | image_url: width: 900 }} 900w,
+          {{ tab_image.src | image_url: width: 1500 }} 1500w
+        "
+      sizes="(max-width: 768px) 100vw, 50vw"
+      alt="{{ tab.headline | escape }}"
+      loading="{{ loading }}"
+      fetchpriority="{{ fetch_priority }}"
+      width="1500"
+      height="{{ 1500 | divided_by: tab_image.aspect_ratio | round | default: 1125 }}">
+  </div>
+</div>

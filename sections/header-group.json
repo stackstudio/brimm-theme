@@ -13,35 +13,17 @@
   "sections": {
     "header": {
       "type": "header",
-      "blocks": {
-        "announcement_NAU4qf": {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "Test 1"
-          }
-        },
-        "announcement_i8Afa4": {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "test 2"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_NAU4qf",
-        "announcement_i8Afa4"
-      ],
       "settings": {
         "logo_position": "middle-left",
-        "menu": "main-menu",
+        "menu": "new-ecomm-header",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "none",
         "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "",
+        "color_scheme": "scheme-2",
+        "menu_color_scheme": "scheme-2",
         "enable_country_selector": true,
         "enable_language_selector": true,
-        "enable_customer_avatar": true,
+        "enable_customer_avatar": false,
         "mobile_logo_position": "left",
         "margin_bottom": 0,
         "padding_top": 20,

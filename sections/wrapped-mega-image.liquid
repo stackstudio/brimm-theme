@@ -1,0 +1,236 @@
+{% style %}
+    .brimm-blocks--mega-image {
+        position: relative;
+    }
+    .brimm-blocks--mega {
+        padding-top: 8rem;
+        padding-bottom: 6rem;
+        @media(max-width: 749px) {
+            padding: 2rem 0;
+        }
+    }
+    .brimm-blocks--mega.no-bottom {
+        padding-bottom: 0;
+    }
+    .brimm-blocks--mega.no-top .brimm-blocks--mega-top {
+        padding: 0;
+    }
+    .brimm-blocks--mega .button {
+        background: black;
+        color: #E6E6D3;
+        padding: 2rem;
+        font-weight: 777;
+        letter-spacing: 0;
+        font-size: 1.8rem;
+        @media(max-width: 900px) {
+           font-size: 16px;
+           margin-top: 1rem;
+           padding: 1.4rem;
+        }
+    }
+    .brimm-blocks--mega img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 24px;
+    }
+    .brimm-blocks--mega-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 48px;
+        padding: 5rem 4rem;
+        align-items: center;
+        @media(max-width: 900px) {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            padding: 2rem 0;
+        }
+    }
+    .no-bottom .brimm-blocks--mega-grid:last-child {
+        padding-bottom: 0;
+    }
+    .brimm-blocks--mega-bottom {
+        align-items: center;
+        grid-template-columns: 2fr 1fr;
+        @media(max-width: 900px) {
+            grid-template-columns: 1fr;
+        }
+    }
+    .brimm-blocks--mega-grid h1 {
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .brimm-blocks--mega-grid p {
+        font-size: clamp(16px, 2.2vw, 2.2rem);
+        line-height: 1.25;
+        margin: 0;
+    }
+    .brimm-blocks--full-width-vid > div {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 16 / 9;
+        position: relative;
+    }
+    .brimm-blocks--full-width-vid iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+    }
+{% endstyle %}
+
+<section class="brimm-blocks--mega color-{{ section.settings.color_scheme }}{% if section.settings.disable_bottom_padding %} no-bottom{% endif %}{% if section.settings.disable_top_padding %} no-top{% endif %}" id="{{ section.id }}">
+  <div class="page-width brimm-blocks--mega-content">
+    <div class="brimm-blocks--mega-top brimm-blocks--mega-grid">
+      {% for block in section.blocks %}
+        {% if block.type == 'heading' %}
+          <h1>{{ block.settings.heading_text }}</h1>
+        {% endif %}
+        {% if block.type == 'top_paragraph' %}
+          <div>
+            {{ block.settings.top_copy }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="brimm-blocks--mega-image-wrapper">
+      {%- if section.settings.video_embed != blank and section.settings.image == blank %}
+        <div class="brimm-blocks--full-width-vid">
+          {{ section.settings.video_embed }}
+        </div>
+      {%- endif -%}
+      {%- if section.settings.image != blank and section.settings.video_embed == blank %}
+        <div class='brimm-blocks-mega-image'>
+          <img
+              src="{{ section.settings.image | image_url }}"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}"
+            >
+        </div>
+      {%- endif -%}
+    </div>
+    <div class="brimm-blocks--mega-bottom brimm-blocks--mega-grid">
+      {% for block in section.blocks %}
+        {% if block.type == 'bottom_paragraph' %}
+          <p>{{ block.settings.bottom_copy }}</p>
+        {% endif %}
+        {% if block.type == 'cta_button' %}
+            {% if block.settings.label and block.settings.link %}
+                <a href="{{ block.settings.link }}"
+                    class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
+                    {{ block.settings.label }}
+                </a>
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Mega",
+  "settings": [
+    {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "image"
+    },
+    {
+      "type": "liquid",
+      "id": "video_embed",
+      "label": "t:sections.image-with-text.settings.video_embed.label",
+      "info": "t:sections.image-with-text.settings.video_embed.info"
+    },
+    {
+        "type": "color_scheme",
+        "label": "Color Scheme",
+        "id": "color_scheme"
+    },
+    {
+        "type": "checkbox",
+        "id": "disable_bottom_padding",
+        "label": "Disable bottom padding",
+        "default": false
+    },
+    {
+        "type": "checkbox",
+        "id": "disable_top_padding",
+        "label": "Disable top padding",
+        "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading_text",
+          "label": "Heading Text",
+          "default": "Default Heading"
+        }
+      ]
+    },
+    {
+      "type": "top_paragraph",
+      "name": "Top Parapgraph",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "top_copy",
+          "label": "Top Paragraph Text",
+          "default": "<p>This is your default rich text content.</p>"
+        }
+      ]
+    },
+    {
+      "type": "bottom_paragraph",
+      "name": "Bottom Parapgraph",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "bottom_copy",
+          "label": "Bottom Paragraph Text",
+          "default": "<p>This is your default rich text content.</p>"
+        }
+      ]
+    },
+    {
+      "type": "cta_button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Button label",
+          "default": "Click me"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "style",
+          "label": "Button style",
+          "default": "primary",
+          "options": [
+            { "value": "primary", "label": "Primary" },
+            { "value": "secondary", "label": "Secondary" }
+          ]
+        }
+      ]
+    }
+
+  ],
+  "presets": [
+    {
+        "name": "Mega"
+    }
+  ]
+}
+{% endschema %}

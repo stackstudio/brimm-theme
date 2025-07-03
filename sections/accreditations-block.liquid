@@ -1,0 +1,62 @@
+{%- comment -%}
+  Dynamic Metaobject Content Renderer
+  Supports multiple content types with automatic type detection and rendering
+{%- endcomment -%}
+
+{%- liquid
+  if template.suffix
+    assign template_type = template.name | split: '.' | first
+  else
+    assign template_type = template
+  endif
+
+  case template_type
+    when 'product'
+      assign accreditations = product.metafields.custom.accreditations
+    else
+      assign accreditations = nil
+  endcase
+-%}
+
+{%- if accreditations.value -%}
+  <div class="dynamic-content-wrapper page-width">
+    <div class="accreditations-header">
+      <h1 class="section-title">Accreditations and Attributes</h1>
+      <a href="/pages/curation-and-vetting" class="button">How We Curate</a>
+    </div>
+    {% for component in accreditations.value %}
+      {% if component.system.type == "brand_accreditations" %}
+        {% render 'pdp-accreditations' with component as item
+          , index: forloop.index %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% elsif request.design_mode %}
+  <div class="editor-notification">⭐️ Content in this section is controlled by this {{ template_type }}
+    <strong>Page Content</strong>
+    metafield. <br/>Please add an entry to hide this message</div>
+  <style>
+    .editor-notification {
+      padding: 5rem;
+      margin: 3rem;
+      background-color: #dedede;
+      border-radius: 2.4rem;
+      text-align: center;
+    }
+  </style>
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Accreditations",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "presets": [
+      {
+        "name": "Accreditations",
+        "category": "Custom Sections"
+      }
+    ]
+  }
+{% endschema %}

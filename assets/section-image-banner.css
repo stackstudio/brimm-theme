@@ -63,6 +63,16 @@
   }
 }
 
+@media screen and (min-width: 750px) {
+  .banner--medium {
+    height: 90vh;
+  }
+}
+
+.banner--medium {
+  height: 85vh;
+}
+
 @media screen and (max-width: 749px) {
   .banner:not(.banner--stacked) {
     flex-direction: row;
@@ -310,12 +320,6 @@
   font-size: 1.4rem;
   font-weight: 800;
   margin-bottom: -2rem;
-}
-
-.banner__text p {
-  font-weight: 500;
-  line-height: 120%;
-  letter-spacing: -0.28px;
 }
 
 .banner__buttons {

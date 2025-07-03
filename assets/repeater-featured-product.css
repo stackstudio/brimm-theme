@@ -1,0 +1,239 @@
+.section-featured-product {
+  padding: 3.2rem 0;
+}
+
+.featured-product {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  padding: 2rem 2rem 4.8rem 2rem;
+  border-radius: 1.6rem;
+  background: radial-gradient(
+    at top,
+    var(--color-green-radial-start),
+    var(--color-green-radial-end)
+  );
+}
+
+.featured-product--reverse {
+  flex-direction: column-reverse;
+}
+
+.featured-product__product {
+  width: 100%;
+  padding: 1.2rem 1.2rem 3.2rem 1.2rem;
+  border-radius: 1.2rem;
+  background-color: var(--color-white);
+}
+
+.featured-product__product .ratio::before {
+  padding-bottom: calc(var(--ratio-percent));
+}
+
+.featured-product__product
+  .card__content
+  .card__information
+  .card-information
+  .grey-dotted-notes {
+  margin: 0.8rem 0 0 0;
+}
+
+.featured-product__product
+  .card__content
+  .card__information
+  .card-information
+  .price {
+  margin-top: 0.8rem;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 120%;
+  color: var(--color-grey-light);
+  text-transform: uppercase;
+  letter-spacing: 0.112rem;
+}
+
+.featured-product__text {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: center;
+  align-self: stretch;
+  padding: 0 1.2rem;
+}
+
+.featured-product__headline {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 130%;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.featured-product__add-to-cart {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  height: 4.8rem;
+  padding: 0 2.4rem;
+  border: 2px solid var(--color-white);
+  border-radius: 10rem;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--color-white);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.featured-product .card__heading {
+  font-size: 2.4rem;
+}
+
+.featured-product .card__content {
+  padding: 0 1.6rem;
+}
+
+.featured-product .card-wrapper {
+  width: 100%;
+}
+
+.featured-product .card__information {
+  grid-row-start: 1;
+  gap: 0.8rem;
+  padding: 0;
+}
+
+.featured-product .card__country-origin {
+  margin-bottom: 0.8rem;
+}
+
+.featured-product .card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+  border-radius: 1.2rem;
+  background: var(--color-white);
+}
+
+.featured-product .swatch-variant-picker {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin-top: 2.4rem;
+}
+
+.featured-product .swatch-with-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--color-grey-dark);
+}
+
+.featured-product .selected-variant-title {
+  display: none;
+  animation: slideFromRight var(--duration-long) ease-out;
+}
+
+.featured-product .active + .selected-variant-title {
+  display: inline-block;
+}
+
+.featured-product .swatch {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .featured-product {
+    padding: 3.2rem 3.2rem 5.4rem 3.2rem;
+  }
+
+  .featured-product__product {
+    padding: 1.2rem;
+    border-radius: 2rem;
+  }
+
+  .featured-product__product
+    .card__content
+    .card__information
+    .card-information
+    .grey-dotted-notes {
+    margin: 0.8rem 0 0 0;
+  }
+
+  .featured-product__product
+    .card__content
+    .card__information
+    .card-information
+    .price {
+    margin-top: 1.6rem;
+  }
+
+  .featured-product__product--no-color-options .card__information {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: 100%;
+  }
+
+  .featured-product__product--no-color-options .card-information {
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured-product__product--no-color-options
+    .card__content
+    .card__information
+    .card-information
+    .price {
+    margin-top: auto;
+  }
+
+  .featured-product .card {
+    flex-direction: row;
+    gap: 4rem;
+    align-items: stretch;
+  }
+
+  .featured-product .card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem 0;
+  }
+
+  .featured-product .swatch-with-label {
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .featured-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .featured-product .card__content {
+    padding-right: 2.8rem;
+  }
+
+  .featured-product__text {
+    justify-content: center;
+    padding: 0 8rem;
+  }
+}

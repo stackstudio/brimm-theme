@@ -1,0 +1,162 @@
+{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
+
+<div class='brimm-blocks--flush-columns color-{{ section.settings.color_scheme }} {% if section.settings.title == blank %} no-heading{% endif %}'>
+  <div class='section-{{ section.id }}-padding isolate'
+    <div class='flush-columns-wrapper'>
+        {%- unless section.settings.title == blank -%}
+            <div class='brimm-blocks--flush-columns-title'>
+                <h2 class='title inline-richtext {{ section.settings.heading_size }}{% if section.settings.split_header %} brimm-blocks--split-text brimm-blocks--justified-header{% endif %}'>
+                    {{ section.settings.title }}
+                </h2>
+            </div>
+        {%- endunless -%}
+        <div class="brimm-blocks--flush-columns-grid">
+            {%- for block in section.blocks -%}
+                {%- if block.settings.link != blank -%}
+                    <a class="brimm-blocks--flush-column-item {% if block.settings.desaturate %} desaturate{% endif %}" >
+                {%- else -%}
+                    <div class="brimm-blocks--flush-column-item {% if block.settings.desaturate %} desaturate{% endif %}" >
+                {%- endif -%}
+                    <div class='multicolumn-card__info'>
+                        <img class="inline-bg" src="{{ block.settings.image | image_url }}" width="{{ block.settings.image.width }}" height="{{ block.settings.image.height }}" />
+                        {%- if block.settings.title != blank -%}
+                        <h3 class='inline-richtext body-extra'>{{ block.settings.title }}</h3>
+                        {%- endif -%}
+                    </div>
+                    {%- if block.settings.text != blank -%}
+                        <div class='rte body-medium'>{{ block.settings.text }}</div>
+                    {%- endif -%}
+                    {%- if block.settings.link != blank -%}
+                        </a>
+                    {%- else -%}
+                        </div>
+                    {%- endif -%}
+            {%- endfor -%}
+        </div>
+    </div>
+    <div class="brimm-blocks--flush-columns-content">
+        {%- if section.settings.text_block != blank -%}
+            <div class='rte body-extra-20 text_block'>{{ section.settings.text_block }}</div>
+        {%- endif -%}
+        {%- if section.settings.button_label != blank -%}
+            <a href='{{ section.settings.button_link }}' class="button">
+            {{- section.settings.button_label | escape -}}
+            </a>
+        {%- endif -%}
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Flush Columns",
+    "class": "section",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "title",
+        "default": "t:sections.multicolumn.settings.title.default",
+        "label": "t:sections.multicolumn.settings.title.label"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "text_block",
+        "default": "t:sections.multicolumn.settings.text_block.default",
+        "label": "t:sections.multicolumn.settings.text_block.label"
+      },
+      {
+        "type": "range",
+        "id": "columns_desktop",
+        "min": 1,
+        "max": 6,
+        "step": 1,
+        "default": 3,
+        "label": "t:sections.multicolumn.settings.columns_desktop.label"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "default": "t:sections.multicolumn.settings.button_label.default",
+        "label": "t:sections.multicolumn.settings.button_label.label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "t:sections.multicolumn.settings.button_link.label"
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
+      },
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          },
+          {
+            "type": "inline_richtext",
+            "id": "title",
+            "default": "t:sections.multicolumn.blocks.column.settings.title.default",
+            "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "default": "t:sections.multicolumn.blocks.column.settings.text.default",
+            "label": "t:sections.multicolumn.blocks.column.settings.text.label"
+          },
+          {
+            "type": "text",
+            "id": "link_label",
+            "label": "t:sections.multicolumn.blocks.column.settings.link_label.label"
+          },
+          {
+            "type": "checkbox",
+            "id": "desaturate",
+            "label": "Desturate images",
+            "default": true
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Flush Columns",
+        "blocks": [
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .text_block {
+    max-width: 50%;
+    color: black;
+  }
+{% endstylesheet %}

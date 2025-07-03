@@ -30,6 +30,9 @@
 
   .menu-drawer-container {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   .list-menu {
@@ -41,6 +44,15 @@
   .list-menu--inline {
     display: inline-flex;
     flex-wrap: wrap;
+  }
+
+  .header__icon--menu .icon path {
+      color: #6E1C20 !important;
+      stroke: #6E1C20 !important;
+  }
+
+  .header__icon .icon {
+      color: #6E1C20 !important;
   }
 
   summary.list-menu__item {
@@ -71,7 +83,6 @@
 {%- style -%}
 .header {
     gap: 0.5rem;
-    background: var(--Opacity-Black-10, rgba(0, 0, 0, 0.10));
     backdrop-filter: blur(100px);
     padding: 1.6rem 1rem 1.6rem 2rem;
   }
@@ -79,7 +90,7 @@
   @media screen and (min-width: 900px) {
     .header {
       gap: 1rem;
-      padding: 2rem 2.6rem 2rem 3.6rem;
+      padding: 1rem 1.6rem 1rem 1.6rem;
     }
   }
 
@@ -117,7 +128,7 @@
   assign announcements = ''
 -%}
 
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }}">
+<div {% if section.settings.sticky_header_type != 'none' %}data-sticky-type="{{ section.settings.sticky_header_type }}"{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }}">
   {%- liquid
     assign social_links = false
     assign localization_forms = false
@@ -147,7 +158,7 @@
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
               <div class="header__heading-logo-wrapper">
-                <img src="{{ 'brimm-logo.svg' | asset_url }}" alt="Brimm Logo" class="header__heading-logo">
+                <img width="auto" height="auto" src="https://cdn.shopify.com/s/files/1/0847/6891/5798/files/logo-brick.svg?v=1750874705" alt="Brimm Logo" class="header__heading-logo">
               </div>
           </a>
       {%- if request.page_type == 'index' -%}
@@ -196,8 +207,8 @@
     {%- endif -%}
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
-      <div class="desktop-localization-wrapper">
-        {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
+      <!-- <div class="desktop-localization-wrapper">
+        {% comment %}{%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
             {%- form 'localization', id: 'HeaderCountryForm', class: 'localization-form' -%}
               <div>
@@ -206,9 +217,9 @@
               </div>
             {%- endform -%}
           </localization-form>
-        {% endif %}
+        {% endif %}{% endcomment %}
 
-        {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
+        {% comment %}{%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
             {%- form 'localization', id: 'HeaderLanguageForm', class: 'localization-form' -%}
               <div>
@@ -217,8 +228,8 @@
               </div>
             {%- endform -%}
           </localization-form>
-        {%- endif -%}
-      </div>
+        {%- endif -%}{% endcomment %}
+      </div> -->
       {% comment %} {% render 'header-search', input_id: 'Search-In-Modal' %} {% endcomment %}
 
       {%- if shop.customer_accounts_enabled -%}
@@ -252,11 +263,19 @@
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
           {% if cart == empty %}
-            <span class="svg-wrapper">{{'icon-cart-empty.svg' | inline_asset_content }}</span>
+            <span class="svg-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M2.05005 2.05H4.05005L6.71005 14.47C6.80763 14.9249 7.06072 15.3315 7.42576 15.6199C7.7908 15.9082 8.24495 16.0604 8.71005 16.05H18.49C18.9452 16.0493 19.3865 15.8933 19.7411 15.6078C20.0956 15.3224 20.3422 14.9245 20.4401 14.48L22.09 7.05H5.12005M9.00005 21C9.00005 21.5523 8.55233 22 8.00005 22C7.44776 22 7.00005 21.5523 7.00005 21C7.00005 20.4477 7.44776 20 8.00005 20C8.55233 20 9.00005 20.4477 9.00005 21ZM20 21C20 21.5523 19.5523 22 19 22C18.4478 22 18 21.5523 18 21C18 20.4477 18.4478 20 19 20C19.5523 20 20 20.4477 20 21Z" stroke="#6E1C20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
           {% else %}
-            <span class="svg-wrapper">{{'icon-cart.svg' | inline_asset_content }}</span>
+            <span class="svg-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M2.05005 2.05H4.05005L6.71005 14.47C6.80763 14.9249 7.06072 15.3315 7.42576 15.6199C7.7908 15.9082 8.24495 16.0604 8.71005 16.05H18.49C18.9452 16.0493 19.3865 15.8933 19.7411 15.6078C20.0956 15.3224 20.3422 14.9245 20.4401 14.48L22.09 7.05H5.12005M9.00005 21C9.00005 21.5523 8.55233 22 8.00005 22C7.44776 22 7.00005 21.5523 7.00005 21C7.00005 20.4477 7.44776 20 8.00005 20C8.55233 20 9.00005 20.4477 9.00005 21ZM20 21C20 21.5523 19.5523 22 19 22C18.4478 22 18 21.5523 18 21C18 20.4477 18.4478 20 19 20C19.5523 20 20 20.4477 20 21Z" stroke="#6E1C20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
           {% endif %}
-        <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
+        <!-- <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span> -->
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
             {%- if cart.item_count < 100 -%}
@@ -273,7 +292,7 @@
       endif
     -%}
   </header>
-</{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
+</div>
 
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme, desktop_menu_type: section.settings.menu_type_desktop -%}

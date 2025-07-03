@@ -1,0 +1,385 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "justified_hero_qEnNDW": {
+      "type": "justified-hero",
+      "blocks": {
+        "heading_DRd4EB": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "RESET TO A MORE PLANET-POSITIVE  LIFESTYLE"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DRd4EB"
+      ],
+      "disabled": true,
+      "name": "Justified Hero",
+      "settings": {
+        "color_scheme": "scheme-6"
+      }
+    },
+    "stacked_hero_k9zdC6": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_k6PdfM": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "RESET YOUR LIFE WITH OUR DISCOVERY BOXES"
+          }
+        },
+        "text_paKbLc": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Kick start your planet-positive journey and discover innovative products to Reset your food, cleaning or bathroom rituals - in one box. More coming soon</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k6PdfM",
+        "text_paKbLc"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_1_Shot_6_Version_4_copy_2_16x9_a3852612-0e1d-411d-8b9c-1b83b86eea55.jpg",
+        "color_scheme": "scheme-2"
+      }
+    },
+    "wrapped_mega_image_ebtEiP": {
+      "type": "wrapped-mega-image",
+      "blocks": {
+        "heading_BGe3mY": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "RESET YOUR LIFE WITH OUR DISCOVERY BOXES"
+          }
+        },
+        "top_paragraph_zFyPbT": {
+          "type": "top_paragraph",
+          "settings": {
+            "top_copy": "<p>Want to kick start your Planet Positive Journey? Reset your food, cleaning or bathroom rituals to be planet-positive - in one box.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BGe3mY",
+        "top_paragraph_zFyPbT"
+      ],
+      "disabled": true,
+      "name": "Mega",
+      "settings": {
+        "video_embed": "",
+        "color_scheme": "scheme-1",
+        "disable_bottom_padding": true,
+        "disable_top_padding": false
+      }
+    },
+    "featured_collection_7z4pTV": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "DISCOVER OUR CURATED RESET BOXES",
+        "heading_size": "h1",
+        "description": "<p>Each box has been carefully curated and packed with regeneratively farmed, plant-based ingredients, some items are made from by-products, whilst removing nasty preservatives and bad stuff to give you a truly remarkable lifestyle reset that's good for you, and better for the planet</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "reset-boxes",
+        "products_to_show": 14,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_rcKjFt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XccUUJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founder member benefits",
+            "heading_size": "h1"
+          }
+        },
+        "text_VazerB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Founder members get our top membership tier for life. No strings attached. Which means £300 value each and every year, for a one off fee.</p><p>Your name will be lit up in pixels on the BRiMM site with other founder members.</p><p>Voting rights where we invest 10% of our revenue. Helping our brands give more to the planet than they take. </p><p>Exclusive invites to founder member events and experiences.</p><p>First dibs on new boxes, products, and collaborations.</p>",
+            "text_style": "body"
+          }
+        },
+        "member_packages_fAB7BM": {
+          "type": "member_packages",
+          "settings": {
+            "member_packages_block": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_XccUUJ",
+        "text_VazerB",
+        "member_packages_fAB7BM"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Base_camp_package.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_mkA8Fb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TPtjrA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Limited spots. sign up today",
+            "heading_size": "h1"
+          }
+        },
+        "text_pG7FpY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don’t miss your moment to help build a movement—and enjoy a lifetime of brighter, lighter living.<br/></p><p>One person is chosen for a free, limited gift every day. Join the waitlist now. </p><p><br/>BRiMM: Where less really is more. More joy. More impact. More community. Live bright. Tread light</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TPtjrA",
+        "text_pG7FpY"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "email_signup_banner_644mkD": {
+      "type": "email-signup-banner",
+      "blocks": {
+        "heading_pJ9fHK": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMING REAL SOON",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_k7RGwr": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Take back your agency and jump in as one of 1000 BRiMM Founder Members.<br/><br/></strong>You'll decide where we invest 10% of profits, helping your new favourite brands hit net zero. Along with some super cool, planet positive perks. </p><p><br/>Sign up to get notified when we launch. And get access to our newsletter, which is full of Planet Positive design, travel, fashion, beauty and food goodness. Oh, and a fresh playlist of tunes each week. </p><p></p><p>Ready to team up and turn the tide?</p>",
+            "text_style": "body"
+          }
+        },
+        "email_form_JPVg3c": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_pJ9fHK",
+        "paragraph_k7RGwr",
+        "email_form_JPVg3c"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 100,
+        "collection_theme": "brimm-theme",
+        "show_background_image": false,
+        "sticky_on_mobile": true,
+        "image_height": "adapt-image",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "mobile_content_alignment": "left",
+        "show_text_below": true
+      }
+    },
+    "hero_bMD8Ce": {
+      "type": "hero",
+      "name": "Hero section",
+      "settings": {
+        "heading": ""
+      }
+    },
+    "collapsible_content_TpbaYN": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_PgTRC7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Better for the environment",
+            "icon": "none",
+            "row_content": "<p>All of the brands and products we feature are working on lower impact business models. </p><p>Whether it be how they're packaged, sourced or manufactured all of the brands are working hard to lighten their impact. </p><p><a href=\"/pages/curation-and-vetting\" title=\"Curation and Vetting\">Read more about how we curate and vet the brands and products.</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WRH8kT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Great for you",
+            "icon": "none",
+            "row_content": "<p>We know if can be hard discovering new brands and checking them to ensure they're better for the environment yet still work for you. </p><p>We've worked hard to ensure each and every product we feature ticks the box on both fronts.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XEMcDa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Reset your life room by room",
+            "icon": "none",
+            "row_content": "<p>We wanted to make it easy, with one simple action, to reset each room of your house or part of your house to planetary settings. </p><p>With our Reset Boxes you don't have to think about it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yFcKHF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "The most innovative brands vetted",
+            "icon": "none",
+            "row_content": "<p>We've worked hard to bring together a great selection of brands that are pushing the bar in their lower impact business models. </p><p></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RGNMxf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Your purchase helps our brands do more",
+            "icon": "none",
+            "row_content": "<p>We invest 10% of our revenue in supporting the brands we stock to help them lower their impact even faster.</p><p>Our first project is a solar project to help them increase the volume of renewable energy they use. But beyond this we've got lots more planned.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_PgTRC7",
+        "collapsible_row_WRH8kT",
+        "collapsible_row_XEMcDa",
+        "collapsible_row_yFcKHF",
+        "collapsible_row_RGNMxf"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "HOW OUR RESET BOXES HELP YOU AND THE PLANET",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "stacked_hero_njRPaW": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_z8WpEy": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "We’re flipping the script on sustainability"
+          }
+        },
+        "text_8E4waQ": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>BRiMM is a Shop, Journal and Collective, bringing together big ideas and bright brands to enable you to live well and tread light - without compromise.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_z8WpEy",
+        "text_8E4waQ"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "color_scheme": "scheme-3"
+      }
+    }
+  },
+  "order": [
+    "justified_hero_qEnNDW",
+    "stacked_hero_k9zdC6",
+    "wrapped_mega_image_ebtEiP",
+    "featured_collection_7z4pTV",
+    "image_with_text_rcKjFt",
+    "image_with_text_mkA8Fb",
+    "email_signup_banner_644mkD",
+    "hero_bMD8Ce",
+    "collapsible_content_TpbaYN",
+    "stacked_hero_njRPaW"
+  ]
+}

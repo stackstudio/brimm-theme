@@ -45,10 +45,13 @@
 }
 
 .collapsible-content-wrapper-narrow {
-  margin: 0 auto;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  max-width: 73.4rem;
+  margin: 0 var(--space-xl);
+  gap: var(--space-xl);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  @media(max-width: 980px) {
+      display: block;
+  }
 }
 
 .collapsible-content__header {
@@ -58,6 +61,7 @@
 .collapsible-content__heading {
   margin-bottom: 2rem;
   margin-top: 0;
+  text-align: left;
 }
 
 @media screen and (min-width: 750px) {
@@ -95,6 +99,7 @@
 .collapsible-row-layout .accordion summary,
 .collapsible-row-layout .accordion .accordion__content {
   padding: 1.5rem;
+  padding-left: 0;
 }
 
 .collapsible-row-layout .accordion .accordion__content {

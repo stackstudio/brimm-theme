@@ -1,0 +1,33 @@
+{{ 'repeater-tabbed-block.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign tabs = item.tabs.value
+-%}
+
+<div class="tabbed-block {% if item.reverse_layout %}tabbed-block--reverse{% endif %}">
+  <tabbed-block>
+    <div class="tabs-list" role="tablist">
+      {% for tab in tabs %}
+        {% render 'tab'
+          , label: tab.tab_label
+          , value: tab.system.handle
+          , defaultSelected: forloop.first %}
+      {% endfor %}
+    </div>
+    {% for tab in tabs %}
+      {%- liquid
+        assign is_hidden = true
+        if forloop.first
+          assign is_hidden = false
+        endif
+      -%}
+      {% render 'tabbed-block-tab-panel'
+        , tab: tab
+        , index: index
+        , aem_script_loaded: aem_script_loaded
+        , is_hidden: is_hidden
+      %}
+    {% endfor %}
+  </tabbed-block>
+</div>

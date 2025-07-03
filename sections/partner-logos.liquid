@@ -1,0 +1,115 @@
+<div class="page-width">
+  {%- unless section.settings.block_text == blank -%}
+    <div class='partner-logos__header'>
+      <h2 class='partner-logos__title headline-extra-uppercase'>
+        {{ section.settings.block_text }}
+      </h2>
+    </div>
+  {%- endunless -%}
+  <div class="partner-logos">
+    {% for block in section.blocks %}
+      <div class="partner-logo">
+        {% if block.settings.logo_image %}
+          <img
+            src="{{ block.settings.logo_image | image_url: width: "300" }}"
+            alt="{{ block.settings.alt_text | escape }}"
+            width="{{ block.settings.logo_width }}px"
+            height="auto" />
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Partner Logos",
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "block_text",
+        "default": "Our Partners",
+        "label": "Block text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "logo",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "logo_image",
+            "label": "Logo Image"
+          },
+          {
+            "type": "text",
+            "id": "alt_text",
+            "label": "Alt Text",
+            "default": "Partner Logo"
+          },
+          {
+            "type": "range",
+            "id": "logo_width",
+            "label": "Logo Width (px)",
+            "default": 150,
+            "min": 50,
+            "max": 500,
+            "step": 10
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Partner Logos",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}
+{% stylesheet %}
+  .partner-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 1.5rem 5rem 3rem;
+    align-items: center;
+
+    @media screen and (max-width: 750px) {
+      padding: 3rem 2rem 4rem;
+    }
+  }
+
+  .partner-logo {
+    max-width: 150px;
+
+    @media screen and (max-width: 750px) {
+      width: 150px;
+    }
+  }
+
+  .partner-logo img {
+    display: block;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .partner-logos__header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 5.5rem 5rem 0;
+    @media screen and (max-width: 750px) {
+      padding: 3.5rem 0 0;
+    }
+  }
+  .partner-logos__title {
+    margin-bottom: 1rem;
+  }
+  .partner-logos__title {
+    color: black;
+  }
+{% endstylesheet %}
+{% javascript %}
+// Add any JavaScript needed for the partner logos section here{% endjavascript %}

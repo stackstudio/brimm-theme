@@ -1,0 +1,181 @@
+{% if section.settings.image != blank %}
+  {% assign background_image_url = section.settings.image | image_url: width: 4000 %}
+  {% style %}
+    #{{ section.id }} .brimm-blocks--hero-content {
+      background-image: url({{ background_image_url }});
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  {% endstyle %}
+{% endif %}
+
+{% style %}
+  #{{ section.id }} {
+    padding: clamp(3rem, 10vh, 100px) 4rem;
+    @media(max-width: 749px) {
+        padding: 0;
+    }
+  }
+  #{{ section.id }} .brimm-blocks--hero-content {
+    border-radius: 16px;
+    @media(max-width: 749px) {
+        border-radius: 0;
+    }
+  }
+  .brimm-blocks--inset-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media(max-width: 749px) {
+    margin-top: 3rem;
+    }
+  }
+
+  .brimm-blocks--inset-hero .brimm-blocks--hero-content h2 {
+    margin: 0;
+  }
+{% endstyle %}
+
+<section class="brimm-blocks--inset-hero color-{{ section.settings.color_scheme }}" id="{{ section.id }}">
+  <div class="page-width brimm-blocks--hero-content color-scheme-6">
+    <div class="brimm-blocks--product-top">
+      {% for block in section.blocks %}
+        {% if block.type == 'heading' %}
+          <h2 class="brimm-blocks--heading-l {% if section.settings.split_header %} brimm-blocks--split-text brimm-blocks--justified-header{% endif %}">{{ block.settings.heading_text }}</h2>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="brimm-blocks--product-bottom">
+      {% for block in section.blocks %}
+        {% case block.type %}
+            {% when 'richtext' %}
+                <div class="brimm-blocks--hero-para">
+                    {{ block.settings.copy }}
+                </div>
+
+            {% when 'cta_button' %}
+                {% if block.settings.label and block.settings.link %}
+                    <a href="{{ block.settings.link }}"
+                        class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
+                        {{ block.settings.label }}
+                    </a>
+                {% endif %}
+
+            {% when 'newsletter' %}
+                <div class="hero__newsletter">
+                    {% render 'klaviyo-signup-form', block: block %}
+                </div>
+
+            {% else %}
+                <!-- fallback -->
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Inset Hero",
+  "settings": [
+    {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "image"
+    },
+    {
+      "type": "checkbox",
+      "id": "split_header",
+      "default": false,
+      "label": "Use Justified Header?"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_product",
+      "default": false,
+      "label": "Is a PDP hero?"
+    },
+    {
+        "type": "color_scheme",
+        "label": "Color Scheme",
+        "id": "color_scheme"
+    }
+  ],
+  "blocks": [
+    {
+        "type": "intro_text",
+        "name": "Top Text",
+        "settings": [
+            {
+                "type": "richtext",
+                "id": "top_text",
+                "label": "Top Text",
+                "default": "<p>Default Text</p>"
+            }
+        ]
+    },
+    {
+      "type": "heading",
+      "name": "Heading Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading_text",
+          "label": "Heading Text",
+          "default": "Default Heading"
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "name": "Paragraph Block",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "copy",
+          "label": "Paragraph Text",
+          "default": "<p>Your text here…</p>"
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "Newsletter form"
+    },
+    {
+      "type": "cta_button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Button label",
+          "default": "Click me"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "style",
+          "label": "Button style",
+          "default": "primary",
+          "options": [
+            { "value": "primary", "label": "Primary" },
+            { "value": "secondary", "label": "Secondary" }
+          ]
+        }
+      ]
+    }
+
+  ],
+  "presets": [
+    {
+        "name": "Inset Hero"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,51 @@
+<div class='brimm-blocks--text-banner color-{{ section.settings.color_scheme }}'>
+    {%- if section.settings.content != blank -%}
+        <p class="brimm-blocks--text-banner-text">
+            {{ section.settings.content }}
+        </p>
+    {%- endif -%}
+    {%- if section.settings.url and section.settings.button_text -%}
+        <a class="button" href={{ section.settings.url }}>
+            {{ section.settings.button_text }}
+        </a>
+    {%- endif -%}
+</div>
+
+{% schema %}
+  {
+    "name": "Text Banner",
+    "class": "section",
+    "tag": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "content",
+        "label": "Text"
+      },
+      {
+        "type": "url",
+        "id": "url",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Link"
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
+      },
+    ],
+    "presets": [
+      {
+        "name": "Text Banner"
+      }
+    ]
+  }
+{% endschema %}

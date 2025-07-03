@@ -1,0 +1,285 @@
+{{ 'repeater-columns-with-content.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign component = item
+  assign fetch_priority = 'auto'
+  if index == 1
+    assign fetch_priority = 'high'
+  endif
+
+  # Set default ratio if not specified
+  assign layout_ratio = component.layout_ratio | default: '½–½'
+
+  # Set column width classes based on ratio
+  case layout_ratio
+    when '⅓–⅔'
+      assign left_column_width = 'columns-with-content__column--one-third'
+      assign right_column_width = 'columns-with-content__column--two-thirds'
+    when '½–½'
+      assign left_column_width = 'columns-with-content__column--one-half'
+      assign right_column_width = 'columns-with-content__column--one-half'
+    when '⅔–⅓'
+      assign left_column_width = 'columns-with-content__column--two-thirds'
+      assign right_column_width = 'columns-with-content__column--one-third'
+  endcase
+
+  # Set height classes
+  assign left_column_height_class = ''
+  case component.left_column_desktop_height.value
+    when 'Small'
+      assign left_column_height_class = 'columns-with-content__column--height-sm'
+    when 'Medium'
+      assign left_column_height_class = 'columns-with-content__column--height-md'
+    when 'Large'
+      assign left_column_height_class = 'columns-with-content__column--height-lg'
+  endcase
+
+  assign right_column_height_class = ''
+  case component.right_column_desktop_height.value
+    when 'Small'
+      assign right_column_height_class = 'columns-with-content__column--height-sm'
+    when 'Medium'
+      assign right_column_height_class = 'columns-with-content__column--height-md'
+    when 'Large'
+      assign right_column_height_class = 'columns-with-content__column--height-lg'
+  endcase
+
+  # Set mobile height classes
+  assign left_mobile_height_class = ''
+  case component.left_column_mobile_height.value
+    when 'Extra Small'
+      assign left_mobile_height_class = 'columns-with-content__column--mobile-height-xsm'
+    when 'Small'
+      assign left_mobile_height_class = 'columns-with-content__column--mobile-height-sm'
+    when 'Medium'
+      assign left_mobile_height_class = 'columns-with-content__column--mobile-height-md'
+    when 'Large'
+      assign left_mobile_height_class = 'columns-with-content__column--mobile-height-lg'
+    when 'Fit to content'
+      assign left_mobile_height_class = 'columns-with-content__column--mobile-height-fit'
+  endcase
+  assign right_mobile_height_class = ''
+  case component.right_column_mobile_height.value
+    when 'Extra Small'
+      assign right_mobile_height_class = 'columns-with-content__column--mobile-height-xsm'
+    when 'Small'
+      assign right_mobile_height_class = 'columns-with-content__column--mobile-height-sm'
+    when 'Medium'
+      assign right_mobile_height_class = 'columns-with-content__column--mobile-height-md'
+    when 'Large'
+      assign right_mobile_height_class = 'columns-with-content__column--mobile-height-lg'
+    when 'Fit to content'
+      assign right_mobile_height_class = 'columns-with-content__column--mobile-height-fit'
+  endcase
+
+  # Set background styles
+  assign left_bg_class = ''
+  case component.left_column_background_style.value
+    when 'Light'
+      assign left_bg_class = 'columns-with-content__column--light'
+    when 'White on dark'
+      assign left_bg_class = 'columns-with-content__column--white-on-dark'
+  endcase
+
+  assign right_bg_class = ''
+  case component.right_column_background_style.value
+    when 'Light'
+      assign right_bg_class = 'columns-with-content__column--light'
+    when 'White on dark'
+      assign right_bg_class = 'columns-with-content__column--white-on-dark'
+  endcase
+
+  # Process video URLs if present
+
+  assign left_is_video = false
+  assign right_is_video = false
+  assign left_mp4_url = ''
+  for source in component.left_column_media.value.sources
+    if source.format == 'mp4'
+      assign left_is_video = true
+      assign left_mp4_url = source.url
+      break
+    endif
+  endfor
+  # If no specific sources, check for direct URL pattern
+  if left_mp4_url == '' and component.left_column_media.value contains '.mp4'
+    assign left_mp4_url = component.left_column_media.value
+  endif
+
+  assign right_mp4_url = ''
+  for source in component.right_column_media.value.sources
+    if source.format == 'mp4'
+      assign right_is_video = true
+      assign right_mp4_url = source.url
+      break
+    endif
+  endfor
+  # If no specific sources, check for direct URL pattern
+  if right_mp4_url == '' and component.right_column_media.value contains '.mp4'
+    assign right_mp4_url = component.right_column_media.value
+  endif
+-%}
+
+<div class="section-{{ section.id }}-padding {% if component.stick_to_next_section %} section-columns-with-content--stick-to-next{% endif %}">
+  <div class="page-width columns-with-content{% if component.stick_to_next_section %} columns-with-content--stick-to-next{% endif %}">
+    <div class="columns-with-content__grid{% if component.reverse_on_mobile %} columns-with-content__grid--reverse-mobile{% endif %}">
+      {%- comment -%} Left Column {%- endcomment -%}
+      <div class="columns-with-content__column columns-with-content__column--left {{ left_column_width }} {{ left_bg_class }} {{ left_column_height_class }} {{ left_mobile_height_class }} {% if component.left_column_reserve_logo.value != blank and component.left_column_reserve_logo.value != 'None' %}columns-with-content__column--with-logo {% endif %} scroll-trigger animate--slide-in">
+
+        {%- if component.left_column_media.value != blank -%}
+          <div class="columns-with-content__media columns-with-content__media--{{component.left_column_media_size.value | handle | default: 'large'}}">
+            {%- if component.left_column_badge != blank -%}
+              <span class="columns-with-content__badge">{{ component.left_column_badge }}</span>
+            {%- endif -%}
+
+            {%- if left_is_video or left_mp4_url != blank -%}
+              <video
+                class="columns-with-content__video"
+                autoplay
+                loop
+                muted
+                playsinline
+                loading="{% if index == 1 %}eager{% else %}lazy{% endif %}"
+                fetchpriority="{{ fetch_priority }}">
+                <source src="{{ left_mp4_url }}" type="video/mp4">
+              </video>
+            {%- else -%}
+              <img
+                class="columns-with-content__image"
+                src="{{ component.left_column_media.value | image_url }}"
+                srcset="{{ component.left_column_media.value | image_url: width: 300 }} 300w,
+                        {{ component.left_column_media.value | image_url: width: 600 }} 600w,
+                        {{ component.left_column_media.value | image_url: width: 900 }} 900w,
+                        {{ component.left_column_media.value | image_url: width: 1500 }} 1500w"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                alt="{{ component.left_column_heading | escape }}"
+                loading="{% if index == 1 %}eager{% else %}lazy{% endif %}"
+                fetchpriority="{{ fetch_priority }}"
+                width="1500"
+                height="{{ 1500 | divided_by: component.left_column_media.aspect_ratio | round | default: 1125 }}">
+            {%- endif -%}
+          </div>
+        {%- else -%}
+          <div class="columns-with-content__column-content
+                      columns-with-content__column-content--{{ component.left_column_desktop_content_alignment.value | handle | default: 'left' }}
+                      columns-with-content__column-content--mobile-{{ component.left_column_mobile_content_alignment.value | handle | default: 'left' }}
+                      columns-with-content__column-content--vertical-alignment-{{ component.left_column_text_content_vertical_alignment.value | handle | default: 'Top' }}">
+
+            {%- if component.left_column_heading != blank -%}
+              <h2 class="columns-with-content__heading scroll-trigger animate--slide-in">
+                {{ component.left_column_heading.value | newline_to_br }}
+              </h2>
+            {%- endif -%}
+
+            {%- if component.left_column_rich_text != blank -%}
+              <div class="columns-with-content__text scroll-trigger animate--slide-in">
+                {{ component.left_column_rich_text | metafield_tag }}
+
+              </div>
+            {%- endif -%}
+
+            {%- if component.left_column_facts.value != blank -%}
+              <div class="facts">
+                {%- for fact in component.left_column_facts.value -%}
+                  <div class="fact scroll-trigger animate--slide-in">
+                    <div class="fact-title">{{ fact.title }}</div>
+                    <div class="fact-body">{{ fact.text }}</div>
+                  </div>
+                {%- endfor -%}
+              </div>
+            {%- endif -%}
+
+            {%- if component.left_column_cta_button.value.url != blank and component.left_column_cta_button.value.text != blank -%}
+              <a href="{{ component.left_column_cta_button.value.url }}" class="cta-button{% if component.left_column_sticky_button %} cta-button--sticky{% endif %}">
+                {{ component.left_column_cta_button.value.text }}
+              </a>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+        <div>
+          {{ component.left_column_media_credit | metafield_tag }}
+        </div>
+      </div>
+
+      {%- comment -%} Right Column {%- endcomment -%}
+      <div class="columns-with-content__column columns-with-content__column--right {{ right_column_width }} {{ right_bg_class }} {{ right_column_height_class }} {{ right_mobile_height_class }} scroll-trigger animate--slide-in">
+        {%- if component.right_column_reserve_logo.value != blank and component.right_column_reserve_logo.value != 'None' -%}
+          <div class="columns-with-content__reserve-logo columns-with-content__reserve-logo--{{ component.right_column_reserve_logo.value | downcase | escape }}">
+            {{- 'reserve-logo.svg' | inline_asset_content -}}
+          </div>
+        {%- endif -%}
+
+        {%- if component.right_column_media.value != blank -%}
+          <div class="columns-with-content__media">
+            {%- if component.right_column_badge != blank -%}
+              <span class="columns-with-content__badge">{{ component.right_column_badge }}</span>
+            {%- endif -%}
+
+            {%- if right_is_video or right_mp4_url != blank -%}
+              <video
+                class="columns-with-content__video"
+                autoplay
+                loop
+                muted
+                playsinline
+                loading="{% if index == 1 %}eager{% else %}lazy{% endif %}"
+                fetchpriority="{{ fetch_priority }}">
+                <source src="{{ right_mp4_url }}" type="video/mp4">
+              </video>
+            {%- else -%}
+              <img
+                class="columns-with-content__image"
+                src="{{ component.right_column_media.value | image_url }}"
+                srcset="{{ component.right_column_media.value | image_url: width: 300 }} 300w,
+                        {{ component.right_column_media.value | image_url: width: 600 }} 600w,
+                        {{ component.right_column_media.value | image_url: width: 900 }} 900w,
+                        {{ component.right_column_media.value | image_url: width: 1500 }} 1500w"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                alt="{{ component.right_column_heading | escape }}"
+                loading="{% if index == 1 %}eager{% else %}lazy{% endif %}"
+                fetchpriority="{{ fetch_priority }}"
+                width="1500"
+                height="{{ 1500 | divided_by: component.right_column_media.aspect_ratio | round | default: 1125 }}">
+            {%- endif -%}
+          </div>
+        {%- else -%}
+          <div class="columns-with-content__column-content
+                      columns-with-content__column-content--{{ component.right_column_desktop_content_alignment.value | handle | default: 'left' }}
+                      columns-with-content__column-content--mobile-{{ component.right_column_mobile_content_alignment.value | handle | default: 'left' }}
+                      columns-with-content__column-content--vertical-alignment-{{ component.right_column_text_content_vertical_alignment.value | handle }} {% if component.right_column_reserve_logo.value != blank and component.right_column_reserve_logo.value != 'None'  %}columns-with-content__column-content--with-logo {% endif %}">
+
+            {%- if component.right_column_heading != blank -%}
+              <h2 class="columns-with-content__heading scroll-trigger animate--slide-in">
+                {{ component.right_column_heading.value | newline_to_br }}
+              </h2>
+            {%- endif -%}
+
+            {%- if component.right_column_rich_text != blank -%}
+              <div class="columns-with-content__text scroll-trigger animate--slide-in">
+                {{ component.right_column_rich_text | metafield_tag }}
+              </div>
+            {%- endif -%}
+
+            {%- if component.right_column_facts.value != blank -%}
+              <div class="facts">
+                {%- for fact in component.right_column_facts.value -%}
+                  <div class="fact scroll-trigger animate--slide-in">
+                    <div class="fact-title">{{ fact.title }}</div>
+                    <div class="fact-body">{{ fact.text }}</div>
+                  </div>
+                {%- endfor -%}
+              </div>
+            {%- endif -%}
+
+            {%- if component.right_column_cta_button.value.url != blank and component.right_column_cta_button.value.text != blank -%}
+              <a href="{{ component.right_column_cta_button.value.url }}" class="cta-button{% if component.right_column_sticky_button %} cta-button--sticky{% endif %}">
+                {{ component.right_column_cta_button.value.text }}
+              </a>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      </div>
+
+    </div>
+  </div>
+</div>

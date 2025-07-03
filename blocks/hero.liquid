@@ -1,0 +1,44 @@
+{% stylesheet %}
+  .text-left {
+    text-align: left;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+{% endstylesheet %}
+
+<div class="hero">
+  <h1>{{ block.settings.text }}</h1>
+</div>
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "button_text",
+      "label": "Heading"
+    },
+  ],
+  "presets": [
+    { "name": "Hero" },
+    {
+      "name": "Content",
+      "settings": {
+        "heading": "<h1>THIS HEADLINE IS LIVING LIFE TO THE BRiMM</h1>"
+      }
+    }
+  ]
+}
+{% endschema %}

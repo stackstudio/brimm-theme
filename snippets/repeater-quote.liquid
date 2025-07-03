@@ -1,0 +1,83 @@
+<blockquote class="page-width repeater-quote section-{{ section.id }}">
+  <div class="page-width--narrow">
+    {%- if item.quote_text != blank -%}
+      <div class="repeater-quote__quote text-wrap-balance rte scroll-trigger animate--slide-in">{{ item.quote_text }}</div>
+    {%- endif -%}
+    {%- if item.author_name != blank or item.author_title != blank -%}
+      <div class="repeater-quote__credentials scroll-trigger animate--slide-in">
+        {%- if item.author_name != blank -%}
+          <span class="repeater-quote__author">{{ item.author_name }}</span>
+        {%- endif -%}
+        {%- if item.author_title != blank -%}
+          <span class="repeater-quote__title">{{ item.author_title }}</span>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</blockquote>
+
+{%- style -%}
+  .product-page .repeater-quote,
+  .repeater-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: var(--space-xl) 0 0;
+    background-color: var(--color-green-light);
+    border: 0;
+    @media(max-width: 750px) {
+        padding: 0;
+    }
+  }
+
+  .repeater-quote__quote {
+    text-align: left;
+    /* Global/Headline/Extra Bold/36 */
+    font-size: var(--step-4);
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .repeater-quote__quote::before {
+    font-family: 'Manrope';
+    font-weight: 900;
+    content: "“";
+    font-size: 4.8rem;
+    line-height: 1;
+    color: #6E1C20;
+    position: absolute;
+    top: 0;
+    left: calc(var(--space-2xl) * -1);
+  }
+
+  .repeater-quote__credentials {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .repeater-quote__author {
+    margin-right: 2.3rem;
+    font-weight: 600;
+  }
+
+  .repeater-quote__title::before {
+    content: "•";
+    position: absolute;
+    margin-left: -1.4rem;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .product-page .repeater-quote,
+    .repeater-quote {
+      margin: 3.2rem 0;
+      padding: 0 3.2rem;
+    }
+    .repeater-quote__quote {
+      font-size: 2.4rem;
+    }
+  }
+{%- endstyle -%}

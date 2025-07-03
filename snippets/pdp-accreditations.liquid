@@ -1,0 +1,85 @@
+{%- if item.brand != blank -%}
+  {% if item.vendors %}
+    <div class="pdp-accreditations-accordion">
+      <button
+        class="accordion-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="accreditations-panel-{{ item.brand.value | handle }}">
+        <span>{{ item.brand.value }}</span>
+        <span class="accordion-icon">+</span>
+      </button>
+      <div class="pdp-accreditations hidden" id="accreditations-panel-{{ item.brand.value | handle }}">
+        {{ item.description | metafield_tag }}
+        <div class="vendor-logos">
+          {% for vendor in item.vendors.value %}
+            <img
+              src="{{ vendor.image | image_url: width: 600 }}"
+              alt="{{ vendor.name }}"
+              width="auto"
+              height="auto">
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{%- endif -%}
+
+{% style %}
+  .pdp-accreditations {
+    margin: 1rem 0 0;
+  }
+  .pdp-accreditations h2 {
+    font-size: var(--step-5);
+    margin-bottom: 1rem;
+  }
+  .pdp-accreditations p {
+    margin-bottom: 1.5rem;
+    font-size: var(--step-2);
+    line-height: 1.4;
+    margin-bottom: var(--space-m);
+  }
+  .vendor-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-l);
+    align-items: center;
+  }
+  .vendor-logos img {
+    max-width: 210px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    aspect-ratio: auto;
+    display: block;
+  }
+
+  .pdp-accreditations-accordion {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #cacaca;
+  }
+  .accordion-toggle {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    -webkit-appearance: none;
+  }
+  .accordion-icon {
+    font-size: 2rem;
+    transition: transform 0.2s;
+  }
+  .accordion-toggle[aria-expanded="true"] .accordion-icon {
+    transform: rotate(45deg);
+  }
+{% endstyle %}

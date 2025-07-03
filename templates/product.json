@@ -23,6 +23,10 @@
           "type": "title",
           "settings": {}
         },
+        "description_LRfyUQ": {
+          "type": "description",
+          "settings": {}
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -49,28 +53,28 @@
           "type": "shopify://apps/bold-subscriptions/blocks/bsub-widget-block/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
           "settings": {
             "default_subscribe": true,
-            "primary_color": "#3b63ff",
-            "secondary_color": "#7dba63",
-            "background_color": "#f8f9f9",
-            "border_radius": 4,
-            "header_text": "Purchase Options",
+            "primary_color": "#000000",
+            "secondary_color": "#000000",
+            "background_color": "#eaeada",
+            "border_radius": 0,
+            "header_text": "",
             "one_time_text": "One-time Purchase",
-            "recurring_text": "Subscribe and Save",
-            "prepaid_recurring_text": "Prepaid Subscribe and Save",
+            "recurring_text": "",
+            "prepaid_recurring_text": "",
             "discount_summary_text": "(Save {discount})",
             "discount_summary_plural_text": "(Save up to {discount})",
-            "frequency_header": "Delivery Frequency",
-            "frequency_text": "delivery",
-            "prepaid_checkbox_label_text": "Prepay for subscription",
+            "frequency_header": "Membership Frequency",
+            "frequency_text": "month",
+            "prepaid_checkbox_label_text": "Prepay for membership",
             "billing_frequency_header": "Billing Frequency",
             "billing_frequency_text": "{count} Orders",
             "delivery_frequency_discount_text": "({discount} off)",
             "billing_frequency_discount_text": "({discount} off)",
             "prepaid_total_text": "Billed {price} today",
             "prepaid_continue_as_prepaid_text": "Prepaid order will auto-renew after {count} orders",
-            "prepaid_continue_as_standard_text": "Becomes a regular subscription after {count} orders",
+            "prepaid_continue_as_standard_text": "Becomes a regular membership after {count} orders",
             "convertible_header": "Converts to",
-            "eligible_for_subscription_header": "Eligible for Subscription",
+            "eligible_for_subscription_header": "Eligible for Membership",
             "initial_dynamic_discount_text": "Save {initial_percent_discount}% ({initial_fixed_discount})",
             "subsequent_dynamic_discounts_text": "{subsequent_percent_discount}% ({subsequent_fixed_discount}) after {order_count} order(s)"
           }
@@ -81,79 +85,28 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Food",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "description_LRfyUQ",
         "caption",
         "price",
         "variant_picker",
         "quantity_selector",
         "bold_subscriptions_bsub_widget_block_RpYLfE",
-        "buy_buttons",
-        "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -161,42 +114,10 @@
         "padding_bottom": 12
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
+    "accreditations_block_icQUPp": {
+      "type": "accreditations-block",
+      "name": "Accreditations",
+      "settings": {}
     },
     "multicolumn": {
       "type": "multicolumn",
@@ -204,8 +125,12 @@
         "column-0": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Free Shipping",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
             "link_label": "",
             "link": ""
           }
@@ -213,8 +138,12 @@
         "column-1": {
           "type": "column",
           "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
             "title": "Hassle-Free Exchanges",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
             "link_label": "",
             "link": ""
           }
@@ -226,7 +155,10 @@
       ],
       "settings": {
         "title": "",
+        "no-gap": false,
+        "text_block": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.",
         "heading_size": "h1",
+        "split_header": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -243,6 +175,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -262,7 +195,7 @@
   },
   "order": [
     "main",
-    "image-with-text",
+    "accreditations_block_icQUPp",
     "multicolumn",
     "related-products"
   ]

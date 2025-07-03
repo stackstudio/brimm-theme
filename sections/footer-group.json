@@ -16,6 +16,7 @@
       "blocks": {
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "",
             "subtext": "<p><strong>EXPRESS SHIPPING<br/>FREE RETURNS<br/>SECURE PAYMENTS</strong></p>"
@@ -23,6 +24,7 @@
         },
         "footer-0": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Service",
             "menu": "footer"
@@ -30,16 +32,18 @@
         },
         "footer-1": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Company",
-            "menu": "footer-menu-company"
+            "menu": ""
           }
         },
         "link_list_ei3xxE": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Follow",
-            "menu": "footer-menu-social"
+            "menu": ""
           }
         }
       },
@@ -50,18 +54,18 @@
         "link_list_ei3xxE"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "color_scheme": "scheme-2",
+        "newsletter_enable": false,
         "newsletter_heading": "Sign up to get the chance to win a VIP shopping experience.",
-        "enable_follow_on_shop": true,
-        "show_social": true,
+        "enable_follow_on_shop": false,
+        "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 84
       }
     }
   },

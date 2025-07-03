@@ -1,0 +1,36 @@
+<div {{ block.shopify_attributes }}>
+  <{{ block.settings.heading_level | default: 'h2' }} class="brimm-blocks--split-text brimm-blocks--justified-header">
+    {{ block.settings.text }}
+  </{{ block.settings.heading_level | default: 'h2' }}>
+</div>
+
+{% schema %}
+{
+  "name": "Justified Header",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Header Text",
+      "default": "This headline is living life to the brimm"
+    },
+    {
+      "type": "select",
+      "id": "heading_level",
+      "label": "Heading Level",
+      "default": "h2",
+      "options": [
+        { "value": "h1", "label": "H1" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Justified Header"
+    }
+  ]
+}
+{% endschema %}

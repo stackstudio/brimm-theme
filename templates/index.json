@@ -9,250 +9,1059 @@
  */
 {
   "sections": {
-    "image_banner_RULnrW": {
-      "type": "image-banner",
+    "stacked_hero_qme3YR": {
+      "type": "stacked-hero",
       "blocks": {
-        "heading_V3ykAx": {
+        "heading_ADNgV7": {
           "type": "heading",
           "settings": {
-            "heading": "Subheading",
-            "heading_size": "h2"
+            "heading_text": "Live Bright Tread Light"
           }
         },
-        "heading_z3XNGA": {
-          "type": "heading",
-          "settings": {
-            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "heading_size": "h1"
-          }
-        },
-        "text_Ymx83t": {
+        "text_YY8gky": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation.",
-            "text_style": "body"
+            "copy": "<p>We're a membership-based shop, journal and collective. Discover stories, brands and people creating a planet-positive future</p>"
           }
         },
-        "buttons_eqVA7c": {
-          "type": "buttons",
+        "cta_button_BbiwnF": {
+          "type": "cta_button",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "label": "Discover our Shop",
+            "link": "shopify://pages/reset-boxes",
+            "style": "primary"
           }
         }
       },
       "block_order": [
-        "heading_V3ykAx",
-        "heading_z3XNGA",
-        "text_Ymx83t",
-        "buttons_eqVA7c"
+        "heading_ADNgV7",
+        "text_YY8gky",
+        "cta_button_BbiwnF"
       ],
+      "name": "Stacked Hero",
       "settings": {
-        "image": "shopify://shop_images/the-letter-b-displayed-in-american-sign-language.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_11096_SHOT_5_copy_2_16x9_475f2192-de41-4588-a59d-842bc5b99069.jpg",
+        "color_scheme": ""
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "stacked_hero_xxPi8q": {
+      "type": "stacked-hero",
       "blocks": {
-        "heading": {
+        "heading_KnzE6h": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading_text": "A people-powered model for change"
           }
         },
-        "text": {
+        "text_aiwhMp": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "copy": "<p>Our membership makes planet-positive living easier, joyful and more impactful. With every purchase, you give 10% to our Planet Fund and get 10% back to fund future purchases</p>"
+          }
+        },
+        "cta_button_TdzEQD": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Discover More",
+            "link": "shopify://pages/founder-members",
+            "style": "primary"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading_KnzE6h",
+        "text_aiwhMp",
+        "cta_button_TdzEQD"
       ],
+      "name": "Stacked Hero",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "two_image": false,
+        "full_screen": true,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_Web_Assets_10x10_7041e1c2-e4a6-4cac-bb5b-ff79f20b851c.png",
+        "color_scheme": "scheme-2"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
+    "multicolumn_simple_cCpCQn": {
+      "type": "multicolumn-simple",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "column_dw8jiL": {
+          "type": "column",
           "settings": {
-            "collection": ""
+            "image": "shopify://shop_images/Beauty_Green_Background_edited.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "BATHROOM",
+            "text": "<p>Reset your daily routine with our bathroom  boxes.</p>",
+            "image_label": "",
+            "link_label": "Shop Bathroom",
+            "link": "shopify://collections/bathroom-reset-boxes"
           }
         },
-        "product": {
-          "type": "product",
+        "column_eYLqFz": {
+          "type": "column",
           "settings": {
-            "product": "",
-            "second_image": false
+            "image": "shopify://shop_images/Food_packshot_red_16-9.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "PANTRY",
+            "text": "<p>Reset your pantry with our regenerative food  box.</p>",
+            "image_label": "",
+            "link_label": "Shop Pantry",
+            "link": "shopify://products/brimm-pantry-essentials-reset-box"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "column_Dmwhzr": {
+          "type": "column",
           "settings": {
-            "collection": ""
+            "image": "shopify://shop_images/Kinfilldishsoappdp.webp",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "CLEANING",
+            "text": "<p>Reset your kitchen with these cleaning essentials.</p>",
+            "image_label": "",
+            "link_label": "Shop Cleaning",
+            "link": "shopify://products/brimm-kitchen-reset-cleaning-box"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "column_dw8jiL",
+        "column_eYLqFz",
+        "column_Dmwhzr"
       ],
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_gEpLzz": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=wPyQgSft5W8",
-        "cover_image": "shopify://shop_images/f1750f1af3f9d6cd15f54b10a7f012fb.jpg",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_dX4mB4": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://vimeo.com/showcase/9050632/video/649574831www.youtube.com/watch?v=wPyQgSft5W8",
-        "cover_image": "shopify://shop_images/f1750f1af3f9d6cd15f54b10a7f012fb.jpg",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
+        "title": "Reset your everyday",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
+        "justify": true,
+        "bordered": false,
+        "text_block": "We're launching with our Reset Boxes to help kick start your planet-positive journey. From minimalist bathrooms to regenerative pantries - reset your life one room at a time",
+        "image_width": "full",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
+        "button_label": "Shop Reset Boxes",
+        "button_link": "shopify://pages/reset-boxes",
+        "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "text_banner_PdFGD4": {
+      "type": "text-banner",
+      "disabled": true,
+      "name": "Text Banner",
+      "settings": {
+        "content": "<strong>This is just the beginning.</strong> We're more than reset boxes…",
+        "url": "shopify://blogs/journal/why-we-created-the-brimm-reset-boxes",
+        "button_text": "Read More",
+        "color_scheme": "scheme-3"
+      }
+    },
+    "flush_columns_cYTaw6": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_NdQMPf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_7_88296c10-a71d-49e9-a598-bc51fa1ab379.jpg",
+            "title": "Style",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_txAt4X": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Skin_Deep_Daniel_Faro_ID_4263.jpg",
+            "title": "health",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_wgz7mw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lost_Jelly_Luise_Photos.jpg",
+            "title": "ENVIRONMENTAL",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_WFzWd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_9.jpg",
+            "title": "SOCIAL",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NdQMPf",
+        "column_txAt4X",
+        "column_wgz7mw",
+        "column_WFzWd8"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "WE CURATE AND VET EVERYTHING WE FEATURE",
+        "text_block": "Every brand and product is thoughtfully selected for design, impact and joy. No greenwashing. Just better living",
+        "columns_desktop": 4,
+        "button_label": "Our Process",
+        "button_link": "shopify://pages/curation-and-vetting",
+        "color_scheme": ""
+      }
+    },
+    "logo_scroller_DU3FL7": {
+      "type": "logo-scroller",
+      "blocks": {
+        "column_LpDinq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bold_bean_logo.png"
+          }
+        },
+        "column_6zKchP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pasta.png"
+          }
+        },
+        "column_4mc9Wk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_TgitRK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CoS.png"
+          }
+        },
+        "column_z4eT9U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kit-and-Kin-tm_0dc4080f-c674-42f5-acff-4667470aa6c6.png"
+          }
+        },
+        "column_NJR6Xz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Upcircle_logo.png"
+          }
+        },
+        "column_CbbEkg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sbtrct-padded.png"
+          }
+        },
+        "column_t4mD6C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rollr.png"
+          }
+        },
+        "column_yjCBEh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hotel_Mike_logo_Black.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_LpDinq",
+        "column_6zKchP",
+        "column_4mc9Wk",
+        "column_TgitRK",
+        "column_z4eT9U",
+        "column_NJR6Xz",
+        "column_CbbEkg",
+        "column_t4mD6C",
+        "column_yjCBEh"
+      ],
+      "name": "Logo Scroller",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
+    "multicolumn_simple_iNMR3b": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_LUHXRt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Prada_004-01.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "a fermentation masterclass",
+            "text": "<p>Dr Johnny Drain is the chef on a quest to spread the word about \"flavour and sustainability\"</p>",
+            "image_label": "",
+            "link_label": "Read article",
+            "link": "shopify://blogs/journal/dr-johnny-drain-interview"
+          }
+        },
+        "column_6c8M6t": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Journal__Image_2.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "The power of what we eat",
+            "text": "<p>Tweaking a handful of diet and drink choices throughout our day-to-days is just about the most impactful thing we can do to improve our health...</p>",
+            "image_label": "",
+            "link_label": "Read article",
+            "link": "shopify://blogs/journal/the-power-of-what-we-eat-how-a-new-food-system-can-heal-us-and-the-planet-2"
+          }
+        },
+        "column_yCXrX4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Fanette_Guilloud_Photo_2.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why We Created the BRiMM Reset Boxes",
+            "text": "<p>We had one clear mission: to help people 'reset' their lives in the areas that matter most...</p>",
+            "image_label": "",
+            "link_label": "Read article",
+            "link": "shopify://blogs/journal/why-we-created-the-brimm-reset-boxes"
+          }
+        }
+      },
+      "block_order": [
+        "column_LUHXRt",
+        "column_6c8M6t",
+        "column_yCXrX4"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Stories that spark change",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
+        "justify": true,
+        "bordered": false,
+        "text_block": "Weekly dispatches from people reimagining tomorrow",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Read the Journal",
+        "button_link": "shopify://blogs/journal",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_simple_UKDfAn": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_fM33pr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Brimm_Event_1_Assets.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Common Ground Screening 23rd July",
+            "text": "<p>Enjoy a private screening of the regenerative agriculture documentary Common Ground, followed by drinks and panel discussion</p>",
+            "image_label": "",
+            "link_label": "View Event",
+            "link": "shopify://pages/common-ground-film-screening-and-panel-discussion"
+          }
+        },
+        "column_tz6R6a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BRiMM_Event_2_Web_Assets.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "stitch & bitch workshop",
+            "text": "<p>Join Orsola de Castro, a sustainable fashion pioneer, in an intimate evening learning how to repair your clothes and discussing the fashion industry</p>",
+            "image_label": "",
+            "link_label": "View event",
+            "link": "shopify://pages/join-brimm-british-pasture-leather-for-a-regenerative-farming-field-day-like-no-other"
+          }
+        }
+      },
+      "block_order": [
+        "column_fM33pr",
+        "column_tz6R6a"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Moments to connect",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
+        "justify": true,
+        "bordered": false,
+        "text_block": "Experience a planet-positive future first hand. Meet the makers, thinkers dreamers shaping what's next",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "View Events",
+        "button_link": "shopify://pages/events",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_k9rxVY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_MGBbKT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Beauty_Luxury_Reset_Box_Products.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Minimalist, plastic-free or British luxury",
+            "text": "",
+            "image_label": "",
+            "link_label": "Bathroom Reset",
+            "link": "shopify://pages/reset-boxes"
+          }
+        },
+        "column_AQibDb": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Regenerative. Delicious. Planet-positive. Update your pantry with better habits",
+            "text": "",
+            "image_label": "",
+            "link_label": "Pantry Reset",
+            "link": "shopify://products/brimm-pantry-essentials-reset-box"
+          }
+        },
+        "column_b8bDzN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kitchen_Cleaning_Reset_Box.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Design-led resets for clearer air and calmer counters",
+            "text": "",
+            "image_label": "",
+            "link_label": "Kitchen Reset",
+            "link": "shopify://products/brimm-kitchen-reset-cleaning-box"
+          }
+        }
+      },
+      "block_order": [
+        "column_MGBbKT",
+        "column_AQibDb",
+        "column_b8bDzN"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "RESET YOUR EVERYDAY",
+        "no-gap": false,
+        "first_col": false,
+        "text_block": "From minimalist bathrooms to regenerative pantries - resetting to planet-positive living starts here. Check out our first Reset Boxes with <em>more coming soon</em>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Shop our Reset boxes",
+        "button_link": "shopify://pages/reset-boxes",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "member_packages_DXnQLz": {
+      "type": "member-packages",
+      "blocks": {
+        "heading_yJ7zwm": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOW WE CHOOSE OUR PRODUCTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_4FWbRK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every product is thoughtfully selected for design, impact and joy. No greenwashing. Just better living.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_7EKgcC": {
+          "type": "button",
+          "settings": {
+            "button_label": "DISCOVER MORE",
+            "button_link": "shopify://pages/curation-and-vetting",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yJ7zwm",
+        "text_4FWbRK",
+        "button_7EKgcC"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Beauty_Luxury_Reset_Box_Products_landscape.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "image_label": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "partner_logos_xMwzLh": {
+      "type": "partner-logos",
+      "blocks": {
+        "logo_B9Qmqw": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Frame_94_9a806a83-3e2d-42f2-bfcd-fb5c648bc176.png",
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_h8HULL": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_9UPhxV": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_bHWgDG": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_xXyEq7": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "Partner Logo",
+            "logo_width": 130
+          }
+        },
+        "logo_YPwt78": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        },
+        "logo_xEwxGT": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "Partner Logo",
+            "logo_width": 150
+          }
+        }
+      },
+      "block_order": [
+        "logo_B9Qmqw",
+        "logo_h8HULL",
+        "logo_9UPhxV",
+        "logo_bHWgDG",
+        "logo_xXyEq7",
+        "logo_YPwt78",
+        "logo_xEwxGT"
+      ],
+      "disabled": true,
+      "settings": {
+        "block_text": "MEET OUR COLLECTIVE OF PLANET-POSITIVE PIONEERS"
+      }
+    },
+    "multicolumn_KaRHfp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KWq8dY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/KZCLMM10025.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Why less is more",
+            "text": "<p>Former Maire Claire Beauty and Style Editor Lisa Oxenham shares how the over-innovation in the beauty industry hasn't served us or our planet.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": "shopify://blogs/journal/why-less-really-is-more-beauty-editor-lisa-oxenham-s-take-on-the-most-effective-skincare"
+          }
+        },
+        "column_yjPaWM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/16_9.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "How our food system can heal",
+            "text": "<p>Sustainability and innovation expert Mark Shayler shares how tweaking just a few things in our diet can leave us and mother nature happier and healthier.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": "shopify://blogs/journal/the-power-of-what-we-eat-how-a-new-food-system-can-heal-us-and-the-planet-2"
+          }
+        },
+        "column_R8h6LG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/KZSP10553_2a372a42-5fc4-4343-b713-93fe50365305.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "The endless individuality of second-hand shopping",
+            "text": "<p>Tiffanie Darke, sustainable fashion expert and author shares the limitless joy of second-hand shopping.</p>",
+            "image_label": "",
+            "link_label": "Read more",
+            "link": "shopify://blogs/journal/the-endless-individuality-made-possible-by-second-hand-shopping"
+          }
+        }
+      },
+      "block_order": [
+        "column_KWq8dY",
+        "column_yjPaWM",
+        "column_R8h6LG"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "STORIES THAT SPARK CHANGE",
+        "no-gap": false,
+        "first_col": false,
+        "text_block": "Weekly dispatches from people reimagining tomorrow",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "hero_Wyq8H8": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "heading": ""
+      }
+    },
+    "wrapped_mega_image_jH9J4f": {
+      "type": "wrapped-mega-image",
+      "blocks": {
+        "heading_pmGa6r": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Low impact. More joy"
+          }
+        },
+        "top_paragraph_ftDW3C": {
+          "type": "top_paragraph",
+          "settings": {
+            "top_copy": "<p>Living within limits isn’t living less - it’s living with what matters most.</p>"
+          }
+        },
+        "bottom_paragraph_wyQNJ7": {
+          "type": "bottom_paragraph",
+          "settings": {
+            "bottom_copy": "<p>Ready to turn good intentions into impact? </p>"
+          }
+        },
+        "cta_button_hhrbzr": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Become a member",
+            "link": "shopify://pages/our-story",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pmGa6r",
+        "top_paragraph_ftDW3C",
+        "bottom_paragraph_wyQNJ7",
+        "cta_button_hhrbzr"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true&playerColor=e3f994&controlsVisibleOnLoad=false\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "color_scheme": "scheme-2",
+        "disable_bottom_padding": false,
+        "disable_top_padding": false
+      }
+    },
+    "multicolumn_tKFpqH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_B6w9Nt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Common_Ground_Cover_Image.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "<strong>Join the Common Ground film screening</strong>",
+            "text": "<p>Join us for an exclusive screening of this excellent regenerative agriculture documentary followed by a panel discussion with BRiMM brands.</p>",
+            "image_label": "",
+            "link_label": "Get your ticket",
+            "link": ""
+          }
+        },
+        "column_gWeFma": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/british_pasture_leather.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "<strong>Take a field trip to a regenerative farm</strong>",
+            "text": "<p>Join us for a day out on one of the UK’s leading regenerative farms for a tour hosted by British Pasture Leather.</p>",
+            "image_label": "",
+            "link_label": "Register your interest",
+            "link": ""
+          }
+        },
+        "column_Riq9p9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Join a stitch n bitch",
+            "text": "<p>Join us for a hands-on clothing repair workshop with sustainable fashion pioneer Orsola de Castro.</p>",
+            "image_label": "",
+            "link_label": "Register your interest",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_B6w9Nt",
+        "column_gWeFma",
+        "column_Riq9p9"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "EVENTS",
+        "no-gap": false,
+        "first_col": false,
+        "text_block": "Meet the makers, thinkers, dreamers shaping what’s next",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "inset_hero_yEK8EF": {
+      "type": "inset-hero",
+      "blocks": {
+        "heading_UiB8ar": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Membership that multiplies your impact"
+          }
+        },
+        "richtext_TcVUai": {
+          "type": "richtext",
+          "settings": {
+            "copy": "<p>Exclusive access to curated products, private content and planet-positive events</p>"
+          }
+        },
+        "cta_button_eMxNiy": {
+          "type": "cta_button",
+          "settings": {
+            "label": "BECOME A MEMBER",
+            "link": "shopify://pages/founder-members",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UiB8ar",
+        "richtext_TcVUai",
+        "cta_button_eMxNiy"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Copy_of_5185423_MED.jpg",
+        "split_header": true,
+        "is_product": false,
+        "color_scheme": "scheme-2"
+      }
+    },
+    "featured_blog_XAVwgE": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-6",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_rcKjFt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XccUUJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founder member benefits",
+            "heading_size": "h1"
+          }
+        },
+        "text_VazerB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Founder members get our top membership tier for life. No strings attached. Which means £300 value each and every year, for a one off fee.</p><p>Your name will be lit up in pixels on the BRiMM site with other founder members.</p><p>Voting rights where we invest 10% of our revenue. Helping our brands give more to the planet than they take. </p><p>Exclusive invites to founder member events and experiences.</p><p>First dibs on new boxes, products, and collaborations.</p>",
+            "text_style": "body"
+          }
+        },
+        "member_packages_fAB7BM": {
+          "type": "member_packages",
+          "settings": {
+            "member_packages_block": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_XccUUJ",
+        "text_VazerB",
+        "member_packages_fAB7BM"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Base_camp_package.jpg",
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "core-light-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_mkA8Fb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TPtjrA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Limited spots. sign up today",
+            "heading_size": "h1"
+          }
+        },
+        "text_pG7FpY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don’t miss your moment to help build a movement—and enjoy a lifetime of brighter, lighter living.<br/></p><p>One person is chosen for a free, limited gift every day. Join the waitlist now. </p><p><br/>BRiMM: Where less really is more. More joy. More impact. More community. Live bright. Tread light</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TPtjrA",
+        "text_pG7FpY"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "email_signup_banner_644mkD": {
+      "type": "email-signup-banner",
+      "blocks": {
+        "heading_pJ9fHK": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMING REAL SOON",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_k7RGwr": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Take back your agency and jump in as one of 1000 BRiMM Founder Members.<br/><br/></strong>You'll decide where we invest 10% of profits, helping your new favourite brands hit net zero. Along with some super cool, planet positive perks. </p><p><br/>Sign up to get notified when we launch. And get access to our newsletter, which is full of Planet Positive design, travel, fashion, beauty and food goodness. Oh, and a fresh playlist of tunes each week. </p><p></p><p>Ready to team up and turn the tide?</p>",
+            "text_style": "body"
+          }
+        },
+        "email_form_JPVg3c": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_pJ9fHK",
+        "paragraph_k7RGwr",
+        "email_form_JPVg3c"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 100,
+        "collection_theme": "brimm-theme",
+        "show_background_image": false,
+        "sticky_on_mobile": true,
+        "image_height": "adapt-image",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "mobile_content_alignment": "left",
+        "show_text_below": true
+      }
+    },
+    "hero_bMD8Ce": {
+      "type": "hero",
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
-    "image_banner_RULnrW",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video_gEpLzz",
-    "video_dX4mB4",
-    "multicolumn"
+    "stacked_hero_qme3YR",
+    "stacked_hero_xxPi8q",
+    "multicolumn_simple_cCpCQn",
+    "text_banner_PdFGD4",
+    "flush_columns_cYTaw6",
+    "logo_scroller_DU3FL7",
+    "multicolumn_simple_iNMR3b",
+    "multicolumn_simple_UKDfAn",
+    "multicolumn_k9rxVY",
+    "member_packages_DXnQLz",
+    "partner_logos_xMwzLh",
+    "multicolumn_KaRHfp",
+    "hero_Wyq8H8",
+    "wrapped_mega_image_jH9J4f",
+    "multicolumn_tKFpqH",
+    "inset_hero_yEK8EF",
+    "featured_blog_XAVwgE",
+    "image_with_text_rcKjFt",
+    "image_with_text_mkA8Fb",
+    "email_signup_banner_644mkD",
+    "hero_bMD8Ce"
   ]
 }

@@ -1,0 +1,191 @@
+<section class="
+    brimm-blocks--hero color-{{ section.settings.color_scheme }}
+    {% if section.settings.invert %}inverted{% endif %}
+    {% if section.settings.two_image %} two-image{% endif %}
+    {% if section.settings.full_screen %} full-screen{% endif %}
+    {% if section.settings.wider %} wider-text{% endif %}
+    {% if section.settings.padded %} padded{% endif %}
+  " id="{{ section.id }}">
+  <div class="brimm-blocks--stacked-hero">
+    <div class="brimm-blocks--callout-column">
+      {% for block in section.blocks %}
+        {% if block.type == 'heading' %}
+          <h1>{{ block.settings.heading_text }}</h1>
+        {% endif %}
+      {% endfor %}
+      <div>
+        {% for block in section.blocks %}
+          <div>
+            {% if block.type == 'text' %}
+              <p class="brimm-blocks--hero-para">{{ block.settings.copy }}</p>
+            {% endif %}
+            {% if block.settings.label and block.settings.link %}
+              <a href="{{ block.settings.link }}" class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
+                {{ block.settings.label }}
+              </a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% if section.settings.narrow_image %}
+      <div class="brimm-blocks--narrow-image">
+        <img
+          width="auto"
+          height="auto"
+          src={{ section.settings.narrow_image | image_url }} />
+      </div>
+    {% endif %}
+    {% if section.settings.wide_image %}
+      <div class="brimm-blocks--wide-image">
+        <img
+          width="auto"
+          height="auto"
+          src={{ section.settings.wide_image | image_url }} />
+      </div>
+    {% endif %}
+    {%- if section.settings.video_embed != blank and section.settings.image == blank %}
+      <div class="brimm-blocks--wide-image">
+        <div class="brimm-blocks--full-width-vid">
+          {{ section.settings.video_embed }}
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+<!-- <div class="page-width brimm-blocks--hero-content">  {% for block in section.blocks %}
+    {% if block.type == 'heading' %}
+      <h1 class="brimm-blocks--split-text brimm-blocks--justified-header">{{ block.settings.heading_text }}</h1>
+    {% endif %}
+    {% if block.type == 'text' %}
+      <p class="brimm-blocks--hero-para">{{ block.settings.copy }}</p>
+    {% endif %}
+    {% if block.type == 'text' %}
+      {% if block.settings.label and block.settings.link %}
+          <a href="{{ block.settings.link }}"
+              class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
+              {{ block.settings.label }}
+          </a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div> -->
+</section>
+
+{% schema %}
+  {
+    "name": "Justified Hero",
+    "settings": [
+      {
+        "type": "checkbox",
+        "label": "Two image?",
+        "id": "two_image"
+      },
+      {
+        "type": "checkbox",
+        "label": "Full-screen",
+        "id": "full_screen"
+      },
+      {
+        "type": "checkbox",
+        "label": "Invert layout",
+        "id": "invert"
+      },
+      {
+        "type": "checkbox",
+        "label": "Wider Text?",
+        "id": "wider"
+      },
+      {
+        "type": "checkbox",
+        "id": "padded",
+        "default": false,
+        "label": "Padded"
+      },
+      {
+        "type": "image_picker",
+        "label": "Narrow Image",
+        "id": "narrow_image"
+      },
+      {
+        "type": "liquid",
+        "id": "video_embed",
+        "label": "t:sections.image-with-text.settings.video_embed.label",
+        "info": "t:sections.image-with-text.settings.video_embed.info"
+      },
+      {
+        "type": "image_picker",
+        "label": "Wide Image",
+        "id": "wide_image"
+      },
+      {
+        "type": "color_scheme",
+        "label": "Color Scheme",
+        "id": "color_scheme"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "name": "Heading Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "heading_text",
+            "label": "Heading Text",
+            "default": "Default Heading"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "name": "Paragraph Block",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "copy",
+            "label": "Paragraph Text",
+            "default": "<p>Your text here…</p>"
+          }
+        ]
+      },
+      {
+        "type": "cta_button",
+        "name": "Button",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Button label",
+            "default": "Click me"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Button link"
+          },
+          {
+            "type": "select",
+            "id": "style",
+            "label": "Button style",
+            "default": "primary",
+            "options": [
+              {
+                "value": "primary",
+                "label": "Primary"
+              },
+              {
+                "value": "secondary",
+                "label": "Secondary"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Stacked Hero"
+      }
+    ]
+  }
+{% endschema %}

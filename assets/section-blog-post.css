@@ -1,15 +1,64 @@
+.article-template {
+    padding-bottom: var(--space-2xl);
+    h2 {
+        margin-top: var(--space-xl);
+        margin-bottom: var(--space-l);
+    }
+}
+.article-template--repeater-block {
+  padding: var(--size-xl) 0 0;
+}
+
+.article-template--repeater-block .body-medium p {
+    font-weight: 370;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 750px) {
+  .article-template--repeater-block {
+    padding: var(--space-l) 0 0;
+  }
+}
+
+.article-template__title-date,
+.article-template__title-author {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
 .article-template > *:first-child:not(.article-template__hero-container) {
-  margin-top: 5rem;
+    margin: 0;
+    max-width: 100%;
+    padding: var(--space-3xl);
+    background: #6E1C20;
+    color: #E3B2FF;
+    &.no-date h1 {
+        padding-top: var(--space-3xl)
+    }
+    @media (max-width: 750px) {
+        padding: var(--space-s);
+    }
+    h1 {
+       color: #E3B2FF;
+    }
 }
 
 @media screen and (min-width: 750px) {
   .article-template > *:first-child:not(.article-template__hero-container) {
-    margin-top: calc(5rem + var(--page-width-margin));
+      margin: 0;
+      max-width: 100%;
+      padding: var(--space-xl);
+      background: #6E1C20;
+      color: #E3B2FF;
   }
 }
 
 .article-template__hero-container {
-  max-width: 130rem;
   margin: 0 auto;
 }
 
@@ -67,6 +116,17 @@
 
 .article-template__title {
   margin: 0;
+  color: #000000;
+  text-align: center;
+  /* Global/Headline/Extra Bold/36 */
+  font-family: Manrope;
+  font-size: calc(var(--step-5) + var(--step-2));
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  /* 43.2px */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
 }
 
 .article-template__title:not(:only-child) {
@@ -88,8 +148,24 @@
 }
 
 .article-template__content {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  max-width: 100%;
+  padding: 0;
+  font-size: var(--step-2);
+  p:first-child {
+    font-size: var(--step-4);
+    font-style: italic;
+    font-weight: 100;
+    color: var(--Primary-Mono-Black, #000);
+  }
+  @media(max-width: 750px) {
+      padding: 0 2rem;
+  }
+
+}
+
+.article-template__content {
+  margin: var(--space-3xl) auto 0;
+  max-width: 80rem;
 }
 
 .article-template__social-sharing {

@@ -6,6 +6,8 @@ function getFocusableElements(container) {
   );
 }
 
+const cart = document.querySelector('cart-drawer');
+
 class SectionId {
   static #separator = '__';
 
@@ -1488,3 +1490,310 @@ class BulkAdd extends HTMLElement {
 if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
+
+function openPricingTooltip(event) {
+  document.querySelector('.pricing-info')?.classList.remove('hidden');
+}
+
+function closePricingTooltip(event) {
+  document.querySelector('.pricing-info')?.classList.add('hidden');
+}
+
+// Attach mouseenter/mouseleave listeners to elements with .has-pricing-tooltip
+document.querySelectorAll('.has-pricing-tooltip').forEach((el) => {
+  el.addEventListener('mouseenter', openPricingTooltip);
+  el.addEventListener('mouseleave', closePricingTooltip);
+});
+
+function initializeDetailsWithImages() {
+  const details = document.querySelectorAll('details[data-img-src]');
+  if (!details.length) return;
+
+  details.forEach((detail) => {
+    detail.addEventListener('toggle', function () {
+      if (this.open) {
+        const imgSrc = this.getAttribute('data-img-src');
+        const imgTag = document.querySelector('.accordian--has-images img');
+        // append srcset image widths to the image url and create an array of src set images to append to the srcset attribute using this //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=165 165w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=360 360w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=535 535w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=750 750w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=1070 1070w, //33c755-d9.myshopify.com/cdn/shop/files/Screenshot_2025-04-01_at_20.25.31.png?v=1743759493&width=1500 1500w"
+        const imgSrcSet = imgSrc
+          .replace(/width=\d+/g, (match) => {
+            const width = parseInt(match.split('=')[1]);
+            return `width=${width}`;
+          })
+          .split(',')
+          .map((src) => src.trim())
+          .join(', ');
+        // set the srcset attribute to the img tag
+        if (imgTag) {
+          imgTag.src = imgSrc;
+          imgTag.srcset = imgSrcSet;
+        }
+      }
+    });
+  });
+}
+
+initializeDetailsWithImages();
+
+function toggleTabs() {
+  const tabs = document.querySelectorAll('.member-packages-tabs ul li');
+  const contents = document.querySelectorAll('.tab-content .tab-pane');
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach((t) => t.classList.remove('active'));
+      contents.forEach((content) => content.classList.remove('active'));
+
+      tab.classList.add('active');
+      contents[index].classList.add('active');
+    });
+  });
+}
+
+toggleTabs();
+openPricingTooltip();
+closePricingTooltip();
+
+const dualAddToCart = () => {
+  const MEMBERSHIPS = {
+    pioneer: {
+      variantId: 48578732097878,
+      sellingPlanId: 690226200918,
+    },
+    explorer: {
+      variantId: 48556931481942,
+      sellingPlanId: 690221023574,
+    },
+  };
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const dualBuyButton = document.getElementById('dual-buy-button');
+    const productFormSubmit = document.querySelector(
+      'form .product-form__submit',
+    );
+    const radios = document.getElementsByName('purchase_option');
+    const section = document.querySelector('.product__info-container');
+    const sectionId = section ? section.getAttribute('id') : null;
+    const hiddenMembershipInput = document.querySelector('.product-membership');
+    console.log(productFormSubmit);
+
+    if (!dualBuyButton) return;
+
+    dualBuyButton.addEventListener('click', function () {
+      const selectedOption = Array.from(radios).find((r) => r.checked)?.value;
+      const mainVariantId = parseInt(dualBuyButton.dataset.productId, 10);
+
+      if (!selectedOption) return;
+
+      // Step 1: Add main product
+
+      // Step 2: If a membership is selected, add the correct one
+      if (selectedOption === 'explorer') {
+        const membership = MEMBERSHIPS[selectedOption];
+        hiddenMembershipInput.value = membership.sellingPlanId || '';
+        console.log(`Adding ${selectedOption} membership to cart`, membership);
+
+        fetch('/cart/add', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify({
+            form_type: 'product',
+            utf8: '✓',
+            'section-id': sectionId,
+            sections: 'cart-drawer,cart-icon-bubble',
+            id: mainVariantId,
+            quantity: 1,
+          }),
+        })
+          .then((res) => res.json())
+          .then(() => {
+            return fetch('/cart/add', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                Accept: 'application/json',
+              },
+              body: JSON.stringify({
+                form_type: 'product',
+                utf8: '✓',
+                'section-id': sectionId,
+                sections: 'cart-drawer,cart-icon-bubble',
+                id: membership.variantId,
+                quantity: 1,
+                selling_plan: membership.sellingPlanId,
+              }),
+            });
+          })
+          .then((res) => {})
+          .catch((err) => {
+            console.error('Error adding to cart:', err);
+          });
+      } else {
+        console.log(`Adding main product ${mainVariantId} to cart`);
+        fetch('/cart/add', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify({
+            form_type: 'product',
+            utf8: '✓',
+            'section-id': 'template--25527513383254__main',
+            sections: 'cart-drawer,cart-icon-bubble',
+            id: mainVariantId,
+            quantity: 1,
+          }),
+        })
+          .then((res) => res.json())
+          .then(() => {})
+          .catch((err) => {
+            console.error('Error adding to cart:', err);
+          });
+      }
+    });
+  });
+};
+
+dualAddToCart();
+
+const membershipCartButtons = document.querySelectorAll(
+  '.brimm-blocks--column-button__add-to-cart',
+);
+
+const planButtonWrappers = document.querySelectorAll(
+  '.js-membership-column-bottom',
+);
+
+const membershipButtonsWidget = document.querySelector(
+  '.js-membership-column-bottom',
+);
+
+const cartDrawer = document.querySelector('.drawer');
+
+let membership_added = false;
+
+const addMembershipProductToCart = async (membershipCartButton) => {
+  const variantId = membershipCartButton?.dataset?.memberVariantId;
+  const sellingPlanId = membershipCartButton?.dataset?.memberSellingPlanId;
+
+  if (!variantId || !sellingPlanId) {
+    console.warn(
+      'Missing membership dataset values on button:',
+      membershipCartButton,
+    );
+    return;
+  }
+
+  console.log(
+    `Adding membership product to cart: ${variantId}, selling plan: ${sellingPlanId}`,
+  );
+
+  membershipCartButton?.setAttribute('disabled', 'disabled');
+  membershipButtonsWidget?.setAttribute('aria-disabled', 'true');
+  membershipButtonsWidget?.setAttribute('aria-busy', 'true');
+  membershipButtonsWidget?.setAttribute('aria-label', 'Adding to cart...');
+  planButtonWrappers.forEach((wrapper) => {
+    wrapper.classList.add('is-adding');
+  });
+
+  try {
+    // Wait 1 second if needed
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+
+    const response = await fetch(`${routes.cart_add_url}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        form_type: 'product',
+        id: variantId,
+        quantity: 1,
+        selling_plan: sellingPlanId,
+        sections: ['cart-drawer', 'cart-icon-bubble'],
+        sections_url: window.location.pathname,
+      }),
+    })
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res;
+      })
+      .then((res) => {
+        membershipButtonsWidget.classList.remove('loading');
+        membershipCartButton?.classList.remove('loading');
+        membershipCartButton?.removeAttribute('disabled');
+        membershipButtonsWidget?.removeAttribute('aria-disabled');
+        membershipButtonsWidget?.removeAttribute('aria-busy');
+        membershipButtonsWidget?.removeAttribute('aria-label');
+        planButtonWrappers.forEach((wrapper) => {
+          wrapper.classList.add('is-disabled');
+          wrapper.classList.remove('is-adding');
+          wrapper.classList.add('added_to_cart');
+        });
+        if (cartDrawer.classList.contains('is-empty')) {
+          cartDrawer.classList.remove('is-empty');
+        }
+        membership_added = true;
+        return res;
+      });
+
+    const cartData = await response.json(); // or just pass response if raw
+
+    publish(PUB_SUB_EVENTS.cartUpdate, {
+      source: 'product-form',
+      variantId: variantId,
+      sellingPlanId: sellingPlanId,
+      cartData,
+    });
+
+    // Optional: refresh cart drawer
+    cart.renderContents(cartData);
+  } catch (error) {
+    console.error('Error adding membership to cart:', error);
+  }
+};
+
+membershipCartButtons.forEach((button) => {
+  button.addEventListener('click', (evt) => {
+    addMembershipProductToCart(evt.currentTarget);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Get all accordion containers
+  const accordionContainers = document.querySelectorAll(
+    '.pdp-accreditations-accordion',
+  );
+
+  accordionContainers.forEach(function (container) {
+    const toggle = container.querySelector('.accordion-toggle');
+    const panel = container.querySelector('.pdp-accreditations');
+    const icon = container.querySelector('.accordion-icon');
+
+    if (toggle && panel && icon) {
+      toggle.addEventListener('click', function () {
+        // Check if panel is currently hidden
+        const isHidden = panel.classList.contains('hidden');
+
+        if (isHidden) {
+          // Show the panel
+          panel.classList.remove('hidden');
+          toggle.setAttribute('aria-expanded', 'true');
+          icon.classList.add('active');
+        } else {
+          // Hide the panel
+          panel.classList.add('hidden');
+          toggle.setAttribute('aria-expanded', 'false');
+          icon.classList.remove('active');
+        }
+      });
+    }
+  });
+});

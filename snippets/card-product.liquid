@@ -147,6 +147,15 @@
               </span>
             {%- endif -%}
           </div>
+          <div class='card__badge bottom right'>
+              <span
+                id='NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}'
+                class='badge badge--bottom-left color-3'
+              >
+                Member benefits
+              </span>
+
+          </div>
         </div>
       </div>
       <div class='card__content'>
@@ -167,13 +176,10 @@
             </a>
           </h3>
           <div class='card-information'>
-            {%- if show_vendor -%}
-              <span class='visually-hidden'>{{ 'accessibility.vendor' | t }}</span>
-              <div class='caption-with-letter-spacing light'>{{ card_product.vendor }}</div>
+
+            {%- if block.settings.description != blank -%}
+                <span class='caption-large light'>{{ block.settings.description | escape }}</span>
             {%- endif -%}
-
-            <span class='caption-large light'>{{ block.settings.description | escape }}</span>
-
             {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
               {% liquid
                 assign rating_decimal = 0
@@ -209,8 +215,27 @@
                 </span>
               </p>
             {%- endif -%}
+            <div class="vendor-and-price">
+                {%- if show_vendor -%}
+                  <span class='visually-hidden'>{{ 'accessibility.vendor' | t }}</span>
+                  <div class='caption-with-letter-spacing light'>{{ card_product.vendor }}</div>
+                {%- endif -%}
+                {% assign product_collections = card_product.collections | map: 'handle' %}
+                {% assign reset_boxes = false %}
+                {% if product_collections contains 'reset-boxes' %}
+                  {% assign reset_boxes = false %}
+                {% endif %}
 
-            {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+                {% if reset_boxes %}
+                  {% assign member_discount_rate = 0.20 %}
+                  {% assign regular_price = card_product.price %}
+                  {% assign p = regular_price | times: member_discount_rate %}
+                  {% assign member_price = regular_price | times: 1.0 | minus: p %}
+                  {% render 'price', product: card_product, price_class: '', show_compare_at_price: true, member_price: member_price %}
+                {% else %}
+                  {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+                {% endif %}
+            </div>
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants.size == 1 and quick_add == 'bulk' %}
                 {% liquid
@@ -360,6 +385,7 @@
                       disabled
                     {% endif %}
                   >
+                {% if card_product.available %}
                   <button
                     id='{{ product_form_id }}-submit'
                     type='submit'
@@ -390,6 +416,7 @@
                     {%- endif -%}
                     {%- render 'loading-spinner' -%}
                   </button>
+                {% endif %}
                 {%- endform -%}
               </product-form>
             {%- endif -%}
@@ -621,7 +648,7 @@
               <span class='visually-hidden'>{{ 'accessibility.vendor' | t }}</span>
               <div class='caption-with-letter-spacing light'>{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
-            {% render 'price', placeholder: placeholder, show_compare_at_price: true %}
+            {% comment %} {% render 'price', placeholder: placeholder, show_compare_at_price: true %} {% endcomment %}
           </div>
         </div>
       </div>

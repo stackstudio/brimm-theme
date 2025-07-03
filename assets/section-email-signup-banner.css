@@ -1,6 +1,17 @@
 .email-signup-banner .newsletter-form,
 .email-signup-banner .newsletter-form__field-wrapper {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.newsletter-form .newsletter-form__field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.8rem;
+  align-self: stretch;
+  border: 1px solid var(--Primary-Mono-Black, #000);
 }
 
 @media only screen and (min-width: 750px) {
@@ -104,4 +115,159 @@
   .banner--content-align-right .newsletter-form__message {
     justify-content: right;
   }
+}
+
+.email-signup-banner .banner__content {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: center;
+  padding: 6rem 0rem 3rem;
+}
+
+@media screen and (min-width: 749px) {
+  .email-signup-banner .banner__content {
+    padding: 6rem 5rem;
+  }
+}
+
+.email-signup-banner .banner__content--text {
+  max-width: 100%;
+  text-align: left;
+  color: var(--color-brimm-red);
+}
+
+@media screen and (min-width: 749px) {
+  .email-signup-banner .banner__content--text {
+    max-width: 50%;
+  }
+}
+
+.email-signup-banner .banner__content--text h2 {
+  margin-bottom: 1.4rem;
+  margin-top: 0;
+  color: var(--color-brimm-red);
+}
+
+.email-signup-banner .banner__content--form {
+  width: 100%;
+  text-align: left;
+  margin: 0;
+}
+
+@media screen and (min-width: 749px) {
+  .email-signup-banner .banner__content--form {
+    width: 29%;
+  }
+}
+
+.banner--sticky-mobile {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  background: white;
+  height: 79px;
+  width: 100%;
+}
+
+.banner--sticky-mobile.brimm-theme {
+  background: var(--color-brimm-beige);
+}
+
+.brimm-theme .email-signup-banner__box {
+  background-color: var(--color-brimm-beige);
+}
+
+.brimm-theme .newsletter-form__field:-internal-autofill-selected {
+  background-color: var(--color-brimm-beige) !important;
+}
+
+.brimm-theme .email-signup-banner__box p,
+.brimm-theme .email-signup-banner__box h2 {
+  color: #000000;
+}
+
+.brimm-theme .newsletter-form__button,
+.brimm-theme .newsletter-form__button:focus-visible,
+.brimm-theme .newsletter-form__button:focus {
+  background: #000000;
+  color: white;
+}
+
+.brimm-theme .newsletter-form .newsletter-form__field {
+  color: #000000;
+  background: var(--color-brimm-beige);
+  border-color: #000000;
+  box-shadow: none;
+}
+
+/* placeholder */
+
+.brimm-theme .newsletter-form__field::placeholder,
+.brimm-theme .field__label {
+  color: #000000;
+}
+
+.brimm-theme .newsletter-form__field::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.brimm-theme .newsletter-form__terms-label::before,
+.brimm-theme .newsletter-form__terms-label::after {
+  border-color: #000000;
+}
+
+.brimm-theme .newsletter-form__terms-label--error::before {
+  border-color: #000;
+}
+
+.brimm-theme .newsletter-form__terms-label-text,
+.brimm-theme .newsletter-form__terms-label-text a {
+  color: #000000 !important;
+}
+
+@media screen and (min-width: 749px) {
+  .banner--sticky-mobile {
+    position: relative;
+    height: auto;
+    bottom: auto;
+  }
+}
+
+.sticky--banner-cta-button {
+  color: var(--Primary-Mono-White, #fff);
+  /* Global/Body/Medium/14 */
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: -0.28px;
+  background-color: var(--color-brimm-lilac);
+  width: 100%;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  border: none;
+  display: block;
+}
+
+@media screen and (min-width: 749px) {
+  .sticky--banner-cta-button {
+    display: none;
+  }
+}
+
+.sticky--banner-close-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2rem;
+  background: none;
+  border: none;
+  appearance: none;
+  z-index: 20;
+  color: #000000;
 }

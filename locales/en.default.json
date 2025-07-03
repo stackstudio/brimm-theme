@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -58,9 +67,18 @@
     }
   },
   "newsletter": {
+    "button_label": "Subscribe",
     "label": "Email",
-    "success": "Thanks for subscribing",
-    "button_label": "Subscribe"
+    "info": "Subscribe to our newsletter for new designs, experiments from the workshop, and collaborations with like-minded makers.",
+    "sign_up": "Join our newsletter",
+    "close": "Close",
+    "submit": "Send",
+    "first_name": "First name",
+    "last_name": "Surname",
+    "email": "Email",
+    "phone": "Phone number",
+    "terms": "By joining, you agree to receive BRiMM newsletters. Unsubscribe any time at the bottom of the newsletter. Read more in Privacy Policy ",
+    "success_message": "You are now subscribed to the BRiMM Newsletter."
   },
   "accessibility": {
     "skip_to_text": "Skip to content",
@@ -106,6 +124,7 @@
   },
   "products": {
     "product": {
+      "pre_order": "Pre-order",
       "add_to_cart": "Add to cart",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
@@ -162,7 +181,8 @@
         "from_price_html": "From {{ price }}",
         "regular_price": "Regular price",
         "sale_price": "Sale price",
-        "unit_price": "Unit price"
+        "unit_price": "Unit price",
+        "member_price": "Members price",
       },
       "share": "Share this product",
       "sold_out": "Sold out",
@@ -272,7 +292,6 @@
       "announcement": "Announcement",
       "announcement_bar": "Announcement bar"
     },
-
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",
@@ -524,6 +543,13 @@
       "max_characters": "{{ max_chars }} characters max",
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "subscriptions": "Memberships"
+      }
     }
   }
 }

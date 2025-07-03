@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "logo": "shopify://shop_images/BRIMM_Static_Logo_Yellow_1.svg",
     "logo_width": 90,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -16,8 +17,9 @@
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
+    "spacing_grid_horizontal": 40,
+    "spacing_grid_vertical": 40,
+    "animations_reveal_on_scroll": false,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -104,9 +106,9 @@
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
     "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https://www.instagram.com/brimmcollective?igsh=bmFodmozZXVvZXFi",
     "social_youtube_link": "",
-    "social_tiktok_link": "",
+    "social_tiktok_link": "https://www.tiktok.com/@brimmcollective",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -115,8 +117,8 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
-    "cart_type": "notification",
+    "currency_code_enabled": false,
+    "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
@@ -136,16 +138,55 @@
     },
     "content_for_index": [],
     "blocks": {
-      "5557296251606798448": {
-        "type": "shopify://apps/bold-subscriptions/blocks/bsub-embed/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
-        "disabled": false,
-        "settings": {}
-      },
-      "889038032183852488": {
-        "type": "shopify://apps/viral-loops-referral-marketing/blocks/viral-loops-widget/f6623cbd-1455-4f35-8afe-9c00a023f2d7",
+      "1923486770171284578": {
+        "type": "shopify://apps/simplee-memberships/blocks/app-block/f502d2a4-3112-42c9-ad39-89fb8aca93a7",
         "disabled": false,
         "settings": {
-          "publicToken": ""
+          "text_color": "#2f3537",
+          "widget_background_color": "#ffffff",
+          "background_color": "#2e90fa",
+          "description_color": "#5b5f62",
+          "renewal_color": "#9fa9ad",
+          "heading_color": "#2f3537",
+          "button_color": "#667085",
+          "selected_button_color": "#ffffff",
+          "renewal_text": "/ Renewal",
+          "trial_days_text": "[initial_price] for [count] days, then [regular_price]",
+          "trial_orders_text": "[initial_price] for [count] orders, then [regular_price]",
+          "life_time_text": "Lifetime Access",
+          "simplee_widget_type": "widget_1",
+          "css": "#Simplee-Product_widget{}",
+          "link_color": "#000000",
+          "link_text": "My Membership",
+          "link_css": ".simplee-membership-link{}",
+          "link_icon_size": 16
+        }
+      },
+      "3408556835904117202": {
+        "type": "shopify://apps/regios-discounts/blocks/regios_add_to_cart_embed/dc1514bb-4830-4102-bffa-e8b300bac5bd",
+        "disabled": false,
+        "settings": {
+          "reload_in_unsupported_themes": true
+        }
+      },
+      "9137299313046473183": {
+        "type": "shopify://apps/regios-discounts/blocks/regios_discounts_embed/dc1514bb-4830-4102-bffa-e8b300bac5bd",
+        "disabled": false,
+        "settings": {
+          "theme_type": "auto_detect",
+          "currency_code_enabled": false,
+          "discount_description": "[discount_message]",
+          "discount_description_css": "",
+          "badge_description": "[discount_percentage] OFF",
+          "badge_css": "",
+          "price_on_sale_class": "",
+          "sale_price_description": "[sale_price]",
+          "regular_price_description": "[regular_price]",
+          "delay": 100,
+          "customer_metafields_to_check": "",
+          "calculate_discount_based_on_quantity": false,
+          "log_level": "error",
+          "feature_flags": ""
         }
       }
     },
@@ -163,23 +204,23 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "#e3b2ff",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#f3f3f3",
-          "secondary_button_label": "#121212",
+          "text": "#6e1c20",
+          "button": "#6e1c20",
+          "button_label": "#e3b2ff",
+          "secondary_button_label": "#6e1c20",
           "shadow": "#121212"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#242833",
+          "background": "#6e1c20",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#000000",
-          "secondary_button_label": "#ffffff",
+          "text": "#e3b2ff",
+          "button": "#e3b2ff",
+          "button_label": "#6e1c20",
+          "secondary_button_label": "#e3b2ff",
           "shadow": "#121212"
         }
       },
@@ -202,6 +243,39 @@
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-6": {
+        "settings": {
+          "background": "#000000",
+          "background_gradient": "",
+          "text": "#e3f994",
+          "button": "#e3f994",
+          "button_label": "#000000",
+          "secondary_button_label": "#e3f994",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-7": {
+        "settings": {
+          "background": "#e6e6d1",
+          "background_gradient": "",
+          "text": "#1c1b1f",
+          "button": "#1c1b1f",
+          "button_label": "#e6e6d1",
+          "secondary_button_label": "#1c1b1f",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-448e28f7-bbd8-41b1-8f0d-1059e94174c0": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#121212",
+          "button": "#e4b5ff",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
@@ -392,5 +466,16 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#customer-portal-root .shipping-and-address-panel-wrap,#customer-portal-root .products-panel-wrap {display: none;}",
+      "[data-bold-component-id=\"future-orders-panel\"] {display: none;}",
+      "#customer-portal-root .prepaid-metadata-header {border: 0;}",
+      "#customer-portal-root .customer-info__section {border-radius: 0; border: 1px solid black; padding: 24px;}",
+      "#customer-portal-root .active-subscription {border-radius: 0; box-shadow: none; margin-bottom: 1rem; border: 1px solid black;}",
+      "#customer-portal-root .active-subscription__action {border-top: 1px solid #e1e1e1; background: black; color: white; padding: 0.5rem 1rem;}",
+      "#customer-portal-root .active-subscription__action span {color: white;}"
+    ]
   }
 }

@@ -12,17 +12,17 @@
     "main": {
       "type": "main-article",
       "blocks": {
-        "featured_image": {
-          "type": "featured_image",
-          "settings": {
-            "image_height": "adapt"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
             "blog_show_date": true,
             "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
           }
         },
         "share": {
@@ -37,168 +37,21 @@
         }
       },
       "block_order": [
-        "featured_image",
         "title",
+        "featured_image",
         "share",
         "content"
       ],
       "settings": {}
     },
-    "image_with_text_BnHNkM": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_e4Uce9": {
-          "type": "heading",
-          "settings": {
-            "heading": "This is a magazine cover image - and would sit after the intro paragraph.",
-            "heading_size": "h1"
-          }
-        },
-        "text_xbpRmR": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Here's a visual ref  : https://www.gq-magazine.co.uk/article/charlie-cox-hype-interview-2025</p>",
-            "text_style": "body"
-          }
-        },
-        "button_eHUpTw": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_e4Uce9",
-        "text_xbpRmR",
-        "button_eHUpTw"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_qeCUrk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_aa3kph": {
-          "type": "heading",
-          "settings": {
-            "heading": "This is a pull quote. It sits within the text between paragraphs",
-            "heading_size": "h1"
-          }
-        },
-        "text_jrxeQd": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_nq3NUX": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_aa3kph",
-        "text_jrxeQd",
-        "button_nq3NUX"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_y8rPKA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_7nbQdL": {
-          "type": "heading",
-          "settings": {
-            "heading": "We're not like other magazines",
-            "heading_size": "h1"
-          }
-        },
-        "text_azVWPQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Remind people that as a member everything they spend with BRiMM helps reduce the impact of purposeful brands. CAN THIS BE A DYNAMIC MODULE WITH DIFFERENT TEXT FOR DIFFERENT MEMBER TYPES?  EG IF YOU'RE A BOTTOM TIER MEMBER YOU GET A NUDGE TO UPGRADE. </p>"
-          }
-        },
-        "button_dczwmq": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_7nbQdL",
-        "text_azVWPQ",
-        "button_dczwmq"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "featured_blog_wdhRKA": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "You  might like > is it possible to have this include a product listing as well as editorial?",
-        "heading_size": "h2",
-        "blog": "",
-        "post_limit": 3,
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
+    "repeater_block_XjWbWC": {
+      "type": "repeater-block",
+      "name": "Meta object page content",
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "image_with_text_BnHNkM",
-    "rich_text_qeCUrk",
-    "rich_text_y8rPKA",
-    "featured_blog_wdhRKA"
+    "repeater_block_XjWbWC"
   ]
 }

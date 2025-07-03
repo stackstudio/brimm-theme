@@ -36,7 +36,7 @@
 
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
-        padding-top: 12rem;
+        padding-top: var(--space-l);
         padding-bottom: 6rem;
       }
     }
@@ -75,6 +75,14 @@
     >
   {%- endif -%}
 
+  {% liquid
+    assign collections = product.collections | where: 'handle', section.settings.related_products_collection_handle | first
+    assign customer_loggedin = false
+    if customer
+      assign customer_loggedin = true
+    endif
+  %}
+
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class='page-width'>
     <div class='product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}'>
@@ -109,35 +117,138 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
-                  {%- render 'price',
-                    product: product,
-                    use_variant: true,
-                    show_badges: true,
-                    price_class: 'price--large'
-                  -%}
-                </div>
+                 {% if product.product_type != 'Membership' and collections.handle contains 'reset-boxes' %}
+
+                  {% assign member_discount_rate = 0.20 %}
+                  {% assign regular_price = product.price %}
+                  {% assign p = regular_price | times: member_discount_rate %}
+                  {% assign member_price = regular_price | times: 1.0 | minus: p %}
+
+                  <div class="membership-choice my-6">
+                  {% if customer.tags contains 'mid_tier' or customer.tags contains 'member' %}
+
+                    <p class="font-medium mb-2">As a member you get {{ member_discount_rate | times: 100 | round: 0 }}% off</p>
+
+                      <label class="flex items-center mb-4" for="explorer">
+                        <input type="radio" name="purchase_option" id="explorer" checked class="mr-2">
+                        <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
+                          {%- render 'price',
+                            product: product,
+                            use_variant: true,
+                            show_badges: true,
+                            price_class: 'price--large',
+                            member_price: member_price
+                          -%}
+                        </div>
+                      </label>
+
+                    {% else %}
+
+                    <p class="font-medium mb-2">How would you like to purchase?</p>
+
+                      <label class="flex items-center mb-2" for="regular">
+                        <input type="radio" name="purchase_option" id="regular" value="regular" checked class="mr-2">
+                        <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
+                          {%- render 'price',
+                            product: product,
+                            use_variant: true,
+                            show_badges: true,
+                            price_class: 'price--large',
+                          -%}
+                        </div>
+                      </label>
+
+                      <label class="flex items-center mb-4" for="explorer">
+                        <input type="radio" name="purchase_option" id="explorer" value="explorer" class="mr-2">
+                        <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
+                          {%- render 'price',
+                            product: product,
+                            use_variant: true,
+                            show_badges: true,
+                            price_class: 'price--large',
+                            member_price: member_price
+                          -%}
+                        </div>
+                      </label>
+                  {% endif %}
+                    <div class="accordian">
+                      <details class="membership-details">
+                        <summary role="button" aria-expanded="false">
+                          <span class="summary__title">
+                            Membership costs £12/month or £120/year<span class="summary__link">, see more.</span>
+                            {{- 'icon-caret.svg' | inline_asset_content -}}
+                          </span>
+                        </summary>
+                        <div class="accordion__content rte">
+                          <ul>
+                            <li>Support high-quality content</li>
+                            <li>Priority access to events</li>
+                            <li>Give 10% to the Planet Fund with each purchase</li>
+                            <li>Pay member prices on Reset Boxes (20% off - worth £100+/yr)</li>
+                            <li>Earn 10% cashback with each purchase*</li>
+                          </ul>
+                        </div>
+                      </details>
+                    </div>
+                    {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
+                      <div class='product__tax caption rte'>
+                        <strong>
+                        {%- if cart.duties_included and cart.taxes_included -%}
+                          {{ 'products.product.duties_and_taxes_included' | t }}
+                        {%- elsif cart.taxes_included -%}
+                          {{ 'products.product.taxes_included' | t }}
+                        {%- elsif cart.duties_included -%}
+                          {{ 'products.product.duties_included' | t }}
+                        {%- endif -%}
+                        {%- if shop.shipping_policy.body != blank -%}
+                          {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                        {%- endif -%}
+                        </strong>
+                      </div>
+                    {%- endif -%}
+                    {% if customer_loggedin != true %}
+                      <div class="account-prompt">
+                        <p class="mb-2">Already a member? <a href="/account">Log in here</a></p>
+                      </div>
+                    {% endif %}
+
+                  </div>
+
+                  {% else %}
+
+                  <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
+                    {%- render 'price',
+                      product: product,
+                      use_variant: true,
+                      show_badges: true,
+                      price_class: 'price--large'
+                    -%}
+                  </div>
+
+                  {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
+                    <div class='product__tax caption rte'>
+                      {%- if cart.duties_included and cart.taxes_included -%}
+                        {{ 'products.product.duties_and_taxes_included' | t }}
+                      {%- elsif cart.taxes_included -%}
+                        {{ 'products.product.taxes_included' | t }}
+                      {%- elsif cart.duties_included -%}
+                        {{ 'products.product.duties_included' | t }}
+                      {%- endif -%}
+                      {%- if shop.shipping_policy.body != blank -%}
+                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
+
+                 {% endif %}
+
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class='volume-pricing-note' id='Volume-Note-{{ section.id }}'>
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                   </div>
                 {%- endif -%}
-                {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
-                  <div class='product__tax caption rte'>
-                    {%- if cart.duties_included and cart.taxes_included -%}
-                      {{ 'products.product.duties_and_taxes_included' | t }}
-                    {%- elsif cart.taxes_included -%}
-                      {{ 'products.product.taxes_included' | t }}
-                    {%- elsif cart.duties_included -%}
-                      {{ 'products.product.duties_included' | t }}
-                    {%- endif -%}
-                    {%- if shop.shipping_policy.body != blank -%}
-                      {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                    {%- endif -%}
-                  </div>
-                {%- endif -%}
+                {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 <div {{ block.shopify_attributes }}>
-                  {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                   {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
                     <input type='hidden' name='id' value='{{ product.selected_or_first_available_variant.id }}'>
                     {{ form | payment_terms }}

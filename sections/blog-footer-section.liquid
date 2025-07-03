@@ -1,0 +1,55 @@
+{% schema %}
+  {
+    "name": "Blog Footer Section",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "richtext",
+        "id": "rich_text_content",
+        "label": "Rich Text Content",
+        "default": "<p>Your rich text here</p>"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Blog Footer Section",
+        "category": "Footer"
+      }
+    ]
+  }
+{% endschema %}
+
+<div class="blog-footer-section page-width">
+  <div class="container" style="background-color: {{ section.settings.background_color }}">
+    {{ section.settings.rich_text_content }}
+  </div>
+</div>
+
+<style>
+  .blog-footer-section {
+    border-top: 1px solid #E0E0E0;
+    padding: 0 0;
+    margin-top: 12rem;
+  }
+
+  .blog-footer-section .container {
+    padding: 12rem 20rem;
+  }
+
+  .blog-footer-section p {
+    color: #000000;
+    /* Global/Headline/Extra Bold/20 */
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 24px */
+    letter-spacing: -0.4px;
+  }
+</style>

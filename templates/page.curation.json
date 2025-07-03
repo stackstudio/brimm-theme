@@ -1,0 +1,724 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stacked_hero_Xiwchw": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_UUGJWd": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "HOW WE CHOOSE OUR PRODUCTS"
+          }
+        },
+        "text_dDrnpd": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>We curate and vet all our products to ensure they're good for you and better for the planet</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UUGJWd",
+        "text_dDrnpd"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_11066_SHOT_4_copy_2_16x9_ddcb6445-f547-4d73-992d-a2e2b93beb4b.jpg",
+        "color_scheme": ""
+      }
+    },
+    "flush_columns_4zpTXq": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_c9BW33": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_7.jpg",
+            "title": "style",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_4MP6xG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Skin_Deep_Daniel_Faro_ID_4263.jpg",
+            "title": "health",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_Kq8GWU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lost_Jelly_Luise_Photos.jpg",
+            "title": "environmental",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_UBA3BN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_9.jpg",
+            "title": "social",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_c9BW33",
+        "column_4MP6xG",
+        "column_Kq8GWU",
+        "column_UBA3BN"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "ONLY THE TRULY PLANET-POSITIVE MAKE THE CUT",
+        "text_block": "Our rigorous vetting process, is grounded in independent standards and accreditations, and also identifies products and brands innovating in ingredients, formats, and business models. It was developed by sustainability expert Tom Berry, who has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive",
+        "columns_desktop": 4,
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": ""
+      }
+    },
+    "stacked_hero_kxMRgY": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_wEQ4JG": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "LOWER IMPACT LIVING SHOULDN'T REQUIRE SACRIFICE"
+          }
+        },
+        "text_bVnjdn": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Despite our high bar, we don't believe that choosing a lower impact life should mean giving up on style, performance and joy. Which is why our selection starts with picking the brands and products that we think are pushing the bar</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wEQ4JG",
+        "text_bVnjdn"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Chris_Abatzis_Photos_10.jpg",
+        "color_scheme": "scheme-1"
+      }
+    },
+    "flush_columns_rWMFzU": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_8EMQxz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Christabel_BRIMM_359.jpg",
+            "title": "CHRISTABEL BIELLA",
+            "text": "<p>Heading up Home & Food with over 20 years in retail product selection, previously a Buyer at House of Fraser, Farmdrop</p>",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_8QcP9k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tiff_BRIMM_075.jpg",
+            "title": "TIFF DARKE",
+            "text": "<p>A fashion journalist, renowned for her advocacy in sustainable fashion. Former fashion editor for The Telegraph, The Times and Harrods</p>",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_wn87Dq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sam_BRIMM_762.jpg",
+            "title": "SAM ZIMMERMAN",
+            "text": "<p>Ex-Beauty editor at Grazia, Sam brings oodles of experience, carefully curating our bathroom products</p>",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_Jzjeig": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tom_Brimm.jpg",
+            "title": "Tom Berry",
+            "text": "<p>Sustainability expert Tom Berry has decades of experience at well known brands like FarFetch and Innocent</p>",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8EMQxz",
+        "column_8QcP9k",
+        "column_wn87Dq",
+        "column_Jzjeig"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "OUR INDUSTRY EXPERTS",
+        "text_block": "",
+        "columns_desktop": 4,
+        "button_label": "",
+        "button_link": "shopify://blogs/journal/microplastic-free-beauty-wellness",
+        "color_scheme": ""
+      }
+    },
+    "logo_scroller_ANciWD": {
+      "type": "logo-scroller",
+      "blocks": {
+        "column_EQ4btt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bold_bean_logo.png"
+          }
+        },
+        "column_8dTebt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kit_Kin_logo_monochrome.png"
+          }
+        },
+        "column_YzA3fK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_8TBDJU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Northern_Pasta_logo.png"
+          }
+        },
+        "column_qLYbPp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Rollr_logo_monochrome.png"
+          }
+        },
+        "column_rYqyzV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Upcircle_logo.png"
+          }
+        },
+        "column_7CxDfU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Citizens_of_Soil_logo_mini.png"
+          }
+        },
+        "column_HWwYWB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sbtrct_logo.png"
+          }
+        },
+        "column_NEWykc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hotel_Mike_logo_Black.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_EQ4btt",
+        "column_8dTebt",
+        "column_YzA3fK",
+        "column_8TBDJU",
+        "column_qLYbPp",
+        "column_rYqyzV",
+        "column_7CxDfU",
+        "column_HWwYWB",
+        "column_NEWykc"
+      ],
+      "name": "Logo Scroller",
+      "settings": {
+        "color_scheme": "scheme-1"
+      }
+    },
+    "image_with_text_N4ciKF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7QgCKH": {
+          "type": "heading",
+          "settings": {
+            "heading": "CURATED BY INDUSTRY EXPERTS",
+            "heading_size": "h1"
+          }
+        },
+        "text_3HDg6g": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At BRiMM, every product is thoughtfully curated by industry experts (hello, Sam & Christabel) to ensure they not only perform beautifully but also smell and taste fantastic.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7QgCKH",
+        "text_3HDg6g"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_embed": "",
+        "has_background": true,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "scheme-2",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "partner_logos_hUUrNA": {
+      "type": "partner-logos",
+      "disabled": true,
+      "settings": {
+        "block_text": "BRANDS OUR CURATION & VETTING EXPERTS HAVE WORKED with"
+      }
+    },
+    "image_with_text_iKBBfX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XaGQgz": {
+          "type": "heading",
+          "settings": {
+            "heading": "rigourous vetting process",
+            "heading_size": "h1"
+          }
+        },
+        "text_bQwVkC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our rigorous 90+ point vetting process, developed by sustainability expert Tom Berry, is grounded in independent standards and accreditations. Tom has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XaGQgz",
+        "text_bQwVkC"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/20250514_BRIMM_652_1.png",
+        "video_embed": "",
+        "has_background": false,
+        "show_waitlist": false,
+        "image_label": "",
+        "color_scheme": "scheme-1",
+        "mobile_heading": "",
+        "mobile_text": "",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "collection_theme": "brimm-theme",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "partner_logos_pmqNqp": {
+      "type": "partner-logos",
+      "disabled": true,
+      "settings": {
+        "block_text": "VETTING ACCREDITATONS"
+      }
+    },
+    "stacked_hero_iyBFLz": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_QtxD6X": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "NOT ALL BRANDS ARE CREATED EQUALLY"
+          }
+        },
+        "text_h3DJQ4": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Smaller brands are often at the forefront of innovation. They’re not just crafting exceptional products; they’re setting the next generation of standards and accreditations that larger brands will follow (eventually).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QtxD6X",
+        "text_h3DJQ4"
+      ],
+      "disabled": true,
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": true,
+        "padded": false,
+        "video_embed": "",
+        "color_scheme": "scheme-1"
+      }
+    },
+    "multicolumn_simple_kcMNX8": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_c8ayPB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Currency_Fanette_Guilloud_ID_6045.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Accreditations",
+            "text": "<p>We start by looking at the accreditations that brands have - from B Corp to Certified Organic ingredients and everything in between</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8jqTVL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Fanette_Guilloud_Shadow_Tech.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Intent and action",
+            "text": "<p>While they often possess extensive accreditations we also choose brands based on their provenance, innovation, and exceptional design. Together, we can help them establish the new standards of tomorrow</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MGgWEP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_11.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Our planet fund supports",
+            "text": "<p>We work with the brands to identify the initiatives they want to work on next and support them to do so. Read more <a href=\"/pages/the-collective\" title=\"The Collective\">here</a></p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_c8ayPB",
+        "column_8jqTVL",
+        "column_MGgWEP"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "NOT ALL BRANDS ARE CREATED EQUALLY",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "justify": true,
+        "bordered": false,
+        "text_block": "Smaller brands are often at the forefront of innovation. They’re not just crafting exceptional products; they’re setting the next generation of standards and accreditations",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "flush_columns_XHYRMh": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_wzLnHr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Citizens_of_Soil_lifestyle_Luna.png",
+            "title": "CITIZENS OF SOIL",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_3YnXry": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Upcircle_Square_Lifestyle_VC_Conditioner_1_LR.jpg",
+            "title": "UPCIRCLE",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_BmBxEg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cleaning-eg.png",
+            "title": "KINFILL",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wzLnHr",
+        "column_3YnXry",
+        "column_BmBxEg"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "CURIOUS ABOUT SOME EXAMPLES?",
+        "text_block": "",
+        "columns_desktop": 4,
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": ""
+      }
+    },
+    "wrapped_mega_image_XFkj89": {
+      "type": "wrapped-mega-image",
+      "blocks": {
+        "heading_KF7Fji": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "NOT ALL BRANDS ARE CREATED EQUALLY"
+          }
+        },
+        "top_paragraph_WFXrGJ": {
+          "type": "top_paragraph",
+          "settings": {
+            "top_copy": "<p>At BRiMM, we understand that not all brands meet the high standards for creating truly innovative, planet-positive products.</p>"
+          }
+        },
+        "bottom_paragraph_QzYaMG": {
+          "type": "bottom_paragraph",
+          "settings": {
+            "bottom_copy": "<p>Smaller brands are often at the forefront of innovation. They’re not just crafting exceptional products; they’re setting the next generation of standards and accreditations that larger brands will follow (eventually).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KF7Fji",
+        "top_paragraph_WFXrGJ",
+        "bottom_paragraph_QzYaMG"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_embed": "",
+        "color_scheme": "scheme-2",
+        "disable_bottom_padding": false,
+        "disable_top_padding": false
+      }
+    },
+    "stacked_hero_BNfitJ": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_B6AXbh": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "CITIZENS OF SOIL"
+          }
+        },
+        "text_fY8C8V": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>With over 1,400 five-star reviews, their award-winning extra-virgin olive oils are a true taste sensation. As a certified B-Corp, they go above and beyond with initiatives that matter. They champion female farmers and collaborate with those who actively promote biodiversity through diverse planting, allowing animals to graze between the groves and practicing low or no tillage. This is what people refer to as ‘regenerative farming.’ It’s no wonder we proudly stock their products!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B6AXbh",
+        "text_fY8C8V"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": true,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Citizens-of-Soil-BlueTablePortrait-4_4.jpg",
+        "color_scheme": "scheme-1"
+      }
+    },
+    "stacked_hero_96xN8c": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_RbnQYW": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "UPCIRCLE"
+          }
+        },
+        "text_UdjK4z": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>UpCircle transforms natural by-products - such as used coffee grounds and fruit stones - into highly effective skincare. They utilize recyclable and refillable packaging, are certified plastic-negative, and hold ethical certifications (B Corp, vegan, cruelty-free, and organic). UpCircle is transparent about its ingredients and actively supports community and environmental initiatives. While independent accreditation for all this innovation may not always be feasible, their commitment is undeniably inspiring and truly planet-positive.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RbnQYW",
+        "text_UdjK4z"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": true,
+        "wider": true,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Upcircle_OnSkin_Conditioner_LR.jpg",
+        "color_scheme": "scheme-1"
+      }
+    },
+    "stacked_hero_4q7bxk": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_BBpGrL": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "KINFILL"
+          }
+        },
+        "text_3daPhx": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Kinfill offers concentrated, non-toxic home cleaning products in reusable, elevated aluminum bottles - eliminating single-use plastics. Their plant-based, cruelty-free formulas are free from harsh chemicals, and all packaging is recyclable. With local production to minimize transport impact, Kinfill is also B Corp certified. While no standard currently exists for design-led cleaning products systems that eliminate the need for plastic, it's without doubt a pioneering low impact model</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BBpGrL",
+        "text_3daPhx"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": true,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/cleaning-eg.png",
+        "color_scheme": "scheme-1"
+      }
+    },
+    "rich_text_T3hM7z": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_xFmdpQ": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "main",
+    "stacked_hero_Xiwchw",
+    "flush_columns_4zpTXq",
+    "stacked_hero_kxMRgY",
+    "flush_columns_rWMFzU",
+    "logo_scroller_ANciWD",
+    "image_with_text_N4ciKF",
+    "partner_logos_hUUrNA",
+    "image_with_text_iKBBfX",
+    "partner_logos_pmqNqp",
+    "stacked_hero_iyBFLz",
+    "multicolumn_simple_kcMNX8",
+    "flush_columns_XHYRMh",
+    "wrapped_mega_image_XFkj89",
+    "stacked_hero_BNfitJ",
+    "stacked_hero_96xN8c",
+    "stacked_hero_4q7bxk",
+    "rich_text_T3hM7z",
+    "rich_text_xFmdpQ"
+  ]
+}

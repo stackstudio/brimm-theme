@@ -43,12 +43,14 @@
 }
 
 .newsletter-form__button {
-  width: 4.4rem;
+  width: 100%;
   margin: 0;
-  right: var(--inputs-border-width);
-  top: 0;
   height: 100%;
   z-index: 2;
+  border: none;
+  padding: 1.2rem;
+  background: var(--color-brimm-red);
+  color: white;
 }
 
 .newsletter-form__button:focus-visible {
@@ -63,11 +65,82 @@
   background-color: rgb(var(--color-background));
 }
 
-.newsletter-form__button:not(:focus-visible):not(.focused) {
-  box-shadow: inherit;
-  background-color: inherit;
-}
-
 .newsletter-form__button .icon {
   width: 1.5rem;
+}
+
+.newsletter-form__terms {
+  position: relative;
+}
+
+/* create css to make a label a custom checkbox with a tick in it */
+
+.newsletter-form__terms-input {
+  display: none !important;
+}
+
+.newsletter-form__terms-label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+
+.newsletter-form__terms-label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+}
+
+.newsletter-form__terms-label--error::before {
+  border-color: var(--color-brimm-red);
+}
+
+.newsletter-form__terms-label::after {
+  content: '';
+  position: absolute;
+  left: 0.8rem;
+  top: 0.5rem;
+  width: 0.5rem;
+  height: 0.8rem;
+  border: solid black;
+  border-width: 0 0.2rem 0.2rem 0;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
+.newsletter-form__terms-input:checked + .newsletter-form__terms-label::after {
+  opacity: 1;
+}
+
+.newsletter-form__terms-label-text {
+  margin-left: 1rem;
+  color: #6E1C20;
+}
+
+.newsletter-form__terms-label-text a {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: -0.28px;
+  color: #6E1C20;
+}
+
+.newsletter-form__terms-label-text a:hover {
+  text-decoration: underline;
+}
+
+.newsletter-form__terms-label-text a:focus {
+  outline: 0.2rem solid var(--color-brimm-red);
+}
+
+.newsletter-form__terms-label-text a:focus-visible {
+  outline: 0.2rem solid var(--color-brimm-red);
 }

@@ -7,6 +7,17 @@ class CartRemoveButton extends HTMLElement {
       const cartItems =
         this.closest('cart-items') || this.closest('cart-drawer-items');
       cartItems.updateQuantity(this.dataset.index, 0);
+      const itemTitle = this.dataset.variantTitle;
+      if (itemTitle == 'Member' || itemTitle == 'Supporter') {
+        const planButtonWrappers = document.querySelectorAll(
+          '.js-membership-column-bottom',
+        );
+        planButtonWrappers.forEach((wrapper) => {
+          wrapper.classList.remove('is-disabled');
+          wrapper.classList.remove('added_to_cart');
+          wrapper.setAttribute('aria-disabled', false);
+        });
+      }
     });
   }
 }

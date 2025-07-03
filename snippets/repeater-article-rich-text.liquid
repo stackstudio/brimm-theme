@@ -1,0 +1,23 @@
+{%- if item.richtext != blank -%}
+  <section class="article-template--repeater-block page-width page-width--narrow section-{{ section.id }}">
+    <div class="body-medium rte scroll-trigger animate--slide-in">
+      {{ item.richtext | metafield_tag }}
+    </div>
+  </section>
+{%- endif -%}
+
+<style>
+  .metafield-rich_text_field ul,
+  .metafield-rich_text_field ol {
+    margin: 0;
+    padding-left: 2rem;
+  }
+  .metafield-rich_text_field ul li {
+    list-style: disc;
+    margin-bottom: 1rem;
+  }
+  .metafield-rich_text_field ol li {
+    list-style: decimal;
+    margin-bottom: 1rem;
+  }
+</style>

@@ -194,6 +194,7 @@ product-info {
 
 .product-form__submit {
   margin-bottom: 1rem;
+  background: black;
 }
 
 .product-form__submit[aria-disabled='true']
@@ -271,10 +272,6 @@ a.product__text {
 
 .product__text.caption-with-letter-spacing + .product__title {
   margin-top: 0;
-}
-
-.product__accordion .accordion__content {
-  padding: 0 1rem;
 }
 
 .product .price .badge {
@@ -370,8 +367,8 @@ a.product__text {
   margin-bottom: 1.2rem;
 }
 
-.product-form__buttons {
-  max-width: 44rem;
+.shopify-payment-button {
+  width: 100%;
 }
 
 .product--no-media .product__info-container > modal-opener {
@@ -618,6 +615,7 @@ a.product__text {
     outline-offset: 2px;
   }
 }
+
 .product__media-toggle.focused {
   outline: 0;
   box-shadow: none;
@@ -1148,6 +1146,7 @@ a.product__text {
     outline: transparent solid 1px;
   }
 }
+
 .thumbnail[aria-current]:focus:not(:focus-visible) {
   outline: 0;
   box-shadow: 0 0 0 0.1rem rgb(var(--color-foreground));
@@ -1504,6 +1503,7 @@ a.product__text {
   display: block;
   animation: animateMenuOpen var(--duration-default) ease;
 }
+
 .recipient-form
   > input[type='checkbox']:not(:checked, :disabled)
   ~ .recipient-fields,

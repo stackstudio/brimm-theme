@@ -1,18 +1,48 @@
+.multicolumn {
+  padding: 3rem 0rem;
+}
+
 .multicolumn .title {
   margin: 0;
+}
+
+.multicolumn .brimm-blocks--justified-header {
+    width: 100%;
+    margin-bottom: 4rem;
 }
 
 .multicolumn.no-heading .title {
   display: none;
 }
 
+.multicolumn .grid--no-gutter .multicolumn-card__info {
+    margin: 0 clamp(8px, 1.2rem, 16px);
+}
+
+.multicolumn p {
+  color: black;
+}
+
 .multicolumn .title-wrapper-with-link {
   margin-top: 0;
+}
+
+.multicolumn__grid-wrapper {
+  padding: 7.5rem 5rem;
 }
 
 @media screen and (max-width: 749px) {
   .multicolumn .title-wrapper-with-link {
     margin-bottom: 3rem;
+  }
+
+  .multicolumn .title-wrapper-with-link .text_block {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .multicolumn__grid-wrapper {
+    padding: 1.5rem 1rem;
   }
 }
 
@@ -28,6 +58,15 @@
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+.multicolumn-card__image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.multicolumn-card__image-wrapper.image-is--icon {
+  width: 15%;
 }
 
 .multicolumn-card__image-wrapper--third-width {
@@ -65,6 +104,21 @@
   max-width: 72rem;
 }
 
+ul li.multicolumn-list__item.has-bg--color:last-child {
+  background: #e6e6d1;
+  padding: 2rem 2rem 6rem;
+
+  @media screen and (max-width: 750px) {
+    display: block;
+    width: 100%;
+    grid-column: 1 / -1;
+    /* Ensures it spans the entire width of the grid */
+    margin-top: 20px;
+    /* Adds spacing from the grid above */
+    max-width: 100%;
+  }
+}
+
 .multicolumn-list__item--empty {
   display: none;
 }
@@ -86,24 +140,16 @@
   line-height: calc(1 + 0.5 / max(1, var(--font-heading-scale)));
 }
 
-.multicolumn-list h3,
-.multicolumn-list p {
+.multicolumn-list h3 {
   margin: 0;
 }
 
 .multicolumn-card-spacing {
   padding-top: 2.5rem;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
 }
 
 .multicolumn-card__info > :nth-child(2) {
   margin-top: 1rem;
-}
-
-.multicolumn-list__item.center .media--adapt,
-.multicolumn-list__item .media--adapt .multicolumn-card__image {
-  width: auto;
 }
 
 .multicolumn-list__item.center .media--adapt img {
@@ -118,8 +164,8 @@
   }
 
   .multicolumn-list:not(.slider) {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -135,9 +181,10 @@
     padding: 0;
   }
 
-  .multicolumn-list__item,
   .grid--4-col-desktop .multicolumn-list__item {
-    padding-bottom: 0;
+    padding-bottom: 9.4rem;
+    width: calc(25% - var(--grid-desktop-horizontal-spacing));
+    max-width: calc(25% - var(--grid-desktop-horizontal-spacing));
   }
 
   .background-none .grid--2-col-tablet .multicolumn-list__item {
@@ -148,6 +195,10 @@
 .background-none .multicolumn-card-spacing {
   padding: 0;
   margin: 0;
+}
+
+.multicolumn-list__item.no--padding {
+  padding: 0;
 }
 
 .multicolumn-card__info {
@@ -198,18 +249,13 @@
 }
 
 @media screen and (min-width: 750px) {
-  .background-none .multicolumn-card__image-wrapper {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-
   .background-none .multicolumn-list .multicolumn-card__info,
   .background-none
     .multicolumn-list:not(.slider)
     .center
     .multicolumn-card__info {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -237,6 +283,8 @@
   text-decoration: none;
   font-size: inherit;
   margin-top: 1.5rem;
+  font-family: 'Manrope';
+  letter-spacing: 0;
 }
 
 .multicolumn-card__info .icon-wrap {
@@ -249,3 +297,46 @@
     display: list-item;
   }
 }
+
+.image-label--pill {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  height: 24px;
+  padding: 0px 12px 2px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100px;
+  background: var(--Opacity-White-50, rgba(255, 255, 255, 0.5));
+  /* Blur/200 */
+  backdrop-filter: blur(100px);
+
+  color: #000000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 14.4px */
+  letter-spacing: -0.24px;
+}
+
+.multicolumn-list__item form-widget[mode='popup'] {
+  position: absolute;
+  z-index: 999999999;
+  display: flex;
+  margin: 0 1.5rem;
+  bottom: 2rem;
+
+  @media screen and (max-width: 750px) {
+    margin: 0rem;
+  }
+}
+
+/* .grid--4-col-desktop .multicolumn-list__item {
+  width: 25%;
+  max-width: 25%;
+} */

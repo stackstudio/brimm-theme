@@ -1,0 +1,51 @@
+{% style %}
+  .justified-header-container {
+    padding: var(--space-xl) var(--space-l);
+  }
+  #{{ section.id }} h2,
+  #{{ section.id }} h1 {
+    margin: 0;
+    text-align: center;
+  }
+{% endstyle %}
+
+<section class="justified-header-container color-{{ section.settings.color_scheme }}" id={{ section.id }}>
+  <div class="brimm-blocks--justified-header page-width">
+    {% for block in section.blocks %}
+        {% case block.type %}
+        {% when 'justified_header' %}
+            {% render block %}
+        {% else %}
+            <div class="container-block {{ block.type }}">
+            {% render block %}
+            </div>
+        {% endcase %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Justified Header Content",
+  "settings": [ {
+      "type": "color_scheme",
+      "label": "Color Scheme",
+      "id": "color_scheme"
+  }],
+  "blocks": [
+    {
+      "type": "@theme"
+    },
+  ],
+  "presets": [
+    {
+      "name": "Justified Header + Content",
+      "blocks": [
+        {
+          "type": "justified_header"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

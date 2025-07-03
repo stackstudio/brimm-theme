@@ -1,7 +1,3 @@
-.footer {
-  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
-}
-
 .footer:not(.color-scheme-1) {
   border-top: none;
 }
@@ -9,6 +5,26 @@
 .footer__content-top {
   padding-bottom: 5rem;
   display: block;
+}
+
+.brimm-blocks--newsletter .field__input {
+    color: inherit;
+    border: 1px solid currentColor;
+    margin-bottom: 2rem;
+}
+
+.brimm-blocks--newsletter .newsletter-form__button {
+    background: #6E1C20;
+    color: #E3B2FF;
+    margin-bottom: 2rem;
+}
+
+.brimm-blocks--newsletter .newsletter-form__button:hover {
+    background: black;
+}
+
+.brimm-blocks--newsletter .newsletter-form {
+    margin: 0;
 }
 
 @media screen and (max-width: 749px) {
@@ -52,6 +68,9 @@
 .footer__content-bottom-wrapper {
   display: flex;
   width: 100%;
+  @media(max-width: 749px) {
+      display: block;
+  }
 }
 
 @media screen and (max-width: 749px) {
@@ -67,6 +86,7 @@
     flex-wrap: wrap;
     row-gap: 1.5rem;
     justify-content: start;
+    display: block;
   }
 
   .footer__content-bottom.scroll-trigger.animate--slide-in {
@@ -234,7 +254,6 @@
     gap: 3rem;
   }
 
-  .footer__list-social.list-social,
   .footer__follow-on-shop,
   .footer-block__newsletter {
     display: flex;
@@ -288,19 +307,26 @@
 }
 
 .footer__content-bottom-wrapper--center {
-  justify-content: start;
-  margin: 4rem auto 6rem;
+  justify-content: center;
+  margin: 0 auto 0;
 }
 
 .footer__copyright {
   text-align: center;
-  margin-top: 1.5rem;
+  margin: 2rem 0 0;
 }
 
 @media screen and (min-width: 750px) {
   .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center)
     .footer__copyright {
     text-align: right;
+  }
+
+  .footer__copyright {
+    text-align: center;
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -313,6 +339,10 @@
     opacity: 1;
     margin-top: 0;
   }
+}
+
+.footer__list-social {
+  padding: 0 0 2rem;
 }
 
 .footer-block__details-content {
@@ -458,13 +488,18 @@
   text-decoration: none;
 }
 
+.copyright__text,
 .copyright__text a {
-  color: rgba(var(--color-grey-light), 1);
+    color: inherit;
   text-decoration: none;
 }
 
 .policies {
-  display: inline;
+  display: flex;
+  align-items: center;
+  @media(max-width: 749px) {
+      display: block;
+  }
 }
 
 .policies li {
@@ -474,13 +509,89 @@
 }
 
 .policies li::before {
-  content: '\00B7';
+  content: '';
   padding: 0 0.8rem;
 }
 
 .policies li a {
   padding: 0.6rem 0;
   display: block;
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Manrope';
+}
+
+.brimm-blocks--custom-footer {
+    padding-top: clamp(44px, 8rem, 120px);
+    font-family: var(--font-heading-family);
+}
+
+.brimm-blocks--footer-main,
+.brimm-blocks--footer-secondary {
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+    gap: 40px;
+    @media screen and (max-width: 749px) {
+        display: block;
+        margin-bottom: 3rem;
+    }
+}
+
+.brimm-blocks--footer-secondary{
+    padding-top: clamp(44px, 8rem, 120px);
+    padding-bottom: clamp(44px, 8rem, 120px);
+    @media screen and (max-width: 749px) {
+        padding-top: 1rem;
+    }
+}
+.brimm-blocks--footer-logo {
+    margin-bottom: 2rem;
+}
+.brimm-blocks--footer-logo img {
+    max-width: clamp(120px, 12vw, 200px);
+}
+
+.brimm-blocks--large-para {
+    font-size: clamp(16px, 1.7vw, 23px);
+    font-weight: 577;
+    margin: 0;
+}
+
+.brimm-blocks--footer-heading h2 {
+    margin: 0;
+    margin-bottom: .4em;
+}
+
+.brimm-blocks--footer-links a {
+    font-size: clamp(18px, 1.7vw, 20px);
+    display: block;
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.brimm-blocks--footer-links {
+    display: grid;
+    gap: 44px;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media screen and (max-width: 749px) {
+        margin-top: 4rem;
+        gap: 12px;
+    }
+    @media screen and (max-width: 449px) {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.footer__copyright {
+   display: grid;
+    grid-template-columns: auto 1fr;
+    @media(max-width: 749px) {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 750px) {

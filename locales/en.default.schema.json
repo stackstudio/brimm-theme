@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "settings_schema": {
     "global": {
@@ -520,6 +529,28 @@
       },
       "presets": {
         "name": "Apps"
+      }
+    },
+    "newsletter": {
+      "name": "Newsletter",
+      "settings": {
+        "heading": {
+          "default": "Subscribe to our emails",
+          "label": "Heading"
+        },
+        "description": {
+          "label": "Description"
+        },
+        "show_description": {
+          "label": "Show description"
+        },
+        "show_social": {
+          "label": "Show social media icons",
+          "info": "To display your social media accounts, link them in your [theme settings](/editor?context=theme&category=social%20media)."
+        }
+      },
+      "presets": {
+        "name": "Newsletter"
       }
     },
     "collage": {
@@ -1344,11 +1375,157 @@
         "name": "Image banner"
       }
     },
+    "member-packages": {
+      "name": "Member packages",
+      "settings": {
+        "image": {
+          "label": "Image"
+        },
+        "height": {
+          "options__1": {
+            "label": "Adapt to image"
+          },
+          "options__2": {
+            "label": "Small"
+          },
+          "options__3": {
+            "label": "Medium"
+          },
+          "options__4": {
+            "label": "Large"
+          },
+          "label": "Image height"
+        },
+        "desktop_image_width": {
+          "options__1": {
+            "label": "Small"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Large"
+          },
+          "label": "Desktop image width",
+          "info": "Image is automatically optimized for mobile."
+        },
+        "layout": {
+          "options__1": {
+            "label": "Image first"
+          },
+          "options__2": {
+            "label": "Image second"
+          },
+          "label": "Desktop image placement",
+          "info": "Image first is the default mobile layout."
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Desktop content alignment"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Middle"
+          },
+          "options__3": {
+            "label": "Bottom"
+          },
+          "label": "Desktop content position"
+        },
+        "content_layout": {
+          "options__1": {
+            "label": "No overlap"
+          },
+          "options__2": {
+            "label": "Overlap"
+          },
+          "label": "Content layout"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Mobile content alignment"
+        }
+      },
+      "blocks": {
+        "package": {
+          "name": "Package",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Add a tagline"
+            },
+            "text_style": {
+              "label": "Text style",
+              "options__1": {
+                "label": "Subtitle"
+              },
+              "options__2": {
+                "label": "Uppercase"
+              }
+            },
+            "caption_size": {
+              "label": "Text size",
+              "options__1": {
+                "label": "Small"
+              },
+              "options__2": {
+                "label": "Medium"
+              },
+              "options__3": {
+                "label": "Large"
+              }
+            }
+          }
+        },
+        "button": {
+          "name": "Button",
+          "settings": {
+            "button_label": {
+              "label": "Button label",
+              "info": "Leave the label blank to hide the button.",
+              "default": "Button label"
+            },
+            "button_link": {
+              "label": "Button link"
+            },
+            "outline_button": {
+              "label": "Use outline button style"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Image with text"
+      }
+    },
     "image-with-text": {
       "name": "Image with text",
       "settings": {
         "image": {
           "label": "Image"
+        },
+        "video_embed": {
+          "label": "Video embed",
+          "info": "Add the Wistia player snippet here. [Learn more](https://support.wistia.com/en/articles/8233354-embedding-your-media)"
         },
         "height": {
           "options__1": {
@@ -1511,6 +1688,187 @@
       },
       "presets": {
         "name": "Image with text"
+      }
+    },
+    "slider-with-text": {
+      "name": "Slider with text",
+      "settings": {
+        "height": {
+          "options__1": {
+            "label": "Adapt to image"
+          },
+          "options__2": {
+            "label": "Small"
+          },
+          "options__3": {
+            "label": "Medium"
+          },
+          "options__4": {
+            "label": "Large"
+          },
+          "label": "Image height"
+        },
+        "desktop_image_width": {
+          "options__1": {
+            "label": "Small"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Large"
+          },
+          "label": "Desktop image width",
+          "info": "Image is automatically optimized for mobile."
+        },
+        "layout": {
+          "options__1": {
+            "label": "Image first"
+          },
+          "options__2": {
+            "label": "Image second"
+          },
+          "label": "Desktop image placement",
+          "info": "Image first is the default mobile layout."
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Desktop content alignment"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Middle"
+          },
+          "options__3": {
+            "label": "Bottom"
+          },
+          "label": "Desktop content position"
+        },
+        "content_layout": {
+          "options__1": {
+            "label": "No overlap"
+          },
+          "options__2": {
+            "label": "Overlap"
+          },
+          "label": "Content layout"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Mobile content alignment"
+        }
+      },
+      "blocks": {
+        "slide": {
+          "name": "Slide",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "heading": {
+              "label": "Heading",
+              "default": "Image slide"
+            },
+            "subheading": {
+              "label": "Subheading",
+              "default": "Tell your brand's story through images"
+            },
+            "button_label": {
+              "label": "Button label",
+              "info": "Leave the label blank to hide the button.",
+              "default": "Button label"
+            },
+            "link": {
+              "label": "Button link"
+            },
+            "secondary_style": {
+              "label": "Use outline button style"
+            },
+            "box_align": {
+              "label": "Desktop content position",
+              "info": "Position is automatically optimized for mobile.",
+              "options__1": {
+                "label": "Top left"
+              },
+              "options__2": {
+                "label": "Top center"
+              },
+              "options__3": {
+                "label": "Top right"
+              },
+              "options__4": {
+                "label": "Middle left"
+              },
+              "options__5": {
+                "label": "Middle center"
+              },
+              "options__6": {
+                "label": "Middle right"
+              },
+              "options__7": {
+                "label": "Bottom left"
+              },
+              "options__8": {
+                "label": "Bottom center"
+              },
+              "options__9": {
+                "label": "Bottom right"
+              }
+            },
+            "show_text_box": {
+              "label": "Show container on desktop"
+            },
+            "text_alignment": {
+              "label": "Desktop content alignment",
+              "option_1": {
+                "label": "Left"
+              },
+              "option_2": {
+                "label": "Center"
+              },
+              "option_3": {
+                "label": "Right"
+              }
+            },
+            "image_overlay_opacity": {
+              "label": "Image overlay opacity"
+            },
+            "text_alignment_mobile": {
+              "label": "Mobile content alignment",
+              "options__1": {
+                "label": "Left"
+              },
+              "options__2": {
+                "label": "Center"
+              },
+              "options__3": {
+                "label": "Right"
+              }
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Slider with text"
       }
     },
     "multirow": {
@@ -2527,6 +2885,10 @@
           "label": "Heading",
           "default": "Multicolumn"
         },
+        "text_block": {
+          "label": "Text",
+          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris."
+        },
         "image_width": {
           "label": "Image width",
           "options__1": {
@@ -2616,6 +2978,9 @@
             "link_label": {
               "label": "Link label"
             },
+            "image_label": {
+              "label": "Image label"
+            },
             "link": {
               "label": "Link"
             }
@@ -2624,43 +2989,6 @@
       },
       "presets": {
         "name": "Multicolumn"
-      }
-    },
-    "newsletter": {
-      "name": "Email signup",
-      "settings": {
-        "full_width": {
-          "label": "Make section full width"
-        },
-        "paragraph": {
-          "content": "Each email subscription creates a customer account. [Learn more](https://help.shopify.com/manual/customers)"
-        }
-      },
-      "blocks": {
-        "heading": {
-          "name": "Heading",
-          "settings": {
-            "heading": {
-              "label": "Heading",
-              "default": "Subscribe to our emails"
-            }
-          }
-        },
-        "paragraph": {
-          "name": "Subheading",
-          "settings": {
-            "paragraph": {
-              "label": "Description",
-              "default": "<p>Be the first to know about new collections and exclusive offers.</p>"
-            }
-          }
-        },
-        "email_form": {
-          "name": "Email form"
-        }
-      },
-      "presets": {
-        "name": "Email signup"
       }
     },
     "email-signup-banner": {
@@ -2677,6 +3005,9 @@
         },
         "show_background_image": {
           "label": "Show background image"
+        },
+        "sticky_on_mobile": {
+          "label": "Sticky on mobile"
         },
         "show_text_box": {
           "label": "Show container on desktop"

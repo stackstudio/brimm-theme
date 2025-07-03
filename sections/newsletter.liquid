@@ -110,7 +110,7 @@
                   <span class="svg-wrapper">
                     {{- 'icon-success.svg' | inline_asset_content -}}
                   </span>
-                  {{- 'newsletter.success' | t }}
+                  {{- 'newsletter.success_message' | t }}
                 </h3>
               {%- endif -%}
             {% endform %}
@@ -130,6 +130,10 @@
   },
   "settings": [
     {
+      "type": "paragraph",
+      "content": "t:sections.newsletter.settings.paragraph.content"
+    },
+    {
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
@@ -140,10 +144,6 @@
       "id": "full_width",
       "default": true,
       "label": "t:sections.newsletter.settings.full_width.label"
-    },
-    {
-      "type": "paragraph",
-      "content": "t:sections.newsletter.settings.paragraph.content"
     },
     {
       "type": "header",
