@@ -426,6 +426,7 @@
         "heading_JacBmp",
         "text_gBag8n"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
