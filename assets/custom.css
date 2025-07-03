@@ -235,8 +235,12 @@ body.sticky-header {
   height: 100%;
 }
 
+.brimm-blocks--stacked-hero .brimm-blocks--callout-column {
+    padding-left: var(--space-l);
+}
+
 .brimm-blocks--callout-column {
-  padding: var(--space-l);
+  padding: var(--space-l) var(--space-l) var(--space-l) 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -245,6 +249,10 @@ body.sticky-header {
           margin-bottom: 0;
       }
   }
+}
+
+.inverted .brimm-blocks--callout-column {
+    padding-left: var(--space-l);
 }
 
 .brimm-blocks--callout-column.no-justify {
@@ -282,7 +290,7 @@ body.sticky-header {
 
 /* NEW MULTICOL */
 .brimm-blocks--simple-multicolumn {
-  padding: var(--space-3xl) var(--space-xl);
+  padding: var(--space-3xl) var(--space-l);
   .brimm-blocks--callout-column.no-pad {
     padding-right: var(--space-xl);
     max-width: 25%;
@@ -299,9 +307,7 @@ body.sticky-header {
 }
 
 .brimm-blocks--simple-multicolumn.no-bottom {
-    @media(max-width: 749px) {
-        padding-bottom: 0;
-    }
+    padding-bottom: 0;
 }
 
 #shopify-section-template--25566311219542__multicolumn_simple_cCpCQn .brimm-blocks--simple-multicolumn {
@@ -326,6 +332,9 @@ body.sticky-header {
       font-size: var(--step-2);
       max-width: 350px;
       line-height: 115%;
+      @media (max-width: 750px) {
+          max-width: 100%;
+      }
     }
   }
 
@@ -402,10 +411,14 @@ body.sticky-header {
   padding-top: var(--space-xl);
 }
 
+.brimm-blocks--flush-columns.no-top {
+    padding-top: 0;
+}
+
 .brimm-blocks--flush-columns-grid {
   width: 100%;
   display: flex;
-
+  padding-bottom: var(--space-xl);
   @media (max-width: 1080px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -440,7 +453,7 @@ body.sticky-header {
   flex-basis: 0;
 
   .rte {
-    padding: var(--space-m);
+    padding: var(--space-l);
     font-family: 'Manrope';
     font-weight: bold;
   }
@@ -533,14 +546,15 @@ body.sticky-header {
     margin: 0;
   }
   .brimm-blocks--logo-item {
-    max-width: 180px;
-    /* min-width: 90px; */
     display: flex;
     align-items: center;
     flex-grow: 1;
     img {
       width: 100%;
-      max-height: 58px;
+      max-height: 48px;
+      @media(max-width: 750px) {
+          max-height: 28px;
+      }
     }
   }
 }

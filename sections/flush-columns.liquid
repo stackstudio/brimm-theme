@@ -1,6 +1,6 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 
-<div class='brimm-blocks--flush-columns color-{{ section.settings.color_scheme }} {% if section.settings.title == blank %} no-heading{% endif %}'>
+<div class='brimm-blocks--flush-columns color-{{ section.settings.color_scheme }} {% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.no_top %} no-top{% endif %}'>
   <div class='section-{{ section.id }}-padding isolate'
     <div class='flush-columns-wrapper'>
         {%- unless section.settings.title == blank -%}
@@ -18,7 +18,7 @@
                     <div class="brimm-blocks--flush-column-item {% if block.settings.desaturate %} desaturate{% endif %}" >
                 {%- endif -%}
                     <div class='multicolumn-card__info'>
-                        <img class="inline-bg" src="{{ block.settings.image | image_url }}" width="{{ block.settings.image.width }}" height="{{ block.settings.image.height }}" />
+                        <img class="inline-bg" src="{{ block.settings.image | image_url }}" width="auto" height="auto" />
                         {%- if block.settings.title != blank -%}
                         <h3 class='inline-richtext body-extra'>{{ block.settings.title }}</h3>
                         {%- endif -%}
@@ -86,6 +86,12 @@
         "type": "url",
         "id": "button_link",
         "label": "t:sections.multicolumn.settings.button_link.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "no_top",
+        "default": false,
+        "label": "No top padding (white-after-white)"
       },
       {
         "type": "color_scheme",

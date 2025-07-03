@@ -17,6 +17,8 @@
   }
 </style>
 
+{% assign has_reset_box_item = false %}
+
 <cart-drawer class="drawer{% if cart == empty %} is-empty{% endif %}">
   <div id="CartDrawer" class="cart-drawer">
     <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
@@ -113,6 +115,9 @@
 
                   <tbody role="rowgroup">
                     {%- for item in cart.items -%}
+                      {% if item.title contains 'Reset Box' %}
+                        {% assign has_reset_box_item = true %}
+                      {% endif %}
                       <tr
                         id="CartDrawer-Item-{{ item.index | plus: 1 }}"
                         class="cart-item"
@@ -498,6 +503,10 @@
               </ul>
             {%- endif -%}
           </div>
+
+          {%- if has_reset_box_item -%}
+            <h3 class="totals__total">Pre-order now for dispatch from 11th July</h3>
+          {%- endif -%}
 
           <div class="totals" role="status">
             <h2 class="totals__total">{{ 'sections.cart.estimated_total' | t }}</h2>

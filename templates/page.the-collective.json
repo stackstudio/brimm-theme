@@ -176,7 +176,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Read more",
-            "link": "shopify://pages/a-recipe",
+            "link": "shopify://blogs/journal/brimm-s-first-planet-fund-project-solar-power-for-our-brands",
             "style": "primary"
           }
         }
@@ -217,7 +217,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Read more",
-            "link": "shopify://pages/a-recipe",
+            "link": "shopify://blogs/journal/making-mother-nature-a-shareholder",
             "style": "primary"
           }
         }
@@ -266,7 +266,7 @@
         "invert": true,
         "wider": false,
         "padded": false,
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/e4923fyanp?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-3"
       }
     },
