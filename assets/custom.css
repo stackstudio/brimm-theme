@@ -517,6 +517,9 @@ body.sticky-header {
   max-width: 100%;
   overflow-x: hidden;
   gap: var(--logo-gap);
+  @media(max-width: 750px) {
+      display: none;
+  }
 }
 
 .brimm-blocks--logo-scroller .logos {
