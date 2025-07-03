@@ -280,6 +280,7 @@
         "column_HWwYWB",
         "column_NEWykc"
       ],
+      "disabled": true,
       "name": "Logo Scroller",
       "settings": {
         "color_scheme": "scheme-1"
