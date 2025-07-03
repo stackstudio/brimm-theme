@@ -4,7 +4,13 @@
         <h3>Some of our impact-led brands:</h3>
         {%- for block in section.blocks -%}
             <div class="brimm-blocks--logo-item">
-                <img src="{{ block.settings.image | image_url }}" />
+              {% if block.settings.image %}
+                <img
+                  src="{{ block.settings.image | image_url }}"
+                    width="{{ block.settings.image.width }}"
+                    height="{{ block.settings.image.height }}"
+                  />
+              {% endif %}
             </div>
         {%- endfor -%}
     </div>
@@ -12,7 +18,11 @@
         <h3>Some of our impact-led brands:</h3>
         {%- for block in section.blocks -%}
             <div class="brimm-blocks--logo-item">
-                <img src="{{ block.settings.image | image_url }}" />
+                <img
+                  src="{{ block.settings.image | image_url }}"
+                  width="{{ block.settings.image.width }}"
+                  height="{{ block.settings.image.height }}"
+                />
             </div>
         {%- endfor -%}
     </div>
