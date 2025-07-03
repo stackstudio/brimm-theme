@@ -49,38 +49,6 @@
         "padding_bottom": 28
       }
     },
-    "stacked_hero_wTNyC9": {
-      "type": "stacked-hero",
-      "blocks": {
-        "heading_b4qRLf": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "a people-powered model of change"
-          }
-        },
-        "text_hPGbXi": {
-          "type": "text",
-          "settings": {
-            "copy": "<p>At BRiMM, we believe it’s time for a fresh approach - one where every individual action truly makes a difference</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_b4qRLf",
-        "text_hPGbXi"
-      ],
-      "name": "Stacked Hero",
-      "settings": {
-        "two_image": false,
-        "full_screen": false,
-        "invert": true,
-        "wider": false,
-        "padded": false,
-        "video_embed": "",
-        "wide_image": "shopify://shop_images/Chris_Abatzis_Photos_12.jpg",
-        "color_scheme": ""
-      }
-    },
     "stacked_hero_aNeXaD": {
       "type": "stacked-hero",
       "blocks": {
@@ -105,11 +73,43 @@
       "settings": {
         "two_image": false,
         "full_screen": false,
-        "invert": false,
+        "invert": true,
         "wider": false,
         "padded": false,
         "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/e4923fyanp?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-3"
+      }
+    },
+    "stacked_hero_wTNyC9": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_b4qRLf": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "a people-powered model of change"
+          }
+        },
+        "text_hPGbXi": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>At BRiMM, we believe it’s time for a fresh approach - one where every individual action truly makes a difference</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_b4qRLf",
+        "text_hPGbXi"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": false,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Chris_Abatzis_Photos_12.jpg",
+        "color_scheme": ""
       }
     },
     "multicolumn_simple_eyxzAQ": {
@@ -418,8 +418,8 @@
   "order": [
     "stacked_hero_QMQVmL",
     "main",
-    "stacked_hero_wTNyC9",
     "stacked_hero_aNeXaD",
+    "stacked_hero_wTNyC9",
     "multicolumn_simple_eyxzAQ",
     "stacked_hero_Rp3YYK",
     "stacked_hero_FH4hxq",
