@@ -47,12 +47,23 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom_liquid_mmtfNX": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.brimm-blocks--newsletter {\ndisplay: none !important;\n}\n\n.brimm-blocks--footer-secondary {\ngrid-template-columns: 1fr !important;\n\n.brimm-blocks--footer-links {\njustify-items: center !important;\n}\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_inGB9j",
     "custom_liquid_nQN6Vm",
-    "custom_liquid_CJVA3A"
+    "custom_liquid_CJVA3A",
+    "custom_liquid_mmtfNX"
   ]
 }
