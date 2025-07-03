@@ -21,7 +21,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 77px;\n  background-color: #0166BA;\n  z-index: 9999;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  pointer-events: none;\n\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRIMM-LOGO_EB482A.gif?v=1737641763\"\n       alt=\"Brimm Logo\"\n       style=\"height: 100%; pointer-events: none;\">\n</div>\n\n<style>\n  body {\n    padding-top: 77px; /* İçerik logonun altında başlasın */\n  }\n</style>",
+        "custom_liquid": "<div style=\"\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 77px;\n  background-color: #0166BA;\n  z-index: 9999;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  pointer-events: none;\n\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0847/6891/5798/files/BRIMM-LOGO_EB482A.gif?v=1737641763\"\n       alt=\"Brimm Logo\"\n       style=\"height: 40px; pointer-events: none;\">\n</div>\n\n<style>\n  body {\n    padding-top: 77px; /* İçerik logonun altında başlasın */\n  }\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
