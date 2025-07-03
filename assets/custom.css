@@ -527,13 +527,11 @@ body.sticky-header {
   align-items: center;
   min-width: 100%;
   animation: scroll 24s linear infinite;
-
   h3 {
     width: fit-content;
     flex: 1 0 auto;
     margin: 0;
   }
-
   .brimm-blocks--logo-item {
     max-width: 180px;
     /* min-width: 90px; */
@@ -551,7 +549,6 @@ body.sticky-header {
   from {
     transform: translateX(0);
   }
-
   to {
     transform: translateX(calc(-100% - var(--logo-gap)));
   }
@@ -566,11 +563,9 @@ body.sticky-header {
 .blog-articles {
   background: #6e1c20;
   color: #e3b2ff;
-
   .full-unstyled-link {
     color: #e3b2ff;
   }
-
   .caption-with-letter-spacing {
     color: #e3b2ff;
   }
@@ -689,7 +684,6 @@ body.sticky-header {
   border-radius: 8px;
   background: #e3b2ff;
   color: #6e1c20;
-
   p {
     margin: 0;
     font-family: 'Manrope', sans-serif;
@@ -806,7 +800,6 @@ details .product__tax {
 /* COOKIE BANNER */
 section.shopify-pc__banner__dialog {
   background: #6e1c20;
-
   h2,
   p,
   a {
