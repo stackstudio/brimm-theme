@@ -76,7 +76,7 @@
         "invert": true,
         "wider": false,
         "padded": false,
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/e4923fyanp?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-2"
       }
     },
@@ -189,7 +189,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "James Haycock",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Exited founder, angel investor and the vision behind BRiMM. James has been at the forefront of the London design scene for over a decade. Bringing together bright minds and building outstanding teams to pursue ambitious visions</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -198,12 +198,12 @@
         "column_4jNtdY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/team-2.png",
+            "image": "shopify://shop_images/Christabel_BRIMM_359_db250c40-b965-4546-a0ef-4cf9cc8e7e20.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Christabel Biella",
+            "text": "<p>With 20+ years experience of ecommerce startups and scale ups, Christabel brings rigour and focus across commercial, finance, supply chain and operations. She’s the glue between much of what we do at BRiMM</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -212,12 +212,12 @@
         "column_JDJPFq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/team-3.png",
+            "image": "shopify://shop_images/Becky_BRIMM_779.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Becky Lucas",
+            "text": "<p>Vogue, Time Out, Condé Nast Traveller and Cosmopolitan. You name it, Becky’s worked with them. She knows what's going on, and how to write about it. Head honcho for our content, editorial and awesome newsletter (sign up if you haven't already, it’s ace)</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -260,12 +260,12 @@
         "column_9nBN7k": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/team-1.png",
+            "image": "shopify://shop_images/Sam_BRIMM_762_6972d644-5c54-4647-a510-244664e122aa.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Sam Zimmerman",
+            "text": "<p>Beauty and brand consultant working with the likes of Tatler, Stylist and Grazia. Sam brings oodles of experience, carefully curating our beauty products. You can often see her in the Director chair when we shoot photos and videos, too.</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -274,11 +274,11 @@
         "column_KDTLVm": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/team-2.png",
+            "image": "shopify://shop_images/Helen_BRIMM_725.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
+            "title": "Helen Kirkhum",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "image_label": "",
             "link_label": "",
@@ -288,12 +288,12 @@
         "column_hxq7pn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/team-3.png",
+            "image": "shopify://shop_images/Tiff_BRIMM_075_d0ef9b60-ea10-4c55-b884-ab1db1fbd2c7.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Tiffanie Darke",
+            "text": "<p>Tiffanie Darke is a British writer and fashion journalist, renowned for her advocacy in sustainable fashion. Heard of the rule of 5 in fashion? Yeah, that's her. She’s served as the fashion editor for The Telegraph, The Times and Harrods</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -304,6 +304,82 @@
         "column_9nBN7k",
         "column_KDTLVm",
         "column_hxq7pn"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
+        "justify": true,
+        "bordered": false,
+        "text_block": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_simple_DJdQWA": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_LzQeYe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tom_BRIMM_648.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Tom Berry",
+            "text": "<p>With over 20 years in sustainability, strategy, and innovation, Tom has led sustainability programs at Innocent Drinks and FARFETCH. He also sits on the steering committee for circular fashion innovation at the British Fashion Council</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wtzDfK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/matt_h.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Matt Hardisty",
+            "text": "<p>Former Head of Strategy at top London advertising agencies including Mother and AMVBBDO, Matt now advises planet-positive brands through PeaceCabin</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zQzDVg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ahmet.webp",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Ahmet Ugur Yilmaz",
+            "text": "<p>With 12+ years bridging creativity and performance, Ahmet knows how to make digital sing. Formerly at Meta, he helped shape the ad solutions now powering campaigns for brands across the globe. He’s led global fashion launches, grown e-comm engines and explored the future with generative AI—his work has even popped up in<em>Vogue Business </em>and <em>Entrepreneur</em></p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LzQeYe",
+        "column_wtzDfK",
+        "column_zQzDVg"
       ],
       "name": "Simple Multicolumn",
       "settings": {
@@ -350,6 +426,7 @@
         "heading_JacBmp",
         "text_gBag8n"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
@@ -357,7 +434,7 @@
         "invert": true,
         "wider": false,
         "padded": false,
-        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/dywm4m3bdj?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
+        "video_embed": "<div><iframe src=\"https://fast.wistia.net/embed/iframe/cqlud1yayy?web_component=true&seo=true\" title=\"video-one\" allow=\"autoplay; fullscreen\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" name=\"wistia_embed\"></iframe></div>",
         "color_scheme": "scheme-3"
       }
     },
@@ -645,6 +722,7 @@
     "flush_columns_HGr9JL",
     "multicolumn_simple_nDGEEE",
     "multicolumn_simple_FQJqhe",
+    "multicolumn_simple_DJdQWA",
     "stacked_hero_YrKfLD",
     "stacked_hero_VbbaBH",
     "image_with_text_4HfRc9",

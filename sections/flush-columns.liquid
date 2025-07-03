@@ -18,7 +18,7 @@
                     <div class="brimm-blocks--flush-column-item {% if block.settings.desaturate %} desaturate{% endif %}" >
                 {%- endif -%}
                     <div class='multicolumn-card__info'>
-                        <img class="inline-bg" src="{{ block.settings.image | image_url }}" width="{{ block.settings.image.width }}" height="{{ block.settings.image.height }}" />
+                        <img class="inline-bg" src="{{ block.settings.image | image_url }}" width="auto" height="auto" />
                         {%- if block.settings.title != blank -%}
                         <h3 class='inline-richtext body-extra'>{{ block.settings.title }}</h3>
                         {%- endif -%}
