@@ -217,11 +217,12 @@
         "text_i6eVxQ": {
           "type": "text",
           "settings": {
-            "copy": "<p>Join sustainable fashion pioneer, Orsola de Castro for a stitch n bitch - a hands on experience learning how to mend your clothes while hearing about the state of the fashion industry</p>"
+            "copy": "<p>Coming soon - join sustainable fashion pioneer, Orsola de Castro for a stitch n bitch - a hands on experience learning how to mend your clothes while hearing about the state of the fashion industry</p>"
           }
         },
         "cta_button_9xewyA": {
           "type": "cta_button",
+          "disabled": true,
           "settings": {
             "label": "Learn more",
             "link": "shopify://blogs/events/stitch-bitch-sip-a-hands-on-workshop-with-orsola-de-castro-at-her-peckham-cafe",
