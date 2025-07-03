@@ -571,6 +571,8 @@ body.sticky-header {
   }
 }
 
+
+
 /* NEW TEXT BANNER */
 .brimm-blocks--text-banner {
     padding: var(--space-l) var(--space-xl);
@@ -619,11 +621,15 @@ body.sticky-header {
     display: flex;
     justify-content: space-between;
     padding: var(--space-xl) 0;
+    @media(max-width: 550px) {
+        display: block;
+    }
 }
 
 .accreditations-header h1 {
     margin: 0;
     padding: 0;
+    font-size: var(--step-4);
     @media(max-width: 550px) {
         font-size: var(--step-5);
     }
@@ -632,12 +638,13 @@ body.sticky-header {
 .accreditations-header .button {
     flex-grow: 0;
     flex-shrink: 1;
+    font-size: var(--step-2);
+    padding: var(--space-s) var(--space-m);
     @media(max-width: 550px) {
-        padding: 0;
+        padding: var(--space-s) 0;
         background: transparent;
         color: black;
         text-decoration: underline;
-        font-size: var(--step-1);
     }
 }
 
