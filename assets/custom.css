@@ -750,6 +750,10 @@ body.sticky-header {
   font-weight: 555;
 }
 
+.membership-choice .accordian {
+  margin-bottom: 2rem;
+}
+
 .membership-choice details {
   padding-top: 2rem;
 }

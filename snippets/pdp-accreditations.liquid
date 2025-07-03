@@ -53,9 +53,7 @@
     aspect-ratio: auto;
     display: block;
   }
-  .vendor-logos img:first-child {
-    margin-left: -2rem;
-  }
+
   .pdp-accreditations-accordion {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -82,24 +80,3 @@
     transform: rotate(45deg);
   }
 {% endstyle %}
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.accordion-toggle').forEach(function(btn) {
-      btn.addEventListener('click', function(event) {
-        event.preventDefault();
-        console.log('Accordion button clicked:', event.target.parentElement);
-        var panel = event.target.parentElement.nextElementSibling;
-        console.log('Accordion panel:', panel);
-        var isExpanded = panel.classList.contains('hidden');
-        console.log('Is panel expanded:', !isExpanded);
-        event.target.parentElement.setAttribute('aria-expanded', !isExpanded);
-        if (isExpanded) {
-          panel.classList.add('hidden');
-        } else {
-          panel.classList.remove('hidden');
-        }
-      });
-    });
-  });
-</script>
