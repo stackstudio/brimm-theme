@@ -239,6 +239,7 @@
         "columns_desktop": 4,
         "button_label": "Our Process",
         "button_link": "shopify://pages/curation-and-vetting",
+        "no_top": true,
         "color_scheme": ""
       }
     },
