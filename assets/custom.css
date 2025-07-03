@@ -400,6 +400,10 @@ body.sticky-header {
   padding-top: var(--space-xl);
 }
 
+.brimm-blocks--flush-columns.no-top {
+    padding-top: 0;
+}
+
 .brimm-blocks--flush-columns-grid {
   width: 100%;
   display: flex;
