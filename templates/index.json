@@ -169,6 +169,7 @@
     },
     "text_banner_PdFGD4": {
       "type": "text-banner",
+      "disabled": true,
       "name": "Text Banner",
       "settings": {
         "content": "<strong>This is just the beginning.</strong> We're more than reset boxes…",
