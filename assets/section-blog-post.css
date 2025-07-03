@@ -1,4 +1,6 @@
-
+.article-template {
+    padding-bottom: var(--space-2xl);
+}
 .article-template--repeater-block {
   padding: var(--size-xl) 0 0;
 }
@@ -31,6 +33,9 @@
     padding: var(--space-3xl);
     background: #6E1C20;
     color: #E3B2FF;
+    &.no-date h1 {
+        padding-top: var(--space-3xl)
+    }
     @media (max-width: 750px) {
         padding: var(--space-s);
     }
@@ -141,10 +146,13 @@
 .article-template__content {
   max-width: 100%;
   padding: 0;
-  color: var(--Primary-Mono-Black, #000);
-  font-size: var(--step-4);
-  font-weight: 100;
-  font-style: italic;
+  font-size: var(--step-2);
+  p:first-child {
+    font-size: var(--step-4);
+    font-style: italic;
+    font-weight: 100;
+    color: var(--Primary-Mono-Black, #000);
+  }
   @media(max-width: 750px) {
       padding: 0 2rem;
   }
