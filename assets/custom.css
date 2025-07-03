@@ -143,7 +143,7 @@ body.sticky-header {
 
 .wider-text .brimm-blocks--stacked-hero {
   grid-template-columns: 2fr 3fr;
-  max-height: 90vh;
+  max-height: calc(100vh - 77px);
 }
 
 .inverted.wider-text .brimm-blocks--stacked-hero {
@@ -151,7 +151,7 @@ body.sticky-header {
 }
 
 .wider-text .brimm-blocks--stacked-hero img {
-  max-height: 90vh;
+  max-height: calc(100vh - 77px);
 }
 
 .inverted .brimm-blocks--stacked-hero {
