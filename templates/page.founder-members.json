@@ -110,6 +110,7 @@
         "columns_desktop": 1,
         "button_label": "",
         "button_link": "#",
+        "no_top": false,
         "color_scheme": ""
       }
     },
@@ -407,6 +408,82 @@
         "column_DWhkxF",
         "column_cQRDEm",
         "column_7KkYa9"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Our Founder Members",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "no_top": false,
+        "no_bottom": true,
+        "justify": false,
+        "bordered": false,
+        "text_block": "We’ve already got a line-up of inspiring early members—designers, writers, and changemakers who are helping shape BRiMM from day one. Join them and kickstart a flywheel of change.",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_simple_TtCKVW": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_KMz8Vi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Orsola_2021_28_portrait_jpg.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Orsola de Castro",
+            "text": "<p>Sustainable fashion pioneer. Creative Director Estechica, founder Fashion Revolution and author</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pqdUnD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Amy-Powney-creative-director-AKYN-2025.webp",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Amy Powney",
+            "text": "<p>Founder of AKYN and former Creative Director of Mother of Pearl</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nGF9nz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/jocelyn.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Jocelyn Longdon",
+            "text": "<p>Author, academic and climate activist</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KMz8Vi",
+        "column_pqdUnD",
+        "column_nGF9nz"
       ],
       "name": "Simple Multicolumn",
       "settings": {
@@ -1179,6 +1256,7 @@
     "multicolumn_simple_PPEayE",
     "stacked_hero_RVaXxN",
     "multicolumn_simple_4pjjMQ",
+    "multicolumn_simple_TtCKVW",
     "multicolumn_simple_MzLNDF",
     "multicolumn_simple_AkiADg",
     "multicolumn_simple_BqQwfJ",
