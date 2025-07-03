@@ -26,6 +26,7 @@
         },
         "cta_button_BbiwnF": {
           "type": "cta_button",
+          "disabled": true,
           "settings": {
             "label": "Discover our Shop",
             "link": "shopify://collections/reset-boxes",
