@@ -174,11 +174,12 @@
         "text_pDVWWz": {
           "type": "text",
           "settings": {
-            "copy": "<p>Join us for a day out on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather</p>"
+            "copy": "<p>Join us for a day out on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather.</p><p>Details coming soon</p>"
           }
         },
         "cta_button_wNLCc6": {
           "type": "cta_button",
+          "disabled": true,
           "settings": {
             "label": "Learn more",
             "link": "shopify://blogs/events/join-us-for-a-field-trip-to-a-regenerative-farm",
