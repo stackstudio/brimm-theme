@@ -459,6 +459,13 @@
             }
 
             if(optionMap.length == 0){
+                $(".variations:first .product-form__input input:checked").each(function(key) {
+                        optionMap[key] = $(this).val();
+        
+                });
+            }
+
+            if(optionMap.length == 0){
                 $(".product-form__input input[type='radio']:checked").each(function(key) {
                        optionMap[key] = $(this).val();
 
@@ -554,7 +561,14 @@
                           optionMap[key] = $(this).val();
         
                 });
-             }
+            }
+
+            if(optionMap.length == 0){
+                $(".variations:first .product-form__input input:checked").each(function(key) {
+                        optionMap[key] = $(this).val();
+        
+                });
+            }
 
             if(optionMap.length == 0){
                 $(".variant-picker__swatches input:checked").each(function(key) {
@@ -1062,7 +1076,7 @@
                     if($("#outlink_button{{product.id}}").hasClass("notext")){
 
                     } else {
-                        if(variantjson[fvalue.id].button_text != "" && variantjson[fvalue.id].button_text != null){
+                        if(variantjson && variantjson[fvalue.id].button_text != "" && variantjson[fvalue.id].button_text != null){
 
                             setTimeout(function(){
                                 $("#outlink_button{{product.id}}").text(variantjson[fvalue.id].button_text);
@@ -1094,7 +1108,7 @@
                  }
             }
 
-
+                onLoadOutlinkMasking();
             }
 
 
