@@ -491,9 +491,11 @@ blockquote {
 .headline-extra-uppercase {
   /* Global/Headline/Extra Bold/40 */
   font-size: clamp(24px, 7vw, 40px);
-  @media(max-width: 900px) {
+
+  @media (max-width: 900px) {
     font-size: clamp(20px, 6vw, 40px);
   }
+
   font-style: normal;
   font-weight: 800;
   line-height: 120%;
@@ -1168,8 +1170,8 @@ summary::-webkit-details-marker {
   }
 
   .grid--2-col-tablet-down {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .grid--2-col-tablet-down .grid__item {
@@ -2224,8 +2226,8 @@ input[type='checkbox'] {
   font-family: 'Manrope';
   text-decoration: none;
   margin-left: 4px;
-  color: #E3B2FF;
-  background-color: #6E1C20;
+  color: #e3b2ff;
+  background-color: #6e1c20;
   height: 1.7rem;
   width: 1.7rem;
   border-radius: 100%;
@@ -2299,8 +2301,9 @@ input[type='checkbox'] {
   .utility-bar .utility-bar__grid .list-social {
     display: none;
   }
+
   body {
-      padding-top: 77px;
+    padding-top: 77px;
   }
 }
 
@@ -2672,9 +2675,8 @@ input[type='checkbox'] {
 }
 
 #HeaderMenu-sign-in {
-    display: none;
+  display: none;
 }
-
 
 @media screen and (max-width: 989px) {
   .header__heading,
@@ -2684,7 +2686,7 @@ input[type='checkbox'] {
 
   .header--mobile-left .header__heading,
   .header--mobile-left .header__heading-link {
-      min-width: 120px;
+    min-width: 120px;
     text-align: left;
     justify-self: start;
   }
@@ -2696,18 +2698,21 @@ input[type='checkbox'] {
 }
 
 @media screen and (max-width: 760px) {
-    .footer {
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
+  .footer {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
   .header__heading-logo-wrapper {
     width: 80%;
   }
+
   .header--mobile-left .header__heading-link {
-      /* min-width: 280px; */
+    /* min-width: 280px; */
   }
+
   a.header__icon--account.link {
-      display: none;
+    display: none;
   }
 }
 
@@ -2757,7 +2762,7 @@ input[type='checkbox'] {
 }
 
 .header__icon {
-  color: #6E1C20;
+  color: #6e1c20;
 }
 
 .header__icon span {
@@ -3909,4 +3914,9 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+.shopify-payment-button more-payment-options-link,
+.shopify-payment-button #shopify-buyer-consent {
+  display: none;
 }
