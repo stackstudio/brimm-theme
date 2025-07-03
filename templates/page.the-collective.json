@@ -137,7 +137,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "we invest for impact",
-            "text": "<p>We invest 10% of our revenue in initiatives with the brands we stock to help them lower their impact faster</p>",
+            "text": "<p>We invest 10% of our revenue as grants in initiatives with the brands we stock to help them lower their impact faster</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -150,7 +150,7 @@
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "We",
+            "title": "We support and report",
             "text": "<p>We partner with our brands to identify joint initiatives they can pursue together and we report on the impact</p>",
             "image_label": "",
             "link_label": "",
