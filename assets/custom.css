@@ -638,14 +638,10 @@ body.sticky-header {
 .accreditations-header .button {
     flex-grow: 0;
     flex-shrink: 1;
-    font-size: var(--step-2);
-    padding: var(--space-s) var(--space-m);
-    @media(max-width: 550px) {
-        padding: var(--space-s) 0;
-        background: transparent;
-        color: black;
-        text-decoration: underline;
-    }
+    padding: var(--space-s) 0;
+    background: transparent;
+    color: black;
+    text-decoration: underline;
 }
 
 .collection-grid .slider-mobile-gutter {
