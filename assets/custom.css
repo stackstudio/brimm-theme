@@ -236,7 +236,7 @@ body.sticky-header {
 }
 
 .brimm-blocks--callout-column {
-  padding: var(--space-l);
+  padding: var(--space-l) var(--space-l) var(--space-l) 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -245,6 +245,10 @@ body.sticky-header {
           margin-bottom: 0;
       }
   }
+}
+
+.inverted .brimm-blocks--callout-column {
+    padding-left: var(--space-l);
 }
 
 .brimm-blocks--callout-column.no-justify {
@@ -443,7 +447,7 @@ body.sticky-header {
   flex-basis: 0;
 
   .rte {
-    padding: var(--space-m);
+    padding: var(--space-l);
     font-family: 'Manrope';
     font-weight: bold;
   }

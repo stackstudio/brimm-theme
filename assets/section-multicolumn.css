@@ -28,7 +28,7 @@
 }
 
 .multicolumn__grid-wrapper {
-  padding: 7.5rem 0;
+  padding: var(--space-xl) 0;
 }
 
 .no-top .multicolumn__grid-wrapper {
