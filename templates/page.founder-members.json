@@ -383,7 +383,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Amy Powney",
-            "text": "<p>Founder of AKYN and former Creative Director of Mother of Pearl</p>",
+            "text": "<p>Amy Powney is the creative force proving that style and sustainability are a perfect match. As the founder of AKYN and former Creative Director at Mother of Pearl, she’s reimagined what it means to dress well and tread lightly</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -485,6 +485,7 @@
         "column_pqdUnD",
         "column_nGF9nz"
       ],
+      "disabled": true,
       "name": "Simple Multicolumn",
       "settings": {
         "title": "Our Founder Members",
