@@ -168,7 +168,7 @@
                       </label>
                   {% endif %}
                     <div class="accordian">
-                      <details class="membership-details" open>
+                      <details class="membership-details">
                         <summary role="button" aria-expanded="false">
                           <span class="summary__title">
                             Membership costs £12/month or £120/year<span class="summary__link">, see more.</span>
@@ -202,9 +202,11 @@
                         </strong>
                       </div>
                     {%- endif -%}
-                    <div class="account-prompt">
-                      <p class="mb-2">Already a member? <a href="/account">Log in here</a></p>
-                    </div>
+                    {% if not customer %}
+                      <div class="account-prompt">
+                        <p class="mb-2">Already a member? <a href="/account">Log in here</a></p>
+                      </div>
+                    {% endif %}
 
                   </div>
 
