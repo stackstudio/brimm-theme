@@ -1,114 +1,113 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 
 <div class='brimm-blocks--simple-multicolumn color-{{ section.settings.color_scheme }} {% if section.settings.no_top %}no-top{% endif %} {% if section.settings.no_bottom %}no-bottom{% endif %} {% if section.settings.bordered %} bordered{% endif %} {% if section.settings.title == blank %} no-heading{% endif %}'>
-  <div
-    class='section-{{ section.id }}-padding isolate'
+  <div class='section-{{ section.id }}-padding isolate'>
     <div class='multicolumn__grid-wrapper'>
       {%- unless section.settings.title == blank -%}
         {%- if section.settings.first_col == false and section.settings.last_col == false -%}
-            <div class='title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title'>
-                <h2 class='title inline-richtext {{ section.settings.heading_size }}{% if section.settings.split_header %} brimm-blocks--split-text brimm-blocks--justified-header{% endif %}'>
-                    {{ section.settings.title }}
-                </h2>
-                <div>
-                    {%- if section.settings.text_block != blank -%}
-                        <div class='rte body-extra-20 text_block'>{{ section.settings.text_block }}</div>
-                    {%- endif -%}
-                    {%- if section.settings.button_label != blank and show_mobile_slider -%}
-                        <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
-                        {{- section.settings.button_label | escape -}}
-                        </a>
-                    {%- endif -%}
-                </div>
+          <div class='title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title'>
+            <h2 class='title inline-richtext {{ section.settings.heading_size }}{% if section.settings.split_header %} brimm-blocks--split-text brimm-blocks--justified-header{% endif %}'>
+              {{ section.settings.title }}
+            </h2>
+            <div>
+              {%- if section.settings.text_block != blank -%}
+                <div class='rte body-extra-20 text_block'>{{ section.settings.text_block }}</div>
+              {%- endif -%}
+              {%- if section.settings.button_label != blank and show_mobile_slider -%}
+                <a href='{{ section.settings.button_link }}' class='link underlined-link large-up-hide'>
+                  {{- section.settings.button_label | escape -}}
+                </a>
+              {%- endif -%}
             </div>
+          </div>
         {%- endif -%}
       {%- endunless -%}
       <div class="brimm-blocks--simple-multicolumn-grid">
         {%- if section.settings.first_col -%}
-            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad {% if section.settings.justify == false %}no-justify{% endif %}">
-                <h2>
-                    {{ section.settings.title }}
-                </h2>
-                <div class="bottom">
-                    {%- if section.settings.text_block != blank -%}
-                        <p>{{ section.settings.text_block }}</p>
-                    {%- endif -%}
-                    {%- if section.settings.button_label != blank -%}
-                        <a
-                          class='button button--primary'
-                          {% if section.settings.button_link == blank %}
-                          role='link'
-                          aria-disabled='true'
-                          {% else %}
-                          href='{{ section.settings.button_link }}'
-                          {% endif %}>
-                          {{ section.settings.button_label | escape }}
-                        </a>
-                    {%- endif -%}
-                </div>
+          <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad {% if section.settings.justify == false %}no-justify{% endif %}">
+            <h2>
+              {{ section.settings.title }}
+            </h2>
+            <div class="bottom">
+              {%- if section.settings.text_block != blank -%}
+                <p>{{ section.settings.text_block }}</p>
+              {%- endif -%}
+              {%- if section.settings.button_label != blank -%}
+                <a
+                  class='button button--primary'
+                  {% if section.settings.button_link == blank %}
+                  role='link'
+                  aria-disabled='true'
+                  {% else %}
+                  href='{{ section.settings.button_link }}'
+                  {% endif %}>
+                  {{ section.settings.button_label | escape }}
+                </a>
+              {%- endif -%}
             </div>
+          </div>
         {%- endif -%}
         {%- for block in section.blocks -%}
-        <div class="brimm-blocks--simple-multicolumn-item image-ratio--{{ section.settings.image_ratio }}">
+          <div class="brimm-blocks--simple-multicolumn-item image-ratio--{{ section.settings.image_ratio }}">
             <div class='multicolumn-card content-container'>
-                {%- if block.settings.image != blank -%}
-                    <div>
-                        {{
-                        block.settings.image | image_url: width: 3200 | image_tag: widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200', sizes: sizes, class: 'multicolumn-card__image'
-                        }}
-                    </div>
-                {%- endif -%}
-                <div class='multicolumn-card__info'>
-                    {%- if block.settings.title != blank -%}
-                    <h3 class='inline-richtext body-extra'>{{ block.settings.title }}</h3>
-                    {%- endif -%}
-                    {%- if block.settings.text != blank -%}
-                    <div class='rte body-medium'>{{ block.settings.text }}</div>
-                    {%- endif -%}
-                    {%- if block.settings.link_label != blank -%}
-                    <div class="border-link">
-                        <a
-                            class='link animate-arrow'
-                            {% if block.settings.link == blank %}
-                            role='link'
-                            aria-disabled='true'
-                            {% else %}
-                            href='{{ block.settings.link }}'
-                            {% endif %}>
-                            {{- block.settings.link_label | escape -}}
-                            <span class='svg-wrapper'>
-                            <span class='icon-wrap'>&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span>
-                            </span>
-                        </a>
-                    </div>
-                    {%- endif -%}
+              {%- if block.settings.image != blank -%}
+                <div>
+                  {{
+                    block.settings.image | image_url: width: 3200 | image_tag: widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200', sizes: sizes, class: 'multicolumn-card__image'
+                  }}
                 </div>
+              {%- endif -%}
+              <div class='multicolumn-card__info'>
+                {%- if block.settings.title != blank -%}
+                  <h3 class='inline-richtext body-extra'>{{ block.settings.title }}</h3>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class='rte body-medium'>{{ block.settings.text }}</div>
+                {%- endif -%}
+                {%- if block.settings.link_label != blank -%}
+                  <div class="border-link">
+                    <a
+                      class='link animate-arrow'
+                      {% if block.settings.link == blank %}
+                      role='link'
+                      aria-disabled='true'
+                      {% else %}
+                      href='{{ block.settings.link }}'
+                      {% endif %}>
+                      {{- block.settings.link_label | escape -}}
+                      <span class='svg-wrapper'>
+                        <span class='icon-wrap'>&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span>
+                      </span>
+                    </a>
+                  </div>
+                {%- endif -%}
+              </div>
             </div>
-        </div>
+          </div>
         {%- endfor -%}
         {%- if section.settings.last_col -%}
-            <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad {% if section.settings.justify == false %}no-justify{% endif %} ">
-                <h2>
-                    {{ section.settings.title }}
-                </h2>
-                <div>
-                    {%- if section.settings.text_block != blank -%}
-                        <p>{{ section.settings.text_block }}</p>
-                    {%- endif -%}
-                    {%- if section.settings.button_label != blank -%}
-                        <a
-                          class='button button--primary'
-                          {% if section.settings.button_link == blank %}
-                          role='link'
-                          aria-disabled='true'
-                          {% else %}
-                          href='{{ section.settings.button_link }}'
-                          {% endif %}>
-                          {{ section.settings.button_label | escape }}
-                        </a>
-                    {%- endif -%}
-                </div>
+          <div class="brimm-blocks--simple-multicolumn-item brimm-blocks--callout-column no-pad {% if section.settings.justify == false %}no-justify{% endif %} ">
+            <h2>
+              {{ section.settings.title }}
+            </h2>
+            <div>
+              {%- if section.settings.text_block != blank -%}
+                <p>{{ section.settings.text_block }}</p>
+              {%- endif -%}
+              {%- if section.settings.button_label != blank -%}
+                <a
+                  class='button button--primary'
+                  {% if section.settings.button_link == blank %}
+                  role='link'
+                  aria-disabled='true'
+                  {% else %}
+                  href='{{ section.settings.button_link }}'
+                  {% endif %}>
+                  {{ section.settings.button_label | escape }}
+                </a>
+              {%- endif -%}
             </div>
+          </div>
         {%- endif -%}
       </div>
     </div>
