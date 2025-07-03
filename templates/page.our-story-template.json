@@ -341,7 +341,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Tom Berry",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>With over 20 years in sustainability, strategy, and innovation, Tom has led sustainability programs at Innocent Drinks and FARFETCH. He also sits on the steering committee for circular fashion innovation at the British Fashion Council</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
@@ -364,7 +364,7 @@
         "column_zQzDVg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Tiff_BRIMM_075_d0ef9b60-ea10-4c55-b884-ab1db1fbd2c7.jpg",
+            "image": "shopify://shop_images/ahmet.webp",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
