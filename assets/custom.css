@@ -405,6 +405,7 @@ body.sticky-header {
 .brimm-blocks--flush-columns-grid {
   width: 100%;
   display: flex;
+  padding-bottom: var(--space-xl);
 
   @media (max-width: 1080px) {
     display: grid;
@@ -476,7 +477,7 @@ body.sticky-header {
 
   h2 {
     font-size: var(--step-5);
-    margin-top: var(--space-xl);
+    margin-top: 0;
   }
 }
 
