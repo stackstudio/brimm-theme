@@ -77,6 +77,10 @@
 
   {% liquid
     assign collections = product.collections | where: 'handle', section.settings.related_products_collection_handle | first
+    assign customer_loggedin = false
+    if customer
+      assign customer_loggedin = true
+    endif
   %}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
@@ -202,7 +206,7 @@
                         </strong>
                       </div>
                     {%- endif -%}
-                    {% if not customer %}
+                    {% if customer_loggedin != true %}
                       <div class="account-prompt">
                         <p class="mb-2">Already a member? <a href="/account">Log in here</a></p>
                       </div>
