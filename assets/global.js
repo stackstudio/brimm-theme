@@ -1765,3 +1765,35 @@ membershipCartButtons.forEach((button) => {
     addMembershipProductToCart(evt.currentTarget);
   });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Get all accordion containers
+  const accordionContainers = document.querySelectorAll(
+    '.pdp-accreditations-accordion',
+  );
+
+  accordionContainers.forEach(function (container) {
+    const toggle = container.querySelector('.accordion-toggle');
+    const panel = container.querySelector('.pdp-accreditations');
+    const icon = container.querySelector('.accordion-icon');
+
+    if (toggle && panel && icon) {
+      toggle.addEventListener('click', function () {
+        // Check if panel is currently hidden
+        const isHidden = panel.classList.contains('hidden');
+
+        if (isHidden) {
+          // Show the panel
+          panel.classList.remove('hidden');
+          toggle.setAttribute('aria-expanded', 'true');
+          icon.classList.add('active');
+        } else {
+          // Hide the panel
+          panel.classList.add('hidden');
+          toggle.setAttribute('aria-expanded', 'false');
+          icon.classList.remove('active');
+        }
+      });
+    }
+  });
+});

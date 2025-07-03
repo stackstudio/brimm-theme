@@ -21,7 +21,7 @@
     assign money_price = price | money_with_currency
     assign money_price_min = price_min | money_with_currency
     assign money_price_max = price_max | money_with_currency
-    assign money_member_price = member_price | money_with_currency
+    assign money_member_price = member_price | money
   endif
 
   if target == product and product.price_varies
@@ -82,7 +82,7 @@
           {%- else -%}
             <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
             <span class="price-item price-item--regular">
-              Regular price: {{ money_price }}
+              {{ money_price }}
             </span>
           {%- endif -%}
         </div>
