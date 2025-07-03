@@ -1,5 +1,9 @@
 .article-template {
     padding-bottom: var(--space-2xl);
+    h2 {
+        margin-top: var(--space-xl);
+        margin-bottom: var(--space-l);
+    }
 }
 .article-template--repeater-block {
   padding: var(--size-xl) 0 0;
