@@ -98,6 +98,7 @@
         "columns_desktop": 3,
         "button_label": "Become a member",
         "button_link": "shopify://pages/membership",
+        "no_top": false,
         "color_scheme": ""
       }
     },
@@ -174,11 +175,12 @@
         "text_pDVWWz": {
           "type": "text",
           "settings": {
-            "copy": "<p>Join us for a day out on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather</p>"
+            "copy": "<p>Coming soon - join us for a day out on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather</p>"
           }
         },
         "cta_button_wNLCc6": {
           "type": "cta_button",
+          "disabled": true,
           "settings": {
             "label": "Learn more",
             "link": "shopify://blogs/events/join-us-for-a-field-trip-to-a-regenerative-farm",
