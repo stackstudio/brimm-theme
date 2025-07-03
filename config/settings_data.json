@@ -116,7 +116,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
@@ -203,23 +203,23 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#E3B2FF",
+          "background": "#e3b2ff",
           "background_gradient": "",
-          "text": "#6E1C20",
-          "button": "#6E1C20",
-          "button_label": "#E3B2FF",
-          "secondary_button_label": "#6E1C20",
+          "text": "#6e1c20",
+          "button": "#6e1c20",
+          "button_label": "#e3b2ff",
+          "secondary_button_label": "#6e1c20",
           "shadow": "#121212"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#6E1C20",
+          "background": "#6e1c20",
           "background_gradient": "",
-          "text": "#E3B2FF",
-          "button": "#E3B2FF",
-          "button_label": "#6E1C20",
-          "secondary_button_label": "#E3B2FF",
+          "text": "#e3b2ff",
+          "button": "#e3b2ff",
+          "button_label": "#6e1c20",
+          "secondary_button_label": "#e3b2ff",
           "shadow": "#121212"
         }
       },
