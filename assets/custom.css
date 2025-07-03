@@ -805,6 +805,12 @@ details .product__tax {
 }
 
 /* COOKIE BANNER */
+.shopify-pc__prefs__dialog {
+    font-family: 'Manrope', sans-serif;
+    button {
+        font-weight: 577;
+    }
+}
 section.shopify-pc__banner__dialog {
   background: #6e1c20;
   h2,
