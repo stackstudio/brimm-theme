@@ -330,6 +330,82 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_simple_DJdQWA": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_LzQeYe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tom_BRIMM_648.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Tom Berry",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wtzDfK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Helen_BRIMM_725.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Helen Kirkhum",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zQzDVg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tiff_BRIMM_075_d0ef9b60-ea10-4c55-b884-ab1db1fbd2c7.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LzQeYe",
+        "column_wtzDfK",
+        "column_zQzDVg"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
+        "justify": true,
+        "bordered": false,
+        "text_block": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "stacked_hero_YrKfLD": {
       "type": "stacked-hero",
       "blocks": {
@@ -645,6 +721,7 @@
     "flush_columns_HGr9JL",
     "multicolumn_simple_nDGEEE",
     "multicolumn_simple_FQJqhe",
+    "multicolumn_simple_DJdQWA",
     "stacked_hero_YrKfLD",
     "stacked_hero_VbbaBH",
     "image_with_text_4HfRc9",
