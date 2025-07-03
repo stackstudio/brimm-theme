@@ -175,7 +175,9 @@
                 src="{{ block.settings.column_image | image_url: width: 800 }}"
                 alt="{{ block.settings.column_image.alt | escape }}"
                 class="brimm-blocks--column-image"
-                loading="lazy">
+                loading="lazy"
+                width="{{ block.settings.column_image.width }}"
+                height="{{ block.settings.column_image.height }}">
             {% endif %}
             <h3>{{ block.settings.title }}</h3>
             <div class="brimm-blocks--column-pricing">
