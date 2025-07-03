@@ -207,7 +207,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Read more",
-            "link": "shopify://blogs/journal/brimm-s-first-planet-fund-project-solar-power-for-our-brands",
+            "link": "shopify://blogs/journal/planet-fund-project-solar-power",
             "style": "primary"
           }
         }
