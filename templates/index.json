@@ -28,7 +28,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Discover our Shop",
-            "link": "shopify://pages/reset-boxes",
+            "link": "shopify://collections/reset-boxes",
             "style": "primary"
           }
         }
