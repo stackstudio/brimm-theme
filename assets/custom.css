@@ -235,6 +235,10 @@ body.sticky-header {
   height: 100%;
 }
 
+.brimm-blocks--stacked-hero .brimm-blocks--callout-column {
+    padding-left: var(--space-l);
+}
+
 .brimm-blocks--callout-column {
   padding: var(--space-l) var(--space-l) var(--space-l) 0;
   display: flex;
@@ -286,7 +290,7 @@ body.sticky-header {
 
 /* NEW MULTICOL */
 .brimm-blocks--simple-multicolumn {
-  padding: var(--space-3xl) var(--space-xl);
+  padding: var(--space-3xl) var(--space-l);
   .brimm-blocks--callout-column.no-pad {
     padding-right: var(--space-xl);
     max-width: 25%;
