@@ -236,7 +236,7 @@ body.sticky-header {
 }
 
 .brimm-blocks--callout-column {
-  padding: var(--space-l) var(--space-l) var(--space-l) 0;
+  padding: var(--space-l);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -909,7 +909,7 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 
 .brimm-blocks--membership {
   background: #6e1c20;
-  padding: var(--space-2xl) var(--space-xl);
+  padding: var(--space-2xl) var(--space-l) var(--space-2xl) 0;
   color: #e3b2ff;
   padding-bottom: 4rem;
 }
