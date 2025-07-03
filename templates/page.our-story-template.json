@@ -184,7 +184,7 @@
         "column_W7MKp3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/James_BRIMM_253.jpg",
+            "image": "shopify://shop_images/James_BRIMM_266.jpg",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -235,6 +235,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
         "justify": true,
         "bordered": false,
         "text_block": "We’re a collective of climate optimists who believe in the power of enough. Supported by an inspiring network of founder members, impactful brands and world-class investors, BRiMM is built by us, powered by you and sustained by all of us.",
@@ -309,6 +311,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
         "justify": true,
         "bordered": false,
         "text_block": "",
