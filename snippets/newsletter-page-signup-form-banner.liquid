@@ -1,0 +1,152 @@
+{% comment %}
+  2. banner Klaviyo signup form
+{% endcomment %}
+
+<script src='{{ "klaviyo-signup-form.js" | asset_url }}' defer></script>
+
+<klaviyo-signup-form account-id="RJAyDu" list-id="S5VAFY">
+  <div class="custom-klaviyo-form-wrapper banner2">
+    <form class="newsletter-form" method="POST" novalidate>
+      <input type="hidden" name="g" value="S5VAFY" />
+
+      <div class="custom-fields-wrapper">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="custom-email-input banner2-input"
+          placeholder="Enter your email"
+          required
+        />
+        <button
+          type="submit"
+          class="custom-submit-button banner2-button"
+          name="commit"
+          aria-label="Sign up"
+        >
+          Join for free
+        </button>
+      </div>
+
+      <div class="subscriber-count">By joining, you agree to receive BRiMMs' newsletters. Unsubscribe any time at the bottom of the newsletter. Read more in Privacy Policy <a href="/policies/privacy-policy" style="font-size: 14px;">here.</a></div>
+
+      <div class="custom-terms-wrapper" style="display:none;">
+        <input
+          type="checkbox"
+          id="newsletter_terms"
+          name="newsletter_terms"
+          class="custom-terms-checkbox"
+          checked
+        />
+        <label for="newsletter_terms" class="custom-terms-label">
+          Please accept our
+          <a href="/policies/privacy-policy" target="_blank">privacy policy</a>.
+        </label>
+      </div>
+
+      <div id="newsletter-error">
+        <p class="form__messages"></p>
+      </div>
+    </form>
+
+    <div class="newsletter-success" style="display:none;">
+      <div class="newsletter-form__fields">
+        <div class="form__messages banner__content--text">
+          <h2 class="email-signup-banner__heading">Thank you</h2>
+          <div class="newsletter__subheading">
+            {{ "newsletter.success_message" | t }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</klaviyo-signup-form>
+
+<style>
+  .custom-klaviyo-form-wrapper.banner2 {
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .custom-fields-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .banner2-input,
+  .custom-klaviyo-form-wrapper.banner2 .banner2-button {
+    width: 100%;
+    height: 44px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .banner2-input {
+    padding: 0 12px;
+    background-color: transparent;
+    color: #000;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .banner2-button {
+    background-color: #EC492B;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .banner2-button:hover {
+    background-color: #005FB7;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .subscriber-count {
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    font-style: normal;
+    line-height: 130%;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .custom-terms-wrapper {
+    font-size: 14px;
+    margin-top: 16px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .custom-terms-checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  .custom-klaviyo-form-wrapper.banner2 .custom-terms-label a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #0073e6;
+  }
+
+  @media (max-width: 480px) {
+    .custom-klaviyo-form-wrapper.banner2 .banner2-button {
+      font-size: 14px;
+    }
+    .custom-klaviyo-form-wrapper.banner2 .banner2-input {
+      font-size: 14px;
+    }
+    .custom-klaviyo-form-wrapper.banner2 .subscriber-count {
+      font-size: 14px;
+    }
+  }
+
+  .subscriber-count {
+    color: black !important;
+  }
+</style>
