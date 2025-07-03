@@ -419,7 +419,6 @@ body.sticky-header {
   width: 100%;
   display: flex;
   padding-bottom: var(--space-xl);
-
   @media (max-width: 1080px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
