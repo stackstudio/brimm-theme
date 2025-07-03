@@ -108,8 +108,9 @@
         "title": "ONLY THE TRULY PLANET-POSITIVE MAKE THE CUT",
         "text_block": "Our rigorous vetting process, is grounded in independent standards and accreditations, and also identifies products and brands innovating in ingredients, formats, and business models. It was developed by sustainability expert Tom Berry, who has collaborated with both major brands like Farfetch and innovative smaller brands to create products that are genuinely planet-positive",
         "columns_desktop": 4,
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Our process",
+        "button_link": "shopify://blogs/journal/why-and-how-we-assess-products-and-brands",
+        "no_top": false,
         "color_scheme": ""
       }
     },
@@ -206,6 +207,7 @@
         "columns_desktop": 4,
         "button_label": "",
         "button_link": "shopify://blogs/journal/microplastic-free-beauty-wellness",
+        "no_top": false,
         "color_scheme": ""
       }
     },
@@ -475,6 +477,8 @@
         "no-gap": false,
         "first_col": true,
         "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
         "justify": true,
         "bordered": false,
         "text_block": "Smaller brands are often at the forefront of innovation. They’re not just crafting exceptional products; they’re setting the next generation of standards and accreditations",
@@ -541,6 +545,7 @@
         "columns_desktop": 4,
         "button_label": "",
         "button_link": "",
+        "no_top": false,
         "color_scheme": ""
       }
     },
