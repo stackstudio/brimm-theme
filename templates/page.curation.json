@@ -432,7 +432,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "Accreditations",
-            "text": "<p>We start by looking at the accreditations that brands have - from B Corp to Certified Organic ingredients and everything in between</p>",
+            "text": "<p>We start by looking at the <a href=\"/blogs/journal/why-and-how-we-assess-products-and-brands\" title=\"Why and how we assess brands and products\">accreditations</a> that brands have - from B Corp to Certified Organic ingredients and everything in between</p>",
             "image_label": "",
             "link_label": "",
             "link": ""
