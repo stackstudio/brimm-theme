@@ -149,7 +149,7 @@
         "first_col": true,
         "last_col": false,
         "no_top": false,
-        "no_bottom": false,
+        "no_bottom": true,
         "justify": true,
         "bordered": false,
         "text_block": "We're launching with our Reset Boxes to help kick start your planet-positive journey. From minimalist bathrooms to regenerative pantries - reset your life one room at a time",

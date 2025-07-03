@@ -176,7 +176,7 @@
           "type": "cta_button",
           "settings": {
             "label": "Read more",
-            "link": "shopify://pages/a-recipe",
+            "link": "shopify://blogs/journal/brimm-s-first-planet-fund-project-solar-power-for-our-brands",
             "style": "primary"
           }
         }
