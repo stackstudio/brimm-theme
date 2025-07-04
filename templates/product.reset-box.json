@@ -49,11 +49,10 @@
         },
         "collapsible_tab_c4GzwK": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Shipping",
             "icon": "none",
-            "content": "",
+            "content": "<p>Free shipping on all Reset boxes. Once dispatched, the delivery will be 2-4 working days</p>",
             "page": ""
           }
         },
