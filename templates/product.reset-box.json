@@ -32,7 +32,7 @@
         "collapsible_tab_ftwbfC": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How did we curate it?",
+            "heading": "Why it's BRiMM",
             "icon": "none",
             "content": "{{ product.metafields.custom.curation | metafield_tag }}",
             "page": ""
