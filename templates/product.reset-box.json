@@ -47,6 +47,16 @@
             "page": ""
           }
         },
+        "collapsible_tab_c4GzwK": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -87,6 +97,7 @@
         "collapsible_tab_GJPkcz",
         "collapsible_tab_ftwbfC",
         "collapsible_tab_qxL7fA",
+        "collapsible_tab_c4GzwK",
         "caption",
         "price",
         "variant_picker",
@@ -175,7 +186,7 @@
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
-        "products_to_show": 4,
+        "products_to_show": 3,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
