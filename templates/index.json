@@ -160,7 +160,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "Shop Reset Boxes",
-        "button_link": "shopify://pages/reset-boxes",
+        "button_link": "shopify://collections/reset-boxes",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
