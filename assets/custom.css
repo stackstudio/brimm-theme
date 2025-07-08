@@ -553,7 +553,7 @@ body.sticky-header {
       max-height: 48px;
       width: auto;
       @media(max-width: 750px) {
-          max-height: 28px;
+          max-height: 38px;
       }
     }
   }
