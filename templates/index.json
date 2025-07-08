@@ -103,7 +103,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "BATHROOM",
-            "text": "<p>Reset your daily routine with our bathroom  boxes.</p>",
+            "text": "<p>Reset your daily routine with our bathroom  boxes</p>",
             "image_label": "",
             "link_label": "Shop Bathroom",
             "link": "shopify://collections/bathroom-reset-boxes"
@@ -117,10 +117,10 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "PANTRY",
-            "text": "<p>Reset your pantry with our regenerative food  box.</p>",
+            "text": "<p>Reset your pantry with our regenerative food  box</p>",
             "image_label": "",
             "link_label": "Shop Pantry",
-            "link": "shopify://products/brimm-pantry-essentials-reset-box"
+            "link": "shopify://products/pantry-essentials-reset-box"
           }
         },
         "column_Dmwhzr": {
@@ -131,10 +131,10 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "CLEANING",
-            "text": "<p>Reset your kitchen with these cleaning essentials.</p>",
+            "text": "<p>Reset your kitchen with these cleaning essentials</p>",
             "image_label": "",
             "link_label": "Shop Cleaning",
-            "link": "shopify://products/brimm-kitchen-reset-cleaning-box"
+            "link": "shopify://products/kitchen-cleaning-reset-box-2"
           }
         }
       },
