@@ -313,7 +313,7 @@
         "column_t4mD6C",
         "column_yjCBEh"
       ],
-      "disabled": true,
+      "disabled": false,
       "name": "Logo Scroller",
       "settings": {
         "color_scheme": ""
