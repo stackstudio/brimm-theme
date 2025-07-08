@@ -551,10 +551,10 @@ body.sticky-header {
   .brimm-blocks--logo-item {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    flex-grow: 0;
     img {
-      width: 100%;
       max-height: 48px;
+      width: auto;
       @media(max-width: 750px) {
           max-height: 28px;
       }
