@@ -1,0 +1,91 @@
+{% comment %}
+  Reponsive image - snippet
+
+  Accepts:
+  - image: {Image} Image to display
+  - aspect_ratio_desktop: {String} Aspect ratio for the image on desktop
+  - aspect_ratio_mobile: {String} Aspect ratio for the image on mobile
+  - viewport_desktop: {String} Viewport for the image on desktop
+  _ viewport_mobile: {String} Viewport for the image on mobile
+  - focal_point: {String} Focal point for the image for mobile
+  - class: {String} Class for the media responsive image container
+  - caption: {String} Caption for the image
+  - caption_class: {String} Class for the caption
+  - object_fit: {String} Object fit for the media
+  - attributes: {String} Attribute for the image
+
+  Usage:
+  {% render 'responsive-image', image: featured_image, viewport_desktop: "50vw", viewport_mobile: "100vw", width: 700, height: 800 %}
+{% endcomment %}
+
+{% comment %}Limit image widths to valid options based on image.width{% endcomment %}
+{% liquid
+  assign loading = loading | default: 'lazy'
+  assign width_image = width | default: image.width
+  assign height_image = image.height | times: 1.00
+
+  if viewport_desktop == blank and width_image > 1600
+    assign viewport_desktop = '(min-width: 768px) 100vw'
+  elsif viewport_desktop == blank and width_image > 1000
+    assign viewport_desktop = '(min-width: 768px) calc(100vw / 2)'
+  elsif viewport_desktop == blank
+    assign viewport_desktop = '(min-width: 768px) calc(100vw / 3)'
+  endif
+
+  if viewport_mobile == blank
+    assign viewport_mobile = '100vw'
+  endif
+
+  assign aspect_ratio_desktop = aspect_ratio_desktop | default: image.aspect_ratio, allow_false: true
+  assign aspect_ratio_mobile = aspect_ratio_mobile | default: image.aspect_ratio, allow_false: true
+
+  assign image_widths = '180,360,540,720,900,1080,1296,1512,1728,1944,2160,2376,2592,2808,3024,3512' | split: ','
+%}
+
+{% capture image_widths %}
+  {% for width in image_widths %}
+    {% comment %}Check if image width is less or equal to width{% endcomment %}
+    {% assign width_num = width | plus: 0 | round %}
+    {% if width_image >= width_num %}{{ width_num }},{% else %}{% break %}{% endif %}
+  {% endfor %}
+{% endcapture %}
+{% liquid
+  assign image_widths = image_widths | strip
+  assign image_widths_array = image_widths | split: ','
+%}
+
+{% capture image_srcset %}
+  {% for width in image_widths_array %}
+    {% assign image_url_width = width | strip %}
+    {{ image | image_url: width: image_url_width }} {{ width }}w{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+{% endcapture %}
+{% if image %}
+  <img
+    class="
+        responsive-image__image
+        {% if class %}
+          {{ class | append: '-image' }}
+        {% endif %}
+        {% if object_fit %}
+          responsive-image__image--{{ object_fit }}
+        {% endif %}
+      "
+    srcset="{{ image_srcset }}"
+    src="{{ image | image_url: width: 20 }}"
+    alt="{{ image.alt | escape }}"
+    loading="{{ loading }}"
+    sizes="(max-width: 767px) {{ viewport_mobile }}, {{ viewport_desktop }}"
+    width="{{ width_image }}"
+    height="{{ height_image | ceil }}">
+{% else %}
+  <span class="responsive-image__placeholder"></span>
+{% endif %}
+
+{% if caption and caption != blank %}
+  <figcaption class="{{ caption_class }}">
+    {{
+      caption | replace: '&lt;i&gt;', '<i>' | replace: '&lt;/i&gt;', '</i>' | replace: '&lt;em&gt;', '<em>' | replace: '&lt;/em&gt;', '</em>'
+    }}
+  </figcaption>
+{% endif %}

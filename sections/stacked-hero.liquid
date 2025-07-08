@@ -39,9 +39,19 @@
     {% if section.settings.wide_image %}
       <div class="brimm-blocks--wide-image">
         <img
-          width="auto"
-          height="auto"
-          src={{ section.settings.wide_image | image_url }} />
+          srcset="
+              {%- if section.settings.wide_image.src.width >= 165 -%}{{ section.settings.wide_image.src | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.wide_image.src.width >= 360 -%}{{ section.settings.wide_image.src | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.wide_image.src.width >= 533 -%}{{ section.settings.wide_image.src | image_url: width: 533 }} 533w,{%- endif -%}
+              {%- if section.settings.wide_image.src.width >= 720 -%}{{ section.settings.wide_image.src | image_url: width: 720 }} 720w,{%- endif -%}
+              {%- if section.settings.wide_image.src.width >= 1000 -%}{{ section.settings.wide_image.src | image_url: width: 1000 }} 1000w,{%- endif -%}
+              {%- if section.settings.wide_image.src.width >= 1500 -%}{{ section.settings.wide_image.src | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.wide_image.src | image_url }} {{ section.settings.wide_image.src.width }}w
+            "
+          src="{{ section.settings.wide_image.src | image_url: width: 533 }}"
+          sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+          alt="{{ section.settings.wide_image.src.alt | escape }}"
+          class="motion-reduce">
       </div>
     {% endif %}
     {%- if section.settings.video_embed != blank and section.settings.image == blank %}
@@ -52,16 +62,7 @@
       </div>
     {%- endif -%}
   </div>
-<!-- <div class="page-width brimm-blocks--hero-content">  {% for block in section.blocks %}
-    {% if block.type == 'heading' %}
-      <h1 class="brimm-blocks--split-text brimm-blocks--justified-header">{{ block.settings.heading_text }}</h1>
-    {% endif %}
-    {% if block.type == 'text' %}
-      <p class="brimm-blocks--hero-para">{{ block.settings.copy }}</p>
-    {% endif %}
-    {% if block.type == 'text' %}
-      {% if block.settings.label and block.settings.link %}
-          <a href="{{ block.settings.link }}"
+<!-- <div class="page-width brimm-blocks--hero-content">  {% for block in section.blocks %}    {% if block.type == 'heading' %}      <h1 class="brimm-blocks--split-text brimm-blocks--justified-header">{{ block.settings.heading_text }}</h1>    {% endif %}    {% if block.type == 'text' %}      <p class="brimm-blocks--hero-para">{{ block.settings.copy }}</p>    {% endif %}    {% if block.type == 'text' %}      {% if block.settings.label and block.settings.link %}          <a href="{{ block.settings.link }}"
               class="button{% if block.settings.style == 'secondary' %} button--secondary{% endif %}">
               {{ block.settings.label }}
           </a>
