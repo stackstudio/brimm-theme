@@ -211,81 +211,6 @@
         "color_scheme": ""
       }
     },
-    "logo_scroller_ANciWD": {
-      "type": "logo-scroller",
-      "blocks": {
-        "column_EQ4btt": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/bold_bean_logo.png"
-          }
-        },
-        "column_8dTebt": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Kit_Kin_logo_monochrome.png"
-          }
-        },
-        "column_YzA3fK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/kinfill_logo_1.png"
-          }
-        },
-        "column_8TBDJU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Northern_Pasta_logo.png"
-          }
-        },
-        "column_qLYbPp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Rollr_logo_monochrome.png"
-          }
-        },
-        "column_rYqyzV": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Upcircle_logo.png"
-          }
-        },
-        "column_7CxDfU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Citizens_of_Soil_logo_mini.png"
-          }
-        },
-        "column_HWwYWB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Sbtrct_logo.png"
-          }
-        },
-        "column_NEWykc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Hotel_Mike_logo_Black.png"
-          }
-        }
-      },
-      "block_order": [
-        "column_EQ4btt",
-        "column_8dTebt",
-        "column_YzA3fK",
-        "column_8TBDJU",
-        "column_qLYbPp",
-        "column_rYqyzV",
-        "column_7CxDfU",
-        "column_HWwYWB",
-        "column_NEWykc"
-      ],
-      "disabled": false,
-      "name": "Logo Scroller",
-      "settings": {
-        "color_scheme": "scheme-1"
-      }
-    },
     "image_with_text_N4ciKF": {
       "type": "image-with-text",
       "blocks": {
@@ -495,6 +420,80 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "logo_scroller_pynMdD": {
+      "type": "logo-scroller",
+      "blocks": {
+        "column_mDWFEC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bold_bean_logo.png"
+          }
+        },
+        "column_GrzbRb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pasta.png"
+          }
+        },
+        "column_QELyQp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_999rgp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/citizens_of_soil_logo-horizontal.png"
+          }
+        },
+        "column_N79zfA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kit-and-Kin-tm_270a61a4-71ec-4a29-90b2-ee0c24580eaa.png"
+          }
+        },
+        "column_ayz4gP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/upcircle.png"
+          }
+        },
+        "column_ydGCcP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sbtrct-padded_fc1a8e04-4bd8-4904-8270-f42fdcc743a9.png"
+          }
+        },
+        "column_PDqMMk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rollr-padded.png"
+          }
+        },
+        "column_JJjNtP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hm-padded.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_mDWFEC",
+        "column_GrzbRb",
+        "column_QELyQp",
+        "column_999rgp",
+        "column_N79zfA",
+        "column_ayz4gP",
+        "column_ydGCcP",
+        "column_PDqMMk",
+        "column_JJjNtP"
+      ],
+      "name": "Logo Scroller",
+      "settings": {
+        "color_scheme": ""
       }
     },
     "flush_columns_XHYRMh": {
@@ -712,13 +711,13 @@
     "flush_columns_4zpTXq",
     "stacked_hero_kxMRgY",
     "flush_columns_rWMFzU",
-    "logo_scroller_ANciWD",
     "image_with_text_N4ciKF",
     "partner_logos_hUUrNA",
     "image_with_text_iKBBfX",
     "partner_logos_pmqNqp",
     "stacked_hero_iyBFLz",
     "multicolumn_simple_kcMNX8",
+    "logo_scroller_pynMdD",
     "flush_columns_XHYRMh",
     "wrapped_mega_image_XFkj89",
     "stacked_hero_BNfitJ",
