@@ -117,15 +117,23 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                 {% if product.product_type != 'Membership' and collections.handle contains 'reset-boxes' %}
+                {% if product.product_type != 'Membership' and collections.handle contains 'reset-boxes' %}
 
                   {% assign member_discount_rate = 0.20 %}
                   {% assign regular_price = product.price %}
                   {% assign p = regular_price | times: member_discount_rate %}
                   {% assign member_price = regular_price | times: 1.0 | minus: p %}
 
+                  {% assign has_selling_plan = false %}
+                  {% for item in cart.items %}
+                    {% if item.selling_plan_allocation and item.selling_plan_allocation.selling_plan.id %}
+                      {% assign has_selling_plan = true %}
+                      {% break %}
+                    {% endif %}
+                  {% endfor %}
+
                   <div class="membership-choice my-6">
-                  {% if customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}
+                  {% if has_selling_plan and customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}
 
                     <p class="font-medium mb-2">As a member you get {{ member_discount_rate | times: 100 | round: 0 }}% off</p>
 
@@ -214,7 +222,7 @@
 
                   </div>
 
-                  {% else %}
+                {% else %}
 
                   <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
                     {%- render 'price',
@@ -240,7 +248,7 @@
                     </div>
                   {%- endif -%}
 
-                 {% endif %}
+                {% endif %}
 
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class='volume-pricing-note' id='Volume-Note-{{ section.id }}'>
