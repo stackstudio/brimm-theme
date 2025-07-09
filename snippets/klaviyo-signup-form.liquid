@@ -6,7 +6,10 @@
 <klaviyo-signup-form account-id='RJAyDu' list-id='UdQf4b'>
   <div class=''>
     <form class='klaviyo-signup-form newsletter-form' method='POST'>
-      <input type='hidden' name='g' value='UdQf4b'>
+      <input
+        type='hidden'
+        name='g'
+        value='UdQf4b'>
       <input
         type='email'
         id='email'
@@ -16,8 +19,7 @@
         autocorrect='off'
         autocapitalize='off'
         autocomplete='email'
-        placeholder='Enter your email'
-      >
+        placeholder='Enter your email'>
       <label class='field__label' for='NewsletterForm--{{ section.id }}'>
         {{ 'newsletter.label' | t }}
       </label>
@@ -26,8 +28,7 @@
         class='newsletter-form__button body-medium'
         name='commit'
         id='Subscribe'
-        aria-label='{{ 'newsletter.button_label' | t }}'
-      >
+        aria-label='{{ 'newsletter.button_label' | t }}'>
         Sign up
       </button>
       <div class='newsletter-form__terms'>
@@ -37,9 +38,11 @@
           id='newsletter_terms'
           class='newsletter-form__terms-input'
           aria-label='{{ 'newsletter.button_label' | t }}'
-          tabindex='0'
-        >
-        <label for='newsletter_terms' class='newsletter-form__terms-label' tabindex='0'>
+          tabindex='0'>
+        <label
+          for='newsletter_terms'
+          class='newsletter-form__terms-label'
+          tabindex='0'>
           <span class='newsletter-form__terms-label-text body-medium'>
             {{ 'newsletter.terms' | t }}
             <a href='/pages/privacy' target='_blank'>here.</a>
@@ -53,7 +56,7 @@
     <div class='newsletter-success' style='display: none;'>
       <div class='newsletter-form__fields'>
         <div class='form__messages banner__content--text'>
-          <h2 class='email-signup-banner__heading h1'>Thank you</h2>
+          <h3 class='email-signup-banner__heading h1'>Thanks for signing up.</h3>
           <div class='newsletter__subheading rte body-medium'>
             {{ 'newsletter.success_message' | t }}
           </div>
