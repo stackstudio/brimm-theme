@@ -170,8 +170,8 @@ class KlaviyoSignupForm extends HTMLElement {
 
   showSuccess() {
     this.form.style.display = 'none';
-    this.bannerContent.style.display = 'none';
-    this.succesMessage.style.display = 'block';
+    this.bannerContent.style.display = 'block';
+    this.successMessage.style.display = 'block';
   }
 
   /**
