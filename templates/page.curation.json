@@ -61,7 +61,7 @@
           "type": "cta_button",
           "settings": {
             "label": "And Link Somewhere",
-            "link": "shopify://products/bathroom-minimalist-reset-box",
+            "link": "shopify://products/bathroom-minimalist-reset-box-bundle",
             "style": "primary"
           }
         }
