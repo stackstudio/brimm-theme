@@ -195,36 +195,46 @@
               {% break %}
             {% endif %}
           {% endfor %}
-          <div class="brimm-blocks--column-bottom js-membership-column-bottom {% if has_selling_plan %}added_to_cart{% endif %}">
-            <p class="brimm-blocks--column-text membership-text">You have membership in the cart</p>
-            <p class="brimm-blocks--column-text adding-text">Adding Membership to the cart...</p>
-            {% if block.settings.button_label_monthly %}
-              <button
-                {% if block.settings.title == 'Member' %}
-                data-member-variant-id="48556931481942"
-                data-member-selling-plan-id="690221023574"
-                {% else %}
-                data-member-variant-id="48556935086422"
-                data-member-selling-plan-id="690226135382"
-                {% endif %}
-                class="button brimm-blocks--column-button__add-to-cart">
-                {{ block.settings.button_label_monthly }}
-              </button>
-            {% endif %}
-            {% if block.settings.button_label_yearly %}
-              <button
-                {% if block.settings.title == 'Member' %}
-                data-member-variant-id="48556931481942"
-                data-member-selling-plan-id="690221056342"
-                {% else %}
-                data-member-variant-id="48556935086422"
-                data-member-selling-plan-id="690226168150"
-                {% endif %}
-                class="button brimm-blocks--column-button__add-to-cart">
-                {{ block.settings.button_label_yearly }}
-              </button>
-            {% endif %}
-          </div>
+          {% if customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}
+
+            <div class="brimm-blocks--column-bottom js-membership-column-bottom">
+              <p class="brimm-blocks--column-text membership-text">You have already purchased a membership.</p>
+              <a href="{{ routes.account_url }}" class="button">Manage Membership</a>
+            </div>
+
+          {% else %}
+
+            <div class="brimm-blocks--column-bottom js-membership-column-bottom {% if has_selling_plan %}added_to_cart{% endif %}">
+              <p class="brimm-blocks--column-text membership-text">You have membership in the cart</p>
+              <p class="brimm-blocks--column-text adding-text">Adding Membership to the cart...</p>
+              {% if block.settings.button_label_monthly %}
+                <button
+                  {% if block.settings.title == 'Member' %}
+                  data-member-variant-id="48556931481942"
+                  data-member-selling-plan-id="690221023574"
+                  {% else %}
+                  data-member-variant-id="48556935086422"
+                  data-member-selling-plan-id="690226135382"
+                  {% endif %}
+                  class="button brimm-blocks--column-button__add-to-cart">
+                  {{ block.settings.button_label_monthly }}
+                </button>
+              {% endif %}
+              {% if block.settings.button_label_yearly %}
+                <button
+                  {% if block.settings.title == 'Member' %}
+                  data-member-variant-id="48556931481942"
+                  data-member-selling-plan-id="690221056342"
+                  {% else %}
+                  data-member-variant-id="48556935086422"
+                  data-member-selling-plan-id="690226168150"
+                  {% endif %}
+                  class="button brimm-blocks--column-button__add-to-cart">
+                  {{ block.settings.button_label_yearly }}
+                </button>
+              {% endif %}
+            </div>
+          {% endif %}
         </div>
       {% endif %}
     {% endfor %}
