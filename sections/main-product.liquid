@@ -133,7 +133,7 @@
                   {% endfor %}
 
                   <div class="membership-choice my-6">
-                  {% if has_selling_plan and customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}
+                  {% if customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' and has_selling_plan %}
 
                     <p class="font-medium mb-2">As a member you get {{ member_discount_rate | times: 100 | round: 0 }}% off</p>
 
