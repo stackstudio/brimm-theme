@@ -133,7 +133,7 @@
             "text": "<p>Reset your kitchen with these cleaning essentials.</p>",
             "image_label": "",
             "link_label": "Shop Cleaning",
-            "link": "shopify://products/brimm-kitchen-reset-cleaning-box"
+            "link": "shopify://products/brimm-kitchen-reset-cleaning-box-bundle"
           }
         }
       },
@@ -495,7 +495,7 @@
             "text": "",
             "image_label": "",
             "link_label": "Kitchen Reset",
-            "link": "shopify://products/brimm-kitchen-reset-cleaning-box"
+            "link": "shopify://products/brimm-kitchen-reset-cleaning-box-bundle"
           }
         }
       },
