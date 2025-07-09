@@ -476,7 +476,8 @@
       "#customer-portal-root .customer-info__section {border-radius: 0; border: 1px solid black; padding: 24px;}",
       "#customer-portal-root .active-subscription {border-radius: 0; box-shadow: none; margin-bottom: 1rem; border: 1px solid black;}",
       "#customer-portal-root .active-subscription__action {border-top: 1px solid #e1e1e1; background: black; color: white; padding: 0.5rem 1rem;}",
-      "#customer-portal-root .active-subscription__action span {color: white;}"
+      "#customer-portal-root .active-subscription__action span {color: white;}",
+      ".a8x1wuw {stroke: #6f1d20!important;}"
     ]
   }
 }
