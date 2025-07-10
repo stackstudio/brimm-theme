@@ -19,7 +19,7 @@
       endif
 
       assign show_dynamic_checkout = false
-      if block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
+      if block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false and product.handle != 'founder-member-with-box'
         assign show_dynamic_checkout = true
       endif
     -%}
@@ -50,7 +50,6 @@
           name="id"
           value="{{ product.selected_or_first_available_variant.id }}"
 
-
           {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout or product.selected_or_first_available_variant == null %}
           disabled
           {% endif %}
@@ -78,7 +77,6 @@
             type="submit"
             name="add"
             class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
-
 
             {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout or product.selected_or_first_available_variant == null %}
             disabled
