@@ -23,7 +23,6 @@
         assign show_dynamic_checkout = true
       endif
     -%}
-
     <product-form
       class="product-form"
       data-hide-errors="{{ gift_card_recipient_feature_active }}"
@@ -49,8 +48,6 @@
           type="hidden"
           name="id"
           value="{{ product.selected_or_first_available_variant.id }}"
-
-
           {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout or product.selected_or_first_available_variant == null %}
           disabled
           {% endif %}
@@ -78,8 +75,6 @@
             type="submit"
             name="add"
             class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
-
-
             {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout or product.selected_or_first_available_variant == null %}
             disabled
             {% endif %}>
@@ -100,7 +95,7 @@
             </span>
             {%- render 'loading-spinner' -%}
           </button>
-          {%- if show_dynamic_checkout -%}
+          {%- if show_dynamic_checkout and product.handle != 'founder-member-with-box' -%}
             {{ form | payment_button }}
           {%- endif -%}
         </div>
