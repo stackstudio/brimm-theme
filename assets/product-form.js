@@ -31,6 +31,19 @@ if (!customElements.get('product-form')) {
         };
 
         this.planRadios = document.getElementsByName('purchase_option');
+        this.planRadios.forEach((radio) => {
+          radio.addEventListener('change', this.onPlanChange.bind(this));
+        });
+      }
+
+      onPlanChange(evt) {
+        const selectedOption = evt.target.value;
+        const shopPayButtons = document.querySelector('.shop_pay-buttons');
+        if (selectedOption === 'explorer' || selectedOption === 'supporter') {
+          shopPayButtons.classList.add('hidden');
+        } else {
+          shopPayButtons.classList.remove('hidden');
+        }
       }
 
       async onSubmitHandler(evt) {
