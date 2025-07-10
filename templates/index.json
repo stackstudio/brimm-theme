@@ -179,71 +179,6 @@
         "color_scheme": "scheme-3"
       }
     },
-    "flush_columns_cYTaw6": {
-      "type": "flush-columns",
-      "blocks": {
-        "column_NdQMPf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Chris_Abatzis_Photos_7_88296c10-a71d-49e9-a598-bc51fa1ab379.jpg",
-            "title": "Style",
-            "text": "",
-            "link_label": "",
-            "desaturate": false,
-            "link": ""
-          }
-        },
-        "column_txAt4X": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Skin_Deep_Daniel_Faro_ID_4263.jpg",
-            "title": "health",
-            "text": "",
-            "link_label": "",
-            "desaturate": false,
-            "link": ""
-          }
-        },
-        "column_wgz7mw": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Lost_Jelly_Luise_Photos.jpg",
-            "title": "ENVIRONMENTAL",
-            "text": "",
-            "link_label": "",
-            "desaturate": false,
-            "link": ""
-          }
-        },
-        "column_WFzWd8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Chris_Abatzis_Photos_9.jpg",
-            "title": "SOCIAL",
-            "text": "",
-            "link_label": "",
-            "desaturate": false,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_NdQMPf",
-        "column_txAt4X",
-        "column_wgz7mw",
-        "column_WFzWd8"
-      ],
-      "name": "Flush Columns",
-      "settings": {
-        "title": "WE CURATE AND VET EVERYTHING WE FEATURE",
-        "text_block": "Every brand and product is thoughtfully selected for design, impact and joy. No greenwashing. Just better living",
-        "columns_desktop": 4,
-        "button_label": "Discover more",
-        "button_link": "shopify://pages/curation-and-vetting",
-        "no_top": false,
-        "color_scheme": ""
-      }
-    },
     "logo_scroller_DU3FL7": {
       "type": "logo-scroller",
       "blocks": {
@@ -315,6 +250,71 @@
       ],
       "name": "Logo Scroller",
       "settings": {
+        "color_scheme": ""
+      }
+    },
+    "flush_columns_cYTaw6": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_NdQMPf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_7_88296c10-a71d-49e9-a598-bc51fa1ab379.jpg",
+            "title": "Style",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_txAt4X": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Skin_Deep_Daniel_Faro_ID_4263.jpg",
+            "title": "health",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_wgz7mw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lost_Jelly_Luise_Photos.jpg",
+            "title": "ENVIRONMENT",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_WFzWd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Chris_Abatzis_Photos_9.jpg",
+            "title": "SOCIAL",
+            "text": "",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NdQMPf",
+        "column_txAt4X",
+        "column_wgz7mw",
+        "column_WFzWd8"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "WE CURATE AND VET EVERYTHING WE FEATURE",
+        "text_block": "Every brand and product is thoughtfully selected for design, impact and joy. No greenwashing. Just better living",
+        "columns_desktop": 4,
+        "button_label": "Discover more",
+        "button_link": "shopify://pages/curation-and-vetting",
+        "no_top": false,
         "color_scheme": ""
       }
     },
@@ -605,8 +605,8 @@
     "stacked_hero_xxPi8q",
     "multicolumn_simple_cCpCQn",
     "text_banner_PdFGD4",
-    "flush_columns_cYTaw6",
     "logo_scroller_DU3FL7",
+    "flush_columns_cYTaw6",
     "multicolumn_simple_iNMR3b",
     "multicolumn_simple_UKDfAn",
     "member_packages_DXnQLz",

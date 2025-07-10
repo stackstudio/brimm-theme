@@ -78,7 +78,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Lost_Jelly_Luise_Photos.jpg",
-            "title": "environmental",
+            "title": "environment",
             "text": "",
             "link_label": "",
             "desaturate": false,
