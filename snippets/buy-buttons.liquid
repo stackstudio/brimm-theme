@@ -96,7 +96,9 @@
             {%- render 'loading-spinner' -%}
           </button>
           {%- if show_dynamic_checkout and product.handle != 'founder-member-with-box' -%}
-            {{ form | payment_button }}
+            <div class="shop_pay-buttons">
+              {{ form | payment_button }}
+            </div>
           {%- endif -%}
         </div>
       {%- endform -%}
