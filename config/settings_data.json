@@ -189,6 +189,11 @@
           "log_level": "error",
           "feature_flags": ""
         }
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -477,7 +482,7 @@
       "#customer-portal-root .active-subscription {border-radius: 0; box-shadow: none; margin-bottom: 1rem; border: 1px solid black;}",
       "#customer-portal-root .active-subscription__action {border-top: 1px solid #e1e1e1; background: black; color: white; padding: 0.5rem 1rem;}",
       "#customer-portal-root .active-subscription__action span {color: white;}",
-      ".a8x1wuw {stroke: #6f1d20!important;}"
+      ".a8x1wuw {stroke: #6f1d20 !important;}"
     ]
   }
 }
