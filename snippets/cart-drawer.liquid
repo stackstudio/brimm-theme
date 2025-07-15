@@ -115,7 +115,7 @@
 
                   <tbody role="rowgroup">
                     {%- for item in cart.items -%}
-                      {% if item.title contains 'Reset Box' %}
+                      {% if item.title contains 'Reset Box' or item.title contains 'Founder Member' %}
                         {% assign has_reset_box_item = true %}
                       {% endif %}
                       <tr
