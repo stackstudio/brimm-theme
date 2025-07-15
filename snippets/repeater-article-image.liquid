@@ -1,5 +1,8 @@
 <section class='image-section__wrapper repeater-image scroll-trigger animate--slide-in {% if item.portrait == true %} page-width--narrow repeater-image__center{% endif %}'>
   {%- if item.image -%}
+    {% comment %} set image alt text {% endcomment %}
+    {%- assign image_alt = item.image.value.alt | default: item.image.value.alt | default: item.credit | prepend: 'Image created by ' -%}
+    {%- assign image_alt = image_alt | escape -%}
     <div class='{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}'>
       <div
         class='repeater-image__adapt{% if item.image.value %} media-fit-cover{% endif %}'
@@ -18,8 +21,13 @@
           sizes="(max-width: 600px) 300px, (max-width: 1200px) 600px, 1200px"
           width="1200"
           height="800"
-          alt="test" />
+          alt="{{ image_alt }}" />
       </div>
+    </div>
+    <div class="repeater-image__caption">
+      {%- if item.credit != blank -%}
+        <span class="repeater-image__caption-text body-medium-12">{{ item.credit }}</span>
+      {%- endif -%}
     </div>
   {%- endif -%}
 </section>
@@ -37,6 +45,15 @@
   .image-section__wrapper {
     margin: 6rem 0 0;
     width: 100%;
+  }
+
+  .repeater-image__caption {
+    padding: 0 2rem;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    z-index: 100;
+    position: relative;
   }
 
   @media screen and (min-width: 750px) {
