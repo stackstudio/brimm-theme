@@ -73,7 +73,7 @@
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "cover",
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "columns",
         "media_position": "left",
         "image_zoom": "hover",
         "mobile_thumbnails": "hide",
