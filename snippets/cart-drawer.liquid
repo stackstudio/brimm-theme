@@ -504,10 +504,6 @@
             {%- endif -%}
           </div>
 
-          {%- if has_reset_box_item -%}
-            <h3 class="totals__total">Pre-order now for estimated dispatch from 18th July</h3>
-          {%- endif -%}
-
           <div class="totals" role="status">
             <h2 class="totals__total">{{ 'sections.cart.estimated_total' | t }}</h2>
             <p class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
