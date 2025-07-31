@@ -98,6 +98,7 @@
         "columns_desktop": 3,
         "button_label": "Become a member",
         "button_link": "shopify://pages/membership",
+        "no_top": false,
         "color_scheme": ""
       }
     },
@@ -150,6 +151,7 @@
         "text_UPcU7w",
         "cta_button_TtFag9"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
@@ -158,7 +160,7 @@
         "wider": false,
         "padded": false,
         "video_embed": "",
-        "wide_image": "shopify://shop_images/Copson_London_Photos.jpg",
+        "wide_image": "shopify://shop_images/Common_Ground_event_Copson_London_Photos.jpg",
         "color_scheme": "scheme-3"
       }
     },
