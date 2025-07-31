@@ -127,18 +127,21 @@
       "blocks": {
         "heading_TNNyUX": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading_text": "Common ground screening"
           }
         },
         "text_UPcU7w": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "copy": "<p>Join us for an exclusive screening of this excellent documentary investigating regenerative farming practices and here from a panel of BRiMM brands.</p>"
           }
         },
         "cta_button_TtFag9": {
           "type": "cta_button",
+          "disabled": true,
           "settings": {
             "label": "Learn more",
             "link": "shopify://blogs/events/common-ground-film-screening-and-panel-discussion",
