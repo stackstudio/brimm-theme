@@ -122,51 +122,6 @@
         "color_scheme": "scheme-3"
       }
     },
-    "stacked_hero_QaD3X3": {
-      "type": "stacked-hero",
-      "blocks": {
-        "heading_TNNyUX": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading_text": "Common ground screening"
-          }
-        },
-        "text_UPcU7w": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "copy": "<p>Join us for an exclusive screening of this excellent documentary investigating regenerative farming practices and here from a panel of BRiMM brands.</p>"
-          }
-        },
-        "cta_button_TtFag9": {
-          "type": "cta_button",
-          "disabled": true,
-          "settings": {
-            "label": "Learn more",
-            "link": "shopify://blogs/events/common-ground-film-screening-and-panel-discussion",
-            "style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_TNNyUX",
-        "text_UPcU7w",
-        "cta_button_TtFag9"
-      ],
-      "disabled": true,
-      "name": "Stacked Hero",
-      "settings": {
-        "two_image": false,
-        "full_screen": true,
-        "invert": false,
-        "wider": false,
-        "padded": false,
-        "video_embed": "",
-        "wide_image": "shopify://shop_images/Common_Ground_event_Copson_London_Photos.jpg",
-        "color_scheme": "scheme-3"
-      }
-    },
     "stacked_hero_cgBAJi": {
       "type": "stacked-hero",
       "blocks": {
@@ -257,7 +212,6 @@
     "stacked_hero_6XrCb8",
     "flush_columns_6dwDNR",
     "justified_header_section_XYt8hK",
-    "stacked_hero_QaD3X3",
     "stacked_hero_cgBAJi",
     "stacked_hero_6pkEf6"
   ]
