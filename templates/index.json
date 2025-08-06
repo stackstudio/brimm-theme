@@ -400,14 +400,14 @@
         "column_fM33pr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Brimm_Event_1_Assets.png",
+            "image": "shopify://shop_images/FIELD_DAY_WITH_BRITISH_PASTURE_LEATHER.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
-            "title": "Common Ground Screening 23rd July",
-            "text": "<p>Enjoy a private screening of the regenerative agriculture documentary Common Ground, followed by drinks and panel discussion</p>",
+            "title": "Field Day with British Pasture Leather",
+            "text": "<p>A full-day immersive experience exploring regenerative farming, biodiversity and leather production with British Pasture Leather in Hertfordshire.</p><p>Details coming soon</p>",
             "image_label": "",
-            "link_label": "View Event",
+            "link_label": "",
             "link": "shopify://pages/common-ground-film-screening-and-panel-discussion"
           }
         },
