@@ -178,15 +178,14 @@
         "text_pDVWWz": {
           "type": "text",
           "settings": {
-            "copy": "<p>Coming soon - join us for a day out on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather</p>"
+            "copy": "<p>Join us for a day out on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather</p>"
           }
         },
         "cta_button_wNLCc6": {
           "type": "cta_button",
-          "disabled": true,
           "settings": {
-            "label": "Learn more",
-            "link": "shopify://blogs/events/join-us-for-a-field-trip-to-a-regenerative-farm",
+            "label": "Member priority access",
+            "link": "https://www.tickettailor.com/events/brimm/1809111",
             "style": "primary"
           }
         }
