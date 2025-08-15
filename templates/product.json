@@ -91,18 +91,10 @@
             "page": ""
           }
         },
-        "text_JTY4Bm": {
-          "type": "text",
+        "product_accreditations_hwJxcX": {
+          "type": "product-accreditations",
           "settings": {
-            "text": "Accreditations and Attributes",
-            "text_style": "subtitle"
-          }
-        },
-        "text_tM8Gex": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.product_accreditation_text.value }}",
-            "text_style": "body"
+            "accreditations_text": "Accreditations Text"
           }
         }
       },
@@ -119,8 +111,7 @@
         "collapsible_tab_yeR46g",
         "collapsible_tab_zEfyXy",
         "collapsible_tab_3eeYm3",
-        "text_JTY4Bm",
-        "text_tM8Gex"
+        "product_accreditations_hwJxcX"
       ],
       "settings": {
         "enable_sticky_info": true,
