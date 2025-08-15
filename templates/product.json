@@ -23,15 +23,11 @@
           "type": "title",
           "settings": {}
         },
-        "description_LRfyUQ": {
-          "type": "description",
-          "settings": {}
-        },
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text": "{{ product.metafields.custom.tagline.value }}",
+            "text_style": "body"
           }
         },
         "price": {
@@ -47,6 +43,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
@@ -55,17 +52,67 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
+        },
+        "description_LRfyUQ": {
+          "type": "description",
+          "settings": {}
+        },
+        "text_Nt9Kg4": {
+          "type": "text",
+          "settings": {
+            "text": "Dive in",
+            "text_style": "subtitle"
+          }
+        },
+        "collapsible_tab_yeR46g": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why it's BRiMM",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.why_this_brings_us_joy | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_zEfyXy": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.ingredients | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_3eeYm3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "text_JTY4Bm": {
+          "type": "text",
+          "settings": {
+            "text": "Accreditations and Attributes",
+            "text_style": "subtitle"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "description_LRfyUQ",
         "caption",
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "description_LRfyUQ",
+        "text_Nt9Kg4",
+        "collapsible_tab_yeR46g",
+        "collapsible_tab_zEfyXy",
+        "collapsible_tab_3eeYm3",
+        "text_JTY4Bm"
       ],
       "settings": {
         "enable_sticky_info": true,
