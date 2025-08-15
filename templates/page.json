@@ -213,21 +213,20 @@
         "heading_YELrLj": {
           "type": "heading",
           "settings": {
-            "heading_text": "learn how to mend your clothes"
+            "heading_text": "stitch & bitch"
           }
         },
         "text_i6eVxQ": {
           "type": "text",
           "settings": {
-            "copy": "<p>Coming soon - join sustainable fashion pioneer, Orsola de Castro for a stitch n bitch - a hands on experience learning how to mend your clothes while hearing about the state of the fashion industry</p>"
+            "copy": "<p>Led by iconic fashion disruptor Orsola de Castro, co-founder of Fashion Revolution, this evening explores the quiet radicalism of visual mending over a shared table.</p>"
           }
         },
         "cta_button_9xewyA": {
           "type": "cta_button",
-          "disabled": true,
           "settings": {
-            "label": "Learn more",
-            "link": "shopify://blogs/events/stitch-bitch-sip-a-hands-on-workshop-with-orsola-de-castro-at-her-peckham-cafe",
+            "label": "Member priority access",
+            "link": "https://buytickets.at/brimm/1809684",
             "style": "primary"
           }
         }
