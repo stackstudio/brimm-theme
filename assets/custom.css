@@ -355,6 +355,46 @@ body.sticky-header {
   }
 }
 
+/* NEW PDP */
+.product__info-container .product__text.caption-with-letter-spacing {
+    letter-spacing: 0;
+    text-transform: none;
+    font-family: 'Bespoke Serif';
+    font-weight: 300;
+    font-style: italic;
+}
+
+.product__title {
+    margin-bottom: var(--space-xs);
+}
+
+.product__title + .product__text.inline-richtext {
+    font-size: var(--step-3);
+    margin-top: var(--space-2xs);
+}
+
+variant-selects .product-form__input {
+    max-width: 100%;
+}
+
+.product__tax {
+    display: none;
+}
+
+.form__label {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: var(--step-2);
+}
+
+.product__text.inline-richtext.subtitle {
+    font-family: 'Manrope';
+    font-weight: 800;
+    color: black;
+    letter-spacing: 0;
+    font-size: var(--step-3);
+}
+
 .border-link {
   padding-top: var(--space-xs);
   margin-top: var(--space-m);

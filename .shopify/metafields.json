@@ -525,7 +525,7 @@
     {
       "key": "why_this_brings_us_joy",
       "namespace": "custom",
-      "name": "Why this brings us joy",
+      "name": "Why It's BRiMM",
       "description": "Why this product brings us joy text area",
       "type": {
         "name": "rich_text_field",
@@ -720,6 +720,16 @@
       "type": {
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "tagline",
+      "namespace": "custom",
+      "name": "Tagline",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
       }
     }
   ],

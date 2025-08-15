@@ -552,7 +552,7 @@ a.product__text {
 
 @media screen and (min-width: 990px) {
   .product--stacked .product__media-item {
-    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: calc(32.5% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product:not(.product--columns)
