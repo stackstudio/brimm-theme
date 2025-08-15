@@ -97,6 +97,13 @@
             "text": "Accreditations and Attributes",
             "text_style": "subtitle"
           }
+        },
+        "text_tM8Gex": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.product_accreditation_text.value }}",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -112,7 +119,8 @@
         "collapsible_tab_yeR46g",
         "collapsible_tab_zEfyXy",
         "collapsible_tab_3eeYm3",
-        "text_JTY4Bm"
+        "text_JTY4Bm",
+        "text_tM8Gex"
       ],
       "settings": {
         "enable_sticky_info": true,
