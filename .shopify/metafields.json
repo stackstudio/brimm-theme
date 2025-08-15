@@ -611,6 +611,116 @@
         "name": "rich_text_field",
         "category": "TEXT"
       }
+    },
+    {
+      "key": "scent",
+      "namespace": "shopify",
+      "name": "Scent",
+      "description": "Specifies the fragrance or aroma of a product, such as vanilla or citrus",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "packing-materials-included",
+      "namespace": "shopify",
+      "name": "Packing materials included",
+      "description": "Identifies the type of packing materials provided, like air pillows or bubble wrap",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "tea-input-type",
+      "namespace": "shopify",
+      "name": "Tea input type",
+      "description": "Specifies the preparation style of tea, e.g. bags, K-cups",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "flavor",
+      "namespace": "shopify",
+      "name": "Flavor",
+      "description": "Specifies the taste or flavor of a product, e.g. vanilla, mint",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "rating",
+      "namespace": "reviews",
+      "name": "Product rating",
+      "description": "Average rating from customers",
+      "type": {
+        "name": "rating",
+        "category": "RATING"
+      }
+    },
+    {
+      "key": "rating_count",
+      "namespace": "reviews",
+      "name": "Product rating count",
+      "description": "Total number of ratings from customers",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "application-method",
+      "namespace": "shopify",
+      "name": "Application method",
+      "description": "Defines how a product is applied or used, e.g. gel, liquid, spray",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "washing-method",
+      "namespace": "shopify",
+      "name": "Washing method",
+      "description": "Specifies the recommended cleaning process for a product, e.g. hand washing, machine washing ",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "laundry-detergent-features",
+      "namespace": "shopify",
+      "name": "Laundry detergent features",
+      "description": "Describes special characteristics of laundry detergent, like color protection or stain removal",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "material",
+      "namespace": "shopify",
+      "name": "Material",
+      "description": "Defines a product's primary material, such as cotton or wool",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "nut-butter-variety",
+      "namespace": "shopify",
+      "name": "Nut butter variety",
+      "description": "Identifies the nut variety in nut-based spreads, e.g. peanut, almond",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
     }
   ],
   "variant": [
