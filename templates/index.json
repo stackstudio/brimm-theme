@@ -419,10 +419,10 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "stitch & bitch workshop",
-            "text": "<p>Join Orsola de Castro, a sustainable fashion pioneer, in an intimate evening learning how to repair your clothes and discussing the fashion industry</p><p>Details coming soon</p>",
+            "text": "<p>Led by iconic fashion disruptor Orsola de Castro, co-founder of Fashion Revolution, this evening explores the quiet radicalism of visual mending over a shared table.</p>",
             "image_label": "",
-            "link_label": "",
-            "link": "shopify://pages/join-brimm-british-pasture-leather-for-a-regenerative-farming-field-day-like-no-other"
+            "link_label": "Member priority access",
+            "link": "https://buytickets.at/brimm/1809684"
           }
         }
       },
