@@ -776,8 +776,16 @@
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
               {%- when 'product-accreditations' -%}
-                <p class="product__text inline-richtext subtitle">Accreditations and Attributes</p>
-                <p class="product__text inline-richtext">{{ product.metafields.custom.product_accreditation_text }}</p>
+                {% if product.metafields.custom.product_accreditation_text != blank %}
+                    <p class="product__text inline-richtext subtitle">Accreditations and Attributes</p>
+                    <p class="product__text inline-richtext">{{ product.metafields.custom.product_accreditation_text }}</p>
+                    <div class="product-accreditation-logos">
+                        HI
+                        {% for image in product.metafields.custom.product_accreditation_logos %}
+                            <img src="{{ image | image_url: width: 200 }}" alt="{{ image.alt | escape }}" />
+                        {% endfor %}
+                    </div>
+                {% endif %}
             {%- endcase -%}
           {%- endfor -%}
           <a href='{{ product.url }}' class='link product__view-details animate-arrow'>
