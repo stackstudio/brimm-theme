@@ -777,7 +777,7 @@
                 {% render 'icon-with-text', block: block %}
               {%- when 'product-accreditations' -%}
                 <p class="product__text inline-richtext subtitle">Accreditations and Attributes</p>
-                <p class="product__text inline-richtext">{{ product.custom.product_accreditation_text }}</p>
+                <p class="product__text inline-richtext">{{ product.metafields.custom.product_accreditation_text }}</p>
             {%- endcase -%}
           {%- endfor -%}
           <a href='{{ product.url }}' class='link product__view-details animate-arrow'>
