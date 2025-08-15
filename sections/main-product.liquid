@@ -775,6 +775,9 @@
                 </product-recommendations>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
+              {%- when 'product-accreditations' -%}
+                <p class="product__text inline-richtext subtitle">Accreditations and Attributes</p>
+                <p class="product__text inline-richtext">{{ product.custom.product_accreditation_text }}</p>
             {%- endcase -%}
           {%- endfor -%}
           <a href='{{ product.url }}' class='link product__view-details animate-arrow'>
@@ -2189,6 +2192,18 @@
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
         }
       ]
+    },
+    {
+        "type": "product-accreditations",
+        "name": "Accreditations",
+        "settings": [
+            {
+              "type": "text",
+              "id": "accreditations_text",
+              "default": "Accreditations Text",
+              "label": "Accreditations Text"
+            },
+        ]
     }
   ],
   "settings": [
