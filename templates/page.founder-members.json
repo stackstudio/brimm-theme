@@ -121,7 +121,7 @@
           "type": "column",
           "settings": {
             "title": "Member",
-            "content": "<ul><li>Support high-quality writing</li><li>Priority access to events</li><li>Give 10% to the Planet Fund with each purchase</li><li>Save 20% on Reset Boxes</li><li>Earn 10% cashback with each purchase*</li></ul>",
+            "content": "<ul><li>20% off Reset Boxes</li><li>Earn 10% cashback when you shop*</li><li>Up to 50% off events and get priority access</li><li>Fund climate action with every purchase</li><li>Support high-quality writing</li></ul>",
             "yearly_price": "£120",
             "monthly_price": "£12",
             "button_label_monthly": "Pay Monthly",
@@ -133,7 +133,7 @@
           "type": "column",
           "settings": {
             "title": "Supporter",
-            "content": "<ul><li>Support high-quality writing</li><li>Early access to events</li><li>Give 10% to the Planet Fund with each purchase</li></ul>",
+            "content": "<ul><li>Fund climate action with every purchase</li><li>Support high-quality writing</li></ul>",
             "yearly_price": "£60",
             "monthly_price": "£6",
             "button_label_monthly": "Pay Monthly",
