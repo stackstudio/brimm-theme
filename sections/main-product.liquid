@@ -596,6 +596,12 @@
                     block: block
                   -%}
                 </div>
+              {%- when 'shipping_info' -%}
+                <div class='shipping-info'>
+                    <svg></svg>
+                    <p>Free delivery on orders over £50<br />
+                    Standard delivery £5</p>
+                </div>
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class='rating-wrapper'>
@@ -1051,6 +1057,10 @@
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.info"
         }
       ]
+    }{
+      "type": "shipping_info",
+      "name": "Shipping Info",
+      "limit": 1,
     },
     {
       "type": "description",
