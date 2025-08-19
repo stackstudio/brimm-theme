@@ -598,9 +598,8 @@
                 </div>
               {%- when 'shipping_info' -%}
                 <div class='shipping-info'>
-                    <svg></svg>
-                    <p>Free delivery on orders over £50<br />
-                    Standard delivery £5</p>
+                    {% render 'icon-truck' %}
+                    <p>{{ block.settings.shipping_text | escape | newline_to_br }}</p>
                 </div>
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}

@@ -30,6 +30,24 @@ product-info {
     }
 }
 
+.product__info-container > .shipping-info {
+    display: flex;
+    align-items: center;
+    gap: var(--space-l);
+    padding: var(--space-m);
+    background: #FDFAFF;
+    border: 1px solid #EDE7F1;
+    margin-top: -1.5rem;
+    p {
+        margin: 0;
+        line-height: 1.1;
+    }
+}
+
+.shipping-info svg {
+    width: 24px;
+}
+
 @media screen and (min-width: 750px) {
   .product__column-sticky {
     display: block;
