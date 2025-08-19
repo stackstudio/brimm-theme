@@ -59,13 +59,6 @@
             "shipping_text": "Free delivery on orders over £50\nStandard delivery £5"
           }
         },
-        "popup_ngR3RV": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": "ten-percent-for-the-planet"
-          }
-        },
         "description_LRfyUQ": {
           "type": "description",
           "settings": {}
@@ -120,7 +113,6 @@
         "quantity_selector",
         "buy_buttons",
         "shipping_info_xpaK7r",
-        "popup_ngR3RV",
         "description_LRfyUQ",
         "text_Nt9Kg4",
         "collapsible_tab_yeR46g",
