@@ -604,7 +604,9 @@
               {%- when 'membership_info' -%}
                 <div class='membership-info'>
                     {% render 'icon-cashback' %}
-                    <p>{{ block.settings.membership_text }}</p>
+                    <div>
+                      {{ block.settings.membership_text }}
+                    </div>
                 </div>
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}

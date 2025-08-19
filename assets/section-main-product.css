@@ -30,7 +30,7 @@ product-info {
     }
 }
 
-.product__info-container > .shipping-info {
+.product__info-container > .shipping-info, .product__info-container > .membership-info  {
     display: flex;
     align-items: center;
     gap: var(--space-l);
@@ -44,7 +44,27 @@ product-info {
     }
 }
 
-.shipping-info svg {
+.product__info-container > .membership-info {
+    /*flex-direction: column;*/
+    align-items: start;
+    margin-top: 1.5rem;
+    background: #E3B2FF;
+    color: #6E1C20;
+    border: none;
+    strong {
+        font-family: 'Manrope', sans-serif;
+    }
+    ul {
+        margin-left: 0;
+        padding-left: var(--space-m);
+        margin-top: var(--space-s);
+    }
+    svg path {
+        fill: #6E1C20;
+    }
+}
+
+.shipping-info svg, .membership-info svg  {
     width: 24px;
 }
 
