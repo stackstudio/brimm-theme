@@ -601,6 +601,11 @@
                     {% render 'icon-truck' %}
                     <p>{{ block.settings.shipping_text | escape | newline_to_br }}</p>
                 </div>
+              {%- when 'membership_info' -%}
+                <div class='membership-info'>
+                    {% render 'icon-cashback' %}
+                    <p>{{ block.settings.membership_text }}</p>
+                </div>
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class='rating-wrapper'>
@@ -2240,6 +2245,17 @@
               "label": "Accreditations Text"
             },
         ]
+    },
+    {
+      "type": "membership_info",
+      "name": "Membership Info",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "membership_text",
+          "label": "Membership Text",
+        }
+      ]
     }
   ],
   "settings": [
