@@ -395,6 +395,34 @@ variant-selects .product-form__input {
     font-size: var(--step-3);
 }
 
+.product-quote {
+    font-size: var(--step-4);
+    line-height: 1.2;
+    font-style: italic;
+    margin-bottom: 0;
+    color: #6E1C20;
+    position: relative;
+    padding-left: 7rem;
+    margin-top: var(--space-xl);
+    &:before {
+        content: '“';
+        position: absolute;
+        left: 0;
+        font-size: 120px;
+        line-hneight: .6;
+        top: -40px;
+    }
+}
+
+.quote-cite {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: var(--step-3);
+    color: #6E1C20;
+    padding-left: 7rem;
+    margin-top: var(--space-s);;
+}
+
 .border-link {
   padding-top: var(--space-xs);
   margin-top: var(--space-m);

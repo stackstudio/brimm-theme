@@ -75,6 +75,8 @@
     >
   {%- endif -%}
 
+  {% assign logos = product.metafields.custom.product_accreditation_logos %}
+
   {% liquid
     assign collections = product.collections | where: 'handle', section.settings.related_products_collection_handle | first
     assign customer_loggedin = false
@@ -88,6 +90,14 @@
     <div class='product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}'>
       <div class='grid__item product__media-wrapper'>
         {% render 'product-media-gallery', variant_images: variant_images %}
+        {% if product.metafields.custom.product_quote != blank %}
+            <div>
+                <p class="product-quote">{{ product.metafields.custom.product_quote }}</p>
+                {% if product.metafields.custom.product_quote_citation != blank %}
+                    <p class="quote-cite">— {{ product.metafields.custom.product_quote_citation }}</p>
+                {% endif %}
+            </div>
+        {% endif %}
       </div>
       <div class='product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
         <section
@@ -779,12 +789,13 @@
                 {% if product.metafields.custom.product_accreditation_text != blank %}
                     <p class="product__text inline-richtext subtitle">Accreditations and Attributes</p>
                     <p class="product__text inline-richtext">{{ product.metafields.custom.product_accreditation_text }}</p>
-                    <div class="product-accreditation-logos">
-                        HI
-                        {% for image in product.metafields.custom.product_accreditation_logos %}
-                            <img src="{{ image | image_url: width: 200 }}" alt="{{ image.alt | escape }}" />
-                        {% endfor %}
-                    </div>
+                    {% if product.metafields.custom.accreditation_tags != blank %}
+                        <div class="product-accreditation-tags">
+                            {%- for tag in product.metafields.custom.accreditation_tags.value -%}
+                              <div class="badge">{{ tag }}</div>
+                            {%- endfor -%}
+                        </div>
+                    {% endif %}
                 {% endif %}
             {%- endcase -%}
           {%- endfor -%}

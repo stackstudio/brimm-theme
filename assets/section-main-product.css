@@ -19,11 +19,20 @@ product-info {
   padding-left: 0;
 }
 
+.product-accreditation-tags {
+    display: flex;
+    gap: var(--space-s);
+    .badge {
+        font-family: 'Manrope', sans-serif;
+        font-size: var(--step-2);
+        padding: var(--space-s) var(--space-m);
+        font-weight: 540;
+    }
+}
+
 @media screen and (min-width: 750px) {
   .product__column-sticky {
     display: block;
-    position: sticky;
-    top: 3rem;
     z-index: 2;
   }
 
