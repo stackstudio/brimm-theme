@@ -92,6 +92,7 @@
         "column_bzLtmK",
         "column_fMAzAr"
       ],
+      "disabled": true,
       "name": "Simple Multicolumn",
       "settings": {
         "title": "what to expect",
