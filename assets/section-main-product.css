@@ -47,12 +47,19 @@ product-info {
 .product__info-container > .membership-info {
     /*flex-direction: column;*/
     align-items: start;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     background: #E3B2FF;
     color: #6E1C20;
     border: none;
+    padding: var(--space-l) var(--space-m);
+    a {
+        font-weight: 540;
+        color: inherit;
+    }
     strong {
         font-family: 'Manrope', sans-serif;
+        font-size: var(--step-2);
+        font-weight: 760;
     }
     ul {
         margin-left: 0;
