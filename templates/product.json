@@ -53,6 +53,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "shipping_info_xpaK7r": {
+          "type": "shipping_info",
+          "settings": {
+            "shipping_text": "Free delivery on orders over £50\nStandard delivery £5"
+          }
+        },
         "description_LRfyUQ": {
           "type": "description",
           "settings": {}
@@ -106,6 +112,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "shipping_info_xpaK7r",
         "description_LRfyUQ",
         "text_Nt9Kg4",
         "collapsible_tab_yeR46g",
