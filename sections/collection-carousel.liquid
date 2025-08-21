@@ -1,0 +1,95 @@
+{% schema %}
+{
+  "name": "Collection + Product Carousel",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Select Collection"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Collection + Product Carousel"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="brimm-blocks--collection-carousel">
+  {% assign collection = collections[section.settings.collection] %}
+
+  {% if collection %}
+    <div class="collection-carousel-grid">
+      <!-- First Column: Collection info -->
+      <div class="collection-info">
+        {% if collection.image %}
+          <img src="{{ collection.image | img_url: '400x' }}" alt="{{ collection.title }}">
+        {% endif %}
+        <h2>{{ collection.title }}</h2>
+      </div>
+
+      <!-- Next three columns: products -->
+      <div class="collection-products">
+        <div class="product-carousel">
+          {% for product in collection.products %}
+            <div class="product-item">
+              <a href="{{ product.url }}">
+                {% if product.featured_image %}
+                  <img src="{{ product.featured_image | img_url: '400x' }}" alt="{{ product.title }}">
+                {% endif %}
+                <p>{{ product.title }}</p>
+                <p>{{ product.price | money }}</p>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<style>
+.brimm-blocks--collection-carousel .collection-carousel-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.brimm-blocks--collection-carousel .collection-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.brimm-blocks--collection-carousel .collection-products {
+  overflow: hidden;
+  position: relative;
+}
+
+.brimm-blocks--collection-carousel .product-carousel {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.5rem;
+}
+
+.brimm-blocks--collection-carousel .product-item {
+  flex: 0 0 calc(33.333% - 1rem);
+  scroll-snap-align: start;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  min-width: 200px;
+}
+
+.brimm-blocks--collection-carousel img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+</style>
