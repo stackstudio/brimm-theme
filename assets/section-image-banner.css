@@ -8,6 +8,7 @@
 
 .banner__box {
   text-align: center;
+  background: transparent;
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
@@ -203,14 +204,17 @@
   display: flex;
   position: relative;
   width: 100%;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-start;
   z-index: 2;
-}
-
-@media screen and (min-width: 750px) {
-  .banner__content {
-    padding: 5rem 12rem;
+  .headline-extra {
+      text-transform: capitalize;
+      color: white;
+      margin: 0;
+      font-size: var(--step-3);
+  }
+  .banner__buttons a {
+      padding: 0;
   }
 }
 
