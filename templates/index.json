@@ -51,6 +51,13 @@
         "color_scheme": ""
       }
     },
+    "collection_carousel_CxL7Pt": {
+      "type": "collection-carousel",
+      "name": "Collection Carousel",
+      "settings": {
+        "collection": "bathroom-reset-boxes"
+      }
+    },
     "stacked_hero_xxPi8q": {
       "type": "stacked-hero",
       "blocks": {
@@ -602,6 +609,7 @@
   },
   "order": [
     "stacked_hero_qme3YR",
+    "collection_carousel_CxL7Pt",
     "stacked_hero_xxPi8q",
     "multicolumn_simple_cCpCQn",
     "text_banner_PdFGD4",
