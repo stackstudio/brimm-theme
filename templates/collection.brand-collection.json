@@ -69,11 +69,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_kWbzKx": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% assign handles_string = collection.metafields.custom.linked_blog_posts_handles %}\n{% if handles_string != blank %}\n  {% assign handles_array = handles_string | split: ',' %}\n  <div class=\"collection-linked-blog-posts\">\n    <h4>Related Blog Posts</h4>\n    <ul>\n      {% for handle in handles_array %}\n        {% assign blog_post = blogs['journal'].articles[handle] %}\n        {% if blog_post %}\n          <li>\n            <a href=\"{{ blog_post.url }}\">{{ blog_post.title }}</a>\n            <p>{{ blog_post.excerpt | truncate: 120 }}</p>\n          </li>\n        {% endif %}\n      {% endfor %}\n    </ul>\n  </div>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "banner",
     "stacked_hero_tTUcXe",
-    "product-grid"
+    "product-grid",
+    "custom_liquid_kWbzKx"
   ]
 }
