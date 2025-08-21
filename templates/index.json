@@ -55,7 +55,10 @@
       "type": "collection-carousel",
       "name": "Collection Carousel",
       "settings": {
-        "collection": "featured"
+        "collection": "featured",
+        "custom_image": "shopify://shop_images/Clary_Sage_9854875b-cfd3-4e26-8a47-799948eb56ff.png",
+        "custom_title": "A Custom Scroller",
+        "custom_description": "This is my new custom scroller."
       }
     },
     "stacked_hero_xxPi8q": {
