@@ -1,0 +1,87 @@
+{% schema %}
+{
+  "name": "Multi-Collection Carousel",
+  "settings": [
+    {
+      "type": "collection_list",
+      "id": "collections",
+      "label": "Collections"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-Collection Carousel"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="brimm-blocks--multi-carousel" data-multi-carousel>
+  {% assign collections = section.settings.collections %}
+
+  {% if collections != blank %}
+    <!-- Tabs -->
+    <div class="collection-tabs">
+      {% for collection in collections %}
+        {% assign col = collections[collection] %}
+        {% if col %}
+          <button class="collection-tab" data-collection-handle="{{ col.handle }}">
+            {{ col.title }}
+          </button>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Tracks -->
+    {% for collection in collections %}
+      {% assign col = collections[collection] %}
+      {% if col %}
+        <div class="collection-products" data-collection="{{ col.handle }}" style="display:none;">
+          <div class="product-track">
+            {% for product in col.products %}
+              <div class="collection-carousel-card">
+                <a href="{{ product.url }}">
+                  {% if product.featured_image %}
+                    <div class="carousel-image-wrapper">
+                      <img class="carousel-image" src="{{ product.featured_image | img_url: '800x' }}" alt="{{ product.title }}">
+                    </div>
+                  {% endif %}
+                  <h3>{{ product.title }}</h3>
+                  <p>{{ product.price | money }}</p>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('[data-multi-carousel]').forEach(carousel => {
+    const tabs = carousel.querySelectorAll('.collection-tab');
+    const tracks = carousel.querySelectorAll('.collection-products');
+
+    function showCollection(handle) {
+      tracks.forEach(track => {
+        track.style.display = track.dataset.collection === handle ? '' : 'none';
+      });
+      tabs.forEach(tab => {
+        tab.disabled = (tab.dataset.collectionHandle === handle); // disables active tab
+      });
+    }
+
+    if (tabs.length) {
+      showCollection(tabs[0].dataset.collectionHandle); // show first collection by default
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        showCollection(tab.dataset.collectionHandle);
+      });
+    });
+  });
+});
+</script>
