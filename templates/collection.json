@@ -60,13 +60,6 @@
             "heading_size": "headline-extra"
           }
         },
-        "text_Wbhigp": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "buttons_ePwb8a": {
           "type": "buttons",
           "settings": {
@@ -81,7 +74,6 @@
       },
       "block_order": [
         "heading_LW6FGK",
-        "text_Wbhigp",
         "buttons_ePwb8a"
       ],
       "name": "t:sections.image-banner.presets.name",
