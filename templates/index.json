@@ -56,6 +56,7 @@
       "name": "Collection Carousel",
       "settings": {
         "collection": "featured",
+        "custom_image": "shopify://shop_images/Clary_Sage_7c58331e-31a6-4341-ad7c-a45715970498.png",
         "custom_title": "A Custom Scroller",
         "custom_description": "This is my new custom scroller."
       }
