@@ -731,6 +731,66 @@
         "name": "single_line_text_field",
         "category": "TEXT"
       }
+    },
+    {
+      "key": "product_accreditation_text",
+      "namespace": "custom",
+      "name": "Product Accreditation Text",
+      "description": "The intro text for this product's accreditation summary",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "accreditation_tags",
+      "namespace": "custom",
+      "name": "Accreditation Tags",
+      "description": "Show as tags in the 'accreditations' section of a product",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "product_quote",
+      "namespace": "custom",
+      "name": "Product Quote",
+      "description": "A quote to display in LHS of product page",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "product_quote_citation",
+      "namespace": "custom",
+      "name": "Product Quote Citation",
+      "description": "Who to cite for the product quote",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "sp_68a74c4aa26e2",
+      "namespace": "shipturtle",
+      "name": "Accreditations",
+      "description": null,
+      "type": {
+        "name": "list.url",
+        "category": "URL"
+      }
+    },
+    {
+      "key": "sp_68a74c6cc4ef3",
+      "namespace": "shipturtle",
+      "name": "Ingredients",
+      "description": null,
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "variant": [

@@ -1259,3 +1259,12 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 .newsletter-form__terms-label-text {
   font-size: var(--step-1);
 }
+
+.global-settings-popup, .header__submenu.global-settings-popup {
+    border: none;
+    box-shadow: none;
+    li {
+        padding: 0 var(--space-m);
+        font-family: 'Manrope', sans-serif;
+    }
+}

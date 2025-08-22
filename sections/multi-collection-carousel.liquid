@@ -17,13 +17,46 @@
 {% endschema %}
 
 <div class="brimm-blocks--multi-carousel" data-multi-carousel>
-  {% assign collections = section.settings.collections %}
 
-  {% if collections != blank %}
+  {% assign selected_collections = section.settings.collections %}
+
+  <div class="collection-tabs">
+    {% for col in selected_collections %}
+      <button class="collection-tab" data-collection-handle="{{ col.handle }}">
+        {{ col.title }}
+      </button>
+    {% endfor %}
+  </div>
+
+  {% for col in selected_collections %}
+    {% if col %}
+      <div class="collection-products" data-collection="{{ col.handle }}" style="display:none;">
+        <div class="product-track">
+          {% paginate col.products by 12 %}
+            {% for product in col.products %}
+              <div class="collection-carousel-card">
+                <a href="{{ product.url }}">
+                  {% if product.featured_image %}
+                    <div class="carousel-image-wrapper">
+                      <img class="carousel-image" src="{{ product.featured_image | img_url: '800x' }}" alt="{{ product.title }}">
+                    </div>
+                  {% endif %}
+                  <h3>{{ product.title }}</h3>
+                  <p>{{ product.price | money }}</p>
+                </a>
+              </div>
+            {% endfor %}
+          {% endpaginate %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+
+  {% if selected_collections != blank %}
     <!-- Tabs -->
     <div class="collection-tabs">
-      {% for collection in collections %}
-        {% assign col = collections[collection] %}
+      {% for handle in selected_collections %}
+        {% assign col = collections[handle] %}
         {% if col %}
           <button class="collection-tab" data-collection-handle="{{ col.handle }}">
             {{ col.title }}
@@ -33,8 +66,8 @@
     </div>
 
     <!-- Tracks -->
-    {% for collection in collections %}
-      {% assign col = collections[collection] %}
+    {% for handle in selected_collections %}
+      {% assign col = collections[handle] %}
       {% if col %}
         <div class="collection-products" data-collection="{{ col.handle }}" style="display:none;">
           <div class="product-track">
@@ -57,6 +90,114 @@
     {% endfor %}
   {% endif %}
 </div>
+
+<style>
+.brimm-blocks--multi-carousel {
+    padding: var(--space-3xl) var(--space-l);
+}
+.brimm-blocks--multi-carousel .collection-carousel-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: var(--space-m);
+  align-items: start;
+}
+
+.brimm-blocks--multi-carousel .collection-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.brimm-blocks--multi-carousel .collection-products {
+  overflow: hidden;
+  position: relative;
+}
+
+.brimm-blocks--multi-carousel .product-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(100% / 4);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.carousel-image-wrapper {
+    aspect-ratio: 3/4;
+}
+
+.carousel-image-wrapper.collection-card {
+    aspect-ratio: 5/8;
+    img {
+        aspect-ratio: 5/8;
+    }
+}
+
+.collection-carousel-card img {
+  object-fit: cover;
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 3/4;
+}
+
+.collection-carousel-card a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.collection-carousel-card p {
+    margin: 0;
+}
+
+.collection-carousel-card h3 {
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+.brimm-blocks--multi-carousel .product-carousel {
+  display: flex;
+  gap: var(--space-m);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.5rem;
+}
+
+.brimm-blocks--multi-carousel .product-item {
+  scroll-snap-align: start;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  min-width: 0; /* prevents overflow fighting */
+}
+
+.collection-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xl);
+    padding-bottom: var(--space-2xl);
+    button {
+        background: none;
+        -webkit-appearance: none;
+        border: none;
+        font-family: "Bespoke Serif", serif;
+        font-size: calc(var(--step-5) * 1.2);
+        font-weight: 340;
+        letter-spacing: -2px;
+        opacity: .6;
+        cursor: pointer;
+        color: #6E1C20;
+    }
+    button[disabled] {
+        opacity: 1;
+        color: #6E1C20;
+    }
+}
+
+</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
