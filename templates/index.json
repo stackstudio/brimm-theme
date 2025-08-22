@@ -56,9 +56,60 @@
       "name": "Collection Carousel",
       "settings": {
         "collection": "featured",
-        "custom_image": "shopify://shop_images/Clary_Sage_9854875b-cfd3-4e26-8a47-799948eb56ff.png",
         "custom_title": "A Custom Scroller",
         "custom_description": "This is my new custom scroller."
+      }
+    },
+    "multi_collection_carousel_AakLVY": {
+      "type": "multi-collection-carousel",
+      "name": "Multi-Collection Carousel",
+      "settings": {
+        "collections": [
+          "featured",
+          "reset-boxes",
+          "bathroom-reset-boxes"
+        ]
+      }
+    },
+    "image_banner_Pdxayc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zrqhB9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Full-bleed product callout",
+            "heading_size": "headline-extra"
+          }
+        },
+        "buttons_hwWkwc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop more",
+            "button_link_1": "shopify://collections/rollr",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zrqhB9",
+        "buttons_hwWkwc"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/The_Lab_Co_IMAGE-2_0ca0c649-dc04-476a-8510-e13229eb72d7.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "stacked_hero_xxPi8q": {
@@ -100,17 +151,6 @@
         "video_embed": "",
         "wide_image": "shopify://shop_images/Brimm_Web_Assets_10x10_7041e1c2-e4a6-4cac-bb5b-ff79f20b851c.png",
         "color_scheme": "scheme-2"
-      }
-    },
-    "multi_collection_carousel_AakLVY": {
-      "type": "multi-collection-carousel",
-      "name": "Multi-Collection Carousel",
-      "settings": {
-        "collections": [
-          "featured",
-          "reset-boxes",
-          "bathroom-reset-boxes"
-        ]
       }
     },
     "multicolumn_simple_cCpCQn": {
@@ -624,8 +664,9 @@
   "order": [
     "stacked_hero_qme3YR",
     "collection_carousel_CxL7Pt",
-    "stacked_hero_xxPi8q",
     "multi_collection_carousel_AakLVY",
+    "image_banner_Pdxayc",
+    "stacked_hero_xxPi8q",
     "multicolumn_simple_cCpCQn",
     "text_banner_PdFGD4",
     "logo_scroller_DU3FL7",
