@@ -34,7 +34,7 @@
           "settings": {
             "heading": "Why it's BRiMM",
             "icon": "none",
-            "content": "{{ product.metafields.custom.curation | metafield_tag }}",
+            "content": "{{ product.metafields.custom.why_this_brings_us_joy | metafield_tag }}",
             "page": ""
           }
         },
