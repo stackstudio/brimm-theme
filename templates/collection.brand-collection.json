@@ -97,6 +97,7 @@
         "invert": false,
         "wider": false,
         "padded": false,
+        "narrow_image": "{{ collection.metafields.custom.secondary_image.value }}",
         "video_embed": "",
         "wide_image": "{{ collection.metafields.custom.secondary_image.value }}",
         "color_scheme": ""
