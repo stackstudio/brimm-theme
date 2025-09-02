@@ -97,20 +97,9 @@
         "invert": false,
         "wider": false,
         "padded": false,
-        "narrow_image": "{{ collection.metafields.custom.secondary_image.value }}",
         "video_embed": "",
         "wide_image": "{{ collection.metafields.custom.secondary_image.value }}",
-        "color_scheme": ""
-      }
-    },
-    "custom_liquid_4bVBPH": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "{% assign handles_array = collection.metafields.custom.linked_blog_post_handles.value | parse_json %}\n\n<ul>\n{% for handle in handles_array %}\n  {% assign handle = handle | strip | remove: '\"' %}\n\n  {%- comment -%} Loop over all articles in the blog and find by handle {%- endcomment -%}\n  {% assign blog_post = null %}\n  {% for article in blogs['journal'].articles %}\n    {% if article.handle == handle %}\n      {% assign blog_post = article %}\n      {% break %}\n    {% endif %}\n  {% endfor %}\n\n  {% if blog_post %}\n    <li>\n      <a href=\"{{ blog_post.url }}\">{{ blog_post.title }}</a>\n      <p>{{ blog_post.excerpt | truncate: 120 }}</p>\n    </li>\n  {% else %}\n    <li><em>Blog post not found for handle \"{{ handle }}\"</em></li>\n  {% endif %}\n{% endfor %}\n</ul>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "color_scheme": "scheme-3"
       }
     }
   },
@@ -118,7 +107,6 @@
     "banner",
     "stacked_hero_tTUcXe",
     "product-grid",
-    "stacked_hero_Dxikt7",
-    "custom_liquid_4bVBPH"
+    "stacked_hero_Dxikt7"
   ]
 }
