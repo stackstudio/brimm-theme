@@ -16,6 +16,17 @@
           "type": "title",
           "settings": {}
         },
+        "text_gyVxxB": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.tagline.value }}",
+            "text_style": "body"
+          }
+        },
+        "description_LRfyUQ": {
+          "type": "description",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -26,10 +37,6 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
-        },
-        "description_LRfyUQ": {
-          "type": "description",
-          "settings": {}
         },
         "collapsible_tab_GJPkcz": {
           "type": "collapsible_tab",
@@ -92,9 +99,10 @@
       },
       "block_order": [
         "title",
+        "text_gyVxxB",
+        "description_LRfyUQ",
         "price",
         "buy_buttons",
-        "description_LRfyUQ",
         "collapsible_tab_GJPkcz",
         "collapsible_tab_ftwbfC",
         "collapsible_tab_qxL7fA",
