@@ -549,6 +549,12 @@
     "checkout": {
       "order_summary": {
         "subscriptions": "Memberships"
+      },
+      "payment": {
+        "store_credit": {
+          "apply_label": "Apply store cashback earned",
+          "add_label": "Add store cashback"
+        }
       }
     }
   }
