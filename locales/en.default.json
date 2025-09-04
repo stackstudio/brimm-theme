@@ -552,7 +552,10 @@
       },
       "payment": {
         "store_credit": {
-          "apply_label": "Apply store Cashback earned"
+          "apply_label": "Apply store Cashback earned",
+          "label": "Brimm Cashback",
+          "add_label": "Add Brimm Cashback",
+          "manage_label": "Manage Brimm Cashback"
         }
       }
     }
