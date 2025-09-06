@@ -79,11 +79,15 @@
                       <img class="carousel-image" src="{{ product.featured_image | img_url: '800x' }}" alt="{{ product.title }}">
                     </div>
                   {% endif %}
-                  <h3>{{ product.title }}</h3>
                   <p>{{ product.price | money }}</p>
+                  <p>{{ product.vendor }}</p>
+                  <h3>{{ product.title }}</h3>
                 </a>
               </div>
             {% endfor %}
+            <button class="right">
+                ->
+            </button>
           </div>
         </div>
       {% endif %}
@@ -183,17 +187,16 @@
         background: none;
         -webkit-appearance: none;
         border: none;
-        font-family: "Bespoke Serif", serif;
-        font-size: calc(var(--step-5) * 1.2);
-        font-weight: 340;
-        letter-spacing: -2px;
+        font-family: "Manrope", sans-serif;
+        font-size: calc(var(--step-2) * 1.2);
+        font-weight: 440;
         opacity: .6;
         cursor: pointer;
-        color: #6E1C20;
+        color: black;
     }
     button[disabled] {
         opacity: 1;
-        color: #6E1C20;
+        font-weight: 800;
     }
 }
 
