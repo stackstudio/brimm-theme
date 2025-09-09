@@ -113,12 +113,14 @@
 
                   <tbody role="rowgroup">
                     {%- for item in cart.items -%}
+                      {% assign is_selling_plan = false %}
                       {% if item.selling_plan_allocation and item.selling_plan_allocation.selling_plan.id %}
+                        {% assign is_selling_plan = true %}
                         {% assign hide_selling_plan = true %}
                       {% endif %}
                       <tr
                         id="CartDrawer-Item-{{ item.index | plus: 1 }}"
-                        class="cart-item"
+                        class="cart-item {% if is_selling_plan %}is-selling-plan{% endif %}"
                         role="row">
                         <td
                           class="cart-item__media"
@@ -173,6 +175,17 @@
                               {{ item.original_price | money }}
                             </div>
                           {%- endif -%}
+
+                          {% if customer.tags contains 'explorer_tier' %}
+                            <ul class="discounts list-unstyled" role="list" aria-label="Discount">
+                              <li class="discounts__discount">
+                                <svg class="icon icon-discount" viewBox="0 0 12 12"><path fill="currentColor" fill-rule="evenodd" d="M7 0h3a2 2 0 0 1 2 2v3a1 1 0 0 1-.3.7l-6 6a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4l6-6A1 1 0 0 1 7 0m2 2a1 1 0 1 0 2 0 1 1 0 0 0-2 0" clip-rule="evenodd"></path></svg>
+                                Members earn 10% credit on this product
+                              </li>
+                            </ul>
+                          {% endif %}
+
+                          {%- comment -%} Only show if there are options, custom properties, or selling plan {% endcomment -%}
 
                           {%- if item.product.has_only_default_variant == false or item.properties.size != 0 or item.selling_plan_allocation != null
                           -%}
@@ -504,7 +517,10 @@
             {%- endif -%}
           </div>
 
-          <div class="brimm-blocks--column-bottom {% if hide_selling_plan and customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}hidden{% endif %}">
+          <div class="brimm-blocks--column-bottom js-membership-column-bottom {% if hide_selling_plan and customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}hidden{% endif %}">
+            <div class="js-membership-column-bottom-heading">
+              <h3>Become a member to receive 10% store credit with this purchase.</h3>
+            </div>
             <button
               data-member-variant-id="48556931481942"
               data-member-selling-plan-id="690221023574"
