@@ -38,6 +38,7 @@
         "heading_zthACV",
         "text_xieHzd"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
