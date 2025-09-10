@@ -92,6 +92,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_A8JWzz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to use",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
         "collapsible_tab_zEfyXy": {
           "type": "collapsible_tab",
           "settings": {
@@ -131,6 +140,7 @@
         "description_LRfyUQ",
         "text_Nt9Kg4",
         "collapsible_tab_yeR46g",
+        "collapsible_tab_A8JWzz",
         "collapsible_tab_zEfyXy",
         "collapsible_tab_3eeYm3",
         "product_accreditations_hwJxcX"
