@@ -51,12 +51,86 @@
         "color_scheme": ""
       }
     },
+    "logo_scroller_DU3FL7": {
+      "type": "logo-scroller",
+      "blocks": {
+        "column_LpDinq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bold_bean_logo.png"
+          }
+        },
+        "column_6zKchP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pasta.png"
+          }
+        },
+        "column_4mc9Wk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kinfill_logo_1.png"
+          }
+        },
+        "column_TgitRK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/citizens_of_soil_logo-horizontal.png"
+          }
+        },
+        "column_z4eT9U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kit-and-Kin-tm_270a61a4-71ec-4a29-90b2-ee0c24580eaa.png"
+          }
+        },
+        "column_NJR6Xz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/upcircle.png"
+          }
+        },
+        "column_CbbEkg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sbtrct-padded_fc1a8e04-4bd8-4904-8270-f42fdcc743a9.png"
+          }
+        },
+        "column_t4mD6C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rollr-padded.png"
+          }
+        },
+        "column_yjCBEh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hm-padded.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_LpDinq",
+        "column_6zKchP",
+        "column_4mc9Wk",
+        "column_TgitRK",
+        "column_z4eT9U",
+        "column_NJR6Xz",
+        "column_CbbEkg",
+        "column_t4mD6C",
+        "column_yjCBEh"
+      ],
+      "name": "Logo Scroller",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
     "multi_collection_carousel_AakLVY": {
       "type": "multi-collection-carousel",
       "name": "Multi-Collection Carousel",
       "settings": {
         "collections": [
-          "featured",
+          "beauty-homepage",
           "reset-boxes",
           "rollr"
         ]
@@ -111,47 +185,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "stacked_hero_xxPi8q": {
-      "type": "stacked-hero",
-      "blocks": {
-        "heading_KnzE6h": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "Membership that multiplies your impact"
-          }
-        },
-        "text_aiwhMp": {
-          "type": "text",
-          "settings": {
-            "copy": "<p>Join BRiMM for exclusive prices, inspiring content, and joyful events—while 10% of every purchase funds direct climate action. Live bright. Tread light.</p>"
-          }
-        },
-        "cta_button_TdzEQD": {
-          "type": "cta_button",
-          "settings": {
-            "label": "Become a member",
-            "link": "shopify://pages/membership",
-            "style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_KnzE6h",
-        "text_aiwhMp",
-        "cta_button_TdzEQD"
-      ],
-      "name": "Stacked Hero",
-      "settings": {
-        "two_image": false,
-        "full_screen": true,
-        "invert": true,
-        "wider": false,
-        "padded": false,
-        "video_embed": "",
-        "wide_image": "shopify://shop_images/Brimm_Web_Assets_10x10_7041e1c2-e4a6-4cac-bb5b-ff79f20b851c.png",
-        "color_scheme": "scheme-2"
       }
     },
     "multicolumn_simple_cCpCQn": {
@@ -230,6 +263,47 @@
         "padding_bottom": 36
       }
     },
+    "stacked_hero_xxPi8q": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_KnzE6h": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Membership that multiplies your impact"
+          }
+        },
+        "text_aiwhMp": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Join BRiMM for exclusive prices, inspiring content, and joyful events—while 10% of every purchase funds direct climate action. Live bright. Tread light.</p>"
+          }
+        },
+        "cta_button_TdzEQD": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Become a member",
+            "link": "shopify://pages/membership",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KnzE6h",
+        "text_aiwhMp",
+        "cta_button_TdzEQD"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Brimm_Web_Assets_10x10_7041e1c2-e4a6-4cac-bb5b-ff79f20b851c.png",
+        "color_scheme": "scheme-2"
+      }
+    },
     "text_banner_PdFGD4": {
       "type": "text-banner",
       "disabled": true,
@@ -239,80 +313,6 @@
         "url": "shopify://blogs/journal/why-we-created-the-brimm-reset-boxes",
         "button_text": "Read More",
         "color_scheme": "scheme-3"
-      }
-    },
-    "logo_scroller_DU3FL7": {
-      "type": "logo-scroller",
-      "blocks": {
-        "column_LpDinq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/bold_bean_logo.png"
-          }
-        },
-        "column_6zKchP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/pasta.png"
-          }
-        },
-        "column_4mc9Wk": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/kinfill_logo_1.png"
-          }
-        },
-        "column_TgitRK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/citizens_of_soil_logo-horizontal.png"
-          }
-        },
-        "column_z4eT9U": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Kit-and-Kin-tm_270a61a4-71ec-4a29-90b2-ee0c24580eaa.png"
-          }
-        },
-        "column_NJR6Xz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/upcircle.png"
-          }
-        },
-        "column_CbbEkg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/sbtrct-padded_fc1a8e04-4bd8-4904-8270-f42fdcc743a9.png"
-          }
-        },
-        "column_t4mD6C": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/rollr-padded.png"
-          }
-        },
-        "column_yjCBEh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/hm-padded.png"
-          }
-        }
-      },
-      "block_order": [
-        "column_LpDinq",
-        "column_6zKchP",
-        "column_4mc9Wk",
-        "column_TgitRK",
-        "column_z4eT9U",
-        "column_NJR6Xz",
-        "column_CbbEkg",
-        "column_t4mD6C",
-        "column_yjCBEh"
-      ],
-      "name": "Logo Scroller",
-      "settings": {
-        "color_scheme": ""
       }
     },
     "flush_columns_cYTaw6": {
