@@ -126,7 +126,7 @@
                           class="cart-item__media"
                           role="cell"
                           headers="CartDrawer-ColumnProductImage">
-                          {% if item.image %}
+                          {% if item.image and is_selling_plan == false %}
                             {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
                             <a
                               href="{{ item.url }}"
@@ -140,6 +140,11 @@
                               loading="lazy"
                               width="150"
                               height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}">
+                          {% endif %}
+                          {% if is_selling_plan %}
+                              <svg class="member-svg" xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none">
+                                <path d="M30.3164 0.741943C46.8849 0.741951 60.3163 14.1735 60.3164 30.7419C60.3164 47.3105 46.8849 60.7419 30.3164 60.7419C13.7479 60.7419 0.316406 47.3105 0.316406 30.7419C0.316531 14.1735 13.7479 0.741943 30.3164 0.741943ZM19.6533 51.6804H32.9746C40.3323 51.6804 46.2969 45.7173 46.2969 38.3611C46.2967 31.005 40.3322 25.0427 32.9746 25.0427V25.0417H27.2734L34.8721 17.4509L27.2734 9.85425V9.80347H19.6309L19.6533 51.6804ZM40.002 38.3611L32.4043 45.9519L24.8115 38.3611L32.4043 30.7644L40.002 38.3611Z" fill="#5F2421"/>
+                              </svg>
                           {% endif %}
                         </td>
 
@@ -155,7 +160,7 @@
                             {{- item.product.title | escape -}}
                           </a>
 
-                          {%- if item.original_price != item.final_price -%}
+                          <!--{%- if item.original_price != item.final_price -%}
                             <div class="cart-item__discounted-prices">
                               <span class="visually-hidden">
                                 {{ 'products.product.price.regular_price' | t }}
@@ -174,7 +179,7 @@
                             <div class="product-option">
                               {{ item.original_price | money }}
                             </div>
-                          {%- endif -%}
+                          {%- endif -%}-->
 
                           {% if item.product.category != "Subscription Services" and item.product.type != "Reset Box" %}
                             <ul class="discounts list-unstyled" role="list" aria-label="Discount">
@@ -281,6 +286,23 @@
                                 {{ item.unit_price_measurement.reference_unit }}
                               </div>
                             {%- endif -%}
+
+                            {% if is_selling_plan %}
+                              <cart-remove-button
+                                  id="CartDrawer-Remove-{{ item.index | plus: 1 }}"
+                                  data-index="{{ item.index | plus: 1 }}"
+                                  data-variant-title="{{ item.title }}">
+                                  <button
+                                  type="button"
+                                  class="button button--tertiary cart-remove-button"
+                                  aria-label="{{ 'sections.cart.remove_title' | t: title: item.title | escape }}"
+                                  data-variant-id="{{ item.variant.id }}">
+                                  <span class="svg-wrapper">
+                                      {{- 'icon-remove.svg' | inline_asset_content -}}
+                                  </span>
+                                  </button>
+                              </cart-remove-button>
+                            {% endif %}
                           </div>
                         </td>
                         {%- liquid
@@ -350,20 +372,22 @@
                                   </quantity-input>
                                 {% endif %}
                               </div>
-                              <cart-remove-button
-                                id="CartDrawer-Remove-{{ item.index | plus: 1 }}"
-                                data-index="{{ item.index | plus: 1 }}"
-                                data-variant-title="{{ item.title }}">
-                                <button
-                                  type="button"
-                                  class="button button--tertiary cart-remove-button"
-                                  aria-label="{{ 'sections.cart.remove_title' | t: title: item.title | escape }}"
-                                  data-variant-id="{{ item.variant.id }}">
-                                  <span class="svg-wrapper">
-                                    {{- 'icon-remove.svg' | inline_asset_content -}}
-                                  </span>
-                                </button>
-                              </cart-remove-button>
+                              {% if is_selling_plan == false %}
+                                <cart-remove-button
+                                    id="CartDrawer-Remove-{{ item.index | plus: 1 }}"
+                                    data-index="{{ item.index | plus: 1 }}"
+                                    data-variant-title="{{ item.title }}">
+                                    <button
+                                    type="button"
+                                    class="button button--tertiary cart-remove-button"
+                                    aria-label="{{ 'sections.cart.remove_title' | t: title: item.title | escape }}"
+                                    data-variant-id="{{ item.variant.id }}">
+                                    <span class="svg-wrapper">
+                                        {{- 'icon-remove.svg' | inline_asset_content -}}
+                                    </span>
+                                    </button>
+                                </cart-remove-button>
+                              {% endif %}
                             </div>
                             {%- if has_qty_rules or has_vol_pricing -%}
                               <button
@@ -519,20 +543,21 @@
 
           <div class="brimm-blocks--column-bottom js-membership-column-bottom {% if hide_selling_plan and customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}hidden{% endif %}">
             <div class="js-membership-column-bottom-heading">
+                <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none">
+                  <path d="M30.3164 0.741943C46.8849 0.741951 60.3163 14.1735 60.3164 30.7419C60.3164 47.3105 46.8849 60.7419 30.3164 60.7419C13.7479 60.7419 0.316406 47.3105 0.316406 30.7419C0.316531 14.1735 13.7479 0.741943 30.3164 0.741943ZM19.6533 51.6804H32.9746C40.3323 51.6804 46.2969 45.7173 46.2969 38.3611C46.2967 31.005 40.3322 25.0427 32.9746 25.0427V25.0417H27.2734L34.8721 17.4509L27.2734 9.85425V9.80347H19.6309L19.6533 51.6804ZM40.002 38.3611L32.4043 45.9519L24.8115 38.3611L32.4043 30.7644L40.002 38.3611Z" fill="#5F2421"/>
+                </svg>
               <h3>Become a member to receive 10% store credit with this purchase.</h3>
             </div>
-            <button
-              data-member-variant-id="48556931481942"
-              data-member-selling-plan-id="690221023574"
-              class="button brimm-blocks--column-button__add-to-cart">
-              Monthly membership add
-            </button>
-            <button
-              data-member-variant-id="48556931481942"
-              data-member-selling-plan-id="690221056342"
-              class="button brimm-blocks--column-button__add-to-cart">
-              Yearly membership add
-            </button>
+            <div class="js-membership-cart-buttons">
+                <button
+                    data-member-variant-id="48556931481942"
+                    data-member-selling-plan-id="690221023574"
+                    class="button brimm-blocks--column-button__add-to-cart">Add Monthly</button>
+                <button
+                    data-member-variant-id="48556931481942"
+                    data-member-selling-plan-id="690221056342"
+                    class="button brimm-blocks--column-button__add-to-cart">Add Yearly</button>
+            </div>
 
           </div>
 
