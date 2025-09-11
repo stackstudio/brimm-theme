@@ -115,7 +115,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "none",
-            "content": "",
+            "content": "<p>Dispatched in 1-2 working days</p><p>Free delivery on all orders over £50</p>",
             "page": ""
           }
         },
