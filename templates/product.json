@@ -163,7 +163,6 @@
     },
     "accreditations_block_icQUPp": {
       "type": "accreditations-block",
-      "disabled": true,
       "name": "Accreditations",
       "settings": {}
     },
