@@ -1003,9 +1003,9 @@
         "collapsible_row_Dc388Y": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does cashback work?",
+            "heading": "How does store credit work?",
             "icon": "none",
-            "row_content": "<p>We offer 10% cashback to our members on all purchases they make (excluding discounted membership products like the Reset boxes), excluding any other credit or promotions applied to your order.</p><p>This cashback is distributed quarterly and can be used to bring down the cost of future transactions.</p>",
+            "row_content": "<p>We offer 10% stores credit to our members on all purchases they make (excluding discounted membership products like the Reset boxes), excluding any other credit or promotions applied to your order.</p><p>This store credit will be available to spend on your next shop.</p>",
             "page": ""
           }
         },
