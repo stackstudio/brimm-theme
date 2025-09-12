@@ -67,8 +67,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Fanette_Guilloud_Photo_1.jpg",
-            "title": "CASHBACK",
-            "text": "<p>Earn 10% cashback every time you shop whilst giving 10% to the planet fund</p>",
+            "title": "CREDIT",
+            "text": "<p>Earn 10% store credit on individual purchases</p>",
             "link_label": "",
             "desaturate": false,
             "link": ""
