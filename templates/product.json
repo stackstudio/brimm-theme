@@ -46,6 +46,12 @@
           "disabled": true,
           "settings": {}
         },
+        "membership_info_K9JWay": {
+          "type": "membership_info",
+          "settings": {
+            "membership_text": "<p><strong>Join the BRiMM Membership</strong></p>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -58,12 +64,6 @@
           "disabled": true,
           "settings": {
             "shipping_text": "Free delivery on orders over £50\nStandard delivery £5"
-          }
-        },
-        "membership_info_K9JWay": {
-          "type": "membership_info",
-          "settings": {
-            "membership_text": "<p><strong>Join the BRiMM Membership</strong></p><ul><li>Earn 10% cashback on this purchase</li><li>Pay 20% less on our Reset Boxes</li><li>Support direct climate action</li></ul><p><a href=\"/pages/member-benefits\" target=\"_blank\" title=\"Why join?\"><span style=\"text-decoration:underline\">Learn more</span></a> or <a href=\"/pages/member-sign-up-form\" title=\"Member sign up form\"><span style=\"text-decoration:underline\">login</span></a></p>"
           }
         },
         "text_QbnMxV": {
@@ -134,9 +134,9 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "membership_info_K9JWay",
         "buy_buttons",
         "shipping_info_xpaK7r",
-        "membership_info_K9JWay",
         "text_QbnMxV",
         "description_LRfyUQ",
         "text_Nt9Kg4",
