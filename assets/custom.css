@@ -790,10 +790,10 @@ variant-selects .product-form__input {
 
 /* PDP */
 .membership-choice {
-  padding: var(--space-l);
   border-radius: 8px;
   background: #e3b2ff;
   color: #6e1c20;
+  width: 100%;
 
   p {
     margin: 0;
@@ -1022,44 +1022,48 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 }
 
 .js-membership-column-bottom {
-    flex-direction: column;
-    padding: var(--space-m);
-    background: #FBF3FF;
-    color: #6E1C20;
-    h3 {
-        font-weight: 540;
-        color: #6E1C20;
-        text-transform: capitalize;
-        margin: 0;
-        line-height: 1.2;
-    }
-    button {
-        background: transparent;
-        color: #6E1C20;
-        border: 1px solid #6E1C20;
-        flex-basis: 0;
-        flex-grow: 1;
-        padding: var(--space-s);
-        font-size: var(--step-1);
-        font-weight: 700;
-    }
-    svg {
-        /*width: 64px;
-        height: 64px;*/
-    }
-    .js-membership-column-bottom-heading {
-        display: flex;
-        flex-direction: row;
-        gap: var(--space-s);
-        align-items: center;
-        margin-bottom: var(--space-m);
-    }
-}
+  flex-direction: column;
+  padding: var(--space-m);
+  background: #fbf3ff;
+  color: #6e1c20;
 
-.js-membership-cart-buttons {
+  h3 {
+    font-weight: 540;
+    color: #6e1c20;
+    text-transform: capitalize;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  button {
+    background: transparent;
+    color: #6e1c20;
+    border: 1px solid #6e1c20;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: var(--space-s);
+    font-size: var(--step-1);
+    font-weight: 700;
+  }
+
+  svg {
+    /*width: 64px;
+        height: 64px;*/
+  }
+
+  .js-membership-column-bottom-heading {
     display: flex;
     flex-direction: row;
     gap: var(--space-s);
+    align-items: center;
+    margin-bottom: var(--space-m);
+  }
+}
+
+.js-membership-cart-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-s);
 }
 
 .brimm-blocks--column-text {
@@ -1071,25 +1075,29 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 }
 
 .cart-drawer .cart-item.is-selling-plan {
-    grid-template-columns: 44px 1fr auto;
-    grid-template-rows: auto;
-    align-items: center;
-    padding: var(--space-s);
-    td {
-        padding-top: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        .product-option {
-            margin-top: 0;
-        }
+  grid-template-columns: 44px 1fr auto;
+  grid-template-rows: auto;
+  align-items: center;
+  padding: var(--space-s);
+
+  td {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .product-option {
+      margin-top: 0;
     }
-    .member-svg {
-        width: 40px;
-        height: 40px;
-        transform: translateY(-12px);
-    }
-    /*.cart-item__quantity {
+  }
+
+  .member-svg {
+    width: 40px;
+    height: 40px;
+    transform: translateY(-12px);
+  }
+
+  /*.cart-item__quantity {
         display: none;
     }*/
 }

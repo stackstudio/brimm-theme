@@ -9,6 +9,7 @@
 
   assign compare_at_price = target.compare_at_price
   assign member_price = member_price | default: null
+  assign credit_price = credit_price | default: null
   assign price = target.price | default: 1999
   assign price_min = product.price_min
   assign price_max = product.price_max
@@ -51,6 +52,13 @@
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.member_price' | t }}</span>
           <span class="price-item price-item--member">
             Members price: {{ money_member_price }}
+          </span>
+        </div>
+      {% elsif credit_price -%}
+        <div class="price__credit">
+          <span class="visually-hidden visually-hidden--inline">Join the BRiMM membership <br> Earn {{ money_credit_price }} back with this purchase</span>
+          <span class="price-item price-item--credit">
+            Earn {{ credit_price }} back with this purchase by joining <br>the BRiMM membership
           </span>
         </div>
       {%- else -%}
