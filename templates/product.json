@@ -55,6 +55,7 @@
         },
         "shipping_info_xpaK7r": {
           "type": "shipping_info",
+          "disabled": true,
           "settings": {
             "shipping_text": "Free delivery on orders over £50\nStandard delivery £5"
           }
