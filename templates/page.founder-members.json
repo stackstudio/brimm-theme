@@ -121,7 +121,7 @@
           "type": "column",
           "settings": {
             "title": "Member",
-            "content": "<ul><li>20% off Reset Boxes</li><li>Earn 10% cashback when you shop*</li><li>Up to 50% off events and get priority access</li><li>Fund climate action with every purchase</li><li>Support high-quality writing</li></ul>",
+            "content": "<ul><li>20% off Reset Boxes</li><li>Earn 10% store credit when you shop*</li><li>Up to 50% off events and get priority access</li><li>Fund climate action with every purchase</li><li>Support high-quality writing</li></ul>",
             "yearly_price": "£120",
             "monthly_price": "£12",
             "button_label_monthly": "Pay Monthly",
