@@ -136,31 +136,21 @@
         ]
       }
     },
-    "collection_carousel_CxL7Pt": {
-      "type": "collection-carousel",
-      "name": "Collection Carousel",
-      "settings": {
-        "collection": "featured",
-        "custom_image": "shopify://shop_images/Mandarin-1.png",
-        "custom_title": "NEW IN",
-        "custom_description": "The latest planet-positive arrivals."
-      }
-    },
     "image_banner_Pdxayc": {
       "type": "image-banner",
       "blocks": {
         "heading_zrqhB9": {
           "type": "heading",
           "settings": {
-            "heading": "Full-bleed product callout",
+            "heading": "Disover our Reset Boxes",
             "heading_size": "headline-extra"
           }
         },
         "buttons_hwWkwc": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop more",
-            "button_link_1": "shopify://collections/rollr",
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify://collections/reset-boxes",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -174,17 +164,26 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/The_Lab_Co_IMAGE-2_0ca0c649-dc04-476a-8510-e13229eb72d7.webp",
+        "image": "shopify://shop_images/Kitchen_Reset_Classic_Box.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "collection_carousel_CxL7Pt": {
+      "type": "collection-carousel",
+      "name": "Collection Carousel",
+      "settings": {
+        "collection": "featured",
+        "custom_title": "NEW IN",
+        "custom_description": "The latest planet-positive arrivals."
       }
     },
     "multicolumn_simple_cCpCQn": {
@@ -666,8 +665,8 @@
     "stacked_hero_qme3YR",
     "logo_scroller_DU3FL7",
     "multi_collection_carousel_AakLVY",
-    "collection_carousel_CxL7Pt",
     "image_banner_Pdxayc",
+    "collection_carousel_CxL7Pt",
     "multicolumn_simple_cCpCQn",
     "stacked_hero_xxPi8q",
     "text_banner_PdFGD4",
