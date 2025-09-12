@@ -44,7 +44,7 @@
     <div class="collection-carousel-grid">
       <!-- First Column: Collection info -->
       <div class="collection-info collection-carousel-card">
-        {% if collection.image %}
+        {% if section.settings.custom_video != blank or section.settings.custom_image != blank %}
             <div class="carousel-image-wrapper collection-card">
                 {% if section.settings.custom_video != blank %}
                     <video autoplay muted loop playsinline>
@@ -54,14 +54,14 @@
                   <img src="{{ section.settings.custom_image | img_url: '600x' }}" alt="">
                 {% endif %}
             </div>
-            {% if section.settings.custom_title != blank %}
-              <h3>{{ section.settings.custom_title }}</h3>
-            {% endif %}
-
-            {% if section.settings.custom_description != blank %}
-              <p>{{ section.settings.custom_description }}</p>
-            {% endif %}
         {% endif %}
+          {% if section.settings.custom_title != blank %}
+            <h3 class="h2">{{ section.settings.custom_title }}</h3>
+          {% endif %}
+
+          {% if section.settings.custom_description != blank %}
+            <p>{{ section.settings.custom_description }}</p>
+          {% endif %}
       </div>
 
       <!-- Next three columns: products -->
