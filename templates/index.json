@@ -142,7 +142,7 @@
         "heading_zrqhB9": {
           "type": "heading",
           "settings": {
-            "heading": "Disover our Reset Boxes",
+            "heading": "Shop our Reset Boxes",
             "heading_size": "headline-extra"
           }
         },
@@ -164,7 +164,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Kitchen_Reset_Classic_Box.jpg",
+        "image": "shopify://shop_images/Kitchen_Reset_box_lifestyle_background.jpg",
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
