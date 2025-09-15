@@ -49,7 +49,7 @@
         "membership_info_K9JWay": {
           "type": "membership_info",
           "settings": {
-            "membership_text": "<p><strong>Join the BRiMM Membership</strong></p>"
+            "membership_text": "<p><strong>How would you like to purchase?</strong></p>"
           }
         },
         "buy_buttons": {
