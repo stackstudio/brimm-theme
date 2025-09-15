@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_4hLGXE": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.brand.value }}",
+            "text_style": "body"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -122,6 +129,7 @@
         }
       },
       "block_order": [
+        "text_4hLGXE",
         "title",
         "caption",
         "price",
