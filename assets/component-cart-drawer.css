@@ -175,34 +175,35 @@ cart-drawer {
 
 .cart-drawer .cart-items,
 .cart-drawer tbody {
-    font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope', sans-serif;
   display: block;
   width: 100%;
 }
 
 .quantity__input {
-    font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .totals {
-    font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 #shopify-section-template--25401477464406__cart-items {
-    padding-top: 8rem;
+  padding-top: 8rem;
 }
 
 .title-wrapper-with-link .underlined-link {
-    font-family: 'Manrope';
+  font-family: 'Manrope';
 }
+
 .caption-with-letter-spacing {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 577;
-    font-size: clamp(12px, 2vw, 14px);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 577;
+  font-size: clamp(12px, 2vw, 14px);
 }
 
 .cart__checkout-button {
-    background: black;
+  background: black;
 }
 
 .cart-drawer thead {
@@ -291,7 +292,6 @@ cart-drawer-items {
 }
 
 .cart-drawer .cart-item__totals {
-  pointer-events: none;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
