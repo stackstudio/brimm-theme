@@ -233,9 +233,6 @@
 
                 </div>
 
-                {% elsif product.product_type != 'Membership' %}
-
-
                 {% else %}
 
                   <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
@@ -262,7 +259,7 @@
                     </div>
                   {%- endif -%}
 
-                 {% endif %}
+                {% endif %}
 
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class='volume-pricing-note' id='Volume-Note-{{ section.id }}'>
@@ -689,7 +686,7 @@
                             <li>Priority access to events</li>
                             <li>Give 10% to the Planet Fund with each purchase</li>
                             <li>Pay member prices on Reset Boxes (20% off - worth £100+/yr)</li>
-                            <li>Earn 10% cashback with each purchase* ({{ credit_amount_formatted }} for this item)</li>
+                            <li>Earn 10% credit with each purchase* ({{ credit_amount_formatted }} for this item)</li>
                           </ul>
                         </div>
                       </details>
@@ -728,10 +725,6 @@
                     </div>
 
                     <div class="membership-info-columns membership-choice">
-
-                    {% comment %} <div class="credit-info">
-                      <p class="credit-amount">You will earn <strong>{{ credit_amount_formatted }}</strong> credit from this purchase</p>
-                    </div> {% endcomment %}
 
                       <label class="flex items-center mb-2" for="regular">
                         <input type="radio" name="purchase_option" id="regular" value="regular" checked class="mr-2">
@@ -773,6 +766,28 @@
                           </ul>
                         </div>
                       </details>
+
+                      {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
+                        <div class='product__tax caption rte'>
+                          <strong>
+                          {%- if cart.duties_included and cart.taxes_included -%}
+                            {{ 'products.product.duties_and_taxes_included' | t }}
+                          {%- elsif cart.taxes_included -%}
+                            {{ 'products.product.taxes_included' | t }}
+                          {%- elsif cart.duties_included -%}
+                            {{ 'products.product.duties_included' | t }}
+                          {%- endif -%}
+                          {%- if shop.shipping_policy.body != blank -%}
+                            {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                          {%- endif -%}
+                          </strong>
+                        </div>
+                      {%- endif -%}
+                      {% if customer_loggedin != true %}
+                        <div class="account-prompt">
+                          <p class="mb-2">Already a member? <a href="/account">Log in here</a></p>
+                        </div>
+                      {% endif %}
 
                     </div>
 
