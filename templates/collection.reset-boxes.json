@@ -71,6 +71,7 @@
         "heading_7dd7VQ",
         "text_wGDKii"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
