@@ -803,6 +803,15 @@ variant-selects .product-form__input {
   }
 }
 
+.account-prompt {
+  margin-top: 2rem;
+}
+
+.account-prompt p {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
 .membership-choice label {
   font-family: 'Manrope';
   font-size: var(--step-1);
