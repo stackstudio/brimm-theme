@@ -491,9 +491,11 @@ blockquote {
 .headline-extra-uppercase {
   /* Global/Headline/Extra Bold/40 */
   font-size: clamp(24px, 7vw, 40px);
+
   @media (max-width: 900px) {
     font-size: clamp(20px, 6vw, 40px);
   }
+
   font-style: normal;
   font-weight: 800;
   line-height: 120%;
@@ -2301,7 +2303,7 @@ input[type='checkbox'] {
   }
 
   body {
-      padding-top: 77px;
+    padding-top: 77px;
   }
 }
 
@@ -2673,9 +2675,8 @@ input[type='checkbox'] {
 }
 
 #HeaderMenu-sign-in {
-    display: none;
+  display: none;
 }
-
 
 @media screen and (max-width: 989px) {
   .header__heading,
@@ -2697,7 +2698,19 @@ input[type='checkbox'] {
 }
 
 @media screen and (max-width: 760px) {
-<<<<<<< HEAD
+  <<<<<<< HEAD .footer {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .header__heading-logo-wrapper {
+    width: 80%;
+  }
+
+  .header--mobile-left .header__heading-link {
+    /* min-width: 280px; */
+  }
+
   .footer {
     padding-bottom: 0;
     margin-bottom: 0;
@@ -2710,18 +2723,9 @@ input[type='checkbox'] {
   .header--mobile-left .header__heading-link {
     /* min-width: 280px; */
   }
-  .footer {
-      padding-bottom: 0;
-      margin-bottom: 0;
-  }
-  .header__heading-logo-wrapper {
-    width: 80%;
-  }
-  .header--mobile-left .header__heading-link {
-      /* min-width: 280px; */
-  }
+
   a.header__icon--account.link {
-      display: none;
+    display: none;
   }
 }
 
@@ -3179,7 +3183,9 @@ details-disclosure > details {
   border: 1px solid transparent;
   border-radius: var(--badge-corner-radius);
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-family: 'Manrope';
+  font-weight: 600;
   line-height: 1;
   padding: 0.5rem 1.3rem 0.6rem 1.3rem;
   text-align: center;

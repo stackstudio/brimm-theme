@@ -807,11 +807,6 @@ variant-selects .product-form__input {
   margin-top: 2rem;
 }
 
-.account-prompt p {
-  font-weight: 600;
-  font-size: 1.3rem;
-}
-
 .membership-choice label {
   font-family: 'Manrope';
   font-size: var(--step-1);
@@ -896,7 +891,7 @@ variant-selects .product-form__input {
 
 .membership-choice .account-prompt p {
   font-family: 'Bespoke Serif', serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
   margin-top: var(--space-m);
 }

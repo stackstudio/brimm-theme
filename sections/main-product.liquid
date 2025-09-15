@@ -85,6 +85,8 @@
     endif
   %}
 
+  {% assign has_member_pricing = false %}
+
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class='page-width'>
     <div class='product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}'>
@@ -128,15 +130,17 @@
                 </div>
               {%- when 'price' -%}
 
-                  {% assign member_discount_rate = 0.20 %}
-                  {% assign regular_price = product.price %}
-                  {% assign p = regular_price | times: member_discount_rate %}
-                  {% assign member_price = regular_price | times: 1.0 | minus: p %}
+                {% if has_member_pricing != true %}
 
-                  {% comment %} Calculate 10% credit amount {% endcomment %}
-                  {% assign credit_rate = 0.10 %}
-                  {% assign credit_amount = regular_price | times: credit_rate %}
-                  {% assign credit_amount_formatted = credit_amount | money %}
+                {% assign member_discount_rate = 0.20 %}
+                {% assign regular_price = product.price %}
+                {% assign p = regular_price | times: member_discount_rate %}
+                {% assign member_price = regular_price | times: 1.0 | minus: p %}
+
+                {% comment %} Calculate 10% credit amount {% endcomment %}
+                {% assign credit_rate = 0.10 %}
+                {% assign credit_amount = regular_price | times: credit_rate %}
+                {% assign credit_amount_formatted = credit_amount | money %}
 
 
                 {% if product.product_type != 'Membership' and collections.handle contains 'reset-boxes' %}
@@ -273,6 +277,7 @@
                     {{ form | payment_terms }}
                   {%- endform -%}
                 </div>
+                {% endif %}
               {%- when 'inventory' -%}
                 <p
                   class='product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}'
@@ -612,15 +617,16 @@
                 </div>
               {%- when 'membership_info' -%}
 
+                {% assign has_member_pricing = true %}
                 {% assign member_discount_rate = 0.20 %}
-                  {% assign regular_price = product.price %}
-                  {% assign p = regular_price | times: member_discount_rate %}
-                  {% assign member_price = regular_price | times: 1.0 | minus: p %}
+                {% assign regular_price = product.price %}
+                {% assign p = regular_price | times: member_discount_rate %}
+                {% assign member_price = regular_price | times: 1.0 | minus: p %}
 
-                  {% comment %} Calculate 10% credit amount {% endcomment %}
-                  {% assign credit_rate = 0.10 %}
-                  {% assign credit_amount = regular_price | times: credit_rate %}
-                  {% assign credit_amount_formatted = credit_amount | money %}
+                {% comment %} Calculate 10% credit amount {% endcomment %}
+                {% assign credit_rate = 0.10 %}
+                {% assign credit_amount = regular_price | times: credit_rate %}
+                {% assign credit_amount_formatted = credit_amount | money %}
 
 
                 {% if product.product_type != 'Membership' and collections.handle contains 'reset-boxes' %}
@@ -789,7 +795,7 @@
                         </div>
                       {% else %}
                         <div class="account-prompt">
-                          <p class="mb-2">Check your membership status <a href="/tools/membership">here</a></p>
+                          <p class="mb-2">Check your membership status <a href="/tools/memberships">here</a></p>
                         </div>
                       {% endif %}
 
@@ -838,13 +844,6 @@
                   {%- endform -%}
                 </div>
 
-{% comment %}
-                <div class='membership-info'>
-                    {% render 'icon-cashback' %}
-                    <div>
-                      {{ block.settings.membership_text }}
-                    </div>
-                </div> {% endcomment %}
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class='rating-wrapper'>
