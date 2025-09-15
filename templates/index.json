@@ -142,7 +142,7 @@
         "heading_zrqhB9": {
           "type": "heading",
           "settings": {
-            "heading": "Disover our Reset Boxes",
+            "heading": "Shop our Reset Boxes",
             "heading_size": "headline-extra"
           }
         },
@@ -164,7 +164,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Kitchen_Reset_Classic_Box.jpg",
+        "image": "shopify://shop_images/Kitchen_Reset_box_lifestyle_background.jpg",
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
@@ -239,7 +239,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Reset your everyday",
+        "title": "Disover our vetted products",
         "no-gap": false,
         "first_col": true,
         "last_col": false,
@@ -247,7 +247,7 @@
         "no_bottom": false,
         "justify": true,
         "bordered": false,
-        "text_block": "Our Reset Boxes help kick-start your planet-positive journey. From minimalist bathrooms to regenerative pantries - reset your life one room at a time. Full store launching soon",
+        "text_block": "Our curated and vetted products help kick-start your planet-positive journey. From minimalist bathrooms to regenerative pantries - reset your life one room at a time. Full store launching soon",
         "image_width": "full",
         "image_ratio": "portrait",
         "columns_desktop": 3,
