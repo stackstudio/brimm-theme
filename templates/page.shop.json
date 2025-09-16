@@ -49,11 +49,15 @@
         "color_scheme": "scheme-3"
       }
     },
-    "multi_collection_carousel_zV3xiB": {
+    "multi_collection_carousel_ap9DKM": {
       "type": "multi-collection-carousel",
       "name": "Multi-Collection Carousel",
       "settings": {
-        "collections": []
+        "collections": [
+          "beauty-homepage",
+          "pantry",
+          "home"
+        ]
       }
     },
     "flush_columns_6dwDNR": {
@@ -264,7 +268,7 @@
   "order": [
     "main",
     "stacked_hero_6XrCb8",
-    "multi_collection_carousel_zV3xiB",
+    "multi_collection_carousel_ap9DKM",
     "flush_columns_6dwDNR",
     "justified_header_section_XYt8hK",
     "stacked_hero_QaD3X3",
