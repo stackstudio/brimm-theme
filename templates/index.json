@@ -165,7 +165,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Kitchen_Reset_box_lifestyle_background.jpg",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
         "show_text_box": true,
