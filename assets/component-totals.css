@@ -1,7 +1,12 @@
-.totals {
+.totals,
+.credit_totals {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+
+.credit_totals {
+  justify-content: space-between;
 }
 
 .totals > * {
@@ -9,15 +14,31 @@
   margin: 0;
 }
 
+.credit_totals > * {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
 .totals > h2 {
   font-size: calc(var(--font-heading-scale) * 1.6rem);
 }
 
-.totals * {
+.credit_totals > h2 {
+  font-size: calc(var(--font-heading-scale) * 1.3rem);
+}
+
+.credit_totals .totals__total-value {
+  font-size: 1.4rem;
+  font-family: 'Manrope';
+}
+
+.totals *,
+.credit_totals * {
   line-height: 1;
 }
 
-.totals > * + * {
+.totals > * + *,
+.credit_totals > * + * {
   margin-left: 2rem;
 }
 
