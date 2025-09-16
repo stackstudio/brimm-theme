@@ -51,6 +51,17 @@
         "color_scheme": ""
       }
     },
+    "multi_collection_carousel_AakLVY": {
+      "type": "multi-collection-carousel",
+      "name": "Multi-Collection Carousel",
+      "settings": {
+        "collections": [
+          "beauty-homepage",
+          "pantry",
+          "home"
+        ]
+      }
+    },
     "logo_scroller_DU3FL7": {
       "type": "logo-scroller",
       "blocks": {
@@ -123,17 +134,6 @@
       "name": "Logo Scroller",
       "settings": {
         "color_scheme": ""
-      }
-    },
-    "multi_collection_carousel_AakLVY": {
-      "type": "multi-collection-carousel",
-      "name": "Multi-Collection Carousel",
-      "settings": {
-        "collections": [
-          "beauty-homepage",
-          "pantry",
-          "home"
-        ]
       }
     },
     "image_banner_Pdxayc": {
@@ -663,8 +663,8 @@
   },
   "order": [
     "stacked_hero_qme3YR",
-    "logo_scroller_DU3FL7",
     "multi_collection_carousel_AakLVY",
+    "logo_scroller_DU3FL7",
     "image_banner_Pdxayc",
     "collection_carousel_CxL7Pt",
     "multicolumn_simple_cCpCQn",
