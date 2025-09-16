@@ -1,0 +1,261 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stacked_hero_6XrCb8": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_BQbxnD": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Join planet-positive events"
+          }
+        },
+        "text_cihYja": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>We run regular events bringing our collective together to experience a planet-positive future, first hand</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BQbxnD",
+        "text_cihYja"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Lewis_Ferris_Photos_79d45ff3-6937-4fda-92c0-c9b2ee44ea9b.jpg",
+        "color_scheme": "scheme-3"
+      }
+    },
+    "flush_columns_6dwDNR": {
+      "type": "flush-columns",
+      "blocks": {
+        "column_Qj9KtB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DTS_Banquet_Photos_Daniel_Faro.jpg",
+            "title": "Supper clubs",
+            "text": "<p>Connect with planet enthusiasts over great food and conversation</p>",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_qCetKD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Forager_Photos_by_Daniel_Faro_2.jpg",
+            "title": "FIELDS TRIPS AND WORKSHOPS",
+            "text": "<p>Hands on experiences with a planet-positive future</p>",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        },
+        "column_YnAKPP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Jelly_Luise_Photos.jpg",
+            "title": "FILM SCREENINGS",
+            "text": "<p>Thought-provoking films and documentaries</p>",
+            "link_label": "",
+            "desaturate": false,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Qj9KtB",
+        "column_qCetKD",
+        "column_YnAKPP"
+      ],
+      "name": "Flush Columns",
+      "settings": {
+        "title": "CONNECT WITH CLIMATE OPTIMISTS",
+        "text_block": "Members get priority access and member only prices for our planet-positive events.",
+        "columns_desktop": 3,
+        "button_label": "Become a member",
+        "button_link": "shopify://pages/membership",
+        "no_top": false,
+        "color_scheme": ""
+      }
+    },
+    "justified_header_section_XYt8hK": {
+      "type": "justified-header-section",
+      "blocks": {
+        "justified_header_dp4CaF": {
+          "type": "justified_header",
+          "settings": {
+            "text": "UPCOMING EVENTS",
+            "heading_level": "h1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "justified_header_dp4CaF"
+      ],
+      "name": "Justified Header + Content",
+      "settings": {
+        "color_scheme": "scheme-3"
+      }
+    },
+    "stacked_hero_QaD3X3": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_TNNyUX": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading_text": "Common ground screening"
+          }
+        },
+        "text_UPcU7w": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "copy": "<p>Join us for an exclusive screening of this excellent documentary investigating regenerative farming practices and here from a panel of BRiMM brands.</p>"
+          }
+        },
+        "cta_button_TtFag9": {
+          "type": "cta_button",
+          "disabled": true,
+          "settings": {
+            "label": "Learn more",
+            "link": "shopify://blogs/events/common-ground-film-screening-and-panel-discussion",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TNNyUX",
+        "text_UPcU7w",
+        "cta_button_TtFag9"
+      ],
+      "disabled": true,
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "color_scheme": "scheme-3"
+      }
+    },
+    "stacked_hero_6pkEf6": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_YELrLj": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "stitch & bitch"
+          }
+        },
+        "text_i6eVxQ": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Led by iconic fashion disruptor Orsola de Castro, co-founder of Fashion Revolution, this evening explores the quiet radicalism of visual mending over a shared table.</p><p>With only 24 places available, this is a rare chance to learn, laugh and be inspired in the company of one of fashion’s most influential voices.</p><p><strong>Tuesday 23 September I 6.30pm-9pm</strong><br/>📍The Meeting House, Peckham,<br/>London SE15 2UN</p><p><strong>£35 Members I £70 Non Members</strong></p>"
+          }
+        },
+        "cta_button_9xewyA": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Find out more",
+            "link": "https://buytickets.at/brimm/1809684",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YELrLj",
+        "text_i6eVxQ",
+        "cta_button_9xewyA"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": true,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
+        "color_scheme": "scheme-3"
+      }
+    },
+    "stacked_hero_cgBAJi": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_NbTeEJ": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Field trip to a regenerative farm"
+          }
+        },
+        "text_pDVWWz": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Join us for a day out on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather.</p><p>Strictly limited to 25 tickets.</p><p><strong>Friday 10 October I 9am-5pm</strong><br/>📍Weston Park Farms, Hertfordshire, SG4 7EE<br/><br/><strong>£150 Members I £200 Non Members</strong></p>"
+          }
+        },
+        "cta_button_wNLCc6": {
+          "type": "cta_button",
+          "settings": {
+            "label": "Find out more",
+            "link": "https://www.tickettailor.com/events/brimm/1809111",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NbTeEJ",
+        "text_pDVWWz",
+        "cta_button_wNLCc6"
+      ],
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": true,
+        "wider": false,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/british_pasture_leather.jpg",
+        "color_scheme": "scheme-3"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "stacked_hero_6XrCb8",
+    "flush_columns_6dwDNR",
+    "justified_header_section_XYt8hK",
+    "stacked_hero_QaD3X3",
+    "stacked_hero_6pkEf6",
+    "stacked_hero_cgBAJi"
+  ]
+}
