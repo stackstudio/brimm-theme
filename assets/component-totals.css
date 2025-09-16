@@ -25,6 +25,22 @@
 
 .credit_totals > h2 {
   font-size: calc(var(--font-heading-scale) * 1.3rem);
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0;
+}
+
+.credit_totals span {
+  margin-right: 0.3rem;
+}
+
+.credit_totals svg {
+  width: 24px;
+  height: 18px;
+}
+
+.credit_totals svg path {
+  fill: #6e1c20;
 }
 
 .credit_totals .totals__total-value {
