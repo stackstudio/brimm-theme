@@ -41,7 +41,7 @@
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
-        "full_screen": true,
+        "full_screen": false,
         "invert": false,
         "wider": false,
         "padded": false,
@@ -71,6 +71,7 @@
         "heading_7dd7VQ",
         "text_wGDKii"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",

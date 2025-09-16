@@ -12,16 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_4hLGXE": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.brand.value }}",
+            "text_style": "body"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
-        },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "Fulfilled by {{ product.vendor }}",
-            "text_style": "uppercase"
-          }
         },
         "caption": {
           "type": "text",
@@ -117,7 +117,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "none",
-            "content": "<p>Dispatched in 1-2 working days</p><p>Free delivery on all orders over £50</p>",
+            "content": "<p>Dispatched in 1-2 working days</p><p>Free delivery on all orders over £50<br/><br/>Fulfilled by {{ product.vendor }}</p>",
             "page": ""
           }
         },
@@ -129,8 +129,8 @@
         }
       },
       "block_order": [
+        "text_4hLGXE",
         "title",
-        "vendor",
         "caption",
         "price",
         "variant_picker",
