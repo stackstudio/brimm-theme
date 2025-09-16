@@ -17,6 +17,8 @@
   }
 </style>
 
+{% assign has_selling_plan_in_cart = false %}
+
 <cart-drawer class="drawer{% if cart == empty %} is-empty{% endif %}">
   <div id="CartDrawer" class="cart-drawer">
     <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
@@ -118,6 +120,7 @@
                       {% if item.selling_plan_allocation and item.selling_plan_allocation.selling_plan.id %}
                         {% assign is_selling_plan = true %}
                         {% assign hide_selling_plan = true %}
+                        {% assign has_selling_plan_in_cart = true %}
                       {% else %}
                         {% assign item_credit = item_credit | plus: item.final_line_price | times: 0.1 | money_with_currency %}
                       {% endif %}
@@ -563,7 +566,8 @@
             </div>
 
           </div>
-          {% if customer.tags contains 'explorer_tier' %}
+
+          {% if customer.tags contains 'explorer_tier' and has_selling_plan_in_cart %}
             <div class="credit_totals" role="status">
               <h2 class="totals__total">
                 <span>
