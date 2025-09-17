@@ -11,7 +11,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
@@ -38,6 +37,7 @@
         "heading_zthACV",
         "text_xieHzd"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
@@ -76,6 +76,7 @@
         "heading_LW6FGK",
         "buttons_ePwb8a"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/The_Lab_Co_IMAGE-2_0ca0c649-dc04-476a-8510-e13229eb72d7.webp",
@@ -167,6 +168,7 @@
         "collapsible_row_qii8z8",
         "collapsible_row_8htrhd"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
