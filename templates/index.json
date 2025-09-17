@@ -42,7 +42,7 @@
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
-        "full_screen": true,
+        "full_screen": false,
         "invert": false,
         "wider": false,
         "padded": false,
@@ -165,7 +165,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Kitchen_Reset_box_lifestyle_background.jpg",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
         "show_text_box": true,
@@ -239,7 +239,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Disover our vetted products",
+        "title": "Disover our BRIMM RESET BOXES",
         "no-gap": false,
         "first_col": true,
         "last_col": false,
