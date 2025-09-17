@@ -1079,7 +1079,7 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 }
 
 .cart-drawer .cart-item.is-selling-plan {
-  grid-template-columns: 44px 1fr auto;
+  grid-template-columns: 99px auto 0 51px;
   grid-template-rows: auto;
   align-items: center;
   padding: var(--space-s);
@@ -1093,6 +1093,25 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
     .product-option {
       margin-top: 0;
     }
+  }
+
+  /* .cart-item__price-wrapper {
+    width: 65px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    overflow: hidden;
+  } */
+
+  .member-media {
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    margin-right: var(--space-m);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .member-svg {

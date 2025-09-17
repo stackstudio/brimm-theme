@@ -1,9 +1,3 @@
-<!-- Bold: Memberships (collection products) -->
-{% render 'bold-memberships-product' %}
-{% if bold_hide_item == true %}
-  {% continue -%}
-{%- endif %}
-<!-- end Bold code -->
 {% comment %}
   Renders a product card
 
@@ -216,10 +210,13 @@
               </p>
             {%- endif -%}
             <div class="vendor-and-price">
-                {%- if show_vendor -%}
+                {% if card_product.metafields.custom.brand != blank %}
+                  <span class='visually-hidden'>{{ 'accessibility.vendor' | t }}</span>
+                  <div class='caption-with-letter-spacing light'>{{ card_product.metafields.custom.brand }}</div>
+                {% else %}
                   <span class='visually-hidden'>{{ 'accessibility.vendor' | t }}</span>
                   <div class='caption-with-letter-spacing light'>{{ card_product.vendor }}</div>
-                {%- endif -%}
+                {% endif %}
                 {% assign product_collections = card_product.collections | map: 'handle' %}
                 {% assign reset_boxes = false %}
                 {% if product_collections contains 'reset-boxes' %}
