@@ -155,7 +155,7 @@
             "content": "<p>Our mid level tier. Some content here about why it's good.</p>",
             "benefits": "<ul><li><strong>Access to our Journal</strong>, written by leading voices in Planet Positivity. Everything we do has an impact, so our journal covers it all: fashion, travel, beauty, home and (irresistible) food. Expect inspiring stories, clever tips and expert insights from big-name writers and conscious minds. Sparking ideas, fuelling optimism. Helping you live a planet-positive life - without compromise</li><li><strong>Member access to our events</strong>. Imagine intimate supper clubs, inspiring film nights and big-think panels with brands, activists and innovators.</li><li><strong>£40 credit per year</strong> for Reset boxes to discover beautifully curated Planet Positive products</li><li><strong>10% cashback</strong> on all purchases in our shop</li><li><strong>10% of everything you spend</strong> invested in our Planet Fund to help the brands you love further decarbonise</li></ul>",
             "button_label": "Buy Membership",
-            "button_url": "shopify://products/the-middle-tier-membership"
+            "button_url": "shopify://products/member-tier"
           }
         },
         "column_EVDmaL": {
