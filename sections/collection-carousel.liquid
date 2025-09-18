@@ -76,10 +76,11 @@
                     </div>
                 {% endif %}
                 <div class="price-and-vendor">
-                  <p>{{ product.vendor }}</p>
+                  <p>{{ product.metafields.custom.brand }}</p>
+                  <span class="sep">•</span>
                   <p>{{ product.price | money }}</p>
                 </div>
-                <h3>{{ product.title }}</h3>
+                <h3 class="inline-richtext body-extra">{{ product.title }}</h3>
               </a>
             </div>
           {% endfor %}
@@ -115,16 +116,6 @@
 .brimm-blocks--collection-carousel .collection-products {
   overflow: hidden;
   position: relative;
-}
-
-.brimm-blocks--collection-carousel .product-track {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: calc(100% / 3);
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 1rem;
-  padding-bottom: 0.5rem;
 }
 
 .carousel-image-wrapper {
