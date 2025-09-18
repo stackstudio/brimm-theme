@@ -43,9 +43,10 @@
                   {% endif %}
                   <div class="price-and-vendor">
                     <p>{{ product.vendor }}</p>
+                    <span class="sep">•</span>
                     <p>{{ product.price | money }}</p>
                   </div>
-                  <h3>{{ product.title }}</h3>
+                  <h3 class="inline-richtext body-extra">{{ product.title }}</h3>
                 </a>
               </div>
             {% endfor %}
@@ -65,7 +66,7 @@
 
 <style>
 .brimm-blocks--multi-carousel {
-    padding: var(--space-3xl) var(--space-l);
+    padding: var(--space-xl) var(--space-l);
 }
 .brimm-blocks--multi-carousel .collection-carousel-grid {
   display: grid;
@@ -160,6 +161,7 @@ button.leftArrow {
     color: black;
     text-decoration: none;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .brimm-blocks--multi-carousel .product-carousel {
@@ -181,8 +183,8 @@ button.leftArrow {
 
 .price-and-vendor {
     display: flex;
-    justify-content: space-between;
     padding-right: var(--space-s);
+    gap: var(--space-s);
     :last-child {
         font-size: var(--step-2);
     }
@@ -193,21 +195,24 @@ button.leftArrow {
     align-items: center;
     justify-content: center;
     gap: var(--space-xl);
-    padding-bottom: var(--space-2xl);
+    padding-bottom: var(--space-m);
     button {
         background: none;
         -webkit-appearance: none;
         border: none;
         font-family: "Manrope", sans-serif;
-        font-size: calc(var(--step-2) * 1.2);
-        font-weight: 440;
+        font-size: calc(var(--step-1) * 1.2);
+        font-weight: 800;
         opacity: .6;
         cursor: pointer;
         color: black;
+        border-bottom: 1px solid transparent;
+        padding-bottom: var(--space-xs);
     }
     button[disabled] {
         opacity: 1;
         font-weight: 800;
+        border-bottom: 1px solid black;
     }
 }
 
