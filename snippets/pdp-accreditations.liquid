@@ -3,12 +3,12 @@
     <button
       class="accordion-toggle"
       type="button"
-      aria-expanded="false"
+      aria-expanded="{% if index > 1 %}false{%else%}true{% endif %}"
       aria-controls="accreditations-panel-{{ item.brand.value | handle }}">
       <span>{{ item.brand.value }}</span>
       <span class="accordion-icon">+</span>
     </button>
-    <div class="pdp-accreditations hidden" id="accreditations-panel-{{ item.brand.value | handle }}">
+    <div class="pdp-accreditations {% if index > 1 %}hidden{% endif %}" id="accreditations-panel-{{ item.brand.value | handle }}">
       {{ item.description | metafield_tag }}
       {% if item.vendors %}
         <div class="vendor-logos">

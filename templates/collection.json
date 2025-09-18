@@ -11,7 +11,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
@@ -38,6 +37,7 @@
         "heading_zthACV",
         "text_xieHzd"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
@@ -48,6 +48,48 @@
         "video_embed": "",
         "wide_image": "{{ collection.image }}",
         "color_scheme": ""
+      }
+    },
+    "image_banner_gf9iDy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LW6FGK": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Wonderful Product",
+            "heading_size": "headline-extra"
+          }
+        },
+        "buttons_ePwb8a": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify://collections/reset-boxes",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LW6FGK",
+        "buttons_ePwb8a"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/The_Lab_Co_IMAGE-2_0ca0c649-dc04-476a-8510-e13229eb72d7.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "product-grid": {
@@ -126,6 +168,7 @@
         "collapsible_row_qii8z8",
         "collapsible_row_8htrhd"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
@@ -177,6 +220,7 @@
   "order": [
     "banner",
     "stacked_hero_tTUcXe",
+    "image_banner_gf9iDy",
     "product-grid",
     "collapsible_content_KTd4UF",
     "stacked_hero_ETCpkL"

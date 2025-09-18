@@ -16,9 +16,31 @@
           "type": "title",
           "settings": {}
         },
+        "text_gyVxxB": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.tagline.value }}",
+            "text_style": "body"
+          }
+        },
         "description_LRfyUQ": {
           "type": "description",
           "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
         },
         "collapsible_tab_GJPkcz": {
           "type": "collapsible_tab",
@@ -34,7 +56,7 @@
           "settings": {
             "heading": "Why it's BRiMM",
             "icon": "none",
-            "content": "{{ product.metafields.custom.why_this_brings_us_joy | metafield_tag }}",
+            "content": "",
             "page": ""
           }
         },
@@ -63,10 +85,6 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -74,35 +92,25 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "hive_product_delivery_promise_BwfzBB": {
           "type": "shopify://apps/hive/blocks/product_delivery_promise/28e61a32-b940-4725-8c15-5452d2292095",
           "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
         }
       },
       "block_order": [
         "title",
+        "text_gyVxxB",
         "description_LRfyUQ",
+        "quantity_selector",
+        "price",
+        "buy_buttons",
         "collapsible_tab_GJPkcz",
         "collapsible_tab_ftwbfC",
         "collapsible_tab_qxL7fA",
         "collapsible_tab_c4GzwK",
         "caption",
-        "price",
         "variant_picker",
-        "quantity_selector",
-        "hive_product_delivery_promise_BwfzBB",
-        "buy_buttons"
+        "hive_product_delivery_promise_BwfzBB"
       ],
       "settings": {
         "enable_sticky_info": true,

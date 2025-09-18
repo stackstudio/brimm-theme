@@ -1,0 +1,171 @@
+{% schema %}
+{
+  "name": "Collection Carousel",
+  "settings": [
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Select Collection"
+      },
+      {
+        "type": "image_picker",
+        "id": "custom_image",
+        "label": "Custom Image"
+      },
+      {
+        "type": "video",
+        "id": "custom_video",
+        "label": "Custom Video"
+      },
+      {
+        "type": "text",
+        "id": "custom_title",
+        "label": "Custom Title"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_description",
+        "label": "Custom Description"
+      },
+    ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Collection Carousel"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="brimm-blocks--collection-carousel">
+  {% assign collection = collections[section.settings.collection] %}
+
+  {% if collection %}
+    <div class="collection-carousel-grid">
+      <!-- First Column: Collection info -->
+      <div class="collection-info collection-carousel-card">
+        {% if section.settings.custom_video != blank or section.settings.custom_image != blank %}
+            <div class="carousel-image-wrapper collection-card">
+                {% if section.settings.custom_video != blank %}
+                    <video autoplay muted loop playsinline>
+                        <source src="{{ section.settings.custom_video | file_url }}" type="video/mp4">
+                    </video>
+                {% elsif section.settings.custom_image != blank %}
+                  <img src="{{ section.settings.custom_image | img_url: '600x' }}" alt="">
+                {% endif %}
+            </div>
+        {% endif %}
+          {% if section.settings.custom_title != blank %}
+            <h3 class="h2">{{ section.settings.custom_title }}</h3>
+          {% endif %}
+
+          {% if section.settings.custom_description != blank %}
+            <p>{{ section.settings.custom_description }}</p>
+          {% endif %}
+      </div>
+
+      <!-- Next three columns: products -->
+      <div class="collection-products">
+        <div class="product-track">
+          {% for product in collection.products %}
+            <div class="collection-carousel-card">
+              <a href="{{ product.url }}">
+                {% if product.featured_image %}
+                    <div class="carousel-image-wrapper">
+                        <img class="carousel-image" src="{{ product.featured_image | img_url: '800x' }}" alt="{{ product.title }}">
+                    </div>
+                {% endif %}
+                <div class="price-and-vendor">
+                  <p>{{ product.metafields.custom.brand }}</p>
+                  <span class="sep">•</span>
+                  <p>{{ product.price | money }}</p>
+                </div>
+                <h3 class="inline-richtext body-extra">{{ product.title }}</h3>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+        <button class="leftArrow">
+            <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M68.7 308.7C62.5 314.9 62.5 325.1 68.7 331.3L244.7 507.3C250.9 513.5 261.1 513.5 267.3 507.3C273.5 501.1 273.5 490.9 267.3 484.7L118.6 336L560 336C568.8 336 576 328.8 576 320C576 311.2 568.8 304 560 304L118.6 304L267.3 155.3C273.5 149.1 273.5 138.9 267.3 132.7C261.1 126.5 250.9 126.5 244.7 132.7L68.7 308.7z"/></svg>
+        </button>
+        <button class="rightArrow">
+            <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M571.3 331.3C577.5 325.1 577.5 314.9 571.3 308.7L395.3 132.7C389.1 126.5 378.9 126.5 372.7 132.7C366.5 138.9 366.5 149.1 372.7 155.3L521.4 304L80 304C71.2 304 64 311.2 64 320C64 328.8 71.2 336 80 336L521.4 336L372.7 484.7C366.5 490.9 366.5 501.1 372.7 507.3C378.9 513.5 389.1 513.5 395.3 507.3L571.3 331.3z"/></svg>
+        </button>
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<style>
+.brimm-blocks--collection-carousel {
+    padding: var(--space-3xl) var(--space-l);
+}
+.brimm-blocks--collection-carousel .collection-carousel-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: var(--space-m);
+  align-items: start;
+}
+
+.brimm-blocks--collection-carousel .collection-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.brimm-blocks--collection-carousel .collection-products {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-image-wrapper {
+    aspect-ratio: 3/4;
+}
+
+.carousel-image-wrapper.collection-card {
+    aspect-ratio: 5/8;
+    img {
+        aspect-ratio: 5/8;
+    }
+}
+
+.collection-carousel-card img {
+  object-fit: cover;
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 3/4;
+}
+
+.collection-carousel-card a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.collection-carousel-card p {
+    margin: 0;
+}
+
+.collection-carousel-card h3 {
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+.brimm-blocks--collection-carousel .product-carousel {
+  display: flex;
+  gap: var(--space-m);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.5rem;
+}
+
+.brimm-blocks--collection-carousel .product-item {
+  scroll-snap-align: start;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  min-width: 0; /* prevents overflow fighting */
+}
+
+</style>

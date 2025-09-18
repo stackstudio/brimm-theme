@@ -1660,15 +1660,31 @@ const dualAddToCart = () => {
 
 dualAddToCart();
 
-const membershipCartButtons = document.querySelectorAll(
+// Function to get fresh DOM references (useful after cart updates)
+const getMembershipElements = () => {
+  return {
+    membershipCartButtons: document.querySelectorAll(
+      '.brimm-blocks--column-button__add-to-cart',
+    ),
+    planButtonWrappers: document.querySelectorAll(
+      '.js-membership-column-bottom',
+    ),
+    membershipButtonsWidget: document.querySelector(
+      '.js-membership-column-bottom',
+    ),
+  };
+};
+
+// Initial DOM references
+let membershipCartButtons = document.querySelectorAll(
   '.brimm-blocks--column-button__add-to-cart',
 );
 
-const planButtonWrappers = document.querySelectorAll(
+let planButtonWrappers = document.querySelectorAll(
   '.js-membership-column-bottom',
 );
 
-const membershipButtonsWidget = document.querySelector(
+let membershipButtonsWidget = document.querySelector(
   '.js-membership-column-bottom',
 );
 
@@ -1692,11 +1708,17 @@ const addMembershipProductToCart = async (membershipCartButton) => {
     `Adding membership product to cart: ${variantId}, selling plan: ${sellingPlanId}`,
   );
 
+  // Get fresh DOM references in case elements were updated
+  const elements = getMembershipElements();
+
   membershipCartButton?.setAttribute('disabled', 'disabled');
-  membershipButtonsWidget?.setAttribute('aria-disabled', 'true');
-  membershipButtonsWidget?.setAttribute('aria-busy', 'true');
-  membershipButtonsWidget?.setAttribute('aria-label', 'Adding to cart...');
-  planButtonWrappers.forEach((wrapper) => {
+  elements.membershipButtonsWidget?.setAttribute('aria-disabled', 'true');
+  elements.membershipButtonsWidget?.setAttribute('aria-busy', 'true');
+  elements.membershipButtonsWidget?.setAttribute(
+    'aria-label',
+    'Adding to cart...',
+  );
+  elements.planButtonWrappers.forEach((wrapper) => {
     wrapper.classList.add('is-adding');
   });
 
@@ -1726,19 +1748,23 @@ const addMembershipProductToCart = async (membershipCartButton) => {
         return res;
       })
       .then((res) => {
-        membershipButtonsWidget.classList.remove('loading');
+        // Get fresh references again in case DOM was updated during the request
+        const freshElements = getMembershipElements();
+
+        freshElements.membershipButtonsWidget?.classList.remove('loading');
         membershipCartButton?.classList.remove('loading');
         membershipCartButton?.removeAttribute('disabled');
-        membershipButtonsWidget?.removeAttribute('aria-disabled');
-        membershipButtonsWidget?.removeAttribute('aria-busy');
-        membershipButtonsWidget?.removeAttribute('aria-label');
-        planButtonWrappers.forEach((wrapper) => {
+        freshElements.membershipButtonsWidget?.removeAttribute('aria-disabled');
+        freshElements.membershipButtonsWidget?.removeAttribute('aria-busy');
+        freshElements.membershipButtonsWidget?.removeAttribute('aria-label');
+        freshElements.planButtonWrappers.forEach((wrapper) => {
           wrapper.classList.add('is-disabled');
           wrapper.classList.remove('is-adding');
           wrapper.classList.add('added_to_cart');
         });
-        if (cartDrawer.classList.contains('is-empty')) {
-          cartDrawer.classList.remove('is-empty');
+        const currentCartDrawer = document.querySelector('.drawer');
+        if (currentCartDrawer?.classList.contains('is-empty')) {
+          currentCartDrawer.classList.remove('is-empty');
         }
         membership_added = true;
         return res;
@@ -1760,11 +1786,44 @@ const addMembershipProductToCart = async (membershipCartButton) => {
   }
 };
 
-membershipCartButtons.forEach((button) => {
-  button.addEventListener('click', (evt) => {
-    addMembershipProductToCart(evt.currentTarget);
-  });
-});
+// Use event delegation instead of direct event listeners to handle dynamically updated DOM
+const attachMembershipCartListeners = () => {
+  // Remove existing listener if it exists
+  document.removeEventListener('click', membershipCartClickHandler);
+
+  // Add event delegation listener
+  document.addEventListener('click', membershipCartClickHandler);
+};
+
+const membershipCartClickHandler = (evt) => {
+  // Check if clicked element is a membership cart button
+  const membershipButton = evt.target.closest(
+    '.brimm-blocks--column-button__add-to-cart',
+  );
+  if (membershipButton) {
+    console.log('Membership cart button clicked via event delegation');
+    evt.preventDefault();
+    addMembershipProductToCart(membershipButton);
+  }
+};
+
+// Initialize event delegation
+attachMembershipCartListeners();
+
+// Subscribe to cart updates to handle any necessary DOM refreshes
+const membershipCartUpdateUnsubscriber = subscribe(
+  PUB_SUB_EVENTS.cartUpdate,
+  (event) => {
+    // Refresh DOM references after cart updates
+    console.log('Cart updated, refreshing membership button references');
+
+    // Update global references
+    const elements = getMembershipElements();
+    membershipCartButtons = elements.membershipCartButtons;
+    planButtonWrappers = elements.planButtonWrappers;
+    membershipButtonsWidget = elements.membershipButtonsWidget;
+  },
+);
 
 document.addEventListener('DOMContentLoaded', function () {
   // Get all accordion containers

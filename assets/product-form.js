@@ -21,11 +21,11 @@ if (!customElements.get('product-form')) {
 
         this.membershipPlans = {
           supporter: {
-            variantId: 48556935086422,
+            variantId: 51338790404438,
             sellingPlanId: 690226135382,
           },
           explorer: {
-            variantId: 48556931481942,
+            variantId: 51338791289174,
             sellingPlanId: 690221023574,
           },
         };

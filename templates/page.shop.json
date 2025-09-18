@@ -40,13 +40,24 @@
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
-        "full_screen": true,
+        "full_screen": false,
         "invert": false,
         "wider": false,
         "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/Lewis_Ferris_Photos_79d45ff3-6937-4fda-92c0-c9b2ee44ea9b.jpg",
         "color_scheme": "scheme-3"
+      }
+    },
+    "multi_collection_carousel_ap9DKM": {
+      "type": "multi-collection-carousel",
+      "name": "Multi-Collection Carousel",
+      "settings": {
+        "collections": [
+          "beauty-homepage",
+          "pantry",
+          "home"
+        ]
       }
     },
     "flush_columns_6dwDNR": {
@@ -91,6 +102,7 @@
         "column_qCetKD",
         "column_YnAKPP"
       ],
+      "disabled": true,
       "name": "Flush Columns",
       "settings": {
         "title": "CONNECT WITH CLIMATE OPTIMISTS",
@@ -117,6 +129,7 @@
       "block_order": [
         "justified_header_dp4CaF"
       ],
+      "disabled": true,
       "name": "Justified Header + Content",
       "settings": {
         "color_scheme": "scheme-3"
@@ -166,47 +179,6 @@
         "color_scheme": "scheme-3"
       }
     },
-    "stacked_hero_6pkEf6": {
-      "type": "stacked-hero",
-      "blocks": {
-        "heading_YELrLj": {
-          "type": "heading",
-          "settings": {
-            "heading_text": "stitch & bitch"
-          }
-        },
-        "text_i6eVxQ": {
-          "type": "text",
-          "settings": {
-            "copy": "<p>Led by iconic fashion disruptor Orsola de Castro, co-founder of Fashion Revolution, this evening explores the quiet radicalism of visual mending over a shared table.</p><p>With only 24 places available, this is a rare chance to learn, laugh and be inspired in the company of one of fashion’s most influential voices.</p><p><strong>Tuesday 23 September I 6.30pm-9pm</strong><br/>📍The Meeting House, Peckham,<br/>London SE15 2UN</p><p><strong>£35 Members I £70 Non Members</strong></p>"
-          }
-        },
-        "cta_button_9xewyA": {
-          "type": "cta_button",
-          "settings": {
-            "label": "Find out more",
-            "link": "https://buytickets.at/brimm/1809684",
-            "style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YELrLj",
-        "text_i6eVxQ",
-        "cta_button_9xewyA"
-      ],
-      "name": "Stacked Hero",
-      "settings": {
-        "two_image": false,
-        "full_screen": true,
-        "invert": false,
-        "wider": true,
-        "padded": false,
-        "video_embed": "",
-        "wide_image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
-        "color_scheme": "scheme-3"
-      }
-    },
     "stacked_hero_cgBAJi": {
       "type": "stacked-hero",
       "blocks": {
@@ -219,7 +191,7 @@
         "text_pDVWWz": {
           "type": "text",
           "settings": {
-            "copy": "<p>Join us for a day out on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather.</p><p>Strictly limited to 25 tickets.</p><p><strong>Friday 10 October I 9am-5pm</strong><br/>📍Weston Park Farms, Hertfordshire, SG4 7EE<br/><br/><strong>£150 Members I £200 Non Members</strong></p>"
+            "copy": "<p>Join us for a day out on one of the UK's leading regenerative farms for a tour hosted by British Pasture Leather</p>"
           }
         },
         "cta_button_wNLCc6": {
@@ -236,6 +208,7 @@
         "text_pDVWWz",
         "cta_button_wNLCc6"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
@@ -247,15 +220,59 @@
         "wide_image": "shopify://shop_images/british_pasture_leather.jpg",
         "color_scheme": "scheme-3"
       }
+    },
+    "stacked_hero_6pkEf6": {
+      "type": "stacked-hero",
+      "blocks": {
+        "heading_YELrLj": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "learn how to mend your clothes"
+          }
+        },
+        "text_i6eVxQ": {
+          "type": "text",
+          "settings": {
+            "copy": "<p>Coming soon - join sustainable fashion pioneer, Orsola de Castro for a stitch n bitch - a hands on experience learning how to mend your clothes while hearing about the state of the fashion industry</p>"
+          }
+        },
+        "cta_button_9xewyA": {
+          "type": "cta_button",
+          "disabled": true,
+          "settings": {
+            "label": "Learn more",
+            "link": "shopify://blogs/events/stitch-bitch-sip-a-hands-on-workshop-with-orsola-de-castro-at-her-peckham-cafe",
+            "style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YELrLj",
+        "text_i6eVxQ",
+        "cta_button_9xewyA"
+      ],
+      "disabled": true,
+      "name": "Stacked Hero",
+      "settings": {
+        "two_image": false,
+        "full_screen": true,
+        "invert": false,
+        "wider": true,
+        "padded": false,
+        "video_embed": "",
+        "wide_image": "shopify://shop_images/Orsola_de_Castrojpeg.jpg",
+        "color_scheme": "scheme-3"
+      }
     }
   },
   "order": [
     "main",
     "stacked_hero_6XrCb8",
+    "multi_collection_carousel_ap9DKM",
     "flush_columns_6dwDNR",
     "justified_header_section_XYt8hK",
     "stacked_hero_QaD3X3",
-    "stacked_hero_6pkEf6",
-    "stacked_hero_cgBAJi"
+    "stacked_hero_cgBAJi",
+    "stacked_hero_6pkEf6"
   ]
 }

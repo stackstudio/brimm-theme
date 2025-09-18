@@ -6,6 +6,14 @@ product-info {
   margin: 0;
 }
 
+.product__title h1 {
+    font-size: var(--step-4);
+}
+
+.grid.product__media-list {
+
+}
+
 .product.grid {
   gap: 0;
 }
@@ -19,11 +27,74 @@ product-info {
   padding-left: 0;
 }
 
+.product-accreditation-tags {
+  display: flex;
+  gap: var(--space-s);
+
+  .badge {
+    font-family: 'Manrope', sans-serif;
+    font-size: var(--step-2);
+    padding: var(--space-s) var(--space-m);
+    font-weight: 540;
+  }
+}
+
+.product__info-container > .shipping-info,
+.product__info-container > .membership-info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-l);
+  padding: var(--space-m);
+  background: #fdfaff;
+  border: 1px solid #ede7f1;
+  margin-top: -1.5rem;
+
+  p {
+    margin: 0;
+    line-height: 1.1;
+  }
+}
+
+.product__info-container > .membership-info {
+  flex-direction: row;
+  align-items: start;
+  margin-top: 1rem;
+  background: #e3b2ff;
+  color: #6e1c20;
+  border: none;
+  padding: var(--space-l);
+  flex-wrap: wrap;
+
+  a {
+    font-weight: 540;
+    color: inherit;
+  }
+
+  strong {
+    font-family: 'Manrope', sans-serif;
+    font-size: var(--step-2);
+    font-weight: 760;
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: var(--space-m);
+    margin-top: var(--space-s);
+  }
+
+  svg path {
+    fill: #6e1c20;
+  }
+}
+
+.shipping-info svg,
+.membership-info svg {
+  width: 24px;
+}
+
 @media screen and (min-width: 750px) {
   .product__column-sticky {
     display: block;
-    position: sticky;
-    top: 3rem;
     z-index: 2;
   }
 
@@ -256,6 +327,7 @@ a.product__text {
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
+  margin-top: 0;
 }
 
 .product__title > * {
@@ -302,6 +374,7 @@ a.product__text {
 
   .product__info-container > *:first-child {
     margin-top: 0;
+    font-style: italic;
   }
 }
 

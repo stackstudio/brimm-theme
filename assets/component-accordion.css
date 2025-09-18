@@ -2,7 +2,11 @@
   display: flex;
   position: relative;
   line-height: 1;
-  padding: 1.5rem 0;
+  padding: 0;
+}
+
+.accordion details {
+    padding: var(--space-m) 0;
 }
 
 .accordion .summary__title {
@@ -20,9 +24,8 @@
 }
 
 .accordion {
-  margin-top: 2.5rem;
+  margin-top: .5rem;
   margin-bottom: 0;
-  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
@@ -32,6 +35,9 @@
   min-height: 1.6rem;
   margin: 0;
   word-break: break-word;
+}
+.summary__title h2 {
+    font-weight: 640;
 }
 
 .accordion .svg-wrapper {
@@ -47,10 +53,14 @@
 }
 
 .accordion__content {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
   word-break: break-word;
   overflow-x: auto;
   padding: 0;
+}
+
+.accordion__content p:last-child {
+    margin-bottom: 0;
 }
 
 .accordion__content img {

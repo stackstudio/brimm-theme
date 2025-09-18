@@ -52,7 +52,6 @@
     {% render 'meta-tags' %}
 
     <script src='{{ 'constants.js' | asset_url }}' defer='defer'></script>
-    <script src='{{ 'custom.js' | asset_url }}' defer='defer'></script>
     <script src='{{ 'pubsub.js' | asset_url }}' defer='defer'></script>
     <script src='{{ 'global.js' | asset_url }}' defer='defer'></script>
     <script src='{{ 'details-disclosure.js' | asset_url }}' defer='defer'></script>
@@ -427,6 +426,8 @@ body {
       <script src='{{ 'localization-form.js' | asset_url }}' defer='defer'></script>
     {%- endif -%}
 
+    <script src='{{ 'custom.js' | asset_url }}' defer='defer'></script>
+
     {%- if settings.predictive_search_enabled -%}
       <link
         rel='stylesheet'
@@ -597,5 +598,4 @@ body {
 
     {% include 'store-credit-launcher' %}
   </body>
-
 </html>

@@ -15,7 +15,7 @@
       "type": "header",
       "settings": {
         "logo_position": "middle-left",
-        "menu": "new-ecomm-header",
+        "menu": "new-ecomm-header-nested",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "none",
         "show_line_separator": true,
@@ -23,7 +23,7 @@
         "menu_color_scheme": "scheme-2",
         "enable_country_selector": true,
         "enable_language_selector": true,
-        "enable_customer_avatar": false,
+        "enable_customer_avatar": true,
         "mobile_logo_position": "left",
         "margin_bottom": 0,
         "padding_top": 20,

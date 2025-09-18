@@ -9,6 +9,7 @@
 
   assign compare_at_price = target.compare_at_price
   assign member_price = member_price | default: null
+  assign credit_price = credit_price | default: null
   assign price = target.price | default: 1999
   assign price_min = product.price_min
   assign price_max = product.price_max
@@ -53,8 +54,15 @@
             Members price: {{ money_member_price }}
           </span>
         </div>
+      {% elsif credit_price -%}
+        <div class="price__credit">
+          <span class="visually-hidden visually-hidden--inline">Buy with Membership <br> Earn {{ money_credit_price }} store credit back with this purchase</span>
+          <span class="price-item price-item--credit">
+            Buy with Membership <br>
+            Earn {{ credit_price }} store credit back with this purchase.
+          </span>
+        </div>
       {%- else -%}
-
         <div class="price__regular">
           {%- if product.quantity_price_breaks_configured? -%}
             {%- if show_compare_at_price and compare_at_price -%}
@@ -86,25 +94,25 @@
             </span>
           {%- endif -%}
         </div>
-      {%- endif -%}
-      <div class="price__sale">
-        {%- unless product.price_varies == false and product.compare_at_price_varies %}
-          <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-          <span>
-            <s class="price-item price-item--regular">
-              {% if settings.currency_code_enabled %}
-                {{ compare_at_price | money_with_currency }}
-              {% else %}
-                {{ compare_at_price | money }}
-              {% endif %}
-            </s>
+        <div class="price__sale">
+          {%- unless product.price_varies == false and product.compare_at_price_varies %}
+            <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
+            <span>
+              <s class="price-item price-item--regular">
+                {% if settings.currency_code_enabled %}
+                  {{ compare_at_price | money_with_currency }}
+                {% else %}
+                  {{ compare_at_price | money }}
+                {% endif %}
+              </s>
+            </span>
+          {%- endunless -%}
+          <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
+          <span class="price-item price-item--sale price-item--last">
+            {{ money_price }}
           </span>
-        {%- endunless -%}
-        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
-        <span class="price-item price-item--sale price-item--last">
-          {{ money_price }}
-        </span>
-      </div>
+        </div>
+      {%- endif -%}
       <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
         <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
         <span class="price-item price-item--last">

@@ -1,0 +1,243 @@
+{% schema %}
+{
+  "name": "Multi-Collection Carousel",
+  "settings": [
+    {
+      "type": "collection_list",
+      "id": "collections",
+      "label": "Collections"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-Collection Carousel"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="brimm-blocks--multi-carousel" data-multi-carousel>
+
+  {% assign selected_collections = section.settings.collections %}
+
+  <div class="collection-tabs">
+    {% for col in selected_collections %}
+      <button class="collection-tab" data-collection-handle="{{ col.handle }}">
+        {{ col.title }}
+      </button>
+    {% endfor %}
+  </div>
+
+  {% for col in selected_collections %}
+    {% if col %}
+      <div class="collection-products" data-collection="{{ col.handle }}" style="display:none;">
+        <div class="product-track">
+          {% paginate col.products by 12 %}
+            {% for product in col.products %}
+              <div class="collection-carousel-card">
+                <a href="{{ product.url }}">
+                  {% if product.featured_image %}
+                    <div class="carousel-image-wrapper">
+                      <img class="carousel-image" src="{{ product.featured_image | img_url: '800x' }}" alt="{{ product.title }}">
+                    </div>
+                  {% endif %}
+                  <div class="price-and-vendor">
+                    <p>{{ product.metafields.custom.brand }}</p>
+                    <span class="sep">•</span>
+                    <p>{{ product.price | money }}</p>
+                  </div>
+                  <h3 class="inline-richtext body-extra">{{ product.title }}</h3>
+                </a>
+              </div>
+            {% endfor %}
+          {% endpaginate %}
+
+        </div>
+        <button class="leftArrow">
+            <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M68.7 308.7C62.5 314.9 62.5 325.1 68.7 331.3L244.7 507.3C250.9 513.5 261.1 513.5 267.3 507.3C273.5 501.1 273.5 490.9 267.3 484.7L118.6 336L560 336C568.8 336 576 328.8 576 320C576 311.2 568.8 304 560 304L118.6 304L267.3 155.3C273.5 149.1 273.5 138.9 267.3 132.7C261.1 126.5 250.9 126.5 244.7 132.7L68.7 308.7z"/></svg>
+        </button>
+        <button class="rightArrow">
+            <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M571.3 331.3C577.5 325.1 577.5 314.9 571.3 308.7L395.3 132.7C389.1 126.5 378.9 126.5 372.7 132.7C366.5 138.9 366.5 149.1 372.7 155.3L521.4 304L80 304C71.2 304 64 311.2 64 320C64 328.8 71.2 336 80 336L521.4 336L372.7 484.7C366.5 490.9 366.5 501.1 372.7 507.3C378.9 513.5 389.1 513.5 395.3 507.3L571.3 331.3z"/></svg>
+        </button>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+.brimm-blocks--multi-carousel {
+    padding: var(--space-xl) var(--space-l);
+}
+.brimm-blocks--multi-carousel .collection-carousel-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: var(--space-m);
+  align-items: start;
+}
+
+.brimm-blocks--multi-carousel .collection-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.brimm-blocks--multi-carousel .collection-products {
+  overflow: hidden;
+  position: relative;
+}
+
+.brimm-blocks--multi-carousel .product-track {
+  display: grid;
+  width: auto;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(100% / 4);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  @media(max-width: 700px) {
+      grid-auto-columns: calc(100% / 2);
+  }
+}
+
+button.rightArrow {
+    position: absolute;
+    right: 0px;
+    height: 48px;
+    width: 48px;
+    background: rgba(255,255,255,.6);
+    border: none;
+    border-radius: 999px;
+    top: calc(40% - 12px);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    svg {
+        transform: translate(-1px, 1px);
+    }
+}
+
+button.leftArrow {
+    position: absolute;
+    left: 0px;
+    height: 48px;
+    width: 48px;
+    background: rgba(255,255,255,.6);
+    border: none;
+    border-radius: 999px;
+    top: calc(40% - 12px);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    svg {
+        transform: translate(-1px, 1px);
+    }
+}
+
+
+
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('[data-multi-carousel]').forEach(carousel => {
+    const tabs = carousel.querySelectorAll('.collection-tab');
+    const tracks = carousel.querySelectorAll('.collection-products');
+
+    function showCollection(handle) {
+      tracks.forEach(track => {
+        track.style.display = track.dataset.collection === handle ? '' : 'none';
+      });
+      tabs.forEach(tab => {
+        tab.disabled = (tab.dataset.collectionHandle === handle); // disables active tab
+      });
+    }
+
+    if (tabs.length) {
+      showCollection(tabs[0].dataset.collectionHandle); // show first collection by default
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        showCollection(tab.dataset.collectionHandle);
+      });
+    });
+
+
+  });
+  document.querySelectorAll('.collection-products').forEach(collection => {
+    const track = collection.querySelector('.product-track');
+    const prevBtn = collection.querySelector('.leftArrow');
+    const nextBtn = collection.querySelector('.rightArrow');
+    if (!track || !prevBtn || !nextBtn) return;
+
+    const items = Array.from(track.children).filter(n => n.nodeType === 1);
+    if (!items.length) return;
+
+    const getPaddingLeft = () => parseFloat(getComputedStyle(track).paddingLeft) || 0;
+    const getMaxScrollLeft = () => Math.max(0, Math.round(track.scrollWidth - track.clientWidth));
+
+    function getFirstVisibleIndex() {
+      const scrollLeft = Math.round(track.scrollLeft);
+      for (let i = 0; i < items.length; i++) {
+        const itemStart = Math.round(items[i].offsetLeft);
+        const itemEnd = itemStart + Math.round(items[i].offsetWidth);
+        if (itemEnd > scrollLeft) return i;
+      }
+      return items.length - 1;
+    }
+
+    function getLastVisibleIndex() {
+      const rightEdge = track.scrollLeft + track.clientWidth - 1;
+      for (let i = items.length - 1; i >= 0; i--) {
+        if (items[i].offsetLeft < rightEdge) return i;
+      }
+      return 0;
+    }
+
+    function scrollToIndex(index) {
+          index = Math.max(0, Math.min(items.length - 1, index));
+          const maxScrollLeft = getMaxScrollLeft();
+
+          let left;
+          // If it's the final item, go to the very end
+          if (index === items.length - 1) {
+            left = maxScrollLeft;
+          } else {
+            // Normal behaviour: align item to left edge (account for track padding)
+            left = Math.max(0, Math.round(items[index].offsetLeft - getPaddingLeft()));
+            // But never exceed the true max scroll
+            left = Math.min(left, maxScrollLeft);
+          }
+
+          // Smooth scroll with fallback
+          if ('scrollBehavior' in document.documentElement.style) {
+            track.scrollTo({ left, behavior: 'smooth' });
+          } else {
+            track.scrollLeft = left;
+          }
+        }
+
+    prevBtn.addEventListener('click', () => {
+      const first = getFirstVisibleIndex();
+      scrollToIndex(first > 0 ? first - 1 : 0);
+    });
+
+    nextBtn.addEventListener('click', () => {
+      const first = getFirstVisibleIndex();
+      scrollToIndex(Math.min(items.length - 1, first + 1));
+    });
+
+    function updateButtons() {
+      const first = getFirstVisibleIndex();
+      const last = getLastVisibleIndex();
+      prevBtn.disabled = first <= 0;
+      nextBtn.disabled = last >= items.length - 1;
+    }
+
+    track.addEventListener('scroll', () => requestAnimationFrame(updateButtons));
+    window.addEventListener('resize', () => requestAnimationFrame(updateButtons));
+
+    updateButtons();
+  })
+});
+</script>

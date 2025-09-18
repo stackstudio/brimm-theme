@@ -12,60 +12,140 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
+        "text_4hLGXE": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "text": "{{ product.metafields.custom.brand.value }}",
+            "text_style": "body"
           }
         },
         "title": {
           "type": "title",
           "settings": {}
         },
-        "description_LRfyUQ": {
-          "type": "description",
-          "settings": {}
-        },
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text": "{{ product.metafields.custom.tagline.value }}",
+            "text_style": "body"
           }
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
+        },
+        "membership_info_K9JWay": {
+          "type": "membership_info",
+          "settings": {
+            "membership_text": "<p><strong>How would you like to purchase?</strong></p>"
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
+          }
+        },
+        "shipping_info_xpaK7r": {
+          "type": "shipping_info",
+          "disabled": true,
+          "settings": {
+            "shipping_text": "Free delivery on orders over £50\nStandard delivery £5"
+          }
+        },
+        "text_QbnMxV": {
+          "type": "text",
+          "settings": {
+            "text": "About this product",
+            "text_style": "subtitle"
+          }
+        },
+        "description_LRfyUQ": {
+          "type": "description",
+          "settings": {}
+        },
+        "text_Nt9Kg4": {
+          "type": "text",
+          "settings": {
+            "text": "Dive in",
+            "text_style": "subtitle"
+          }
+        },
+        "collapsible_tab_yeR46g": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why it's BRiMM",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.why_this_brings_us_joy | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_A8JWzz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to use",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_zEfyXy": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.ingredients | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_3eeYm3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "none",
+            "content": "<p>Dispatched in 1-2 working days</p><p>Free delivery on all orders over £50<br/><br/>Fulfilled by {{ product.vendor }}</p>",
+            "page": ""
+          }
+        },
+        "product_accreditations_hwJxcX": {
+          "type": "product-accreditations",
+          "settings": {
+            "accreditations_text": "Accreditations Text"
           }
         }
       },
       "block_order": [
-        "vendor",
+        "text_4hLGXE",
         "title",
-        "description_LRfyUQ",
         "caption",
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "membership_info_K9JWay",
+        "buy_buttons",
+        "shipping_info_xpaK7r",
+        "text_QbnMxV",
+        "description_LRfyUQ",
+        "text_Nt9Kg4",
+        "collapsible_tab_yeR46g",
+        "collapsible_tab_A8JWzz",
+        "collapsible_tab_zEfyXy",
+        "collapsible_tab_3eeYm3",
+        "product_accreditations_hwJxcX"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -75,7 +155,7 @@
         "media_fit": "cover",
         "gallery_layout": "stacked",
         "media_position": "left",
-        "image_zoom": "hover",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,

@@ -42,6 +42,66 @@
         "name": "multi_line_text_field",
         "category": "TEXT"
       }
+    },
+    {
+      "key": "linked_blog_post_handles",
+      "namespace": "custom",
+      "name": "Linked Blog Post Handles",
+      "description": "The featured post for a collection",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "hero_product",
+      "namespace": "custom",
+      "name": "Hero Product",
+      "description": "",
+      "type": {
+        "name": "product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "brand_accreditation_description",
+      "namespace": "custom",
+      "name": "Brand Accreditation Description",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "brand_accreditation_tags",
+      "namespace": "custom",
+      "name": "Brand Accreditation Tags",
+      "description": "",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "secondary_image",
+      "namespace": "custom",
+      "name": "Secondary Image",
+      "description": "",
+      "type": {
+        "name": "file_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "brand_vetting_description",
+      "namespace": "custom",
+      "name": "Brand Vetting Description",
+      "description": "Used in the vetting module where we show 'why it's BRiMM'",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "company": [],
@@ -123,26 +183,6 @@
       }
     },
     {
-      "key": "dress-occasion",
-      "namespace": "shopify",
-      "name": "Dress occasion",
-      "description": "Specifies the intended occasion for a dress, e.g. holiday, everyday",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "dress-style",
-      "namespace": "shopify",
-      "name": "Dress style",
-      "description": "Identifies the design of a dress, such as wrap or empire waist",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
       "key": "neckline",
       "namespace": "shopify",
       "name": "Neckline",
@@ -177,16 +217,6 @@
       "namespace": "shopify",
       "name": "Target gender",
       "description": "Identifies the intended gender for a product, such as female, male or unisex",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "top-length-type",
-      "namespace": "shopify",
-      "name": "Top length type",
-      "description": "Defines the length of tops or shirts, like crop top or long",
       "type": {
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
@@ -433,16 +463,6 @@
       }
     },
     {
-      "key": "included_products",
-      "namespace": "custom",
-      "name": "Included Products",
-      "description": "",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
       "key": "shampoo-type",
       "namespace": "shopify",
       "name": "Shampoo type",
@@ -525,7 +545,7 @@
     {
       "key": "why_this_brings_us_joy",
       "namespace": "custom",
-      "name": "Why this brings us joy",
+      "name": "Why It's BRiMM",
       "description": "Why this product brings us joy text area",
       "type": {
         "name": "rich_text_field",
@@ -593,9 +613,9 @@
       }
     },
     {
-      "key": "curation",
+      "key": "in_the_box",
       "namespace": "custom",
-      "name": "Curation",
+      "name": "In the box",
       "description": "",
       "type": {
         "name": "rich_text_field",
@@ -603,12 +623,252 @@
       }
     },
     {
-      "key": "in_the_box",
+      "key": "scent",
+      "namespace": "shopify",
+      "name": "Scent",
+      "description": "Specifies the fragrance or aroma of a product, such as vanilla or citrus",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "packing-materials-included",
+      "namespace": "shopify",
+      "name": "Packing materials included",
+      "description": "Identifies the type of packing materials provided, like air pillows or bubble wrap",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "tea-input-type",
+      "namespace": "shopify",
+      "name": "Tea input type",
+      "description": "Specifies the preparation style of tea, e.g. bags, K-cups",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "flavor",
+      "namespace": "shopify",
+      "name": "Flavor",
+      "description": "Specifies the taste or flavor of a product, e.g. vanilla, mint",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "rating",
+      "namespace": "reviews",
+      "name": "Product rating",
+      "description": "Average rating from customers",
+      "type": {
+        "name": "rating",
+        "category": "RATING"
+      }
+    },
+    {
+      "key": "rating_count",
+      "namespace": "reviews",
+      "name": "Product rating count",
+      "description": "Total number of ratings from customers",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "application-method",
+      "namespace": "shopify",
+      "name": "Application method",
+      "description": "Defines how a product is applied or used, e.g. gel, liquid, spray",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "washing-method",
+      "namespace": "shopify",
+      "name": "Washing method",
+      "description": "Specifies the recommended cleaning process for a product, e.g. hand washing, machine washing ",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "laundry-detergent-features",
+      "namespace": "shopify",
+      "name": "Laundry detergent features",
+      "description": "Describes special characteristics of laundry detergent, like color protection or stain removal",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "material",
+      "namespace": "shopify",
+      "name": "Material",
+      "description": "Defines a product's primary material, such as cotton or wool",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "nut-butter-variety",
+      "namespace": "shopify",
+      "name": "Nut butter variety",
+      "description": "Identifies the nut variety in nut-based spreads, e.g. peanut, almond",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "product_quote",
       "namespace": "custom",
-      "name": "In the box",
+      "name": "Product Quote",
+      "description": "A quote to display in LHS of product page",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "coffee-roast",
+      "namespace": "shopify",
+      "name": "Coffee roast",
+      "description": "Defines the roast level of coffee products, e.g. light, medium, dark",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "country",
+      "namespace": "shopify",
+      "name": "Country",
+      "description": "Specifies the country associated with the product, such as Japan or Germany",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "grind-size",
+      "namespace": "shopify",
+      "name": "Grind size",
+      "description": "Indicates the coarseness or fineness of coffee grounds, such as extra coarse or fine",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "coffee-product-form",
+      "namespace": "shopify",
+      "name": "Coffee product form",
+      "description": "Specifies the type of coffee product, such as ground or beans",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "caffeine-content",
+      "namespace": "shopify",
+      "name": "Caffeine content",
+      "description": "Indicates the amount of caffeine present in a product, e.g. decaffeinated, low caffeine",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "sp_68a8499062dc6",
+      "namespace": "shipturtle",
+      "name": "Accreditation(s)",
+      "description": null,
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "how_to_use",
+      "namespace": "custom",
+      "name": "How to use",
+      "description": "How to use",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "tagline",
+      "namespace": "custom",
+      "name": "Tagline",
+      "description": "Product Tagline",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "occasion",
+      "namespace": "shopify",
+      "name": "Occasion",
+      "description": "Specifies the suitable event or setting for a product, e.g. casual, formal",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "season",
+      "namespace": "shopify",
+      "name": "Season",
+      "description": "Indicates the season the product is best suited for, such as summer or fall",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "product_quote_citation",
+      "namespace": "custom",
+      "name": "Product Quote Citation",
+      "description": "Who to cite for the product quote",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "product_accreditation_text",
+      "namespace": "custom",
+      "name": "Product Accreditation Text",
+      "description": "used to introduce the accreditations section",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "accreditation_tags",
+      "namespace": "custom",
+      "name": "Accreditation Tags",
       "description": "",
       "type": {
-        "name": "rich_text_field",
+        "name": "list.single_line_text_field",
         "category": "TEXT"
       }
     }

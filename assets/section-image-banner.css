@@ -8,6 +8,7 @@
 
 .banner__box {
   text-align: center;
+  background: transparent;
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
@@ -99,6 +100,22 @@
 
 .banner__media-half {
   width: 50%;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner.banner--mobile-bottom:after {
+    position:  absolute;
+    bottom: 0;
+    width: 100%;
+    content: '';
+    height: 20vh;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    top: auto;
+    opacity: .7;
+    z-index: 1;
 }
 
 .banner__media-half + .banner__media-half {
@@ -203,20 +220,25 @@
   display: flex;
   position: relative;
   width: 100%;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-start;
   z-index: 2;
-}
-
-@media screen and (min-width: 750px) {
-  .banner__content {
-    padding: 5rem 12rem;
+  .headline-extra {
+      text-transform: uppercase;
+      color: white;
+      margin: 0;
+      font-size: var(--step-3);
+      text-shadow: 0 0 12px rgba(0,0,0,.4);
+  }
+  .banner__buttons a {
+      padding: 0;
   }
 }
 
 @media screen and (max-width: 749px) {
   .banner--mobile-bottom:not(.banner--stacked) .banner__content {
     order: 2;
+    position: absolute;
   }
 
   .banner:not(.banner--mobile-bottom) .field__input,
