@@ -208,7 +208,7 @@
   justify-content: flex-start;
   z-index: 2;
   .headline-extra {
-      text-transform: capitalize;
+      text-transform: uppercase;
       color: white;
       margin: 0;
       font-size: var(--step-3);
