@@ -29,6 +29,7 @@
         "heading_7Npehm",
         "text_qKrtjA"
       ],
+      "disabled": true,
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
@@ -92,6 +93,7 @@
         "column_bzLtmK",
         "column_fMAzAr"
       ],
+      "disabled": true,
       "name": "Simple Multicolumn",
       "settings": {
         "title": "what to expect",
@@ -153,7 +155,7 @@
     "main": {
       "type": "main-blog",
       "settings": {
-        "layout": "grid",
+        "layout": "collage",
         "show_image": true,
         "image_height": "medium",
         "show_date": true,
