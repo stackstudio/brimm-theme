@@ -102,6 +102,22 @@
   width: 50%;
 }
 
+.banner {
+    position: relative;
+}
+
+.banner.banner--mobile-bottom:after {
+    position:  absolute;
+    bottom: 0;
+    width: 100%;
+    content: '';
+    height: 20vh;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    top: auto;
+    opacity: .7;
+    z-index: 1;
+}
+
 .banner__media-half + .banner__media-half {
   right: 0;
   left: auto;
@@ -212,6 +228,7 @@
       color: white;
       margin: 0;
       font-size: var(--step-3);
+      text-shadow: 0 0 12px rgba(0,0,0,.4);
   }
   .banner__buttons a {
       padding: 0;

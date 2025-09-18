@@ -573,7 +573,7 @@ variant-selects .product-form__input {
 }
 
 .brimm-blocks--flush-columns-content {
-  padding: var(--space-2xl) var(--space-xl);
+  padding: var(--space-s) var(--space-xl) var(--space-2xl);
   display: flex;
   justify-content: space-between;
 
@@ -1492,4 +1492,8 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 
 .banner__heading.inline-richtext {
     text-transform: uppercase;
+}
+
+.brimm-blocks--flush-columns-title h2 {
+    margin-bottom: var(--space-xl);
 }
