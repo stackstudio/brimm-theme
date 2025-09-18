@@ -42,7 +42,7 @@
                     </div>
                   {% endif %}
                   <div class="price-and-vendor">
-                    <p>{{ product.vendor }}</p>
+                    <p>{{ product.metafields.custom.brand }}</p>
                     <span class="sep">•</span>
                     <p>{{ product.price | money }}</p>
                   </div>
