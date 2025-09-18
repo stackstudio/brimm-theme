@@ -51,15 +51,28 @@
         "color_scheme": ""
       }
     },
-    "multi_collection_carousel_AakLVY": {
-      "type": "multi-collection-carousel",
-      "name": "Multi-Collection Carousel",
+    "rich_text_YGG49R": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_78xQPA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Some of our impact-led brands",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_78xQPA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "collections": [
-          "beauty-homepage",
-          "pantry",
-          "home"
-        ]
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "logo_scroller_DU3FL7": {
@@ -136,6 +149,40 @@
         "color_scheme": ""
       }
     },
+    "rich_text_LbKGbD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_rUGGg6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have handpicked some of our most popular collections below with tailored products that also feature in some of our best Reset Boxes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_rUGGg6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multi_collection_carousel_AakLVY": {
+      "type": "multi-collection-carousel",
+      "name": "Multi-Collection Carousel",
+      "settings": {
+        "collections": [
+          "beauty-homepage",
+          "pantry",
+          "home"
+        ]
+      }
+    },
     "image_banner_Pdxayc": {
       "type": "image-banner",
       "blocks": {
@@ -165,6 +212,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Kitchen_Reset_box_lifestyle_background.jpg",
+        "link": "",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
@@ -663,8 +711,10 @@
   },
   "order": [
     "stacked_hero_qme3YR",
-    "multi_collection_carousel_AakLVY",
+    "rich_text_YGG49R",
     "logo_scroller_DU3FL7",
+    "rich_text_LbKGbD",
+    "multi_collection_carousel_AakLVY",
     "image_banner_Pdxayc",
     "collection_carousel_CxL7Pt",
     "multicolumn_simple_cCpCQn",

@@ -27,6 +27,10 @@
           "type": "description",
           "settings": {}
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -88,10 +92,6 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "hive_product_delivery_promise_BwfzBB": {
           "type": "shopify://apps/hive/blocks/product_delivery_promise/28e61a32-b940-4725-8c15-5452d2292095",
           "settings": {}
@@ -101,6 +101,7 @@
         "title",
         "text_gyVxxB",
         "description_LRfyUQ",
+        "quantity_selector",
         "price",
         "buy_buttons",
         "collapsible_tab_GJPkcz",
@@ -109,7 +110,6 @@
         "collapsible_tab_c4GzwK",
         "caption",
         "variant_picker",
-        "quantity_selector",
         "hive_product_delivery_promise_BwfzBB"
       ],
       "settings": {
