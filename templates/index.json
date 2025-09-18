@@ -62,6 +62,30 @@
         ]
       }
     },
+    "rich_text_YGG49R": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_78xQPA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Some of our impact-led brands",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_78xQPA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "logo_scroller_DU3FL7": {
       "type": "logo-scroller",
       "blocks": {
@@ -165,6 +189,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Kitchen_Reset_box_lifestyle_background.jpg",
+        "link": "",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
@@ -664,6 +689,7 @@
   "order": [
     "stacked_hero_qme3YR",
     "multi_collection_carousel_AakLVY",
+    "rich_text_YGG49R",
     "logo_scroller_DU3FL7",
     "image_banner_Pdxayc",
     "collection_carousel_CxL7Pt",
