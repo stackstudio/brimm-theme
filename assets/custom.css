@@ -1064,6 +1064,13 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
   }
 }
 
+/* brimm blocks for the membership template section */
+
+.brimm-blocks--membership .js-membership-column-bottom {
+  flex-direction: row;
+  padding: 0;
+}
+
 .js-membership-cart-buttons {
   display: flex;
   flex-direction: row;
