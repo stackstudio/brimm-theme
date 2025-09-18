@@ -1497,3 +1497,16 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 .brimm-blocks--flush-columns-title h2 {
     margin-bottom: var(--space-xl);
 }
+
+.brimm-blocks--collection-carousel .product-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(100% / 3);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+  @media(max-width: 700px) {
+      grid-auto-columns: calc(100% / 2);
+  }
+}
