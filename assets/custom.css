@@ -618,7 +618,7 @@ variant-selects .product-form__input {
   gap: var(--logo-gap);
   align-items: center;
   min-width: 100%;
-  animation: scroll 24s linear infinite;
+  animation: scroll 50s linear infinite;
 
   h3 {
     width: fit-content;
@@ -1413,14 +1413,15 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 }
 
 .carousel-image-wrapper {
-    aspect-ratio: 3/4;
+  aspect-ratio: 3/4;
 }
 
 .carousel-image-wrapper.collection-card {
+  aspect-ratio: 5/8;
+
+  img {
     aspect-ratio: 5/8;
-    img {
-        aspect-ratio: 5/8;
-    }
+  }
 }
 
 .collection-carousel-card img {
@@ -1431,19 +1432,19 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
 }
 
 .collection-carousel-card a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .collection-carousel-card p {
-    margin: 0;
+  margin: 0;
 }
 
 .collection-carousel-card h3 {
-    color: black;
-    text-decoration: none;
-    margin: 0;
-    text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .brimm-blocks--multi-carousel .product-carousel {
@@ -1460,49 +1461,53 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
   padding: 0.5rem;
   background: #fff;
   border-radius: 0.5rem;
-  min-width: 0; /* prevents overflow fighting */
+  min-width: 0;
+  /* prevents overflow fighting */
 }
 
 .price-and-vendor {
-    display: flex;
-    padding-right: var(--space-s);
-    gap: var(--space-s);
-    :last-child {
-        font-size: var(--step-2);
-    }
+  display: flex;
+  padding-right: var(--space-s);
+  gap: var(--space-s);
+
+  :last-child {
+    font-size: var(--step-2);
+  }
 }
 
 .collection-tabs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-xl);
-    button {
-        background: none;
-        -webkit-appearance: none;
-        border: none;
-        font-family: "Manrope", sans-serif;
-        font-size: calc(var(--step-1) * 1.2);
-        font-weight: 800;
-        opacity: .6;
-        cursor: pointer;
-        color: black;
-        border-bottom: 1px solid transparent;
-        padding-bottom: var(--space-xs);
-    }
-    button[disabled] {
-        opacity: 1;
-        font-weight: 800;
-        border-bottom: 1px solid black;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xl);
+
+  button {
+    background: none;
+    -webkit-appearance: none;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: calc(var(--step-1) * 1.2);
+    font-weight: 800;
+    opacity: 0.6;
+    cursor: pointer;
+    color: black;
+    border-bottom: 1px solid transparent;
+    padding-bottom: var(--space-xs);
+  }
+
+  button[disabled] {
+    opacity: 1;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+  }
 }
 
 .banner__heading.inline-richtext {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .brimm-blocks--flush-columns-title h2 {
-    margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-xl);
 }
 
 .brimm-blocks--collection-carousel .product-track {
@@ -1513,7 +1518,8 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
   scroll-snap-type: x mandatory;
   gap: 1rem;
   padding-bottom: 0.5rem;
-  @media(max-width: 700px) {
-      grid-auto-columns: calc(100% / 2);
+
+  @media (max-width: 700px) {
+    grid-auto-columns: calc(100% / 2);
   }
 }
