@@ -263,7 +263,7 @@
             "text": "<p>Reset your pantry with our regenerative food  box</p>",
             "image_label": "",
             "link_label": "Shop Pantry",
-            "link": "shopify://products/pantry-essentials-reset-box"
+            "link": "shopify://collections/pantry-reset-boxes"
           }
         },
         "column_Dmwhzr": {
@@ -277,7 +277,7 @@
             "text": "<p>Reset your kitchen with these cleaning essentials</p>",
             "image_label": "",
             "link_label": "Shop Cleaning",
-            "link": "shopify://products/kitchen-cleaning-reset-box"
+            "link": "shopify://collections/home-reset-boxes"
           }
         }
       },
