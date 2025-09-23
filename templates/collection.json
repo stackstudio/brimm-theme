@@ -17,6 +17,76 @@
         "color_scheme": "scheme-2"
       }
     },
+    "multicolumn_RDRrkU": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wKm6tA": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "SELF-CARE",
+            "text": "",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6QQnrL": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QBXFDx": {
+          "type": "column",
+          "settings": {
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image_label": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wKm6tA",
+        "column_6QQnrL",
+        "column_QBXFDx"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "no-gap": true,
+        "first_col": false,
+        "text_block": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "stacked_hero_tTUcXe": {
       "type": "stacked-hero",
       "blocks": {
@@ -80,6 +150,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/The_Lab_Co_IMAGE-2_0ca0c649-dc04-476a-8510-e13229eb72d7.webp",
+        "link": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -219,6 +290,7 @@
   },
   "order": [
     "banner",
+    "multicolumn_RDRrkU",
     "stacked_hero_tTUcXe",
     "image_banner_gf9iDy",
     "product-grid",
