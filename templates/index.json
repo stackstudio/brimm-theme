@@ -529,10 +529,10 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "stitch & bitch workshop",
-            "text": "<p>Join Orsola de Castro, a sustainable fashion pioneer, in an intimate evening learning how to repair your clothes and discussing the fashion industry</p><p>Details coming soon</p>",
+            "text": "<p>Join Orsola de Castro, a sustainable fashion pioneer, in an intimate evening learning how to repair your clothes and discussing the fashion industry</p>",
             "image_label": "",
-            "link_label": "",
-            "link": "shopify://pages/join-brimm-british-pasture-leather-for-a-regenerative-farming-field-day-like-no-other"
+            "link_label": "Find out more",
+            "link": "shopify://pages/events"
           }
         }
       },
