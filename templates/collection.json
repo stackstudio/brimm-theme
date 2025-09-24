@@ -163,6 +163,83 @@
         "show_text_below": true
       }
     },
+    "multicolumn_simple_97cbhp": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_K4AFbk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Brimm_1_Shot_6_Version_2_copy_4x5_9998f2a9-6af9-4745-a46b-68462d744874.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "BATHROOM",
+            "text": "<p>Reset your daily routine with our bathroom  boxes</p>",
+            "image_label": "",
+            "link_label": "Shop Bathroom",
+            "link": "shopify://collections/bathroom-reset-boxes"
+          }
+        },
+        "column_ynjXyf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Brimm_11066_SHOT_4_copy_4_4x5_0c41d8b3-e9e3-4d34-997c-c656d9b0ee0d.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "PANTRY",
+            "text": "<p>Reset your pantry with our regenerative food  box</p>",
+            "image_label": "",
+            "link_label": "Shop Pantry",
+            "link": "shopify://collections/pantry-reset-boxes"
+          }
+        },
+        "column_aikGfG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Brimm_10911_SHOT_1_copy_4_4x5_2b4319c0-4f9a-4150-9d5c-545ca4ad0097.jpg",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "CLEANING",
+            "text": "<p>Reset your kitchen with these cleaning essentials</p>",
+            "image_label": "",
+            "link_label": "Shop Cleaning",
+            "link": "shopify://collections/home-reset-boxes"
+          }
+        }
+      },
+      "block_order": [
+        "column_K4AFbk",
+        "column_ynjXyf",
+        "column_aikGfG"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "RESET BOXES",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "no_top": false,
+        "no_bottom": false,
+        "justify": true,
+        "bordered": false,
+        "text_block": "From minimalist bathrooms to regenerative pantries - reset your life one room at a time with our reset boxes",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Shop Reset Boxes",
+        "button_link": "shopify://collections/reset-boxes",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -293,6 +370,7 @@
     "multicolumn_RDRrkU",
     "stacked_hero_tTUcXe",
     "image_banner_gf9iDy",
+    "multicolumn_simple_97cbhp",
     "product-grid",
     "collapsible_content_KTd4UF",
     "stacked_hero_ETCpkL"
