@@ -445,6 +445,7 @@
       "blocks": {
         "column_NdQMPf": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Chris_Abatzis_Photos_7_88296c10-a71d-49e9-a598-bc51fa1ab379.jpg",
             "title": "Style",
@@ -456,6 +457,7 @@
         },
         "column_txAt4X": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Skin_Deep_Daniel_Faro_ID_4263.jpg",
             "title": "health",
@@ -467,6 +469,7 @@
         },
         "column_wgz7mw": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lost_Jelly_Luise_Photos.jpg",
             "title": "ENVIRONMENT",
@@ -478,6 +481,7 @@
         },
         "column_WFzWd8": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Chris_Abatzis_Photos_9.jpg",
             "title": "SOCIAL",
