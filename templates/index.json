@@ -264,7 +264,7 @@
             "title": "PANTRY",
             "text": "<p>Organic and regenerative food thats great for you and the planet</p>",
             "image_label": "",
-            "link_label": "Shop Pantry",
+            "link_label": "Pantry Reset",
             "link": "shopify://collections/pantry-reset-boxes"
           }
         },
@@ -278,7 +278,7 @@
             "title": "CLEANING",
             "text": "<p>Reset your kitchen with these cleaning essentials</p>",
             "image_label": "",
-            "link_label": "Shop Cleaning",
+            "link_label": "Cleaning Reset",
             "link": "shopify://collections/home-reset-boxes"
           }
         }
