@@ -290,7 +290,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "reset your everday",
+        "title": "reset your everyday",
         "no-gap": false,
         "first_col": true,
         "last_col": false,
@@ -298,7 +298,7 @@
         "no_bottom": false,
         "justify": true,
         "bordered": false,
-        "text_block": "Reset your life one room at a time with our pre-curated boxes",
+        "text_block": "Reset your home one room at a time with our pre-curated boxes",
         "image_width": "full",
         "image_ratio": "portrait",
         "columns_desktop": 3,
