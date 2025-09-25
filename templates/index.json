@@ -417,7 +417,7 @@
       ],
       "name": "Simple Multicolumn",
       "settings": {
-        "title": "Stories that spark change",
+        "title": "Journal",
         "no-gap": false,
         "first_col": true,
         "last_col": false,
@@ -478,7 +478,7 @@
       ],
       "name": "Simple Multicolumn",
       "settings": {
-        "title": "Planet-Positive IRL",
+        "title": "Events",
         "no-gap": false,
         "first_col": true,
         "last_col": false,
