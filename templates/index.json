@@ -325,7 +325,7 @@
         "text_aiwhMp": {
           "type": "text",
           "settings": {
-            "copy": "<p>For £12/month members pay 20% less on our Reset Boxes, earn 10% store credit on other purchases and enable our 10% for the planet initiatve</p>"
+            "copy": "<p>For £12/month members:</p><ul><li>Pay 20% less on our Reset Boxes</li><li>Earn 10% store credit on other purchases </li><li>Support our 10% for the planet initiative</li></ul>"
           }
         },
         "cta_button_TdzEQD": {
