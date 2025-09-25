@@ -247,7 +247,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "BATHROOM",
-            "text": "<p>Reset your daily routine with our bathroom  boxes</p>",
+            "text": "<p>Great looking, </p>",
             "image_label": "",
             "link_label": "Shop Bathroom",
             "link": "shopify://collections/bathroom-reset-boxes"
@@ -289,7 +289,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Discover our BRIMM RESET BOXES",
+        "title": "reset your everday",
         "no-gap": false,
         "first_col": true,
         "last_col": false,
@@ -297,7 +297,7 @@
         "no_bottom": false,
         "justify": true,
         "bordered": false,
-        "text_block": "From minimalist bathrooms to regenerative pantries - reset your life one room at a time",
+        "text_block": "Reset your life one room at a time with our pre-curated boxes",
         "image_width": "full",
         "image_ratio": "portrait",
         "columns_desktop": 3,
