@@ -233,7 +233,7 @@
       "settings": {
         "collection": "featured",
         "custom_title": "NEW IN",
-        "custom_description": "The latest planet-positive arrivals."
+        "custom_description": "The latest planet-positive arrivals"
       }
     },
     "multicolumn_simple_cCpCQn": {
@@ -440,6 +440,67 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_simple_UKDfAn": {
+      "type": "multicolumn-simple",
+      "blocks": {
+        "column_fM33pr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FIELD_DAY_WITH_BRITISH_PASTURE_LEATHER.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "Field Day with British Pasture Leather",
+            "text": "<p>A full-day immersive experience exploring regenerative farming, biodiversity and leather production with British Pasture Leather in Hertfordshire.</p>",
+            "image_label": "",
+            "link_label": "Find out more",
+            "link": "https://www.tickettailor.com/events/brimm/1809111"
+          }
+        },
+        "column_tz6R6a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BRiMM_Event_2_Web_Assets.png",
+            "image_is_icon": false,
+            "has_waitlist_cta": false,
+            "has_bg_color": false,
+            "title": "stitch & bitch workshop",
+            "text": "<p>Join Orsola de Castro, a sustainable fashion pioneer, in an intimate evening learning how to repair your clothes and discussing the fashion industry</p>",
+            "image_label": "",
+            "link_label": "Sold out",
+            "link": "shopify://pages/events"
+          }
+        }
+      },
+      "block_order": [
+        "column_fM33pr",
+        "column_tz6R6a"
+      ],
+      "name": "Simple Multicolumn",
+      "settings": {
+        "title": "Planet-Positive IRL",
+        "no-gap": false,
+        "first_col": true,
+        "last_col": false,
+        "no_top": true,
+        "no_bottom": false,
+        "justify": true,
+        "bordered": false,
+        "text_block": "Meet the makers, thinkers dreamers shaping what's next",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "View Events",
+        "button_link": "shopify://pages/events",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "flush_columns_cYTaw6": {
       "type": "flush-columns",
       "blocks": {
@@ -507,67 +568,6 @@
         "button_link": "shopify://pages/curation-and-vetting",
         "no_top": false,
         "color_scheme": ""
-      }
-    },
-    "multicolumn_simple_UKDfAn": {
-      "type": "multicolumn-simple",
-      "blocks": {
-        "column_fM33pr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/FIELD_DAY_WITH_BRITISH_PASTURE_LEATHER.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "Field Day with British Pasture Leather",
-            "text": "<p>A full-day immersive experience exploring regenerative farming, biodiversity and leather production with British Pasture Leather in Hertfordshire.</p>",
-            "image_label": "",
-            "link_label": "Find out more",
-            "link": "https://www.tickettailor.com/events/brimm/1809111"
-          }
-        },
-        "column_tz6R6a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BRiMM_Event_2_Web_Assets.png",
-            "image_is_icon": false,
-            "has_waitlist_cta": false,
-            "has_bg_color": false,
-            "title": "stitch & bitch workshop",
-            "text": "<p>Join Orsola de Castro, a sustainable fashion pioneer, in an intimate evening learning how to repair your clothes and discussing the fashion industry</p>",
-            "image_label": "",
-            "link_label": "Sold out",
-            "link": "shopify://pages/events"
-          }
-        }
-      },
-      "block_order": [
-        "column_fM33pr",
-        "column_tz6R6a"
-      ],
-      "name": "Simple Multicolumn",
-      "settings": {
-        "title": "Planet-Positive IRL",
-        "no-gap": false,
-        "first_col": true,
-        "last_col": false,
-        "no_top": true,
-        "no_bottom": false,
-        "justify": true,
-        "bordered": false,
-        "text_block": "Meet the makers, thinkers dreamers shaping what's next",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "View Events",
-        "button_link": "shopify://pages/events",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "member_packages_DXnQLz": {
