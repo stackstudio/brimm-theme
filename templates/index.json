@@ -250,7 +250,7 @@
             "title": "BATHROOM",
             "text": "<p>Planet-friendly, skin-loving, and style-forward options</p>",
             "image_label": "",
-            "link_label": "Shop Bathroom",
+            "link_label": "Bathroom Reset",
             "link": "shopify://collections/bathroom-reset-boxes"
           }
         },
@@ -276,7 +276,7 @@
             "has_waitlist_cta": false,
             "has_bg_color": false,
             "title": "CLEANING",
-            "text": "<p>Reset your kitchen with these cleaning essentials</p>",
+            "text": "<p>Natural ingredients, refillable options and a cleaner home and planet</p>",
             "image_label": "",
             "link_label": "Cleaning Reset",
             "link": "shopify://collections/home-reset-boxes"
