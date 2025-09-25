@@ -178,8 +178,8 @@
       "name": "Multi-Collection Carousel",
       "settings": {
         "collections": [
-          "beauty-homepage",
           "pantry",
+          "beauty-homepage",
           "home"
         ]
       }
