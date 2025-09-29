@@ -31,6 +31,12 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "membership_info_dnfKNL": {
+          "type": "membership_info",
+          "settings": {
+            "membership_text": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -102,6 +108,7 @@
         "text_gyVxxB",
         "description_LRfyUQ",
         "quantity_selector",
+        "membership_info_dnfKNL",
         "price",
         "buy_buttons",
         "collapsible_tab_GJPkcz",
