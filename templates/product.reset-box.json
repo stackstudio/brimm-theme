@@ -33,7 +33,14 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
+        },
+        "membership_info_RaLnJ8": {
+          "type": "membership_info",
+          "settings": {
+            "membership_text": ""
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -103,6 +110,7 @@
         "description_LRfyUQ",
         "quantity_selector",
         "price",
+        "membership_info_RaLnJ8",
         "buy_buttons",
         "collapsible_tab_GJPkcz",
         "collapsible_tab_ftwbfC",
