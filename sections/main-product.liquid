@@ -628,9 +628,8 @@
                 {% assign credit_amount = regular_price | times: credit_rate %}
                 {% assign credit_amount_formatted = credit_amount | money %}
 
-
-                {% if product.product_type != 'Membership' and collections.handle contains 'reset-boxes' %}
-
+                {% if product.type != 'Membership' and product.type == 'Reset Box' %}
+                <div class="membership-info">
                   <div class="membership-choice my-6">
                   {% if customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}
 
@@ -720,6 +719,7 @@
                     {% endif %}
 
                   </div>
+                </div>
 
                 {% elsif product.product_type != 'Membership' %}
 

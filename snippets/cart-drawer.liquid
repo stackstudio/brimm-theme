@@ -18,6 +18,12 @@
 </style>
 
 {% assign has_selling_plan_in_cart = false %}
+{% for item in cart.items %}
+  {% if item.selling_plan_allocation %}
+    {% assign has_selling_plan_in_cart = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 
 <cart-drawer class="drawer{% if cart == empty %} is-empty{% endif %}">
   <div id="CartDrawer" class="cart-drawer">
@@ -114,16 +120,29 @@
                   </thead>
 
                   <tbody role="rowgroup">
+                    {%- comment -%}
+                      Calculate total credit amount for all eligible items.
+                      Eligible items are those that are NOT:
+                      - Reset Box products (as they get member discounts instead)
+                      - Membership/subscription products (selling_plan_allocation)
+                      Members earn 10% credit on eligible item prices.
+                    {%- endcomment -%}
+                    {% assign total_credit_amount = 0 %}
+                    {%- for item in cart.items -%}
+                      {% unless item.product.type == "Reset Box" or item.product.product_type == "Reset Box" or item.selling_plan_allocation %}
+                        {% assign total_credit_amount = total_credit_amount | plus: item.final_line_price %}
+                      {% endunless %}
+                    {%- endfor -%}
+
                     {%- for item in cart.items -%}
                       {% assign is_selling_plan = false %}
-                      {% assign item_credit = null %}
+
                       {% if item.selling_plan_allocation and item.selling_plan_allocation.selling_plan.id %}
                         {% assign is_selling_plan = true %}
                         {% assign hide_selling_plan = true %}
                         {% assign has_selling_plan_in_cart = true %}
-                      {% else %}
-                        {% assign item_credit = item_credit | plus: item.final_line_price | times: 0.1 | money_with_currency %}
                       {% endif %}
+
                       <tr
                         id="CartDrawer-Item-{{ item.index | plus: 1 }}"
                         class="cart-item {% if is_selling_plan %}is-selling-plan{% endif %}"
@@ -189,11 +208,18 @@
                             </div>
                           {%- endif -%}-->
 
-                          {% if item.product.category != "Subscription Services" and item.product.type != "Reset Box" %}
+                          {% if item.product.category != "Subscription Services" and item.product.type != "Reset Box" and item.product.product_type != "Reset Box" and item.selling_plan_allocation == null %}
                             <ul class="discounts list-unstyled" role="list" aria-label="Discount">
                               <li class="discounts__discount">
                                 <svg class="icon icon-discount" viewBox="0 0 12 12"><path fill="currentColor" fill-rule="evenodd" d="M7 0h3a2 2 0 0 1 2 2v3a1 1 0 0 1-.3.7l-6 6a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4l6-6A1 1 0 0 1 7 0m2 2a1 1 0 1 0 2 0 1 1 0 0 0-2 0" clip-rule="evenodd"></path></svg>
                                 Members earn 10% credit on this product
+                              </li>
+                            </ul>
+                          {% elsif item.product.type == "Reset Box" or item.product.product_type == "Reset Box" and has_selling_plan_in_cart %}
+                            <ul class="discounts list-unstyled" role="list" aria-label="Discount">
+                              <li class="discounts__discount">
+                                <svg class="icon icon-discount" viewBox="0 0 12 12"><path fill="currentColor" fill-rule="evenodd" d="M7 0h3a2 2 0 0 1 2 2v3a1 1 0 0 1-.3.7l-6 6a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4l6-6A1 1 0 0 1 7 0m2 2a1 1 0 1 0 2 0 1 1 0 0 0-2 0" clip-rule="evenodd"></path></svg>
+                                Members 20% Reset Box Discount
                               </li>
                             </ul>
                           {% endif %}
@@ -548,13 +574,23 @@
               </ul>
             {%- endif -%}
           </div>
+          {%- comment -%}
+            Show membership widget if:
+            - No selling plan (membership) is in cart yet
+            - Hide if customer is already a member but has selling plan
+          {%- endcomment -%}
           {% if has_selling_plan_in_cart != true %}
             <div class="brimm-blocks--column-bottom js-membership-column-bottom {% if hide_selling_plan and customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}hidden{% endif %}">
               <div class="js-membership-column-bottom-heading">
                   <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none">
                     <path d="M30.3164 0.741943C46.8849 0.741951 60.3163 14.1735 60.3164 30.7419C60.3164 47.3105 46.8849 60.7419 30.3164 60.7419C13.7479 60.7419 0.316406 47.3105 0.316406 30.7419C0.316531 14.1735 13.7479 0.741943 30.3164 0.741943ZM19.6533 51.6804H32.9746C40.3323 51.6804 46.2969 45.7173 46.2969 38.3611C46.2967 31.005 40.3322 25.0427 32.9746 25.0427V25.0417H27.2734L34.8721 17.4509L27.2734 9.85425V9.80347H19.6309L19.6533 51.6804ZM40.002 38.3611L32.4043 45.9519L24.8115 38.3611L32.4043 30.7644L40.002 38.3611Z" fill="#5F2421"/>
                   </svg>
-                <h3>Become a member to receive 10% store credit with this purchase.</h3>
+                {% if total_credit_amount > 0 %}
+                  {% assign potential_credit = total_credit_amount | times: 0.1 | money_with_currency %}
+                  <h3>Become a member to receive {{ potential_credit }} store credit with this purchase.</h3>
+                {% else %}
+                  <h3>Become a member to receive 10% store credit with each purchase.</h3>
+                {% endif %}
               </div>
               <div class="js-membership-cart-buttons">
                   <button
@@ -569,15 +605,16 @@
             </div>
           {% endif %}
 
-          {% if customer.tags contains 'explorer_tier' and has_selling_plan_in_cart %}
+          {% if customer.tags contains 'explorer_tier' or has_selling_plan_in_cart and total_credit_amount > 0 %}
             <div class="credit_totals" role="status">
               <h2 class="totals__total">
                 <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M480 128C480 181 523 224 576 224L576 320C523 320 480 363 480 416L256 416C256 363 213 320 160 320L160 224C213 224 256 181 256 128L480 128zM576 352L576 416L512 416C512 380.7 540.7 352 576 352zM160 416L160 352C195.3 352 224 380.7 224 416L160 416zM512 128L576 128L576 192C540.7 192 512 163.3 512 128zM160 128L224 128C224 163.3 195.3 192 160 192L160 128zM160 96L128 96L128 448L608 448L608 96L160 96zM368 336C332.7 336 304 307.3 304 272C304 236.7 332.7 208 368 208C403.3 208 432 236.7 432 272C432 307.3 403.3 336 368 336zM272 272C272 325 315 368 368 368C421 368 464 325 464 272C464 219 421 176 368 176C315 176 272 219 272 272zM64 176L64 160L32 160L32 544L512 544L512 512L64 512L64 176z"></path></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M480 128C480 181 523 224 576 224L576 320C523 320 480 363 480 416L256 416C256 363 213 320 160 320L160 224C213 224 256 181 256 128L480 128zM576 352L576 416L512 416C512 380.7 540.7 352 576 352zM160 416L160 352C195.3 352 224 380.7 224 416L160 416zM512 128L576 128L576 192C540.7 192 512 163.3 512 128zM160 128L224 128C224 163.3 195.3 192 160 192L160 128zM160 96L128 96L128 448L608 448L608 96L160 96zM368 336C332.7 336 304 307.3 304 272C304 236.7 332.7 208 368 208C403.3 208 432 236.7 432 272C432 307.3 403.3 336 368 336zM272 272C272 325 315 368 368 368C421 368 464 325 464 272C464 219 421 176 368 176C315 176 272 219 272 272zM64 176L64 160L32 160L32 544L512 544L512 512L64 176z"></path></svg>
                 </span>
-                Store Credits earned
+                Estimated Store Credits earned
               </h2>
-              <p class="totals__total-value">{{ item_credit }}</p>
+              {% assign total_credit = total_credit_amount | times: 0.1 | money_with_currency %}
+              <p class="totals__total-value">{{ total_credit }}</p>
             </div>
           {% endif %}
 
