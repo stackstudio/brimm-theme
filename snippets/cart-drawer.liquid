@@ -580,7 +580,7 @@
             - Hide if customer is already a member but has selling plan
           {%- endcomment -%}
           {% if has_selling_plan_in_cart != true %}
-            <div class="brimm-blocks--column-bottom js-membership-column-bottom {% if hide_selling_plan and customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}hidden{% endif %}">
+            <div class="brimm-blocks--column-bottom js-membership-column-bottom {% if customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}hidden{% endif %}">
               <div class="js-membership-column-bottom-heading">
                   <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none">
                     <path d="M30.3164 0.741943C46.8849 0.741951 60.3163 14.1735 60.3164 30.7419C60.3164 47.3105 46.8849 60.7419 30.3164 60.7419C13.7479 60.7419 0.316406 47.3105 0.316406 30.7419C0.316531 14.1735 13.7479 0.741943 30.3164 0.741943ZM19.6533 51.6804H32.9746C40.3323 51.6804 46.2969 45.7173 46.2969 38.3611C46.2967 31.005 40.3322 25.0427 32.9746 25.0427V25.0417H27.2734L34.8721 17.4509L27.2734 9.85425V9.80347H19.6309L19.6533 51.6804ZM40.002 38.3611L32.4043 45.9519L24.8115 38.3611L32.4043 30.7644L40.002 38.3611Z" fill="#5F2421"/>
