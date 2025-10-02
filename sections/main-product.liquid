@@ -738,8 +738,8 @@
                     <div class="membership-info-columns membership-choice">
 
                       {% if customer.tags contains 'explorer_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}
-                        <label class="flex items-center mb-4" for="explorer">
-                          <input type="radio" name="purchase_option" id="explorer" checked value="explorer" class="mr-2">
+                        <label class="flex items-center mb-4" for="regular">
+                          <input type="radio" name="purchase_option" checked id="regular" value="regular" class="mr-2">
                           <div id='price-{{ section.id }}' role='status' {{ block.shopify_attributes }}>
                             {%- render 'price',
                               product: product,
