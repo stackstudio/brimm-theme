@@ -60,24 +60,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "shipping_info_xpaK7r": {
-          "type": "shipping_info",
-          "disabled": true,
-          "settings": {
-            "shipping_text": "Free delivery on orders over £50\nStandard delivery £5"
-          }
-        },
-        "text_QbnMxV": {
-          "type": "text",
-          "settings": {
-            "text": "About this product",
-            "text_style": "subtitle"
-          }
-        },
-        "description_LRfyUQ": {
-          "type": "description",
-          "settings": {}
-        },
         "text_Nt9Kg4": {
           "type": "text",
           "settings": {
@@ -121,6 +103,24 @@
             "page": ""
           }
         },
+        "shipping_info_xpaK7r": {
+          "type": "shipping_info",
+          "disabled": true,
+          "settings": {
+            "shipping_text": "Free delivery on orders over £50\nStandard delivery £5"
+          }
+        },
+        "text_QbnMxV": {
+          "type": "text",
+          "settings": {
+            "text": "About this product",
+            "text_style": "subtitle"
+          }
+        },
+        "description_LRfyUQ": {
+          "type": "description",
+          "settings": {}
+        },
         "product_accreditations_hwJxcX": {
           "type": "product-accreditations",
           "settings": {
@@ -137,14 +137,14 @@
         "quantity_selector",
         "membership_info_K9JWay",
         "buy_buttons",
-        "shipping_info_xpaK7r",
-        "text_QbnMxV",
-        "description_LRfyUQ",
         "text_Nt9Kg4",
         "collapsible_tab_yeR46g",
         "collapsible_tab_A8JWzz",
         "collapsible_tab_zEfyXy",
         "collapsible_tab_3eeYm3",
+        "shipping_info_xpaK7r",
+        "text_QbnMxV",
+        "description_LRfyUQ",
         "product_accreditations_hwJxcX"
       ],
       "settings": {
