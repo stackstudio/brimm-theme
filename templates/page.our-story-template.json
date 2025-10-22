@@ -364,6 +364,7 @@
         },
         "column_zQzDVg": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ahmet.webp",
             "image_is_icon": false,
