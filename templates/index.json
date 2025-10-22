@@ -371,7 +371,6 @@
         "column_LUHXRt": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Rollr_in_hand_Square_f3d741e2-bcf3-4ada-b1cf-99f90b484898.png",
             "image_is_icon": false,
             "has_waitlist_cta": false,
             "has_bg_color": false,
@@ -477,6 +476,7 @@
         "column_fM33pr",
         "column_tz6R6a"
       ],
+      "disabled": true,
       "name": "Simple Multicolumn",
       "settings": {
         "title": "Events",
