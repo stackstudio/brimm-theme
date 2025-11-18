@@ -3935,13 +3935,3 @@ details-disclosure > details {
 .shopify-payment-button #shopify-buyer-consent {
   display: none;
 }
-
-/* Hide the "Sale" badge on product cards */
-.card__badge-sale {
-    display: none !important;
-}
-
-/* Hide the "Sale" badge on the main product page */
-.price__badge-sale {
-    display: none !important;
-}
