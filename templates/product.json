@@ -30,11 +30,6 @@
             "text_style": "body"
           }
         },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {}
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -42,13 +37,17 @@
             "swatch_shape": "circle"
           }
         },
+        "price_gGRepB": {
+          "type": "price",
+          "settings": {}
+        },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {}
         },
         "membership_info_K9JWay": {
           "type": "membership_info",
+          "disabled": true,
           "settings": {
             "membership_text": "<p><strong>How would you like to purchase?</strong></p>"
           }
@@ -132,8 +131,8 @@
         "text_4hLGXE",
         "title",
         "caption",
-        "price",
         "variant_picker",
+        "price_gGRepB",
         "quantity_selector",
         "membership_info_K9JWay",
         "buy_buttons",
