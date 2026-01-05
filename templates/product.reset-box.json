@@ -33,6 +33,7 @@
         },
         "membership_info_dnfKNL": {
           "type": "membership_info",
+          "disabled": true,
           "settings": {
             "membership_text": ""
           }
