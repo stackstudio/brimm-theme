@@ -162,11 +162,6 @@
         "padding_bottom": 12
       }
     },
-    "accreditations_block_icQUPp": {
-      "type": "accreditations-block",
-      "name": "Accreditations",
-      "settings": {}
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -184,11 +179,16 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "accreditations_block_icQUPp": {
+      "type": "accreditations-block",
+      "name": "Accreditations",
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "accreditations_block_icQUPp",
-    "related-products"
+    "related-products",
+    "accreditations_block_icQUPp"
   ]
 }
