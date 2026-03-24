@@ -3982,13 +3982,16 @@ details-disclosure > details {
   display: none;
 }
 
-@supports (-webkit-touch-callout: none) {
-  body {
+@supports (padding-top: env(safe-area-inset-top)) {
+  html {
     background-color: #e3b2ff;
   }
-  
+
   .header-wrapper {
-    padding-top: env(safe-area-inset-top) !important;
-    background-color: #e3b2ff !important;
+    padding-top: env(safe-area-inset-top);
+  }
+
+  body {
+    padding-top: calc(77px + env(safe-area-inset-top));
   }
 }
