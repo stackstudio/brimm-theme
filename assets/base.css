@@ -2917,6 +2917,7 @@ details[open] .modal-overlay::after {
     100% + var(--inputs-margin-offset) + (2 * var(--inputs-border-width))
   );
   height: 100%;
+   background-color: #ffffff;
 }
 
 .search-modal__content {
