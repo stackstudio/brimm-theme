@@ -2930,14 +2930,38 @@ details[open] .modal-overlay::after {
 }
 
 .search-modal.modal__toggle-content {
-  position: absolute !important;
-  top: 100% !important;
-  right: 0 !important;
-  width: 500px !important;
+  position: fixed !important;
+  top: 80px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 700px !important;
   height: auto !important;
   min-height: unset !important;
   z-index: 99 !important;
   overflow: visible !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
+}
+
+.search-modal.modal__toggle-content .search-modal__content {
+  padding: 1.5rem !important;
+  height: auto !important;
+}
+
+.search-modal.modal__toggle-content .search-modal__form,
+.search-modal.modal__toggle-content .field {
+  width: 100% !important;
+}
+
+@media screen and (max-width: 749px) {
+  .search-modal.modal__toggle-content {
+    position: fixed !important;
+    top: 60px !important;
+    left: 0 !important;
+    transform: none !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+  }
 }
 
 .search-modal__content {
@@ -2954,6 +2978,7 @@ details[open] .modal-overlay::after {
 .search-modal__content-bottom {
   bottom: calc((var(--inputs-margin-offset) / 2));
 }
+
 
 .search-modal__content-top {
   top: calc((var(--inputs-margin-offset) / 2));
