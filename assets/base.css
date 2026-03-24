@@ -2919,7 +2919,15 @@ details[open] .modal-overlay::after {
   height: 100%;
    background-color: #ffffff;
 }
+.search-modal .field__input,
+.search-modal .search__input {
+  background-color: #ffffff !important;
+  color: #6E1C20 !important;
+}
 
+.search-modal .field {
+  background-color: #ffffff !important;
+}
 .search-modal__content {
   display: flex;
   align-items: center;
