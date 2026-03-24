@@ -2929,7 +2929,7 @@ details[open] .modal-overlay::after {
   background-color: #ffffff !important;
 }
 
-.search-modal.animate--reveal-in {
+.search-modal.modal__toggle-content {
   position: absolute !important;
   top: 100% !important;
   right: 0 !important;
