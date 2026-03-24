@@ -3981,3 +3981,14 @@ details-disclosure > details {
 .shopify-payment-button #shopify-buyer-consent {
   display: none;
 }
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    background-color: #e3b2ff;
+  }
+  
+  .header-wrapper {
+    padding-top: env(safe-area-inset-top) !important;
+    background-color: #e3b2ff !important;
+  }
+}
