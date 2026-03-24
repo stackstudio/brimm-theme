@@ -2933,10 +2933,11 @@ details[open] .modal-overlay::after {
   position: absolute !important;
   top: 100% !important;
   right: 0 !important;
-  width: 300px !important;
+  width: 500px !important;
   height: auto !important;
   min-height: unset !important;
   z-index: 99 !important;
+  overflow: visible !important;
 }
 
 .search-modal__content {
