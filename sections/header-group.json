@@ -16,7 +16,6 @@
       "blocks": {
         "announcement_EKTpiR": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Free shipping on orders over £30",
             "link": ""
