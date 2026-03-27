@@ -102,6 +102,20 @@ body.sticky-header {
   font-family: 'Manrope';
 }
 
+.utility-bar {
+  text-align: center !important;
+  font-family: 'Manrope', var(--font-body-family), sans-serif !important;
+}
+
+.utility-bar__grid {
+  justify-items: center !important;
+}
+
+.announcement-bar__message {
+  text-align: center !important;
+  font-family: 'Manrope', var(--font-body-family), sans-serif !important;
+}
+
 /* NEW STACKED HEROS */
 
 .brimm-blocks--hero.full-screen {
