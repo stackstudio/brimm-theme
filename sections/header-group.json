@@ -25,6 +25,11 @@
       "block_order": [
         "announcement_EKTpiR"
       ],
+      "custom_css": [
+        ".utility-bar {text-align: center !important; font-family: var(--font-body-family) !important; }",
+        ".utility-bar__grid {justify-items: center !important; }",
+        ".announcement-bar__message {text-align: center !important; font-family: var(--font-body-family) !important; }"
+      ],
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
         "color_scheme": "scheme-3",
