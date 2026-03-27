@@ -90,6 +90,7 @@
 
 body {
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
