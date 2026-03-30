@@ -1149,7 +1149,7 @@
     <button class="sticky-atc-bar__button" type="button" id="sticky-atc-button">
             <span class="sticky-atc-bar__btn-text">ADD TO BASKET</span>
       <span class="sticky-atc-bar__btn-price">{{ product.selected_or_first_available_variant.price | money }}</span>
-            </button>>
+            </button>
 </div>
 
 <style>
@@ -1166,9 +1166,9 @@
   }
 
     /* Sticky Add to Cart Bar */
-  .sticky-atc-bar {
+    .sticky-atc-bar {
     position: fixed;
-    top: 0;
+    top: 86px;
     left: 0;
     width: 100%;
     z-index: 9999;
@@ -1234,15 +1234,18 @@
     .sticky-atc-bar__inner {
       padding: 12px 16px;
       flex-direction: row;
-      gap: 12px;
+                gap: 12px;
     }
     .sticky-atc-bar__info {
+      display: flex;
+      flex-direction: column;
+    }
+    .sticky-atc-bar__price {
       display: none;
     }
     .sticky-atc-bar__button {
       width: 100%;
       padding: 16px;
-      font-size: 14px;
             display: flex;
       justify-content: space-between;
       align-items: center;
@@ -1250,7 +1253,8 @@
     .sticky-atc-bar__btn-price {
       display: inline;
       font-weight: 600;
-      text-align: center;
+          }
+      
     }
 
     </style>
