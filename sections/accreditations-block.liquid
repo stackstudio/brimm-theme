@@ -22,14 +22,14 @@
   <div class="dynamic-content-wrapper page-width">
     <div class="accreditations-header">
       <h1 class="section-title">About This Brand</h1>
-      <a href="/pages/curation-and-vetting" class="curation-banner">Every product we sell has been curated and vetted. Read how ></a>
-    </div>
+      div>
     {% for component in accreditations.value %}
       {% if component.system.type == "brand_accreditations" %}
         {% render 'pdp-accreditations' with component as item
           , index: forloop.index %}
       {% endif %}
     {% endfor %}
+          <a href="/pages/curation-and-vetting" class="curation-banner">Every product we sell has been curated and vetted. Read how ></a>
   </div>
 {% elsif request.design_mode %}
   <div class="editor-notification">⭐️ Content in this section is controlled by this {{ template_type }}
