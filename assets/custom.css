@@ -148,6 +148,19 @@ body.sticky-header {
   font-weight: 700 !important;
   font-family: 'Manrope', sans-serif !important;
 }
+
+/* CURATION BANNER */
+.curation-banner {
+  display: block;
+  background-color: #6D1B1F;
+  color: #fff !important;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 600;
+}
 /* NEW STACKED HEROS */
 
 .brimm-blocks--hero.full-screen {
