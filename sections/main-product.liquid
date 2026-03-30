@@ -618,6 +618,19 @@
               {% endif %}
             </div>
           {% endif %}
+                        {% if product.metafields.custom.product_accreditation_text != blank %}
+              <div class="accreditations-mobile-wrapper">
+                <p class="product__text inline-richtext subtitle">Accreditations and Attributes</p>
+                <p class="product__text inline-richtext">{{ product.metafields.custom.product_accreditation_text }}</p>
+                {% if product.metafields.custom.accreditation_tags != blank %}
+                  <div class="product-accreditation-tags">
+                    {%- for tag in product.metafields.custom.accreditation_tags.value -%}
+                      <div class="badge">{{ tag }}</div>
+                    {%- endfor -%}
+                  </div>
+                {% endif %}
+              </div>
+              {% endif %}
               {%- when 'shipping_info' -%}
                 <div class='shipping-info'>
                     {% render 'icon-truck' %}
@@ -1064,6 +1077,7 @@
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
               {%- when 'product-accreditations' -%}
+                              <div class="accreditations-desktop-wrapper">
                 {% if product.metafields.custom.product_accreditation_text != blank %}
                     <p class="product__text inline-richtext subtitle">Accreditations and Attributes</p>
                     <p class="product__text inline-richtext">{{ product.metafields.custom.product_accreditation_text }}</p>
@@ -1073,8 +1087,10 @@
                               <div class="badge">{{ tag }}</div>
                             {%- endfor -%}
                         </div>
-                    {% endif %}
-                {% endif %}
+                                      {% endif %}
+                                                    {% endif %}
+              </div>
+                                
             {%- endcase -%}
           {%- endfor -%}
           <a href='{{ product.url }}' class='link product__view-details animate-arrow'>
@@ -1140,6 +1156,7 @@
 </product-info>
 
 <!-- Sticky Add to Cart Bar -->
+when 'product-accreditations'
 <div id="sticky-atc-bar" class="sticky-atc-bar" style="display:none;">
   <div class="sticky-atc-bar__inner">
     <div class="sticky-atc-bar__info">
@@ -1165,17 +1182,31 @@
     }
   }
 
+      .accreditations-mobile-wrapper {
+      display: none;
+    }
+    .accreditations-desktop-wrapper {
+      display: block;
+    }
+    @media (max-width: 749px) {
+      .accreditations-desktop-wrapper {
+        display: none;
+      }
+      .accreditations-mobile-wrapper {
+        display: block;
+      }
+    }
+
     /* Sticky Add to Cart Bar */
     .sticky-atc-bar {
     position: fixed;
-        top: calc(4.4375rem + 77px);
+    top: 110px;
     left: 0;
     width: 100%;
     z-index: 9999;
     background-color: #E4B5FF;
-        box-shadow: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    tran    box-shadow: none;
+    opacity: 0;sition: opacity 0.3s ease;
   }
   .sticky-atc-bar.is-visible {
     opacity: 1;
@@ -1226,7 +1257,6 @@
     .sticky-atc-bar {
       top: auto;
       bottom: 0;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     .sticky-atc-bar.is-visible {
       opacity: 1;
