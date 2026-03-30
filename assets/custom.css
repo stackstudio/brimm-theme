@@ -118,6 +118,12 @@ body.sticky-header {
   font-family: 'Manrope', var(--font-body-family), sans-serif !important;
 }
 
+
+.announcement-bar {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
 /* NEW STACKED HEROS */
 
 .brimm-blocks--hero.full-screen {
