@@ -3998,3 +3998,11 @@ details-disclosure > details {
     padding-top: calc(77px + env(safe-area-inset-top));
   }
 }
+.card-wrapper .quick-add {
+  opacity: 0 !important;
+  transition: opacity 0.2s ease;
+}
+
+.card-wrapper:hover .quick-add {
+  opacity: 1 !important;
+}
