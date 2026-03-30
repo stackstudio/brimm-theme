@@ -186,11 +186,7 @@
         <div class='card__information'>
                     {%- if show_vendor -%}
             <div class="card-vendor-name">
-              {%- if card_product.metafields.custom.brand != blank -%}
-                {{ card_product.metafields.custom.brand }}
-              {%- else -%}
-                {{ card_product.vendor }}
-              {%- endif -%}
+                            {{ card_product.vendor }}
             </div>
           {%- endif -%}
           <h3
