@@ -152,7 +152,7 @@ body.sticky-header {
 
 /* CURATION BANNER */
 .curation-banner {
-    display: block;
+  display: block;
   background-color: #6e1c20;
   color: #fff !important;
   text-align: center;
@@ -166,14 +166,17 @@ body.sticky-header {
   letter-spacing: 0.02em;
 }
 
-.pdp-accreditations-accordion:last-child {
+.pdp-accreditations-accordion {
   border-bottom: none !important;
 }
 
 .dynamic-content-wrapper.page-width {
   padding-bottom: 0;
   margin-bottom: 0;
+  border-bottom: none !important;
 }
+
+
 /* NEW STACKED HEROS */
 
 .brimm-blocks--hero.full-screen {
