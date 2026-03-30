@@ -125,6 +125,7 @@ body.sticky-header {
   width: 100% !important;
 }
 
+
 /* NAV MENU CENTERING, SIZE & WEIGHT */
 .header {
   position: relative !important;
@@ -136,14 +137,15 @@ body.sticky-header {
   transform: translateX(-50%) !important;
   display: flex !important;
   justify-content: center !important;
+  grid-area: unset !important;
+  width: auto !important;
 }
 
 .header__menu-item {
-  font-size: 1.25rem !important;
+  font-size: 1.4rem !important;
   font-weight: 700 !important;
   font-family: 'Manrope', sans-serif !important;
 }
-
 /* NEW STACKED HEROS */
 
 .brimm-blocks--hero.full-screen {
