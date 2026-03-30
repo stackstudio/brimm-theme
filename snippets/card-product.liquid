@@ -29,6 +29,43 @@
   {{ 'quick-order-list.css' | asset_url | stylesheet_tag }}
   {{ 'quantity-popover.css' | asset_url | stylesheet_tag }}
 {%- endunless -%}
+<style>
+  /* Custom product card styling */
+  .card-vendor-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.3rem;
+    line-height: 1.3;
+  }
+  .card__heading {
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    color: #777 !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 0.5rem !important;
+    line-height: 1.4 !important;
+  }
+  .card__heading a {
+    color: #777 !important;
+  }
+  .vendor-and-price {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.3rem;
+  }
+  .vendor-and-price .caption-with-letter-spacing {
+    display: none !important;
+  }
+  .vendor-and-price .price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+</style>
+
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
