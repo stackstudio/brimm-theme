@@ -6,7 +6,7 @@
       aria-expanded="{% if index > 1 %}false{%else%}true{% endif %}"
       aria-controls="accreditations-panel-{{ item.brand.value | handle }}">
       <span>{{ item.brand.value }}</span>
-      button>
+          </button>
     <div class="pdp-accreditations {% if index > 1 %}hidden{% endif %}" id="accreditations-panel-{{ item.brand.value | handle }}">
       {{ item.description | metafield_tag }}
       {% if item.vendors %}
