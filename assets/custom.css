@@ -149,17 +149,24 @@ body.sticky-header {
   font-family: 'Manrope', sans-serif !important;
 }
 
+
 /* CURATION BANNER */
 .curation-banner {
   display: block;
-  background-color: #6D1B1F;
-  color: #fff !important;
-  text-align: center;
-  padding: 12px 20px;
+  text-align: left;
+  color: #6D1B1F !important;
   font-size: 0.95rem;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  padding: 0;
   font-weight: 600;
+  background-color: transparent;
+}
+
+.dynamic-content-wrapper.page-width {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 /* NEW STACKED HEROS */
 
