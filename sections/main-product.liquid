@@ -93,13 +93,13 @@
       <div class='grid__item product__media-wrapper'>
         {% render 'product-media-gallery', variant_images: variant_images %}
         {% if product.metafields.custom.product_quote != blank %}
-            <div>
-                <p class="product-quote">{{ product.metafields.custom.product_quote }}</p>
-                {% if product.metafields.custom.product_quote_citation != blank %}
-                    <p class="quote-cite">— {{ product.metafields.custom.product_quote_citation }}</p>
-                {% endif %}
-            </div>
-        {% endif %}
+  <div class="product-quote-wrapper-desktop">
+    <p class="product-quote">{{ product.metafields.custom.product_quote }}</p>
+    {% if product.metafields.custom.product_quote_citation != blank %}
+      <p class="quote-cite">— {{ product.metafields.custom.product_quote_citation }}</p>
+    {% endif %}
+  </div>
+{% endif %}
       </div>
       <div class='product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
         <section
@@ -610,6 +610,14 @@
                     block: block
                   -%}
                 </div>
+                          {% if product.metafields.custom.product_quote != blank %}
+            <div class="product-quote-wrapper-mobile">
+              <p class="product-quote">{{ product.metafields.custom.product_quote }}</p>
+              {% if product.metafields.custom.product_quote_citation != blank %}
+                <p class="quote-cite">— {{ product.metafields.custom.product_quote_citation }}</p>
+              {% endif %}
+            </div>
+          {% endif %}
               {%- when 'shipping_info' -%}
                 <div class='shipping-info'>
                     {% render 'icon-truck' %}
@@ -1131,6 +1139,19 @@
   </div>
 </product-info>
 
+<style>
+  .product-quote-wrapper-mobile {
+    display: none;
+  }
+  @media (max-width: 749px) {
+    .product-quote-wrapper-desktop {
+      display: none;
+    }
+    .product-quote-wrapper-mobile {
+      display: block;
+    }
+  }
+</style>
 {% schema %}
 {
   "name": "t:sections.main-product.name",
