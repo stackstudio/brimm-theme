@@ -1616,3 +1616,12 @@ html, body {
   overflow: hidden;
   max-width: 100%;
 }
+
+/* Additional mobile overflow fix */
+slider-component,
+.slider-component,
+.collection-carousel,
+.brimm-blocks--collection-carousel {
+  overflow: hidden !important;
+  max-width: 100% !important;
+}
