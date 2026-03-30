@@ -109,6 +109,8 @@ body.sticky-header {
 
 .utility-bar__grid {
   justify-items: center !important;
+    grid-template-columns: 1fr !important;
+  grid-template-areas: 'announcements' !important;
 }
 
 .announcement-bar__message {
