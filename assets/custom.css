@@ -152,16 +152,22 @@ body.sticky-header {
 
 /* CURATION BANNER */
 .curation-banner {
-  display: block;
-  text-align: left;
-  color: #6D1B1F !important;
+    display: block;
+  background-color: #6e1c20;
+  color: #fff !important;
+  text-align: center;
+  padding: 10px 20px;
   font-size: 0.95rem;
-  text-decoration: none;
-  margin-top: 1rem;
-  margin-bottom: 0;
-  padding: 0;
   font-weight: 600;
-  background-color: transparent;
+  font-family: 'Manrope', sans-serif;
+  text-decoration: none;
+  width: 100%;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.pdp-accreditations-accordion:last-child {
+  border-bottom: none;
 }
 
 .dynamic-content-wrapper.page-width {
