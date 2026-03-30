@@ -167,7 +167,7 @@ body.sticky-header {
 }
 
 .pdp-accreditations-accordion:last-child {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 .dynamic-content-wrapper.page-width {
