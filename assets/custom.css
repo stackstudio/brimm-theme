@@ -1597,9 +1597,22 @@ section.shopify-pc__banner__dialog button.shopify-pc__banner__btn-decline {
   @media (max-width: 700px) {
     grid-auto-columns: calc(100% / 2);
   }
-
+  }
   /* FIX: Prevent horizontal overflow causing pink strip on RHS */
 html, body {
   overflow-x: hidden;
-  max-width: 100vw;
+  }
+
+  #MainContent,
+.shopify-section {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.marquee-wrapper,
+.logo-scroller-wrapper,
+[class*="logo_scroller"],
+[class*="marquee"] {
+  overflow: hidden;
+  max-width: 100%;
 }
