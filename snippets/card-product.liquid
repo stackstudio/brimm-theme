@@ -1,3 +1,4 @@
+80
 {% comment %}
   Renders a product card
 
@@ -146,6 +147,15 @@
       </div>
       <div class='card__content'>
         <div class='card__information'>
+                    {%- if show_vendor -%}
+            <div class="card-vendor-name">
+              {%- if card_product.metafields.custom.brand != blank -%}
+                {{ card_product.metafields.custom.brand }}
+              {%- else -%}
+                {{ card_product.vendor }}
+              {%- endif -%}
+            </div>
+          {%- endif -%}
           <h3
             class='card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}'
             {% if card_product.featured_media or settings.card_style == 'card' %}
