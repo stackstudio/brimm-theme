@@ -1168,12 +1168,12 @@
     /* Sticky Add to Cart Bar */
     .sticky-atc-bar {
     position: fixed;
-    top: 110px;
+    top: 92px;
     left: 0;
     width: 100%;
     z-index: 9999;
     background-color: #E4B5FF;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        box-shadow: none;
     opacity: 0;
     transition: opacity 0.3s ease;
   }
@@ -1226,6 +1226,7 @@
     .sticky-atc-bar {
       top: auto;
       bottom: 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     .sticky-atc-bar.is-visible {
       opacity: 1;
