@@ -126,17 +126,24 @@ body.sticky-header {
 }
 
 /* NAV MENU CENTERING, SIZE & WEIGHT */
+.header {
+  position: relative !important;
+}
+
 .header__inline-menu {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
   display: flex !important;
   justify-content: center !important;
-  flex-grow: 1 !important;
 }
 
 .header__menu-item {
-  font-size: 1.1rem !important;
+  font-size: 1.25rem !important;
   font-weight: 700 !important;
   font-family: 'Manrope', sans-serif !important;
 }
+
 /* NEW STACKED HEROS */
 
 .brimm-blocks--hero.full-screen {
