@@ -155,10 +155,10 @@ body.sticky-header {
   display: block;
   background-color: #6e1c20;
   color: #fff !important;
-  text-align: center;
-  padding: 10px 20px;
-  font-size: 0.95rem;
-  font-weight: 600;
+    text-align: left;
+  padding: 10px 5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
   font-family: 'Manrope', sans-serif;
   text-decoration: none;
   width: 100%;
