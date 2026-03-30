@@ -131,14 +131,16 @@ body.sticky-header {
   position: relative !important;
 }
 
-.header__inline-menu {
-  position: absolute !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  display: flex !important;
-  justify-content: center !important;
-  grid-area: unset !important;
-  width: auto !important;
+@media screen and (min-width: 990px) {
+  .header__inline-menu {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    display: flex !important;
+    justify-content: center !important;
+    grid-area: unset !important;
+    width: auto !important;
+  }
 }
 
 .header__menu-item {
