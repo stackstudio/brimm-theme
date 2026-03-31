@@ -110,59 +110,6 @@
         ]
       }
     },
-    "image_banner_Pdxayc": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_zrqhB9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop our Reset Boxes",
-            "heading_size": "headline-extra"
-          }
-        },
-        "buttons_hwWkwc": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/reset-boxes",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_zrqhB9",
-        "buttons_hwWkwc"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Kitchen_Reset_box_lifestyle_background.jpg",
-        "link": "",
-        "image_overlay_opacity": 10,
-        "image_height": "medium",
-        "desktop_content_position": "middle-right",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "collection_carousel_CxL7Pt": {
-      "type": "collection-carousel",
-      "name": "Collection Carousel",
-      "settings": {
-        "collection": "featured",
-        "custom_image": "shopify://shop_images/Food_blue_background_edited.jpg",
-        "custom_title": "NEW IN",
-        "custom_description": ""
-      }
-    },
     "logo_scroller_DU3FL7": {
       "type": "logo-scroller",
       "blocks": {
@@ -235,6 +182,59 @@
       "name": "Logo Scroller",
       "settings": {
         "color_scheme": ""
+      }
+    },
+    "collection_carousel_CxL7Pt": {
+      "type": "collection-carousel",
+      "name": "Collection Carousel",
+      "settings": {
+        "collection": "featured",
+        "custom_image": "shopify://shop_images/Food_blue_background_edited.jpg",
+        "custom_title": "NEW IN",
+        "custom_description": ""
+      }
+    },
+    "image_banner_Pdxayc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zrqhB9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop our Reset Boxes",
+            "heading_size": "headline-extra"
+          }
+        },
+        "buttons_hwWkwc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify://collections/reset-boxes",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zrqhB9",
+        "buttons_hwWkwc"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Kitchen_Reset_box_lifestyle_background.jpg",
+        "link": "",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "multicolumn_simple_cCpCQn": {
@@ -723,9 +723,9 @@
     "rich_text_YGG49R",
     "rich_text_LbKGbD",
     "multi_collection_carousel_AakLVY",
+    "logo_scroller_DU3FL7",
     "collection_carousel_CxL7Pt",
     "image_banner_Pdxayc",
-    "logo_scroller_DU3FL7",
     "multicolumn_simple_cCpCQn",
     "stacked_hero_xxPi8q",
     "text_banner_PdFGD4",
