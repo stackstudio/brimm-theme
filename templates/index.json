@@ -41,13 +41,13 @@
       "name": "Stacked Hero",
       "settings": {
         "two_image": false,
-        "full_screen": true,
+        "full_screen": false,
         "invert": false,
         "wider": false,
         "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/Brimm_10911_Shot_1_1x1_1.jpg",
-        "color_scheme": ""
+        "color_scheme": "scheme-1"
       }
     },
     "rich_text_YGG49R": {
