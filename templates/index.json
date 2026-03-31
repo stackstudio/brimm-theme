@@ -43,7 +43,7 @@
         "two_image": false,
         "full_screen": false,
         "invert": false,
-        "wider": false,
+        "wider": true,
         "padded": false,
         "video_embed": "",
         "wide_image": "shopify://shop_images/Brimm_10911_Shot_1_1x1_1.jpg",
