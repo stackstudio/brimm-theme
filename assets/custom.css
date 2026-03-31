@@ -1625,3 +1625,65 @@ slider-component,
   overflow: hidden !important;
   max-width: 100% !important;
 }
+
+/* Quantity selector and Add to Cart on same row */
+.product-form__input.product-form__quantity {
+  float: left;
+  width: calc(33.333% - 5px) !important;
+  min-width: unset !important;
+  height: 54px;
+  margin-right: 10px;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.product-form__input.product-form__quantity .quantity {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.product-form__input.product-form__quantity .quantity__input {
+  height: 100% !important;
+}
+
+.product-form__input.product-form__quantity .quantity__button {
+  height: 100% !important;
+}
+
+/* Override base.css .quantity height and center controls */
+.product-form__input.product-form__quantity .quantity {
+  min-height: 54px !important;
+  height: 54px !important;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__buy-buttons-wrapper {
+  overflow: hidden;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.product__buy-buttons-wrapper .product-form__submit {
+  width: 100%;
+  min-height: 54px !important;
+  padding: 14px 20px !important;
+  font-size: 16px !important;
+}
+
+/* Hide Quantity label to save space */
+.product-form__quantity .quantity__label {
+  display: none;
+}
+
+/* Reset intermediate element spacing inside buy buttons */
+.product__buy-buttons-wrapper > div,
+.product__buy-buttons-wrapper product-form,
+.product__buy-buttons-wrapper form,
+.product__buy-buttons-wrapper .product-form__buttons {
+  margin: 0 !important;
+  padding: 0 !important;
+}
