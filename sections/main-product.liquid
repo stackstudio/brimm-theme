@@ -610,14 +610,6 @@
                     block: block
                   -%}
                 </div>
-                          {% if product.metafields.custom.product_quote != blank %}
-            <div class="product-quote-wrapper-mobile">
-              <p class="product-quote">{{ product.metafields.custom.product_quote }}</p>
-              {% if product.metafields.custom.product_quote_citation != blank %}
-                <p class="quote-cite">— {{ product.metafields.custom.product_quote_citation }}</p>
-              {% endif %}
-            </div>
-          {% endif %}
                         {% if product.metafields.custom.product_accreditation_text != blank %}
               <div class="accreditations-mobile-wrapper">
                 <p class="product__text inline-richtext subtitle">Accreditations and Attributes</p>
@@ -1093,6 +1085,14 @@
                                 
             {%- endcase -%}
           {%- endfor -%}
+                        {% if product.metafields.custom.product_quote != blank %}
+              <div class="product-quote-wrapper-mobile">
+                <p class="product-quote">{{ product.metafields.custom.product_quote }}</p>
+                {% if product.metafields.custom.product_quote_citation != blank %}
+                  <p class="quote-cite">~ {{ product.metafields.custom.product_quote_citation }}</p>
+                {% endif %}
+              </div>
+              {% endif %}
           <a href='{{ product.url }}' class='link product__view-details animate-arrow'>
             {{ 'products.product.view_full_details' | t }}
             {{- 'icon-arrow.svg' | inline_asset_content -}}
