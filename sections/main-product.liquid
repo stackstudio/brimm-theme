@@ -112,6 +112,14 @@
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% render block %}
+                              {% if product.metafields.custom.product_quote != blank %}
+                <div class="product-quote-wrapper-mobile">
+                  <p class="product-quote">{{ product.metafields.custom.product_quote }}</p>
+                  {% if product.metafields.custom.product_quote_citation != blank %}
+                    <p class="quote-cite">~ {{ product.metafields.custom.product_quote_citation }}</p>
+                  {% endif %}
+                </div>
+              {% endif %}
               {%- when 'text' -%}
                 <p
                   class='product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}'
@@ -1085,14 +1093,6 @@
                                 
             {%- endcase -%}
           {%- endfor -%}
-                        {% if product.metafields.custom.product_quote != blank %}
-              <div class="product-quote-wrapper-mobile">
-                <p class="product-quote">{{ product.metafields.custom.product_quote }}</p>
-                {% if product.metafields.custom.product_quote_citation != blank %}
-                  <p class="quote-cite">~ {{ product.metafields.custom.product_quote_citation }}</p>
-                {% endif %}
-              </div>
-              {% endif %}
           <a href='{{ product.url }}' class='link product__view-details animate-arrow'>
             {{ 'products.product.view_full_details' | t }}
             {{- 'icon-arrow.svg' | inline_asset_content -}}
@@ -1169,7 +1169,8 @@
 </div>
 
 <style>
-  .product-quote-wrapper-mobile {
+  .product-quote-wrapper-mobile
+   {
     display: none;
   }
   @media (max-width: 749px) {
