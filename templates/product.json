@@ -59,6 +59,10 @@
             "show_gift_card_recipient": true
           }
         },
+        "hive_product_delivery_promise_aaGr9B": {
+          "type": "shopify://apps/hive/blocks/product_delivery_promise/28e61a32-b940-4725-8c15-5452d2292095",
+          "settings": {}
+        },
         "text_Nt9Kg4": {
           "type": "text",
           "settings": {
@@ -136,6 +140,7 @@
         "quantity_selector",
         "membership_info_K9JWay",
         "buy_buttons",
+        "hive_product_delivery_promise_aaGr9B",
         "text_Nt9Kg4",
         "collapsible_tab_yeR46g",
         "collapsible_tab_A8JWzz",
