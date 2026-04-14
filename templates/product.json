@@ -102,7 +102,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "none",
-            "content": "<p>Dispatched in 1-2 working days</p><p>Free delivery on all orders (min spend £30)<br/><br/>Fulfilled by {{ product.vendor }}</p>",
+            "content": "<p>Dispatched in 1-2 working days</p><p>Free delivery on all orders (min spend £30)</p>",
             "page": ""
           }
         },

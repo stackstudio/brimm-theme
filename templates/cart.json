@@ -41,6 +41,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Why not try",
         "heading_size": "h2",
