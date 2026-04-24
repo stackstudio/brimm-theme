@@ -208,6 +208,7 @@
                             </div>
                           {%- endif -%}-->
 
+{% comment %}
                           {% if item.product.category != "Subscription Services" and item.product.type != "Reset Box" and item.product.product_type != "Reset Box" and item.selling_plan_allocation == null %}
                             <ul class="discounts list-unstyled" role="list" aria-label="Discount">
                               <li class="discounts__discount">
@@ -223,6 +224,7 @@
                               </li>
                             </ul>
                           {% endif %}
+{% endcomment %}
 
                           {%- comment -%} Only show if there are options, custom properties, or selling plan {% endcomment -%}
 
@@ -579,6 +581,7 @@
             - No selling plan (membership) is in cart yet
             - Hide if customer is already a member but has selling plan
           {%- endcomment -%}
+{% comment %}
           {% if has_selling_plan_in_cart != true %}
             <div class="brimm-blocks--column-bottom js-membership-column-bottom {% if customer.tags contains 'explorer_tier' or customer.tags contains 'supporter_tier' or customer.tags contains 'lifetime_founder_member' or customer.tags contains 'lifetime_founder_member_with_box' %}hidden{% endif %}">
               <div class="js-membership-column-bottom-heading">
@@ -604,6 +607,7 @@
               </div>
             </div>
           {% endif %}
+{% endcomment %}
 
           {% if customer.tags contains 'explorer_tier' and total_credit_amount > 0 %}
             <div class="credit_totals" role="status">
