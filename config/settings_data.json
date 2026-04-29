@@ -217,7 +217,7 @@
       },
       "10115289292966514107": {
         "type": "shopify://apps/wiser-ai-upsell-cross-sell/blocks/wiser-block/3f966edc-9a4a-465c-a4df-436d2a39160d",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
