@@ -219,6 +219,11 @@
         "type": "shopify://apps/wiser-ai-upsell-cross-sell/blocks/wiser-block/3f966edc-9a4a-465c-a4df-436d2a39160d",
         "disabled": true,
         "settings": {}
+      },
+      "9094328589753815681": {
+        "type": "shopify://apps/hextom-shipping-bar/blocks/fsb-embeded-block/7ef5d9af-75a2-45c7-9b1b-f9240ee488e9",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
