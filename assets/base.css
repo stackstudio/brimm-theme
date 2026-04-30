@@ -4006,3 +4006,9 @@ details-disclosure > details {
 .card-wrapper:hover .quick-add {
   opacity: 1 !important;
 }
+/* Hide sale badge without removing compare-at price */
+.badge--sale,
+.badge--on-sale,
+.card__badge .badge[class*="sale"] {
+  display: none !important;
+}
