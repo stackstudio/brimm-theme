@@ -184,8 +184,19 @@
         "color_scheme": "scheme-1"
       }
     },
+    "multi_collection_carousel_k8VwRk": {
+      "type": "multi-collection-carousel",
+      "name": "Multi-Collection Carousel",
+      "settings": {
+        "collections": [
+          "featured",
+          "best-sellers"
+        ]
+      }
+    },
     "multi_collection_carousel_eQYkEt": {
       "type": "multi-collection-carousel",
+      "disabled": true,
       "name": "Multi-Collection Carousel",
       "settings": {
         "collections": [
@@ -734,6 +745,7 @@
     "rich_text_LbKGbD",
     "multi_collection_carousel_AakLVY",
     "logo_scroller_DU3FL7",
+    "multi_collection_carousel_k8VwRk",
     "multi_collection_carousel_eQYkEt",
     "collection_carousel_CxL7Pt",
     "image_banner_Pdxayc",
