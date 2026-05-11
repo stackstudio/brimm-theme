@@ -737,6 +737,10 @@
       "settings": {
         "heading": ""
       }
+    },
+    "17784948195c62458a": {
+      "type": "_blocks",
+      "settings": {}
     }
   },
   "order": [
@@ -758,6 +762,7 @@
     "member_packages_DXnQLz",
     "image_with_text_mkA8Fb",
     "email_signup_banner_644mkD",
-    "hero_bMD8Ce"
+    "hero_bMD8Ce",
+    "17784948195c62458a"
   ]
 }
