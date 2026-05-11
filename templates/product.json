@@ -30,6 +30,13 @@
             "text_style": "body"
           }
         },
+        "text_wrUNcF": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>{{ product.metafields.custom.volume.value }}</strong>",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -135,6 +142,7 @@
         "text_4hLGXE",
         "title",
         "caption",
+        "text_wrUNcF",
         "variant_picker",
         "price_gGRepB",
         "quantity_selector",
