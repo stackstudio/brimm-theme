@@ -1688,3 +1688,31 @@ slider-component,
   padding: 0 !important;
 }
 #template--25662903419222__main__text_wrUNcF { font-size: 26px; }
+
+
+/* === Announcement bar scrolling text === */
+.announcement-bar__message,
+.announcement-bar__announcement .announcement-bar__message {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  display: block;
+}
+
+.announcement-bar__message span,
+.announcement-bar__announcement .announcement-bar__message span {
+  display: inline-block;
+  white-space: nowrap;
+  animation: brimm-announcement-scroll 18s linear infinite;
+  padding-right: 4rem;
+  will-change: transform;
+}
+
+@keyframes brimm-announcement-scroll {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
