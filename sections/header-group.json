@@ -17,7 +17,7 @@
         "announcement_EKTpiR": {
           "type": "announcement",
           "settings": {
-            "text": "Free shipping on orders over £30",
+            "text": "£10 off first order of £35+ Use FIRST10 at checkout.",
             "link": ""
           }
         }
@@ -26,9 +26,9 @@
         "announcement_EKTpiR"
       ],
       "custom_css": [
-        ".utility-bar {text-align: center !important; font-family: var(--font-body-family) !important; }",
-        ".utility-bar__grid {justify-items: center !important; }",
-        ".announcement-bar__message {text-align: center !important; font-family: var(--font-body-family) !important; }"
+        ".utility-bar {text-align: center !important; font-family: var(--font-body-family) !important;}",
+        ".utility-bar__grid {justify-items: center !important;}",
+        ".announcement-bar__message {text-align: center !important; font-family: var(--font-body-family) !important;}"
       ],
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
