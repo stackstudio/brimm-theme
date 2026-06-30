@@ -75,3 +75,15 @@ document.addEventListener('DOMContentLoaded', () => {
     updateButtons();
   })
 });
+
+
+// Dynamic announcement bar height - update header height when bar changes size
+document.addEventListener('DOMContentLoaded', () => {
+  const stickyHeaderEl = document.querySelector('sticky-header');
+  if (stickyHeaderEl && window.ResizeObserver) {
+    const headerResizeObserver = new ResizeObserver(() => {
+      document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
+    });
+    headerResizeObserver.observe(stickyHeaderEl);
+  }
+});
