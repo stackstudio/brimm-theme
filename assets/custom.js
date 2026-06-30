@@ -77,8 +77,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Dynamic announcement bar height - update header height when bar changes size
+// Dynamic announcement bar: height observer + seamless scrolling text
 document.addEventListener('DOMContentLoaded', () => {
+  // 1. Dynamic header height - update when announcement bar changes size
   const stickyHeaderEl = document.querySelector('sticky-header');
   if (stickyHeaderEl && window.ResizeObserver) {
     const headerResizeObserver = new ResizeObserver(() => {
@@ -86,4 +87,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     headerResizeObserver.observe(stickyHeaderEl);
   }
+
+  // 2. Seamless marquee - duplicate text so bar never appears empty
+  const annMessages = document.querySelectorAll('.announcement-bar__message');
+  annMessages.forEach(msg => {
+    const span = msg.querySelector('span');
+    if (span) {
+      // Clone the span to create seamless loop
+      const clone = span.cloneNode(true);
+      clone.setAttribute('aria-hidden', 'true');
+      msg.appendChild(clone);
+      // Set animation delay on clone for seamless loop
+      const duration = 18; // seconds - matches CSS animation duration
+      clone.style.animationDelay = (duration / 2) + 's';
+    }
+  });
 });

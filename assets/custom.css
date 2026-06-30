@@ -1690,13 +1690,14 @@ slider-component,
 #template--25662903419222__main__text_wrUNcF { font-size: 26px; }
 
 
-/* === Announcement bar scrolling text === */
+/* === Announcement bar scrolling text - seamless marquee === */
 .announcement-bar__message,
 .announcement-bar__announcement .announcement-bar__message {
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
   display: block;
+  position: relative;
 }
 
 .announcement-bar__message span,
@@ -1704,7 +1705,7 @@ slider-component,
   display: inline-block;
   white-space: nowrap;
   animation: brimm-announcement-scroll 18s linear infinite;
-  padding-right: 4rem;
+  padding-right: 5rem;
   will-change: transform;
 }
 
