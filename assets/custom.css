@@ -1709,7 +1709,7 @@ slider-component,
 .brimm-marquee-track span {
   display: inline-block;
   white-space: nowrap;
-  padding-right: 6rem;
+  padding-right: 20rem;
   flex-shrink: 0;
   animation: none !important;
 }
