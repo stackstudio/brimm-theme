@@ -1727,6 +1727,6 @@ slider-component,
   .announcement-bar__message,
   .announcement-bar__message span,
   .brimm-marquee-track span {
-    font-size: 1.6rem;
+    font-size: 1.5rem !important;
   }
 }
