@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
 // Dynamic announcement bar: height observer + seamless scrolling marquee
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -101,34 +102,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const utilBar = document.querySelector('.utility-bar');
   if (!utilBar) return;
 
-  // Read text from the span INSIDE each message (textContent ignores CSS clipping)
-  const allSlides = utilBar.querySelectorAll('.announcement-bar__announcement, .slideshow__slide');
+  // Collect text from ALL spans inside .announcement-bar__message elements
+  // Using textContent (not innerText) to avoid CSS clipping issues
   const texts = [];
-
-  if (allSlides.length) {
-    allSlides.forEach(slide => {
-      const span = slide.querySelector('.announcement-bar__message span');
-      if (span) {
-        const t = span.textContent.trim();
-        if (t) texts.push(t);
-      }
-    });
-  }
-
-  // Fallback: try getting from spans directly
-  if (!texts.length) {
-    utilBar.querySelectorAll('.announcement-bar__message span').forEach(span => {
-      const t = span.textContent.trim();
-      if (t) texts.push(t);
-    });
-  }
-
+  utilBar.querySelectorAll('.announcement-bar__message span').forEach(span => {
+    const t = (span.textContent || '').trim();
+    if (t) texts.push(t);
+  });
   if (!texts.length) return;
 
-  // Combine all messages with a bullet separator
+  // All messages in one scrolling string separated by bullet
   const msgText = texts.join('  •  ');
 
-  // Hide originals (force single line so bar height is correct)
+  // Hide originals — force single line so bar height stays correct
   utilBar.querySelectorAll('.announcement-bar__message').forEach(el => {
     el.style.visibility = 'hidden';
     el.style.whiteSpace  = 'nowrap';
@@ -138,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
     el.style.visibility = 'hidden';
   });
 
-  // Build overlay
+  // Build overlay inside utility-bar (which is already position:fixed)
   const outer = document.createElement('div');
   outer.className = 'brimm-marquee-outer';
 
@@ -155,28 +141,32 @@ document.addEventListener('DOMContentLoaded', () => {
   outer.appendChild(item2);
   utilBar.appendChild(outer);
 
+  // Measure then start — paused in CSS until we set the right duration
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
       const PX_PER_SEC = 120;
       const GAP_PX    = 150;
 
       const outerW = outer.offsetWidth;
-      const itemW  = item1.scrollWidth + 4; // +4 buffer for subpixel
+      const itemW  = item1.scrollWidth + 4; // +4 subpixel buffer
 
       const totalTravel = outerW + itemW;
       const duration    = totalTravel / PX_PER_SEC;
 
+      // item2 should be (itemW + GAP_PX) behind item1 in distance.
+      // If that would push item2 past left edge (itemW+GAP > outerW on mobile),
+      // clamp so item2 starts no earlier than the beginning of its cycle.
       const rawElapsed  = (itemW + GAP_PX) / PX_PER_SEC;
-      const safeElapsed = Math.min(rawElapsed, duration * 0.99);
-      const delay2      = -safeElapsed;
+      const cloneDelay  = -Math.min(rawElapsed, duration * 0.95);
 
+      // Set CSS vars on outer (inherited by both items)
       outer.style.setProperty('--brimm-outer-w', outerW + 'px');
       outer.style.setProperty('--brimm-item-w',  itemW  + 'px');
 
       item1.style.animationDuration  = duration + 's';
       item1.style.animationDelay     = '0s';
       item2.style.animationDuration  = duration + 's';
-      item2.style.animationDelay     = delay2   + 's';
+      item2.style.animationDelay     = cloneDelay + 's';
 
       item1.style.animationPlayState = 'running';
       item2.style.animationPlayState = 'running';
