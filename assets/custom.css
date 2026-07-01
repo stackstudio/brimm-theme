@@ -1710,31 +1710,30 @@ slider-component,
   width: calc(100% + 7.2rem) !important;
   display: block;
   position: relative;
-  /* Natural height - no fixed height that creates a gap */
   min-height: unset !important;
-  height: auto !important;
-  padding-top: 0.8em;
-  padding-bottom: 0.8em;
-  box-sizing: content-box;
+  /* Height = one line of text at the theme font size */
+  height: 2.1rem;
+  line-height: 2.1rem;
 }
 
-/* Each span animates independently - duration set by JS for consistent px/sec speed */
+/* Each span animates independently - duration set by JS */
 .announcement-bar__message span,
 .announcement-bar__message .brimm-marquee-clone {
   display: inline-block;
   white-space: nowrap;
   padding-right: 20rem;
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 0;
   will-change: transform;
   animation: brimm-marquee-scroll linear infinite;
-  animation-duration: 35s; /* fallback - JS overrides this */
+  animation-duration: 35s;
+  line-height: 2.1rem;
 }
 
 @keyframes brimm-marquee-scroll {
-  0%   { transform: translateX(100vw) translateY(-50%); }
-  100% { transform: translateX(-100%) translateY(-50%); }
+  0%   { transform: translateX(100vw); }
+  100% { transform: translateX(-100%); }
 }
 
 /* === Announcement bar mobile font size === */
@@ -1744,5 +1743,13 @@ slider-component,
   .announcement-bar__message span,
   .brimm-marquee-clone {
     font-size: 1.5rem !important;
+  }
+  .announcement-bar__message {
+    height: 2.25rem;
+    line-height: 2.25rem;
+  }
+  .announcement-bar__message span,
+  .announcement-bar__message .brimm-marquee-clone {
+    line-height: 2.25rem;
   }
 }
