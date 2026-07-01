@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
 // Dynamic announcement bar: height observer + seamless scrolling text
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Dynamic header height - update when announcement bar changes size
@@ -104,5 +105,22 @@ document.addEventListener('DOMContentLoaded', () => {
     track.appendChild(span);
     track.appendChild(clone);
     msg.appendChild(track);
+    // After render, calculate negative delay so text starts off-screen right
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const trackWidth = track.scrollWidth; // total width of both spans
+        const halfTrack = trackWidth / 2;     // one span width
+        const vw = window.innerWidth;
+        // Animation: 0 → -50% over 35s. At time T: position = -50% * (T/35)
+        // We want position at t=0 to be +vw (off right).
+        // position = translateX(X%) where X = -50 * (T/35)
+        // But X is in % of trackWidth: X% of trackWidth = vw means X = vw/trackWidth*100
+        // So: -50 * (delay/35) = -(vw/trackWidth*100) → delay = (vw/trackWidth*100) * 35 / 50
+        // Negative delay = already elapsed time
+        const pctOffset = (vw / trackWidth) * 100; // how far into animation vw corresponds to
+        const delaySeconds = -(pctOffset * 35 / 50);
+        track.style.animationDelay = delaySeconds + 's';
+      });
+    });
   });
 });
