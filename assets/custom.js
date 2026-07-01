@@ -90,37 +90,37 @@ document.addEventListener('DOMContentLoaded', () => {
     headerResizeObserver.observe(stickyHeaderEl);
   }
 
-  // 2. Seamless marquee - each span scrolls independently from off-screen right to off-screen left
+  // 2. Seamless marquee - clone span, stagger delay so it enters from right when first exits left
   const annMessages = document.querySelectorAll('.announcement-bar__message');
   annMessages.forEach(msg => {
+    // Clean up any previous track wrappers from old implementation
+    const track = msg.querySelector('.brimm-marquee-track');
+    if (track) {
+      const origSpan = track.querySelector('span:not([aria-hidden])');
+      if (origSpan) msg.appendChild(origSpan);
+      track.remove();
+    }
+    // Remove any previous clones
+    msg.querySelectorAll('.brimm-marquee-clone').forEach(el => el.remove());
+
     const span = msg.querySelector('span');
     if (!span) return;
 
-    // Remove any existing track wrapper from previous implementation
-    const existingTrack = msg.querySelector('.brimm-marquee-track');
-    if (existingTrack) {
-      // Move original span back out and remove track
-      msg.appendChild(span);
-      existingTrack.remove();
-    }
-
-    // Clone the span
+    // Clone for seamless repeat
     const clone = span.cloneNode(true);
     clone.setAttribute('aria-hidden', 'true');
     clone.classList.add('brimm-marquee-clone');
     msg.appendChild(clone);
 
-    // After layout, calculate the delay for the clone so it enters from the right
-    // exactly when the first span exits left
+    // Measure and set delay after layout
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        const duration = 35; // seconds - matches CSS
+        const duration = 35; // seconds - must match CSS
         const vw = window.innerWidth;
-        const spanW = span.scrollWidth; // width of one span including padding
-        const totalTravel = vw + spanW;  // total distance each span travels (100vw + 100%)
-        // Clone should be exactly spanW behind the first span in space
+        const spanW = span.scrollWidth; // includes padding-right
+        const totalTravel = vw + spanW;  // 100vw + 100% of span
+        // Clone needs to be exactly spanW behind first span at all times
         // delay = -(duration * spanW / totalTravel)
-        // Negative = already started that many seconds ago
         const delay = -(duration * spanW / totalTravel);
         clone.style.animationDelay = delay + 's';
       });
