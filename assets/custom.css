@@ -1696,39 +1696,44 @@ slider-component,
 
 /* === Announcement bar scrolling text - seamless marquee === */
 
-/* Clip at utility-bar level - it is full viewport width, position:fixed */
+/* Clip overflow at the utility-bar (true full-width fixed container) */
 .utility-bar {
   overflow: hidden;
 }
 
-/* Break out of the 3.6rem grid padding so text spans full viewport */
+/* Break message out of grid padding to fill full viewport width */
 .announcement-bar__message {
   overflow: visible !important;
   white-space: nowrap;
   margin-left: -3.6rem !important;
   margin-right: -3.6rem !important;
   width: calc(100% + 7.2rem) !important;
-  display: block;
-  position: relative;
+  display: block !important;
+  position: relative !important;
   min-height: unset !important;
-  /* Height = one line of text at the theme font size */
-  height: 2.1rem;
-  line-height: 2.1rem;
+  height: auto !important;
+  /* Padding gives the p tag natural height so it doesn't collapse */
+  padding-top: 0.6em !important;
+  padding-bottom: 0.6em !important;
+  box-sizing: content-box !important;
 }
 
-/* Each span animates independently - duration set by JS */
+/* Animated spans - position absolute within the p */
 .announcement-bar__message span,
 .announcement-bar__message .brimm-marquee-clone {
-  display: inline-block;
+  display: inline-block !important;
   white-space: nowrap;
   padding-right: 20rem;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  height: 100% !important;
+  line-height: normal !important;
+  display: flex !important;
+  align-items: center !important;
   will-change: transform;
   animation: brimm-marquee-scroll linear infinite;
   animation-duration: 35s;
-  line-height: 2.1rem;
 }
 
 @keyframes brimm-marquee-scroll {
@@ -1743,13 +1748,5 @@ slider-component,
   .announcement-bar__message span,
   .brimm-marquee-clone {
     font-size: 1.5rem !important;
-  }
-  .announcement-bar__message {
-    height: 2.25rem;
-    line-height: 2.25rem;
-  }
-  .announcement-bar__message span,
-  .announcement-bar__message .brimm-marquee-clone {
-    line-height: 2.25rem;
   }
 }

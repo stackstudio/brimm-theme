@@ -81,17 +81,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Dynamic announcement bar: height observer + seamless scrolling text
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Dynamic header height - update when announcement bar changes size
+  // 1. Dynamic header height - update when sticky-header size changes
   const stickyHeaderEl = document.querySelector('sticky-header');
   if (stickyHeaderEl && window.ResizeObserver) {
     const headerResizeObserver = new ResizeObserver(() => {
       document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
     });
     headerResizeObserver.observe(stickyHeaderEl);
+    // Fire immediately
+    document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
   }
 
-  // 2. Seamless marquee with pixel-per-second timing
-  const PX_PER_SEC = 120; // scroll speed in pixels per second
+  // 2. Seamless marquee with pixel-per-second speed (consistent across screen sizes)
+  const PX_PER_SEC = 120;
 
   const annMessages = document.querySelectorAll('.announcement-bar__message');
   annMessages.forEach(msg => {
@@ -113,26 +115,23 @@ document.addEventListener('DOMContentLoaded', () => {
     clone.classList.add('brimm-marquee-clone');
     msg.appendChild(clone);
 
-    // Set timing after layout so we can measure real rendered widths
+    // Compute timing after render
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         const vw = window.innerWidth;
-        const spanW = span.scrollWidth; // rendered width including padding-right
-
-        // Total distance each span travels: viewport width + span width
+        const spanW = span.scrollWidth;
         const totalTravel = vw + spanW;
-
-        // Duration for one full cycle at our target speed
         const duration = totalTravel / PX_PER_SEC;
-
-        // Clone starts spanW behind the first span
-        // Time for first span to travel spanW pixels = spanW / PX_PER_SEC
         const cloneDelay = -(spanW / PX_PER_SEC);
 
-        // Apply to both spans
         span.style.animationDuration = duration + 's';
         clone.style.animationDuration = duration + 's';
         clone.style.animationDelay = cloneDelay + 's';
+
+        // Re-fire header height after spans are set up (layout may have shifted)
+        if (stickyHeaderEl) {
+          document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
+        }
       });
     });
   });
