@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+
 // Dynamic announcement bar: height observer + seamless scrolling text
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Dynamic header height - update when announcement bar changes size
@@ -88,18 +89,20 @@ document.addEventListener('DOMContentLoaded', () => {
     headerResizeObserver.observe(stickyHeaderEl);
   }
 
-  // 2. Seamless marquee - duplicate text so bar never appears empty
+  // 2. Seamless marquee - wrap spans in a track div, animate the track
   const annMessages = document.querySelectorAll('.announcement-bar__message');
   annMessages.forEach(msg => {
     const span = msg.querySelector('span');
-    if (span) {
-      // Clone the span to create seamless loop
-      const clone = span.cloneNode(true);
-      clone.setAttribute('aria-hidden', 'true');
-      msg.appendChild(clone);
-      // Set animation delay on clone for seamless loop
-      const duration = 18; // seconds - matches CSS animation duration
-      clone.style.animationDelay = (duration / 2) + 's';
-    }
+    if (!span) return;
+    // Create a track wrapper
+    const track = document.createElement('div');
+    track.className = 'brimm-marquee-track';
+    // Clone the span for seamless loop
+    const clone = span.cloneNode(true);
+    clone.setAttribute('aria-hidden', 'true');
+    // Move original span into track, add clone
+    track.appendChild(span);
+    track.appendChild(clone);
+    msg.appendChild(track);
   });
 });
