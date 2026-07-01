@@ -79,63 +79,74 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// Dynamic announcement bar: height observer + seamless scrolling text
+
+// Dynamic announcement bar: height observer + seamless scrolling marquee
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Dynamic header height
+
+  // ── 1. Dynamic header height ──────────────────────────────────────────
   const stickyHeaderEl = document.querySelector('sticky-header');
   if (stickyHeaderEl && window.ResizeObserver) {
     const ro = new ResizeObserver(() => {
-      document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
+      document.documentElement.style.setProperty(
+        '--header-height', stickyHeaderEl.offsetHeight + 'px'
+      );
     });
     ro.observe(stickyHeaderEl);
-    document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
+    // Fire immediately so body padding-top is correct from the start
+    document.documentElement.style.setProperty(
+      '--header-height', stickyHeaderEl.offsetHeight + 'px'
+    );
   }
 
-  // 2. Seamless marquee
-  const PX_PER_SEC = 120;
-  const GAP_PX = 200; // gap in pixels between end of text and start of clone
+  // ── 2. Marquee ────────────────────────────────────────────────────────
+  const utilBar = document.querySelector('.utility-bar');
+  if (!utilBar) return;
 
-  const annMessages = document.querySelectorAll('.announcement-bar__message');
-  annMessages.forEach(msg => {
-    // Clean up old implementations
-    const track = msg.querySelector('.brimm-marquee-track');
-    if (track) { const s = track.querySelector('span:not([aria-hidden])'); if (s) msg.appendChild(s); track.remove(); }
-    msg.querySelectorAll('.brimm-marquee-clone').forEach(el => el.remove());
+  // Get the announcement text from the existing element
+  const msgEl = utilBar.querySelector('.announcement-bar__message');
+  if (!msgEl) return;
+  const msgText = msgEl.innerText.trim();
+  if (!msgText) return;
 
-    const span = msg.querySelector('span');
-    if (!span) return;
+  // Hide original text (keep element so bar retains its height/padding)
+  msgEl.style.visibility = 'hidden';
 
-    // Remove CSS padding-right from span; we control gap via delay instead
-    span.style.paddingRight = '0';
+  // Build marquee overlay — same position/size as utility-bar
+  const outer = document.createElement('div');
+  outer.className = 'brimm-marquee-outer';
 
-    const clone = span.cloneNode(true);
-    clone.setAttribute('aria-hidden', 'true');
-    clone.classList.add('brimm-marquee-clone');
-    clone.style.paddingRight = '0';
-    msg.appendChild(clone);
+  // Two copies of the text side by side inside the outer
+  const inner = document.createElement('div');
+  inner.className = 'brimm-marquee-inner';
 
+  const item1 = document.createElement('span');
+  item1.className = 'brimm-marquee-item';
+  item1.textContent = msgText;
+
+  const item2 = document.createElement('span');
+  item2.className = 'brimm-marquee-item';
+  item2.setAttribute('aria-hidden', 'true');
+  item2.textContent = msgText;
+
+  inner.appendChild(item1);
+  inner.appendChild(item2);
+  outer.appendChild(inner);
+
+  // Insert overlay inside utility-bar, absolutely positioned
+  utilBar.style.position = 'relative';
+  utilBar.appendChild(outer);
+
+  // After render: measure item width and set animation duration
+  requestAnimationFrame(() => {
     requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        const vw = window.innerWidth;
-        const textW = span.scrollWidth; // text width without padding
-        const totalUnit = textW + GAP_PX; // one "unit" = text + gap
-        const totalTravel = vw + totalUnit; // full travel distance
+      const PX_PER_SEC = 120;
+      const itemW = item1.offsetWidth; // includes padding-right gap
 
-        const duration = totalTravel / PX_PER_SEC;
-        // Clone is exactly one unit (textW + GAP_PX) behind span1
-        const cloneDelay = -(totalUnit / PX_PER_SEC);
+      // inner is 2x itemW wide. Animation moves it left by itemW (50% of inner).
+      // When it reaches -itemW it snaps back to 0 — seamless because item2 = item1.
+      const duration = (itemW / PX_PER_SEC);
 
-        span.style.animationDuration = duration + 's';
-        clone.style.animationDuration = duration + 's';
-        clone.style.animationDelay = cloneDelay + 's';
-
-        // Update header height after layout settles
-        if (stickyHeaderEl) {
-          setTimeout(() => {
-            document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
-          }, 100);
-        }
-      });
+      inner.style.animationDuration = duration + 's';
     });
   });
 });

@@ -1694,56 +1694,54 @@ slider-component,
 
 
 
-/* === Announcement bar scrolling text - seamless marquee === */
 
-/* Clip overflow at the utility-bar (true full-width fixed container) */
-.utility-bar {
+
+/* ═══════════════════════════════════════════════════════
+   BRIMM MARQUEE — full-width overlay on .utility-bar
+   ═══════════════════════════════════════════════════════ */
+
+/* Outer: covers the full utility-bar, clips overflow */
+.brimm-marquee-outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
 }
 
-/* Break message out of grid padding to fill full viewport width */
-.announcement-bar__message {
-  overflow: visible !important;
+/* Inner: flex row of two identical items, animates left */
+.brimm-marquee-inner {
+  display: flex;
+  flex-wrap: nowrap;
   white-space: nowrap;
-  margin-left: -3.6rem !important;
-  margin-right: -3.6rem !important;
-  width: calc(100% + 7.2rem) !important;
-  display: block !important;
-  position: relative !important;
-  min-height: unset !important;
-  height: auto !important;
-  padding-top: 0.6em !important;
-  padding-bottom: 0.6em !important;
-  box-sizing: content-box !important;
-}
-
-/* Animated spans */
-.announcement-bar__message span,
-.announcement-bar__message .brimm-marquee-clone {
-  display: flex !important;
-  align-items: center !important;
-  white-space: nowrap;
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  height: 100% !important;
-  padding-right: 0 !important;
+  animation: brimm-marquee 35s linear infinite; /* duration overridden by JS */
   will-change: transform;
-  animation: brimm-marquee-scroll linear infinite;
-  animation-duration: 35s; /* JS overrides */
 }
 
-@keyframes brimm-marquee-scroll {
-  0%   { transform: translateX(100vw); }
-  100% { transform: translateX(-100%); }
+/* Each item: the actual text + gap */
+.brimm-marquee-item {
+  display: inline-block;
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding-right: 15rem; /* gap between repetitions */
+  color: rgb(var(--color-foreground));
+  font-family: var(--font-body-family);
+  font-size: 1.4rem;
 }
 
-/* === Announcement bar mobile font size === */
+/* Animation: moves left by exactly 50% of inner width (= one item width) */
+@keyframes brimm-marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Mobile font size to match body text */
 @media screen and (max-width: 749px) {
-  .announcement-bar p,
-  .announcement-bar__message,
-  .announcement-bar__message span,
-  .brimm-marquee-clone {
+  .brimm-marquee-item {
     font-size: 1.5rem !important;
   }
 }
