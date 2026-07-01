@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
 // Dynamic announcement bar: height observer + seamless scrolling marquee
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -99,15 +100,29 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── 2. Marquee ────────────────────────────────────────────────────────
   const utilBar = document.querySelector('.utility-bar');
   if (!utilBar) return;
-  const msgEl = utilBar.querySelector('.announcement-bar__message');
-  if (!msgEl) return;
-  const msgText = msgEl.innerText.trim();
-  if (!msgText) return;
 
-  // Hide original, keep single-line so bar height stays correct
-  msgEl.style.visibility = 'hidden';
-  msgEl.style.whiteSpace  = 'nowrap';
-  msgEl.style.overflow    = 'hidden';
+  // Collect ALL announcement messages from all slides, joined by a separator
+  const allMsgEls = utilBar.querySelectorAll('.announcement-bar__message');
+  const texts = [];
+  allMsgEls.forEach(el => {
+    const t = el.innerText.trim();
+    if (t) texts.push(t);
+  });
+  if (!texts.length) return;
+
+  // Join all messages with a bullet separator
+  const msgText = texts.join('  •  ');
+
+  // Hide ALL original message elements, force single-line
+  allMsgEls.forEach(el => {
+    el.style.visibility = 'hidden';
+    el.style.whiteSpace  = 'nowrap';
+    el.style.overflow    = 'hidden';
+  });
+  // Also hide prev/next slider buttons
+  utilBar.querySelectorAll('.slider-button').forEach(el => {
+    el.style.visibility = 'hidden';
+  });
 
   // Build overlay
   const outer = document.createElement('div');
@@ -126,69 +141,34 @@ document.addEventListener('DOMContentLoaded', () => {
   outer.appendChild(item2);
   utilBar.appendChild(outer);
 
-  // Measure and start
+  // Measure and start animations
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
       const PX_PER_SEC = 120;
-      const GAP_PX    = 150; // px gap between end of item1 text and start of item2
+      const GAP_PX    = 150;
 
-      const outerW = outer.offsetWidth;   // full container width
-      const itemW  = item1.offsetWidth;   // text + padding width
+      const outerW = outer.offsetWidth;
+      // Use scrollWidth to get true text width including padding
+      const itemW  = item1.scrollWidth;
 
-      const totalTravel = outerW + itemW; // px each item travels
+      const totalTravel = outerW + itemW;
       const duration    = totalTravel / PX_PER_SEC;
-      // delay for item2: it should be (itemW + GAP_PX) behind item1 in distance
-      const delay2      = -((itemW + GAP_PX) / PX_PER_SEC);
-      // But we want item2 to not already be past center — cap so it starts from right
-      // If delay2 would put item2 off-screen left, adjust:
-      // position at t=0 for item2 = outerW - (itemW + GAP_PX) * (1 - delay2/duration)
-      // Actually: item2 at t=0 is at outerW + delay2*PX_PER_SEC
-      //         = outerW - (itemW + GAP_PX)
-      // If itemW + GAP_PX > outerW, item2 starts off-screen LEFT — bad on narrow screens
-      // Fix: item2 starts at outerW + 0 and is just (itemW+GAP_PX)/totalTravel of a cycle behind
-      const delay2Safe = -(totalTravel - outerW) / PX_PER_SEC; // starts exactly at right edge when item1 is at outerW-(itemW+GAP_PX)
-      // Simpler: always use -(itemW + GAP_PX) / PX_PER_SEC but ensure item2 >= 0 at t=0:
-      // pos2_at_t0 = outerW - (PX_PER_SEC * Math.abs(delay2Safe))
-      //            = outerW - (itemW + GAP_PX)
-      // On mobile outerW~390, itemW~400, GAP~150 → pos = 390-550 = -160 → off screen left ✗
-      // 
-      // Correct delay so item2 starts AT outerW (right edge) when page loads:
-      // animation at t: pos = outerW - totalTravel*(t/duration)
-      // at t=delay_elapsed: pos = outerW → outerW - totalTravel*(elapsed/duration) = outerW
-      // → elapsed = 0 → delay = 0
-      // That means item2 starts at the same position as item1 (overlap)!
-      // 
-      // What we want: item2 at outerW when item1 is at outerW-(itemW+GAP_PX)
-      // item1 reaches outerW-(itemW+GAP_PX) at time t1 where:
-      // outerW - totalTravel*(t1/duration) = outerW - (itemW+GAP_PX)
-      // totalTravel*(t1/duration) = itemW+GAP_PX
-      // t1 = (itemW+GAP_PX)/PX_PER_SEC
-      // So item2 should START its animation (elapsed=0) at t1 seconds after item1.
-      // Negative delay on item2 = item2 has been running for some time.
-      // We want item2 to be at outerW at t1 of the global clock.
-      // item2 position at global clock t = outerW - totalTravel*((t - delay2_abs)/duration)
-      //   where delay2_abs = |delay2| (seconds item2 started before t=0)
-      // At t=t1: pos2 = outerW → outerW - totalTravel*((t1-delay2_abs)/duration) = outerW
-      // → t1 - delay2_abs = 0 → delay2_abs = t1 = (itemW+GAP_PX)/PX_PER_SEC
-      // 
-      // So: delay2 = -(itemW + GAP_PX) / PX_PER_SEC  (what we had before!)
-      // Problem was itemW > outerW on mobile.
-      // 
-      // The fix: GAP_PX should be NEGATIVE if itemW > outerW, OR we just clamp item2
-      // so it never starts more than outerW pixels into its animation:
-      const maxDelay = outerW / PX_PER_SEC; // furthest back item2 can start and still be on-screen right
-      const rawDelay = (itemW + GAP_PX) / PX_PER_SEC;
-      const finalDelay2 = -Math.min(rawDelay, maxDelay - 0.01);
 
-      // Set CSS custom properties for the keyframe end values
-      outer.style.setProperty('--brimm-item-w', itemW + 'px');
+      // item2 starts (itemW + GAP_PX) px behind item1
+      // but clamped so it never starts further left than the right edge
+      const rawDelay   = (itemW + GAP_PX) / PX_PER_SEC;
+      const maxDelay   = outerW / PX_PER_SEC;
+      const finalDelay = -Math.min(rawDelay, maxDelay - 0.01);
 
-      item1.style.animationDuration = duration + 's';
-      item1.style.animationDelay    = '0s';
-      item2.style.animationDuration = duration + 's';
-      item2.style.animationDelay    = finalDelay2 + 's';
+      // Set the CSS variables used by the keyframe
+      outer.style.setProperty('--brimm-outer-w', outerW + 'px');
+      outer.style.setProperty('--brimm-item-w',  itemW  + 'px');
 
-      // Start both
+      item1.style.animationDuration  = duration + 's';
+      item1.style.animationDelay     = '0s';
+      item2.style.animationDuration  = duration + 's';
+      item2.style.animationDelay     = finalDelay + 's';
+
       item1.style.animationPlayState = 'running';
       item2.style.animationPlayState = 'running';
 
