@@ -1696,9 +1696,16 @@ slider-component,
 
 
 
+
 /* ═══════════════════════════════════════════════════════
    BRIMM MARQUEE — full-width overlay on .utility-bar
    ═══════════════════════════════════════════════════════ */
+
+/* Force hidden original text to one line so it doesn't inflate bar height */
+.announcement-bar__message {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+}
 
 /* Outer: covers the full utility-bar, clips overflow */
 .brimm-marquee-outer {
@@ -1713,33 +1720,35 @@ slider-component,
   align-items: center;
 }
 
-/* Inner: flex row of two identical items, animates left */
+/* Inner: two items side by side — starts PAUSED until JS sets duration */
 .brimm-marquee-inner {
   display: flex;
   flex-wrap: nowrap;
   white-space: nowrap;
-  animation: brimm-marquee 35s linear infinite; /* duration overridden by JS */
+  animation: brimm-marquee linear infinite;
+  animation-play-state: paused;
+  animation-duration: 35s;
   will-change: transform;
 }
 
-/* Each item: the actual text + gap */
+/* Each item: text + gap */
 .brimm-marquee-item {
   display: inline-block;
   white-space: nowrap;
   flex-shrink: 0;
-  padding-right: 15rem; /* gap between repetitions */
+  padding-right: 15rem;
   color: rgb(var(--color-foreground));
   font-family: var(--font-body-family);
   font-size: 1.4rem;
 }
 
-/* Animation: moves left by exactly 50% of inner width (= one item width) */
+/* Moves left by 50% of inner width = exactly one item width */
 @keyframes brimm-marquee {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
 
-/* Mobile font size to match body text */
+/* Mobile: match body text size */
 @media screen and (max-width: 749px) {
   .brimm-marquee-item {
     font-size: 1.5rem !important;

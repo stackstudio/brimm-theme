@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
 // Dynamic announcement bar: height observer + seamless scrolling marquee
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -107,17 +108,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const msgText = msgEl.innerText.trim();
   if (!msgText) return;
 
-  // Hide original text but keep its space so the bar retains height
+  // Hide original text — force single line so bar height is correct
   msgEl.style.visibility = 'hidden';
+  msgEl.style.whiteSpace = 'nowrap';
+  msgEl.style.overflow = 'hidden';
 
-  // Build marquee overlay — absolutely positioned inside utility-bar
-  // NOTE: utility-bar is already position:fixed, so absolute children
-  // are positioned relative to it. Do NOT change utilBar.position.
+  // Build marquee overlay
   const outer = document.createElement('div');
   outer.className = 'brimm-marquee-outer';
 
   const inner = document.createElement('div');
   inner.className = 'brimm-marquee-inner';
+  // Start paused — CSS sets animation-play-state:paused
 
   const item1 = document.createElement('span');
   item1.className = 'brimm-marquee-item';
@@ -133,15 +135,19 @@ document.addEventListener('DOMContentLoaded', () => {
   outer.appendChild(inner);
   utilBar.appendChild(outer);
 
-  // Set animation duration based on measured item width
+  // Measure after layout, set duration, then START animation smoothly
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
       const PX_PER_SEC = 120;
       const itemW = item1.offsetWidth;
-      const duration = itemW / PX_PER_SEC;
-      inner.style.animationDuration = duration + 's';
+      if (itemW > 0) {
+        const duration = itemW / PX_PER_SEC;
+        inner.style.animationDuration = duration + 's';
+      }
+      // Unpause — animation starts from frame 0, no clunk
+      inner.style.animationPlayState = 'running';
 
-      // Re-check header height after layout
+      // Re-measure header height now layout is final
       if (stickyHeaderEl) {
         document.documentElement.style.setProperty(
           '--header-height', stickyHeaderEl.offsetHeight + 'px'
