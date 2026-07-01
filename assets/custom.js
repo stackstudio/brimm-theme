@@ -90,17 +90,18 @@ document.addEventListener('DOMContentLoaded', () => {
     headerResizeObserver.observe(stickyHeaderEl);
   }
 
-  // 2. Seamless marquee - clone span, stagger delay so it enters from right when first exits left
+  // 2. Seamless marquee with pixel-per-second timing
+  const PX_PER_SEC = 120; // scroll speed in pixels per second
+
   const annMessages = document.querySelectorAll('.announcement-bar__message');
   annMessages.forEach(msg => {
-    // Clean up any previous track wrappers from old implementation
+    // Clean up any previous implementations
     const track = msg.querySelector('.brimm-marquee-track');
     if (track) {
       const origSpan = track.querySelector('span:not([aria-hidden])');
       if (origSpan) msg.appendChild(origSpan);
       track.remove();
     }
-    // Remove any previous clones
     msg.querySelectorAll('.brimm-marquee-clone').forEach(el => el.remove());
 
     const span = msg.querySelector('span');
@@ -112,17 +113,26 @@ document.addEventListener('DOMContentLoaded', () => {
     clone.classList.add('brimm-marquee-clone');
     msg.appendChild(clone);
 
-    // Measure and set delay after layout
+    // Set timing after layout so we can measure real rendered widths
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        const duration = 35; // seconds - must match CSS
         const vw = window.innerWidth;
-        const spanW = span.scrollWidth; // includes padding-right
-        const totalTravel = vw + spanW;  // 100vw + 100% of span
-        // Clone needs to be exactly spanW behind first span at all times
-        // delay = -(duration * spanW / totalTravel)
-        const delay = -(duration * spanW / totalTravel);
-        clone.style.animationDelay = delay + 's';
+        const spanW = span.scrollWidth; // rendered width including padding-right
+
+        // Total distance each span travels: viewport width + span width
+        const totalTravel = vw + spanW;
+
+        // Duration for one full cycle at our target speed
+        const duration = totalTravel / PX_PER_SEC;
+
+        // Clone starts spanW behind the first span
+        // Time for first span to travel spanW pixels = spanW / PX_PER_SEC
+        const cloneDelay = -(spanW / PX_PER_SEC);
+
+        // Apply to both spans
+        span.style.animationDuration = duration + 's';
+        clone.style.animationDuration = duration + 's';
+        clone.style.animationDelay = cloneDelay + 's';
       });
     });
   });

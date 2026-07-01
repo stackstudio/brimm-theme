@@ -1696,26 +1696,29 @@ slider-component,
 
 /* === Announcement bar scrolling text - seamless marquee === */
 
-/* Clip at the utility-bar level so spans can animate across full viewport */
+/* Clip at utility-bar level - it is full viewport width, position:fixed */
 .utility-bar {
   overflow: hidden;
 }
 
-/* The message p tag — break out of grid padding to be full viewport width */
+/* Break out of the 3.6rem grid padding so text spans full viewport */
 .announcement-bar__message {
   overflow: visible !important;
   white-space: nowrap;
-  /* Break out of the 3.6rem padding on each side of utility-bar__grid */
   margin-left: -3.6rem !important;
   margin-right: -3.6rem !important;
   width: calc(100% + 7.2rem) !important;
   display: block;
   position: relative;
-  min-height: unset;
-  height: 1.8em;
+  /* Natural height - no fixed height that creates a gap */
+  min-height: unset !important;
+  height: auto !important;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  box-sizing: content-box;
 }
 
-/* Each span animates independently across the full viewport width */
+/* Each span animates independently - duration set by JS for consistent px/sec speed */
 .announcement-bar__message span,
 .announcement-bar__message .brimm-marquee-clone {
   display: inline-block;
@@ -1724,9 +1727,9 @@ slider-component,
   position: absolute;
   top: 50%;
   left: 0;
-  animation: brimm-marquee-scroll 35s linear infinite;
   will-change: transform;
-  transform: translateX(100vw) translateY(-50%);
+  animation: brimm-marquee-scroll linear infinite;
+  animation-duration: 35s; /* fallback - JS overrides this */
 }
 
 @keyframes brimm-marquee-scroll {
