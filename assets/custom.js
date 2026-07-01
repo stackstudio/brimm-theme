@@ -80,6 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
 // Dynamic announcement bar: height observer + seamless scrolling marquee
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -92,7 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
       );
     });
     ro.observe(stickyHeaderEl);
-    // Fire immediately so body padding-top is correct from the start
     document.documentElement.style.setProperty(
       '--header-height', stickyHeaderEl.offsetHeight + 'px'
     );
@@ -102,20 +102,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const utilBar = document.querySelector('.utility-bar');
   if (!utilBar) return;
 
-  // Get the announcement text from the existing element
   const msgEl = utilBar.querySelector('.announcement-bar__message');
   if (!msgEl) return;
   const msgText = msgEl.innerText.trim();
   if (!msgText) return;
 
-  // Hide original text (keep element so bar retains its height/padding)
+  // Hide original text but keep its space so the bar retains height
   msgEl.style.visibility = 'hidden';
 
-  // Build marquee overlay — same position/size as utility-bar
+  // Build marquee overlay — absolutely positioned inside utility-bar
+  // NOTE: utility-bar is already position:fixed, so absolute children
+  // are positioned relative to it. Do NOT change utilBar.position.
   const outer = document.createElement('div');
   outer.className = 'brimm-marquee-outer';
 
-  // Two copies of the text side by side inside the outer
   const inner = document.createElement('div');
   inner.className = 'brimm-marquee-inner';
 
@@ -131,22 +131,22 @@ document.addEventListener('DOMContentLoaded', () => {
   inner.appendChild(item1);
   inner.appendChild(item2);
   outer.appendChild(inner);
-
-  // Insert overlay inside utility-bar, absolutely positioned
-  utilBar.style.position = 'relative';
   utilBar.appendChild(outer);
 
-  // After render: measure item width and set animation duration
+  // Set animation duration based on measured item width
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
       const PX_PER_SEC = 120;
-      const itemW = item1.offsetWidth; // includes padding-right gap
-
-      // inner is 2x itemW wide. Animation moves it left by itemW (50% of inner).
-      // When it reaches -itemW it snaps back to 0 — seamless because item2 = item1.
-      const duration = (itemW / PX_PER_SEC);
-
+      const itemW = item1.offsetWidth;
+      const duration = itemW / PX_PER_SEC;
       inner.style.animationDuration = duration + 's';
+
+      // Re-check header height after layout
+      if (stickyHeaderEl) {
+        document.documentElement.style.setProperty(
+          '--header-height', stickyHeaderEl.offsetHeight + 'px'
+        );
+      }
     });
   });
 });
