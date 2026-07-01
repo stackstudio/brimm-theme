@@ -1719,3 +1719,14 @@ slider-component,
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+
+
+/* === Announcement bar mobile font size === */
+@media screen and (max-width: 749px) {
+  .announcement-bar p,
+  .announcement-bar__message,
+  .announcement-bar__message span,
+  .brimm-marquee-track span {
+    font-size: 1.6rem;
+  }
+}
