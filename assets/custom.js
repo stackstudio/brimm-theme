@@ -81,56 +81,59 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Dynamic announcement bar: height observer + seamless scrolling text
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Dynamic header height - update when sticky-header size changes
+  // 1. Dynamic header height
   const stickyHeaderEl = document.querySelector('sticky-header');
   if (stickyHeaderEl && window.ResizeObserver) {
-    const headerResizeObserver = new ResizeObserver(() => {
+    const ro = new ResizeObserver(() => {
       document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
     });
-    headerResizeObserver.observe(stickyHeaderEl);
-    // Fire immediately
+    ro.observe(stickyHeaderEl);
     document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
   }
 
-  // 2. Seamless marquee with pixel-per-second speed (consistent across screen sizes)
+  // 2. Seamless marquee
   const PX_PER_SEC = 120;
+  const GAP_PX = 200; // gap in pixels between end of text and start of clone
 
   const annMessages = document.querySelectorAll('.announcement-bar__message');
   annMessages.forEach(msg => {
-    // Clean up any previous implementations
+    // Clean up old implementations
     const track = msg.querySelector('.brimm-marquee-track');
-    if (track) {
-      const origSpan = track.querySelector('span:not([aria-hidden])');
-      if (origSpan) msg.appendChild(origSpan);
-      track.remove();
-    }
+    if (track) { const s = track.querySelector('span:not([aria-hidden])'); if (s) msg.appendChild(s); track.remove(); }
     msg.querySelectorAll('.brimm-marquee-clone').forEach(el => el.remove());
 
     const span = msg.querySelector('span');
     if (!span) return;
 
-    // Clone for seamless repeat
+    // Remove CSS padding-right from span; we control gap via delay instead
+    span.style.paddingRight = '0';
+
     const clone = span.cloneNode(true);
     clone.setAttribute('aria-hidden', 'true');
     clone.classList.add('brimm-marquee-clone');
+    clone.style.paddingRight = '0';
     msg.appendChild(clone);
 
-    // Compute timing after render
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         const vw = window.innerWidth;
-        const spanW = span.scrollWidth;
-        const totalTravel = vw + spanW;
+        const textW = span.scrollWidth; // text width without padding
+        const totalUnit = textW + GAP_PX; // one "unit" = text + gap
+        const totalTravel = vw + totalUnit; // full travel distance
+
         const duration = totalTravel / PX_PER_SEC;
-        const cloneDelay = -(spanW / PX_PER_SEC);
+        // Clone is exactly one unit (textW + GAP_PX) behind span1
+        const cloneDelay = -(totalUnit / PX_PER_SEC);
 
         span.style.animationDuration = duration + 's';
         clone.style.animationDuration = duration + 's';
         clone.style.animationDelay = cloneDelay + 's';
 
-        // Re-fire header height after spans are set up (layout may have shifted)
+        // Update header height after layout settles
         if (stickyHeaderEl) {
-          document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
+          setTimeout(() => {
+            document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
+          }, 100);
         }
       });
     });

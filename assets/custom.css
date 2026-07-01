@@ -1712,28 +1712,25 @@ slider-component,
   position: relative !important;
   min-height: unset !important;
   height: auto !important;
-  /* Padding gives the p tag natural height so it doesn't collapse */
   padding-top: 0.6em !important;
   padding-bottom: 0.6em !important;
   box-sizing: content-box !important;
 }
 
-/* Animated spans - position absolute within the p */
+/* Animated spans */
 .announcement-bar__message span,
 .announcement-bar__message .brimm-marquee-clone {
-  display: inline-block !important;
+  display: flex !important;
+  align-items: center !important;
   white-space: nowrap;
-  padding-right: 20rem;
   position: absolute !important;
   top: 0 !important;
   left: 0 !important;
   height: 100% !important;
-  line-height: normal !important;
-  display: flex !important;
-  align-items: center !important;
+  padding-right: 0 !important;
   will-change: transform;
   animation: brimm-marquee-scroll linear infinite;
-  animation-duration: 35s;
+  animation-duration: 35s; /* JS overrides */
 }
 
 @keyframes brimm-marquee-scroll {
