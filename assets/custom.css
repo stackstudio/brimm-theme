@@ -1698,17 +1698,16 @@ slider-component,
 
 
 
+
 /* ═══════════════════════════════════════════════════════
    BRIMM MARQUEE
    ═══════════════════════════════════════════════════════ */
 
-/* Keep original message single-line so bar height is correct */
 .announcement-bar__message {
   white-space: nowrap !important;
   overflow: hidden !important;
 }
 
-/* Outer: full size of utility-bar, clips items */
 .brimm-marquee-outer {
   position: absolute;
   top: 0;
@@ -1719,7 +1718,6 @@ slider-component,
   pointer-events: none;
 }
 
-/* Each item: absolutely positioned, starts paused until JS measures */
 .brimm-marquee-item {
   position: absolute;
   top: 0;
@@ -1732,18 +1730,18 @@ slider-component,
   color: rgb(var(--color-foreground));
   font-family: var(--font-body-family);
   font-size: 1.4rem;
+  /* Start off-screen right by default; JS overrides with exact px */
+  transform: translateX(100vw);
   animation: brimm-scroll linear infinite;
   animation-play-state: paused;
   animation-duration: 35s;
   will-change: transform;
-  /* Start off-screen right */
-  transform: translateX(calc(var(--brimm-outer-w, 100%) * 1));
 }
 
-/* Enters from right (outerWidth), exits left (-itemWidth via --brimm-item-w) */
+/* JS sets --brimm-outer-w and --brimm-item-w on the outer element */
 @keyframes brimm-scroll {
   0%   { transform: translateX(var(--brimm-outer-w, 100vw)); }
-  100% { transform: translateX(calc(var(--brimm-item-w, 100%) * -1)); }
+  100% { transform: translateX(calc(var(--brimm-item-w, 200%) * -1)); }
 }
 
 @media screen and (max-width: 749px) {

@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const utilBar = document.querySelector('.utility-bar');
   if (!utilBar) return;
 
-  // Collect ALL announcement messages from all slides, joined by a separator
+  // Collect ALL announcement message texts from all slides
   const allMsgEls = utilBar.querySelectorAll('.announcement-bar__message');
   const texts = [];
   allMsgEls.forEach(el => {
@@ -110,16 +110,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   if (!texts.length) return;
 
-  // Join all messages with a bullet separator
+  // All messages joined with bullet separator into one scrolling string
   const msgText = texts.join('  •  ');
 
-  // Hide ALL original message elements, force single-line
+  // Hide originals, force single-line
   allMsgEls.forEach(el => {
     el.style.visibility = 'hidden';
     el.style.whiteSpace  = 'nowrap';
     el.style.overflow    = 'hidden';
   });
-  // Also hide prev/next slider buttons
   utilBar.querySelectorAll('.slider-button').forEach(el => {
     el.style.visibility = 'hidden';
   });
@@ -141,33 +140,44 @@ document.addEventListener('DOMContentLoaded', () => {
   outer.appendChild(item2);
   utilBar.appendChild(outer);
 
-  // Measure and start animations
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
       const PX_PER_SEC = 120;
       const GAP_PX    = 150;
 
       const outerW = outer.offsetWidth;
-      // Use scrollWidth to get true text width including padding
-      const itemW  = item1.scrollWidth;
+      // scrollWidth gives full content width; add small buffer for subpixel rendering
+      const itemW  = item1.scrollWidth + 4;
 
       const totalTravel = outerW + itemW;
       const duration    = totalTravel / PX_PER_SEC;
 
-      // item2 starts (itemW + GAP_PX) px behind item1
-      // but clamped so it never starts further left than the right edge
-      const rawDelay   = (itemW + GAP_PX) / PX_PER_SEC;
-      const maxDelay   = outerW / PX_PER_SEC;
-      const finalDelay = -Math.min(rawDelay, maxDelay - 0.01);
+      // item2 should be (itemW + GAP_PX) behind item1.
+      // At t=0: item1 is at outerW (right edge).
+      // item2 at t=0 should be at outerW + itemW + GAP_PX (off-screen right, further right).
+      // That means item2 delay = -(time for item1 to travel itemW+GAP_PX)
+      //   = -(itemW + GAP_PX) / PX_PER_SEC
+      // Clamped: item2 can't start further left than outerW (right edge)
+      // pos2_at_t0 = outerW - PX_PER_SEC * |delay2|
+      //            = outerW - (itemW + GAP_PX)
+      // If itemW+GAP_PX > outerW → pos2 < 0 → already past left edge on mobile
+      // Fix: if itemW+GAP_PX > outerW, gap is naturally there since item takes full width.
+      //      In this case item2 starts at -( itemW+GAP_PX - outerW) which is negative.
+      //      Instead clamp so item2 always starts >= outerW (i.e. delay2 = 0 at minimum):
+      const rawElapsed = (itemW + GAP_PX) / PX_PER_SEC;
+      // Ensure item2 starts no further left than right edge of outer:
+      // max elapsed = duration (full cycle) — don't want it wrapping around
+      const safeElapsed = Math.min(rawElapsed, duration * 0.99);
+      const delay2 = -safeElapsed;
 
-      // Set the CSS variables used by the keyframe
+      // Set CSS custom properties on outer (inherited by both items via cascade)
       outer.style.setProperty('--brimm-outer-w', outerW + 'px');
       outer.style.setProperty('--brimm-item-w',  itemW  + 'px');
 
       item1.style.animationDuration  = duration + 's';
       item1.style.animationDelay     = '0s';
       item2.style.animationDuration  = duration + 's';
-      item2.style.animationDelay     = finalDelay + 's';
+      item2.style.animationDelay     = delay2   + 's';
 
       item1.style.animationPlayState = 'running';
       item2.style.animationPlayState = 'running';
