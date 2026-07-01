@@ -1697,17 +1697,18 @@ slider-component,
 
 
 
+
 /* ═══════════════════════════════════════════════════════
-   BRIMM MARQUEE — full-width overlay on .utility-bar
+   BRIMM MARQUEE
    ═══════════════════════════════════════════════════════ */
 
-/* Force hidden original text to one line so it doesn't inflate bar height */
+/* Keep original message single-line so bar height is correct */
 .announcement-bar__message {
   white-space: nowrap !important;
   overflow: hidden !important;
 }
 
-/* Outer: covers the full utility-bar, clips overflow */
+/* Outer: full size of utility-bar, clips items */
 .brimm-marquee-outer {
   position: absolute;
   top: 0;
@@ -1716,39 +1717,35 @@ slider-component,
   height: 100%;
   overflow: hidden;
   pointer-events: none;
+}
+
+/* Each item: absolutely positioned, starts paused until JS measures */
+.brimm-marquee-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   display: flex;
   align-items: center;
-}
-
-/* Inner: two items side by side — starts PAUSED until JS sets duration */
-.brimm-marquee-inner {
-  display: flex;
-  flex-wrap: nowrap;
   white-space: nowrap;
-  animation: brimm-marquee linear infinite;
-  animation-play-state: paused;
-  animation-duration: 35s;
-  will-change: transform;
-}
-
-/* Each item: text + gap */
-.brimm-marquee-item {
-  display: inline-block;
-  white-space: nowrap;
-  flex-shrink: 0;
-  padding-right: 15rem;
+  padding-right: 10rem;
   color: rgb(var(--color-foreground));
   font-family: var(--font-body-family);
   font-size: 1.4rem;
+  animation: brimm-scroll linear infinite;
+  animation-play-state: paused;
+  animation-duration: 35s;
+  will-change: transform;
+  /* Start off-screen right */
+  transform: translateX(calc(var(--brimm-outer-w, 100%) * 1));
 }
 
-/* Moves left by 50% of inner width = exactly one item width */
-@keyframes brimm-marquee {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+/* Enters from right (outerWidth), exits left (-itemWidth via --brimm-item-w) */
+@keyframes brimm-scroll {
+  0%   { transform: translateX(var(--brimm-outer-w, 100vw)); }
+  100% { transform: translateX(calc(var(--brimm-item-w, 100%) * -1)); }
 }
 
-/* Mobile: match body text size */
 @media screen and (max-width: 749px) {
   .brimm-marquee-item {
     font-size: 1.5rem !important;
