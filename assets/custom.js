@@ -90,36 +90,39 @@ document.addEventListener('DOMContentLoaded', () => {
     headerResizeObserver.observe(stickyHeaderEl);
   }
 
-  // 2. Seamless marquee - wrap spans in a track div, animate the track
+  // 2. Seamless marquee - each span scrolls independently from off-screen right to off-screen left
   const annMessages = document.querySelectorAll('.announcement-bar__message');
   annMessages.forEach(msg => {
     const span = msg.querySelector('span');
     if (!span) return;
-    // Create a track wrapper
-    const track = document.createElement('div');
-    track.className = 'brimm-marquee-track';
-    // Clone the span for seamless loop
+
+    // Remove any existing track wrapper from previous implementation
+    const existingTrack = msg.querySelector('.brimm-marquee-track');
+    if (existingTrack) {
+      // Move original span back out and remove track
+      msg.appendChild(span);
+      existingTrack.remove();
+    }
+
+    // Clone the span
     const clone = span.cloneNode(true);
     clone.setAttribute('aria-hidden', 'true');
-    // Move original span into track, add clone
-    track.appendChild(span);
-    track.appendChild(clone);
-    msg.appendChild(track);
-    // After render, calculate negative delay so text starts off-screen right
+    clone.classList.add('brimm-marquee-clone');
+    msg.appendChild(clone);
+
+    // After layout, calculate the delay for the clone so it enters from the right
+    // exactly when the first span exits left
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        const trackWidth = track.scrollWidth; // total width of both spans
-        const halfTrack = trackWidth / 2;     // one span width
+        const duration = 35; // seconds - matches CSS
         const vw = window.innerWidth;
-        // Animation: 0 → -50% over 35s. At time T: position = -50% * (T/35)
-        // We want position at t=0 to be +vw (off right).
-        // position = translateX(X%) where X = -50 * (T/35)
-        // But X is in % of trackWidth: X% of trackWidth = vw means X = vw/trackWidth*100
-        // So: -50 * (delay/35) = -(vw/trackWidth*100) → delay = (vw/trackWidth*100) * 35 / 50
-        // Negative delay = already elapsed time
-        const pctOffset = (vw / trackWidth) * 100; // how far into animation vw corresponds to
-        const delaySeconds = -(pctOffset * 35 / 50);
-        track.style.animationDelay = delaySeconds + 's';
+        const spanW = span.scrollWidth; // width of one span including padding
+        const totalTravel = vw + spanW;  // total distance each span travels (100vw + 100%)
+        // Clone should be exactly spanW behind the first span in space
+        // delay = -(duration * spanW / totalTravel)
+        // Negative = already started that many seconds ago
+        const delay = -(duration * spanW / totalTravel);
+        clone.style.animationDelay = delay + 's';
       });
     });
   });

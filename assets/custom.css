@@ -1701,32 +1701,31 @@ slider-component,
   width: 100%;
   display: block;
   position: relative;
+  min-height: 1.8em;
 }
-.brimm-marquee-track {
-  display: inline-flex;
-  white-space: nowrap;
-  animation: brimm-marquee-scroll 35s linear infinite;
-  will-change: transform;
-}
-.brimm-marquee-track span {
+.announcement-bar__message span,
+.announcement-bar__message .brimm-marquee-clone {
   display: inline-block;
   white-space: nowrap;
   padding-right: 20rem;
-  flex-shrink: 0;
-  animation: none !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  animation: brimm-marquee-scroll 35s linear infinite;
+  will-change: transform;
 }
 @keyframes brimm-marquee-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0%   { transform: translateX(100vw) translateY(-50%); }
+  100% { transform: translateX(-100%) translateY(-50%); }
 }
-
 
 /* === Announcement bar mobile font size === */
 @media screen and (max-width: 749px) {
   .announcement-bar p,
   .announcement-bar__message,
   .announcement-bar__message span,
-  .brimm-marquee-track span {
+  .brimm-marquee-clone {
     font-size: 1.5rem !important;
   }
 }
