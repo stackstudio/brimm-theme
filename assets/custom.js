@@ -101,20 +101,35 @@ document.addEventListener('DOMContentLoaded', () => {
   const utilBar = document.querySelector('.utility-bar');
   if (!utilBar) return;
 
-  // Collect ALL announcement message texts from all slides
-  const allMsgEls = utilBar.querySelectorAll('.announcement-bar__message');
+  // Read text from the span INSIDE each message (textContent ignores CSS clipping)
+  const allSlides = utilBar.querySelectorAll('.announcement-bar__announcement, .slideshow__slide');
   const texts = [];
-  allMsgEls.forEach(el => {
-    const t = el.innerText.trim();
-    if (t) texts.push(t);
-  });
+
+  if (allSlides.length) {
+    allSlides.forEach(slide => {
+      const span = slide.querySelector('.announcement-bar__message span');
+      if (span) {
+        const t = span.textContent.trim();
+        if (t) texts.push(t);
+      }
+    });
+  }
+
+  // Fallback: try getting from spans directly
+  if (!texts.length) {
+    utilBar.querySelectorAll('.announcement-bar__message span').forEach(span => {
+      const t = span.textContent.trim();
+      if (t) texts.push(t);
+    });
+  }
+
   if (!texts.length) return;
 
-  // All messages joined with bullet separator into one scrolling string
+  // Combine all messages with a bullet separator
   const msgText = texts.join('  •  ');
 
-  // Hide originals, force single-line
-  allMsgEls.forEach(el => {
+  // Hide originals (force single line so bar height is correct)
+  utilBar.querySelectorAll('.announcement-bar__message').forEach(el => {
     el.style.visibility = 'hidden';
     el.style.whiteSpace  = 'nowrap';
     el.style.overflow    = 'hidden';
@@ -146,31 +161,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const GAP_PX    = 150;
 
       const outerW = outer.offsetWidth;
-      // scrollWidth gives full content width; add small buffer for subpixel rendering
-      const itemW  = item1.scrollWidth + 4;
+      const itemW  = item1.scrollWidth + 4; // +4 buffer for subpixel
 
       const totalTravel = outerW + itemW;
       const duration    = totalTravel / PX_PER_SEC;
 
-      // item2 should be (itemW + GAP_PX) behind item1.
-      // At t=0: item1 is at outerW (right edge).
-      // item2 at t=0 should be at outerW + itemW + GAP_PX (off-screen right, further right).
-      // That means item2 delay = -(time for item1 to travel itemW+GAP_PX)
-      //   = -(itemW + GAP_PX) / PX_PER_SEC
-      // Clamped: item2 can't start further left than outerW (right edge)
-      // pos2_at_t0 = outerW - PX_PER_SEC * |delay2|
-      //            = outerW - (itemW + GAP_PX)
-      // If itemW+GAP_PX > outerW → pos2 < 0 → already past left edge on mobile
-      // Fix: if itemW+GAP_PX > outerW, gap is naturally there since item takes full width.
-      //      In this case item2 starts at -( itemW+GAP_PX - outerW) which is negative.
-      //      Instead clamp so item2 always starts >= outerW (i.e. delay2 = 0 at minimum):
-      const rawElapsed = (itemW + GAP_PX) / PX_PER_SEC;
-      // Ensure item2 starts no further left than right edge of outer:
-      // max elapsed = duration (full cycle) — don't want it wrapping around
+      const rawElapsed  = (itemW + GAP_PX) / PX_PER_SEC;
       const safeElapsed = Math.min(rawElapsed, duration * 0.99);
-      const delay2 = -safeElapsed;
+      const delay2      = -safeElapsed;
 
-      // Set CSS custom properties on outer (inherited by both items via cascade)
       outer.style.setProperty('--brimm-outer-w', outerW + 'px');
       outer.style.setProperty('--brimm-item-w',  itemW  + 'px');
 
