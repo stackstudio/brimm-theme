@@ -1703,10 +1703,7 @@ slider-component,
    BRIMM MARQUEE
    ═══════════════════════════════════════════════════════ */
 
-.announcement-bar__message {
-  white-space: nowrap !important;
-  overflow: hidden !important;
-}
+/* .announcement-bar__message overflow:hidden removed - was hiding announcement text on mobile */
 
 .brimm-marquee-outer {
   position: absolute;
