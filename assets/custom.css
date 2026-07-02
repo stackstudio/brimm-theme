@@ -1749,3 +1749,21 @@ slider-component,
     font-size: 1.5rem !important;
   }
 }
+
+
+/* ANNOUNCEMENT BAR - MOBILE FIX */
+.announcement-bar__message h5 {
+  font-size: var(--step-2);
+  line-height: 1.2;
+  font-style: italic;
+  margin-bottom: 0;
+  color: #6e1c20;
+  position: relative;
+}
+
+@media screen and (min-width: 750px) {
+  .announcement-bar__message h5 {
+    padding-left: 7rem;
+    margin-top: var(--space-xl);
+  }
+}
