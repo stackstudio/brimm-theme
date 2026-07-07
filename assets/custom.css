@@ -1779,3 +1779,27 @@ body { padding-top: calc(77px + var(--announcement-bar-height)); }
   .announcement-bar__message .icon-arrow { display: none; }
   }
 @keyframes brimm-announcement-marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-100%); } }
+
+/* Force announcement bar / marquee to true full width on mobile */
+@media screen and (max-width: 749px) {
+  .announcement-bar,
+  .announcement-bar--one-announcement,
+  .announcement-bar__announcement,
+  .announcement-bar__link,
+  .announcement-bar__message {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .announcement-bar .page-width,
+  .announcement-bar__announcement .page-width {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
