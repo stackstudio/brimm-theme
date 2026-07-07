@@ -1898,3 +1898,29 @@ body { padding-top: calc(77px + var(--announcement-bar-height)); }
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
 }
+
+/* Fix overlap: force inner announcement region to flow inline, not absolute-positioned by theme slider CSS */
+.announcement-bar .brimm-marquee__track,
+.announcement-bar .brimm-marquee__item {
+  position: static !important;
+  inset: auto !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  float: none !important;
+}
+.announcement-bar .brimm-marquee__item .announcement-bar__announcement {
+  position: static !important;
+  inset: auto !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  width: auto !important;
+  max-width: none !important;
+  transform: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+}
