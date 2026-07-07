@@ -1880,7 +1880,7 @@ body { padding-top: calc(77px + var(--announcement-bar-height)); }
   flex: 0 0 auto !important;
   width: auto !important;
   max-width: none !important;
-  margin: 0 2rem !important;
+  margin: 0 !important; padding-right: 4rem !important;
   padding: 0 !important;
   opacity: 1 !important;
   visibility: visible !important;
