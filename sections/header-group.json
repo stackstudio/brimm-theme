@@ -23,6 +23,7 @@
         },
         "announcement_EKTpiR": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Free shipping on orders of £30+",
             "link": ""
