@@ -1803,3 +1803,23 @@ body { padding-top: calc(77px + var(--announcement-bar-height)); }
     margin-right: 0;
   }
 }
+
+/* Stronger override: force announcement marquee edge-to-edge on mobile */
+@media screen and (max-width: 749px) {
+  .announcement-bar,
+  .announcement-bar--one-announcement,
+  .announcement-bar__announcement,
+  .announcement-bar__link,
+  .announcement-bar__message,
+  .announcement-bar__wrapper,
+  .announcement-bar .page-width,
+  .announcement-bar__announcement .page-width,
+  [id^="shopify-section"][id*="announcement_bar"] .page-width {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
