@@ -1823,3 +1823,22 @@ body { padding-top: calc(77px + var(--announcement-bar-height)); }
     padding-right: 0 !important;
   }
 }
+
+/* DEFINITIVE FIX: remove utility-bar grid side padding on mobile (was padding: 0 3.6rem) */
+@media screen and (max-width: 749px) {
+  .utility-bar__grid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    justify-items: stretch !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .utility-bar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .utility-bar__grid > .announcement-bar {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
