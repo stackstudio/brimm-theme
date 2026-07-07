@@ -1906,30 +1906,3 @@ body { padding-top: calc(77px + var(--announcement-bar-height)); }
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-
-/* ===== MARQUEE REFINEMENTS: seamless loop, full width, non-bold ===== */
-/* Remove leading padding hack so the duplicated track loops seamlessly at -50% */
-.announcement-bar .slider.slider--everywhere,
-.announcement-bar .grid.slider {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-/* Full width: strip inner slide wrapper padding/max-width for the slider path */
-.announcement-bar .slideshow__slide .announcement-bar__announcement,
-.announcement-bar .slideshow__slide .utility-bar__grid,
-.announcement-bar .slideshow__slide .page-width {
-  width: auto !important;
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-/* Kill the h5 heading styling that made the text bold */
-.announcement-bar .announcement-bar__message.h5,
-.announcement-bar .announcement-bar__message h5,
-.announcement-bar h5.announcement-bar__message {
-  font-family: inherit !important;
-  font-weight: 400 !important;
-  font-size: inherit !important;
-  color: inherit !important;
-  letter-spacing: inherit !important;
-}

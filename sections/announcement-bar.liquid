@@ -66,7 +66,7 @@
         </span>
       </div>
     {%- elsif section.blocks.size > 1 -%}
-      <slideshow-component
+      <div
         class='announcement-bar'
         role='region'
         aria-roledescription='{{ 'sections.announcements.carousel' | t }}'
@@ -85,17 +85,17 @@
             </span>
           </button>
           <div
-            class='grid grid--1-col slider slider--everywhere'
+            class='brimm-marquee__track'
             id='Slider-{{ section.id }}'
             aria-live='polite'
             aria-atomic='true'
-            data-autoplay='{{ section.settings.auto_rotate }}'
+            data-autoplay='false'
             data-speed='{{ section.settings.change_slides_speed }}'
           >
             {%- for brimm_pass in (1..2) -%}
 {%- for block in section.blocks -%}
               <div
-                class='slideshow__slide slider__slide grid__item grid--1-col'
+                class='brimm-marquee__item'
                 id='Slide-{{ section.id }}-{{ forloop.index }}'
                 {{ block.shopify_attributes }}
                 role='group'
@@ -143,7 +143,7 @@
             </span>
           </button>
         </div>
-      </slideshow-component>
+      </div>
       {%- if request.design_mode -%}
         <script src='{{ 'theme-editor.js' | asset_url }}' defer='defer'></script>
         <style>
