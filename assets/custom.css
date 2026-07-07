@@ -1842,3 +1842,12 @@ body { padding-top: calc(77px + var(--announcement-bar-height)); }
     max-width: 100% !important;
   }
 }
+
+/* Match desktop announcement styling on mobile (serif font + inherited colour, not Manrope/white) */
+@media screen and (max-width: 749px) {
+  .announcement-bar__message,
+  .announcement-bar__message > span {
+    font-family: inherit !important;
+    color: inherit !important;
+  }
+}
