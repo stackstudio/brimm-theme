@@ -86,94 +86,140 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // Dynamic announcement bar: height observer + seamless scrolling marquee
-document.addEventListener('DOMContentLoaded', () => {
-
-  // ── 1. Dynamic header height ──────────────────────────────────────────
-  const stickyHeaderEl = document.querySelector('sticky-header');
-  if (stickyHeaderEl && window.ResizeObserver) {
-    const ro = new ResizeObserver(() => {
-      document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
-    });
-    ro.observe(stickyHeaderEl);
-    document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
+document.addEventListener("DOMContentLoaded", () => {
+  const stickyHeaderEl = document.querySelector("sticky-header");
+  if (stickyHeaderEl) {
+    const setHeaderHeight = () => {
+      document.documentElement.style.setProperty("--header-height", stickyHeaderEl.offsetHeight + "px");
+    };
+    if (window.ResizeObserver) {
+      new ResizeObserver(setHeaderHeight).observe(stickyHeaderEl);
+    }
+    setHeaderHeight();
   }
 
-  // ── 2. Marquee ────────────────────────────────────────────────────────
-  const utilBar = document.querySelector('.utility-bar');
-  if (!utilBar) return;
+  // Announcement bar marquee - progressive enhancement.
+  // The real message is NEVER hidden unless a working scrolling replacement
+  // has been built and measured successfully. If anything fails (fonts not
+  // ready yet, zero width, an error), the plain centered message stays
+  // visible instead of vanishing - this fixes the mobile bug.
+  document.querySelectorAll(".utility-bar").forEach(setupBrimmMarquee);
 
-  // Collect text from ALL spans inside .announcement-bar__message elements
-  // Using textContent (not innerText) to avoid CSS clipping issues
-  const texts = [];
-  utilBar.querySelectorAll('.announcement-bar__message span').forEach(span => {
-    const t = (span.textContent || '').trim();
-    if (t) texts.push(t);
-  });
-  if (!texts.length) return;
+  function setupBrimmMarquee(utilBar) {
+    const messageEls = utilBar.querySelectorAll(".announcement-bar__message");
+    if (!messageEls.length) return;
 
-  // All messages in one scrolling string separated by bullet
-  const msgText = texts.join('  •  ');
-
-  // Hide originals — force single line so bar height stays correct
-  utilBar.querySelectorAll('.announcement-bar__message').forEach(el => {
-    el.style.visibility = 'hidden';
-    el.style.whiteSpace  = 'nowrap';
-    el.style.overflow    = 'hidden';
-  });
-  utilBar.querySelectorAll('.slider-button').forEach(el => {
-    el.style.visibility = 'hidden';
-  });
-
-  // Build overlay inside utility-bar (which is already position:fixed)
-  const outer = document.createElement('div');
-  outer.className = 'brimm-marquee-outer';
-
-  const item1 = document.createElement('div');
-  item1.className = 'brimm-marquee-item';
-  item1.textContent = msgText;
-
-  const item2 = document.createElement('div');
-  item2.className = 'brimm-marquee-item';
-  item2.setAttribute('aria-hidden', 'true');
-  item2.textContent = msgText;
-
-  outer.appendChild(item1);
-  outer.appendChild(item2);
-  utilBar.appendChild(outer);
-
-  // Measure then start — paused in CSS until we set the right duration
-  requestAnimationFrame(() => {
-    requestAnimationFrame(() => {
-      const PX_PER_SEC = 120;
-      const GAP_PX    = 150;
-
-      const outerW = outer.offsetWidth;
-      const itemW  = item1.scrollWidth + 4; // +4 subpixel buffer
-
-      const totalTravel = outerW + itemW;
-      const duration    = totalTravel / PX_PER_SEC;
-
-      // item2 should be (itemW + GAP_PX) behind item1 in distance.
-      // If that would push item2 past left edge (itemW+GAP > outerW on mobile),
-      // clamp so item2 starts no earlier than the beginning of its cycle.
-      const rawElapsed  = (itemW + GAP_PX) / PX_PER_SEC;
-      const cloneDelay  = -Math.min(rawElapsed, duration * 0.95);
-
-      // Set CSS vars on outer (inherited by both items)
-      outer.style.setProperty('--brimm-outer-w', outerW + 'px');
-      outer.style.setProperty('--brimm-item-w',  itemW  + 'px');
-
-      item1.style.animationDuration  = duration + 's';
-      item1.style.animationDelay     = '0s';
-      item2.style.animationDuration  = duration + 's';
-      item2.style.animationDelay     = cloneDelay + 's';
-
-      item1.style.animationPlayState = 'running';
-      item2.style.animationPlayState = 'running';
-
-      if (stickyHeaderEl) {
-        document.documentElement.style.setProperty('--header-height', stickyHeaderEl.offsetHeight + 'px');
-      }
+    const texts = [];
+    utilBar.querySelectorAll(".announcement-bar__message span").forEach((span) => {
+      const t = (span.textContent || "").trim();
+      if (t) texts.push(t);
     });
-  });
+    if (!texts.length) return;
+
+    const msgText = texts.join("  •  ");
+
+    let outer = null, item1 = null, item2 = null, resizeTimer = null;
+
+    function teardown() {
+      if (outer && outer.parentNode) outer.parentNode.removeChild(outer);
+      outer = item1 = item2 = null;
+      messageEls.forEach((el) => {
+        el.style.visibility = "";
+        el.style.whiteSpace = "";
+        el.style.overflow = "";
+      });
+      utilBar.querySelectorAll(".slider-button").forEach((el) => {
+        el.style.visibility = "";
+      });
+    }
+
+    function build() {
+      try {
+        teardown();
+
+        outer = document.createElement("div");
+        outer.className = "brimm-marquee-outer";
+
+        item1 = document.createElement("div");
+        item1.className = "brimm-marquee-item";
+        item1.textContent = msgText;
+
+        item2 = document.createElement("div");
+        item2.className = "brimm-marquee-item";
+        item2.setAttribute("aria-hidden", "true");
+        item2.textContent = msgText;
+
+        outer.appendChild(item1);
+        outer.appendChild(item2);
+
+        // Build hidden first so we can measure without a flash, and so the
+        // original message only gets hidden once we know this actually worked.
+        outer.style.visibility = "hidden";
+        utilBar.appendChild(outer);
+
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            const outerW = outer.offsetWidth;
+            const itemW = item1.scrollWidth + 4;
+
+            if (!outerW || !itemW) {
+              teardown(); // couldn't measure - keep the plain message visible
+              return;
+            }
+
+            const duration = (outerW + itemW) / 120;
+            const rawElapsed = (itemW + 150) / 120;
+            const cloneDelay = -Math.min(rawElapsed, duration * 0.95);
+
+            outer.style.setProperty("--brimm-outer-w", outerW + "px");
+            outer.style.setProperty("--brimm-item-w", itemW + "px");
+
+            item1.style.animationDuration = duration + "s";
+            item1.style.animationDelay = "0s";
+            item2.style.animationDuration = duration + "s";
+            item2.style.animationDelay = cloneDelay + "s";
+
+            item1.style.animationPlayState = "running";
+            item2.style.animationPlayState = "running";
+
+            messageEls.forEach((el) => {
+              el.style.visibility = "hidden";
+              el.style.whiteSpace = "nowrap";
+              el.style.overflow = "hidden";
+            });
+            utilBar.querySelectorAll(".slider-button").forEach((el) => {
+              el.style.visibility = "hidden";
+            });
+
+            outer.style.visibility = "";
+
+            if (stickyHeaderEl) {
+              document.documentElement.style.setProperty("--header-height", stickyHeaderEl.offsetHeight + "px");
+            }
+          });
+        });
+      } catch (err) {
+        teardown(); // never leave the bar blank on error
+      }
+    }
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(build).catch(build);
+    } else {
+      build();
+    }
+
+    // Recheck once everything (images etc.) has fully loaded, in case layout shifted.
+    window.addEventListener("load", build);
+
+    // Recalculate on resize/orientation change so it stays correct afterwards.
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(build, 150);
+    });
+
+    if (window.screen && window.screen.orientation) {
+      window.screen.orientation.addEventListener("change", build);
+    }
+  }
 });
