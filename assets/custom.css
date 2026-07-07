@@ -1773,7 +1773,8 @@ body { padding-top: calc(77px + var(--announcement-bar-height)); }
 @media screen and (max-width: 749px) {
   .announcement-bar { height: var(--announcement-bar-height); min-height: var(--announcement-bar-height); max-height: var(--announcement-bar-height); overflow: hidden; }
   .announcement-bar__link, .announcement-bar__announcement { height: 100%; overflow: hidden; }
-  .announcement-bar__message { display: flex; align-items: center; height: 100%; padding: 0; margin: 0; min-height: 0; overflow: hidden; text-align: left; letter-spacing: 0.1rem; }
+  .announcement-bar, .announcement-bar--one-announcement, .announcement-bar--one-announcement .announcement-bar__link, .announcement-bar__announcement { width: 100%; max-width: 100%; margin: 0; }
+    .announcement-bar__message { display: flex; align-items: center; height: 100%; padding: 0; margin: 0; min-height: 0; overflow: hidden; text-align: left; letter-spacing: 0.1rem; }
   .announcement-bar__message > span { display: inline-block; white-space: nowrap; padding-left: 100%; font-family: Manrope, sans-serif; animation: brimm-announcement-marquee 18s linear infinite; will-change: transform; }
   .announcement-bar__message .icon-arrow { display: none; }
   }
