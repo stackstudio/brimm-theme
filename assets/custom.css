@@ -1866,43 +1866,35 @@ body { padding-top: calc(77px + var(--announcement-bar-height)); }
 .announcement-bar .slider-button--next {
   display: none !important;
 }
-/* Turn the slider track into a continuous flex marquee */
-.announcement-bar .slider.slider--everywhere,
-.announcement-bar .grid.slider {
+/* ===== BRiMM announcement marquee (single track, one animation) ===== */
+.announcement-bar .brimm-marquee__track {
   display: flex !important;
   flex-wrap: nowrap !important;
-  align-items: center;
+  align-items: center !important;
   width: max-content !important;
   max-width: none !important;
-  transform: none !important;
-  overflow: visible !important;
-  scroll-snap-type: none !important;
-  gap: 4rem;                      /* equal spacing between each announcement */
-  padding-left: 4rem;             /* keeps first item from starting flush before loop */
-  animation: brimm-announcements-scroll 20s linear infinite;
+  transform: none;
+  animation: brimm-marquee-scroll 30s linear infinite;
 }
-/* Each announcement slide: natural width, always visible, no slider hiding */
-.announcement-bar .slideshow__slide,
-.announcement-bar .slider__slide {
+.announcement-bar .brimm-marquee__item {
   flex: 0 0 auto !important;
-  width: max-content !important;
+  width: auto !important;
   max-width: none !important;
-  visibility: visible !important;
+  margin: 0 2rem !important;
+  padding: 0 !important;
   opacity: 1 !important;
+  visibility: visible !important;
   position: static !important;
   transform: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
 }
-/* Message: match desktop styling (serif, inherited colour, not bold/Manrope) */
-.announcement-bar .slideshow__slide .announcement-bar__message,
-.announcement-bar .slideshow__slide .announcement-bar__message > span {
+.announcement-bar .brimm-marquee__item .announcement-bar__message,
+.announcement-bar .brimm-marquee__item .announcement-bar__message > span {
   white-space: nowrap;
   font-family: inherit !important;
   font-weight: 400 !important;
   color: inherit !important;
 }
-@keyframes brimm-announcements-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+@keyframes brimm-marquee-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
