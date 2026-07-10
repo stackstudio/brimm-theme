@@ -1731,7 +1731,7 @@ slider-component,
   transform: translateX(100vw);
   animation: brimm-scroll linear infinite;
   animation-play-state: paused;
-  animation-duration: 35s;
+  animation-duration: 60s;
   will-change: transform;
 }
 
