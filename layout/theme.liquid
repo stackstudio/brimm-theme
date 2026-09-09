@@ -52,7 +52,7 @@
       <script src='{{ 'animations.js' | asset_url }}' defer='defer'></script>
     {%- endif -%}
 
-    <!-- OutlinkStickyBtn CODE Start -->{% if template.name == 'product'%}{% render('outlink-sticky') %}{% endif %}<!-- OutlinkStickyBtn END --> {{ content_for_header }}
+    <!-- OutlinkStickyBtn CODE Start -->{% if template.name == 'product'%}{% render 'outlink-sticky' %}{% endif %}<!-- OutlinkStickyBtn END --> {{ content_for_header }}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -536,3 +536,13 @@
 {% include 'store-credit-launcher' %}
 </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render('outlink-sticky') %}"
+  to: "{% render 'outlink-sticky' %}"
+  position: 2347..2376
+{% endcomment %}
