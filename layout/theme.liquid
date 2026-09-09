@@ -65,7 +65,7 @@
 
     <!-- OutlinkStickyBtn CODE Start -->
     {% if template.name == 'product' %}
-      {% render('outlink-sticky' ) %}
+      {% render 'outlink-sticky' %}
   {% endif %}
     <!-- OutlinkStickyBtn END -->
     {{ content_for_header }}
@@ -548,4 +548,13 @@ body {
 
     {% include 'store-credit-launcher' %}
   </body>
-</html>
+</html>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render('outlink-sticky' ) %}"
+  to: "{% render 'outlink-sticky' %}"
+  position: 2565..2594
+{%- endcomment -%}
